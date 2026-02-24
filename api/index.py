@@ -2,9 +2,9 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional, List
-import subprocess, os, shutil, stat, re, io
+import subprocess, os, shutil, stat, re, io, urllib.request, tarfile
 import chess, chess.pgn, chess.engine
-import glob
+import glob, tempfile
 
 app = FastAPI(docs_url="/api/py/docs", openapi_url="/api/py/openapi.json")
 app.add_middleware(
@@ -37,17 +37,52 @@ def load_openings():
 
 load_openings()
 
-# ── Stockfish binary resolution ───────────────────────────────────────────────
-# Priority: 1. STOCKFISH_PATH env var  2. Bundled Linux binary  3. System PATH
+# Priority: 1. STOCKFISH_PATH env var  2. Downloaded SF18 in temp  3. System PATH
 
-_BUNDLED_LINUX = os.path.join(os.path.dirname(__file__), "stockfish_linux_x86_64")
-_TMP_STOCKFISH = "/tmp/stockfish"
+_SF18_URL = "https://github.com/official-stockfish/Stockfish/releases/download/sf_18/stockfish-ubuntu-x86-64.tar"
+_TMP_DIR = tempfile.gettempdir()
+_TMP_BIN = os.path.join(_TMP_DIR, "stockfish_sf18")
 _stockfish_path: str | None = None
 
+def _download_and_extract_sf():
+    """Download and extract Stockfish 18 if not present."""
+    if os.path.isfile(_TMP_BIN):
+        return _TMP_BIN
+
+    print(f"Downloading Stockfish 18 to {_TMP_DIR}...")
+    tar_path = os.path.join(_TMP_DIR, "sf18.tar")
+    try:
+        urllib.request.urlretrieve(_SF18_URL, tar_path)
+        print("Download complete. Extracting...")
+        
+        with tarfile.open(tar_path) as tar:
+            tar.extractall(path=_TMP_DIR)
+            
+        # Robust binary search: Find the 'stockfish' binary in the extracted contents
+        extracted_binary = None
+        for root, dirs, files in os.walk(_TMP_DIR):
+            for f in files:
+                # The binary is usually 'stockfish' or starts with 'stockfish-ubuntu'
+                if (f == "stockfish" or f.startswith("stockfish-ubuntu-x86-64")) and not f.endswith(".tar"):
+                    extracted_binary = os.path.join(root, f)
+                    break
+            if extracted_binary: break
+
+        if extracted_binary:
+            if os.path.exists(_TMP_BIN): os.remove(_TMP_BIN)
+            shutil.move(extracted_binary, _TMP_BIN)
+            os.chmod(_TMP_BIN, stat.S_IRWXU | stat.S_IRGRP | stat.S_IXGRP)
+            print(f"Stockfish 18 setup successful: {_TMP_BIN}")
+        
+        if os.path.exists(tar_path): os.unlink(tar_path)
+        return _TMP_BIN if os.path.isfile(_TMP_BIN) else None
+    except Exception as e:
+        print(f"Error setting up Stockfish: {e}")
+        return None
 
 def resolve_stockfish() -> str:
     global _stockfish_path
-    if _stockfish_path:
+    if _stockfish_path and os.path.isfile(_stockfish_path):
         return _stockfish_path
 
     env_path = os.getenv("STOCKFISH_PATH")
@@ -55,11 +90,10 @@ def resolve_stockfish() -> str:
         _stockfish_path = env_path
         return _stockfish_path
 
-    if os.path.isfile(_BUNDLED_LINUX):
-        if not os.path.exists(_TMP_STOCKFISH):
-            shutil.copy2(_BUNDLED_LINUX, _TMP_STOCKFISH)
-            os.chmod(_TMP_STOCKFISH, stat.S_IRWXU | stat.S_IRGRP | stat.S_IXGRP)
-        _stockfish_path = _TMP_STOCKFISH
+    # Try runtime download (Vercel compliant)
+    sf_path = _download_and_extract_sf()
+    if sf_path:
+        _stockfish_path = sf_path
         return _stockfish_path
 
     found = shutil.which("stockfish")
@@ -68,8 +102,7 @@ def resolve_stockfish() -> str:
         return _stockfish_path
 
     raise RuntimeError(
-        "Stockfish not found. Set STOCKFISH_PATH env var or place "
-        "'stockfish_linux_x86_64' in the api/ directory."
+        "Stockfish not found and runtime download failed. Set STOCKFISH_PATH."
     )
 
 

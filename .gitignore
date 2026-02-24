@@ -47,3 +47,15 @@ api/.env
 __pycache__/
 *.pyc
 .venv/
+
+# Stockfish
+api/stockfish_linux_x86_64
+api/stockfish.tar
+api/stockfish/
+
+# Temporary Logs & Artifacts
+lint_res.json
+out.txt
+tsc_errors.txt
+test*.py
+test_sf_download.py
