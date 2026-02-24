@@ -1,0 +1,95 @@
+Line 68 [Balance: 1]: <div style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '2px 0', color: '#fff', width: '100%' }}>
+Line 69 [Balance: 2]: <div style={{ width: 40, height: 40, borderRadius: 4, background: '#403d39', flexShrink: 0, overflow: 'hidden' }}>
+Line 73 [Balance: 1]: </div>
+Line 74 [Balance: 2]: <div style={{ flex: 1, minWidth: 0 }}>
+Line 75 [Balance: 3]: <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+Line 82 [Balance: 2]: </div>
+Line 83 [Balance: 1]: </div>
+Line 91 [Balance: 0]: </div>
+Line 93 [Balance: -1]: </div>
+Line 357 [Balance: -2]: </div>
+Line 400 [Balance: -3]: </div>
+Line 444 [Balance: -4]: </div>
+Line 445 [Balance: -5]: </div>
+Line 457 [Balance: -6]: </div>
+Line 458 [Balance: -7]: </div>
+Line 470 [Balance: -6]: <div style={{ padding: '12px 16px', borderBottom: '1px solid #403d39', background: '#302e2b' }}>
+Line 471 [Balance: -5]: <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 10 }}>
+Line 473 [Balance: -6]: </div>
+Line 474 [Balance: -5]: <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+Line 475 [Balance: -4]: <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+Line 483 [Balance: -5]: </div>
+Line 484 [Balance: -6]: </div>
+Line 486 [Balance: -5]: <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+Line 488 [Balance: -4]: <div style={{ position: 'relative' }}>
+Line 495 [Balance: -3]: <div onClick={e => { e.stopPropagation(); e.nativeEvent.stopImmediatePropagation(); }} style={{
+Line 500 [Balance: -2]: <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.7px', color: '#888', marginBottom: 8 }}>
+Line 502 [Balance: -3]: </div>
+Line 517 [Balance: -4]: </div>
+Line 519 [Balance: -5]: </div>
+Line 537 [Balance: -6]: </div>
+Line 538 [Balance: -7]: </div>
+Line 559 [Balance: -6]: <div>
+Line 560 [Balance: -5]: <div style={{ fontSize: 11, color: '#aaa', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
+Line 562 [Balance: -6]: </div>
+Line 568 [Balance: -7]: </div>
+Line 569 [Balance: -8]: </div>
+Line 570 [Balance: -9]: </div>
+Line 573 [Balance: -10]: </div>
+Line 576 [Balance: -9]: <div style={{ background: '#2a2825', borderBottom: '1px solid #403d39', padding: '10px 16px', flexShrink: 0 }}>
+Line 577 [Balance: -8]: <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+Line 578 [Balance: -7]: <div style={{ fontSize: 12, fontWeight: 700, color: '#aaa', textTransform: 'uppercase', letterSpacing: 1 }}>
+Line 580 [Balance: -8]: </div>
+Line 595 [Balance: -7]: <div style={{ display: 'flex', flexDirection: 'column', gap: 10, opacity: isCalculating ? 0.6 : 1, transition: 'opacity 0.2s', minHeight: 60, maxHeight: 180, overflowY: 'auto', paddingRight: 4 }}>
+Line 623 [Balance: -7]: if (!move) return <div style={{ flex: 1 }} />;
+Line 628 [Balance: -6]: <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: 6 }}>
+Line 629 [Balance: -5]: <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+Line 630 [Balance: -4]: <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+Line 636 [Balance: -5]: </div>
+Line 637 [Balance: -4]: <div style={{ fontSize: 14, fontWeight: 'bold', fontFamily: 'monospace', color: move.evaluation > 0 ? '#fff' : (move.evaluation < 0 ? '#ffb9b9' : '#ccc') }}>
+Line 639 [Balance: -5]: </div>
+Line 640 [Balance: -6]: </div>
+Line 648 [Balance: -7]: </div>
+Line 650 [Balance: -8]: </div>
+Line 661 [Balance: -7]: <div style={{ fontSize: 10, color: '#aaa', textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 8 }}>
+Line 663 [Balance: -8]: </div>
+Line 664 [Balance: -7]: <div style={{ display: 'flex', gap: 16 }}>
+Line 666 [Balance: -7]: <div style={{ width: 1, background: 'rgba(255,255,255,0.1)' }} />
+Line 668 [Balance: -8]: </div>
+Line 669 [Balance: -9]: </div>
+Line 673 [Balance: -9]: <div style={{ width: '100%', height: 1, background: '#353330', marginBottom: 2 }} />
+Line 676 [Balance: -9]: <div style={{ fontSize: 13, color: '#777', textAlign: 'center', marginTop: 10 }}>No lines available.</div>
+Line 679 [Balance: -8]: <div key={idx} style={{ display: 'flex', gap: 10, fontSize: 12, alignItems: 'flex-start' }}>
+Line 688 [Balance: -9]: </div>
+Line 707 [Balance: -10]: </div>
+Line 708 [Balance: -11]: </div>
+Line 710 [Balance: -12]: </div>
+Line 711 [Balance: -13]: </div>
+Line 767 [Balance: -14]: </div>
+Line 768 [Balance: -15]: </div>
+Line 769 [Balance: -16]: </div>
+Line 773 [Balance: -15]: <div onClick={() => setShowCustomModal(false)}
+Line 778 [Balance: -14]: <div onClick={e => e.stopPropagation()}
+Line 793 [Balance: -15]: </div>
+Line 795 [Balance: -14]: <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.8px', color: '#777', marginBottom: 10 }}>
+Line 797 [Balance: -15]: </div>
+Line 798 [Balance: -14]: <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 20 }}>
+Line 800 [Balance: -13]: <div key={name} onClick={() => { setBoardTheme(name); localStorage.setItem('boardTheme', name); }}
+Line 806 [Balance: -12]: <div style={{ display: 'flex', height: 36 }}>
+Line 807 [Balance: -12]: <div style={{ flex: 1, background: t.light }} />
+Line 808 [Balance: -12]: <div style={{ flex: 1, background: t.dark }} />
+Line 809 [Balance: -13]: </div>
+Line 810 [Balance: -12]: <div style={{ textAlign: 'center', fontSize: 10, color: '#bbb', padding: '4px 0', background: '#2a2a2a' }}>
+Line 812 [Balance: -13]: </div>
+Line 813 [Balance: -14]: </div>
+Line 815 [Balance: -15]: </div>
+Line 817 [Balance: -14]: <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '0.8px', color: '#777', marginBottom: 10 }}>
+Line 819 [Balance: -15]: </div>
+Line 820 [Balance: -14]: <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
+Line 822 [Balance: -13]: <div key={ps.name} onClick={() => { setPieceSetIdx(idx); localStorage.setItem('pieceSet', ps.name); }}
+Line 831 [Balance: -14]: </div>
+Line 833 [Balance: -15]: </div>
+Line 834 [Balance: -16]: </div>
+Line 835 [Balance: -17]: </div>
+Line 837 [Balance: -18]: </div>
+Final Balance: -18
