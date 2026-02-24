@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postinstall": "node api/download_stockfish.js"
   },
   "dependencies": {
     "chart.js": "^4.5.1",
