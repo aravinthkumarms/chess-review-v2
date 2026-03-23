@@ -1,0 +1,93 @@
+{
+  "id": "6c93cb9d-01c8-436d-8635-e93c6283c112",
+  "name": "Quiz 2",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks your pawn on b6.\n\nWhat should you do?",
+    "answers": [
+      {
+        "text": "c5",
+        "feedback": {
+          "text": "Correct! If Black captures on c5, the b-pawn will promote.",
+          "arrows": {
+            "threats": [
+              "c6-c5"
+            ],
+            "opportunities": [
+              "b6-b7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "b6",
+              "c5"
+            ]
+          }
+        },
+        "comment": "defending the pawn.",
+        "afterMoveFen": "8/8/1Pk5/2P4p/7P/N3Kp2/4b3/8 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Nb5",
+        "feedback": {
+          "text": "Maybe you can save the pawn!\n\nAlso, after Nd4 the c4-pawn would be hanging.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c6-b6",
+              "b5-d4",
+              "e2-c4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c4",
+              "b6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "giving it up but preparing Nd4 to capture the bishop.",
+        "afterMoveFen": "8/8/1Pk5/1N5p/2P4P/4Kp2/4b3/8 b - - 3 2"
+      },
+      {
+        "text": "Kf4",
+        "feedback": {
+          "text": "Black wins after ...f2!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f3-f2",
+              "f2-f1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "going for the h5-pawn.",
+        "afterMoveFen": "8/8/1Pk5/7p/2P2K1P/N4p2/4b3/8 b - - 3 2"
+      }
+    ],
+    "positionFen": "8/8/1P1k4/7p/2P4P/N3Kp2/4b3/8 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "b6"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Kc6",
+      "afterMoveFen": "8/8/1Pk5/7p/2P4P/N3Kp2/4b3/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

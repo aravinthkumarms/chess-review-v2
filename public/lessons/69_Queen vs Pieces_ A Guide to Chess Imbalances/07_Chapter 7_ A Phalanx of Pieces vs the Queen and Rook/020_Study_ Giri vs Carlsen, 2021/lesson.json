@@ -1,0 +1,1424 @@
+{
+  "id": "e4983512-0e5f-4f5e-8475-f0c47b5d885c",
+  "name": "Study: Giri vs Carlsen, 2021",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "h"
+        ],
+        "comments": [
+          {
+            "text": "This is a very famous, but recent game played between Anish Giri and Magnus Carlsen!\n\nMagnus sacrificed a queen for 3 minor pieces as early as move 9.\n\nLet's see how he managed to outplay Anish.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b1k2r/1p4p1/1pnQp3/r4pP1/P1P2P1n/8/8/3R1RK1 b k - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0N": {
+        "adjacentNodeIds": [
+          "66"
+        ],
+        "comments": [
+          {
+            "text": "The queen moved out of the way, but kept the pressure on f5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/4r1n1/5pP1/2b5/5Q2/1R5K/8 b - - 9 14",
+        "parentNodeId": "ql",
+        "san": "Qf3"
+      },
+      "13": {
+        "adjacentNodeIds": [
+          "if"
+        ],
+        "comments": [
+          {
+            "text": "But Magnus defended everything with ...Rf5.\n\nNotice how the knights have been connected since almost the beginning of this line, which is a very strong defensive concept.\n\nOnce again, Black's structure was perfect, with every piece defending\nother pieces and the pawn ready to push.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-e7",
+                "e7-g6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f3",
+                "f7",
+                "g6",
+                "e7",
+                "d5",
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/3Rnkp1/6n1/3b1r2/3Q4/5p2/7K/8 w - - 2 25",
+        "parentNodeId": "VD",
+        "san": "Rf5"
+      },
+      "1z": {
+        "adjacentNodeIds": [
+          "qn"
+        ],
+        "comments": [
+          {
+            "text": "It didn't really matter where the king went.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/8/3bnr2/7Q/8/5p2/3R1K2 b - - 3 29",
+        "parentNodeId": "9b",
+        "san": "Kf1"
+      },
+      "2J": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Magnus would have gotten the much more important c4-pawn and would have had his rook on the fourth rank, now attacking both of White's weaknesses.\n\nWhat happened in the game, although still losing, was better for White.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f4",
+                "a4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b4r/1p2nkp1/1Q2p1n1/5pP1/P1r2P2/8/R7/3R2K1 w - - 0 6",
+        "parentNodeId": "JO",
+        "san": "Rxc4"
+      },
+      "2Y": {
+        "adjacentNodeIds": [
+          "P2"
+        ],
+        "comments": [
+          {
+            "text": "First, Magnus centralized the knight, attacked the queen and strengthened the pawn.\n\nAs soon as all the potential danger had been cleared out and the pieces were coordinated optimally, Magnus started moving forward!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": [
+                "f3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/4b3/4nr2/6Q1/5p2/7K/3R4 w - - 6 27",
+        "parentNodeId": "ib",
+        "san": "Ne5"
+      },
+      "3B": {
+        "adjacentNodeIds": [
+          "OL"
+        ],
+        "comments": [
+          {
+            "text": "An instructive moment. \n\nGiri decided to trade off Magnus's active rook on the open h-file.\n\nBut one of his assets was the possibility of combining the two rooks he had, so this turned out to be a mistake.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h8",
+                "d8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2bR3r/1pQ1nkp1/1p2p1n1/r4pP1/P1P2P2/8/5R2/6K1 b - - 7 4",
+        "parentNodeId": "Ua",
+        "san": "Rd8"
+      },
+      "3W": {
+        "adjacentNodeIds": [
+          "lF"
+        ],
+        "comments": [
+          {
+            "text": "Black still gave a check, forking the g5-pawn too.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1R2nkp1/4b1n1/5pP1/6r1/5Q2/8/6K1 w - - 14 17",
+        "parentNodeId": "QS",
+        "san": "Rg4+"
+      },
+      "47": {
+        "adjacentNodeIds": [
+          "aL"
+        ],
+        "comments": [
+          {
+            "text": "But the knight simply retreated.\n\nAll of Magnus' pieces defend each other.\n\n Black's has an impenetrable unit.\n\nIn this game, White could never get to Carlsen's king again.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g6",
+                "e7",
+                "e6",
+                "c6",
+                "f5",
+                "g7",
+                "f7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/2r1b1n1/5pP1/8/4Q3/4R3/6K1 w - - 4 12",
+        "parentNodeId": "6J",
+        "san": "N5g6"
+      },
+      "4b": {
+        "adjacentNodeIds": [
+          "Sy",
+          "o1"
+        ],
+        "comments": [
+          {
+            "text": "A good move by Giri.\n\nCentralizing the queen, pinning the pawn for a moment and pressuring the bishop on d5.\n\nBut it wouldn't matter soon.",
+            "arrows": {
+              "threats": [
+                "f4-f3"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "g4",
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R4n1/3b4/3Q1pr1/8/7K/8 b - - 1 22",
+        "parentNodeId": "lN",
+        "san": "Qd4"
+      },
+      "5k": {
+        "adjacentNodeIds": [
+          "uG"
+        ],
+        "comments": [
+          {
+            "text": "Had Magnus gone for this fork...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4",
+                "d7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/3Rnkp1/8/3bnr2/6Q1/5p2/7K/8 w - - 4 26",
+        "parentNodeId": "if",
+        "san": "Ne5"
+      },
+      "5s": {
+        "adjacentNodeIds": [
+          "Te"
+        ],
+        "comments": [
+          {
+            "text": "...And now Magnus was finally up two pawns.\n\nWith precise play, there was nothing White could do.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R2nkp1/4b1n1/5pr1/8/5Q2/7K/8 w - - 0 18",
+        "parentNodeId": "lF",
+        "san": "Rxg5"
+      },
+      "66": {
+        "adjacentNodeIds": [
+          "7V"
+        ],
+        "comments": [
+          {
+            "text": "After that the rook moved to e6, Magnus slid it to e4, grabbing more  space and restricting the queen's vision.\n\nHe was going to bring the bishop back to e6!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-e6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/6n1/5pP1/2b1r3/5Q2/1R5K/8 w - - 10 15",
+        "parentNodeId": "0N",
+        "san": "Re4"
+      },
+      "6J": {
+        "adjacentNodeIds": [
+          "47"
+        ],
+        "comments": [
+          {
+            "text": "The queen pressured the knight from the e3 square instead.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/2r1b3/4npP1/8/4Q3/4R3/6K1 b - - 3 11",
+        "parentNodeId": "NX",
+        "san": "Qe3"
+      },
+      "7V": {
+        "adjacentNodeIds": [
+          "Dh"
+        ],
+        "comments": [
+          {
+            "text": "Giri did succeed in pinning the knight on e7, though.\n\nBoth players were using the maximum out of their pieces in order to reduce the opponent's movement.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R2nkp1/6n1/5pP1/2b1r3/5Q2/7K/8 b - - 11 15",
+        "parentNodeId": "66",
+        "san": "Rb7"
+      },
+      "7x": {
+        "adjacentNodeIds": [
+          "Mz"
+        ],
+        "comments": [
+          {
+            "text": "Magnus would have attacked it first.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R2nkp1/4b1n1/5pP1/6r1/3Q4/7K/8 w - - 14 17",
+        "parentNodeId": "uR",
+        "san": "Rg4"
+      },
+      "9b": {
+        "adjacentNodeIds": [
+          "1z"
+        ],
+        "comments": [
+          {
+            "text": "Forcing the king either away from the pawn or to the f1-square.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/8/3bnr2/7Q/8/5pK1/3R4 w - - 2 29",
+        "parentNodeId": "jZ",
+        "san": "Bd5+"
+      },
+      "Dh": {
+        "adjacentNodeIds": [
+          "QS",
+          "uR"
+        ],
+        "comments": [
+          {
+            "text": "Magnus brought his bishop back to e6, since the rook had been improved already. \n\nMagnus, again, had plans of rotating to g4 and finally getting the g5-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-g4",
+                "g4-g5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R2nkp1/4b1n1/5pP1/4r3/5Q2/7K/8 w - - 12 16",
+        "parentNodeId": "7V",
+        "san": "Be6"
+      },
+      "Dq": {
+        "adjacentNodeIds": [
+          "Fy"
+        ],
+        "comments": [
+          {
+            "text": "Had Giri tried to defend the a4-pawn...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b4r/1pQ1nkp1/1p2p1n1/r4pP1/P1P2P2/8/R7/3R2K1 b - - 7 4",
+        "parentNodeId": "Ua",
+        "san": "Ra2"
+      },
+      "Dz": {
+        "adjacentNodeIds": [
+          "i4"
+        ],
+        "comments": [
+          {
+            "text": "Even though Magnus is losing the queenside pawns...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1Q2b1n1/4PpP1/2r5/8/5R2/6K1 b - - 0 9",
+        "parentNodeId": "Ks",
+        "san": "Qxb6"
+      },
+      "Fa": {
+        "adjacentNodeIds": [
+          "Wm"
+        ],
+        "comments": [
+          {
+            "text": "Another important move from Magnus.\n\nUsing his central pawn to break apart White's pawn structure and free the e6-square for the light-squared bishop.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c8-e6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f4",
+                "g5"
+              ],
+              "opportunities": [
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/1pQ1nkp1/1p4n1/4ppP1/r1P2P2/8/5R2/6K1 w - - 0 7",
+        "parentNodeId": "oA",
+        "san": "e5"
+      },
+      "Fc": {
+        "adjacentNodeIds": [
+          "nZ"
+        ],
+        "comments": [
+          {
+            "text": "Had Giri gone to h1 with the king...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R4n1/3b1p2/8/4Q3/6r1/7K b - - 5 20",
+        "parentNodeId": "aF",
+        "san": "Kh1"
+      },
+      "Fx": {
+        "adjacentNodeIds": [
+          "SK"
+        ],
+        "comments": [
+          {
+            "text": "Moving with tempo once again, Carlsen attacked the queen this time.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R4n1/3b1pr1/8/5Q2/7K/8 w - - 2 19",
+        "parentNodeId": "Te",
+        "san": "Bd5"
+      },
+      "Fy": {
+        "adjacentNodeIds": [
+          "JO"
+        ],
+        "comments": [
+          {
+            "text": "...Magnus would have probably moved to c5, forking the queen and the c4-pawn now.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c7",
+                "c4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b4r/1pQ1nkp1/1p2p1n1/2r2pP1/P1P2P2/8/R7/3R2K1 w - - 8 5",
+        "parentNodeId": "Dq",
+        "san": "Rc5"
+      },
+      "GM": {
+        "adjacentNodeIds": [
+          "T5"
+        ],
+        "comments": [
+          {
+            "text": "The king moved back.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/8/4nr2/2b4Q/8/5pK1/3R4 b - - 5 30",
+        "parentNodeId": "qn",
+        "san": "Kg2"
+      },
+      "I": {
+        "adjacentNodeIds": [
+          "ZQ"
+        ],
+        "comments": [
+          {
+            "text": "Magnus began the process of protecting his king.\n\nIf he could make sure his king was safe enough and grab the pawns on the queenside, he would be in good shape!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a4",
+                "c4"
+              ],
+              "opportunities": [
+                "f7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2b4r/1p3kp1/1pnQp1n1/r4pP1/P1P2P2/8/5R2/3R2K1 w - - 4 3",
+        "parentNodeId": "b",
+        "san": "Kf7"
+      },
+      "JO": {
+        "adjacentNodeIds": [
+          "2J"
+        ],
+        "comments": [
+          {
+            "text": "Yes, Giri would have captured on b6.\n\nBut those pawns were doubled anyway.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b4r/1p2nkp1/1Q2p1n1/2r2pP1/P1P2P2/8/R7/3R2K1 b - - 0 5",
+        "parentNodeId": "Fy",
+        "san": "Qxb6"
+      },
+      "KU": {
+        "adjacentNodeIds": [
+          "ZR"
+        ],
+        "comments": [
+          {
+            "text": "Giri recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2bQ4/1p2nkp1/1p2p1n1/r4pP1/P1P2P2/8/5R2/6K1 b - - 0 5",
+        "parentNodeId": "OL",
+        "san": "Qxd8"
+      },
+      "Ks": {
+        "adjacentNodeIds": [
+          "Dz"
+        ],
+        "comments": [
+          {
+            "text": "Magnus captured on c4.\n\nKnight takes e5 would follow.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-e5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1Q2nkp1/1p2b1n1/4PpP1/2r5/8/5R2/6K1 w - - 0 9",
+        "parentNodeId": "nY",
+        "san": "Rxc4"
+      },
+      "Lh": {
+        "adjacentNodeIds": [
+          "jZ"
+        ],
+        "comments": [
+          {
+            "text": "So Magnus pushed, now being only 1 square away from promotion.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/4b3/4nr2/7Q/8/5p1K/3R4 w - - 0 28",
+        "parentNodeId": "P2",
+        "san": "f2"
+      },
+      "Mz": {
+        "adjacentNodeIds": [
+          "Z5"
+        ],
+        "comments": [
+          {
+            "text": "No matter where the queen places itself...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R2nkp1/4b1n1/5pP1/6r1/4Q3/7K/8 b - - 15 17",
+        "parentNodeId": "7x",
+        "san": "Qe3"
+      },
+      "NX": {
+        "adjacentNodeIds": [
+          "6J"
+        ],
+        "comments": [
+          {
+            "text": "That's why Magnus kicked out the queen first.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1Qr1b3/4npP1/8/8/4R3/6K1 w - - 2 11",
+        "parentNodeId": "zN",
+        "san": "Rc6"
+      },
+      "OL": {
+        "adjacentNodeIds": [
+          "KU"
+        ],
+        "comments": [
+          {
+            "text": "Forced, as White was attacking the bishop on c8 too.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2br4/1pQ1nkp1/1p2p1n1/r4pP1/P1P2P2/8/5R2/6K1 w - - 0 5",
+        "parentNodeId": "3B",
+        "san": "Rxd8"
+      },
+      "OP": {
+        "adjacentNodeIds": [
+          "pT"
+        ],
+        "comments": [
+          {
+            "text": "Magnus attacked the rook on e2, but had a more potent idea in mind.\n\nThe rook was going to e6, from where it would be much more stable.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c6-e6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/2r3n1/5pP1/2b5/4Q3/4R2K/8 w - - 6 13",
+        "parentNodeId": "aL",
+        "san": "Bc4"
+      },
+      "P2": {
+        "adjacentNodeIds": [
+          "Lh"
+        ],
+        "comments": [
+          {
+            "text": "The queen moved out of the way, covering the f2-square.\n\nBut that square was already defended.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/4b3/4nr2/7Q/5p2/7K/3R4 b - - 7 27",
+        "parentNodeId": "2Y",
+        "san": "Qh4"
+      },
+      "QS": {
+        "adjacentNodeIds": [
+          "3W"
+        ],
+        "comments": [
+          {
+            "text": "With no good way of defending the pawn, and evading checks on the h-file, Giri retreated.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R2nkp1/4b1n1/5pP1/4r3/5Q2/8/6K1 b - - 13 16",
+        "parentNodeId": "Dh",
+        "san": "Kg1"
+      },
+      "SK": {
+        "adjacentNodeIds": [
+          "aF"
+        ],
+        "comments": [
+          {
+            "text": "The rook was hit, but it could move with tempo too.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R4n1/3b1pr1/8/4Q3/7K/8 b - - 3 19",
+        "parentNodeId": "Fx",
+        "san": "Qe3"
+      },
+      "Sy": {
+        "adjacentNodeIds": [
+          "zm"
+        ],
+        "comments": [
+          {
+            "text": "The rook slid back, defending the bishop one more time and recreating the threat of pushing ...f3.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-f3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R4n1/3b2r1/3Q1p2/8/7K/8 w - - 2 23",
+        "parentNodeId": "4b",
+        "san": "Rg5"
+      },
+      "T5": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Giri resigned after this move.\n\nThrough a positional sacrifice, king safety and optimal coordination of pieces Magnus achieved an incredible win!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d1-f1",
+                "c4-f1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/8/4nr2/2b4Q/8/6K1/3R1q2 w - - 0 31",
+        "parentNodeId": "GM",
+        "san": "f1=Q+"
+      },
+      "Te": {
+        "adjacentNodeIds": [
+          "Fx"
+        ],
+        "comments": [
+          {
+            "text": "Giri tried shuffling with the rook, but that wouldn't bring him much success.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e6-d5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R2b1n1/5pr1/8/5Q2/7K/8 b - - 1 18",
+        "parentNodeId": "5s",
+        "san": "Rb6"
+      },
+      "Ua": {
+        "adjacentNodeIds": [
+          "3B",
+          "Dq"
+        ],
+        "comments": [
+          {
+            "text": "Magnus blocked with the knight, beginning to surround his king with minor pieces.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b4r/1pQ1nkp1/1p2p1n1/r4pP1/P1P2P2/8/5R2/3R2K1 w - - 6 4",
+        "parentNodeId": "ZQ",
+        "san": "Nce7"
+      },
+      "VD": {
+        "adjacentNodeIds": [
+          "13"
+        ],
+        "comments": [
+          {
+            "text": "Anish tried pinning the knight on e7...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3Rnkp1/6n1/3b2r1/3Q4/5p2/7K/8 b - - 1 24",
+        "parentNodeId": "q6",
+        "san": "Rd7"
+      },
+      "Wm": {
+        "adjacentNodeIds": [
+          "mz"
+        ],
+        "comments": [
+          {
+            "text": "With no better move, Giri accepted the sacrifice.\n\nNow all three pawns in White's position were hard to defend.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5",
+                "e5",
+                "c4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/1pQ1nkp1/1p4n1/4PpP1/r1P5/8/5R2/6K1 b - - 0 7",
+        "parentNodeId": "Fa",
+        "san": "fxe5"
+      },
+      "YX": {
+        "adjacentNodeIds": [
+          "cP"
+        ],
+        "comments": [
+          {
+            "text": "Now Magnus went back to g4.\n\nThe threat is ...Rh4+ followed by ...f4+, winning the queen.\n\nThat's why the sequence ...Rg2+ and ...Rg4 was better than the immediate ...Rg4.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-h4",
+                "f5-f4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R4n1/3b1p2/6r1/4Q2K/8/8 w - - 6 21",
+        "parentNodeId": "qV",
+        "san": "Rg4"
+      },
+      "Z5": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The ...f4 push would have arrived!\n\nThe pawn on g5 would have fallen anyway.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3",
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1R2nkp1/4b1n1/6P1/5pr1/4Q3/7K/8 w - - 0 18",
+        "parentNodeId": "Mz",
+        "san": "f4"
+      },
+      "ZQ": {
+        "adjacentNodeIds": [
+          "Ua"
+        ],
+        "comments": [
+          {
+            "text": "White gave a check, opening the file for the rook to slide down.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b4r/1pQ2kp1/1pn1p1n1/r4pP1/P1P2P2/8/5R2/3R2K1 b - - 5 3",
+        "parentNodeId": "I",
+        "san": "Qc7+"
+      },
+      "ZR": {
+        "adjacentNodeIds": [
+          "oA"
+        ],
+        "comments": [
+          {
+            "text": "...but he allowed Magnus to win the first of the weak queenside pawns.\n\nPlaying against a queen is a slow process, which is why it's crucial to focus on the opponent's weaknesses.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2bQ4/1p2nkp1/1p2p1n1/5pP1/r1P2P2/8/5R2/6K1 w - - 0 6",
+        "parentNodeId": "KU",
+        "san": "Rxa4"
+      },
+      "aF": {
+        "adjacentNodeIds": [
+          "qV",
+          "Fc"
+        ],
+        "comments": [
+          {
+            "text": "A more venomous move than it looks.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R4n1/3b1p2/8/4Q3/6rK/8 w - - 4 20",
+        "parentNodeId": "SK",
+        "san": "Rg2+"
+      },
+      "aL": {
+        "adjacentNodeIds": [
+          "OP"
+        ],
+        "comments": [
+          {
+            "text": "Giri tried improving the position of the king.\n\nWith his queen and rook being positioned well, there was nothing to do but to wait for Magnus' initiative.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/2r1b1n1/5pP1/8/4Q3/4R2K/8 b - - 5 12",
+        "parentNodeId": "47",
+        "san": "Kh2"
+      },
+      "b": {
+        "adjacentNodeIds": [
+          "I"
+        ],
+        "comments": [
+          {
+            "text": "Giri played Rf2, with possible plans of transferring either to the center of the board or to the queenside.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f2-d2",
+                "f2-a2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b1k2r/1p4p1/1pnQp1n1/r4pP1/P1P2P2/8/5R2/3R2K1 b k - 3 2",
+        "parentNodeId": "h",
+        "san": "Rf2"
+      },
+      "cP": {
+        "adjacentNodeIds": [
+          "lN"
+        ],
+        "comments": [
+          {
+            "text": "The king went back.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R4n1/3b1p2/6r1/4Q3/7K/8 b - - 7 21",
+        "parentNodeId": "YX",
+        "san": "Kh2"
+      },
+      "dV": {
+        "adjacentNodeIds": [
+          "ib"
+        ],
+        "comments": [
+          {
+            "text": "Magnus didn't fall for it, defending his rook, attacking White's rook and keeping his king safe.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d7"
+              ],
+              "opportunities": [
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/3Rnkp1/4b1n1/5r2/6Q1/5p2/7K/8 w - - 4 26",
+        "parentNodeId": "if",
+        "san": "Be6"
+      },
+      "h": {
+        "adjacentNodeIds": [
+          "b"
+        ],
+        "comments": [
+          {
+            "text": "If we take a look at the position, Black was up a pawn, and White had weak split pawns on the queenside which were up for grabs.\n\nEven though White's control of the d-file looked dangerous, both of the infiltration squares were controlled by Magnus's pieces.\n\nStill, he needed to keep the king safe, so he brought the knight back first.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c4",
+                "a4"
+              ],
+              "opportunities": [
+                "d8",
+                "d7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2b1k2r/1p4p1/1pnQp1n1/r4pP1/P1P2P2/8/8/3R1RK1 w k - 2 2",
+        "parentNodeId": "0",
+        "san": "Ng6"
+      },
+      "i4": {
+        "adjacentNodeIds": [
+          "zN"
+        ],
+        "comments": [
+          {
+            "text": "Magnus can take the rest of Giri's pawns.\n\nNow all that was left was to get to the g5-pawn and start pushing on the kingside.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-f4",
+                "g7-g5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1Q2b3/4npP1/2r5/8/5R2/6K1 w - - 0 10",
+        "parentNodeId": "Dz",
+        "san": "Nxe5"
+      },
+      "ib": {
+        "adjacentNodeIds": [
+          "2Y"
+        ],
+        "comments": [
+          {
+            "text": "With no way forward, White had to move back, anticipating ...f2.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d1-f1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/4b1n1/5r2/6Q1/5p2/7K/3R4 b - - 5 26",
+        "parentNodeId": "dV",
+        "san": "Rd1"
+      },
+      "if": {
+        "adjacentNodeIds": [
+          "dV",
+          "5k"
+        ],
+        "comments": [
+          {
+            "text": "Giri tried attacking from g4 and had one last trick up his sleeve.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3Rnkp1/6n1/3b1r2/6Q1/5p2/7K/8 b - - 3 25",
+        "parentNodeId": "13",
+        "san": "Qg4"
+      },
+      "jZ": {
+        "adjacentNodeIds": [
+          "9b"
+        ],
+        "comments": [
+          {
+            "text": "The king stopped the advancement for a moment, but quickly ran into checks.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e6-d5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/4b3/4nr2/7Q/8/5pK1/3R4 b - - 1 28",
+        "parentNodeId": "Lh",
+        "san": "Kg2"
+      },
+      "lF": {
+        "adjacentNodeIds": [
+          "5s"
+        ],
+        "comments": [
+          {
+            "text": "White went back to the h-file...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R2nkp1/4b1n1/5pP1/6r1/5Q2/7K/8 b - - 15 17",
+        "parentNodeId": "3W",
+        "san": "Kh2"
+      },
+      "lN": {
+        "adjacentNodeIds": [
+          "4b"
+        ],
+        "comments": [
+          {
+            "text": "Nonetheless, the pawn push still arrived.\n\nSlowly but surely, Magnus was on his way to win.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R4n1/3b4/5pr1/4Q3/7K/8 w - - 0 22",
+        "parentNodeId": "cP",
+        "san": "f4"
+      },
+      "mz": {
+        "adjacentNodeIds": [
+          "nY"
+        ],
+        "comments": [
+          {
+            "text": "Magnus first teamed up on the c4-pawn with two pieces now, protecting his king even more.\n\nNotice how everything is defended: the knights defend each other, the bishop and e7-knight defend f5, the king defends all of the pieces, and the rook isn't in trouble because White doesn't have any checks! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1pQ1nkp1/1p2b1n1/4PpP1/r1P5/8/5R2/6K1 w - - 1 8",
+        "parentNodeId": "Wm",
+        "san": "Be6"
+      },
+      "nY": {
+        "adjacentNodeIds": [
+          "Ks"
+        ],
+        "comments": [
+          {
+            "text": "Giri got to the queenside pawns, but that wouldn't matter anymore, thanks to the ...e5 move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1Q2nkp1/1p2b1n1/4PpP1/r1P5/8/5R2/6K1 b - - 0 8",
+        "parentNodeId": "mz",
+        "san": "Qxb7"
+      },
+      "nZ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...Any rook move would have been a check, and the game would have been over pretty quickly.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R4n1/3b1p2/8/4Q3/4r3/7K w - - 6 21",
+        "parentNodeId": "Fc",
+        "san": "Re2+"
+      },
+      "o1": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Instead of that, ...Nh4 was completely crushing.\n\nThe threats would have been ...Rg2+ as well as a fork on f3.\n\nHere, the computer suggests that White should give up the queen with Qf2.\n\nOf course, what Magnus played in the game was completely winning as well.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h4-f3",
+                "g4-g2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R6/3b4/3Q1prn/8/7K/8 w - - 2 23",
+        "parentNodeId": "4b",
+        "san": "Nh4"
+      },
+      "oA": {
+        "adjacentNodeIds": [
+          "Fa"
+        ],
+        "comments": [
+          {
+            "text": "Giri slid back with the queen, defending c4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/1pQ1nkp1/1p2p1n1/5pP1/r1P2P2/8/5R2/6K1 b - - 1 6",
+        "parentNodeId": "ZR",
+        "san": "Qc7"
+      },
+      "pT": {
+        "adjacentNodeIds": [
+          "ql"
+        ],
+        "comments": [
+          {
+            "text": "White moved to b2, possibly aiming for b7.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b2-b7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/2r3n1/5pP1/2b5/4Q3/1R5K/8 b - - 7 13",
+        "parentNodeId": "OP",
+        "san": "Rb2"
+      },
+      "q6": {
+        "adjacentNodeIds": [
+          "VD"
+        ],
+        "comments": [
+          {
+            "text": "So a simple pawn push sufficed.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-f1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/3R2n1/3b2r1/3Q4/5p2/7K/8 w - - 0 24",
+        "parentNodeId": "zm",
+        "san": "f3"
+      },
+      "qV": {
+        "adjacentNodeIds": [
+          "YX"
+        ],
+        "comments": [
+          {
+            "text": "Giri went up.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1R4n1/3b1p2/8/4Q2K/6r1/8 b - - 5 20",
+        "parentNodeId": "aF",
+        "san": "Kh3"
+      },
+      "ql": {
+        "adjacentNodeIds": [
+          "0N"
+        ],
+        "comments": [
+          {
+            "text": "And now the rook arrived on e6.\n\nMagnus had to coordinate his pieces in this specific way in order to be able to start pushing the pawns.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/4r1n1/5pP1/2b5/4Q3/1R5K/8 w - - 8 14",
+        "parentNodeId": "pT",
+        "san": "Re6"
+      },
+      "qn": {
+        "adjacentNodeIds": [
+          "GM"
+        ],
+        "comments": [
+          {
+            "text": "Another check, but this time Black controlled the f1-square with the bishop.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f2-f1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/8/4nr2/2b4Q/8/5p2/3R1K2 w - - 4 30",
+        "parentNodeId": "1z",
+        "san": "Bc4+"
+      },
+      "t9": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And now the queen would have taken on f5, and suddenly White would have been winning!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4k1p1/8/3bnQ2/8/5p2/7K/8 b - - 0 27",
+        "parentNodeId": "yK",
+        "san": "Qxf5"
+      },
+      "uG": {
+        "adjacentNodeIds": [
+          "yK"
+        ],
+        "comments": [
+          {
+            "text": "Giri would have had this amazing sacrifice, removing the guard of the rook on f5 with check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4Rkp1/8/3bnr2/6Q1/5p2/7K/8 b - - 0 26",
+        "parentNodeId": "5k",
+        "san": "Rxe7+"
+      },
+      "uR": {
+        "adjacentNodeIds": [
+          "7x"
+        ],
+        "comments": [
+          {
+            "text": "If Giri had tried to stick around and try to defend the g5-pawn...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R2nkp1/4b1n1/5pP1/4r3/3Q4/7K/8 b - - 13 16",
+        "parentNodeId": "Dh",
+        "san": "Qd3"
+      },
+      "yK": {
+        "adjacentNodeIds": [
+          "t9"
+        ],
+        "comments": [
+          {
+            "text": "The king would have had to take.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4k1p1/8/3bnr2/6Q1/5p2/7K/8 w - - 0 27",
+        "parentNodeId": "uG",
+        "san": "Kxe7"
+      },
+      "zN": {
+        "adjacentNodeIds": [
+          "NX"
+        ],
+        "comments": [
+          {
+            "text": "Giri tried to pressure Magnus's pieces lined-up on the e-file, which is definitely a good attempt.\n\nThe knight on e5 now couldn't move because the bishop on e6 would have been hanging.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5",
+                "e6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/1Q2b3/4npP1/2r5/8/4R3/6K1 b - - 1 10",
+        "parentNodeId": "i4",
+        "san": "Re2"
+      },
+      "zm": {
+        "adjacentNodeIds": [
+          "q6"
+        ],
+        "comments": [
+          {
+            "text": "White tried attacking the bishop again, but it was already defended.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4nkp1/3R2n1/3b2r1/3Q1p2/8/7K/8 b - - 3 23",
+        "parentNodeId": "Sy",
+        "san": "Rd6"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

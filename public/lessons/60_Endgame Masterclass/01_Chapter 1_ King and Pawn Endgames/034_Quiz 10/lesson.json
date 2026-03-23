@@ -1,0 +1,90 @@
+{
+  "id": "de945866-0c5b-4154-b79c-7b4ed56514cb",
+  "name": "Quiz 10",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "You have the White pieces and Black has just pushed ...b4. \n\nDo you have a plan to win or just draw?",
+    "answers": [
+      {
+        "text": "A plan to win is h5, to create the threat of g5 to create a passed pawn. This will force Black to defend passively.",
+        "feedback": {
+          "text": "Exactly. White will be able to pick up the other pawns while Black defends the g- and h-file.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h4-h5",
+              "d4-e5",
+              "d2-c2",
+              "c2-b3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b4",
+              "f4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "g5 right away is a win because the black king cannot enter the pawn's square.",
+        "feedback": {
+          "text": "It seems the black king enters the square. You have to delay this plan somehow.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g4-g5",
+              "h6-g5",
+              "h4-h5",
+              "h5-h8",
+              "h8-e8",
+              "e8-e5",
+              "e5-h5",
+              "d4-e5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White can only draw because the king has to defend against the b-pawn.",
+        "feedback": {
+          "text": "Are you sure that's all you can do? You may even be winning here.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d2-c2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/7p/1p6/3k1pPP/5P2/3K4/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "b4",
+      "afterMoveFen": "8/8/7p/8/1p1k1pPP/5P2/3K4/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,528 @@
+{
+  "id": "3d691f0d-b1f1-4fe3-a9bc-4aaa18598e80",
+  "name": "Study 4: A Fork Made Possible By A Pin",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "q"
+        ],
+        "comments": [
+          {
+            "text": "In the fourth study of Chapter 1, we'll take a look at a game I played online against a strong untitled player, Maxim Borisov from Russia, rated 2700 on chess.com.\n\nIt's a great example of how piece misplacement in the opening can tactically cost you the game!",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/game/live/78673974841?username=gothamchess",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pp3ppp/2p5/4p3/3PP3/5N2/PPP3PP/RNBQKB1R b KQkq - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "5": {
+        "adjacentNodeIds": [
+          "N"
+        ],
+        "comments": [
+          {
+            "text": "However, I knew that the correct move was Bc4, completely giving it up.\n\nThe idea is to get the pieces out as quickly as possible and try to attack Black's position.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pp3ppp/2p2n2/4p3/2BPP3/5N2/PPP3PP/RNBQK2R b KQkq - 3 2",
+        "parentNodeId": "q",
+        "san": "Bc4"
+      },
+      "8U": {
+        "adjacentNodeIds": [
+          "FN"
+        ],
+        "comments": [
+          {
+            "text": "The only sensible move was to recapture.\n\nDo you see a fork in this position?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq4/pp3kpp/2p2n2/2b5/3pP3/8/PPP3PP/RNBQ1RK1 w - - 0 7",
+        "parentNodeId": "d5",
+        "san": "Kxf7"
+      },
+      "9e": {
+        "adjacentNodeIds": [
+          "Si"
+        ],
+        "comments": [
+          {
+            "text": "And Black recaptured with the pawn, not to loosen control of the f6-knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b3k1/1p1n2pp/1pp2n2/6B1/8/8/PPP3PP/RN3RK1 w - - 0 13",
+        "parentNodeId": "MP",
+        "san": "axb6"
+      },
+      "BA": {
+        "adjacentNodeIds": [
+          "Y1"
+        ],
+        "comments": [
+          {
+            "text": "Having placed the pieces where I wanted them, I went for Ng5, attacking the f7-pawn together with the bishop.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": [
+                "g5",
+                "c4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/pp3ppp/2p2n2/2b3N1/2BpP3/8/PPP3PP/RNBQ1RK1 b kq - 3 4",
+        "parentNodeId": "an",
+        "san": "Ng5"
+      },
+      "BX": {
+        "adjacentNodeIds": [
+          "Op"
+        ],
+        "comments": [
+          {
+            "text": "But had to retreat back to f6 as soon as I attacked the knight again.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq2k1/pp4pp/2p5/4Q3/3pn3/8/PPP3PP/RNB2RK1 b - - 1 9",
+        "parentNodeId": "uo",
+        "san": "Qe5"
+      },
+      "Bw": {
+        "adjacentNodeIds": [
+          "MP"
+        ],
+        "comments": [
+          {
+            "text": "Now a queen trade was forced, which I didn't mind, as I was up a rook for a knight!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b3k1/pp1n2pp/1qp2n2/6B1/3Q4/8/PPP3PP/RN3RK1 w - - 1 12",
+        "parentNodeId": "Ha",
+        "san": "Qb6"
+      },
+      "EK": {
+        "adjacentNodeIds": [
+          "uo"
+        ],
+        "comments": [
+          {
+            "text": "And I simply took the bishop on c5.\n\nNow I was up the exchange and much better.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq2k1/pp4pp/2p2n2/2Q5/3pP3/8/PPP3PP/RNB2RK1 b - - 0 8",
+        "parentNodeId": "JK",
+        "san": "Qxc5"
+      },
+      "FN": {
+        "adjacentNodeIds": [
+          "JK"
+        ],
+        "comments": [
+          {
+            "text": "Had Black not placed the pieces in the exact squares in the opening they had placed them on, this tactic wouldn't have been possible.\n\nHere, I was going to get one of the pieces back!\n\nThe knight on f6 was pinned and couldn't recapture.",
+            "arrows": {
+              "threats": [
+                "f6-h5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f7",
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq4/pp3kpp/2p2n2/2b4Q/3pP3/8/PPP3PP/RNB2RK1 b - - 1 7",
+        "parentNodeId": "8U",
+        "san": "Qh5+"
+      },
+      "Ha": {
+        "adjacentNodeIds": [
+          "Bw"
+        ],
+        "comments": [
+          {
+            "text": "But at the cost of a pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq2k1/pp1n2pp/2p2n2/6B1/3Q4/8/PPP3PP/RN3RK1 b - - 0 11",
+        "parentNodeId": "Hk",
+        "san": "Qxd4"
+      },
+      "Hk": {
+        "adjacentNodeIds": [
+          "Ha"
+        ],
+        "comments": [
+          {
+            "text": "Black had to add a defender, so they did, with an attack on my queen...",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": [
+                "f6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq2k1/pp1n2pp/2p2n2/4Q1B1/3p4/8/PPP3PP/RN3RK1 w - - 4 11",
+        "parentNodeId": "K0",
+        "san": "Nbd7"
+      },
+      "JK": {
+        "adjacentNodeIds": [
+          "EK"
+        ],
+        "comments": [
+          {
+            "text": "Black went back to g8...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq2k1/pp4pp/2p2n2/2b4Q/3pP3/8/PPP3PP/RNB2RK1 w - - 2 8",
+        "parentNodeId": "FN",
+        "san": "Kg8"
+      },
+      "K0": {
+        "adjacentNodeIds": [
+          "Hk"
+        ],
+        "comments": [
+          {
+            "text": "Now I put even more pressure on that knight by pinning it to the queen!\n\nHaving won the exchange, the moves just played themselves.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq2k1/pp4pp/2p2n2/4Q1B1/3p4/8/PPP3PP/RN3RK1 b - - 3 10",
+        "parentNodeId": "Op",
+        "san": "Bg5"
+      },
+      "MP": {
+        "adjacentNodeIds": [
+          "9e"
+        ],
+        "comments": [
+          {
+            "text": "I took.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b3k1/pp1n2pp/1Qp2n2/6B1/8/8/PPP3PP/RN3RK1 b - - 0 12",
+        "parentNodeId": "Bw",
+        "san": "Qxb6"
+      },
+      "N": {
+        "adjacentNodeIds": [
+          "xU"
+        ],
+        "comments": [
+          {
+            "text": "Had Black captured on e4, I would have simply castled and captured on e5 at the right moment.\n\nInstead, Black took in the center with ...exd4.\n\nAgain, I was in no rush.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pp3ppp/2p2n2/8/2BpP3/5N2/PPP3PP/RNBQK2R w KQkq - 0 3",
+        "parentNodeId": "5",
+        "san": "exd4"
+      },
+      "Op": {
+        "adjacentNodeIds": [
+          "K0"
+        ],
+        "comments": [
+          {
+            "text": "Which they did.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq2k1/pp4pp/2p2n2/4Q3/3p4/8/PPP3PP/RNB2RK1 w - - 2 10",
+        "parentNodeId": "BX",
+        "san": "Nf6"
+      },
+      "P0": {
+        "adjacentNodeIds": [
+          "bI"
+        ],
+        "comments": [
+          {
+            "text": "Black did attack my bishop...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b3k1/1p1n2p1/1pp2n1p/6B1/8/2N5/PPP3PP/R4RK1 w - - 0 14",
+        "parentNodeId": "Si",
+        "san": "h6"
+      },
+      "Si": {
+        "adjacentNodeIds": [
+          "P0"
+        ],
+        "comments": [
+          {
+            "text": "I simply continued developing now.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b3k1/1p1n2pp/1pp2n2/6B1/8/2N5/PPP3PP/R4RK1 b - - 1 13",
+        "parentNodeId": "9e",
+        "san": "Nc3"
+      },
+      "Y1": {
+        "adjacentNodeIds": [
+          "vX"
+        ],
+        "comments": [
+          {
+            "text": "This basically forces Black to castle and defend.\n\nHowever, that played right into my hands!",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp3ppp/2p2n2/2b3N1/2BpP3/8/PPP3PP/RNBQ1RK1 w - - 4 5",
+        "parentNodeId": "BA",
+        "san": "O-O"
+      },
+      "an": {
+        "adjacentNodeIds": [
+          "BA"
+        ],
+        "comments": [
+          {
+            "text": "Black activated the bishop to c5, with the idea of ...d3+ perhaps.\n\nHowever, that wasn't a threat and I could simply continue with my plan.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/pp3ppp/2p2n2/2b5/2BpP3/5N2/PPP3PP/RNBQ1RK1 w kq - 2 4",
+        "parentNodeId": "xU",
+        "san": "Bc5"
+      },
+      "bI": {
+        "adjacentNodeIds": [
+          "oX"
+        ],
+        "comments": [
+          {
+            "text": "But I simply moved it to f4, continuing to enjoy my position.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b3k1/1p1n2p1/1pp2n1p/8/5B2/2N5/PPP3PP/R4RK1 b - - 1 14",
+        "parentNodeId": "P0",
+        "san": "Bf4"
+      },
+      "d5": {
+        "adjacentNodeIds": [
+          "8U"
+        ],
+        "comments": [
+          {
+            "text": "First, I took the rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq2k1/pp3Bpp/2p2n2/2b5/3pP3/8/PPP3PP/RNBQ1RK1 b - - 0 6",
+        "parentNodeId": "zF",
+        "san": "Bxf7+"
+      },
+      "kK": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "I captured on h6!\n\nIf ...gxh6 happens, the knight on f6 will be hanging!\n\nBlack resigned here.\n\nThis is how easy it can be to win a game of chess once a certain tactic pops up!",
+            "arrows": {
+              "threats": [
+                "g7-h6"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2nk1/1p4p1/1pp2n1B/8/8/2N5/PPP3PP/R4RK1 b - - 0 15",
+        "parentNodeId": "oX",
+        "san": "Bxh6"
+      },
+      "oX": {
+        "adjacentNodeIds": [
+          "kK"
+        ],
+        "comments": [
+          {
+            "text": "And here's where Black made the final mistake.\n\nThey wanted to open up the light-squared bishop, but forgot they couldn't take eyes off the f6-knight yet.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2nk1/1p4p1/1pp2n1p/8/5B2/2N5/PPP3PP/R4RK1 w - - 2 15",
+        "parentNodeId": "bI",
+        "san": "Nf8"
+      },
+      "q": {
+        "adjacentNodeIds": [
+          "5"
+        ],
+        "comments": [
+          {
+            "text": "In this position, in the Fantasy Caro-Kann, Black played ...Nf6, with the idea of attacking my central e4-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pp3ppp/2p2n2/4p3/3PP3/5N2/PPP3PP/RNBQKB1R w KQkq - 2 2",
+        "parentNodeId": "0",
+        "san": "Nf6"
+      },
+      "uo": {
+        "adjacentNodeIds": [
+          "BX"
+        ],
+        "comments": [
+          {
+            "text": "Black did get the central pawn with an attack on my queen...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq2k1/pp4pp/2p5/2Q5/3pn3/8/PPP3PP/RNB2RK1 w - - 0 9",
+        "parentNodeId": "EK",
+        "san": "Nxe4"
+      },
+      "vX": {
+        "adjacentNodeIds": [
+          "zF"
+        ],
+        "comments": [
+          {
+            "text": "I captured on f7 with the knight.\n\nNow the queen was under attack and every knight move was discovered check.\n\nIn fact, the best move here for Black is to play ...Qe7, get the queen out of the way and block the check with ...Be6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d8-e7",
+                "c8-e6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp3Npp/2p2n2/2b5/2BpP3/8/PPP3PP/RNBQ1RK1 b - - 0 5",
+        "parentNodeId": "Y1",
+        "san": "Nxf7"
+      },
+      "xU": {
+        "adjacentNodeIds": [
+          "an"
+        ],
+        "comments": [
+          {
+            "text": "I castled, going for piece activity here.\n\nIt was going to pay off, as you'll see.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pp3ppp/2p2n2/8/2BpP3/5N2/PPP3PP/RNBQ1RK1 b kq - 1 3",
+        "parentNodeId": "N",
+        "san": "O-O"
+      },
+      "zF": {
+        "adjacentNodeIds": [
+          "d5"
+        ],
+        "comments": [
+          {
+            "text": "However, Black captured, completely missing my idea.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq2k1/pp3rpp/2p2n2/2b5/2BpP3/8/PPP3PP/RNBQ1RK1 w - - 0 6",
+        "parentNodeId": "vX",
+        "san": "Rxf7"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

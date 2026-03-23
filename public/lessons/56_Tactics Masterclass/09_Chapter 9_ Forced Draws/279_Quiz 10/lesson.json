@@ -1,0 +1,63 @@
+{
+  "id": "bea39d6b-5d7e-4d9f-82c0-106fbb66aae7",
+  "name": "Quiz 10",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "This king and pawn endgame looks to be lost since we are losing the c5-pawn next. \n\nDo you have a draw?",
+    "answers": [
+      {
+        "text": "Ka5",
+        "feedback": {
+          "text": "Good job! After Kxc5, our king is stalemated on a5!",
+          "arrows": {
+            "threats": [
+              "d5-c5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "a5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "moving the king to the a5-square.",
+        "afterMoveFen": "8/8/p7/k1pK4/1pP5/1P6/P7/8 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "a5",
+        "feedback": {
+          "text": "Watch out, White can bring their king to d6, we'll have to move our king next and the c5-pawn is lost.",
+          "arrows": {
+            "threats": [
+              "d5-d6"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "connecting the pawns.",
+        "afterMoveFen": "8/8/1k6/p1pK4/1pP5/1P6/P7/8 w - - 0 2"
+      }
+    ],
+    "positionFen": "8/8/pk6/2p1K3/1pP5/1P6/P7/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kd5",
+      "afterMoveFen": "8/8/pk6/2pK4/1pP5/1P6/P7/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

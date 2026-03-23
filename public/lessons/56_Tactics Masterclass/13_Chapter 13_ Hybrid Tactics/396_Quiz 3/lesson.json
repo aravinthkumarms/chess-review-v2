@@ -1,0 +1,58 @@
+{
+  "id": "01aa348d-f5a1-4a62-b0f8-cb8f1e16c18a",
+  "name": "Quiz 3",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White centralizes the knight on e5.\n\nWhat's the best move here for Black?",
+    "answers": [
+      {
+        "text": "Ng4",
+        "feedback": {
+          "text": "Excellent! White has to retreat and lose a pawn in the center. Nxg4 falls to ...Bf4.",
+          "arrows": {
+            "threats": [
+              "e5-g4"
+            ],
+            "opportunities": [
+              "d6-f4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e5",
+              "e3"
+            ],
+            "opportunities": [
+              "g4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r3k2r/ppq2pp1/2pbp1p1/4N3/3P2n1/2P1Q1N1/PP3PPP/2KR3R w kq - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Think of your bishop-queen battery and how it can be used. Then, create a threat by sacrificing a piece!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r3k2r/ppq2pp1/2pbpnp1/8/3P4/2P1QNN1/PP3PPP/2KR3R w kq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ne5",
+      "afterMoveFen": "r3k2r/ppq2pp1/2pbpnp1/4N3/3P4/2P1Q1N1/PP3PPP/2KR3R b kq - 2 1"
+    }
+  },
+  "drill": null
+}

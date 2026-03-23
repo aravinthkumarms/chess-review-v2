@@ -1,0 +1,62 @@
+{
+  "id": "9cafb553-97d6-48d6-b2cb-915d71159551",
+  "name": "Quiz 5 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has just gone f6 with the idea of attacking the king. \n\nIt is an imbalanced endgame. Who is better?",
+    "answers": [
+      {
+        "text": "Black is better because of the a-pawn.",
+        "feedback": {
+          "text": "In short, yes. The attack isn't getting anywhere. ...h6 is the best engine move here, but even ...Nf8 for ...Ng6 is good, and the point is that Black's pawn is faster.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is better because the black king isn't safe.",
+        "feedback": {
+          "text": "There are several ways of dealing with the attack, and just the pawn and queen won't break through.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h7-h6",
+              "d7-f8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "This position is equal and should end in a draw because both sides have activity that cancel each other out.",
+        "feedback": {
+          "text": "I think one of the side's activity is better than the other's.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r5k1/1p1n1ppp/4p3/3pPP2/8/pN2Q1PP/r5B1/6K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "f6",
+      "afterMoveFen": "r5k1/1p1n1ppp/4pP2/3pP3/8/pN2Q1PP/r5B1/6K1 b - - 0 1"
+    }
+  },
+  "drill": null
+}

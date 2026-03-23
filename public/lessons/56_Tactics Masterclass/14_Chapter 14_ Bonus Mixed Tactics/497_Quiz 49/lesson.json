@@ -1,0 +1,74 @@
+{
+  "id": "af239e68-2ace-45c3-81bf-ca0ddbe3d641",
+  "name": "Quiz 49 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is up material, but White may try Bc1+ ideas to create a mating net.\n\nWhat move can you find to defend?",
+    "answers": [
+      {
+        "text": "Kg5",
+        "feedback": {
+          "text": "Good job! White is threatening Bc1+  so …Kg5 is a good retreating move.",
+          "arrows": {
+            "threats": [
+              "b2-c1"
+            ],
+            "opportunities": [
+              "g5-g6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "g5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "4rr2/pp5p/2q2p2/3Rp1k1/2P3P1/1P5P/PB4K1/3R4 w - - 1 2"
+      },
+      {
+        "text": "Qxd5+",
+        "feedback": {
+          "text": "Nice move! Our king could get in trouble, so removing one rook is safe since we’re up a lot of material.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "b2",
+              "d1"
+            ],
+            "opportunities": [
+              "f8",
+              "e8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "4rr2/pp5p/5p2/3qp3/2P2kP1/1P5P/PB4K1/3R4 w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you defend against Bc1+?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4rr2/pp5p/2q2p2/3Rp3/2P2kP1/1P6/PB4KP/3R4 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "h3",
+      "afterMoveFen": "4rr2/pp5p/2q2p2/3Rp3/2P2kP1/1P5P/PB4K1/3R4 b - - 0 1"
+    }
+  },
+  "drill": null
+}

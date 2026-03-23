@@ -1,0 +1,422 @@
+{
+  "id": "1ce268c5-37bd-440b-824f-16b8db4dca48",
+  "name": "Study 1: Pawn Breaks",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "q"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to the chapter on pawn play! \n\nWe'll start with a game played between Magnus Carlsen (black pieces) and GM Aram Hakobyan. \n\nLet's see how Magnus uses his pawns! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1bpq1ppp/p2pnn2/1p2pNN1/4P3/PB1P4/1PPB1PPP/R2Q1RK1 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "3Y": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But now the undefended d2 bishop fell.\n\nIn addition, Black's line of pawns prevent the a2 bishop from seeing the light. \n\nBlack won the game shortly thereafter, thanks, in part, to the superior pawn strategies in the middle game. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a6",
+                "b5",
+                "c4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2b1r2/1b3ppk/p3n2p/1p2pN2/2p1P3/P5QN/BPPq2PP/R4RK1 w - - 0 9",
+        "parentNodeId": "TY",
+        "san": "Qxd2"
+      },
+      "5b": {
+        "adjacentNodeIds": [
+          "FB"
+        ],
+        "comments": [
+          {
+            "text": "Magnus kicked the knight out...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1b1q1pp1/p2pnn1p/1p2pNN1/2p1P3/P2P1Q2/BPPB1PPP/R4RK1 w - - 0 4",
+        "parentNodeId": "Kx",
+        "san": "h6"
+      },
+      "7W": {
+        "adjacentNodeIds": [
+          "Z7"
+        ],
+        "comments": [
+          {
+            "text": "I think the pawn tension doesn't favor White in this position.\n\nLike I said, if the position opens up, Black will have the advantage. Hence it's better to get rid of pawn tension that could generate more open lines.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1r2/1b1q1ppk/p3nn1p/1p1PpN2/2p5/P2P2QN/BPPB1PPP/R4RK1 b - - 0 6",
+        "parentNodeId": "88",
+        "san": "exd5"
+      },
+      "88": {
+        "adjacentNodeIds": [
+          "tL",
+          "7W"
+        ],
+        "comments": [
+          {
+            "text": "So Magnus took his king to a safer square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1r2/1b1q1ppk/p3nn1p/1p1ppN2/2p1P3/P2P2QN/BPPB1PPP/R4RK1 w - - 2 6",
+        "parentNodeId": "BS",
+        "san": "Kh7"
+      },
+      "BS": {
+        "adjacentNodeIds": [
+          "88"
+        ],
+        "comments": [
+          {
+            "text": "The queen went to g3, placing itself opposite the Black king...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-h6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g7",
+                "h6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1b1q1pp1/p3nn1p/1p1ppN2/2p1P3/P2P2QN/BPPB1PPP/R4RK1 b - - 1 5",
+        "parentNodeId": "P9",
+        "san": "Qg3"
+      },
+      "FB": {
+        "adjacentNodeIds": [
+          "P9"
+        ],
+        "comments": [
+          {
+            "text": "The knight went to h3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1b1q1pp1/p2pnn1p/1p2pN2/2p1P3/P2P1Q1N/BPPB1PPP/R4RK1 b - - 1 4",
+        "parentNodeId": "5b",
+        "san": "Nh3"
+      },
+      "FU": {
+        "adjacentNodeIds": [
+          "TY"
+        ],
+        "comments": [
+          {
+            "text": "Magnus took a pawn, forking queen and bishop.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g3",
+                "d2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2b1r2/1b1q1ppk/p3n2p/1p2pN2/2p1n3/P2P2QN/BPPB2PP/R4RK1 w - - 0 8",
+        "parentNodeId": "U5",
+        "san": "Nxe4"
+      },
+      "Il": {
+        "adjacentNodeIds": [
+          "bP"
+        ],
+        "comments": [
+          {
+            "text": "Black can remove one of the defenders of e4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1b1q1ppp/p2p1n2/1p2pNn1/2P1P3/PB3Q2/1PPB1PPP/R4RK1 w - - 0 4",
+        "parentNodeId": "hp",
+        "san": "Nxg5"
+      },
+      "Kx": {
+        "adjacentNodeIds": [
+          "5b"
+        ],
+        "comments": [
+          {
+            "text": "GM Aram brought his bishop to a2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1b1q1ppp/p2pnn2/1p2pNN1/2p1P3/P2P1Q2/BPPB1PPP/R4RK1 b - - 1 3",
+        "parentNodeId": "i",
+        "san": "Ba2"
+      },
+      "P9": {
+        "adjacentNodeIds": [
+          "BS"
+        ],
+        "comments": [
+          {
+            "text": "And boom! \n\nThe second pawn break in the position! \n\nThere are serious threats against the queen and the d2 bishop. \n\nWhite isn't ready for the position to open up.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1b1q1pp1/p3nn1p/1p1ppN2/2p1P3/P2P1Q1N/BPPB1PPP/R4RK1 w - - 0 5",
+        "parentNodeId": "FB",
+        "san": "d5"
+      },
+      "Ry": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White's losing a piece.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d7-f5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/3q1ppp/p2p1n2/1p2pNB1/2P1b3/PB3Q2/1PP2PPP/R4RK1 w - - 0 5",
+        "parentNodeId": "bP",
+        "san": "Bxe4"
+      },
+      "TY": {
+        "adjacentNodeIds": [
+          "3Y"
+        ],
+        "comments": [
+          {
+            "text": "GM Aram took the knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1r2/1b1q1ppk/p3n2p/1p2pN2/2p1P3/P5QN/BPPB2PP/R4RK1 b - - 0 8",
+        "parentNodeId": "FU",
+        "san": "dxe4"
+      },
+      "U5": {
+        "adjacentNodeIds": [
+          "FU"
+        ],
+        "comments": [
+          {
+            "text": "Since after this recapture...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1r2/1b1q1ppk/p3nn1p/1p2pN2/2p1P3/P2P2QN/BPPB2PP/R4RK1 b - - 0 7",
+        "parentNodeId": "qm",
+        "san": "fxe4"
+      },
+      "Z7": {
+        "adjacentNodeIds": [
+          "nO"
+        ],
+        "comments": [
+          {
+            "text": "And after the bishop takes, ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1r2/3q1ppk/p3nn1p/1p1bpN2/2p5/P2P2QN/BPPB1PPP/R4RK1 w - - 0 7",
+        "parentNodeId": "7W",
+        "san": "Bxd5"
+      },
+      "bP": {
+        "adjacentNodeIds": [
+          "Ry"
+        ],
+        "comments": [
+          {
+            "text": "When White recaptures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1b1q1ppp/p2p1n2/1p2pNB1/2P1P3/PB3Q2/1PP2PPP/R4RK1 b - - 0 4",
+        "parentNodeId": "Il",
+        "san": "Bxg5"
+      },
+      "hp": {
+        "adjacentNodeIds": [
+          "Il"
+        ],
+        "comments": [
+          {
+            "text": "What if White takes?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1b1q1ppp/p2pnn2/1p2pNN1/2P1P3/PB3Q2/1PPB1PPP/R4RK1 b - - 0 3",
+        "parentNodeId": "i",
+        "san": "dxc4"
+      },
+      "i": {
+        "adjacentNodeIds": [
+          "Kx",
+          "hp"
+        ],
+        "comments": [
+          {
+            "text": "c4! \n\nNow, it looks like c4 loses a pawn.\n\nBut the key here is realizing that if dxc4, the e-pawn becomes super weak.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1b1q1ppp/p2pnn2/1p2pNN1/2p1P3/PB1P1Q2/1PPB1PPP/R4RK1 w - - 0 3",
+        "parentNodeId": "n",
+        "san": "c4"
+      },
+      "n": {
+        "adjacentNodeIds": [
+          "i"
+        ],
+        "comments": [
+          {
+            "text": "GM Aram brought his queen out.\n\nBut this does two things: it removes the defense of the d2 bishop, and it places the queen opposite the b7 bishop. \n\nSo Magnus in this position found an incredible pawn break:",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1b1q1ppp/p2pnn2/1pp1pNN1/4P3/PB1P1Q2/1PPB1PPP/R4RK1 b - - 1 2",
+        "parentNodeId": "q",
+        "san": "Qf3"
+      },
+      "nO": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White can at least defend that bishop on d2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1r2/3q1ppk/p3nn1p/1p1bpN2/2p5/P2P2QN/BPPB1PPP/3R1RK1 b - - 1 7",
+        "parentNodeId": "Z7",
+        "san": "Rad1"
+      },
+      "q": {
+        "adjacentNodeIds": [
+          "n"
+        ],
+        "comments": [
+          {
+            "text": "Black played c5, controlling the d4 square and expanding on the queenside. \n\nThis is the first lesson Magnus gives us: we can control key central squares with our pawns!  \n\nBesides, it is important to start learning the pawn play associated to our openings. In this structure, arising from a Ruy Lopez, c5 is a standard move by Black. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d4"
+              ]
+            }
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/61939271665?tab=analysis",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2b1rk1/1b1q1ppp/p2pnn2/1pp1pNN1/4P3/PB1P4/1PPB1PPP/R2Q1RK1 w - c6 0 2",
+        "parentNodeId": "0",
+        "san": "c5"
+      },
+      "qm": {
+        "adjacentNodeIds": [
+          "U5"
+        ],
+        "comments": [
+          {
+            "text": "But Magnus saw the right time to release the tension between the pawns...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2b1r2/1b1q1ppk/p3nn1p/1p2pN2/2p1p3/P2P1PQN/BPPB2PP/R4RK1 w - - 0 7",
+        "parentNodeId": "tL",
+        "san": "dxe4"
+      },
+      "tL": {
+        "adjacentNodeIds": [
+          "qm"
+        ],
+        "comments": [
+          {
+            "text": "White played f3, trying to hold his structure together...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f3",
+                "e4",
+                "d3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2b1r2/1b1q1ppk/p3nn1p/1p1ppN2/2p1P3/P2P1PQN/BPPB2PP/R4RK1 b - - 0 6",
+        "parentNodeId": "88",
+        "san": "f3"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

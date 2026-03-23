@@ -1,0 +1,82 @@
+{
+  "id": "5c74679b-63b1-43a1-8f77-d155880f2f53",
+  "name": "Quiz 39",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black captures on e5.\n\nWhat's the best move for White?",
+    "answers": [
+      {
+        "text": "f4",
+        "feedback": {
+          "text": "Correct! Before we take the rook in the corner, we have to force the knight to move.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "e5",
+              "a8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "attacking the knight.",
+        "afterMoveFen": "r2qk1nr/4ppb1/p2p2p1/1p2n2p/3B1P1P/2N4P/PPPQ2B1/R3K2R b KQkq f3 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Bxa8",
+        "feedback": {
+          "text": "After ...Qxa8, our rook will be under attack and a fork on f3 will be threatened!\n\nWe would have to go O-O-O and still lose the bishop on d4 after ...Nf3.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d8-a8",
+              "e5-f3",
+              "e1-c1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h1",
+              "d4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "grabbing the exchange on a8.",
+        "afterMoveFen": "B2qk1nr/4ppb1/p2p2p1/1p2n2p/3B3P/2N4P/PPPQ1P2/R3K2R b KQk - 0 2"
+      },
+      {
+        "text": "Bxe5",
+        "feedback": {
+          "text": "This is a way to get an exchange, but Black's bishop will be extremely active.\n\nThere's an even better way to achieve what we want!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g7-e5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "capturing the knight on e5.",
+        "afterMoveFen": "r2qk1nr/4ppb1/p2p2p1/1p2B2p/7P/2N4P/PPPQ1PB1/R3K2R b KQkq - 0 2"
+      }
+    ],
+    "positionFen": "r2qk1nr/3nppb1/p2p2p1/1p2P2p/3B3P/2N4P/PPPQ1PB1/R3K2R b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxe5",
+      "afterMoveFen": "r2qk1nr/4ppb1/p2p2p1/1p2n2p/3B3P/2N4P/PPPQ1PB1/R3K2R w KQkq - 0 2"
+    }
+  },
+  "drill": null
+}

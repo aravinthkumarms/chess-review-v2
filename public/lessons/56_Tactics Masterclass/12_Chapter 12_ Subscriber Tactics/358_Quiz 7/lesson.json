@@ -1,0 +1,71 @@
+{
+  "id": "d1735e5b-4aae-4562-a843-12790880a594",
+  "name": "Quiz 7",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "When our opponents have more space, we want to challenge the center and go for pawn breaks. \n\nIs the pawn break …d6 therefore good in this position?",
+    "answers": [
+      {
+        "text": "No, it loses.",
+        "feedback": {
+          "text": "Correct. White can capture on d6 and hit both the queen on c7 and the bishop on g7.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d7-d6",
+              "e5-d6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g7",
+              "c7",
+              "d6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No. We need another pawn break.",
+        "feedback": {
+          "text": "The ...d6-pawn break is enough to win or lose the game. You decide which one!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, it's the best plan and it doesn't have tactical drawbacks.",
+        "feedback": {
+          "text": "White actually has a tactic that wins for them!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1b1k2r/ppqp1pbp/2n1p1p1/2pnP3/8/1P1P1NP1/PBP2PBP/RN1Q1RK1 w kq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d7-d6"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Re1",
+      "afterMoveFen": "r1b1k2r/ppqp1pbp/2n1p1p1/2pnP3/8/1P1P1NP1/PBP2PBP/RN1QR1K1 b kq - 2 1"
+    }
+  },
+  "drill": null
+}

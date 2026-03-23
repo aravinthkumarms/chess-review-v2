@@ -1,0 +1,68 @@
+{
+  "id": "d6653703-fc07-4ca3-88c1-049fc053ad8e",
+  "name": "Quiz 2 coordinates",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "On the board, there's a square highlighted in green. \n\nWhat's the coordinate?",
+    "answers": [
+      {
+        "text": "c3",
+        "feedback": {
+          "text": "That's right. It's the c-file, and also the 3rd rank. So it's c3.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "c3"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "B12",
+        "feedback": {
+          "text": "B12 is an important vitamin for you, but there aren't 12 squares in any row or column in chess, so numbers higher than 8 can never be a square.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "g8",
+        "feedback": {
+          "text": "The g8-square is the one I higlighted just now. It's on Black's side of the board because it's on the 8th rank.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "g8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "c3"
+      ]
+    },
+    "contextMove": {
+      "san": "Nf6",
+      "afterMoveFen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

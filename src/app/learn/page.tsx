@@ -3,7 +3,7 @@ import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import LessonPlayer from '@/components/LessonPlayer';
 import { LessonData } from '@/hooks/useLessonLogic';
-import { getLocalApiBase } from '@/lib/api';
+import { getLocalApiBase, fetchWithFallback } from '@/lib/api';
 
 interface CourseStudy {
     id: string;
@@ -119,9 +119,8 @@ function LearnContent() {
 
 
     useEffect(() => {
-        const localApi = getLocalApiBase();
         // Fetch courses
-        fetch(`${localApi}/api/lessons/index`)
+        fetchWithFallback('/api/lessons/index')
             .then(res => {
                 if (!res.ok) throw new Error('Could not load course library.');
                 return res.json();
@@ -141,7 +140,8 @@ function LearnContent() {
                 setLoading(false);
             });
 
-        // Fetch user progress
+        // Fetch user progress (no static fallback for progress)
+        const localApi = getLocalApiBase();
         fetch(`${localApi}/api/progress`)
             .then(res => res.ok ? res.json() : null)
             .then(data => {
@@ -158,8 +158,7 @@ function LearnContent() {
         if (!activeCourseId) return;
 
         setFetchingDetails(true);
-        const localApi = getLocalApiBase();
-        fetch(`${localApi}/api/lessons/index?courseId=${encodeURIComponent(activeCourseId)}`)
+        fetchWithFallback(`/api/lessons/index?courseId=${encodeURIComponent(activeCourseId)}`)
             .then(res => res.ok ? res.json() : null)
             .then(data => {
                 if (data && data.chapters) {
@@ -187,11 +186,10 @@ function LearnContent() {
         if (!activeCourse || !activeCourse.chapters) return;
 
         const allStudies = activeCourse.chapters.flatMap(ch => ch.studies);
-        const localApi = getLocalApiBase();
         allStudies.forEach(study => {
             // Only fetch if we don't already have a valid count
             if (!studyVarCounts[study.id] && !study.variationCount) {
-                fetch(`${localApi}/api/lessons/${study.path}`)
+                fetchWithFallback(`/api/lessons/${study.path}`)
                     .then(r => r.ok ? r.json() : null)
                     .then(data => {
                         if (!data?.moves) return;
@@ -273,8 +271,7 @@ function LearnContent() {
         }
 
         try {
-            const localApi = getLocalApiBase();
-            const res = await fetch(`${localApi}/api/lessons/${study.path}`);
+            const res = await fetchWithFallback(`/api/lessons/${study.path}`);
             if (!res.ok) throw new Error('Failed to load lesson data.');
             const data = await res.json();
             const activeCourse = courses.find(c => c.id === activeCourseId);

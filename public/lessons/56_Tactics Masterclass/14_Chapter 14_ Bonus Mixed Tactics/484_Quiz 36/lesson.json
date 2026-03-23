@@ -1,0 +1,72 @@
+{
+  "id": "1235d751-8522-4a7d-8e82-f4c127bc046a",
+  "name": "Quiz 36",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Rc5.\n\nWhich queen move is a blunder?",
+    "answers": [
+      {
+        "text": "Qd7",
+        "feedback": {
+          "text": "Correct! White is going to capture on b5 anyway, and with the queen on d7 the knight on c6 will be pinned and won't be able to move.",
+          "arrows": {
+            "threats": [
+              "c6-e7"
+            ],
+            "opportunities": [
+              "d3-b5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c6",
+              "b5",
+              "d7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "sliding the queen to d7.",
+        "afterMoveFen": "r5k1/p1bq1pp1/2n2n1p/1pR5/NP1p4/PP1B1N1P/KB3PP1/4R3 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Qd6",
+        "feedback": {
+          "text": "You are going to lose the pawn on b5 anyway. This queen move is okay for Black.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "moving the queen to d6.",
+        "afterMoveFen": "r5k1/p1b2pp1/2nq1n1p/1pR5/NP1p4/PP1B1N1P/KB3PP1/4R3 w - - 3 2"
+      },
+      {
+        "text": "Qd8",
+        "feedback": {
+          "text": "This move is passive, but not a blunder. You won't lose any pieces!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "escaping all the way to d8.",
+        "afterMoveFen": "r2q2k1/p1b2pp1/2n2n1p/1pR5/NP1p4/PP1B1N1P/KB3PP1/4R3 w - - 3 2"
+      }
+    ],
+    "positionFen": "r5k1/p1b2pp1/2n2n1p/1p1q4/NP1p4/PP1B1N1P/KB3PP1/2R1R3 w - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "d5"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Rc5",
+      "afterMoveFen": "r5k1/p1b2pp1/2n2n1p/1pRq4/NP1p4/PP1B1N1P/KB3PP1/4R3 b - - 2 1"
+    }
+  },
+  "drill": null
+}

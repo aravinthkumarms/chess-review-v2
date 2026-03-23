@@ -1,0 +1,93 @@
+{
+  "id": "f83178d9-4e89-4121-aaeb-71361367de0b",
+  "name": "Quiz 46",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White captures on d4.\n\nIs there a problem with ...Qxb2?",
+    "answers": [
+      {
+        "text": "Yes, Nd5 wins for White.",
+        "feedback": {
+          "text": "Exactly! Nd5 is a discovered attack on the queen.",
+          "arrows": {
+            "threats": [
+              "b6-b2"
+            ],
+            "opportunities": [
+              "c3-d5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, Ne4 wins for White.",
+        "feedback": {
+          "text": "Ne4 doesn't win for White. The knight cannot jump to the c7-square.",
+          "arrows": {
+            "threats": [
+              "c3-e4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, Rb1 wins for White",
+        "feedback": {
+          "text": "The queen will escape to c2 after Rb1.",
+          "arrows": {
+            "threats": [
+              "a1-b1"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, it's a free pawn.",
+        "feedback": {
+          "text": "White has discovered attack tactics with their knight and bishop combo!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r3kb1r/pp3ppp/1qb1p3/4P3/3n2Q1/2N1B3/PP3PPP/R4RK1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "b6-b2"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Bxd4",
+      "afterMoveFen": "r3kb1r/pp3ppp/1qb1p3/4P3/3B2Q1/2N5/PP3PPP/R4RK1 b - - 0 1"
+    }
+  },
+  "drill": null
+}

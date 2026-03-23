@@ -1,0 +1,59 @@
+{
+  "id": "ee4eea99-333f-4ab3-972c-fed8f6c137c8",
+  "name": "Quiz 5",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays b4.\n\nThere's a straightforward winning combination here that combines a fork with deflection.\n\nCan you see it?",
+    "answers": [
+      {
+        "text": "Ne1+",
+        "feedback": {
+          "text": "Correct! White either loses the queen or we break through with ...Qxf2.",
+          "arrows": {
+            "threats": [
+              "f1-e1"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "f2",
+              "g2",
+              "c2"
+            ],
+            "opportunities": [
+              "f6",
+              "f8",
+              "e1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1b2r2/p5bk/3p1qp1/2pP3p/1P2p3/4N1PP/P1Q1BPK1/1RB1nR2 w - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Is there a way to force White's rook off the defence of the f2-pawn?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1b2r2/p5bk/3p1qp1/2pP3p/4p3/4NnPP/PPQ1BPK1/1RB2R2 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "b4",
+      "afterMoveFen": "r1b2r2/p5bk/3p1qp1/2pP3p/1P2p3/4NnPP/P1Q1BPK1/1RB2R2 b - b3 0 1"
+    }
+  },
+  "drill": null
+}

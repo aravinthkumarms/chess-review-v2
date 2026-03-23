@@ -1,0 +1,53 @@
+{
+  "id": "7cca1fbe-6a95-43ce-9500-5bdc0d5699ec",
+  "name": "Quiz 2",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It's Black to move. Black is up a pawn and an exchange. \n\nWhich move seems to be the best strategy?",
+    "answers": [
+      {
+        "text": "Bg7",
+        "feedback": {
+          "text": "With the bishop on c3, Ne4, forking queen and bishop, is one of White's ideas. Bringing it back to g7 prevents any tactics.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "bringing the bishop closer to home, because it's undefended on c3",
+        "afterMoveFen": "r4rk1/pp3pb1/4b3/6p1/2P5/1P3Nq1/P3QNB1/3R2K1 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rad8",
+        "feedback": {
+          "text": "This move allows Ne4.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "bringing the most inactive piece into the game, and offering to trade.",
+        "afterMoveFen": "3r1rk1/pp3p2/4b3/6p1/2P5/1Pb2Nq1/P3QNB1/3R2K1 w - - 3 2"
+      },
+      {
+        "text": "Rfe8",
+        "feedback": {
+          "text": "This move allows Ne4 and doesn't really threaten a strong discovered attack.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "setting up a discovered attack on the queen!",
+        "afterMoveFen": "r3r1k1/pp3p2/4b3/6p1/2P5/1Pb2Nq1/P3QNB1/3R2K1 w - - 3 2"
+      }
+    ],
+    "positionFen": "r4rk1/pp3p2/4b3/6p1/2P5/1PbN1Nq1/P3Q1B1/3R2K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nf2",
+      "afterMoveFen": "r4rk1/pp3p2/4b3/6p1/2P5/1Pb2Nq1/P3QNB1/3R2K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

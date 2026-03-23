@@ -1,0 +1,48 @@
+{
+  "id": "f9192dc4-d559-4800-9a82-e019f4bfdca1",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "In chess, beginners see a check and they play it. \n\nIs Re1+ a good idea, or do you just waste time?",
+    "answers": [
+      {
+        "text": "Re1+ is the best move because it either forces …Be6 or …Kf8.",
+        "feedback": {
+          "text": "Exactly! Black has to either lose the c6-pawn or lose the castling rights, which is bad for the development.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Re1+ isn’t the best move because …Be6 or …Kf8 are moves that don’t hurt Black at all.",
+        "feedback": {
+          "text": "Try to evaluate all of Black's responses to Re1+.  Which are the forced moves? And could we win some material after Black's response?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2qk2r/pp1b1ppp/2B2n2/3p4/5B2/2Q5/PPP2PPP/2KR2NR b kq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d1-e1"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "bxc6",
+      "afterMoveFen": "r2qk2r/p2b1ppp/2p2n2/3p4/5B2/2Q5/PPP2PPP/2KR2NR w kq - 0 2"
+    }
+  },
+  "drill": null
+}

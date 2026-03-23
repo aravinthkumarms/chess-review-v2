@@ -1,0 +1,65 @@
+{
+  "id": "6c95db13-84c2-431b-b999-f5cce353953a",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gives a check on f4. \n\nIs there something inherently wrong with capturing the knight now?",
+    "answers": [
+      {
+        "text": "Yes, Black would be winning after that.",
+        "feedback": {
+          "text": "Exactly! Let's not capture the knight. Black would go for ...Rg8+ next and our king would get checkmated.",
+          "arrows": {
+            "threats": [
+              "g3-f4"
+            ],
+            "opportunities": [
+              "a8-g8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, Black has a draw.",
+        "feedback": {
+          "text": "There is a much more serious threat after capturing the knight.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, we'll be winning anyways.",
+        "feedback": {
+          "text": "Is opening up the g-file a good idea?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r7/3Q3R/2P2kn1/pp1Pp3/8/3q2P1/PP1p2K1/3B4 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nf4+",
+      "afterMoveFen": "r7/3Q3R/2P2k2/pp1Pp3/5n2/3q2P1/PP1p2K1/3B4 w - - 2 2"
+    }
+  },
+  "drill": null
+}

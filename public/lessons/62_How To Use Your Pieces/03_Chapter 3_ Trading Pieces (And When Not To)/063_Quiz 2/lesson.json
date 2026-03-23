@@ -1,0 +1,43 @@
+{
+  "id": "3163df20-8c09-4e25-bcd4-f962e513ab42",
+  "name": "Quiz 2",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black's knight is quite good on d5. \n\nShould you trade it or avoid trading pieces?",
+    "answers": [
+      {
+        "text": "Nc3",
+        "feedback": {
+          "text": "You should challenge it with your knight. \n\nWith this move you add an attacker, and increase pressure along the diagonal. You shouldn't get rid of your light-squared bishop for the knight.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "proposing a trade.",
+        "afterMoveFen": "r2q1rk1/pp2bppp/4p1n1/3n4/3P4/2N2B1P/PP3PP1/R1BQR1K1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Bxd5",
+        "feedback": {
+          "text": "This move relinquishes the light-squared bishop. \n\nNc3, provoking Nxc3, not only achieves the trade, but also fixes your structure after bxc3.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "trading on d5.",
+        "afterMoveFen": "r2q1rk1/pp2bppp/4p1n1/3B4/3P4/7P/PP2NPP1/R1BQR1K1 b - - 0 2"
+      }
+    ],
+    "positionFen": "r2q1rk1/pp2bppp/1n2p1n1/3P4/3P4/5B1P/PP2NPP1/R1BQR1K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxd5",
+      "afterMoveFen": "r2q1rk1/pp2bppp/4p1n1/3n4/3P4/5B1P/PP2NPP1/R1BQR1K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

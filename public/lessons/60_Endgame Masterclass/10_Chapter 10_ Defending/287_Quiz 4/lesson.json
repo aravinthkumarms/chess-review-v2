@@ -1,0 +1,92 @@
+{
+  "id": "bce85e5d-bcaa-4630-9e97-756e15221267",
+  "name": "Quiz 4 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black moved out of the check. \n\nIn this endgame, Black is up a pawn and the d-pawn looks pretty dangerous. \n\nHow should we defend?",
+    "answers": [
+      {
+        "text": "We'll keep giving checks with the rook (Ra4+), Black cannot get away from them.",
+        "feedback": {
+          "text": "Good job! Black cannot move away from the d4-pawn, since we will just capture it and the resulting position would be an easy draw.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h4-d4",
+              "h5-h4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "We should first trade the pawns on the queenside with a3. The resulting position will be a draw.",
+        "feedback": {
+          "text": "The d-pawn cannot be stopped after the trade, since our king is stuck on the a-file.",
+          "arrows": {
+            "threats": [
+              "b8-b1"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "d4",
+              "b8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "We'll go after the b4-pawn with Rh2 and Rc2. The passed a-pawn will provide enough compensation against Black's passed d-pawn.",
+        "feedback": {
+          "text": "This plan is too slow! Black's passed d-pawn is too close to the promotion.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1r6/8/8/3k3R/1p1p4/1K6/P7/8 b - - 1 1",
+    "arrows": {
+      "threats": [
+        "d4-d1"
+      ],
+      "opportunities": []
+    },
+    "highlights": {
+      "threats": [
+        "b4",
+        "d4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Ke4",
+      "afterMoveFen": "1r6/8/8/7R/1p1pk3/1K6/P7/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

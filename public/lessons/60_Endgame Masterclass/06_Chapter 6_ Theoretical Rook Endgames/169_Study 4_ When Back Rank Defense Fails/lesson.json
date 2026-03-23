@@ -1,0 +1,1408 @@
+{
+  "id": "072b1d53-426b-413e-b96b-bb22a8f2ea6e",
+  "name": "Study 4: When Back Rank Defense Fails ",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "k"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to Study 4 of Chapter 6!\n\nIn this study, we'll take a look at an example of the back-rank defense failing and how to defend on the short side, rather than on the long side.\n\nWe took an example from a game played between Michael Adams and Alexey Dreev in 2007.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R6/2p5/2k5/8/6r1/2K5/8 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "08": {
+        "adjacentNodeIds": [
+          "k7"
+        ],
+        "comments": [
+          {
+            "text": "The entire point of Ra1 is to check the king if it tries to move and make pawn progress.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-c3",
+                "c3-c2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7R/8/8/8/2p5/8/K2k4/2r5 w - - 14 11",
+        "parentNodeId": "e0",
+        "san": "Kd2"
+      },
+      "0K": {
+        "adjacentNodeIds": [
+          "Ii"
+        ],
+        "comments": [
+          {
+            "text": "But Black has the option of offering a trade of rooks and thus removing the white rook from the b-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/8/2p5/2k1K3/1r6 w - - 4 14",
+        "parentNodeId": "O0",
+        "san": "Rb1"
+      },
+      "0c": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But after ...Rb2, White has no moves.\n\nBlack is threatening promotion with double check.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c2-c1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R5/8/8/8/8/1rpK4/1k6 w - - 4 19",
+        "parentNodeId": "YW",
+        "san": "Rb2"
+      },
+      "11": {
+        "adjacentNodeIds": [
+          "vZ"
+        ],
+        "comments": [
+          {
+            "text": "In the game, Rh4 was played. \n\nPerhaps Adams saw that Black occupied the 3rd rank, so he couldn't set up a book Philidor. \n\nHowever, this move loses.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "Here's the link to the game: https://www.chessgames.com/perl/chessgame?gid=1479633",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/1kp4R/6r1/2K5/8 b - - 3 5",
+        "parentNodeId": "TR",
+        "san": "Rh4"
+      },
+      "1C": {
+        "adjacentNodeIds": [
+          "O0"
+        ],
+        "comments": [
+          {
+            "text": "...But the king can hide on c2 now.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R6/8/8/8/2p5/2k1K3/2r5 w - - 2 13",
+        "parentNodeId": "Vz",
+        "san": "Kc2"
+      },
+      "2D": {
+        "adjacentNodeIds": [
+          "uj"
+        ],
+        "comments": [
+          {
+            "text": "Still keeping the rook on the fourth rank, Adams played Rf4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/1kp5/5R2/6r1/2K5/8 b - - 1 3",
+        "parentNodeId": "TS",
+        "san": "Rf4"
+      },
+      "3T": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Now there is no stopping promotion.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c3-c2",
+                "c2-c1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/2p5/1k6/3K4 w - - 1 11",
+        "parentNodeId": "UO",
+        "san": "Kb2"
+      },
+      "3b": {
+        "adjacentNodeIds": [
+          "ix"
+        ],
+        "comments": [
+          {
+            "text": "The rook defends.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1Kpr4/7R/2k5 w - - 8 17",
+        "parentNodeId": "Fv",
+        "san": "Rd3"
+      },
+      "4A": {
+        "adjacentNodeIds": [
+          "te"
+        ],
+        "comments": [
+          {
+            "text": "White can get closer with the king...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R5/8/8/8/1rpK4/8/2k5 b - - 9 16",
+        "parentNodeId": "vl",
+        "san": "Kd3"
+      },
+      "4x": {
+        "adjacentNodeIds": [
+          "6z"
+        ],
+        "comments": [
+          {
+            "text": "But Black simply preserves the rook on the b-file.\n\nNow the black king has room to move to the c1-square and Black has achieved the optimal setup.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c2-c1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/8/8/8/8/1rp5/2k1K3/8 w - - 6 15",
+        "parentNodeId": "Ii",
+        "san": "Rb3"
+      },
+      "6K": {
+        "adjacentNodeIds": [
+          "A6"
+        ],
+        "comments": [
+          {
+            "text": "Which lands on the a2-square.\n\nFrom this square, the white king will do a great job restricting the black king from reaching the b2-square.\n\nIt will only be able to move forward via d2, which is vulnerable to checks on the second rank, as you will see.",
+            "arrows": {
+              "threats": [
+                "c3-b2"
+              ],
+              "opportunities": [
+                "c3-d2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/2k5/K7/6r1 b - - 11 9",
+        "parentNodeId": "aB",
+        "san": "Ka2"
+      },
+      "6z": {
+        "adjacentNodeIds": [
+          "vl"
+        ],
+        "comments": [
+          {
+            "text": "Keeping the rook on the c-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R5/8/8/8/1rp5/2k1K3/8 b - - 7 15",
+        "parentNodeId": "4x",
+        "san": "Rc7"
+      },
+      "82": {
+        "adjacentNodeIds": [
+          "Hi"
+        ],
+        "comments": [
+          {
+            "text": "The king moves.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/2p5/3k4/K6R/2r5 w - - 16 12",
+        "parentNodeId": "k7",
+        "san": "Kd3"
+      },
+      "A6": {
+        "adjacentNodeIds": [
+          "e0"
+        ],
+        "comments": [
+          {
+            "text": "Now if Black tries to place the rook on c1...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/2k5/K7/2r5 w - - 12 10",
+        "parentNodeId": "6K",
+        "san": "Rc1"
+      },
+      "Ak": {
+        "adjacentNodeIds": [
+          "MF"
+        ],
+        "comments": [
+          {
+            "text": "Not going away from the pawn, the king stayed on the c-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/1kp4R/8/6r1/2K5 b - - 5 6",
+        "parentNodeId": "vZ",
+        "san": "Kc1"
+      },
+      "Bl": {
+        "adjacentNodeIds": [
+          "UO"
+        ],
+        "comments": [
+          {
+            "text": "And Black happily trades.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kp5/8/2Kr4 w - - 0 10",
+        "parentNodeId": "Tb",
+        "san": "Rxd1+"
+      },
+      "Bv": {
+        "adjacentNodeIds": [
+          "ti"
+        ],
+        "comments": [
+          {
+            "text": "White can try to stay on the back rank now, but...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kp5/6r1/2K2R2 b - - 1 8",
+        "parentNodeId": "m2",
+        "san": "Rf1"
+      },
+      "C1": {
+        "adjacentNodeIds": [
+          "hr"
+        ],
+        "comments": [
+          {
+            "text": "White can't do much except from keeping the rook on the c-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R5/8/8/2p5/8/1k2K3/2r5 b - - 15 11",
+        "parentNodeId": "rT",
+        "san": "Rc7"
+      },
+      "Ck": {
+        "adjacentNodeIds": [
+          "gG"
+        ],
+        "comments": [
+          {
+            "text": "The king can try to stay close.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R5/8/8/8/1r6/2p1K3/2k5 b - - 1 17",
+        "parentNodeId": "te",
+        "san": "Ke2"
+      },
+      "DK": {
+        "adjacentNodeIds": [
+          "Ma"
+        ],
+        "comments": [
+          {
+            "text": "Check!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/1k6/6r1/2K5 b - - 7 7",
+        "parentNodeId": "Er",
+        "san": "Rb8+"
+      },
+      "DY": {
+        "adjacentNodeIds": [
+          "bq"
+        ],
+        "comments": [
+          {
+            "text": "Black might try to offer an exchange again...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/2p5/K1k5/3r3R w - - 4 15",
+        "parentNodeId": "hG",
+        "san": "Rd1"
+      },
+      "Dk": {
+        "adjacentNodeIds": [
+          "qG"
+        ],
+        "comments": [
+          {
+            "text": "A natural continuation by Black, forcing the white king to the back rank.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4R3/8/8/8/1kp5/8/2K3r1/8 w - - 4 6",
+        "parentNodeId": "Jx",
+        "san": "Rg2+"
+      },
+      "E": {
+        "adjacentNodeIds": [
+          "TS"
+        ],
+        "comments": [
+          {
+            "text": "And Adams brought the rook to the h4-square. \n\nFor the moment, the Black king couldn't move forward.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b5"
+              ],
+              "opportunities": [
+                "h4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/2p5/1k6/7R/6r1/2K5/8 b - - 4 2",
+        "parentNodeId": "Z",
+        "san": "Rh4"
+      },
+      "E5": {
+        "adjacentNodeIds": [
+          "yj"
+        ],
+        "comments": [
+          {
+            "text": "The only move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/2k5/4K3/6r1 b - - 11 9",
+        "parentNodeId": "YS",
+        "san": "Ke2"
+      },
+      "Ej": {
+        "adjacentNodeIds": [
+          "bD"
+        ],
+        "comments": [
+          {
+            "text": "If White tries to defend...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kp5/r7/1K3R2 b - - 3 9",
+        "parentNodeId": "ti",
+        "san": "Kb1"
+      },
+      "Er": {
+        "adjacentNodeIds": [
+          "DK"
+        ],
+        "comments": [
+          {
+            "text": "Once the black king comes forward...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4R3/8/8/8/2p5/1k6/6r1/2K5 w - - 6 7",
+        "parentNodeId": "qG",
+        "san": "Kb3"
+      },
+      "Fv": {
+        "adjacentNodeIds": [
+          "3b"
+        ],
+        "comments": [
+          {
+            "text": "There is room for the white king to attack the pawn on c3!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1Kp5/7R/2kr4 b - - 7 16",
+        "parentNodeId": "v4",
+        "san": "Kb3"
+      },
+      "H9": {
+        "adjacentNodeIds": [
+          "Tb"
+        ],
+        "comments": [
+          {
+            "text": "However, here Black has a winning check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kpR4/8/2K3r1 w - - 2 9",
+        "parentNodeId": "P5",
+        "san": "Rg1+"
+      },
+      "Hi": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And the rook is comfortably far to give checks without being attacked.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/2p5/3k3R/K7/2r5 b - - 17 12",
+        "parentNodeId": "82",
+        "san": "Rh3+"
+      },
+      "Ii": {
+        "adjacentNodeIds": [
+          "4x"
+        ],
+        "comments": [
+          {
+            "text": "Of course, trading is out of the question, so White can move back to the c-file...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/8/8/8/8/2p5/2k1K3/1r6 b - - 5 14",
+        "parentNodeId": "0K",
+        "san": "Rc8"
+      },
+      "Jx": {
+        "adjacentNodeIds": [
+          "Dk"
+        ],
+        "comments": [
+          {
+            "text": "What Adams should have done is move to the eighth rank and set up a short-side defense!\n\nIt consists of the rook giving as many checks as possible \"from behind\" and the king being on the a-, b- or c-file.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-c4",
+                "c4-c1",
+                "c1-a1",
+                "a1-a4",
+                "e8-b8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4R3/8/8/8/1kp5/6r1/2K5/8 b - - 3 5",
+        "parentNodeId": "TR",
+        "san": "Re8"
+      },
+      "MF": {
+        "adjacentNodeIds": [
+          "d7",
+          "ta"
+        ],
+        "comments": [
+          {
+            "text": "White resigned at this point. \n\nBut what if White had tried setting up in the back rank?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/2p4R/1k6/6r1/2K5 w - - 6 7",
+        "parentNodeId": "Ak",
+        "san": "Kb3"
+      },
+      "Ma": {
+        "adjacentNodeIds": [
+          "Ri",
+          "sd"
+        ],
+        "comments": [
+          {
+            "text": "Moving to the a-file is pointless, as more checks would follow...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/2k5/6r1/2K5 w - - 8 8",
+        "parentNodeId": "DK",
+        "san": "Kc3"
+      },
+      "O0": {
+        "adjacentNodeIds": [
+          "0K"
+        ],
+        "comments": [
+          {
+            "text": "Trying to keep the rook on the b-file and restrict the black king.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/8/2p5/2k1K3/2r5 b - - 3 13",
+        "parentNodeId": "1C",
+        "san": "Rb8"
+      },
+      "Om": {
+        "adjacentNodeIds": [
+          "Sv"
+        ],
+        "comments": [
+          {
+            "text": "Black might move back to d1 to meet Rh3+ with ...Rd3.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d1-d3",
+                "h8-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "7R/8/8/8/2p5/2k5/K7/3r4 w - - 14 11",
+        "parentNodeId": "e0",
+        "san": "Rd1"
+      },
+      "P5": {
+        "adjacentNodeIds": [
+          "H9"
+        ],
+        "comments": [
+          {
+            "text": "Staying on the third rank and trying to pin the c-pawn is one of the options.\n\nAnother option, Rh1, loses to ...Ra2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kpR4/6r1/2K5 b - - 1 8",
+        "parentNodeId": "vX",
+        "san": "Rd3"
+      },
+      "Ri": {
+        "adjacentNodeIds": [
+          "aB"
+        ],
+        "comments": [
+          {
+            "text": "And now the short-side defense!\n\nInstead of going to d1, the king evades checkmate on the b1-square.\n\nYou will see the difference between the two and why this is important.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/2k5/6r1/1K6 b - - 9 8",
+        "parentNodeId": "Ma",
+        "san": "Kb1"
+      },
+      "Rq": {
+        "adjacentNodeIds": [
+          "uy"
+        ],
+        "comments": [
+          {
+            "text": "Moving forward with the king and making room for the pawn to advance.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/8/K1k5/3r4 w - - 16 12",
+        "parentNodeId": "Sv",
+        "san": "Kc2"
+      },
+      "Sv": {
+        "adjacentNodeIds": [
+          "Rq"
+        ],
+        "comments": [
+          {
+            "text": "But now White can simply move back and control the b-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/2k5/K7/3r4 b - - 15 11",
+        "parentNodeId": "Om",
+        "san": "Rb8"
+      },
+      "TR": {
+        "adjacentNodeIds": [
+          "Jx",
+          "11"
+        ],
+        "comments": [
+          {
+            "text": "But here came the black king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/1kp1R3/6r1/2K5/8 w - - 2 5",
+        "parentNodeId": "sn",
+        "san": "Kb4"
+      },
+      "TS": {
+        "adjacentNodeIds": [
+          "2D"
+        ],
+        "comments": [
+          {
+            "text": "However, the pawn could.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/1kp5/7R/6r1/2K5/8 w - - 0 3",
+        "parentNodeId": "E",
+        "san": "c5"
+      },
+      "Tb": {
+        "adjacentNodeIds": [
+          "Bl"
+        ],
+        "comments": [
+          {
+            "text": "The rook is forced to block...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kp5/8/2KR2r1 b - - 3 9",
+        "parentNodeId": "H9",
+        "san": "Rd1"
+      },
+      "UO": {
+        "adjacentNodeIds": [
+          "3T"
+        ],
+        "comments": [
+          {
+            "text": "After the king recaptures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kp5/8/3K4 b - - 0 10",
+        "parentNodeId": "Bl",
+        "san": "Kxd1"
+      },
+      "Vj": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The rook is captured and Black wins.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1k6/2pK4/5r2 w - - 0 12",
+        "parentNodeId": "zg",
+        "san": "Rxf1"
+      },
+      "Vz": {
+        "adjacentNodeIds": [
+          "1C"
+        ],
+        "comments": [
+          {
+            "text": "Yes, White can try to give checks...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R6/8/8/8/2p5/1k2K3/2r5 b - - 1 12",
+        "parentNodeId": "hr",
+        "san": "Rb7+"
+      },
+      "YS": {
+        "adjacentNodeIds": [
+          "E5"
+        ],
+        "comments": [
+          {
+            "text": "Black gives a check, and now the white king is forced to e2.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/2k5/8/3K2r1 w - - 10 9",
+        "parentNodeId": "sd",
+        "san": "Rg1+"
+      },
+      "YW": {
+        "adjacentNodeIds": [
+          "0c"
+        ],
+        "comments": [
+          {
+            "text": "One last attempt.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R5/8/8/8/1r6/2pK4/1k6 b - - 3 18",
+        "parentNodeId": "gG",
+        "san": "Kd2"
+      },
+      "Z": {
+        "adjacentNodeIds": [
+          "E"
+        ],
+        "comments": [
+          {
+            "text": "The king moved out of the way for the pawn to start marching.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c6-c5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/7R/2p5/1k6/8/6r1/2K5/8 w - - 3 2",
+        "parentNodeId": "k",
+        "san": "Kb5"
+      },
+      "aB": {
+        "adjacentNodeIds": [
+          "6K"
+        ],
+        "comments": [
+          {
+            "text": "Black gives another check here, forcing the king away...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/2k5/8/1K4r1 w - - 10 9",
+        "parentNodeId": "Ri",
+        "san": "Rg1+"
+      },
+      "bD": {
+        "adjacentNodeIds": [
+          "pH"
+        ],
+        "comments": [
+          {
+            "text": "Check!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1k6/r1p5/1K3R2 w - - 0 10",
+        "parentNodeId": "Ej",
+        "san": "c2+"
+      },
+      "bq": {
+        "adjacentNodeIds": [
+          "v4"
+        ],
+        "comments": [
+          {
+            "text": "But White simply goes back to checking.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/2p5/K1k4R/3r4 b - - 5 15",
+        "parentNodeId": "DY",
+        "san": "Rh2+"
+      },
+      "cX": {
+        "adjacentNodeIds": [
+          "zg"
+        ],
+        "comments": [
+          {
+            "text": "And Black gets the rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1k6/2p5/r1K2R2 w - - 2 11",
+        "parentNodeId": "pH",
+        "san": "Ra1+"
+      },
+      "d7": {
+        "adjacentNodeIds": [
+          "m2"
+        ],
+        "comments": [
+          {
+            "text": "Does this defense hold? \n\nIt holds against a-, b-, g- or h-pawns, but not against all the rest.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/2p5/1k6/6r1/2K4R b - - 7 7",
+        "parentNodeId": "MF",
+        "san": "Rh1"
+      },
+      "e0": {
+        "adjacentNodeIds": [
+          "Om",
+          "08"
+        ],
+        "comments": [
+          {
+            "text": "There is Rh8, preparing to start giving checks.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7R/8/8/8/2p5/2k5/K7/2r5 b - - 13 10",
+        "parentNodeId": "A6",
+        "san": "Rh8"
+      },
+      "ea": {
+        "adjacentNodeIds": [
+          "hG"
+        ],
+        "comments": [
+          {
+            "text": "Naturally, the rook blocks.\n\nWhite can't capture, of course.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/2p5/K1kr3R/8 w - - 2 14",
+        "parentNodeId": "va",
+        "san": "Rd2"
+      },
+      "gG": {
+        "adjacentNodeIds": [
+          "YW"
+        ],
+        "comments": [
+          {
+            "text": "But now the red carpet has been laid out for the c-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c2-c1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R5/8/8/8/1r6/2p1K3/1k6 w - - 2 18",
+        "parentNodeId": "Ck",
+        "san": "Kb1"
+      },
+      "hE": {
+        "adjacentNodeIds": [
+          "rT"
+        ],
+        "comments": [
+          {
+            "text": "Attacking the pawn on c4 is an attempt to save the game.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/8/8/8/2p5/2k5/4K3/2r5 b - - 13 10",
+        "parentNodeId": "yj",
+        "san": "Rc8"
+      },
+      "hG": {
+        "adjacentNodeIds": [
+          "DY"
+        ],
+        "comments": [
+          {
+            "text": "But Rh1 is the correct play, restricting the black king from moving down to the first rank.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/2p5/K1kr4/7R b - - 3 14",
+        "parentNodeId": "ea",
+        "san": "Rh1"
+      },
+      "hr": {
+        "adjacentNodeIds": [
+          "Vz"
+        ],
+        "comments": [
+          {
+            "text": "Black simply pushes, though.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R5/8/8/8/2p5/1k2K3/2r5 w - - 0 12",
+        "parentNodeId": "C1",
+        "san": "c3"
+      },
+      "ix": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But now simply Rc2+, and the pawn on c3 will fall.\n\nThis is one of the lines, of course, but the point is that Black has no way forward!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c3",
+                "c1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1Kpr4/2R5/2k5 b - - 9 17",
+        "parentNodeId": "3b",
+        "san": "Rc2+"
+      },
+      "k": {
+        "adjacentNodeIds": [
+          "Z"
+        ],
+        "comments": [
+          {
+            "text": "As we can see, Black was up a pawn and the one playing for a win.\n\nWhite was going to try and defend by bringing the rook to the h-file and cutting off the Black king first.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/7R/2p5/2k5/8/6r1/2K5/8 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Rh7"
+      },
+      "k7": {
+        "adjacentNodeIds": [
+          "82"
+        ],
+        "comments": [
+          {
+            "text": "Check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/2p5/8/K2k3R/2r5 b - - 15 11",
+        "parentNodeId": "08",
+        "san": "Rh2+"
+      },
+      "m2": {
+        "adjacentNodeIds": [
+          "Bv"
+        ],
+        "comments": [
+          {
+            "text": "Black simply pushes here.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kp5/6r1/2K4R w - - 0 8",
+        "parentNodeId": "d7",
+        "san": "c3"
+      },
+      "pH": {
+        "adjacentNodeIds": [
+          "cX"
+        ],
+        "comments": [
+          {
+            "text": "White has to go back.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1k6/r1p5/2K2R2 b - - 1 10",
+        "parentNodeId": "bD",
+        "san": "Kc1"
+      },
+      "qG": {
+        "adjacentNodeIds": [
+          "Er"
+        ],
+        "comments": [
+          {
+            "text": "And a natural retreating move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4R3/8/8/8/1kp5/8/6r1/2K5 b - - 5 6",
+        "parentNodeId": "Dk",
+        "san": "Kc1"
+      },
+      "rT": {
+        "adjacentNodeIds": [
+          "C1"
+        ],
+        "comments": [
+          {
+            "text": "But the black king now moves to b2, making room for it.\n\nThis way, the black king can't be checked anywhere on the second rank, which is the key aspect of defending this position!",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/8/8/8/2p5/8/1k2K3/2r5 w - - 14 11",
+        "parentNodeId": "hE",
+        "san": "Kb2"
+      },
+      "sO": {
+        "adjacentNodeIds": [
+          "va"
+        ],
+        "comments": [
+          {
+            "text": "Black pushes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7R/8/8/8/8/2p5/K1k5/3r4 w - - 0 13",
+        "parentNodeId": "uy",
+        "san": "c3"
+      },
+      "sd": {
+        "adjacentNodeIds": [
+          "YS"
+        ],
+        "comments": [
+          {
+            "text": "This is the wrong approach, and it's called longside defense. \n\nLongside defense is feasible if it's an e- or d-pawn, but it does matter if the pawn is a c- or f-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/2k5/6r1/3K4 b - - 9 8",
+        "parentNodeId": "Ma",
+        "san": "Kd1"
+      },
+      "sn": {
+        "adjacentNodeIds": [
+          "TR"
+        ],
+        "comments": [
+          {
+            "text": "The dangerous moment didn't come yet, so Adams just kept his rook on the fourth rank.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/1k6/2p1R3/6r1/2K5/8 b - - 1 4",
+        "parentNodeId": "uj",
+        "san": "Re4"
+      },
+      "ta": {
+        "adjacentNodeIds": [
+          "vX"
+        ],
+        "comments": [
+          {
+            "text": "Could Adams have gone for 3rd rank defense? \n\nIt's too late for the Philidor if the king has already reached the 3rd rank and the pawn can block.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/2p5/1k5R/6r1/2K5 b - - 7 7",
+        "parentNodeId": "MF",
+        "san": "Rh3+"
+      },
+      "te": {
+        "adjacentNodeIds": [
+          "Ck"
+        ],
+        "comments": [
+          {
+            "text": "But now the c2-push even comes with check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R5/8/8/8/1r1K4/2p5/2k5 w - - 0 17",
+        "parentNodeId": "4A",
+        "san": "c2+"
+      },
+      "ti": {
+        "adjacentNodeIds": [
+          "Ej"
+        ],
+        "comments": [
+          {
+            "text": "A simple ...Ra2 wins the game for Black.\n\nNow ...Ra1+ is the threat.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a2-a1",
+                "c1-b1",
+                "c3-c2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kp5/r7/2K2R2 w - - 2 9",
+        "parentNodeId": "Bv",
+        "san": "Ra2"
+      },
+      "uj": {
+        "adjacentNodeIds": [
+          "sn"
+        ],
+        "comments": [
+          {
+            "text": "But Dreev pushed again.\n\nNow his king could slide down to b4, using the pawn as a shield.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b5-b4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/1k6/2p2R2/6r1/2K5/8 w - - 0 4",
+        "parentNodeId": "2D",
+        "san": "c4"
+      },
+      "uy": {
+        "adjacentNodeIds": [
+          "sO"
+        ],
+        "comments": [
+          {
+            "text": "And White goes back to h8, again threatening to come down to h2.\n\nAs we can see, in the Kd1 variation the white king was blocking its own rook from checking the black king on the second rank.\n\nAnd, by being on the a-file, the white king is always close to the c-pawn and can never be forced away.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h8-h2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7R/8/8/8/2p5/8/K1k5/3r4 b - - 17 12",
+        "parentNodeId": "Rq",
+        "san": "Rh8"
+      },
+      "v4": {
+        "adjacentNodeIds": [
+          "Fv"
+        ],
+        "comments": [
+          {
+            "text": "Once the king moves out to c1, instead of blocking...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/2p5/K6R/2kr4 w - - 6 16",
+        "parentNodeId": "bq",
+        "san": "Kc1"
+      },
+      "vX": {
+        "adjacentNodeIds": [
+          "P5"
+        ],
+        "comments": [
+          {
+            "text": "What can White do here?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kp4R/6r1/2K5 w - - 0 8",
+        "parentNodeId": "ta",
+        "san": "c3"
+      },
+      "vZ": {
+        "adjacentNodeIds": [
+          "Ak"
+        ],
+        "comments": [
+          {
+            "text": "Dreev gave a check first, forcing the white king to the back rank.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/1kp4R/8/2K3r1/8 w - - 4 6",
+        "parentNodeId": "11",
+        "san": "Rg2+"
+      },
+      "va": {
+        "adjacentNodeIds": [
+          "ea"
+        ],
+        "comments": [
+          {
+            "text": "But is faced with a check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/2p5/K1k4R/3r4 b - - 1 13",
+        "parentNodeId": "sO",
+        "san": "Rh2+"
+      },
+      "vl": {
+        "adjacentNodeIds": [
+          "4A"
+        ],
+        "comments": [
+          {
+            "text": "The pawn is about to be pushed.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R5/8/8/8/1rp5/4K3/2k5 w - - 8 16",
+        "parentNodeId": "6z",
+        "san": "Kc1"
+      },
+      "yj": {
+        "adjacentNodeIds": [
+          "hE"
+        ],
+        "comments": [
+          {
+            "text": "Now Black places the rook on c1, restricting the white king from coming back.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1R6/8/8/8/2p5/2k5/4K3/2r5 w - - 12 10",
+        "parentNodeId": "E5",
+        "san": "Rc1"
+      },
+      "zg": {
+        "adjacentNodeIds": [
+          "Vj"
+        ],
+        "comments": [
+          {
+            "text": "Once the king moves...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1k6/2pK4/r4R2 b - - 3 11",
+        "parentNodeId": "cX",
+        "san": "Kd2"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

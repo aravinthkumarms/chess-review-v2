@@ -1,0 +1,96 @@
+{
+  "id": "8519ac7d-ed1a-4a52-b1d6-0de42239a258",
+  "name": "Quiz 26 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White captures on f3 with a check. \n\nWhat's the best response?",
+    "answers": [
+      {
+        "text": "Kf1",
+        "feedback": {
+          "text": "Good job! Not allowing any discovered checks or checks with the queen!",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "d5",
+              "f3"
+            ],
+            "opportunities": [
+              "f1"
+            ]
+          }
+        },
+        "comment": "moving the king to f1. \n",
+        "afterMoveFen": "r4rk1/1b3ppp/4p3/1B1qP3/P6P/3R1nP1/1B2Q3/4RK2 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rxf3",
+        "feedback": {
+          "text": "Black will just win an exchange here. The endgame is lost.",
+          "arrows": {
+            "threats": [
+              "d5-f3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "b7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "capturing the knight.",
+        "afterMoveFen": "r4rk1/1b3ppp/4p3/1B1qP3/P6P/5RP1/1B2Q3/4R1K1 b - - 0 2"
+      },
+      {
+        "text": "Qxf3",
+        "feedback": {
+          "text": "Black can just trade everything on f3. They'll be an exchange up and the endgame is lost.",
+          "arrows": {
+            "threats": [
+              "d5-f3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "b7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "capturing with the queen.",
+        "afterMoveFen": "r4rk1/1b3ppp/4p3/1B1qP3/P6P/3R1QP1/1B6/4R1K1 b - - 0 2"
+      },
+      {
+        "text": "Kf2",
+        "feedback": {
+          "text": "This allows ...Qc5+ and Black's pieces are suddenly very active.",
+          "arrows": {
+            "threats": [
+              "d5-c5"
+            ],
+            "opportunities": []
+          },
+          "highlights": null
+        },
+        "comment": "moving the king to f2.",
+        "afterMoveFen": "r4rk1/1b3ppp/4p3/1B1qP3/P6P/3R1nP1/1B2QK2/4R3 b - - 1 2"
+      }
+    ],
+    "positionFen": "r4rk1/1b3ppp/4p3/1B1qP1n1/P6P/3R1PP1/1B2Q3/4R1K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxf3+",
+      "afterMoveFen": "r4rk1/1b3ppp/4p3/1B1qP3/P6P/3R1nP1/1B2Q3/4R1K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

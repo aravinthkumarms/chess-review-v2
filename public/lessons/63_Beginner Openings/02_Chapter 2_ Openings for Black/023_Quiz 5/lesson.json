@@ -1,0 +1,68 @@
+{
+  "id": "17fc7b17-bff9-44f4-9c40-e595b2463b73",
+  "name": "Quiz 5 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White goes for the Ruy Lopez. \n\nHow should Black react here?",
+    "answers": [
+      {
+        "text": "Nf6",
+        "feedback": {
+          "text": "Good job! That's also a great move.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 3 2"
+      },
+      {
+        "text": "a6",
+        "feedback": {
+          "text": "Good job! That's the main move that allows ...b5 next.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b7-b5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "There are two options; develop or attack the bishop.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bb5",
+      "afterMoveFen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 2 1"
+    }
+  },
+  "drill": null
+}

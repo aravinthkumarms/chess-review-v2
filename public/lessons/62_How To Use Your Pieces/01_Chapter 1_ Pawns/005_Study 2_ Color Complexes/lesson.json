@@ -1,0 +1,548 @@
+{
+  "id": "4078a73d-c61b-446e-8b62-c69ea13ee874",
+  "name": "Study 2: Color Complexes",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "M"
+        ],
+        "comments": [
+          {
+            "text": "In this game, sent by a subscriber, you'll learn about placing your pawns on the same color complex.\n\nFor example, after giving up the light-squared bishop with Bxf3, Black will most likely want to have pawns on e6 and c6, protecting the light squares because they won't have the bishop. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/52620017357?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qkbnr/ppp1pppp/2n5/3p4/3P1Bb1/5N1P/PPP1PPP1/RN1QKB1R b KQkq - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "2N": {
+        "adjacentNodeIds": [
+          "cZ"
+        ],
+        "comments": [
+          {
+            "text": "White castled too.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/ppp2ppp/2nbpn2/3p4/3P4/2PBBP1P/PP3PP1/RN1Q1RK1 b - - 4 6",
+        "parentNodeId": "JE",
+        "san": "O-O"
+      },
+      "3": {
+        "adjacentNodeIds": [
+          "7n"
+        ],
+        "comments": [
+          {
+            "text": "And Black begins the strategy of placing the pawns on the same color like the bishop they no longer have.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f7",
+                "e6",
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2qkbnr/ppp2ppp/2n1p3/3p4/3P1B2/5P1P/PPP2PP1/RN1QKB1R w KQkq - 0 3",
+        "parentNodeId": "p",
+        "san": "e6"
+      },
+      "7n": {
+        "adjacentNodeIds": [
+          "NJ",
+          "IQ"
+        ],
+        "comments": [
+          {
+            "text": "White developed their bishop...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qkbnr/ppp2ppp/2n1p3/3p4/3P1B2/3B1P1P/PPP2PP1/RN1QK2R b KQkq - 1 3",
+        "parentNodeId": "3",
+        "san": "Bd3"
+      },
+      "AB": {
+        "adjacentNodeIds": [
+          "zV"
+        ],
+        "comments": [
+          {
+            "text": "And now Black has a really nice triangle formation on the light squares designed to compensate for the light-squared bishop they don't have.\n\nThis is what color complexes are all about.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f7",
+                "e6",
+                "d5",
+                "c6",
+                "b7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp2nppp/2pbpn2/3p4/3P4/2PBBP1P/PP1N1PP1/R2Q1RK1 w - - 0 8",
+        "parentNodeId": "mW",
+        "san": "c6"
+      },
+      "Aw": {
+        "adjacentNodeIds": [
+          "ST"
+        ],
+        "comments": [
+          {
+            "text": "Black continued with development...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/pp3p2/2pb1n1p/3p2p1/3P1p2/2P2P1P/PP1N1PPB/R2QR1K1 w - - 2 14",
+        "parentNodeId": "T1",
+        "san": "Re8"
+      },
+      "E6": {
+        "adjacentNodeIds": [
+          "ed"
+        ],
+        "comments": [
+          {
+            "text": "And after Black came to d7, covering the f5 square...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pp1q1p2/2pb1n1p/3p2p1/3P1p2/2P2P1P/PPQN1PPB/R3R1K1 w - - 4 15",
+        "parentNodeId": "ST",
+        "san": "Qd7"
+      },
+      "GV": {
+        "adjacentNodeIds": [
+          "h9"
+        ],
+        "comments": [
+          {
+            "text": "White supported d4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2qkb1r/ppp2ppp/2n1pn2/3p4/3P1B2/2PB1P1P/PP3PP1/RN1QK2R b KQkq - 0 4",
+        "parentNodeId": "NJ",
+        "san": "c3"
+      },
+      "H6": {
+        "adjacentNodeIds": [
+          "nr"
+        ],
+        "comments": [
+          {
+            "text": "And Black maneuvered the knight to a more useful square.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp3ppp/2pbpn2/3p1n2/3P4/2PBBP1P/PP1N1PP1/R2QR1K1 w - - 2 9",
+        "parentNodeId": "zV",
+        "san": "Nf5"
+      },
+      "IQ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black could've perfectly taken this, but since it was a blitz game, they weren't using that much time in the opening.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qkbnr/ppp2ppp/4p3/3p4/3n1B2/3B1P1P/PPP2PP1/RN1QK2R w KQkq - 0 4",
+        "parentNodeId": "7n",
+        "san": "Nxd4"
+      },
+      "JE": {
+        "adjacentNodeIds": [
+          "2N"
+        ],
+        "comments": [
+          {
+            "text": "Black simply castled.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/ppp2ppp/2nbpn2/3p4/3P4/2PBBP1P/PP3PP1/RN1QK2R w KQ - 3 6",
+        "parentNodeId": "Ny",
+        "san": "O-O"
+      },
+      "M": {
+        "adjacentNodeIds": [
+          "p"
+        ],
+        "comments": [
+          {
+            "text": "This trade is not always good. \n\nIn this case, however, Black doubles their opponent's pawns and will follow this trade with a light square complex strategy. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qkbnr/ppp1pppp/2n5/3p4/3P1B2/5b1P/PPP1PPP1/RN1QKB1R w KQkq - 0 2",
+        "parentNodeId": "0",
+        "san": "Bxf3"
+      },
+      "NJ": {
+        "adjacentNodeIds": [
+          "GV"
+        ],
+        "comments": [
+          {
+            "text": "Black developed the knight.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f8-d6",
+                "c6-e7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qkb1r/ppp2ppp/2n1pn2/3p4/3P1B2/3B1P1P/PPP2PP1/RN1QK2R w KQkq - 2 4",
+        "parentNodeId": "7n",
+        "san": "Nf6"
+      },
+      "Ny": {
+        "adjacentNodeIds": [
+          "JE"
+        ],
+        "comments": [
+          {
+            "text": "White rejected this trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qk2r/ppp2ppp/2nbpn2/3p4/3P4/2PBBP1P/PP3PP1/RN1QK2R b KQkq - 2 5",
+        "parentNodeId": "h9",
+        "san": "Be3"
+      },
+      "ST": {
+        "adjacentNodeIds": [
+          "E6"
+        ],
+        "comments": [
+          {
+            "text": "The queen came out to c2...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/pp3p2/2pb1n1p/3p2p1/3P1p2/2P2P1P/PPQN1PPB/R3R1K1 b - - 3 14",
+        "parentNodeId": "Aw",
+        "san": "Qc2"
+      },
+      "T1": {
+        "adjacentNodeIds": [
+          "Aw"
+        ],
+        "comments": [
+          {
+            "text": "The bishop is now cornered on h2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp3p2/2pb1n1p/3p2p1/3P1p2/2P2P1P/PP1N1PPB/R2QR1K1 b - - 1 13",
+        "parentNodeId": "qC",
+        "san": "Bh2"
+      },
+      "U2": {
+        "adjacentNodeIds": [
+          "qk"
+        ],
+        "comments": [
+          {
+            "text": "Black gladly accepted since this is another pawn on a light square...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp3pp1/2pb1n1p/3p1pB1/3P4/2P2P1P/PP1N1PP1/R2QR1K1 w - - 0 11",
+        "parentNodeId": "h1",
+        "san": "exf5"
+      },
+      "ZO": {
+        "adjacentNodeIds": [
+          "kG"
+        ],
+        "comments": [
+          {
+            "text": "I'm talking about trapping the dark-squared bishop in a prison.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp3p2/2pb1n1p/3p1pp1/3P3B/2P2P1P/PP1N1PP1/R2QR1K1 w - g6 0 12",
+        "parentNodeId": "qk",
+        "san": "g5"
+      },
+      "cZ": {
+        "adjacentNodeIds": [
+          "mW"
+        ],
+        "comments": [
+          {
+            "text": "And now in order to continue with the light square complex strategy, the knight has to move so that c6 can be played.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c7-c6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/ppp1nppp/3bpn2/3p4/3P4/2PBBP1P/PP3PP1/RN1Q1RK1 w - - 5 7",
+        "parentNodeId": "2N",
+        "san": "Ne7"
+      },
+      "ed": {
+        "adjacentNodeIds": [
+          "fi"
+        ],
+        "comments": [
+          {
+            "text": "g4 was played...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pp1q1p2/2pb1n1p/3p2p1/3P1pP1/2P2P1P/PPQN1P1B/R3R1K1 b - g3 0 15",
+        "parentNodeId": "E6",
+        "san": "g4"
+      },
+      "fi": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But Black didn't take en passant, because the h6-f5 pawn chain traps the enemy bishop in forever. \n\nThis is an example of what using your pawns well can do for you in a game! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r3/pp1q1pk1/2pb1n1p/3p2p1/3P1pP1/2P2P1P/PPQN1P1B/R3R1K1 w - - 1 16",
+        "parentNodeId": "ed",
+        "san": "Kg7"
+      },
+      "h1": {
+        "adjacentNodeIds": [
+          "U2"
+        ],
+        "comments": [
+          {
+            "text": "White took on f5...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp3pp1/2pbpn1p/3p1BB1/3P4/2P2P1P/PP1N1PP1/R2QR1K1 b - - 0 10",
+        "parentNodeId": "mP",
+        "san": "Bxf5"
+      },
+      "h9": {
+        "adjacentNodeIds": [
+          "Ny"
+        ],
+        "comments": [
+          {
+            "text": "And Black proposed a trade of bishops.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qk2r/ppp2ppp/2nbpn2/3p4/3P1B2/2PB1P1P/PP3PP1/RN1QK2R w KQkq - 1 5",
+        "parentNodeId": "GV",
+        "san": "Bd6"
+      },
+      "kG": {
+        "adjacentNodeIds": [
+          "qC"
+        ],
+        "comments": [
+          {
+            "text": "Since after Bg3, Black doesn't trade! \n\nInstead, you trap the enemy bishop with: ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp3p2/2pb1n1p/3p1pp1/3P4/2P2PBP/PP1N1PP1/R2QR1K1 b - - 1 12",
+        "parentNodeId": "ZO",
+        "san": "Bg3"
+      },
+      "mP": {
+        "adjacentNodeIds": [
+          "h1"
+        ],
+        "comments": [
+          {
+            "text": "So Black decided to remove the pin.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp3pp1/2pbpn1p/3p1nB1/3P4/2PB1P1P/PP1N1PP1/R2QR1K1 w - - 0 10",
+        "parentNodeId": "nr",
+        "san": "h6"
+      },
+      "mW": {
+        "adjacentNodeIds": [
+          "AB"
+        ],
+        "comments": [
+          {
+            "text": "White developed their knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/ppp1nppp/3bpn2/3p4/3P4/2PBBP1P/PP1N1PP1/R2Q1RK1 b - - 6 7",
+        "parentNodeId": "cZ",
+        "san": "Nd2"
+      },
+      "nr": {
+        "adjacentNodeIds": [
+          "mP"
+        ],
+        "comments": [
+          {
+            "text": "The bishop pinned the knight on f6...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp3ppp/2pbpn2/3p1nB1/3P4/2PB1P1P/PP1N1PP1/R2QR1K1 b - - 3 9",
+        "parentNodeId": "H6",
+        "san": "Bg5"
+      },
+      "p": {
+        "adjacentNodeIds": [
+          "3"
+        ],
+        "comments": [
+          {
+            "text": "White now has doubled pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qkbnr/ppp1pppp/2n5/3p4/3P1B2/5P1P/PPP2PP1/RN1QKB1R b KQkq - 0 2",
+        "parentNodeId": "M",
+        "san": "exf3"
+      },
+      "qC": {
+        "adjacentNodeIds": [
+          "T1"
+        ],
+        "comments": [
+          {
+            "text": "f4! And there's a powerful wall that forces the bishop back.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g3"
+              ],
+              "opportunities": [
+                "h6",
+                "g5",
+                "f4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp3p2/2pb1n1p/3p2p1/3P1p2/2P2PBP/PP1N1PP1/R2QR1K1 w - - 0 13",
+        "parentNodeId": "kG",
+        "san": "f4"
+      },
+      "qk": {
+        "adjacentNodeIds": [
+          "ZO"
+        ],
+        "comments": [
+          {
+            "text": "And now the bishop retreated to h4. \n\nNow, remember how Black wanted to have pawns on light squares because he was lacking a light-squared bishop? \n\nWell, now things have changed.\n\nYes, they still lack the bishop, but so does White. \n\nAlso, there's something else that can be done with the pawns, but it requires the willingness to put them on dark squares.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp3pp1/2pb1n1p/3p1p2/3P3B/2P2P1P/PP1N1PP1/R2QR1K1 b - - 1 11",
+        "parentNodeId": "U2",
+        "san": "Bh4"
+      },
+      "zV": {
+        "adjacentNodeIds": [
+          "H6"
+        ],
+        "comments": [
+          {
+            "text": "White brought the rook to the e-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp2nppp/2pbpn2/3p4/3P4/2PBBP1P/PP1N1PP1/R2QR1K1 b - - 1 8",
+        "parentNodeId": "AB",
+        "san": "Re1"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

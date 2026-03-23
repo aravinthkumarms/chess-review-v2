@@ -1,0 +1,43 @@
+{
+  "id": "5f5518dc-3c52-44bd-bf87-9968a91dfc79",
+  "name": "Quiz 1 coordinates",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Let's remember our coordinates. \n\nWhat square is a1?",
+    "answers": [
+      {
+        "text": "a1",
+        "feedback": {
+          "text": "Very good! a1 is the home square of one of the rooks!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The a-file is the first one, and so is the 1st rank! a1 means the first square on the a column! ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "e5",
+      "afterMoveFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2"
+    }
+  },
+  "drill": null
+}

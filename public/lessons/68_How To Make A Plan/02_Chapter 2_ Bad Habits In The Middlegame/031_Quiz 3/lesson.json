@@ -1,0 +1,60 @@
+{
+  "id": "23f9c1bb-7075-43b4-a3b8-eb0718050de3",
+  "name": "Quiz 3",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White goes to d5 with the knight. \n\nQe6 speeds up development. \n\nShould you play it, or is there an obvious drawback?",
+    "answers": [
+      {
+        "text": "Nd6",
+        "feedback": {
+          "text": "This move is the most solid. It protects your f5 bishop.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d6-f5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f5"
+            ]
+          }
+        },
+        "comment": "lending some support to the f5 bishop.",
+        "afterMoveFen": "r1q3k1/ppp4p/2nn2p1/3Npb2/8/2P1N1PP/PP4BK/R4Q2 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Qe6",
+        "feedback": {
+          "text": "White has some tactics. g4 wins the bishop. Nb6 is also dangerous, clearing the d5 square to pin your queen.",
+          "arrows": {
+            "threats": [
+              "g3-g4",
+              "d5-b6",
+              "g2-d5"
+            ],
+            "opportunities": []
+          },
+          "highlights": null
+        },
+        "comment": "bringing the queen into the game and preparing Rd8.",
+        "afterMoveFen": "r3n1k1/ppp4p/2n1q1p1/3Npb2/8/2P1N1PP/PP4BK/R4Q2 w - - 3 2"
+      }
+    ],
+    "positionFen": "r1q1n1k1/ppp4p/2n3p1/4pb2/5N2/2P1N1PP/PP4BK/R4Q2 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nfd5",
+      "afterMoveFen": "r1q1n1k1/ppp4p/2n3p1/3Npb2/8/2P1N1PP/PP4BK/R4Q2 b - - 2 1"
+    }
+  },
+  "drill": null
+}

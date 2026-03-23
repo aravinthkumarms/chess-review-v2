@@ -1,0 +1,68 @@
+{
+  "id": "3b0a4b7c-5aff-42e1-aa7b-a11c6e1ee7ac",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "In this position, Black offered a queen trade. \n\nThe pawn structure is fixed, and we have a knight for Black's rook.\n\nHow should we react?",
+    "answers": [
+      {
+        "text": "We should avoid the trade since Black's rook is stronger than our knight. We'll go for a check on f7 and attack Black's kingside pawns to utilize our passed pawns.",
+        "feedback": {
+          "text": "Good job! The passed f-pawn is a big asset here, and having only the knight would be sufficient enough to win.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It is best to trade the queens. The passed f-pawn is too strong. Also, since every pawn on the chessboard is fixed, our knight is superior in this endgame.",
+        "feedback": {
+          "text": "Black can stop the f-pawn easily with ...Ra8. Also, the c3-pawn is weak.",
+          "arrows": {
+            "threats": [
+              "a1-a8",
+              "a8-f8"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/1kq5/4QP1p/3p2pP/2pP2P1/2P3NK/8/r7 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "a1",
+        "g3"
+      ]
+    },
+    "contextMove": {
+      "san": "Qc6",
+      "afterMoveFen": "8/1k6/2q1QP1p/3p2pP/2pP2P1/2P3NK/8/r7 w - - 2 2"
+    }
+  },
+  "drill": null
+}

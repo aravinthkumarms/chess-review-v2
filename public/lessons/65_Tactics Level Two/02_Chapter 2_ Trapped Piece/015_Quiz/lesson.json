@@ -1,0 +1,48 @@
+{
+  "id": "74741452-95e1-40a0-8e1c-5b4082de14e0",
+  "name": "Quiz ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black pushes ...c5. \n\nWhat should you play?",
+    "answers": [
+      {
+        "text": "Nd6",
+        "feedback": {
+          "text": "...c5 self-trapped the rook!",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "b5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "1r4k1/6p1/1p1N3p/1rp5/1P6/P3P1P1/2R2P1P/6K1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you win the rook?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1r4k1/6p1/1pp4p/1r6/1PN5/P3P1P1/2R2P1P/6K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "c5",
+      "afterMoveFen": "1r4k1/6p1/1p5p/1rp5/1PN5/P3P1P1/2R2P1P/6K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

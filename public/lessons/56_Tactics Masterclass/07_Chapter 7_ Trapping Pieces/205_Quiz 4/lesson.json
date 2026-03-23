@@ -1,0 +1,43 @@
+{
+  "id": "b803a2f9-7136-4ac4-a80e-4142f5f109a3",
+  "name": "Quiz 4",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black defends the a8-rook w/...Qd8.\n\nCan you see how to trap the rook?",
+    "answers": [
+      {
+        "text": "Bb8",
+        "feedback": {
+          "text": "Correct! This move traps the rook.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "rB1q2k1/pQ2bppp/4p3/8/3r4/6P1/P3PP1P/1R3RK1 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "There is a way to disconnect Black's queen from defending the a8-rook.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r5k1/pQ2bppp/4p3/q7/3r1B2/6P1/P3PP1P/1R3RK1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qd8",
+      "afterMoveFen": "r2q2k1/pQ2bppp/4p3/8/3r1B2/6P1/P3PP1P/1R3RK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,90 @@
+{
+  "id": "384e069e-5d21-4a32-a005-f85eaf3fad0f",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White retreats to a3.\n\nIs ...Bxa3 a good move, giving up the bishop for the knight?",
+    "answers": [
+      {
+        "text": "It's a good move, because White's a-pawns and the c3-pawn will be weak.\n\nWhite's structure is completely damaged.",
+        "feedback": {
+          "text": "Excellent! In the endgame these weaknesses can easily decide the game.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f8-a3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "a3",
+              "b2",
+              "a4",
+              "c2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It's a bad move, because White will have the open b-file to attack the black king.",
+        "feedback": {
+          "text": "Even though this is true, the queens are off the board and the black king is safe!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "c8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It's a bad move, because White will be left with a bishop and a knight against two knights. In the endgame, this is always better.",
+        "feedback": {
+          "text": "Even though bishops are long range pieces, there is a concrete reason for this capture!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2k1rb2/1p1r1ppp/p1n2n2/1N6/P2p4/3N2B1/1PP2PPP/3R1RK1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f8-a3"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "a3"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Na3",
+      "afterMoveFen": "2k1rb2/1p1r1ppp/p1n2n2/8/P2p4/N2N2B1/1PP2PPP/3R1RK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

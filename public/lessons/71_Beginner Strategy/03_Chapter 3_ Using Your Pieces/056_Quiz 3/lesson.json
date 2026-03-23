@@ -1,0 +1,83 @@
+{
+  "id": "f539da30-f19c-4011-8f20-2afa2fa1fe75",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It's time for Black to activate their bishop. \n\nWhat's the best plan to give the bishop a good diagonal?",
+    "answers": [
+      {
+        "text": "Bc8, to activate it with Bf5, Bg4 or Bh3.",
+        "feedback": {
+          "text": "Correct! \n\nThe bishop can go attack the light squares on the kingside. \n\nThe queenside is full of pawns on light squares, so the bishop isn't good there.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a6-c8",
+              "c8-f5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d5",
+              "c4",
+              "b5",
+              "a4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "b4, to play c3 and activate the bishop with a discovered attack on the f1 rook.",
+        "feedback": {
+          "text": "If you play b4, White can play Qxa4. After c3, the rook can just move.",
+          "arrows": {
+            "threats": [
+              "c2-a4"
+            ],
+            "opportunities": [
+              "b5-b4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Bb7, to control the light squares and support the d5 pawn.",
+        "feedback": {
+          "text": "On b7, your bishop just stares at its own d5 pawn, without attacking or moving possibilities.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4rrk1/5p1p/b2q2p1/1p1p4/p1pP4/4PNP1/PPQ2P1P/R4RK1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rab1",
+      "afterMoveFen": "4rrk1/5p1p/b2q2p1/1p1p4/p1pP4/4PNP1/PPQ2P1P/1R3RK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

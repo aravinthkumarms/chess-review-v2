@@ -1,0 +1,63 @@
+{
+  "id": "826b9c2b-d30a-4e0d-b841-dd62a17b4228",
+  "name": "Quiz 6",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "In this endgame, we are on the defending side as Black. \n\nWhite offers a rook trade.\n\nShould we trade the rooks or not?",
+    "answers": [
+      {
+        "text": "We want to keep the rooks on the board. We can later chase some pawns and create higher drawing chances.",
+        "feedback": {
+          "text": "That's right, the passed d and c-pawns will also help us to create some counterplay.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d5",
+              "c6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "We should accept the trade. The passed d and c-pawns are a good asset here and will provide enough counterplay.",
+        "feedback": {
+          "text": "The pawns on their own aren't as good. White can use the bishop to block some light squares to prevent our pawns from advancing.",
+          "arrows": {
+            "threats": [
+              "e2-c2"
+            ],
+            "opportunities": [
+              "g1-f2",
+              "f2-e3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/p4p1p/2pk4/3p1B2/8/5P2/P3r1PP/2R3K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rc2",
+      "afterMoveFen": "8/p4p1p/2pk4/3p1B2/8/5P2/P1R1r1PP/6K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

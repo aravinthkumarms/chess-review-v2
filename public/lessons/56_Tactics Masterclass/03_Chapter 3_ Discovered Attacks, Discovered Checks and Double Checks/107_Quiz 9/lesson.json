@@ -1,0 +1,54 @@
+{
+  "id": "de69a7d6-f1dc-4f67-baad-21c48d78b9c2",
+  "name": "Quiz 9",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...h6.\n\nThere's a winning move here.\n\nThink carefully about what move threatens a fork on f7 and seems impossible but actually works.",
+    "answers": [
+      {
+        "text": "Nd6",
+        "feedback": {
+          "text": "Amazing job! This wasn't an easy move to find and had layers to it. Well done. If Black takes with the pawn, we can play Nxc6 and leave Black's queen hanging.\n\nIf they take with the queen, we've got a fork on f7.",
+          "arrows": {
+            "threats": [
+              "e6-d6",
+              "c7-d6"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "1r1k1b1r/p1p1n1p1/1ppNq2p/4N3/3P4/4Q3/PPP2PPP/R1B3K1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "If both knights disappeared from the e-file, Black's queen would be hanging! Combine that with the threat of a fork on f7 to find the move.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1r1k1b1r/p1p1n1pp/1pp1q3/4N3/3PN3/4Q3/PPP2PPP/R1B3K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "h6",
+      "afterMoveFen": "1r1k1b1r/p1p1n1p1/1pp1q2p/4N3/3PN3/4Q3/PPP2PPP/R1B3K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

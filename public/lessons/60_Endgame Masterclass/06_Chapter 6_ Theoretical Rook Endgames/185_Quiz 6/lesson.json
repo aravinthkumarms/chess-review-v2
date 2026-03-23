@@ -1,0 +1,87 @@
+{
+  "id": "cc1f1b34-13f2-4412-a984-1d487bcaa795",
+  "name": "Quiz 6",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks the c7-pawn.\n\nWhat can you play to win?",
+    "answers": [
+      {
+        "text": "Kd8",
+        "feedback": {
+          "text": "Great! ...Rxc7 drops the rook after Rh6+.  I'd say this is the best one to be able to find because it's the easiest to calculate. But other options could be easy for you!",
+          "arrows": {
+            "threats": [
+              "c2-c7",
+              "h4-h6"
+            ],
+            "opportunities": []
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "3K4/2P5/3k4/8/7R/8/2r5/8 b - - 3 2"
+      },
+      {
+        "text": "Rd4+",
+        "feedback": {
+          "text": "This also wins, forcing the king away, cutting it off.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d6-e5",
+              "d6-e7",
+              "d4-d1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "2K5/2P5/3k4/8/3R4/8/2r5/8 b - - 3 2"
+      },
+      {
+        "text": "Rh6+",
+        "feedback": {
+          "text": "This is also easily winning. There will simply be no way to stop the pawn from promoting.\n\nWith the rook on the 6th, Kb7 and Rb6 ideas are possible.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c8-b7",
+              "h6-b6",
+              "c2-b2"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "2K5/2P5/3k3R/8/8/8/2r5/8 b - - 3 2"
+      },
+      {
+        "text": "Rh7",
+        "feedback": {
+          "text": "A simple defense of the pawn also wins. Kd8 is hard, if not impossible, to stop.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c8-d8"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "2K5/2P4R/3k4/8/8/8/2r5/8 b - - 3 2"
+      }
+    ],
+    "distractors": [],
+    "positionFen": "2K5/2P5/3k4/8/7R/8/1r6/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rc2",
+      "afterMoveFen": "2K5/2P5/3k4/8/7R/8/2r5/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,74 @@
+{
+  "id": "fd5432eb-4c33-42c6-a40b-fa89a39eb2dd",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White jumps their knight into c5.\n\nWhat do you think of ...b6 to kick the knight away?",
+    "answers": [
+      {
+        "text": "It's a blunder.",
+        "feedback": {
+          "text": "Correct! ...b6 loses because White can capture the a6-pawn with the knight, forking our queen and rook.",
+          "arrows": {
+            "threats": [
+              "c5-a6"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c7",
+              "b8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It's a great move.",
+        "feedback": {
+          "text": "...b6 is no good. There is a tactical issue with advancing the b-pawn.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It's a good plan, but we have to go ...Ra8 first to defend a6.",
+        "feedback": {
+          "text": "The problem with this is that ...Ra8 immediately loses the b7-pawn.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "b7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1r2k2r/1pq1npp1/p3p2p/3pP2P/P1nP1PP1/1NPQ4/4NK2/RR6 w k - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "b7-b6"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nc5",
+      "afterMoveFen": "1r2k2r/1pq1npp1/p3p2p/2NpP2P/P1nP1PP1/2PQ4/4NK2/RR6 b k - 2 1"
+    }
+  },
+  "drill": null
+}

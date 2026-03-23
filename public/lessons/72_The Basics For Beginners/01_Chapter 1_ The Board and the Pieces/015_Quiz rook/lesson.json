@@ -1,0 +1,73 @@
+{
+  "id": "c9ab5f39-a00b-4896-89d6-9007da3e0f35",
+  "name": "Quiz rook",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Let's practice rook moves.\n\nCan you make all possible moves with your rook?",
+    "answers": [
+      {
+        "text": "Re4",
+        "feedback": {
+          "text": "Nice! This is one of the squares our rook can go to.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "4k3/1p2n3/p3P3/8/b3R3/3K3P/4N3/8 b - - 1 2"
+      },
+      {
+        "text": "Rf3",
+        "feedback": {
+          "text": "Great job! You've moved the rook from e3 to f3.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "4k3/1p2n3/p3P3/8/b7/3K1R1P/4N3/8 b - - 1 2"
+      },
+      {
+        "text": "Re5",
+        "feedback": {
+          "text": "This is another option for the rook. Great!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "4k3/1p2n3/p3P3/4R3/b7/3K3P/4N3/8 b - - 1 2"
+      },
+      {
+        "text": "Rg3",
+        "feedback": {
+          "text": "Our rook can also slide to g3. Well done.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "4k3/1p2n3/p3P3/8/b7/3K2RP/4N3/8 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The rook moves vertically and horizontally, however many squares it wants to.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4k3/pp2n3/4P3/8/b7/3KR2P/4N3/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "a6",
+      "afterMoveFen": "4k3/1p2n3/p3P3/8/b7/3KR2P/4N3/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

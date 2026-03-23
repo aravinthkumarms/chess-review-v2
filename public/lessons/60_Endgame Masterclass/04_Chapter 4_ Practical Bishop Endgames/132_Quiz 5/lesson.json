@@ -1,0 +1,90 @@
+{
+  "id": "56a07d0d-94cf-408f-b148-9c129d810523",
+  "name": "Quiz 5 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White wants to go Bb3. \n\nDo you have a tactical solution to this problem?",
+    "answers": [
+      {
+        "text": "Ra6",
+        "feedback": {
+          "text": "Great move! The idea is to go for a pin when the bishop goes into b3.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a6-b6",
+              "d1-b3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/3b2pp/r2k4/3P4/2P1p1P1/r1P4P/pR1K4/R2B4 w - - 3 2"
+      },
+      {
+        "text": "Ra7",
+        "feedback": {
+          "text": "This move prepares a pin if the bishop goes to b3!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a7-b7",
+              "d1-b3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/r2b2pp/3k4/3P4/2P1p1P1/r1P4P/pR1K4/R2B4 w - - 3 2"
+      },
+      {
+        "text": "Ra8",
+        "feedback": {
+          "text": "This move is similar to ...Ra6 or a7, the idea is to create a pin.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d1-b3",
+              "a8-b8"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r7/3b2pp/3k4/3P4/2P1p1P1/r1P4P/pR1K4/R2B4 w - - 3 2"
+      },
+      {
+        "text": "h5",
+        "feedback": {
+          "text": "A computer generated idea. \n\nHow did you find this? The point isn't to take on h3 at the end but just to damage the pawns, and then follow it up with a rook move to a7 or a8.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/3b2p1/3k4/r2P3p/2P1p1P1/r1P4P/pR1K4/R2B4 w - h6 0 2"
+      }
+    ],
+    "distractors": [],
+    "positionFen": "8/3b2pp/3k4/r2P4/2P1p1P1/r1P4P/pR1KB3/R7 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d1-b3"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "a2"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Bd1",
+      "afterMoveFen": "8/3b2pp/3k4/r2P4/2P1p1P1/r1P4P/pR1K4/R2B4 b - - 2 1"
+    }
+  },
+  "drill": null
+}

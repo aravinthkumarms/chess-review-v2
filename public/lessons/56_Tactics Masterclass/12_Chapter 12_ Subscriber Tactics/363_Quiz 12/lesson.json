@@ -1,0 +1,69 @@
+{
+  "id": "cec75514-a833-4d49-9380-e2bf6779220d",
+  "name": "Quiz 12 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White wants to keep the tension, and not trade pieces immediately. Qb1 comes to mind, to attack the\nbishop on f5 and keep the tension. \n\nIs that a good idea?",
+    "answers": [
+      {
+        "text": "No, since Black has a tactic.",
+        "feedback": {
+          "text": "Good job! Next would come ...Bxd3, we would recapture with the queen and ...Bxh2! A discovered attack on our queen.",
+          "arrows": {
+            "threats": [
+              "d1-b1",
+              "b1-d3"
+            ],
+            "opportunities": [
+              "f5-d3",
+              "d6-h2",
+              "d7-d3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g1",
+              "d3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, Black’s king is still in the center, and the position is very dangerous for Black.",
+        "feedback": {
+          "text": "Try to watch out for any tactical shots by Black!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, Black can simply castle long and get into safety.",
+        "feedback": {
+          "text": "Does Black have anything else after we play Qb1?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r3k3/pppqnp1r/2nb1B1p/8/6b1/3B1N2/P2N1PPP/R2QR1K1 b q - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bf5",
+      "afterMoveFen": "r3k3/pppqnp1r/2nb1B1p/5b2/8/3B1N2/P2N1PPP/R2QR1K1 w q - 2 2"
+    }
+  },
+  "drill": null
+}

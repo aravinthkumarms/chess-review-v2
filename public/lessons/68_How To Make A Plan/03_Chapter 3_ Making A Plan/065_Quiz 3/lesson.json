@@ -1,0 +1,53 @@
+{
+  "id": "9589b7b2-afcf-4298-afac-64d562cd0491",
+  "name": "Quiz 3",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black develops the knight.\n\nConsider these plans:\n\n1) Qa4 and Rb1, targeting the weak b7 pawn and light squares, potentially creating some king safety problems.\n\n2) Bxc6+, damaging Black’s pawn structure.\n\n3) Be3, finishing development and reinforcing d4.\n\nWhat plan should you go for?\n\n(Choose the first move of each plan)",
+    "answers": [
+      {
+        "text": "Qa4",
+        "feedback": {
+          "text": "The diagonal and light squares are weak, so you should attack them.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r3kb1r/pp3ppp/2n1pq2/2p5/Q1PP4/2P2B2/P4PPP/R1B2RK1 b kq - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Bxc6+",
+        "feedback": {
+          "text": "This move relinquishes the pressure.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r3kb1r/pp3ppp/2B1pq2/2p5/2PP4/2P5/P4PPP/R1BQ1RK1 b kq - 0 2"
+      },
+      {
+        "text": "Be3",
+        "feedback": {
+          "text": "This is too slow and there are better ways to attack.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r3kb1r/pp3ppp/2n1pq2/2p5/2PP4/2P1BB2/P4PPP/R2Q1RK1 b kq - 3 2"
+      }
+    ],
+    "positionFen": "rn2kb1r/pp3ppp/4pq2/2p5/2PP4/2P2B2/P4PPP/R1BQ1RK1 b kq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nc6",
+      "afterMoveFen": "r3kb1r/pp3ppp/2n1pq2/2p5/2PP4/2P2B2/P4PPP/R1BQ1RK1 w kq - 2 2"
+    }
+  },
+  "drill": null
+}

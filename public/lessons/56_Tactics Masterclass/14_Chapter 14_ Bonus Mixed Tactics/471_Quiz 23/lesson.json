@@ -1,0 +1,92 @@
+{
+  "id": "ac67b9fa-bcde-47a4-ad98-89fdc5dc71f6",
+  "name": "Quiz 23 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White avoids a queen trade. \n\nIs the rook on d5 free?",
+    "answers": [
+      {
+        "text": "No, it isn’t.",
+        "feedback": {
+          "text": "Exactly, the h7-pawn would hang.",
+          "arrows": {
+            "threats": [
+              "h6-h7"
+            ],
+            "opportunities": [
+              "e4-h7"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, it is.",
+        "feedback": {
+          "text": "The h7-pawn would be hanging! Our queen defends it. That's too risky to give up!",
+          "arrows": {
+            "threats": [
+              "e4-d5"
+            ],
+            "opportunities": [
+              "h6-h7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "h7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Maybe. White gets a lot of compensation. It’s risky to take it",
+        "feedback": {
+          "text": "“Compensation” and “risky” are understatements. It’s losing to take the rook!",
+          "arrows": {
+            "threats": [
+              "e4-d5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "h7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3rr2k/pp5p/3p1p1R/3R2p1/4q1Q1/1P4P1/P1P5/1K6 w - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "d5"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qh5",
+      "afterMoveFen": "3rr2k/pp5p/3p1p1R/3R2pQ/4q3/1P4P1/P1P5/1K6 b - - 2 1"
+    }
+  },
+  "drill": null
+}

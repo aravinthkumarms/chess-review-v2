@@ -1,0 +1,71 @@
+{
+  "id": "95d51659-321a-4255-acad-742ed76f3882",
+  "name": "Quiz 10 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White captures our pawn on e4. \n\nIs ...e5 good to anchor the bishop in a strong outpost?",
+    "answers": [
+      {
+        "text": "No, it fails due to a tactic.",
+        "feedback": {
+          "text": "Precisely, after ...e5 White has Nf6+ forking our king and queen.",
+          "arrows": {
+            "threats": [
+              "e7-e5"
+            ],
+            "opportunities": [
+              "e4-f6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g8",
+              "d7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, because White can play c3.",
+        "feedback": {
+          "text": "White has another response after ...e5.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, ...e5 is a strong positional idea!",
+        "feedback": {
+          "text": "Try to look out for any tactics that could arise after we push ...e5.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r2rk1/pp1qpp1p/2n3p1/8/3bp1b1/1P4P1/PBPN1PBP/1RQ2RK1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e7-e5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxe4",
+      "afterMoveFen": "2r2rk1/pp1qpp1p/2n3p1/8/3bN1b1/1P4P1/PBP2PBP/1RQ2RK1 b - - 0 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,72 @@
+{
+  "id": "aea0c3dc-2263-4af9-adda-aae73447e2a4",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Based on pawn structure alone, what weakness does Black have?",
+    "answers": [
+      {
+        "text": "Weakness of the dark squares.",
+        "feedback": {
+          "text": "Correct. Black has their pawns on light squares, so their light squares are strong. The same isn't true of their dark squares.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "b4",
+              "c5",
+              "d6",
+              "e7",
+              "f6",
+              "g5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Weakness of the light squares.",
+        "feedback": {
+          "text": "Black has many pawns on light squares, so the light squares are strong!",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "b7",
+              "c6",
+              "d5",
+              "e6",
+              "f7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black does not have weaknesses.",
+        "feedback": {
+          "text": "Are you sure about this?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4k3/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/4K3 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "e6",
+      "afterMoveFen": "4k3/pp3ppp/2p1p3/3pP3/3P4/8/PPP2PPP/4K3 w - - 0 2"
+    }
+  },
+  "drill": null
+}

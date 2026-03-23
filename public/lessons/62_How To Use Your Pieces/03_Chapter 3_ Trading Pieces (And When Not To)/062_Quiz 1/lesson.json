@@ -1,0 +1,86 @@
+{
+  "id": "4c668dc8-1250-4efd-b0dd-f8492b31097f",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black blocks the attack on their queen. \n\nAs White, the logic behind trading on b4 is that you get rid of an attacker.\n\nShould you avoid this trade, and if so, how?",
+    "answers": [
+      {
+        "text": "c3",
+        "feedback": {
+          "text": "This move gets rid of all the danger. Your king is kept safe.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "attacking the bishop and blocking the trade.",
+        "afterMoveFen": "r3k2r/pp3ppp/2n2n2/qN1pp3/Pb6/2PP1Q2/1P1B1PPP/R3K1NR b KQkq - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Bxb4",
+        "feedback": {
+          "text": "With this move, you activate Black's pieces. Nxb4 and Black threatens the c2 pawn and a discovered check.",
+          "arrows": {
+            "threats": [
+              "c6-b4",
+              "b4-c2"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c2"
+            ],
+            "opportunities": [
+              "b4"
+            ]
+          }
+        },
+        "comment": "trading bishops.",
+        "afterMoveFen": "r3k2r/pp3ppp/2n2n2/qN1pp3/PB6/3P1Q2/1PP2PPP/R3K1NR b KQkq - 0 2"
+      },
+      {
+        "text": "O-O-O",
+        "feedback": {
+          "text": "It looks like you solve some issues, but this move drops the a4-pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a5-a4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "a4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "castling and getting the king into safety.",
+        "afterMoveFen": "r3k2r/pp3ppp/2n2n2/qN1pp3/Pb6/3P1Q2/1PPB1PPP/2KR2NR b kq - 3 2"
+      },
+      {
+        "text": "Nc3",
+        "feedback": {
+          "text": "You shouldn't retreat if there's something better...",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "bringing the knight back.",
+        "afterMoveFen": "r3k2r/pp3ppp/2n2n2/q2pp3/Pb6/2NP1Q2/1PPB1PPP/R3K1NR b KQkq - 3 2"
+      }
+    ],
+    "positionFen": "r3kb1r/pp3ppp/2n2n2/qN1pp3/P7/3P1Q2/1PPB1PPP/R3K1NR b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bb4",
+      "afterMoveFen": "r3k2r/pp3ppp/2n2n2/qN1pp3/Pb6/3P1Q2/1PPB1PPP/R3K1NR w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

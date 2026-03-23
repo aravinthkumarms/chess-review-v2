@@ -1,0 +1,58 @@
+{
+  "id": "028bed50-c057-4067-b8c2-226918101df0",
+  "name": "Quiz 5",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has just activated their rook. \n\nThe knight on c4 is quite annoying. \n\nWhat's the best plan here?",
+    "answers": [
+      {
+        "text": "Rxd5",
+        "feedback": {
+          "text": "This move trades pieces and deals with threats against your queen.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "trading rooks.",
+        "afterMoveFen": "2k4r/Qpp3pp/1n2pp2/3R1q2/2n5/4BN1P/PPP2PP1/2K4R b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "b3",
+        "feedback": {
+          "text": "b3, Ra5 and the queen is trapped!",
+          "arrows": {
+            "threats": [
+              "d5-a5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "a7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "attacking the knight and trying to chase it away.",
+        "afterMoveFen": "2k4r/Qpp3pp/1n2pp2/3r1q2/2n5/1P2BN1P/P1P2PP1/2KR3R b - - 0 2"
+      }
+    ],
+    "positionFen": "2kr3r/Qpp3pp/1n2pp2/3P1q2/2n5/4BN1P/PPP2PP1/2KR3R b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "c4"
+      ]
+    },
+    "contextMove": {
+      "san": "Rxd5",
+      "afterMoveFen": "2k4r/Qpp3pp/1n2pp2/3r1q2/2n5/4BN1P/PPP2PP1/2KR3R w - - 0 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,93 @@
+{
+  "id": "ca276e52-0869-405a-a9f5-5365a6572390",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "c2 is under fire. \n\nIf Nxc2+, the rook on a1 falls. \n\nHow can you defend?",
+    "answers": [
+      {
+        "text": "Ne3",
+        "feedback": {
+          "text": "Correct! This is the best move: you use the knight to defend c2 and you keep castling rights!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1b1k2r/ppp1pp1p/6pb/4P2n/3n1P2/4N1P1/PPP3BP/R1B1K1NR b KQkq - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kd2",
+        "feedback": {
+          "text": "This is not the best way to defend c2. \n\nThe king blocks the bishop and it places itself on the open d-file.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1b1k2r/ppp1pp1p/6pb/4P2n/3n1P2/6P1/PPPK2BP/R1BN2NR b kq - 3 2"
+      },
+      {
+        "text": "c3",
+        "feedback": {
+          "text": "This move attacks the knight and defends the pawn, but it doesn't prevent Nc2+, winning the rook on a1.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1b1k2r/ppp1pp1p/6pb/4P2n/3n1P2/2P3P1/PP4BP/R1BNK1NR b KQkq - 0 2"
+      },
+      {
+        "text": "Rb1",
+        "feedback": {
+          "text": "This move allows Nxc2+. \n\nDo you have a better way of defending?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1b1k2r/ppp1pp1p/6pb/4P2n/3n1P2/6P1/PPP3BP/1RBNK1NR b Kkq - 3 2"
+      }
+    ],
+    "positionFen": "r1b1k2r/ppp1pp1p/2n3pb/4P2n/5P2/6P1/PPP3BP/R1BNK1NR b KQkq - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "c2",
+        "a1"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Nd4",
+      "afterMoveFen": "r1b1k2r/ppp1pp1p/6pb/4P2n/3n1P2/6P1/PPP3BP/R1BNK1NR w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

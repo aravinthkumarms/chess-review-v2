@@ -1,0 +1,53 @@
+{
+  "id": "e53fe6d3-ca13-4dda-b9e0-49f9f2f87add",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Imagine you're playing Black. White has gone Qe4.   \n\nAfter Qe4, what should you play based on what your opponent wants?",
+    "answers": [
+      {
+        "text": "Rec7",
+        "feedback": {
+          "text": "This move removes your rook from danger. White wanted to play Rxd5, and after exd5, Qxe7.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "doubling rooks on the c-file.",
+        "afterMoveFen": "2r5/1pr2p1k/4p1p1/pBqn2Pp/P3Q3/2P5/1P3PP1/3RR1K1 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Qc7",
+        "feedback": {
+          "text": "This move blunders Rxd5.",
+          "arrows": {
+            "threats": [
+              "d1-d5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d5"
+            ]
+          }
+        },
+        "comment": "moving the queen to a better square.",
+        "afterMoveFen": "2r5/1pq1rp1k/4p1p1/pB1n2Pp/P3Q3/2P5/1P3PP1/3RR1K1 w - - 3 2"
+      }
+    ],
+    "positionFen": "2r5/1p2rp1k/4p1p1/pBqn2Pp/P7/2P5/1PQ2PP1/3RR1K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qe4",
+      "afterMoveFen": "2r5/1p2rp1k/4p1p1/pBqn2Pp/P3Q3/2P5/1P3PP1/3RR1K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

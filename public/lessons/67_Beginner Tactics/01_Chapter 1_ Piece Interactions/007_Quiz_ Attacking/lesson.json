@@ -1,0 +1,43 @@
+{
+  "id": "4eab537a-902c-430f-9516-e12584e7dd2e",
+  "name": "Quiz: Attacking",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "How many pieces is the knight on e4 attacking?",
+    "answers": [
+      {
+        "text": "d2-g3-g5",
+        "feedback": {
+          "text": "Exactly! The knight \"sees\" the rook, the bishop and the queen.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The knight moves in an L shape. Look carefully at the White pieces occupying the knight's potential squares.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r3k1/pp4bp/2r1pnp1/5pQ1/2q5/6BP/PPPR2P1/1KR5 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ne4",
+      "afterMoveFen": "2r3k1/pp4bp/2r1p1p1/5pQ1/2q1n3/6BP/PPPR2P1/1KR5 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,770 @@
+{
+  "id": "20b77f09-6a7d-4e84-b44f-c381258e3298",
+  "name": "Study 4: The Backward Pawn",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "7"
+        ],
+        "comments": [
+          {
+            "text": "This game was played between Erich Eliskases & Ludwig Schmitt in 1938.\n\nIn this study, you will learn about the concept of a backward pawn & how you should use it to win the endgame.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1265673",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1pk5/p1p2p2/2P1p1p1/1P2P1P1/P3K3/5P2/8 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1t": {
+        "adjacentNodeIds": [
+          "gO"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt moved the king over to d7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p1k4/p1p2p2/K1P1p1p1/PP2P1P1/8/5P2/8 w - - 1 7",
+        "parentNodeId": "9X",
+        "san": "Kd7"
+      },
+      "2B": {
+        "adjacentNodeIds": [
+          "9N",
+          "KC"
+        ],
+        "comments": [
+          {
+            "text": "And when Black exchanges pawns...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/kp6/2p2p2/2P1p1p1/Kp2P1P1/P7/5P2/8 w - - 0 5",
+        "parentNodeId": "ak",
+        "san": "axb4"
+      },
+      "3s": {
+        "adjacentNodeIds": [
+          "Vp"
+        ],
+        "comments": [
+          {
+            "text": "Erich recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/1p6/pK3p2/1PP1p1p1/4P1P1/8/5P2/8 b - - 0 9",
+        "parentNodeId": "V5",
+        "san": "axb5"
+      },
+      "4k": {
+        "adjacentNodeIds": [
+          "sS"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt continued ...Ka7.\n\nHe is pretty much just waiting.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/kp6/p1p2p2/2P1p1p1/1PK1P1P1/P7/5P2/8 w - - 5 3",
+        "parentNodeId": "D",
+        "san": "Ka7"
+      },
+      "5A": {
+        "adjacentNodeIds": [
+          "xr"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt defended the pawn w/...Kc8.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c8-b7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k5/1p6/pKp2p2/2P1p1p1/PP2P1P1/8/5P2/8 w - - 3 8",
+        "parentNodeId": "gO",
+        "san": "Kc8"
+      },
+      "7": {
+        "adjacentNodeIds": [
+          "S",
+          "VG"
+        ],
+        "comments": [
+          {
+            "text": "The pawns on b7 and f6 are known as \"backward pawns\". Backward pawns are ones that have no support from other pawns & can't safely advance.\n\nThe first phase of White's plan is to bring the king into b6 from where it will pressure the b7-pawn and force the black king to passively defend.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-b3",
+                "b3-a4",
+                "d3-c4",
+                "a5-b6",
+                "a4-a5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b7",
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1pk5/p1p2p2/2P1p1p1/1P2P1P1/P2K4/5P2/8 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Kd3"
+      },
+      "7W": {
+        "adjacentNodeIds": [
+          "yX"
+        ],
+        "comments": [
+          {
+            "text": "Black can push the backward pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/k7/2p2p2/1pP1p1p1/KP2P1P1/8/5P2/8 w - b6 0 6",
+        "parentNodeId": "KC",
+        "san": "b5+"
+      },
+      "9N": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White should recapture with the king.\n\nThis position is winning for White and the main plan is to get the king to b6 in order to pressure the b7-pawn and force Black's king to passively defend.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b4-a5",
+                "a5-b6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/kp6/2p2p2/2P1p1p1/1K2P1P1/P7/5P2/8 b - - 0 5",
+        "parentNodeId": "2B",
+        "san": "Kxb4"
+      },
+      "9R": {
+        "adjacentNodeIds": [
+          "oR"
+        ],
+        "comments": [
+          {
+            "text": "White can simply capture the pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2k5/pPp2p2/4p1p1/1P2P1P1/P2K4/5P2/8 b - - 0 2",
+        "parentNodeId": "VG",
+        "san": "cxb6+"
+      },
+      "9X": {
+        "adjacentNodeIds": [
+          "1t"
+        ],
+        "comments": [
+          {
+            "text": "And Erich advanced the a-pawn.\n\nWith this move he is forcing Schmitt to move the king away from c7 (since no pawns are really able to move), and is also preparing to push the b-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1pk5/p1p2p2/K1P1p1p1/PP2P1P1/8/5P2/8 b - - 0 6",
+        "parentNodeId": "tH",
+        "san": "a4"
+      },
+      "D": {
+        "adjacentNodeIds": [
+          "4k"
+        ],
+        "comments": [
+          {
+            "text": "Erich continued the king's journey.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k6/1p6/p1p2p2/2P1p1p1/1PK1P1P1/P7/5P2/8 b - - 4 2",
+        "parentNodeId": "S",
+        "san": "Kc4"
+      },
+      "DO": {
+        "adjacentNodeIds": [
+          "O4"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt moved his king over to b8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k6/1p6/p1p2p2/2P1p1p1/KP2P1P1/P7/5P2/8 w - - 9 5",
+        "parentNodeId": "uI",
+        "san": "Kb8"
+      },
+      "FQ": {
+        "adjacentNodeIds": [
+          "Zg"
+        ],
+        "comments": [
+          {
+            "text": "Erich pushed his f-pawn one square.\n\nThis seemingly harmless pawn move wins the game because it puts Black into \"zugzwang\" - a situation in which one side has to make a bad move. If Black could skip a move this would be a draw, but Black is forced to make a move and there are no good moves!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1pk5/5p2/1KP1p1p1/4P1P1/5P2/8/8 b - - 0 11",
+        "parentNodeId": "iR",
+        "san": "f3"
+      },
+      "Gl": {
+        "adjacentNodeIds": [
+          "MA"
+        ],
+        "comments": [
+          {
+            "text": "And Erich pushed his c-pawn - this is the final nail in the coffin for Black.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/1p6/1KP2p2/4p1p1/4P1P1/5P2/8/8 b - - 0 13",
+        "parentNodeId": "VX",
+        "san": "c6"
+      },
+      "KC": {
+        "adjacentNodeIds": [
+          "7W"
+        ],
+        "comments": [
+          {
+            "text": "White shouldn't recapture axb4!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/kp6/2p2p2/2P1p1p1/KP2P1P1/8/5P2/8 b - - 0 5",
+        "parentNodeId": "2B",
+        "san": "axb4"
+      },
+      "MA": {
+        "adjacentNodeIds": [
+          "qQ"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt actually resigned the game after Erich's previous move, but if he were to continue by taking on c6...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/8/1Kp2p2/4p1p1/4P1P1/5P2/8/8 w - - 0 14",
+        "parentNodeId": "Gl",
+        "san": "bxc6"
+      },
+      "NZ": {
+        "adjacentNodeIds": [
+          "uI"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt kept on waiting with ...Ka8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "k7/1p6/p1p2p2/2P1p1p1/1P2P1P1/PK6/5P2/8 w - - 7 4",
+        "parentNodeId": "sS",
+        "san": "Ka8"
+      },
+      "O4": {
+        "adjacentNodeIds": [
+          "tH"
+        ],
+        "comments": [
+          {
+            "text": "Erich moved his king up to a5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k6/1p6/p1p2p2/K1P1p1p1/1P2P1P1/P7/5P2/8 b - - 10 5",
+        "parentNodeId": "DO",
+        "san": "Ka5"
+      },
+      "S": {
+        "adjacentNodeIds": [
+          "D"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt went ...Kb8.\n\nBlack has no productive plan here since none of the pawns can move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k6/1p6/p1p2p2/2P1p1p1/1P2P1P1/P2K4/5P2/8 w - - 3 2",
+        "parentNodeId": "7",
+        "san": "Kb8"
+      },
+      "V5": {
+        "adjacentNodeIds": [
+          "3s"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt traded the pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/1p6/pK3p2/1pP1p1p1/P3P1P1/8/5P2/8 w - - 0 9",
+        "parentNodeId": "xr",
+        "san": "cxb5"
+      },
+      "VG": {
+        "adjacentNodeIds": [
+          "9R"
+        ],
+        "comments": [
+          {
+            "text": "The attempt to get rid of the backward pawn with ...b6 is of no avail for Black.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2k5/ppp2p2/2P1p1p1/1P2P1P1/P2K4/5P2/8 w - - 0 2",
+        "parentNodeId": "7",
+        "san": "b6"
+      },
+      "VX": {
+        "adjacentNodeIds": [
+          "Gl"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt defended the pawn w/...Kc8.\n\nNotice how Black's king is still stuck passively guarding the b7-pawn!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c8-b7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k5/1p6/1K3p2/2P1p1p1/4P1P1/5P2/8/8 w - - 3 13",
+        "parentNodeId": "yk",
+        "san": "Kc8"
+      },
+      "Vp": {
+        "adjacentNodeIds": [
+          "gn"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt traded once more.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/1p6/1K3p2/1pP1p1p1/4P1P1/8/5P2/8 w - - 0 10",
+        "parentNodeId": "3s",
+        "san": "axb5"
+      },
+      "Zg": {
+        "adjacentNodeIds": [
+          "yk"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt moved the king over to d7.\n\nThe king no longer controls b6...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p1k4/5p2/1KP1p1p1/4P1P1/5P2/8/8 w - - 1 12",
+        "parentNodeId": "FQ",
+        "san": "Kd7"
+      },
+      "aU": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black can shuffle w/...Ka6-Ka7 and there is no way for White to make progress. This position is a draw!",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p6/k1p2p2/P1P1p1p1/4P1P1/PK6/5P2/8 w - - 1 5",
+        "parentNodeId": "yS",
+        "san": "Ka6"
+      },
+      "ak": {
+        "adjacentNodeIds": [
+          "2B"
+        ],
+        "comments": [
+          {
+            "text": "White should move the king into a4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/kp6/2p2p2/p1P1p1p1/KP2P1P1/P7/5P2/8 b - - 1 4",
+        "parentNodeId": "aq",
+        "san": "Ka4"
+      },
+      "aq": {
+        "adjacentNodeIds": [
+          "ak",
+          "yS"
+        ],
+        "comments": [
+          {
+            "text": "Black can try to fight back with ...a5.\n\nThis is actually quite tricky!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/kp6/2p2p2/p1P1p1p1/1P2P1P1/PK6/5P2/8 w - - 0 4",
+        "parentNodeId": "sS",
+        "san": "a5"
+      },
+      "ev": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White moves the king into c4.\n\nThis endgame is lost for Black. There is simply no way to prevent White's king from advancing up the board.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/pkp2p2/4p1p1/1PK1P1P1/P7/5P2/8 b - - 1 3",
+        "parentNodeId": "oR",
+        "san": "Kc4"
+      },
+      "fq": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black can shuffle w/...Kb6-Ka6 and there is no way for White to make progress. This position is a draw!",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1kp2p2/4p1p1/KP2P1P1/8/5P2/8 w - - 0 7",
+        "parentNodeId": "yX",
+        "san": "Kxb6"
+      },
+      "gO": {
+        "adjacentNodeIds": [
+          "5A"
+        ],
+        "comments": [
+          {
+            "text": "And Erich finally got his king into b6.\n\nThe b7-pawn is now under attack.",
+            "arrows": {
+              "threats": [
+                "b6-b7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p1k4/pKp2p2/2P1p1p1/PP2P1P1/8/5P2/8 b - - 2 7",
+        "parentNodeId": "1t",
+        "san": "Kb6"
+      },
+      "gn": {
+        "adjacentNodeIds": [
+          "iR"
+        ],
+        "comments": [
+          {
+            "text": "Erich recaptured with his king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/1p6/5p2/1KP1p1p1/4P1P1/8/5P2/8 b - - 0 10",
+        "parentNodeId": "Vp",
+        "san": "Kxb5"
+      },
+      "iR": {
+        "adjacentNodeIds": [
+          "FQ"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt moved his king up a square to prevent White's king from advancing.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1pk5/5p2/1KP1p1p1/4P1P1/8/5P2/8 w - - 1 11",
+        "parentNodeId": "gn",
+        "san": "Kc7"
+      },
+      "oR": {
+        "adjacentNodeIds": [
+          "ev"
+        ],
+        "comments": [
+          {
+            "text": "And when Black recaptures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/pkp2p2/4p1p1/1P2P1P1/P2K4/5P2/8 w - - 0 3",
+        "parentNodeId": "9R",
+        "san": "Kxb6"
+      },
+      "qQ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White would simply recapture.\n\nThe game is over and the win is pretty simple - walk over and win the pawns!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c6-d6",
+                "d6-e6",
+                "e6-f6",
+                "f6-e5",
+                "f6-g5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g5",
+                "e5",
+                "f6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k5/8/2K2p2/4p1p1/4P1P1/5P2/8/8 b - - 0 14",
+        "parentNodeId": "MA",
+        "san": "Kxc6"
+      },
+      "sS": {
+        "adjacentNodeIds": [
+          "NZ",
+          "aq"
+        ],
+        "comments": [
+          {
+            "text": "Erich proceeded with his plan.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/kp6/p1p2p2/2P1p1p1/1P2P1P1/PK6/5P2/8 b - - 6 3",
+        "parentNodeId": "4k",
+        "san": "Kb3"
+      },
+      "tH": {
+        "adjacentNodeIds": [
+          "9X"
+        ],
+        "comments": [
+          {
+            "text": "Schmitt went ...Kc7, covering b6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1pk5/p1p2p2/K1P1p1p1/1P2P1P1/P7/5P2/8 w - - 11 6",
+        "parentNodeId": "O4",
+        "san": "Kc7"
+      },
+      "uI": {
+        "adjacentNodeIds": [
+          "DO"
+        ],
+        "comments": [
+          {
+            "text": "Erich brought his king into a4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "k7/1p6/p1p2p2/2P1p1p1/KP2P1P1/P7/5P2/8 b - - 8 4",
+        "parentNodeId": "NZ",
+        "san": "Ka4"
+      },
+      "xr": {
+        "adjacentNodeIds": [
+          "V5"
+        ],
+        "comments": [
+          {
+            "text": "And Erich pushed his b-pawn.\n\nThe second phase of White's plan is to exchange the queenside pawns in order to transform the endgame into one where the white king's dominant activity will allow him to go after the base of Black's kingside pawn chain.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b4-b5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k5/1p6/pKp2p2/1PP1p1p1/P3P1P1/8/5P2/8 b - - 0 8",
+        "parentNodeId": "5A",
+        "san": "b5"
+      },
+      "yS": {
+        "adjacentNodeIds": [
+          "aU"
+        ],
+        "comments": [
+          {
+            "text": "White should not capture!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/kp6/2p2p2/P1P1p1p1/4P1P1/PK6/5P2/8 b - - 0 4",
+        "parentNodeId": "aq",
+        "san": "bxa5"
+      },
+      "yX": {
+        "adjacentNodeIds": [
+          "fq"
+        ],
+        "comments": [
+          {
+            "text": "And when White takes en passant...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/k7/1Pp2p2/4p1p1/KP2P1P1/8/5P2/8 b - - 0 6",
+        "parentNodeId": "7W",
+        "san": "cxb6+"
+      },
+      "yk": {
+        "adjacentNodeIds": [
+          "VX"
+        ],
+        "comments": [
+          {
+            "text": "So Erich attacked the b7-pawn w/Kb6.",
+            "arrows": {
+              "threats": [
+                "b6-b7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p1k4/1K3p2/2P1p1p1/4P1P1/5P2/8/8 b - - 2 12",
+        "parentNodeId": "Zg",
+        "san": "Kb6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

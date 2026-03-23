@@ -1,0 +1,61 @@
+{
+  "id": "578aa1d2-1b46-4583-a900-bbe4556cff84",
+  "name": "Quiz 2 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plants their bishop on d5. \n\nWe want to kick it out.\n\nIs ...Ne7 a good idea?",
+    "answers": [
+      {
+        "text": "No, White has a tactical idea.",
+        "feedback": {
+          "text": "Exactly! ...Ne7, Bxf7+, and our rook is lost!",
+          "arrows": {
+            "threats": [
+              "c6-e7"
+            ],
+            "opportunities": [
+              "d5-f7",
+              "d1-d8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, no tactics there!",
+        "feedback": {
+          "text": "After ...Ne7, try to watch out for any checks from White!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3r2k1/ppp2p2/2n2b1p/4p1p1/1PB1P3/2P2PBP/P4PK1/3R4 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c6-e7"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Bd5",
+      "afterMoveFen": "3r2k1/ppp2p2/2n2b1p/3Bp1p1/1P2P3/2P2PBP/P4PK1/3R4 b - - 2 1"
+    }
+  },
+  "drill": null
+}

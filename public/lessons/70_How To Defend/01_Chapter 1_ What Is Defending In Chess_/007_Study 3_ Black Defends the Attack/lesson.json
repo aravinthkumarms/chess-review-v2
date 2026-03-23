@@ -1,0 +1,1086 @@
+{
+  "id": "b8a91d39-dc69-4bc7-8d69-47909dbaf4ac",
+  "name": "Study 3: Black Defends the Attack",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "R"
+        ],
+        "comments": [
+          {
+            "text": "I had the White pieces in this game. \n\nBut this study is all about how Black defended against my attack! ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/game/live/5611386266",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rbk1/p4Npp/1p1pq1n1/3b2B1/3P3P/6Q1/3N1RP1/R5K1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0M": {
+        "adjacentNodeIds": [
+          "S9"
+        ],
+        "comments": [
+          {
+            "text": "This is not how you defend.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rbk1/p7/1p1pbBpp/7Q/3P4/4q3/3N1RP1/R5K1 w - - 0 7",
+        "parentNodeId": "mK",
+        "san": "hxg6"
+      },
+      "1X": {
+        "adjacentNodeIds": [
+          "b4"
+        ],
+        "comments": [
+          {
+            "text": "My knight was attacked! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p3k3/1p1p4/1b1P3p/8/2Q5/4q1P1/5NK1 w - - 9 23",
+        "parentNodeId": "g1",
+        "san": "Bb5"
+      },
+      "1e": {
+        "adjacentNodeIds": [
+          "tZ"
+        ],
+        "comments": [
+          {
+            "text": "I refused, of course. \n\nNow I'm the one that's trying to create counterplay down two pawns! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p3k3/1p1p1q2/3P3p/1Q4b1/8/6P1/5NK1 b - - 2 19",
+        "parentNodeId": "Ki",
+        "san": "Qb4"
+      },
+      "2W": {
+        "adjacentNodeIds": [
+          "kA"
+        ],
+        "comments": [
+          {
+            "text": "And now Black gave back some material! \n\nThis is a common strategy while defending: if your opponent sacrifices material, you can give some back to mitigate the attack.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rbk1/p6p/1p1pqBnp/3b3P/3P4/6Q1/3N1RP1/R5K1 w - - 2 4",
+        "parentNodeId": "te",
+        "san": "Ng6"
+      },
+      "2i": {
+        "adjacentNodeIds": [
+          "Ki"
+        ],
+        "comments": [
+          {
+            "text": "I pushed the pawn, opening up the way for my queen.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-a4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/p3k3/1p1p2q1/3P3p/5Qb1/8/6P1/5NK1 b - - 0 18",
+        "parentNodeId": "9S",
+        "san": "d5"
+      },
+      "2k": {
+        "adjacentNodeIds": [
+          "HL"
+        ],
+        "comments": [
+          {
+            "text": "But now it's hard to stop checkmate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r3/p5bk/1p1pbB1p/7Q/3P4/6R1/6P1/q4NK1 b - - 1 10",
+        "parentNodeId": "fh",
+        "san": "Rg3"
+      },
+      "3M": {
+        "adjacentNodeIds": [
+          "QT"
+        ],
+        "comments": [
+          {
+            "text": "Only move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/p5b1/1p1pbBQp/8/3P4/4q3/3N1RP1/R5K1 w - - 1 8",
+        "parentNodeId": "S9",
+        "san": "Bg7"
+      },
+      "3g": {
+        "adjacentNodeIds": [
+          "zm"
+        ],
+        "comments": [
+          {
+            "text": "I traded here...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r3/p5Bk/1p1pb2p/7Q/3Pq3/8/5RP1/R4NK1 b - - 0 9",
+        "parentNodeId": "SY",
+        "san": "Bxg7"
+      },
+      "3v": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And checkmate.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3r2k/p7/1p1pbb1Q/8/3P4/6R1/6P1/q4NK1 b - - 0 12",
+        "parentNodeId": "el",
+        "san": "Qxh6#"
+      },
+      "60": {
+        "adjacentNodeIds": [
+          "nd"
+        ],
+        "comments": [
+          {
+            "text": "I brought my queen to the c-file, trying to infiltrate.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-c7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/p3k3/1p1p4/3Pq2p/2Q3b1/8/6P1/5NK1 b - - 4 20",
+        "parentNodeId": "tZ",
+        "san": "Qc4"
+      },
+      "6D": {
+        "adjacentNodeIds": [
+          "Oc"
+        ],
+        "comments": [
+          {
+            "text": "And in the middle of the fire, Black calmly offered a bishop trade! \n\nThe dark-squared bishop is an attacker, so this trade favors Black! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/p5bp/1p1pbBPp/7Q/3P4/4q3/3N1RP1/R5K1 w - - 5 7",
+        "parentNodeId": "mK",
+        "san": "Bg7"
+      },
+      "9S": {
+        "adjacentNodeIds": [
+          "2i"
+        ],
+        "comments": [
+          {
+            "text": "But Black is completely safe. \n\nThey defended successfully! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p3k3/1p1p2q1/7p/3P1Qb1/8/6P1/5NK1 w - - 2 18",
+        "parentNodeId": "KH",
+        "san": "Ke7"
+      },
+      "9U": {
+        "adjacentNodeIds": [
+          "UO"
+        ],
+        "comments": [
+          {
+            "text": "I doubled rooks on the f-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r3/p5k1/1p1p2qp/8/3P2b1/6N1/5RPQ/5RK1 b - - 5 12",
+        "parentNodeId": "CH",
+        "san": "Raf1"
+      },
+      "BA": {
+        "adjacentNodeIds": [
+          "SY",
+          "w8"
+        ],
+        "comments": [
+          {
+            "text": "The knight gained a tempo on the queen. \n\nWhen the queen moves, my rook will be unpinned! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3r3/p5bk/1p1pbB1p/7Q/3P4/4q3/5RP1/R4NK1 b - - 1 8",
+        "parentNodeId": "Yt",
+        "san": "Nf1"
+      },
+      "CH": {
+        "adjacentNodeIds": [
+          "9U"
+        ],
+        "comments": [
+          {
+            "text": "What's the bishop doing on g4? \n\nCovering the h5 square against Nh5+. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r3/p5k1/1p1p2qp/8/3P2b1/6N1/5RPQ/R5K1 w - - 4 12",
+        "parentNodeId": "c0",
+        "san": "Bg4"
+      },
+      "HC": {
+        "adjacentNodeIds": [
+          "jo"
+        ],
+        "comments": [
+          {
+            "text": "I got out of the trade offer...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rbk1/p6p/1p1p1BPp/3b4/3P2Q1/4q3/3N1RP1/R5K1 b - - 2 5",
+        "parentNodeId": "vx",
+        "san": "Qg4"
+      },
+      "HL": {
+        "adjacentNodeIds": [
+          "T7"
+        ],
+        "comments": [
+          {
+            "text": "If this were played...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r3/p6k/1p1pbb1p/7Q/3P4/6R1/6P1/q4NK1 w - - 0 11",
+        "parentNodeId": "2k",
+        "san": "Bxf6"
+      },
+      "KH": {
+        "adjacentNodeIds": [
+          "9S"
+        ],
+        "comments": [
+          {
+            "text": "I gave a check because I needed to get my queen out of that corner! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5k2/p7/1p1p2q1/7p/3P1Qb1/8/6P1/5NK1 b - - 1 17",
+        "parentNodeId": "vv",
+        "san": "Qf4+"
+      },
+      "Ki": {
+        "adjacentNodeIds": [
+          "1e"
+        ],
+        "comments": [
+          {
+            "text": "Up material, Black proposed a trade! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p3k3/1p1p1q2/3P3p/5Qb1/8/6P1/5NK1 w - - 1 19",
+        "parentNodeId": "2i",
+        "san": "Qf6"
+      },
+      "N1": {
+        "adjacentNodeIds": [
+          "YB"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r7/p5k1/1p1p2qp/8/3P1Rb1/6N1/6PQ/6K1 b - - 0 14",
+        "parentNodeId": "lO",
+        "san": "Rxf4"
+      },
+      "Nb": {
+        "adjacentNodeIds": [
+          "Xp"
+        ],
+        "comments": [
+          {
+            "text": "Black created an outpost for their bishop. \n\nNot only has the attack winded down, but I'm two pawns down! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r2/p5k1/1p1p2q1/7p/3P1Rb1/8/6PQ/5NK1 w - - 0 16",
+        "parentNodeId": "dj",
+        "san": "h5"
+      },
+      "OE": {
+        "adjacentNodeIds": [
+          "te"
+        ],
+        "comments": [
+          {
+            "text": "Black captured.\n\nThis was an only move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rbkn/p6p/1p1pq2p/3b2BP/3P4/6Q1/3N1RP1/R5K1 w - - 0 3",
+        "parentNodeId": "a",
+        "san": "gxh6"
+      },
+      "Oc": {
+        "adjacentNodeIds": [
+          "Yt"
+        ],
+        "comments": [
+          {
+            "text": "I captured with check...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/p5bP/1p1pbB1p/7Q/3P4/4q3/3N1RP1/R5K1 b - - 0 7",
+        "parentNodeId": "6D",
+        "san": "gxh7+"
+      },
+      "Q6": {
+        "adjacentNodeIds": [
+          "lP"
+        ],
+        "comments": [
+          {
+            "text": "And maybe Black thought I had given another check...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/p5Q1/1p1p4/1b1P3p/8/6N1/4q1P1/6K1 w - - 13 25",
+        "parentNodeId": "ub",
+        "san": "Kd8"
+      },
+      "QT": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Yet Black avoided blundering like this.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/p5Q1/1p1pbB1p/8/3P4/4q3/3N1RP1/R5K1 b - - 0 8",
+        "parentNodeId": "3M",
+        "san": "Qxg7#"
+      },
+      "R": {
+        "adjacentNodeIds": [
+          "v"
+        ],
+        "comments": [
+          {
+            "text": "I attacked with h5! \n\nMy idea is to clear the g-file for my queen! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rbk1/p4Npp/1p1pq1n1/3b2BP/3P4/6Q1/3N1RP1/R5K1 b - - 0 1",
+        "parentNodeId": "0",
+        "san": "h5"
+      },
+      "S9": {
+        "adjacentNodeIds": [
+          "3M"
+        ],
+        "comments": [
+          {
+            "text": "Black is getting mated! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rbk1/p7/1p1pbBQp/8/3P4/4q3/3N1RP1/R5K1 b - - 0 7",
+        "parentNodeId": "0M",
+        "san": "Qxg6+"
+      },
+      "SY": {
+        "adjacentNodeIds": [
+          "3g"
+        ],
+        "comments": [
+          {
+            "text": "The queen stayed near the kingside. \n\nIn fact, the queen was placed on a light square, covering the light squares around the king and even securing a move like Qg6 to follow! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-g6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3r3/p5bk/1p1pbB1p/7Q/3Pq3/8/5RP1/R4NK1 w - - 2 9",
+        "parentNodeId": "BA",
+        "san": "Qe4"
+      },
+      "T7": {
+        "adjacentNodeIds": [
+          "el"
+        ],
+        "comments": [
+          {
+            "text": "It's game over for Black.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3r3/p6k/1p1pbbQp/8/3P4/6R1/6P1/q4NK1 b - - 1 11",
+        "parentNodeId": "HL",
+        "san": "Qg6+"
+      },
+      "UO": {
+        "adjacentNodeIds": [
+          "hY"
+        ],
+        "comments": [
+          {
+            "text": "But my opponent, once again, insisted on trades! \n\nThat's how you mitigate an attack! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/p5k1/1p1p2qp/8/3P2b1/6N1/5RPQ/5RK1 w - - 6 13",
+        "parentNodeId": "9U",
+        "san": "Rf8"
+      },
+      "VC": {
+        "adjacentNodeIds": [
+          "X0"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c7-a7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e7",
+                "a7",
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p1Q1k3/1p1p4/3P3p/6b1/8/4q1P1/5NK1 b - - 6 21",
+        "parentNodeId": "nd",
+        "san": "Qc7+"
+      },
+      "X0": {
+        "adjacentNodeIds": [
+          "g1"
+        ],
+        "comments": [
+          {
+            "text": "The bishop blocked! \n\nTime was getting low for both sides! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p1Qbk3/1p1p4/3P3p/8/8/4q1P1/5NK1 w - - 7 22",
+        "parentNodeId": "VC",
+        "san": "Bd7"
+      },
+      "Xp": {
+        "adjacentNodeIds": [
+          "vv"
+        ],
+        "comments": [
+          {
+            "text": "I traded...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5R2/p5k1/1p1p2q1/7p/3P2b1/8/6PQ/5NK1 b - - 0 16",
+        "parentNodeId": "Nb",
+        "san": "Rxf8"
+      },
+      "YB": {
+        "adjacentNodeIds": [
+          "dj"
+        ],
+        "comments": [
+          {
+            "text": "And quite simply they brought the other rook to f8 to trade! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r2/p5k1/1p1p2qp/8/3P1Rb1/6N1/6PQ/6K1 w - - 1 15",
+        "parentNodeId": "N1",
+        "san": "Rf8"
+      },
+      "Yt": {
+        "adjacentNodeIds": [
+          "BA"
+        ],
+        "comments": [
+          {
+            "text": "The king recaptured, of course...\n\nThe check was harmless.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r3/p5bk/1p1pbB1p/7Q/3P4/4q3/3N1RP1/R5K1 w - - 0 8",
+        "parentNodeId": "Oc",
+        "san": "Kxh7"
+      },
+      "a": {
+        "adjacentNodeIds": [
+          "OE"
+        ],
+        "comments": [
+          {
+            "text": "I sacrificed the knight! \n\nMy idea is to give a discovered check with the queen! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rbkn/p5pp/1p1pq2N/3b2BP/3P4/6Q1/3N1RP1/R5K1 b - - 2 2",
+        "parentNodeId": "v",
+        "san": "Nh6+"
+      },
+      "b4": {
+        "adjacentNodeIds": [
+          "v0"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p3k1Q1/1p1p4/1b1P3p/8/8/4q1P1/5NK1 b - - 10 23",
+        "parentNodeId": "1X",
+        "san": "Qg7+"
+      },
+      "c0": {
+        "adjacentNodeIds": [
+          "CH"
+        ],
+        "comments": [
+          {
+            "text": "So I went all the way back. \n\nI really wanted to attack, but my opponent defended well! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r3/p5k1/1p1pb1qp/8/3P4/6N1/5RPQ/R5K1 b - - 3 11",
+        "parentNodeId": "fa",
+        "san": "Qh2"
+      },
+      "ca": {
+        "adjacentNodeIds": [
+          "fh"
+        ],
+        "comments": [
+          {
+            "text": "I had this in mind.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-g3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r3/p5bk/1p1pbB1p/7Q/3P4/2q2R2/6P1/R4NK1 b - - 3 9",
+        "parentNodeId": "w8",
+        "san": "Rf3"
+      },
+      "dJ": {
+        "adjacentNodeIds": [
+          "fa"
+        ],
+        "comments": [
+          {
+            "text": "I brought my knight into the attack with a tempo! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a1-f1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": [
+                "f1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3r3/p5k1/1p1pb2p/7Q/3Pq3/6N1/5RP1/R5K1 b - - 1 10",
+        "parentNodeId": "zm",
+        "san": "Ng3"
+      },
+      "dj": {
+        "adjacentNodeIds": [
+          "Nb"
+        ],
+        "comments": [
+          {
+            "text": "I brought my knight back, clearing the way for my queen to recapture.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "5r2/p5k1/1p1p2qp/8/3P1Rb1/8/6PQ/5NK1 b - - 2 15",
+        "parentNodeId": "YB",
+        "san": "Nf1"
+      },
+      "el": {
+        "adjacentNodeIds": [
+          "3v"
+        ],
+        "comments": [
+          {
+            "text": "The king goes to the corner...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r2k/p7/1p1pbbQp/8/3P4/6R1/6P1/q4NK1 w - - 2 12",
+        "parentNodeId": "T7",
+        "san": "Kh8"
+      },
+      "fa": {
+        "adjacentNodeIds": [
+          "c0"
+        ],
+        "comments": [
+          {
+            "text": "The queen was planning to go to g6 either way! \n\nAgain, bothering with a trade! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r3/p5k1/1p1pb1qp/7Q/3P4/6N1/5RP1/R5K1 w - - 2 11",
+        "parentNodeId": "dJ",
+        "san": "Qg6"
+      },
+      "fh": {
+        "adjacentNodeIds": [
+          "2k"
+        ],
+        "comments": [
+          {
+            "text": "The queen would have captured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r3/p5bk/1p1pbB1p/7Q/3P4/5R2/6P1/q4NK1 w - - 0 10",
+        "parentNodeId": "ca",
+        "san": "Qxa1"
+      },
+      "g1": {
+        "adjacentNodeIds": [
+          "1X"
+        ],
+        "comments": [
+          {
+            "text": "I came back to c3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p2bk3/1p1p4/3P3p/8/2Q5/4q1P1/5NK1 b - - 8 22",
+        "parentNodeId": "X0",
+        "san": "Qc3"
+      },
+      "hY": {
+        "adjacentNodeIds": [
+          "lO"
+        ],
+        "comments": [
+          {
+            "text": "I brought my rook up to f4. \n\nIf Black wants to trade, I'll get a rook on f4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/p5k1/1p1p2qp/8/3P1Rb1/6N1/6PQ/5RK1 b - - 7 13",
+        "parentNodeId": "UO",
+        "san": "Rf4"
+      },
+      "jo": {
+        "adjacentNodeIds": [
+          "mK"
+        ],
+        "comments": [
+          {
+            "text": "Yet Black disrupted my queen's placement again! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rbk1/p6p/1p1pbBPp/8/3P2Q1/4q3/3N1RP1/R5K1 w - - 3 6",
+        "parentNodeId": "HC",
+        "san": "Be6"
+      },
+      "kA": {
+        "adjacentNodeIds": [
+          "vx"
+        ],
+        "comments": [
+          {
+            "text": "I took the knight. \n\nMy idea is to play another discovered check! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-h7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rbk1/p6p/1p1pqBPp/3b4/3P4/6Q1/3N1RP1/R5K1 b - - 0 4",
+        "parentNodeId": "2W",
+        "san": "hxg6"
+      },
+      "lO": {
+        "adjacentNodeIds": [
+          "N1"
+        ],
+        "comments": [
+          {
+            "text": "They traded...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r7/p5k1/1p1p2qp/8/3P1rb1/6N1/6PQ/5RK1 w - - 0 14",
+        "parentNodeId": "hY",
+        "san": "Rxf4"
+      },
+      "lP": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But that's a free queen! \n\nI had no trouble winning that queen vs bishop endgame! \n\nLet this be a life lesson to you! You can defend like an international master, but if you blunder your queen, you'll lose! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/p5Q1/1p1p4/1b1P3p/8/8/4N1P1/6K1 b - - 0 25",
+        "parentNodeId": "Q6",
+        "san": "Nxe2"
+      },
+      "mK": {
+        "adjacentNodeIds": [
+          "6D",
+          "0M"
+        ],
+        "comments": [
+          {
+            "text": "I went to h5, trying to still attack and potentially recapture with the queen if hxg6...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3rbk1/p6p/1p1pbBPp/7Q/3P4/4q3/3N1RP1/R5K1 b - - 4 6",
+        "parentNodeId": "jo",
+        "san": "Qh5"
+      },
+      "nd": {
+        "adjacentNodeIds": [
+          "VC"
+        ],
+        "comments": [
+          {
+            "text": "White proposed a trade! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p3k3/1p1p4/3P3p/2Q3b1/8/4q1P1/5NK1 w - - 5 21",
+        "parentNodeId": "60",
+        "san": "Qe2"
+      },
+      "tZ": {
+        "adjacentNodeIds": [
+          "60"
+        ],
+        "comments": [
+          {
+            "text": "My opponent centralized the queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p3k3/1p1p4/3Pq2p/1Q4b1/8/6P1/5NK1 w - - 3 20",
+        "parentNodeId": "1e",
+        "san": "Qe5"
+      },
+      "te": {
+        "adjacentNodeIds": [
+          "2W"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rbkn/p6p/1p1pqB1p/3b3P/3P4/6Q1/3N1RP1/R5K1 b - - 1 3",
+        "parentNodeId": "OE",
+        "san": "Bf6+"
+      },
+      "ub": {
+        "adjacentNodeIds": [
+          "Q6"
+        ],
+        "comments": [
+          {
+            "text": "I got my knight out of danger, attacking the queen...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4k3/p5Q1/1p1p4/1b1P3p/8/6N1/4q1P1/6K1 b - - 12 24",
+        "parentNodeId": "v0",
+        "san": "Ng3"
+      },
+      "v": {
+        "adjacentNodeIds": [
+          "a"
+        ],
+        "comments": [
+          {
+            "text": "Black went to h8, proposing a knight trade.\n\nThe defending side wants to trade pieces during an attack.\n\nThe attacking side wants to avoid such trades.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rbkn/p4Npp/1p1pq3/3b2BP/3P4/6Q1/3N1RP1/R5K1 w - - 1 2",
+        "parentNodeId": "R",
+        "san": "Nh8"
+      },
+      "v0": {
+        "adjacentNodeIds": [
+          "ub"
+        ],
+        "comments": [
+          {
+            "text": "The king moved down...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4k3/p5Q1/1p1p4/1b1P3p/8/8/4q1P1/5NK1 w - - 11 24",
+        "parentNodeId": "b4",
+        "san": "Ke8"
+      },
+      "vv": {
+        "adjacentNodeIds": [
+          "KH"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5k2/p7/1p1p2q1/7p/3P2b1/8/6PQ/5NK1 w - - 0 17",
+        "parentNodeId": "Xp",
+        "san": "Kxf8"
+      },
+      "vx": {
+        "adjacentNodeIds": [
+          "HC"
+        ],
+        "comments": [
+          {
+            "text": "Black proposed a queen trade! \n\nRemember: this is what the attacking side wants to avoid, so nagging your opponent with a trade can and often will disrupt the attack! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g3",
+                "e3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3rbk1/p6p/1p1p1BPp/3b4/3P4/4q1Q1/3N1RP1/R5K1 w - - 1 5",
+        "parentNodeId": "kA",
+        "san": "Qe3"
+      },
+      "w8": {
+        "adjacentNodeIds": [
+          "ca"
+        ],
+        "comments": [
+          {
+            "text": "Going offside just to attack a piece that can move is the sort of thing you don't want to do when defending or in any middle game for that matter.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c3-a1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3r3/p5bk/1p1pbB1p/7Q/3P4/2q5/5RP1/R4NK1 w - - 2 9",
+        "parentNodeId": "BA",
+        "san": "Qc3"
+      },
+      "zm": {
+        "adjacentNodeIds": [
+          "dJ"
+        ],
+        "comments": [
+          {
+            "text": "The king recaptured...\n\nAs you can see, Black has made sure that the f7 entry point is covered by their pieces! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e6-f7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3r3/p5k1/1p1pb2p/7Q/3Pq3/8/5RP1/R4NK1 w - - 0 10",
+        "parentNodeId": "3g",
+        "san": "Kxg7"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

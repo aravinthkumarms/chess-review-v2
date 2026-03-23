@@ -1,0 +1,100 @@
+{
+  "id": "fb9c1be6-fefa-4281-926b-02e6b8d92eb3",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is down material. \n\nWhat tactic does White have if ...Rxd4 is played?",
+    "answers": [
+      {
+        "text": "A fork.",
+        "feedback": {
+          "text": "Yes! ...Rxd4 and Qe5+ checks the king and attacks the rook.",
+          "arrows": {
+            "threats": [
+              "e4-d4",
+              "d6-e5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "There's no tactic, ...Rxd4 is safe.",
+        "feedback": {
+          "text": "Are you sure it's 100% safe?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "There's a pin.",
+        "feedback": {
+          "text": "Is that the correct term for it?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "A discovered attack!",
+        "feedback": {
+          "text": "There's isn't any piece you could move to reveal an attack.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/p4pk1/1p4pp/3p4/1Q1PrP2/P5P1/5PKP/8 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e4-d4"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "d4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qd6",
+      "afterMoveFen": "8/p4pk1/1p1Q2pp/3p4/3PrP2/P5P1/5PKP/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

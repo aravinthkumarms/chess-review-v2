@@ -1,0 +1,958 @@
+{
+  "id": "224c4bef-42a1-456f-87ef-e344c2697d90",
+  "name": "Study: Leko vs Kramnik, 2004",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "U"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to the third study of our course!\n\nThis game was played between Peter Leko and Vladimir Kramnik in 2004.\n\nIt's a classic example of how best to use two rooks against a queen, with equal pawns on the same side of the board.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/r6p/3r2pP/1Q4P1/5PK1/8/8 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "2t": {
+        "adjacentNodeIds": [
+          "hc"
+        ],
+        "comments": [
+          {
+            "text": "Wherever the White king went...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/4k2p/6pP/3K2P1/8/8/8 b - - 4 13",
+        "parentNodeId": "7T",
+        "san": "Kd4"
+      },
+      "3m": {
+        "adjacentNodeIds": [
+          "Qi"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik pressured the f3-pawn with the rook from the f6-square.\n\nThis move also protects the king's diagonal, preventing any queen checks! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": [
+                "g7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/2Q3pP/6P1/5PK1/r7/8 w - - 11 6",
+        "parentNodeId": "Xo",
+        "san": "Rf6"
+      },
+      "3z": {
+        "adjacentNodeIds": [
+          "E3"
+        ],
+        "comments": [
+          {
+            "text": "White tried continuing to pin Black's rook...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/6P1/5r2/6K1/Q7 b - - 1 10",
+        "parentNodeId": "SX",
+        "san": "Qa1"
+      },
+      "48": {
+        "adjacentNodeIds": [
+          "5p"
+        ],
+        "comments": [
+          {
+            "text": "He immediately attacked the pawn with ...Rd3.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/3r3p/6pP/2Q3P1/3r1PK1/8/8 w - - 5 3",
+        "parentNodeId": "Z",
+        "san": "Rd3"
+      },
+      "5p": {
+        "adjacentNodeIds": [
+          "7C"
+        ],
+        "comments": [
+          {
+            "text": "Here, White made a mistake.\n\nInstead of retreating with the king, Qb5 was stronger.\n\nThe idea was to aim for the e5 square, which is a good central square from which the queen can harass the Black king.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-b5",
+                "b5-e5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/3r3p/6pP/2Q3P1/3r1P2/5K2/8 b - - 6 3",
+        "parentNodeId": "48",
+        "san": "Kf2"
+      },
+      "7C": {
+        "adjacentNodeIds": [
+          "Mr"
+        ],
+        "comments": [
+          {
+            "text": "Black went all the way to the a-file, preparing to now double up on the third rank, or place the rook on f6 from where it pressures the f3-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d6-f6",
+                "d6-d3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/3r3p/6pP/2Q3P1/r4P2/5K2/8 w - - 7 4",
+        "parentNodeId": "5p",
+        "san": "Ra3"
+      },
+      "7T": {
+        "adjacentNodeIds": [
+          "2t"
+        ],
+        "comments": [
+          {
+            "text": "Opening the door for the f-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-f5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/4k2p/6pP/4K1P1/8/8/8 w - - 3 13",
+        "parentNodeId": "IB",
+        "san": "Ke6"
+      },
+      "9R": {
+        "adjacentNodeIds": [
+          "VH"
+        ],
+        "comments": [
+          {
+            "text": "If you think the queen can prevent ...Rf4 by going for a pin...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/r4r1p/6pP/6P1/2Q2PK1/8/8 b - - 14 7",
+        "parentNodeId": "oj",
+        "san": "Qc3"
+      },
+      "9r": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "You lose control of the 3rd rank entry point. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/3Q2P1/r4PK1/8/8 w - - 15 8",
+        "parentNodeId": "yG",
+        "san": "Ra3"
+      },
+      "9z": {
+        "adjacentNodeIds": [
+          "sJ",
+          "Ai"
+        ],
+        "comments": [
+          {
+            "text": "But Black gave a check first.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/6P1/2Q5/5rK1/8 w - - 4 12",
+        "parentNodeId": "Ao",
+        "san": "Rf2+"
+      },
+      "Ai": {
+        "adjacentNodeIds": [
+          "Ff"
+        ],
+        "comments": [
+          {
+            "text": "Had White tride to avoid the trade...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/6P1/2Q5/5r2/7K b - - 5 12",
+        "parentNodeId": "9z",
+        "san": "Kh1"
+      },
+      "Ao": {
+        "adjacentNodeIds": [
+          "9z"
+        ],
+        "comments": [
+          {
+            "text": "Leko tried to keep the queen on the same diagonal.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/6P1/2Q5/6K1/5r2 b - - 3 11",
+        "parentNodeId": "E3",
+        "san": "Qc3"
+      },
+      "C1": {
+        "adjacentNodeIds": [
+          "aK"
+        ],
+        "comments": [
+          {
+            "text": "Black would have recaptured and now had a much more active king.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-g4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/7p/5kpP/3K4/8/8/8 w - - 0 15",
+        "parentNodeId": "gh",
+        "san": "Kxf5"
+      },
+      "E3": {
+        "adjacentNodeIds": [
+          "Ao"
+        ],
+        "comments": [
+          {
+            "text": "But Black simply attacked the queen.\n\nAs we have shown, a trade of two rooks for a queen massively favors Black, as it automatically leads him to a winning king and pawn endgame.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/6P1/8/6K1/Q4r2 w - - 2 11",
+        "parentNodeId": "3z",
+        "san": "Rf1"
+      },
+      "Ff": {
+        "adjacentNodeIds": [
+          "gt"
+        ],
+        "comments": [
+          {
+            "text": "Black would have simply unpinned the king and started hunting down White's newly formed weakness on g4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/5p2/5r1p/6pP/6P1/2Q5/5r2/7K w - - 6 13",
+        "parentNodeId": "Ai",
+        "san": "Kg8"
+      },
+      "GF": {
+        "adjacentNodeIds": [
+          "N1"
+        ],
+        "comments": [
+          {
+            "text": "With no plan in mind, White simply made a waiting move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/r4r1p/6pP/1Q4P1/5P2/6K1/8 b - - 14 7",
+        "parentNodeId": "oj",
+        "san": "Kg2"
+      },
+      "HM": {
+        "adjacentNodeIds": [
+          "Xo"
+        ],
+        "comments": [
+          {
+            "text": "Firstly, Black gave a check to get out of the queen's way.\n\nNotice how we could say that Black also had a weakness on f7.\n\nHowever, it would have been enough for Black to defend it with just the king, or one rook if needed, as White would have always had just one piece to attack it with.\n\nThe difference in weaknesses is what makes the side with two rooks so much better in these kinds of positions.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/3r3p/2Q3pP/6P1/5P2/r4K2/8 w - - 9 5",
+        "parentNodeId": "Mr",
+        "san": "Ra2+"
+      },
+      "Hl": {
+        "adjacentNodeIds": [
+          "T3"
+        ],
+        "comments": [
+          {
+            "text": "The queen was now forced to capture...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/6P1/5QK1/8/8 b - - 0 13",
+        "parentNodeId": "Rs",
+        "san": "Qxf3"
+      },
+      "IB": {
+        "adjacentNodeIds": [
+          "7T"
+        ],
+        "comments": [
+          {
+            "text": "White would have tried to remain in the center, but one pawn difference would have been enough.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/5k1p/6pP/4K1P1/8/8/8 b - - 2 12",
+        "parentNodeId": "b1",
+        "san": "Ke4"
+      },
+      "Jg": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "After Kramnik played ...Kf6, with the same plans as we saw in the line before, Peter Leko resigned the game.\n\nA great example of how two rooks function against a queen and how powerful they are in targeting weaknesses!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/5k1p/6pP/6P1/5K2/8/8 w - - 1 15",
+        "parentNodeId": "wz",
+        "san": "Kf6"
+      },
+      "Lx": {
+        "adjacentNodeIds": [
+          "jF"
+        ],
+        "comments": [
+          {
+            "text": "White tried to give a check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/r6p/6pP/5rP1/5P2/1Q4K1/8 b - - 16 8",
+        "parentNodeId": "N1",
+        "san": "Qb2+"
+      },
+      "Mr": {
+        "adjacentNodeIds": [
+          "HM"
+        ],
+        "comments": [
+          {
+            "text": "For a moment, White forked the two rooks.\n\nBut this wouldn't help him.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/3r3p/2Q3pP/6P1/r4P2/5K2/8 b - - 8 4",
+        "parentNodeId": "7C",
+        "san": "Qc5"
+      },
+      "N1": {
+        "adjacentNodeIds": [
+          "Lx"
+        ],
+        "comments": [
+          {
+            "text": "And now Kramnik put his plan in motion.\n\nA square, usually in the opponent's territory, which our pieces can use and it's hard or impossible to kick them out of it is called an outpost.\n\nOutposts are a common theme in chess and can be deadly when exploited properly.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b4"
+              ],
+              "opportunities": [
+                "f4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/r6p/6pP/1Q3rP1/5P2/6K1/8 w - - 15 8",
+        "parentNodeId": "GF",
+        "san": "Rf4"
+      },
+      "QZ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But Kramnik would have immediatelly attacked the f4-pawn.\n\nLater, he would have either doubled up on the fourth rank or hunted down White's king with the two rooks.\n\nUsing similar techniques as before and targeting the weaknesses, Black would have easily won from here.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/3Q1p1k/5r1p/6pP/5rP1/8/8/7K w - - 10 15",
+        "parentNodeId": "uk",
+        "san": "R2f4"
+      },
+      "Qi": {
+        "adjacentNodeIds": [
+          "oj"
+        ],
+        "comments": [
+          {
+            "text": "The White queen stayed on the dark diagonal, disallowing Black's rook from moving to the a3-square.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/1Q4P1/5PK1/r7/8 b - - 12 6",
+        "parentNodeId": "3m",
+        "san": "Qb4"
+      },
+      "Qv": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black would have moved into g4, attacking the undefendable h5-pawn.\n\nThen, Black would have been up two pawns in an easily winning endgame.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-h5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/7p/6pP/6k1/4K3/8/8 w - - 2 16",
+        "parentNodeId": "aK",
+        "san": "Kg4"
+      },
+      "Rs": {
+        "adjacentNodeIds": [
+          "Hl"
+        ],
+        "comments": [
+          {
+            "text": "This way, Black could have forced a trade of pieces, which he did.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/6P1/2Q2rK1/8/8 w - - 6 13",
+        "parentNodeId": "sJ",
+        "san": "Rf3+"
+      },
+      "Rw": {
+        "adjacentNodeIds": [
+          "Y5"
+        ],
+        "comments": [
+          {
+            "text": "White would have had to trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/6P1/5Q2/6K1/8 b - - 0 10",
+        "parentNodeId": "g8",
+        "san": "Qxf3"
+      },
+      "SX": {
+        "adjacentNodeIds": [
+          "3z"
+        ],
+        "comments": [
+          {
+            "text": "And Vladimir Kramnik finally captured the weak f3-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/4Q1pP/6P1/5r2/6K1/8 w - - 0 10",
+        "parentNodeId": "Zw",
+        "san": "Rxf3"
+      },
+      "T3": {
+        "adjacentNodeIds": [
+          "wz"
+        ],
+        "comments": [
+          {
+            "text": "Of course, Kramnik took the queen...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/7p/6pP/6P1/5rK1/8/8 w - - 0 14",
+        "parentNodeId": "Hl",
+        "san": "Rxf3+"
+      },
+      "U": {
+        "adjacentNodeIds": [
+          "h"
+        ],
+        "comments": [
+          {
+            "text": "As we can see, both sides have three connected pawns on the kingside.\n\nHowever, in these kinds of positions, the queen is always inferior to two rooks, simply because Black always has two attackers on a weakness while White has only one defender (unless the king defends too).\n\nHere, Leko attacked the rook on d5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/r6p/3r2pP/6P1/1Q3PK1/8/8 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Qb3"
+      },
+      "VH": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The lack of checks the white queen has in this position, simply allow the rooks to maneuver however they want. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-f4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/r5P1/2Q2PK1/8/8 w - - 15 8",
+        "parentNodeId": "9R",
+        "san": "Ra4"
+      },
+      "Xo": {
+        "adjacentNodeIds": [
+          "3m"
+        ],
+        "comments": [
+          {
+            "text": "When the king moved...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/3r3p/2Q3pP/6P1/5PK1/r7/8 b - - 10 5",
+        "parentNodeId": "HM",
+        "san": "Kg3"
+      },
+      "Y5": {
+        "adjacentNodeIds": [
+          "wF"
+        ],
+        "comments": [
+          {
+            "text": "Captures.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/7p/6pP/6P1/5r2/6K1/8 w - - 0 11",
+        "parentNodeId": "Rw",
+        "san": "Rxf3"
+      },
+      "Z": {
+        "adjacentNodeIds": [
+          "48"
+        ],
+        "comments": [
+          {
+            "text": "With no way to make progress, White played Qc4.\n\nLet's take a look at some of the key concepts in the position: \n\nBoth kings are relatively safe, but White has a huge weakness on f3. The pawn can never push to f4 as that square is controlled, which Kramnik would use to his advantage.\n\nIt's all about attacking weaknesses!",
+            "arrows": {
+              "threats": [
+                "f3-f4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/3r3p/3r2pP/2Q3P1/5PK1/8/8 b - - 4 2",
+        "parentNodeId": "h",
+        "san": "Qc4"
+      },
+      "Zw": {
+        "adjacentNodeIds": [
+          "SX"
+        ],
+        "comments": [
+          {
+            "text": "White tried staying close.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/4Q1pP/5rP1/5P2/6K1/8 b - - 18 9",
+        "parentNodeId": "jF",
+        "san": "Qe5"
+      },
+      "aK": {
+        "adjacentNodeIds": [
+          "Qv"
+        ],
+        "comments": [
+          {
+            "text": "After a desperate try by White...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/7p/5kpP/8/4K3/8/8 b - - 1 15",
+        "parentNodeId": "C1",
+        "san": "Ke3"
+      },
+      "b1": {
+        "adjacentNodeIds": [
+          "IB"
+        ],
+        "comments": [
+          {
+            "text": "The game could have continued something like this.\n\nBlack would have activated his king first.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/5k1p/6pP/6P1/5K2/8/8 w - - 1 12",
+        "parentNodeId": "wF",
+        "san": "Kf6"
+      },
+      "g8": {
+        "adjacentNodeIds": [
+          "Rw"
+        ],
+        "comments": [
+          {
+            "text": "...Black would simply have traded into a winning pawn endgame, being up a pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/6P1/2Q2r2/6K1/8 w - - 0 10",
+        "parentNodeId": "gw",
+        "san": "Rxf3"
+      },
+      "gh": {
+        "adjacentNodeIds": [
+          "C1"
+        ],
+        "comments": [
+          {
+            "text": "There would have been nothing better but to capture...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4k2p/5PpP/3K4/8/8/8 b - - 0 14",
+        "parentNodeId": "hc",
+        "san": "gxf5+"
+      },
+      "gt": {
+        "adjacentNodeIds": [
+          "vO"
+        ],
+        "comments": [
+          {
+            "text": "Of course, he would have to evade a check first.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q3k1/5p2/5r1p/6pP/6P1/8/5r2/7K b - - 7 13",
+        "parentNodeId": "Ff",
+        "san": "Qc8+"
+      },
+      "gw": {
+        "adjacentNodeIds": [
+          "g8"
+        ],
+        "comments": [
+          {
+            "text": "If White had tried to defend the pawn with the queen as well...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/5rP1/2Q2P2/6K1/8 b - - 18 9",
+        "parentNodeId": "jF",
+        "san": "Qc3"
+      },
+      "h": {
+        "adjacentNodeIds": [
+          "Z"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik doubled on the d-file.\n\nDoubled rooks are powerful in general, but that strength especially comes to the surface when the opponent has only a queen!\n\nThe rooks stay protected and attack pawns and pieces simultaneously.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/3r3p/3r2pP/6P1/1Q3PK1/8/8 w - - 3 2",
+        "parentNodeId": "U",
+        "san": "Rad6"
+      },
+      "hc": {
+        "adjacentNodeIds": [
+          "gh"
+        ],
+        "comments": [
+          {
+            "text": "The crucial push would have followed, breaking apart White's pawn structure.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/4k2p/5ppP/3K2P1/8/8/8 w - f6 0 14",
+        "parentNodeId": "2t",
+        "san": "f5"
+      },
+      "jF": {
+        "adjacentNodeIds": [
+          "Zw",
+          "gw"
+        ],
+        "comments": [
+          {
+            "text": "But that simply played into Kramnik's hands, who had now successfully doubled up on the f-file.\n\nNow the f3-pawn was under serious pressure.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/5rP1/5P2/1Q4K1/8 w - - 17 9",
+        "parentNodeId": "Lx",
+        "san": "Raf6"
+      },
+      "oj": {
+        "adjacentNodeIds": [
+          "GF",
+          "9R",
+          "yG"
+        ],
+        "comments": [
+          {
+            "text": "But Black had a different plan.\n\nHe was going to place a rook on the f4-square he controlled, and then double up on the f-file.\n\nLeko's queen is hopeless to stop this. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-f4",
+                "a6-f6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/r4r1p/6pP/1Q4P1/5PK1/8/8 w - - 13 7",
+        "parentNodeId": "Qi",
+        "san": "Raa6"
+      },
+      "sJ": {
+        "adjacentNodeIds": [
+          "Rs"
+        ],
+        "comments": [
+          {
+            "text": "Moving to the third rank was basically a sign of resignation; Kg1 or Kh1 would have prolonged the game a little bit.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/5r1p/6pP/6P1/2Q3K1/5r2/8 b - - 5 12",
+        "parentNodeId": "9z",
+        "san": "Kg3"
+      },
+      "uk": {
+        "adjacentNodeIds": [
+          "QZ"
+        ],
+        "comments": [
+          {
+            "text": "That's why Leko would have probably played something like Qd7, keeping an eye on the g4-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/3Q1p1k/5r1p/6pP/6P1/8/5r2/7K b - - 9 14",
+        "parentNodeId": "vO",
+        "san": "Qd7"
+      },
+      "vO": {
+        "adjacentNodeIds": [
+          "uk"
+        ],
+        "comments": [
+          {
+            "text": "The king would have hid on h7.\n\nNotice how the c2 square would have been covered by Black's rook, so the queen delivering a check from there would have been impossible.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c2"
+              ],
+              "opportunities": [
+                "f2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2Q5/5p1k/5r1p/6pP/6P1/8/5r2/7K w - - 8 14",
+        "parentNodeId": "gt",
+        "san": "Kh7"
+      },
+      "wF": {
+        "adjacentNodeIds": [
+          "b1"
+        ],
+        "comments": [
+          {
+            "text": "The king would have recaptured, and we would have been left with the following position.\n\nBlack would have been up a pawn in a completely winning endgame.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/7p/6pP/6P1/5K2/8/8 b - - 0 11",
+        "parentNodeId": "Y5",
+        "san": "Kxf3"
+      },
+      "wz": {
+        "adjacentNodeIds": [
+          "Jg"
+        ],
+        "comments": [
+          {
+            "text": "And Leko recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/7p/6pP/6P1/5K2/8/8 b - - 0 14",
+        "parentNodeId": "T3",
+        "san": "Kxf3"
+      },
+      "yG": {
+        "adjacentNodeIds": [
+          "9r"
+        ],
+        "comments": [
+          {
+            "text": "If you pin and cover the 4th rank...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/r4r1p/6pP/3Q2P1/5PK1/8/8 b - - 14 7",
+        "parentNodeId": "oj",
+        "san": "Qd4"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

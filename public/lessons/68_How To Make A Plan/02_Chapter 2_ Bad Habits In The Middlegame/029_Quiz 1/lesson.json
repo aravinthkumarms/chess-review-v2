@@ -1,0 +1,56 @@
+{
+  "id": "30c447f4-c4a4-4907-bc45-4550b49adcf0",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black doubles on the e-file. \n\nYou're up material but Black has some pressure. \n\nb3 would be great to remove the knight. \n\nBut is it possible in this position, or should you play Qd1?",
+    "answers": [
+      {
+        "text": "Qd1",
+        "feedback": {
+          "text": "Qd1 is solid. It defends the back rank and the f3 knight. It doesn't blunder anything.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "overprotecting the f3 knight, and getting ready to meet Re2 with Rh2.",
+        "afterMoveFen": "1k6/pp2q1p1/5p1p/3p1B2/2nP2P1/2P1rN1R/PP6/1K1Q4 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "b3",
+        "feedback": {
+          "text": "b3 fails because of Na3+",
+          "arrows": {
+            "threats": [
+              "c4-a3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "b1",
+              "c2"
+            ],
+            "opportunities": [
+              "a3"
+            ]
+          }
+        },
+        "comment": "kicking the aggressive knight out of c4.",
+        "afterMoveFen": "1k6/pp2q1p1/5p1p/3p1B2/2nP2P1/1PP1rN1R/P1Q5/1K6 b - - 0 2"
+      }
+    ],
+    "positionFen": "1k6/ppq3p1/5p1p/3p1B2/2nP2P1/2P1rN1R/PPQ5/1K6 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qe7",
+      "afterMoveFen": "1k6/pp2q1p1/5p1p/3p1B2/2nP2P1/2P1rN1R/PPQ5/1K6 w - - 2 2"
+    }
+  },
+  "drill": null
+}

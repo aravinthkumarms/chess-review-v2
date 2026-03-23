@@ -1,0 +1,49 @@
+{
+  "id": "e8cb0a84-2765-4a4e-8c2d-80757f030d08",
+  "name": "Quiz 2 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black traded in the center.\n\nWhat should White play?",
+    "answers": [
+      {
+        "text": "Nd7",
+        "feedback": {
+          "text": "Nice job! This threatens the queen and Nxf6+ with a checkmate on h7 coming.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "b6",
+              "f6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r4rk1/1b1Nbppp/nq2pn2/pp6/3p1B2/2NBP2Q/PP3PPP/2R2RK1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you lure out the knight on f6?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r4rk1/1b2bppp/nq2pn2/ppp1N3/3P1B2/2NBP2Q/PP3PPP/2R2RK1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "cxd4",
+      "afterMoveFen": "r4rk1/1b2bppp/nq2pn2/pp2N3/3p1B2/2NBP2Q/PP3PPP/2R2RK1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,81 @@
+{
+  "id": "6300a88d-0d69-44de-a875-d67881967e5e",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White activates the c1-bishop.\n\nWould you say there's a problem with 27...Rb8 - attacking the pawn on b2?",
+    "answers": [
+      {
+        "text": "Yes, the move fails tactically.",
+        "feedback": {
+          "text": "Perfect! ...Rb8 fails to Rxd6 followed by Bf4+, skewering the king & rook.",
+          "arrows": {
+            "threats": [
+              "d1-d6",
+              "e3-f4"
+            ],
+            "opportunities": [
+              "a8-b8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, it's a good idea for Black to attack the weak pawn on b2.",
+        "feedback": {
+          "text": "Not quite. While it's true that putting pressure on b2 is a good idea, the move ...Rb8 is flawed. Try again!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a8-b8"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, but the rook is better on a8.",
+        "feedback": {
+          "text": "That's incorrect. ...Rb8 would be a good idea in this position, but the move is flawed. Give it another shot!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a8-b8"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r7/2k3pp/2bb1p2/2p5/2B5/5P2/1P4PP/2BR2K1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "a8-b8"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Be3",
+      "afterMoveFen": "r7/2k3pp/2bb1p2/2p5/2B5/4BP2/1P4PP/3R2K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

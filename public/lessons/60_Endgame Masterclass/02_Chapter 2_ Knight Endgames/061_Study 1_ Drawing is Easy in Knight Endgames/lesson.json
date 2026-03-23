@@ -1,0 +1,1746 @@
+{
+  "id": "b7109042-1e4e-40f9-90c3-c73828339e61",
+  "name": "Study 1: Drawing is Easy in Knight Endgames",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "Q"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to Chapter 2 on Knight Endgames! This endgame occurred in Game 9 of Nepo vs Ding, 2023. \n\nThere isn't much of a difference between pawn endgames and those with a knight. One key detail though, is that an advantage of one pawn is often not enough to win. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4Rk2/8/3n2p1/5p2/6N1/5K1P/5PP1/8 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0h": {
+        "adjacentNodeIds": [
+          "Ra"
+        ],
+        "comments": [
+          {
+            "text": "Basically, the kings face each other and it's Black to move. \n\nWhile there's an extra piece on the board, it's a knight that's tied down to the defense of f4 so it cannot move either! ",
+            "arrows": {
+              "threats": [
+                "e2-f4"
+              ],
+              "opportunities": [
+                "e6-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h5",
+                "h3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/4n3/7k/5p1P/5P1K/4N3/8 b - - 5 28",
+        "parentNodeId": "TZ",
+        "san": "Kh3"
+      },
+      "15": {
+        "adjacentNodeIds": [
+          "yj"
+        ],
+        "comments": [
+          {
+            "text": "The problem is that the f-pawn can advance just enough. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-f3",
+                "f3-f2",
+                "f2-f1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/7P/8/5p2/8/2K3k1/8 w - - 1 19",
+        "parentNodeId": "nY",
+        "san": "Kg2"
+      },
+      "1v": {
+        "adjacentNodeIds": [
+          "wo"
+        ],
+        "comments": [
+          {
+            "text": "Nepo walked up. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/5K1P/3N1P2/2n5/8 b - - 18 18",
+        "parentNodeId": "KR",
+        "san": "Kf4"
+      },
+      "3L": {
+        "adjacentNodeIds": [
+          "Ny"
+        ],
+        "comments": [
+          {
+            "text": "The king went to e5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/4kp2/3n1N1P/5P2/5K2/8 w - - 25 22",
+        "parentNodeId": "rU",
+        "san": "Ke5"
+      },
+      "3t": {
+        "adjacentNodeIds": [
+          "vy"
+        ],
+        "comments": [
+          {
+            "text": "If the king takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/5p1k/5K2/5P2/8/8 w - - 0 15",
+        "parentNodeId": "nK",
+        "san": "Kxh5"
+      },
+      "47": {
+        "adjacentNodeIds": [
+          "ru"
+        ],
+        "comments": [
+          {
+            "text": "So Nepo avoided simplifications for one more move. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3NnK2/5P1P/8/8 b - - 0 8",
+        "parentNodeId": "7H",
+        "san": "f3"
+      },
+      "67": {
+        "adjacentNodeIds": [
+          "yt"
+        ],
+        "comments": [
+          {
+            "text": "Ding gave a check. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/4kp2/5N1P/4KP2/2n5/8 w - - 11 15",
+        "parentNodeId": "iE",
+        "san": "Nc2+"
+      },
+      "6n": {
+        "adjacentNodeIds": [
+          "rU"
+        ],
+        "comments": [
+          {
+            "text": "But the knight is ideally placed in the center. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3n3P/3N1P2/5K2/8 w - - 23 21",
+        "parentNodeId": "hr",
+        "san": "Nd4"
+      },
+      "70": {
+        "adjacentNodeIds": [
+          "sm"
+        ],
+        "comments": [
+          {
+            "text": "Ding pushed the f-pawn to restrict some squares around Nepo's king.\n\nThe idea is that Ding will somehow favorably go to h5 to win the h4-pawn and White won't have use of the g3-square for one of their pieces. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g7-h6",
+                "h6-h5",
+                "h6-g6",
+                "g6-h5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/4n3/8/5p1P/5P2/4NK2/8 w - - 0 26",
+        "parentNodeId": "On",
+        "san": "f4"
+      },
+      "7H": {
+        "adjacentNodeIds": [
+          "47"
+        ],
+        "comments": [
+          {
+            "text": "Ding attacked the f-pawn knowing full well that simplifications lead to draws because a knight and king by themselves cannot give checkmate. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d4-f5",
+                "e4-f2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f2",
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3NnK2/7P/5P2/8 w - - 5 8",
+        "parentNodeId": "sU",
+        "san": "Ne4"
+      },
+      "7w": {
+        "adjacentNodeIds": [
+          "iE"
+        ],
+        "comments": [
+          {
+            "text": "But this allows Ding's king to move as well. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/4kp2/1n3N1P/5P2/5K2/8 w - - 9 14",
+        "parentNodeId": "WG",
+        "san": "Ke5"
+      },
+      "8u": {
+        "adjacentNodeIds": [
+          "pm"
+        ],
+        "comments": [
+          {
+            "text": "Nepo got out of danger with a check. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/4kp2/3n3P/3N1P2/3K4/8 b - - 14 16",
+        "parentNodeId": "fH",
+        "san": "Nd3+"
+      },
+      "AR": {
+        "adjacentNodeIds": [
+          "KR"
+        ],
+        "comments": [
+          {
+            "text": "And White got his king up. \n\nThere simply isn't a way to win this or make progress. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3n3P/3NKP2/8/8 b - - 16 17",
+        "parentNodeId": "pm",
+        "san": "Ke3"
+      },
+      "Af": {
+        "adjacentNodeIds": [
+          "Uk"
+        ],
+        "comments": [
+          {
+            "text": "Trades favor the side who's down material. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f4",
+                "h5",
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/7k/3n1p1P/3N1P1K/8/8 b - - 9 30",
+        "parentNodeId": "IQ",
+        "san": "Nd3"
+      },
+      "Be": {
+        "adjacentNodeIds": [
+          "nY"
+        ],
+        "comments": [
+          {
+            "text": "Black pushes too. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/7P/5p2/5k2/2K5/8 w - - 0 18",
+        "parentNodeId": "aG",
+        "san": "f4"
+      },
+      "By": {
+        "adjacentNodeIds": [
+          "oL"
+        ],
+        "comments": [
+          {
+            "text": "Ding sacrificed the h-pawn. \n\nIf Nepo takes, he'll get an h-pawn himself and it's harder to get into the key squares g7 and g8. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g8",
+                "g7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4k3/8/3n4/4Np2/5K2/7p/5PP1/8 w - - 0 5",
+        "parentNodeId": "TS",
+        "san": "h3"
+      },
+      "DZ": {
+        "adjacentNodeIds": [
+          "PF"
+        ],
+        "comments": [
+          {
+            "text": "Check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/8/5NK1/8/8/8/8/8 b - - 8 37",
+        "parentNodeId": "Tc",
+        "san": "Nf6+"
+      },
+      "Dw": {
+        "adjacentNodeIds": [
+          "cj"
+        ],
+        "comments": [
+          {
+            "text": "The players started shuffling.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4nk2/5p2/7P/5P2/4N1K1/8 b - - 30 24",
+        "parentNodeId": "R8",
+        "san": "Kg2"
+      },
+      "EG": {
+        "adjacentNodeIds": [
+          "kq"
+        ],
+        "comments": [
+          {
+            "text": "Ding came forward, ready to attack the h-pawn in a move or two. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-h6",
+                "g6-h5",
+                "h6-h5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4n1k1/8/5p1P/5P2/4N3/6K1 w - - 2 27",
+        "parentNodeId": "sm",
+        "san": "Kg6"
+      },
+      "EV": {
+        "adjacentNodeIds": [
+          "hr"
+        ],
+        "comments": [
+          {
+            "text": "Ding gave another check. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/7P/3N1PK1/4n3/8 w - - 21 20",
+        "parentNodeId": "uP",
+        "san": "Ne2+"
+      },
+      "Fs": {
+        "adjacentNodeIds": [
+          "wy"
+        ],
+        "comments": [
+          {
+            "text": "The king can cover all the squares in front of the black king.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f7",
+                "g7",
+                "h7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/8/6K1/8/5N2/8/8/8 b - - 4 35",
+        "parentNodeId": "e5",
+        "san": "Kg6"
+      },
+      "Gh": {
+        "adjacentNodeIds": [
+          "hM",
+          "f4"
+        ],
+        "comments": [
+          {
+            "text": "Nepo proposed a trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/5N1P/3n1PK1/8/8 b - - 6 12",
+        "parentNodeId": "aW",
+        "san": "Nf4"
+      },
+      "IQ": {
+        "adjacentNodeIds": [
+          "Af"
+        ],
+        "comments": [
+          {
+            "text": "Ding went to attack the f3-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/7k/3n1p1P/5P1K/8/2N5 w - - 8 30",
+        "parentNodeId": "s5",
+        "san": "Nd4"
+      },
+      "Iv": {
+        "adjacentNodeIds": [
+          "sU"
+        ],
+        "comments": [
+          {
+            "text": "Ding moved towards f6, controlling many squares and defending the pawn. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e5",
+                "g5",
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/2Nn1k2/5p2/5K2/7P/5P2/8 w - - 3 7",
+        "parentNodeId": "nr",
+        "san": "Kf6"
+      },
+      "KR": {
+        "adjacentNodeIds": [
+          "1v"
+        ],
+        "comments": [
+          {
+            "text": "Ding gave another check. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/7P/3NKP2/2n5/8 w - - 17 18",
+        "parentNodeId": "AR",
+        "san": "Nc2+"
+      },
+      "LO": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White here could have gotten into g4 and won the f-pawn, with two passed pawns and a winning endgame. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/4n1k1/8/5pKP/5P2/4N3/8 b - - 7 29",
+        "parentNodeId": "Ra",
+        "san": "Kg4"
+      },
+      "Mp": {
+        "adjacentNodeIds": [
+          "Nz"
+        ],
+        "comments": [
+          {
+            "text": "Ding didn't play ...Kh4 right away to avoid giving White the opposition.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4n2k/8/5p1P/5P2/4N1K1/8 w - - 4 28",
+        "parentNodeId": "kq",
+        "san": "Kh6"
+      },
+      "Ny": {
+        "adjacentNodeIds": [
+          "gE"
+        ],
+        "comments": [
+          {
+            "text": "And Nepo proposed another trade for a winning king and pawn endgame. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/4kp2/3n3P/5P2/4NK2/8 b - - 26 22",
+        "parentNodeId": "3L",
+        "san": "Ne2"
+      },
+      "Nz": {
+        "adjacentNodeIds": [
+          "bN"
+        ],
+        "comments": [
+          {
+            "text": "Nepo moved his knight around. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4n2k/8/5p1P/5P2/6K1/2N5 b - - 5 28",
+        "parentNodeId": "Mp",
+        "san": "Nc1"
+      },
+      "On": {
+        "adjacentNodeIds": [
+          "70"
+        ],
+        "comments": [
+          {
+            "text": "Nepo continued to shuffle. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/4n3/5p2/7P/5P2/4NK2/8 b - - 32 25",
+        "parentNodeId": "cj",
+        "san": "Kf2"
+      },
+      "Or": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "I think you can remember from the theoretical portion of this course that this would be a draw. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "7Q/8/8/8/8/8/2K2pk1/8 w - - 0 21",
+        "parentNodeId": "dQ",
+        "san": "f2"
+      },
+      "PF": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And there's simply no way to win.\n\nYou either cover the g8-square with the knight or you cover the h8-square, but never both. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "7k/8/5NK1/8/8/8/8/8 w - - 9 38",
+        "parentNodeId": "DZ",
+        "san": "Kh8"
+      },
+      "Q": {
+        "adjacentNodeIds": [
+          "c"
+        ],
+        "comments": [
+          {
+            "text": "Nepo was a pawn up in this knight endgame. \n\nBut Ding can simplify and sacrifice his knight for the last white pawn.\n\nRemember that even if White is left with a knight, it's a draw because knight + king aren't enough to checkmate. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=2481985",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4k3/8/3n2p1/5p2/6N1/5K1P/5PP1/8 w - - 0 2",
+        "parentNodeId": "0",
+        "san": "Kxe8"
+      },
+      "Qt": {
+        "adjacentNodeIds": [
+          "mD"
+        ],
+        "comments": [
+          {
+            "text": "And Nepo took on f4 with check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/7k/5N1P/5n1K/8/8 b - - 0 31",
+        "parentNodeId": "Uk",
+        "san": "Nxf4+"
+      },
+      "Qz": {
+        "adjacentNodeIds": [
+          "R8"
+        ],
+        "comments": [
+          {
+            "text": "The king went back to g3. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4n3/4kp2/7P/5PK1/4N3/8 b - - 28 23",
+        "parentNodeId": "gE",
+        "san": "Kg3"
+      },
+      "R8": {
+        "adjacentNodeIds": [
+          "Dw"
+        ],
+        "comments": [
+          {
+            "text": "But Ding took his king back to f6 as well. \n\nThis is what you have to do in endgames where you're defending: stay close to the key squares in front of the pawns and prevent invasions. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4nk2/5p2/7P/5PK1/4N3/8 w - - 29 24",
+        "parentNodeId": "Qz",
+        "san": "Kf6"
+      },
+      "Ra": {
+        "adjacentNodeIds": [
+          "LO"
+        ],
+        "comments": [
+          {
+            "text": "If it were a bishop, the bishop could shuffle along the same diagonal that the pawn is on.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-d6",
+                "d6-c7",
+                "c7-b8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4n1k1/8/5p1P/5P1K/4N3/8 w - - 6 29",
+        "parentNodeId": "0h",
+        "san": "Kg6"
+      },
+      "Rw": {
+        "adjacentNodeIds": [
+          "Yv"
+        ],
+        "comments": [
+          {
+            "text": "If the king doesn't take...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p1P/5K2/5P2/8/8 w - - 1 15",
+        "parentNodeId": "nK",
+        "san": "Kf6"
+      },
+      "TS": {
+        "adjacentNodeIds": [
+          "By"
+        ],
+        "comments": [
+          {
+            "text": "This gave him access to f4. \n\nEven though it's a draw, Black cannot sit and wait. For example, you cannot allow Nf3 and Nxh4. ",
+            "arrows": {
+              "threats": [
+                "e5-f3",
+                "f3-h4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f5",
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4k3/8/3n4/4Np2/5K1p/8/5PP1/8 b - - 1 4",
+        "parentNodeId": "qT",
+        "san": "Kf4"
+      },
+      "TZ": {
+        "adjacentNodeIds": [
+          "0h"
+        ],
+        "comments": [
+          {
+            "text": "This move would have given White the win because of the opposition. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4n3/7k/5p1P/5P2/4N1K1/8 w - - 4 28",
+        "parentNodeId": "kq",
+        "san": "Kh5"
+      },
+      "Tc": {
+        "adjacentNodeIds": [
+          "DZ"
+        ],
+        "comments": [
+          {
+            "text": "The king shuffles.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/8/6K1/7N/8/8/8/8 w - - 7 37",
+        "parentNodeId": "Ya",
+        "san": "Kg8"
+      },
+      "Uj": {
+        "adjacentNodeIds": [
+          "eA"
+        ],
+        "comments": [
+          {
+            "text": "Nepo pushed the pawn up, controlling the g5-square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3N1K1P/5P2/5n2/8 b - - 0 9",
+        "parentNodeId": "ru",
+        "san": "h4"
+      },
+      "Uk": {
+        "adjacentNodeIds": [
+          "Qt"
+        ],
+        "comments": [
+          {
+            "text": "Ding took on f3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/7k/5p1P/3N1n1K/8/8 w - - 0 31",
+        "parentNodeId": "Af",
+        "san": "Nxf3"
+      },
+      "Vs": {
+        "adjacentNodeIds": [
+          "eJ"
+        ],
+        "comments": [
+          {
+            "text": "This would have been a draw because of the queen vs c- or f-pawn endgame. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/5p2/5k1P/5P2/2nK4/8 w - - 0 16",
+        "parentNodeId": "yt",
+        "san": "Kxf4"
+      },
+      "WG": {
+        "adjacentNodeIds": [
+          "7w"
+        ],
+        "comments": [
+          {
+            "text": "Nepo tried getting his king around.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/1n3N1P/5P2/5K2/8 b - - 8 13",
+        "parentNodeId": "hM",
+        "san": "Kf2"
+      },
+      "Ya": {
+        "adjacentNodeIds": [
+          "Tc"
+        ],
+        "comments": [
+          {
+            "text": "The knight goes up.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/8/6K1/7N/8/8/8/8 b - - 6 36",
+        "parentNodeId": "wy",
+        "san": "Nh5"
+      },
+      "Yv": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White can use the pawn as a decoy to be able to win the f5-pawn and get into the key squares. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k1P/5p2/5K2/5P2/8/8 b - - 0 15",
+        "parentNodeId": "Rw",
+        "san": "h6"
+      },
+      "ZZ": {
+        "adjacentNodeIds": [
+          "j2"
+        ],
+        "comments": [
+          {
+            "text": "Let's pretend Black makes the worst possible moves and restricts their own king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/7k/8/8/5N1K/8/8/8 w - - 1 34",
+        "parentNodeId": "Zl",
+        "san": "Kh7"
+      },
+      "Zl": {
+        "adjacentNodeIds": [
+          "ZZ"
+        ],
+        "comments": [
+          {
+            "text": "Even though Nepo gets an extra knight at the end of the game, it isn't enough to checkmate the Black king. \n\nLet's test it out! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/7k/8/5N1K/8/8/8 b - - 0 33",
+        "parentNodeId": "de",
+        "san": "Kxh4"
+      },
+      "a0": {
+        "adjacentNodeIds": [
+          "nr"
+        ],
+        "comments": [
+          {
+            "text": "And Ding started getting his king closer to defend the position. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e7-f6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4k3/3n4/4Np2/5K2/7P/5P2/8 w - - 1 6",
+        "parentNodeId": "oL",
+        "san": "Ke7"
+      },
+      "aG": {
+        "adjacentNodeIds": [
+          "Be"
+        ],
+        "comments": [
+          {
+            "text": "White pushes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/5p1P/8/5k2/2K5/8 b - - 0 17",
+        "parentNodeId": "zN",
+        "san": "h5"
+      },
+      "aW": {
+        "adjacentNodeIds": [
+          "Gh"
+        ],
+        "comments": [
+          {
+            "text": "But Ding can just go back because he's close enough to everything.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4Nk2/5p2/7P/3n1PK1/8/8 w - - 5 12",
+        "parentNodeId": "ui",
+        "san": "Kf6"
+      },
+      "bN": {
+        "adjacentNodeIds": [
+          "s5"
+        ],
+        "comments": [
+          {
+            "text": "Ding got into h5 since the opposition didn't matter anymore. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4n3/7k/5p1P/5P2/6K1/2N5 w - - 6 29",
+        "parentNodeId": "Nz",
+        "san": "Kh5"
+      },
+      "bw": {
+        "adjacentNodeIds": [
+          "nK"
+        ],
+        "comments": [
+          {
+            "text": "The king goes to g6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/6k1/5p2/5K1P/5P2/8/8 w - - 1 14",
+        "parentNodeId": "ka",
+        "san": "Kg6"
+      },
+      "c": {
+        "adjacentNodeIds": [
+          "r"
+        ],
+        "comments": [
+          {
+            "text": "Nepo played the best move, attacking the weakness. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-g6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4k3/8/3n2p1/4Np2/8/5K1P/5PP1/8 b - - 1 2",
+        "parentNodeId": "Q",
+        "san": "Ne5"
+      },
+      "cj": {
+        "adjacentNodeIds": [
+          "On"
+        ],
+        "comments": [
+          {
+            "text": "But you'll notice how even their waiting moves are safe.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/4n3/5p2/7P/5P2/4N1K1/8 w - - 31 25",
+        "parentNodeId": "Dw",
+        "san": "Kg7"
+      },
+      "dQ": {
+        "adjacentNodeIds": [
+          "Or"
+        ],
+        "comments": [
+          {
+            "text": "And even though White gets a queen first...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7Q/8/8/8/8/5p2/2K3k1/8 b - - 0 20",
+        "parentNodeId": "wa",
+        "san": "h8=Q"
+      },
+      "de": {
+        "adjacentNodeIds": [
+          "Zl"
+        ],
+        "comments": [
+          {
+            "text": "This is a draw by insufficient material and it shows how it's difficult to win a knight endgame if it's only +1 pawn for one side. \n\nGranted, the defender needs to be in control of any of the pawns if it is passed. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/7k/8/5NKn/8/8/8 w - - 0 33",
+        "parentNodeId": "kQ",
+        "san": "Nxh4"
+      },
+      "e5": {
+        "adjacentNodeIds": [
+          "Fs"
+        ],
+        "comments": [
+          {
+            "text": "Black goes to g8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/8/8/6K1/5N2/8/8/8 w - - 3 35",
+        "parentNodeId": "j2",
+        "san": "Kg8"
+      },
+      "eA": {
+        "adjacentNodeIds": [
+          "hw"
+        ],
+        "comments": [
+          {
+            "text": "Ding gave a check. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3N1K1P/3n1P2/8/8 w - - 1 10",
+        "parentNodeId": "Uj",
+        "san": "Nd3+"
+      },
+      "eJ": {
+        "adjacentNodeIds": [
+          "zN"
+        ],
+        "comments": [
+          {
+            "text": "White takes. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/5p2/5k1P/5P2/2K5/8 b - - 0 16",
+        "parentNodeId": "Vs",
+        "san": "Kxc2"
+      },
+      "f4": {
+        "adjacentNodeIds": [
+          "ka"
+        ],
+        "comments": [
+          {
+            "text": "This would have been a blunder.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/5n1P/5PK1/8/8 w - - 0 13",
+        "parentNodeId": "Gh",
+        "san": "Nxf4"
+      },
+      "fH": {
+        "adjacentNodeIds": [
+          "8u"
+        ],
+        "comments": [
+          {
+            "text": "Ding went to d4, still attacking White's pieces. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-f4",
+                "d4-f3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f3",
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/4kp2/3n1N1P/5P2/3K4/8 w - - 13 16",
+        "parentNodeId": "yt",
+        "san": "Nd4"
+      },
+      "gE": {
+        "adjacentNodeIds": [
+          "Qz"
+        ],
+        "comments": [
+          {
+            "text": "Ding of course refused. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4n3/4kp2/7P/5P2/4NK2/8 w - - 27 23",
+        "parentNodeId": "Ny",
+        "san": "Ne6"
+      },
+      "hM": {
+        "adjacentNodeIds": [
+          "WG"
+        ],
+        "comments": [
+          {
+            "text": "And Ding refused it, as he should. \n\nYou can't simplify into a losing pawn endgame. It's better to keep the knights on, generally. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/1n3N1P/5PK1/8/8 w - - 7 13",
+        "parentNodeId": "Gh",
+        "san": "Nb4"
+      },
+      "hr": {
+        "adjacentNodeIds": [
+          "6n"
+        ],
+        "comments": [
+          {
+            "text": "Nepo attacked the knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/7P/3N1P2/4nK2/8 b - - 22 20",
+        "parentNodeId": "EV",
+        "san": "Kf2"
+      },
+      "hw": {
+        "adjacentNodeIds": [
+          "pf"
+        ],
+        "comments": [
+          {
+            "text": "The king went down to g3. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3N3P/3n1PK1/8/8 b - - 2 10",
+        "parentNodeId": "eA",
+        "san": "Kg3"
+      },
+      "iE": {
+        "adjacentNodeIds": [
+          "67"
+        ],
+        "comments": [
+          {
+            "text": "Nepo defended the knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/4kp2/1n3N1P/4KP2/8/8 b - - 10 14",
+        "parentNodeId": "7w",
+        "san": "Ke3"
+      },
+      "j2": {
+        "adjacentNodeIds": [
+          "e5"
+        ],
+        "comments": [
+          {
+            "text": "White goes up the board.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/7k/8/6K1/5N2/8/8/8 b - - 2 34",
+        "parentNodeId": "ZZ",
+        "san": "Kg5"
+      },
+      "kQ": {
+        "adjacentNodeIds": [
+          "de"
+        ],
+        "comments": [
+          {
+            "text": "In this position, the game ended in a draw. \n\nDing could have just taken on h4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/7k/8/5NKP/5n2/8/8 b - - 2 32",
+        "parentNodeId": "mD",
+        "san": "Kg4"
+      },
+      "ka": {
+        "adjacentNodeIds": [
+          "bw"
+        ],
+        "comments": [
+          {
+            "text": "Could Ding have simplified into this king and pawn endgame?\n\nWhite has the opposition. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/5K1P/5P2/8/8 b - - 0 13",
+        "parentNodeId": "f4",
+        "san": "Kxf4"
+      },
+      "kq": {
+        "adjacentNodeIds": [
+          "Mp",
+          "TZ"
+        ],
+        "comments": [
+          {
+            "text": "Nepo moved the king up, ready to defend.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g2-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/4n1k1/8/5p1P/5P2/4N1K1/8 b - - 3 27",
+        "parentNodeId": "EG",
+        "san": "Kg2"
+      },
+      "mD": {
+        "adjacentNodeIds": [
+          "kQ"
+        ],
+        "comments": [
+          {
+            "text": "Ding retreated. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/7k/8/5N1P/5n1K/8/8 w - - 1 32",
+        "parentNodeId": "Qt",
+        "san": "Kh6"
+      },
+      "nK": {
+        "adjacentNodeIds": [
+          "3t",
+          "Rw"
+        ],
+        "comments": [
+          {
+            "text": "h5+ is winning, attracting the king away from the key squares of the f3-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/6k1/5p1P/5K2/5P2/8/8 b - - 0 14",
+        "parentNodeId": "bw",
+        "san": "h5+"
+      },
+      "nY": {
+        "adjacentNodeIds": [
+          "15"
+        ],
+        "comments": [
+          {
+            "text": "It seems like White will win the race.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/7P/8/5p2/5k2/2K5/8 b - - 0 18",
+        "parentNodeId": "Be",
+        "san": "h6"
+      },
+      "nr": {
+        "adjacentNodeIds": [
+          "Iv"
+        ],
+        "comments": [
+          {
+            "text": "Nepo gave a check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4k3/2Nn4/5p2/5K2/7P/5P2/8 b - - 2 6",
+        "parentNodeId": "a0",
+        "san": "Nc6+"
+      },
+      "oL": {
+        "adjacentNodeIds": [
+          "a0"
+        ],
+        "comments": [
+          {
+            "text": "Nepo had to take. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4k3/8/3n4/4Np2/5K2/7P/5P2/8 b - - 0 5",
+        "parentNodeId": "By",
+        "san": "gxh3"
+      },
+      "pf": {
+        "adjacentNodeIds": [
+          "ui"
+        ],
+        "comments": [
+          {
+            "text": "And Ding went to g6, once again, keeping the king relevant. \n\nAs long as the knight stays centralized and relevant like the king near the key squares of the h-pawn, this should be a draw.\n\nFor example, a stranded king on a1, way offside, would allow White to win. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/6k1/5p2/3N3P/3n1PK1/8/8 w - - 3 11",
+        "parentNodeId": "hw",
+        "san": "Kg6"
+      },
+      "pm": {
+        "adjacentNodeIds": [
+          "AR"
+        ],
+        "comments": [
+          {
+            "text": "The king went to f6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3n3P/3N1P2/3K4/8 w - - 15 17",
+        "parentNodeId": "8u",
+        "san": "Kf6"
+      },
+      "qT": {
+        "adjacentNodeIds": [
+          "TS"
+        ],
+        "comments": [
+          {
+            "text": "After Ding took on h4...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4k3/8/3n4/4Np2/7p/5K2/5PP1/8 w - - 0 4",
+        "parentNodeId": "u8",
+        "san": "gxh4"
+      },
+      "r": {
+        "adjacentNodeIds": [
+          "u8"
+        ],
+        "comments": [
+          {
+            "text": "So Ding pushed the pawn forward one square, getting out of the attack. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4k3/8/3n4/4Npp1/8/5K1P/5PP1/8 w - - 0 3",
+        "parentNodeId": "c",
+        "san": "g5"
+      },
+      "rU": {
+        "adjacentNodeIds": [
+          "3L"
+        ],
+        "comments": [
+          {
+            "text": "Nepo activated his knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3n1N1P/5P2/5K2/8 b - - 24 21",
+        "parentNodeId": "6n",
+        "san": "Nf4"
+      },
+      "ru": {
+        "adjacentNodeIds": [
+          "Uj"
+        ],
+        "comments": [
+          {
+            "text": "Ding attacked the h-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3N1K2/5P1P/5n2/8 w - - 1 9",
+        "parentNodeId": "47",
+        "san": "Nf2"
+      },
+      "s5": {
+        "adjacentNodeIds": [
+          "IQ"
+        ],
+        "comments": [
+          {
+            "text": "Nepo defended. The kings stare at each other, but Black has some moves available to waste with the knight.\n\nThere is no opposition because the knights don't cancel each other out like in the 27...Kh5 variation.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e6-d4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4n3/7k/5p1P/5P1K/8/2N5 b - - 7 29",
+        "parentNodeId": "bN",
+        "san": "Kh3"
+      },
+      "sU": {
+        "adjacentNodeIds": [
+          "7H"
+        ],
+        "comments": [
+          {
+            "text": "And Nepo went to d4 to put pressure on f5. \n\nBut the f-pawn is sufficiently blocked  and the h-pawn is easy to stop. \n\nThe black king is closer to the key squares and well within the square of the h-pawn. This would be a different story if the passed h-pawn was an a-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h3-h8",
+                "h8-c8",
+                "c8-c3",
+                "c3-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f5"
+              ],
+              "opportunities": [
+                "f2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/3n1k2/5p2/3N1K2/7P/5P2/8 b - - 4 7",
+        "parentNodeId": "Iv",
+        "san": "Nd4"
+      },
+      "sm": {
+        "adjacentNodeIds": [
+          "EG"
+        ],
+        "comments": [
+          {
+            "text": "Nepo went backwards to g1. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/4n3/8/5p1P/5P2/4N3/6K1 b - - 1 26",
+        "parentNodeId": "70",
+        "san": "Kg1"
+      },
+      "u8": {
+        "adjacentNodeIds": [
+          "qT"
+        ],
+        "comments": [
+          {
+            "text": "Nepo undermined the coordination of the black pawns to be in a better place to attack them. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4k3/8/3n4/4Npp1/7P/5K2/5PP1/8 b - - 0 3",
+        "parentNodeId": "r",
+        "san": "h4"
+      },
+      "uP": {
+        "adjacentNodeIds": [
+          "EV"
+        ],
+        "comments": [
+          {
+            "text": "Nepo went to g3 with the king, but it's useless because there's no way to make progress there. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g3-h4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3n3P/3N1PK1/8/8 b - - 20 19",
+        "parentNodeId": "wo",
+        "san": "Kg3"
+      },
+      "ui": {
+        "adjacentNodeIds": [
+          "aW"
+        ],
+        "comments": [
+          {
+            "text": "Nepo improved his knight, trying to go for a trade on f4. ",
+            "arrows": {
+              "threats": [
+                "e6-f4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/4N1k1/5p2/7P/3n1PK1/8/8 b - - 4 11",
+        "parentNodeId": "pf",
+        "san": "Ne6"
+      },
+      "vy": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Do you remember the key squares when the pawn is on the 3rd? ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e5",
+                "f5",
+                "g5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/5K1k/8/5P2/8/8 b - - 0 15",
+        "parentNodeId": "3t",
+        "san": "Kxf5"
+      },
+      "wa": {
+        "adjacentNodeIds": [
+          "dQ"
+        ],
+        "comments": [
+          {
+            "text": "Black pushes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/7P/8/8/8/5p2/2K3k1/8 w - - 0 20",
+        "parentNodeId": "yj",
+        "san": "f3"
+      },
+      "wo": {
+        "adjacentNodeIds": [
+          "uP"
+        ],
+        "comments": [
+          {
+            "text": "And Ding brought his knight back. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5k2/5p2/3n1K1P/3N1P2/8/8 w - - 19 19",
+        "parentNodeId": "1v",
+        "san": "Nd4"
+      },
+      "wy": {
+        "adjacentNodeIds": [
+          "Ya"
+        ],
+        "comments": [
+          {
+            "text": "But the knight can never cover both of the squares in the corner at once.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h8-g8",
+                "g8-h8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/8/6K1/8/5N2/8/8/8 w - - 5 36",
+        "parentNodeId": "Fs",
+        "san": "Kh8"
+      },
+      "yj": {
+        "adjacentNodeIds": [
+          "wa"
+        ],
+        "comments": [
+          {
+            "text": "White is one square away. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h7-h8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/7P/8/8/5p2/8/2K3k1/8 b - - 0 19",
+        "parentNodeId": "15",
+        "san": "h7"
+      },
+      "yt": {
+        "adjacentNodeIds": [
+          "fH",
+          "Vs"
+        ],
+        "comments": [
+          {
+            "text": "And Nepo attacked the knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/4kp2/5N1P/5P2/2nK4/8 b - - 12 15",
+        "parentNodeId": "67",
+        "san": "Kd2"
+      },
+      "zN": {
+        "adjacentNodeIds": [
+          "aG"
+        ],
+        "comments": [
+          {
+            "text": "And both sides have a passed pawn. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/5p2/7P/5k2/2K5/8 w - - 0 17",
+        "parentNodeId": "eJ",
+        "san": "Kxf3"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

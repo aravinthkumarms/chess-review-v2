@@ -1,0 +1,48 @@
+{
+  "id": "49774c9c-a43c-47af-bdec-81fda9e257aa",
+  "name": "Quiz 1 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is trying to defend. \n\nCan you spot the one move that leads to checkmate?",
+    "answers": [
+      {
+        "text": "Qf5+",
+        "feedback": {
+          "text": "Great job! Can you see the checkmates after ...Kg8?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f7-g8"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "1r2r2b/5k1p/2qPp1nB/1pP1pQ2/4Np2/1B6/1P4PP/5RK1 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you give a check without losing material?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1rq1r2b/5k1p/3Pp1nB/1pP1p1Q1/4Np2/1B6/1P4PP/5RK1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qc6",
+      "afterMoveFen": "1r2r2b/5k1p/2qPp1nB/1pP1p1Q1/4Np2/1B6/1P4PP/5RK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

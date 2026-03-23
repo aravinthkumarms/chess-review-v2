@@ -1,0 +1,58 @@
+{
+  "id": "a203042e-85be-4605-b9da-c0c8f79eb2db",
+  "name": "Quiz 8",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays Bg3.\n\nShould you play Rf3, attacking the bishop, or something else?",
+    "answers": [
+      {
+        "text": "Re6",
+        "feedback": {
+          "text": "Your e1 rook was under attack. \n\nRf3 allows the bishop to take on e1.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "attacking the queen.",
+        "afterMoveFen": "4r1r1/1Q2P3/p3RqNk/1p3Ppp/3p4/6b1/PP4P1/5RK1 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rf3",
+        "feedback": {
+          "text": "This move drops the e1 rook.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g3-e1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "attacking the bishop.",
+        "afterMoveFen": "4r1r1/1Q2P3/p4qNk/1p3Ppp/3p4/5Rb1/PP4P1/4R1K1 b - - 3 2"
+      }
+    ],
+    "positionFen": "4r1r1/1Qb1P3/p4qNk/1p3Ppp/3p4/8/PP4P1/4RRK1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f1-f3"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Bg3",
+      "afterMoveFen": "4r1r1/1Q2P3/p4qNk/1p3Ppp/3p4/6b1/PP4P1/4RRK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

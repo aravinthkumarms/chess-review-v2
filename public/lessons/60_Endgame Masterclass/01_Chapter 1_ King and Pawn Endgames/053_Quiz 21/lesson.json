@@ -1,0 +1,79 @@
+{
+  "id": "0a42a04b-a5e7-423e-a847-efc04de322c1",
+  "name": "Quiz 21",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It is Black to move. Black is closer to the key squares and to the white pawn. \n\nBut White is closer to the h-pawn. \n\nDoes Black have a way to win?",
+    "answers": [
+      {
+        "text": "Yes, ...h3 first wins, followed by ...Kg2.",
+        "feedback": {
+          "text": "It's important to improve the pawn first before allowing the white king to start getting close to it.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h4-h3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Black can only draw because White can trap the king in the corner.",
+        "feedback": {
+          "text": "Are you sure that's all Black has? What if Black can get into the key squares and push their h-pawn?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f3-g2",
+              "g2-h2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, Black can win with ...Kg2.",
+        "feedback": {
+          "text": "...Kg2 is a draw. Kf4 and White is ready to either control the key squares or attack the pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f5-f4",
+              "f3-g2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/4K3/7p/5k2/7P/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kf5",
+      "afterMoveFen": "8/8/8/5K2/7p/5k2/7P/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

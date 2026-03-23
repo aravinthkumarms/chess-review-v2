@@ -1,0 +1,48 @@
+{
+  "id": "2d020a28-95aa-4a09-9f6a-7968b82dfa25",
+  "name": "Quiz 8 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White activates their queen.\n\nHow should you react?",
+    "answers": [
+      {
+        "text": "Bxf2+",
+        "feedback": {
+          "text": "Nice job! We'll take the queen next.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c4-g4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "5rk1/1p1q1ppp/p3p3/3p4/2r3Q1/P1N4P/1PP2bP1/3RR1K1 w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Do you have any strong sacrifices?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "5rk1/1p1q1ppp/p3p3/3p4/2rb4/P1N4P/1PP1QPP1/3RR1K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qg4",
+      "afterMoveFen": "5rk1/1p1q1ppp/p3p3/3p4/2rb2Q1/P1N4P/1PP2PP1/3RR1K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,79 @@
+{
+  "id": "6ac6b54d-d40a-43b9-ad3b-08301ca37942",
+  "name": "Quiz 35 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black captures the bishop on b5 in a desperado tactic. \n\nShould you continue the desperado with Qxf6?\n\n",
+    "answers": [
+      {
+        "text": "No, the desperado doesn't work for White.",
+        "feedback": {
+          "text": "Exactly, after Qxf6 Black can go ...Qxg1+.",
+          "arrows": {
+            "threats": [
+              "f3-f6"
+            ],
+            "opportunities": [
+              "b5-f1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, the Qxf6 desperado works for White",
+        "feedback": {
+          "text": "Sadly, it doesn't work. Black has ...Qxf1+.",
+          "arrows": {
+            "threats": [
+              "f3-f6"
+            ],
+            "opportunities": [
+              "b5-f1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Qxf6 is not necessary but it's equal. It's just a fancy queen trade.",
+        "feedback": {
+          "text": "Black has a tactic after Qxf6! It's ...Qxf1+.",
+          "arrows": {
+            "threats": [
+              "f3-f6"
+            ],
+            "opportunities": [
+              "b5-f1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r3kb1r/pp2pppp/3p1n2/qB2n3/4P3/2N1BQ1P/PPP2PP1/R4RK1 b kq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f3-f6"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Qxb5",
+      "afterMoveFen": "r3kb1r/pp2pppp/3p1n2/1q2n3/4P3/2N1BQ1P/PPP2PP1/R4RK1 w kq - 0 2"
+    }
+  },
+  "drill": null
+}

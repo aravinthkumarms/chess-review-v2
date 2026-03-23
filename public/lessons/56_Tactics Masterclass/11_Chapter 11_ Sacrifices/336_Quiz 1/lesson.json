@@ -1,0 +1,59 @@
+{
+  "id": "0a959cee-478c-41e2-9b1c-9be29e435055",
+  "name": "Quiz 1",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White attacks your knight. \n\nWhat should you play?",
+    "answers": [
+      {
+        "text": "Ne5",
+        "feedback": {
+          "text": "A fantastic double attack! \n\nYou're threatening Qxh3# and Nxf3!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c8-h3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f3",
+              "h3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1q3k1/2n1pp1p/3p2p1/2pPn3/1r1bPP2/1PN2QPP/PB4N1/1R3R1K w - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you see a creative sacrifice which is also a double attack?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1q3k1/2n1pp1p/3p2p1/2pP4/1r1bPPn1/1PN2QP1/PB4NP/1R3R1K w - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "g4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "h3",
+      "afterMoveFen": "r1q3k1/2n1pp1p/3p2p1/2pP4/1r1bPPn1/1PN2QPP/PB4N1/1R3R1K b - - 0 1"
+    }
+  },
+  "drill": null
+}

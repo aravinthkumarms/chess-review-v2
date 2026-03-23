@@ -1,0 +1,908 @@
+{
+  "id": "3615bba1-e857-41b8-93de-da82f7bd2cc3",
+  "name": "Study 3: Hybrid Tactics From One of My Classical Games",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "o"
+        ],
+        "comments": [
+          {
+            "text": "You've made it to the final study! Great job!  \n\nLet's look at a classical game I played back in 2012. \n\nI faced 2263-rated Jared Defibaugh in the Washington International tournament, while my rating was just 2200.  \n\nLet's begin from the 15th move. The game started out with The Caro-Kann opening, my opponent had castled kingside, and I had castled queenside and went for some queenside play. \n\nA pretty interesting game so far, off we go!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pp2npp1/2p1p1b1/3nP1Bp/3P3P/1BN1Q1N1/Pq3PP1/R4RK1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1E": {
+        "adjacentNodeIds": [
+          "6c"
+        ],
+        "comments": [
+          {
+            "text": "A queen sacrifice was on the board!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p3/7b/6rP/8/4qP1Q/R4K2 w - - 0 20",
+        "parentNodeId": "yb",
+        "san": "Qxe2+"
+      },
+      "1J": {
+        "adjacentNodeIds": [
+          "9Y"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured with the bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p3/q6b/3r3P/8/5P1Q/2R1R1K1 w - - 0 17",
+        "parentNodeId": "CB",
+        "san": "Bxh5"
+      },
+      "1X": {
+        "adjacentNodeIds": [
+          "YC"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured with the rook, putting pressure on the d-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k2b1r/pp3pp1/2p1p1b1/3rP1Bp/3P3P/4Q1N1/Pq3PP1/R4RK1 w - - 0 3",
+        "parentNodeId": "P",
+        "san": "Rxd5"
+      },
+      "5s": {
+        "adjacentNodeIds": [
+          "EH"
+        ],
+        "comments": [
+          {
+            "text": "White continued with his plan of playing on the queenside.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/pp3pp1/2p1p1b1/P2q3p/5B1P/3r2P1/5P1Q/2R1R1K1 b - - 0 13",
+        "parentNodeId": "bU",
+        "san": "a5"
+      },
+      "6c": {
+        "adjacentNodeIds": [
+          "UE"
+        ],
+        "comments": [
+          {
+            "text": "White captured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p3/7b/6rP/8/4KP1Q/R7 b - - 0 20",
+        "parentNodeId": "1E",
+        "san": "Kxe2"
+      },
+      "82": {
+        "adjacentNodeIds": [
+          "pp"
+        ],
+        "comments": [
+          {
+            "text": "And here came d5. \n\nThis move looked strange, but it had some logic to it. \n\nMy opponent opened up his queen towards my king, and he no longer had to worry about defending the d4-pawn all the time.",
+            "arrows": {
+              "threats": [
+                "e3-a7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k2b1r/pp1r1pp1/2p1p1b1/3PP1Bp/7P/4Q3/Pq2NPP1/R4RK1 b - - 0 4",
+        "parentNodeId": "gc",
+        "san": "d5"
+      },
+      "9Y": {
+        "adjacentNodeIds": [
+          "ef"
+        ],
+        "comments": [
+          {
+            "text": "White was generating some counterplay on the queenside, but his king was much weaker than mine!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": [
+                "c8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p3/q6b/3r3P/8/5P1Q/R3R1K1 b - - 1 17",
+        "parentNodeId": "1J",
+        "san": "Ra1"
+      },
+      "CB": {
+        "adjacentNodeIds": [
+          "1J"
+        ],
+        "comments": [
+          {
+            "text": "White traded.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p1b1/q6P/3r3P/8/5P1Q/2R1R1K1 b - - 0 16",
+        "parentNodeId": "We",
+        "san": "gxh5"
+      },
+      "EH": {
+        "adjacentNodeIds": [
+          "WU"
+        ],
+        "comments": [
+          {
+            "text": "I simply captured the pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/pp3pp1/2p1p1b1/q6p/5B1P/3r2P1/5P1Q/2R1R1K1 w - - 0 14",
+        "parentNodeId": "5s",
+        "san": "Qxa5"
+      },
+      "F9": {
+        "adjacentNodeIds": [
+          "f4"
+        ],
+        "comments": [
+          {
+            "text": "If White captures my rook, I get...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/pp3pp1/2p1p1b1/2bNq1Bp/7P/6Q1/P4PP1/R4RK1 b - - 0 7",
+        "parentNodeId": "Wj",
+        "san": "Nxd5"
+      },
+      "G": {
+        "adjacentNodeIds": [
+          "P"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured with the knight.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pp3pp1/2p1p1b1/3nP1Bp/3P3P/1B2Q1N1/Pq3PP1/R4RK1 w - - 0 2",
+        "parentNodeId": "o",
+        "san": "Nxd5"
+      },
+      "Gt": {
+        "adjacentNodeIds": [
+          "NM"
+        ],
+        "comments": [
+          {
+            "text": "White broke the pin.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/ppq2pp1/2pbp1b1/6Bp/5N1P/3r2P1/P4P1Q/2R1R1K1 b - - 0 10",
+        "parentNodeId": "rs",
+        "san": "g3"
+      },
+      "HI": {
+        "adjacentNodeIds": [
+          "nY"
+        ],
+        "comments": [
+          {
+            "text": "After Kh1...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p3/q6b/6rP/8/5P1Q/R3R2K b - - 3 18",
+        "parentNodeId": "ef",
+        "san": "Kh1"
+      },
+      "Ih": {
+        "adjacentNodeIds": [
+          "Wk"
+        ],
+        "comments": [
+          {
+            "text": "White's rook attacked my queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/pp3pp1/2p1p1b1/2brq1Bp/5N1P/6Q1/P4PP1/R3R1K1 b - - 1 7",
+        "parentNodeId": "Wj",
+        "san": "Rfe1"
+      },
+      "Ja": {
+        "adjacentNodeIds": [
+          "bL"
+        ],
+        "comments": [
+          {
+            "text": "I added control to the d-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr4/pp3pp1/2p1p1b1/q6p/5BPP/3r4/5P1Q/2R1R1K1 w - - 1 15",
+        "parentNodeId": "WU",
+        "san": "Rhd8"
+      },
+      "Kr": {
+        "adjacentNodeIds": [
+          "Wj"
+        ],
+        "comments": [
+          {
+            "text": "White's queen moved to g3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/pp3pp1/2p1p1b1/2brP1Bp/5N1P/6Q1/Pq3PP1/R4RK1 b - - 3 6",
+        "parentNodeId": "vU",
+        "san": "Qg3"
+      },
+      "N4": {
+        "adjacentNodeIds": [
+          "rs"
+        ],
+        "comments": [
+          {
+            "text": "White retreated his queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/ppq2pp1/2p1p1b1/2b3Bp/5N1P/3r4/P4PPQ/2R1R1K1 b - - 5 9",
+        "parentNodeId": "dQ",
+        "san": "Qh2"
+      },
+      "NM": {
+        "adjacentNodeIds": [
+          "hm"
+        ],
+        "comments": [
+          {
+            "text": "But now I traded off White's knight. \n\nMy rook kept its activity on the d3-square.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/ppq2pp1/2p1p1b1/6Bp/5b1P/3r2P1/P4P1Q/2R1R1K1 w - - 0 11",
+        "parentNodeId": "Gt",
+        "san": "Bxf4"
+      },
+      "P": {
+        "adjacentNodeIds": [
+          "1X"
+        ],
+        "comments": [
+          {
+            "text": "White traded once again—my knight was quite strong on d5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pp3pp1/2p1p1b1/3BP1Bp/3P3P/4Q1N1/Pq3PP1/R4RK1 b - - 0 2",
+        "parentNodeId": "G",
+        "san": "Bxd5"
+      },
+      "T1": {
+        "adjacentNodeIds": [
+          "gx"
+        ],
+        "comments": [
+          {
+            "text": "The king moved to f1.\n\nA nice tactic emerged from here!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p3/q6b/6rP/8/5P1Q/R3RK2 b - - 3 18",
+        "parentNodeId": "ef",
+        "san": "Kf1"
+      },
+      "UE": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "A discovered check and attack! \n\nI would have captured the queen on the next move. \n\nMy opponent resigned here since I was up so much material.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-e2",
+                "h4-h2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p3/7b/7r/8/4KP1Q/R7 w - - 0 21",
+        "parentNodeId": "6c",
+        "san": "Rxh4+"
+      },
+      "WU": {
+        "adjacentNodeIds": [
+          "Ja"
+        ],
+        "comments": [
+          {
+            "text": "My opponent was desperately lacking activity, so at the cost of weakening his kingside, the queen had more scope.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/pp3pp1/2p1p1b1/q6p/5BPP/3r4/5P1Q/2R1R1K1 b - - 0 14",
+        "parentNodeId": "EH",
+        "san": "g4"
+      },
+      "We": {
+        "adjacentNodeIds": [
+          "CB"
+        ],
+        "comments": [
+          {
+            "text": "I attacked the g4-pawn.",
+            "arrows": {
+              "threats": [
+                "d4-g4"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p1b1/q6p/3r2PP/8/5P1Q/2R1R1K1 w - - 3 16",
+        "parentNodeId": "bL",
+        "san": "R3d4"
+      },
+      "Wj": {
+        "adjacentNodeIds": [
+          "Ih",
+          "F9"
+        ],
+        "comments": [
+          {
+            "text": "The e5-pawn was also for free, thanks to a pin.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/pp3pp1/2p1p1b1/2brq1Bp/5N1P/6Q1/P4PP1/R4RK1 w - - 0 7",
+        "parentNodeId": "Kr",
+        "san": "Qxe5"
+      },
+      "Wk": {
+        "adjacentNodeIds": [
+          "bq"
+        ],
+        "comments": [
+          {
+            "text": "I retreated to c7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/ppq2pp1/2p1p1b1/2br2Bp/5N1P/6Q1/P4PP1/R3R1K1 w - - 2 8",
+        "parentNodeId": "Ih",
+        "san": "Qc7"
+      },
+      "YC": {
+        "adjacentNodeIds": [
+          "gc"
+        ],
+        "comments": [
+          {
+            "text": "White defended it.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k2b1r/pp3pp1/2p1p1b1/3rP1Bp/3P3P/4Q3/Pq2NPP1/R4RK1 b - - 1 3",
+        "parentNodeId": "1X",
+        "san": "Ne2"
+      },
+      "bL": {
+        "adjacentNodeIds": [
+          "We"
+        ],
+        "comments": [
+          {
+            "text": "White tried to make use of his queen-bishop battery. \n\nNow if my queen ever moves from the dark squares, Qc7 is checkmate.",
+            "arrows": {
+              "threats": [
+                "h2-c7"
+              ],
+              "opportunities": [
+                "a5-c7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          },
+          {
+            "text": "Perhaps Ra1 counterplay could be annoying.",
+            "arrows": {
+              "threats": [
+                "c1-a1"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p1b1/q6p/6PP/3r4/5P1Q/2R1R1K1 b - - 2 15",
+        "parentNodeId": "Ja",
+        "san": "Bb8"
+      },
+      "bU": {
+        "adjacentNodeIds": [
+          "5s"
+        ],
+        "comments": [
+          {
+            "text": "I centralized my queen to d5. \n\nFrom d5, the queen was eyeing the weak light squares around White's king.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g2",
+                "h1",
+                "f3"
+              ],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/pp3pp1/2p1p1b1/3q3p/P4B1P/3r2P1/5P1Q/2R1R1K1 w - - 1 13",
+        "parentNodeId": "qR",
+        "san": "Qd5"
+      },
+      "bq": {
+        "adjacentNodeIds": [
+          "dQ"
+        ],
+        "comments": [
+          {
+            "text": "My opponent brought his rook to the c-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/ppq2pp1/2p1p1b1/2br2Bp/5N1P/6Q1/P4PP1/2R1R1K1 b - - 3 8",
+        "parentNodeId": "Wk",
+        "san": "Rac1"
+      },
+      "dQ": {
+        "adjacentNodeIds": [
+          "N4"
+        ],
+        "comments": [
+          {
+            "text": "And my rook slid to the d3-square! \n\nWhite's queen was attacked and his knight couldn't move thanks to the pin my queen was creating.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-d3",
+                "c7-g3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f4",
+                "g3",
+                "f2"
+              ],
+              "opportunities": [
+                "c5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/ppq2pp1/2p1p1b1/2b3Bp/5N1P/3r2Q1/P4PP1/2R1R1K1 w - - 4 9",
+        "parentNodeId": "bq",
+        "san": "Rd3"
+      },
+      "ef": {
+        "adjacentNodeIds": [
+          "T1",
+          "HI",
+          "nl"
+        ],
+        "comments": [
+          {
+            "text": "I brought the rook to the attack!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p3/q6b/6rP/8/5P1Q/R3R1K1 w - - 2 18",
+        "parentNodeId": "9Y",
+        "san": "Rg4+"
+      },
+      "ey": {
+        "adjacentNodeIds": [
+          "vU"
+        ],
+        "comments": [
+          {
+            "text": "White brought his knight out to f4 and attacked my rook on d5. \n\nMy a7-pawn would be captured next...",
+            "arrows": {
+              "threats": [
+                "e3-a7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k2b1r/pp3pp1/2p1p1b1/3rP1Bp/5N1P/4Q3/Pq3PP1/R4RK1 b - - 1 5",
+        "parentNodeId": "pp",
+        "san": "Nf4"
+      },
+      "f4": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...a queen for free! The f2-pawn is pinned.",
+            "arrows": {
+              "threats": [
+                "f2-g3"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": [
+                "c5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/pp3pp1/2p1p1b1/2bN2Bp/7P/6q1/P4PP1/R4RK1 w - - 0 8",
+        "parentNodeId": "F9",
+        "san": "Qxg3"
+      },
+      "gc": {
+        "adjacentNodeIds": [
+          "82"
+        ],
+        "comments": [
+          {
+            "text": "I preemptively retreated the rook. \n\nNc3 would come with a tempo.",
+            "arrows": {
+              "threats": [
+                "e2-c3"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k2b1r/pp1r1pp1/2p1p1b1/4P1Bp/3P3P/4Q3/Pq2NPP1/R4RK1 w - - 2 4",
+        "parentNodeId": "YC",
+        "san": "Rd7"
+      },
+      "gx": {
+        "adjacentNodeIds": [
+          "yb"
+        ],
+        "comments": [
+          {
+            "text": "Check! White was forced to block with their rook.",
+            "arrows": {
+              "threats": [
+                "e1-e2"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p3/1q5b/6rP/8/5P1Q/R3RK2 w - - 4 19",
+        "parentNodeId": "T1",
+        "san": "Qb5+"
+      },
+      "hm": {
+        "adjacentNodeIds": [
+          "uX"
+        ],
+        "comments": [
+          {
+            "text": "White recaptured.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/ppq2pp1/2p1p1b1/7p/5B1P/3r2P1/P4P1Q/2R1R1K1 b - - 0 11",
+        "parentNodeId": "NM",
+        "san": "Bxf4"
+      },
+      "nY": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...Qd5+ leads to a quick checkmate.",
+            "arrows": {
+              "threats": [
+                "d5-f3",
+                "f3-g2"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "h1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p3/3q3b/6rP/8/5P1Q/R3R2K w - - 4 19",
+        "parentNodeId": "HI",
+        "san": "Qd5+"
+      },
+      "nl": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Bg3 would have been White's best try to prolong the game, but my rooks would just add pressure to it and the kingside would soon collapse.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d8-d3",
+                "g4-g3",
+                "a5-c3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr4/pp3pp1/2p1p3/q6b/6rP/6B1/5P1Q/R3R1K1 b - - 3 18",
+        "parentNodeId": "ef",
+        "san": "Bg3"
+      },
+      "o": {
+        "adjacentNodeIds": [
+          "G"
+        ],
+        "comments": [
+          {
+            "text": "In this position, my opponent traded the knights on d5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pp2npp1/2p1p1b1/3NP1Bp/3P3P/1B2Q1N1/Pq3PP1/R4RK1 b - - 0 1",
+        "parentNodeId": "0",
+        "san": "Nxd5"
+      },
+      "pp": {
+        "adjacentNodeIds": [
+          "ey"
+        ],
+        "comments": [
+          {
+            "text": "I captured with the rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k2b1r/pp3pp1/2p1p1b1/3rP1Bp/7P/4Q3/Pq2NPP1/R4RK1 w - - 0 5",
+        "parentNodeId": "82",
+        "san": "Rxd5"
+      },
+      "qR": {
+        "adjacentNodeIds": [
+          "bU"
+        ],
+        "comments": [
+          {
+            "text": "White tried to create some counterplay on the queenside.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/pp1q1pp1/2p1p1b1/7p/P4B1P/3r2P1/5P1Q/2R1R1K1 b - a3 0 12",
+        "parentNodeId": "uX",
+        "san": "a4"
+      },
+      "rs": {
+        "adjacentNodeIds": [
+          "Gt"
+        ],
+        "comments": [
+          {
+            "text": "I created yet another pin! \n\nMy rook still couldn't be captured.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f4",
+                "h2"
+              ],
+              "opportunities": [
+                "d3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/ppq2pp1/2pbp1b1/6Bp/5N1P/3r4/P4PPQ/2R1R1K1 w - - 6 10",
+        "parentNodeId": "N4",
+        "san": "Bd6"
+      },
+      "uX": {
+        "adjacentNodeIds": [
+          "qR"
+        ],
+        "comments": [
+          {
+            "text": "I moved the queen to d7— gaining full control over the d-file.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d8-d1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/pp1q1pp1/2p1p1b1/7p/5B1P/3r2P1/P4P1Q/2R1R1K1 w - - 1 12",
+        "parentNodeId": "hm",
+        "san": "Qd7"
+      },
+      "vU": {
+        "adjacentNodeIds": [
+          "Kr"
+        ],
+        "comments": [
+          {
+            "text": "...but I had ...Bc5! \n\nAn intermezzo, creating a much bigger threat against White's queen.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/pp3pp1/2p1p1b1/2brP1Bp/5N1P/4Q3/Pq3PP1/R4RK1 w - - 2 6",
+        "parentNodeId": "ey",
+        "san": "Bc5"
+      },
+      "yb": {
+        "adjacentNodeIds": [
+          "1E"
+        ],
+        "comments": [
+          {
+            "text": "The only move.  \n\nNow my bishop is nicely aligned with the e2-square.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-e2"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1Bkr4/pp3pp1/2p1p3/1q5b/6rP/8/4RP1Q/R4K2 b - - 5 19",
+        "parentNodeId": "gx",
+        "san": "Re2"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

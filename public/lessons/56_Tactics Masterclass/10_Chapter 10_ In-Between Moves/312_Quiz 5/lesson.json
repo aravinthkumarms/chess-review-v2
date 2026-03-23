@@ -1,0 +1,77 @@
+{
+  "id": "77659054-996c-4caf-b690-9534a0f1666f",
+  "name": "Quiz 5",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black breaks the pin on their knight. \n\nCan something bad happen if you play Bc4 to attack the queen?",
+    "answers": [
+      {
+        "text": "Yes, there's a strong in-between move.",
+        "feedback": {
+          "text": "...Nxd4 is a big problem!",
+          "arrows": {
+            "threats": [
+              "c6-d4"
+            ],
+            "opportunities": [
+              "b5-c4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, it's a good tempo on the queen.",
+        "feedback": {
+          "text": "Are you sure White cannot gain a tempo back?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, you lose an opportunity to trap the queen.",
+        "feedback": {
+          "text": "The queen has f5, d6 and h5 as safe squares. I don't think it can be trapped right now.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f5",
+              "h5",
+              "d6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1b1kbr1/ppp2p1p/2n1pp2/1B1q4/3P4/5N2/PPP1QPPP/R1B2RK1 b q - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "b5-c4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Bd7",
+      "afterMoveFen": "r3kbr1/pppb1p1p/2n1pp2/1B1q4/3P4/5N2/PPP1QPPP/R1B2RK1 w q - 2 2"
+    }
+  },
+  "drill": null
+}

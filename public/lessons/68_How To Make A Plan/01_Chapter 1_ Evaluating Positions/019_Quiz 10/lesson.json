@@ -1,0 +1,79 @@
+{
+  "id": "cb66a29b-1bab-4deb-ba28-8ecb83f3969b",
+  "name": "Quiz 10",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Material is equal and so is space. \n\nEvaluate king safety and piece activity. \n\nBlack has doubled rooks on the h-file. \n\nWho's better?",
+    "answers": [
+      {
+        "text": "Black is better (-1.49)",
+        "feedback": {
+          "text": "Black's rooks put pressure on the h4 pawn, which is a weakness. \n\nWhite can't really target any of Black's weaknesses. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is better (+1.56)",
+        "feedback": {
+          "text": "Black's king is actually safer surrounded by the doubled f-pawns and the g6 pawn. Black's rooks on the h-file are very active.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h7-h4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h4"
+            ],
+            "opportunities": [
+              "f7",
+              "f6",
+              "g6",
+              "h7",
+              "h8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Position is equal (-0.04)",
+        "feedback": {
+          "text": "This assumes that neither side has an advantage, and that Black's h-file activity isn't worth much. \n\nThe computer disagrees! ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black has a slight edge (-0.6)",
+        "feedback": {
+          "text": "Perhaps we could say that Black's h-file activity doesn't give it a substantial advantage.\n\nBut let's also consider the pieces and their prospects. What can White do with their pieces? ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r5/5pkr/pqnbppp1/1p1p4/3P2PP/P1P2NN1/1P3PK1/2RQR3 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rch8",
+      "afterMoveFen": "7r/5pkr/pqnbppp1/1p1p4/3P2PP/P1P2NN1/1P3PK1/2RQR3 w - - 2 2"
+    }
+  },
+  "drill": null
+}

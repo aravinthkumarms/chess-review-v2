@@ -1,0 +1,577 @@
+{
+  "id": "c388fb9d-fe2c-4f6f-be69-a71425e96d77",
+  "name": "Study 3: A Skewer to Remove the Defender",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "K"
+        ],
+        "comments": [
+          {
+            "text": "This is another game I played online against FM Vladimir Bilic from Bosnia & Herzegovina, rated 2696.\n\nI was Black in this game, and it features multiple different tactics, crowned by a nice skewer in the end!\n\nLet's take a look.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "Here's the link for the game:\n\nhttps://www.chess.com/analysis/game/live/88636855047?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1rb2r2/1pp1q1kp/p3pnp1/8/2P1N3/2Q3P1/PP3PBP/3R1RK1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "2": {
+        "adjacentNodeIds": [
+          "a"
+        ],
+        "comments": [
+          {
+            "text": "However, I had a modest plan to defend: activate my bishop. \n\nFor White, one of the ideas is definitely Ng5, going after the weakness on e6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c8-b7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1rb2r2/2p1q1kp/pp2pnp1/8/2P1N3/2Q3P1/PP3PBP/3RR1K1 w - - 0 2",
+        "parentNodeId": "K",
+        "san": "b6"
+      },
+      "35": {
+        "adjacentNodeIds": [
+          "ao"
+        ],
+        "comments": [
+          {
+            "text": "I captured on d1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b2r2/2p1q1kp/p3pnp1/8/1P2N3/2Q3P1/P4PBP/3rR1K1 w - - 0 6",
+        "parentNodeId": "m7",
+        "san": "Rxd1"
+      },
+      "3c": {
+        "adjacentNodeIds": [
+          "XR"
+        ],
+        "comments": [
+          {
+            "text": "And after this recapture, the trade only makes sense if you take on e6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b2r2/4q1kp/p2ppnp1/2N5/1P6/2Q3P1/P4PBP/4R1K1 w - - 0 6",
+        "parentNodeId": "Fm",
+        "san": "cxd6"
+      },
+      "3q": {
+        "adjacentNodeIds": [
+          "tR"
+        ],
+        "comments": [
+          {
+            "text": "I defended with ...Rb6.\n\nI wanted my rook to also be active on the 6th rank in the future.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b2r2/2p1q1kp/pr2pnp1/2N5/8/2Q3P1/PP3PBP/3RR1K1 w - - 1 4",
+        "parentNodeId": "Fe",
+        "san": "Rb6"
+      },
+      "5E": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "There's no rook to the 8th rank to defend the bishop. \n\nThe rook is stuck, and if it moves the c8-bishop falls for free.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e6",
+                "c8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/2p1q1kp/p3r1p1/4p3/1P6/2Q3PB/P4P1P/4R1K1 b - - 3 9",
+        "parentNodeId": "Pi",
+        "san": "Bh3"
+      },
+      "8J": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White's pin is absolute whereas Black's was only relative!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g7",
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r5/2p1R1kp/p4qp1/8/1P6/2Q3P1/P4P1P/6K1 b - - 2 12",
+        "parentNodeId": "pr",
+        "san": "Re7+"
+      },
+      "9X": {
+        "adjacentNodeIds": [
+          "Cd"
+        ],
+        "comments": [
+          {
+            "text": "I didn't move the rook away because that just spelled trouble.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/2p1q2p/p4kp1/4pr2/1P6/2Q3PB/P4P1P/4R1K1 w - - 4 10",
+        "parentNodeId": "eq",
+        "san": "Kf6"
+      },
+      "9s": {
+        "adjacentNodeIds": [
+          "pr"
+        ],
+        "comments": [
+          {
+            "text": "And e5 falls with a discovered check coming soon.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g7",
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r5/2p1q1kp/p5p1/4R3/1P6/2Q3P1/P4P1P/6K1 b - - 0 11",
+        "parentNodeId": "SA",
+        "san": "Rxe5"
+      },
+      "Cd": {
+        "adjacentNodeIds": [
+          "xj"
+        ],
+        "comments": [
+          {
+            "text": "I lost the exchange.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/2p1q2p/p4kp1/4pB2/1P6/2Q3P1/P4P1P/4R1K1 b - - 0 10",
+        "parentNodeId": "9X",
+        "san": "Bxf5"
+      },
+      "Fe": {
+        "adjacentNodeIds": [
+          "3q"
+        ],
+        "comments": [
+          {
+            "text": "White recaptured, now with another attacker on the e6-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1rb2r2/2p1q1kp/p3pnp1/2N5/8/2Q3P1/PP3PBP/3RR1K1 b - - 0 3",
+        "parentNodeId": "MM",
+        "san": "Nxc5"
+      },
+      "Fm": {
+        "adjacentNodeIds": [
+          "3c"
+        ],
+        "comments": [
+          {
+            "text": "The engine wanted White to trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b2r2/2p1q1kp/p2Rpnp1/2N5/1P6/2Q3P1/P4PBP/4R1K1 b - - 0 5",
+        "parentNodeId": "pQ",
+        "san": "Rxd6"
+      },
+      "I2": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "A pin! \n\nLet's go back to 9. Bh3: the rook can move away to f8 and save the bishop. But it's a skewer that serves also to remove the defender of e5. \n\nOnce you start building on the fundamentals, you'll start creating varied tactical combinations like these!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/2p1q2p/p4kp1/4pb2/1P3P2/2Q3P1/P6P/4R1K1 b - f3 0 11",
+        "parentNodeId": "xj",
+        "san": "f4"
+      },
+      "K": {
+        "adjacentNodeIds": [
+          "2"
+        ],
+        "comments": [
+          {
+            "text": "My knight is pinned. \n\nRfe1 also puts indirect pressure on the weak e-pawn. \n\nAt this point, White had some positional advantages in his position, and it was tough for me to defend.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1rb2r2/1pp1q1kp/p3pnp1/8/2P1N3/2Q3P1/PP3PBP/3RR1K1 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Rfe1"
+      },
+      "KT": {
+        "adjacentNodeIds": [
+          "Ru",
+          "Pi"
+        ],
+        "comments": [
+          {
+            "text": "And now he went for the weakness again.\n\nAt this point, Black should just let go of the pawn and try to defend (a lost) position without it.\n\nAny attempt at defending results in tactics.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/2p1q1kp/p4rp1/4p3/1P6/2Q3P1/P4PBP/4R1K1 b - - 1 8",
+        "parentNodeId": "c6",
+        "san": "Re1"
+      },
+      "MM": {
+        "adjacentNodeIds": [
+          "Fe"
+        ],
+        "comments": [
+          {
+            "text": "I captured, opening the b-file for my rook.\n\nBut this creates many weaknesses.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c7",
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1rb2r2/2p1q1kp/p3pnp1/2p5/4N3/2Q3P1/PP3PBP/3RR1K1 w - - 0 3",
+        "parentNodeId": "a",
+        "san": "bxc5"
+      },
+      "Pi": {
+        "adjacentNodeIds": [
+          "5E"
+        ],
+        "comments": [
+          {
+            "text": "After 15...Re6, we would have had a pure skewer.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/2p1q1kp/p3r1p1/4p3/1P6/2Q3P1/P4PBP/4R1K1 w - - 2 9",
+        "parentNodeId": "KT",
+        "san": "Re6"
+      },
+      "Ru": {
+        "adjacentNodeIds": [
+          "eq"
+        ],
+        "comments": [
+          {
+            "text": "I defended with ...Rf5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/2p1q1kp/p5p1/4pr2/1P6/2Q3P1/P4PBP/4R1K1 w - - 2 9",
+        "parentNodeId": "KT",
+        "san": "Rf5"
+      },
+      "SA": {
+        "adjacentNodeIds": [
+          "9s"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptures.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/2p1q1kp/p5p1/4p3/1P6/2Q3P1/P4P1P/4R1K1 w - - 0 11",
+        "parentNodeId": "qC",
+        "san": "Rxc8"
+      },
+      "XR": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "With the idea of attacking the pinned bishop.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g2-d5",
+                "g2-h3",
+                "c8-e6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b2r2/4q1kp/p2pNnp1/8/1P6/2Q3P1/P4PBP/4R1K1 b - - 0 6",
+        "parentNodeId": "3c",
+        "san": "Nxe6+"
+      },
+      "a": {
+        "adjacentNodeIds": [
+          "MM"
+        ],
+        "comments": [
+          {
+            "text": "However, White had another idea in mind.\n\nHe wanted to disrupt my structure on the queenside, and attack the e6-weakness from c5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1rb2r2/2p1q1kp/pp2pnp1/2P5/4N3/2Q3P1/PP3PBP/3RR1K1 b - - 0 2",
+        "parentNodeId": "2",
+        "san": "c5"
+      },
+      "ao": {
+        "adjacentNodeIds": [
+          "wz"
+        ],
+        "comments": [
+          {
+            "text": "The rook recaptured, naturally.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b2r2/2p1q1kp/p3pnp1/8/1P2N3/2Q3P1/P4PBP/3R2K1 b - - 0 6",
+        "parentNodeId": "35",
+        "san": "Rxd1"
+      },
+      "c6": {
+        "adjacentNodeIds": [
+          "KT"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured with the rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/2p1q1kp/p4rp1/4p3/1P6/2Q3P1/P4PBP/3R2K1 w - - 0 8",
+        "parentNodeId": "ek",
+        "san": "Rxf6"
+      },
+      "ek": {
+        "adjacentNodeIds": [
+          "c6"
+        ],
+        "comments": [
+          {
+            "text": "Vladimir decided to start simplifying here.\n\nHe captured the knight on f6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b2r2/2p1q1kp/p4Np1/4p3/1P6/2Q3P1/P4PBP/3R2K1 b - - 0 7",
+        "parentNodeId": "wz",
+        "san": "Nxf6"
+      },
+      "eq": {
+        "adjacentNodeIds": [
+          "9X",
+          "sD"
+        ],
+        "comments": [
+          {
+            "text": "And now the skewer!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/2p1q1kp/p5p1/4pr2/1P6/2Q3PB/P4P1P/4R1K1 b - - 3 9",
+        "parentNodeId": "Ru",
+        "san": "Bh3"
+      },
+      "m7": {
+        "adjacentNodeIds": [
+          "35"
+        ],
+        "comments": [
+          {
+            "text": "Vladimir didn't play the best move, but definitely a good one.\n\nNow both my rook and the knight were under pressure and I basically had to trade the rooks on his terms.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d6",
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b2r2/2p1q1kp/p2rpnp1/8/1P2N3/2Q3P1/P4PBP/3RR1K1 b - - 2 5",
+        "parentNodeId": "pQ",
+        "san": "Ne4"
+      },
+      "pQ": {
+        "adjacentNodeIds": [
+          "m7",
+          "Fm"
+        ],
+        "comments": [
+          {
+            "text": "I went for ...Rd6 here to offer a trade of rooks, which was a mistake.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b2r2/2p1q1kp/p2rpnp1/2N5/1P6/2Q3P1/P4PBP/3RR1K1 w - - 1 5",
+        "parentNodeId": "tR",
+        "san": "Rd6"
+      },
+      "pr": {
+        "adjacentNodeIds": [
+          "8J"
+        ],
+        "comments": [
+          {
+            "text": "And if Black thinks they have a pin, they have to think again.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/2p3kp/p4qp1/4R3/1P6/2Q3P1/P4P1P/6K1 w - - 1 12",
+        "parentNodeId": "9s",
+        "san": "Qf6"
+      },
+      "qC": {
+        "adjacentNodeIds": [
+          "SA"
+        ],
+        "comments": [
+          {
+            "text": "This would be crushing.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2B2r2/2p1q1kp/p5p1/4p3/1P6/2Q3P1/P4P1P/4R1K1 b - - 0 10",
+        "parentNodeId": "sD",
+        "san": "Bxc8"
+      },
+      "sD": {
+        "adjacentNodeIds": [
+          "qC"
+        ],
+        "comments": [
+          {
+            "text": "I suppose this is possible, so the skewer technically does not achieve its aim (to take the lower value piece behind the attacked one). \n\nBut this was a skewer that removes the defender of e5!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b2r2/2p1q1kp/p5p1/4p3/1P6/2Q3PB/P4P1P/4R1K1 w - - 4 10",
+        "parentNodeId": "eq",
+        "san": "Rf8"
+      },
+      "tR": {
+        "adjacentNodeIds": [
+          "pQ"
+        ],
+        "comments": [
+          {
+            "text": "Playing excellently, Vladimir cemented his knight on c5. A magnificent outpost. \n\nTactics flow from a superior position most of the time, so let's see how he won this.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b2r2/2p1q1kp/pr2pnp1/2N5/1P6/2Q3P1/P4PBP/3RR1K1 b - b3 0 4",
+        "parentNodeId": "3q",
+        "san": "b4"
+      },
+      "wz": {
+        "adjacentNodeIds": [
+          "ek"
+        ],
+        "comments": [
+          {
+            "text": "This gave me the chance to finally play ...e5 and free my light-squared bishop.\n\nHowever, on e5, the pawn is as much of a weakness as it was on e6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b2r2/2p1q1kp/p4np1/4p3/1P2N3/2Q3P1/P4PBP/3R2K1 w - - 0 7",
+        "parentNodeId": "ao",
+        "san": "e5"
+      },
+      "xj": {
+        "adjacentNodeIds": [
+          "I2"
+        ],
+        "comments": [
+          {
+            "text": "And after I recaptured and finally developed my light-squared bishop, he had a finishing blow.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2p1q2p/p4kp1/4pb2/1P6/2Q3P1/P4P1P/4R1K1 w - - 0 11",
+        "parentNodeId": "Cd",
+        "san": "Bxf5"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

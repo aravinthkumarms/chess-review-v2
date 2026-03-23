@@ -1,0 +1,78 @@
+{
+  "id": "c78d901d-06fc-4f9c-bbbe-7881e2db8f4b",
+  "name": "Quiz 5 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has moved out of check. \n\nCan you find a move that keeps the winning advantage and helps you make progress?",
+    "answers": [
+      {
+        "text": "Ng4",
+        "feedback": {
+          "text": "This is a really good move and one of the bests! The idea is that if fxg4, ...Rf7+ probably forces a move like Bf3 to avoid further problems.",
+          "arrows": {
+            "threats": [
+              "g4-e3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "h2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "6k1/pp1r2p1/7p/2qp4/6n1/5PP1/P2Q2BP/1R3K2 w - - 3 2"
+      },
+      {
+        "text": "Ne4",
+        "feedback": {
+          "text": "A powerful attack on the queen! Again, pawn takes knight and ...Rf7+ is the idea.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "6k1/pp1r2p1/7p/2qp4/4n3/5PP1/P2Q2BP/1R3K2 w - - 3 2"
+      },
+      {
+        "text": "d4",
+        "feedback": {
+          "text": "Pushing the passed pawn which is sufficiently supported is a great move.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "6k1/pp1r2p1/5n1p/2q5/3p4/5PP1/P2Q2BP/1R3K2 w - - 0 2"
+      },
+      {
+        "text": "Rc7",
+        "feedback": {
+          "text": "Going for maximum control of the c-file is a good idea. \n\nIt's not the best move here, but it prevents the unpleasant Rc1.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "6k1/ppr3p1/5n1p/2qp4/8/5PP1/P2Q2BP/1R3K2 w - - 3 2"
+      }
+    ],
+    "distractors": [],
+    "positionFen": "6k1/pp1r2p1/5n1p/2qp4/8/5PP1/P2Q2BP/1R4K1 w - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "d2",
+        "f2"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Kf1",
+      "afterMoveFen": "6k1/pp1r2p1/5n1p/2qp4/8/5PP1/P2Q2BP/1R3K2 b - - 2 1"
+    }
+  },
+  "drill": null
+}

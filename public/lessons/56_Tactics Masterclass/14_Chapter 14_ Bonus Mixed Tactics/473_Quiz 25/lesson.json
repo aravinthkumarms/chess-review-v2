@@ -1,0 +1,92 @@
+{
+  "id": "61001819-8fce-4b79-9081-ed779ce61694",
+  "name": "Quiz 25 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White activated their queen. \n\nIs the knight on d2 free? \n",
+    "answers": [
+      {
+        "text": "No, the queen isn’t safe on d2.",
+        "feedback": {
+          "text": "Exactly! It has no squares after Rad1.",
+          "arrows": {
+            "threats": [
+              "d3-d2"
+            ],
+            "opportunities": [
+              "a1-d1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, the knight is hanging.",
+        "feedback": {
+          "text": "After ...Qxd2 White responds with Rd1! The queen has no squares.",
+          "arrows": {
+            "threats": [
+              "d3-d2"
+            ],
+            "opportunities": [
+              "a1-d1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Not really, but Black gets enough material for the queen at the end.",
+        "feedback": {
+          "text": "Visualise: ...Qxd2, Rd1 the queen is trapped so Black captures the rook. Black will have a rook and a piece against a queen, but the king isn't safe!",
+          "arrows": {
+            "threats": [
+              "d3-d2",
+              "d2-d1"
+            ],
+            "opportunities": [
+              "a1-d1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2kr2nr/p3p1b1/p6p/1bP2pp1/4p3/2Pq2B1/PP1NNPPP/R2QR1K1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d3-d2"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "d2"
+      ],
+      "opportunities": [
+        "d8"
+      ]
+    },
+    "contextMove": {
+      "san": "Qb3",
+      "afterMoveFen": "2kr2nr/p3p1b1/p6p/1bP2pp1/4p3/1QPq2B1/PP1NNPPP/R3R1K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

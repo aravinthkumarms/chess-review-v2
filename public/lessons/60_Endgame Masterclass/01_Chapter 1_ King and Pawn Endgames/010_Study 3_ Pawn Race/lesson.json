@@ -1,0 +1,688 @@
+{
+  "id": "bd8126f7-bbcb-4db0-a592-269767dffbb8",
+  "name": "Study 3: Pawn Race ",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "a"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to study 3! We'll learn about pawn races here with an example from a game I played against WGM Nemo Zhou. \n\nIt was White to move, and I chose to transform this position into a king and pawn endgame. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/45865179909?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2Q5/1r4qk/1PR4p/4p3/7p/6P1/7K w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "4U": {
+        "adjacentNodeIds": [
+          "kG"
+        ],
+        "comments": [
+          {
+            "text": "The king went to g5. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4Q3/6k1/8/7K/4p3/8 w - - 2 9",
+        "parentNodeId": "gK",
+        "san": "Kg5"
+      },
+      "8T": {
+        "adjacentNodeIds": [
+          "Wd"
+        ],
+        "comments": [
+          {
+            "text": "Of course I cannot go to h2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1Q4qk/1PR4p/4p3/8/6pK/8 b - - 1 2",
+        "parentNodeId": "k",
+        "san": "Kh2"
+      },
+      "AS": {
+        "adjacentNodeIds": [
+          "uZ"
+        ],
+        "comments": [
+          {
+            "text": "This is a very easy way to promote the pawn and prevent White from doing so. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2P5/7k/7p/8/8/4pK2/6q1 w - - 0 7",
+        "parentNodeId": "XI",
+        "san": "g1=Q+"
+      },
+      "Bu": {
+        "adjacentNodeIds": [
+          "mv"
+        ],
+        "comments": [
+          {
+            "text": "In the game, however, Nemo, low on time, chose to take on g2 with check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2P4k/7p/4p3/8/6p1/7K w - - 0 4",
+        "parentNodeId": "ni",
+        "san": "hxg2+"
+      },
+      "Bw": {
+        "adjacentNodeIds": [
+          "gK"
+        ],
+        "comments": [
+          {
+            "text": "Once she pushed again...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/8/7k/8/8/7K/4p3/8 w - - 0 8",
+        "parentNodeId": "po",
+        "san": "e2"
+      },
+      "DF": {
+        "adjacentNodeIds": [
+          "yr"
+        ],
+        "comments": [
+          {
+            "text": "But my pawn wins the race. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c7-c8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2P5/7k/8/4p2p/8/6K1/8 b - - 0 5",
+        "parentNodeId": "PU",
+        "san": "c7"
+      },
+      "Dl": {
+        "adjacentNodeIds": [
+          "IO"
+        ],
+        "comments": [
+          {
+            "text": "The king went to f4, but there's no stalemate and there was increment in this game. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/5k2/7K/4Q3/8 w - - 1 10",
+        "parentNodeId": "kG",
+        "san": "Kf4"
+      },
+      "IO": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "So I gave a check and Nemo resigned. \n\nA couple of instructive moments: you have to make sure that the simplification into the pawn endgame works, and you don't have to take things that help the enemy king acquire a more defensive stance. Push your passed pawns if possible! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/5kQ1/7K/8/8 b - - 2 10",
+        "parentNodeId": "Dl",
+        "san": "Qg4+"
+      },
+      "In": {
+        "adjacentNodeIds": [
+          "J5"
+        ],
+        "comments": [
+          {
+            "text": "If I guard against its advance...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/2P4k/7p/8/7p/4pKP1/8 b - - 1 5",
+        "parentNodeId": "nf",
+        "san": "Kf2"
+      },
+      "J5": {
+        "adjacentNodeIds": [
+          "XI"
+        ],
+        "comments": [
+          {
+            "text": "There are two pawns that are threatening to queen and this is losing because the king cannot stop both of them. ",
+            "arrows": {
+              "threats": [
+                "g2-g1",
+                "e2-e1"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2P4k/7p/8/8/4pKp1/8 w - - 0 6",
+        "parentNodeId": "In",
+        "san": "hxg2"
+      },
+      "Ks": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And Black promotes. I lose! ",
+            "arrows": {
+              "threats": [
+                "e1-e6",
+                "e6-c8"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/2P5/7k/7p/8/8/8/4q1K1 w - - 0 8",
+        "parentNodeId": "uZ",
+        "san": "e1=Q+"
+      },
+      "L": {
+        "adjacentNodeIds": [
+          "vq"
+        ],
+        "comments": [
+          {
+            "text": "Nemo took on b6. \n\nBut she didn't have to capture right away. \n\nThis isn't checkers! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1q5k/1PR4p/4p3/7p/6P1/7K w - - 0 2",
+        "parentNodeId": "a",
+        "san": "Qxb6"
+      },
+      "N1": {
+        "adjacentNodeIds": [
+          "ni"
+        ],
+        "comments": [
+          {
+            "text": "Nemo took my rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2q4k/1P5p/4p3/7p/6P1/7K w - - 0 3",
+        "parentNodeId": "vq",
+        "san": "Qxc6"
+      },
+      "PF": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black queen with check and this should be a draw. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2Q5/8/7k/7p/8/7p/6P1/4q2K w - - 0 6",
+        "parentNodeId": "Zi",
+        "san": "e1=Q+"
+      },
+      "PU": {
+        "adjacentNodeIds": [
+          "DF"
+        ],
+        "comments": [
+          {
+            "text": "Nemo tried getting another pawn involved, so e3 is an idea. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-e3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2P4k/8/4p2p/8/6K1/8 w - - 0 5",
+        "parentNodeId": "mv",
+        "san": "h4"
+      },
+      "Q0": {
+        "adjacentNodeIds": [
+          "Zi"
+        ],
+        "comments": [
+          {
+            "text": "Black pushes too. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2P5/7k/7p/8/7p/4p1P1/7K w - - 0 5",
+        "parentNodeId": "YP",
+        "san": "e2"
+      },
+      "Uc": {
+        "adjacentNodeIds": [
+          "YP",
+          "my"
+        ],
+        "comments": [
+          {
+            "text": "This was Black's only option to survive. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2P4k/7p/8/4p2p/6P1/7K w - - 0 4",
+        "parentNodeId": "ni",
+        "san": "e3"
+      },
+      "Wd": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Because there's checkmate coming up. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1Q4qk/1PR4p/4p3/8/7K/6q1 w - - 0 3",
+        "parentNodeId": "8T",
+        "san": "g1=Q+"
+      },
+      "XI": {
+        "adjacentNodeIds": [
+          "AS"
+        ],
+        "comments": [
+          {
+            "text": "If White pushes...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c7-c8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2P5/7k/7p/8/8/4pKp1/8 b - - 0 6",
+        "parentNodeId": "J5",
+        "san": "c7"
+      },
+      "YP": {
+        "adjacentNodeIds": [
+          "Q0"
+        ],
+        "comments": [
+          {
+            "text": "I would have to push. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2P5/7k/7p/8/4p2p/6P1/7K b - - 0 4",
+        "parentNodeId": "Uc",
+        "san": "c7"
+      },
+      "YZ": {
+        "adjacentNodeIds": [
+          "ia"
+        ],
+        "comments": [
+          {
+            "text": "I would have had to block the pawn. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1Q4qk/1PR4p/4p3/8/6p1/6K1 b - - 1 2",
+        "parentNodeId": "k",
+        "san": "Kg1"
+      },
+      "Zi": {
+        "adjacentNodeIds": [
+          "PF"
+        ],
+        "comments": [
+          {
+            "text": "And this pawn race should result in both sides queening. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/8/7k/7p/8/7p/4p1P1/7K b - - 0 5",
+        "parentNodeId": "Q0",
+        "san": "c8=Q"
+      },
+      "a": {
+        "adjacentNodeIds": [
+          "L",
+          "k"
+        ],
+        "comments": [
+          {
+            "text": "I took on b6. \n\nMy idea is that after ...Qxb6, I'll go Rc6+ and have a really advanced pawn after the trade! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1Q4qk/1PR4p/4p3/7p/6P1/7K b - - 0 1",
+        "parentNodeId": "0",
+        "san": "Qxb6"
+      },
+      "gK": {
+        "adjacentNodeIds": [
+          "4U"
+        ],
+        "comments": [
+          {
+            "text": "I gave a check (this is a fork). ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/4Q2k/8/8/7K/4p3/8 b - - 1 8",
+        "parentNodeId": "Bw",
+        "san": "Qe6+"
+      },
+      "iD": {
+        "adjacentNodeIds": [
+          "po"
+        ],
+        "comments": [
+          {
+            "text": "She pushed. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-e2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2P5/7k/8/8/4p2K/8/8 w - - 0 7",
+        "parentNodeId": "vz",
+        "san": "e3"
+      },
+      "ia": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And now this recaptures is a pin. \n\nRc6+ isn't possible. Black is winning! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1q5k/1PR4p/4p3/8/6p1/6K1 w - - 0 3",
+        "parentNodeId": "YZ",
+        "san": "Qxb6"
+      },
+      "k": {
+        "adjacentNodeIds": [
+          "YZ",
+          "8T"
+        ],
+        "comments": [
+          {
+            "text": "Black had this in-between move. \n\nWhy was this so good? Well, it forces the king to move to an unfavorable square.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1Q4qk/1PR4p/4p3/8/6p1/7K w - - 0 2",
+        "parentNodeId": "a",
+        "san": "hxg2+"
+      },
+      "kG": {
+        "adjacentNodeIds": [
+          "Dl"
+        ],
+        "comments": [
+          {
+            "text": "And this is a trivial checkmate for an IM and even for you after you're done with this course, quite frankly. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/6k1/8/7K/4Q3/8 b - - 0 9",
+        "parentNodeId": "4U",
+        "san": "Qxe2"
+      },
+      "mv": {
+        "adjacentNodeIds": [
+          "PU"
+        ],
+        "comments": [
+          {
+            "text": "And not only does this take me out of the 1st rank, but it also draws me closer to the pawn. I'm now inside the square.\n\nOn the other hand, Black is nowhere near to entering my c-pawn's square.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-g3",
+                "g3-g1",
+                "g1-e1",
+                "e1-e3",
+                "e4-e3",
+                "c6-e6",
+                "e6-e8",
+                "e8-c8",
+                "c8-c6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2P4k/7p/4p3/8/6K1/8 b - - 0 4",
+        "parentNodeId": "Bu",
+        "san": "Kxg2"
+      },
+      "my": {
+        "adjacentNodeIds": [
+          "nf"
+        ],
+        "comments": [
+          {
+            "text": "You may think that I can get into the pawn's square...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-e1",
+                "e3-g3",
+                "g3-g1",
+                "g1-e1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2P4k/7p/8/4p2p/6P1/6K1 b - - 1 4",
+        "parentNodeId": "Uc",
+        "san": "Kg1"
+      },
+      "nf": {
+        "adjacentNodeIds": [
+          "In"
+        ],
+        "comments": [
+          {
+            "text": "But Black can push again. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2P4k/7p/8/7p/4p1P1/6K1 w - - 0 5",
+        "parentNodeId": "my",
+        "san": "e2"
+      },
+      "ni": {
+        "adjacentNodeIds": [
+          "Bu",
+          "Uc"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured. \n\nNow it seems like I will win the pawn race because I'm two moves away from doing so! \n\nHowever, there's an instructive detail: the e-pawn queens with check! \n\nStill, it seems like both pawns will queen. ",
+            "arrows": {
+              "threats": [
+                "e1-h1"
+              ],
+              "opportunities": [
+                "c6-c7",
+                "c7-c8",
+                "e4-e3",
+                "e3-e2",
+                "e2-e1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/2P4k/7p/4p3/7p/6P1/7K b - - 0 3",
+        "parentNodeId": "N1",
+        "san": "bxc6"
+      },
+      "po": {
+        "adjacentNodeIds": [
+          "Bw"
+        ],
+        "comments": [
+          {
+            "text": "But I won the race by two moves, all thanks to the fact that she took on g2 and helped me improve my king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/8/7k/8/8/4p2K/8/8 b - - 0 7",
+        "parentNodeId": "iD",
+        "san": "c8=Q"
+      },
+      "uZ": {
+        "adjacentNodeIds": [
+          "Ks"
+        ],
+        "comments": [
+          {
+            "text": "White takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2P5/7k/7p/8/8/4p3/6K1 b - - 0 7",
+        "parentNodeId": "AS",
+        "san": "Kxg1"
+      },
+      "vq": {
+        "adjacentNodeIds": [
+          "N1"
+        ],
+        "comments": [
+          {
+            "text": "Nevertheless, she didn't see the winning variation so I continued going for the pawn endgame. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1qR4k/1P5p/4p3/7p/6P1/7K b - - 1 2",
+        "parentNodeId": "L",
+        "san": "Rc6+"
+      },
+      "vz": {
+        "adjacentNodeIds": [
+          "iD"
+        ],
+        "comments": [
+          {
+            "text": "But I just took the free pawn. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2P5/7k/8/4p3/7K/8/8 b - - 0 6",
+        "parentNodeId": "yr",
+        "san": "Kxh3"
+      },
+      "yr": {
+        "adjacentNodeIds": [
+          "vz"
+        ],
+        "comments": [
+          {
+            "text": "Nemo gave a check, trying to distract me. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2P5/7k/8/4p3/7p/6K1/8 w - - 0 6",
+        "parentNodeId": "DF",
+        "san": "h3+"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

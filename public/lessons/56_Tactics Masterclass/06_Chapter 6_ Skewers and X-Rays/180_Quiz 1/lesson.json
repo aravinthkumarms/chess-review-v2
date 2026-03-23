@@ -1,0 +1,53 @@
+{
+  "id": "852ca331-71d7-4099-907c-d7a6bb35d6f6",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black blocks the check with ...Rg7.\n\nDo you have a skewer here?",
+    "answers": [
+      {
+        "text": "Technically yes, but it doesn’t work like we would want it to.",
+        "feedback": {
+          "text": "Correct! Rc7+ is technically a skewer, but Black can respond with ...Qxc7.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, we can give a check with Rc7+ and win the rook on g7.",
+        "feedback": {
+          "text": "Not quite! While Rc7+ is technically a skewer, it doesn't win Black's rook.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, there is no skewer here.",
+        "feedback": {
+          "text": "That's incorrect. There is a skewer!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r7/p4k1Q/1q2ppr1/2Rb4/3P4/6B1/5PPP/R5K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rg7",
+      "afterMoveFen": "r7/p4krQ/1q2pp2/2Rb4/3P4/6B1/5PPP/R5K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

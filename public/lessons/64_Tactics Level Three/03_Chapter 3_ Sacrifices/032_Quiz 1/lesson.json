@@ -1,0 +1,73 @@
+{
+  "id": "a0dad2d4-8919-4276-8bcd-fb3c2652e7ec",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White's king is not so comfortable. \n\nCan you sacrifice the rook on h3 with Rexh3?",
+    "answers": [
+      {
+        "text": "This does not work here.",
+        "feedback": {
+          "text": "Exactly. f7 is also under attack.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b3-f7"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, because there's checkmate in three.",
+        "feedback": {
+          "text": "Where's the checkmate? Black may in fact lose something.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, because you have to take with the other rook. The one on h5.",
+        "feedback": {
+          "text": "This also fails. Both rook sacrifices allow Qxf7+",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "f7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/5pkp/3q2p1/7r/8/1QP1r2P/2R3PK/5R2 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e3-h3"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Kg1",
+      "afterMoveFen": "8/5pkp/3q2p1/7r/8/1QP1r2P/2R3P1/5RK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

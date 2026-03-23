@@ -1,0 +1,74 @@
+{
+  "id": "3cd6b836-09e2-4036-ae25-97365657b7d8",
+  "name": "Quiz 6",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The queen moves a square up to e3.\n\nYou're playing Black. \n\nWhat's wrong with activating your other rook with Rc8, controlling the c-file?",
+    "answers": [
+      {
+        "text": "There's a fork. ",
+        "feedback": {
+          "text": "The queen coming to a3 is a check, winning the b2 rook.",
+          "arrows": {
+            "threats": [
+              "e3-a3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "e7",
+              "b2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White can invade on the kingside and attack.",
+        "feedback": {
+          "text": "This really isn't the biggest problem.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "There's nothing wrong with activating the last rook.",
+        "feedback": {
+          "text": "There is something that loses material.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "7r/1b1nkp2/1p2p1p1/1P1pP2p/P2P1P1P/8/1r1BKQP1/8 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "h8-c8"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "h8"
+      ]
+    },
+    "contextMove": {
+      "san": "Qe3",
+      "afterMoveFen": "7r/1b1nkp2/1p2p1p1/1P1pP2p/P2P1P1P/4Q3/1r1BK1P1/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

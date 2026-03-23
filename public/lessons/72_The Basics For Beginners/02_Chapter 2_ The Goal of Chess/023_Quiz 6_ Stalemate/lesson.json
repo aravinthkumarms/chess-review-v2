@@ -1,0 +1,43 @@
+{
+  "id": "4dde33da-faa0-40f1-9682-fb67a7be109b",
+  "name": "Quiz 6: Stalemate",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The Black king moves to the corner.\n\nIt's White to play and stalemate. \n\nNever do this when you are winning. You want to trick your opponent into playing the stalemate, not play it yourself when you're up a queen. \n\nBut for the sake of this exercise: Can you see the move that takes away all of the king's legal moves?",
+    "answers": [
+      {
+        "text": "Qf7",
+        "feedback": {
+          "text": "This is a common mistake among beginners.\n\nThink about every move you make before you make it, no matter how harmless it may seem!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "7k/5Q2/8/8/8/8/8/4K3 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you control the g8-square without leaving the 7th rank?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "6k1/4Q3/8/8/8/8/8/4K3 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kh8",
+      "afterMoveFen": "7k/4Q3/8/8/8/8/8/4K3 w - - 2 2"
+    }
+  },
+  "drill": null
+}

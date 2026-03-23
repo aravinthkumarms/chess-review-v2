@@ -1,0 +1,65 @@
+{
+  "id": "b392a605-8891-4673-94b5-0b9cda3ce4d4",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Evaluate this endgame. The knight on f2 covers the queening square for the h-pawn. \n\nCan White win this endgame with a move like d4?",
+    "answers": [
+      {
+        "text": "No, White cannot win and in fact d4 is losing!",
+        "feedback": {
+          "text": "Yes. d4 and White gets a pawn that can be used to distract the king or knight from their defensive task.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d3-d4",
+              "e5-d4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, White wins. White has an extra knight. d4 creates a passed e-pawn.",
+        "feedback": {
+          "text": "Are you sure the passed pawn will be relevant? Remember Black gets a passed d-pawn too.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e5-d4",
+              "d4-d3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d4",
+              "d3",
+              "e2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/4p3/4P3/3P3p/4KNk1/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "h2",
+      "afterMoveFen": "8/8/8/4p3/4P3/3P4/4KNkp/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

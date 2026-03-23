@@ -1,0 +1,868 @@
+{
+  "id": "bad5d9d8-d4c6-4132-b8c7-b238e4f3c66e",
+  "name": "Study 4: The Windmill ",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "r"
+        ],
+        "comments": [
+          {
+            "text": "In this final study, we'll see a windmill as it occurred in Carlos Torre Repetto vs Emanuel Lasker (1925). \n\nA windmill is a tactic that consists of a series of repetitive checks and captures with discovered check.\n\nIt's a really strong tactic because you can take a lot of material with check and your opponent cannot do anything.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1100063",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3ppp/3pp3/5qBQ/1P1P4/N2R4/P4PPP/4R1K1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "60": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And it's very important to take on b7 with the rook to keep the pin on the 5th rank. \n\nBlack defends, so his material advantage should prove decisive.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-g5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4nk1/pr4pp/4pp2/3q2BQ/1P1P4/6R1/P4PPP/4R1K1 w - - 0 5",
+        "parentNodeId": "hx",
+        "san": "Rxb7"
+      },
+      "8A": {
+        "adjacentNodeIds": [
+          "lL"
+        ],
+        "comments": [
+          {
+            "text": "But Torre Repetto found the Windmill tactic that worked. \n\nHe also sacrificed the queen!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g7",
+                "b5",
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3ppB1p/1q5Q/1P1P4/4N1R1/P4PPP/4R1K1 b - - 5 4",
+        "parentNodeId": "cx",
+        "san": "Bf6"
+      },
+      "9a": {
+        "adjacentNodeIds": [
+          "kQ"
+        ],
+        "comments": [
+          {
+            "text": "The king went to h8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rn1k/p5R1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 3 10",
+        "parentNodeId": "ww",
+        "san": "Kh8"
+      },
+      "9u": {
+        "adjacentNodeIds": [
+          "XQ",
+          "qR"
+        ],
+        "comments": [
+          {
+            "text": "Lasker hyperfocused on material. He overestimated his chances. \n\nHe attacked the knight on c4 while keeping the pin on the bishop.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3pp2p/3q2BQ/1PNP4/6R1/P4PPP/4R1K1 w - - 2 3",
+        "parentNodeId": "Z",
+        "san": "Qd5"
+      },
+      "BD": {
+        "adjacentNodeIds": [
+          "D3"
+        ],
+        "comments": [
+          {
+            "text": "White took a pawn. \n\nThis is check. \n\nWhite didn't have to go for the queen right away. \n\nHe could first afford to take everything on the 7th rank and only then go over and take the queen.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rn1k/pb3R2/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 b - - 0 6",
+        "parentNodeId": "LE",
+        "san": "Rxf7+"
+      },
+      "D3": {
+        "adjacentNodeIds": [
+          "Od"
+        ],
+        "comments": [
+          {
+            "text": "The king is forced back to g8. \n\nThe next step of a Windmill is giving another check before capturing material.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3R2/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 7",
+        "parentNodeId": "BD",
+        "san": "Kg8"
+      },
+      "EK": {
+        "adjacentNodeIds": [
+          "gT"
+        ],
+        "comments": [
+          {
+            "text": "But White is better.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3pp2B/7Q/1P1q4/4N1R1/P4PPP/4R1K1 b - - 0 4",
+        "parentNodeId": "WA",
+        "san": "Bxh6"
+      },
+      "F": {
+        "adjacentNodeIds": [
+          "Z"
+        ],
+        "comments": [
+          {
+            "text": "In the game, Lasker played ...h6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3pp2p/5qBQ/1P1P4/N5R1/P4PPP/4R1K1 w - - 0 2",
+        "parentNodeId": "r",
+        "san": "h6"
+      },
+      "FW": {
+        "adjacentNodeIds": [
+          "VP"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptures.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pb3pp1/3Np1n1/6p1/1P1P4/6R1/P4PPP/4R1K1 w - - 0 5",
+        "parentNodeId": "YR",
+        "san": "Nxg6"
+      },
+      "Fm": {
+        "adjacentNodeIds": [
+          "hx"
+        ],
+        "comments": [
+          {
+            "text": "But the rook casually defends everything on the 7th.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e7-b7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d6"
+              ],
+              "opportunities": [
+                "b7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4nk1/pb2r1pp/3Npp2/3q2BQ/1P1P4/6R1/P4PPP/4R1K1 w - - 1 4",
+        "parentNodeId": "Wk",
+        "san": "Qd5"
+      },
+      "Hh": {
+        "adjacentNodeIds": [
+          "XC"
+        ],
+        "comments": [
+          {
+            "text": "Only move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rn1k/pb4R1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 3 8",
+        "parentNodeId": "Od",
+        "san": "Kh8"
+      },
+      "KD": {
+        "adjacentNodeIds": [
+          "nN"
+        ],
+        "comments": [
+          {
+            "text": "The king went to h7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rn2/p6k/3ppB1p/6Rq/1P1P4/4N3/P4PPP/4R1K1 w - - 5 11",
+        "parentNodeId": "kQ",
+        "san": "Kh7"
+      },
+      "LE": {
+        "adjacentNodeIds": [
+          "BD"
+        ],
+        "comments": [
+          {
+            "text": "Only move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rn1k/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 6",
+        "parentNodeId": "Ta",
+        "san": "Kh8"
+      },
+      "Od": {
+        "adjacentNodeIds": [
+          "Hh"
+        ],
+        "comments": [
+          {
+            "text": "Rg7+ is check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb4R1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 b - - 2 7",
+        "parentNodeId": "D3",
+        "san": "Rg7+"
+      },
+      "Os": {
+        "adjacentNodeIds": [
+          "SE"
+        ],
+        "comments": [
+          {
+            "text": "Lasker took on f6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rn2/p7/3ppk1p/8/1P1P4/4N2R/P4PPP/4R1K1 w - - 0 13",
+        "parentNodeId": "wT",
+        "san": "Kxf6"
+      },
+      "P8": {
+        "adjacentNodeIds": [
+          "yF"
+        ],
+        "comments": [
+          {
+            "text": "White had this fork.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b7",
+                "f5",
+                "e8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3Np3/5qpQ/1P1P4/6R1/P4PPP/4R1K1 b - - 0 3",
+        "parentNodeId": "fZ",
+        "san": "Nxd6"
+      },
+      "SE": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And White took another pawn. \n\nBlack resigned a few moves after this. \n\nIf you learn the dynamics between discovered checks and how to force them, you'll be doing windmills like Carlos Torre Repetto in no time!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rn2/p7/3ppk1R/8/1P1P4/4N3/P4PPP/4R1K1 b - - 0 13",
+        "parentNodeId": "Os",
+        "san": "Rxh6+"
+      },
+      "Sy": {
+        "adjacentNodeIds": [
+          "Wk",
+          "lN"
+        ],
+        "comments": [
+          {
+            "text": "And this move avoids the future windmill altogether!",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4nk1/pb2r1pp/3ppp2/5qBQ/1PNP4/6R1/P4PPP/4R1K1 w - - 2 3",
+        "parentNodeId": "eG",
+        "san": "Re7"
+      },
+      "Ta": {
+        "adjacentNodeIds": [
+          "LE"
+        ],
+        "comments": [
+          {
+            "text": "Torre Repetto took on g7 with check and started his windmill tactic. \n\nHe would now have a series of discovered checks and captures that could not be blocked or stopped.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g8-h8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pR1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 b - - 0 5",
+        "parentNodeId": "lL",
+        "san": "Rxg7+"
+      },
+      "VP": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And White would recover the piece.\n\nThe computer says this is equal.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pN3pp1/4p1n1/6p1/1P1P4/6R1/P4PPP/4R1K1 b - - 0 5",
+        "parentNodeId": "FW",
+        "san": "Nxb7"
+      },
+      "W8": {
+        "adjacentNodeIds": [
+          "ww"
+        ],
+        "comments": [
+          {
+            "text": "This move is forced. \n\nIt's very important to calculate the legal moves a king has. \n\nIf the king could go to f8, for example, there would be no Windmill!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pR6/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 w - - 1 9",
+        "parentNodeId": "XC",
+        "san": "Kg8"
+      },
+      "WA": {
+        "adjacentNodeIds": [
+          "EK"
+        ],
+        "comments": [
+          {
+            "text": "The computer suggested ...Qxd4 to avoid the tempo on the queen.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3pp2p/6BQ/1P1q4/4N1R1/P4PPP/4R1K1 w - - 0 4",
+        "parentNodeId": "XQ",
+        "san": "Qxd4"
+      },
+      "Wk": {
+        "adjacentNodeIds": [
+          "Fm"
+        ],
+        "comments": [
+          {
+            "text": "White could take a pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4nk1/pb2r1pp/3Npp2/5qBQ/1P1P4/6R1/P4PPP/4R1K1 b - - 0 3",
+        "parentNodeId": "Sy",
+        "san": "Nxd6"
+      },
+      "XC": {
+        "adjacentNodeIds": [
+          "W8"
+        ],
+        "comments": [
+          {
+            "text": "And the capture comes with a discovered check! \n\nAll White had to do now is rinse and repeat this process.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rn1k/pR6/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 b - - 0 8",
+        "parentNodeId": "Hh",
+        "san": "Rxb7+"
+      },
+      "XQ": {
+        "adjacentNodeIds": [
+          "cx",
+          "WA"
+        ],
+        "comments": [
+          {
+            "text": "White attacked the queen. \n\nThis was a very important step to make the Windmill work.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3pp2p/3q2BQ/1P1P4/4N1R1/P4PPP/4R1K1 b - - 3 3",
+        "parentNodeId": "9u",
+        "san": "Ne3"
+      },
+      "YR": {
+        "adjacentNodeIds": [
+          "FW"
+        ],
+        "comments": [
+          {
+            "text": "After this simple trade, this game should be a draw.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3Np1Q1/6p1/1P1P4/6R1/P4PPP/4R1K1 b - - 0 4",
+        "parentNodeId": "yF",
+        "san": "Qxg6"
+      },
+      "Z": {
+        "adjacentNodeIds": [
+          "9u",
+          "fZ"
+        ],
+        "comments": [
+          {
+            "text": "But Torre Repetto couldn't move the bishop, so he brought another piece into the attack!",
+            "arrows": {
+              "threats": [
+                "c4-d6"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f5",
+                "b7",
+                "e8"
+              ],
+              "opportunities": [
+                "d6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3pp2p/5qBQ/1PNP4/6R1/P4PPP/4R1K1 b - - 1 2",
+        "parentNodeId": "F",
+        "san": "Nc4"
+      },
+      "cx": {
+        "adjacentNodeIds": [
+          "8A"
+        ],
+        "comments": [
+          {
+            "text": "The queen went to b5. \n\nOn this square, it was not defended. \n\nLasker thought he was maintaining the pin.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3pp2p/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 4",
+        "parentNodeId": "XQ",
+        "san": "Qb5"
+      },
+      "eG": {
+        "adjacentNodeIds": [
+          "Sy"
+        ],
+        "comments": [
+          {
+            "text": "Torre Repetto could have played like in the game. \n\nBut the reason the computer says ...f6 was a defense is because the rook can defend g7!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e8-e7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb4pp/3ppp2/5qBQ/1PNP4/6R1/P4PPP/4R1K1 b - - 1 2",
+        "parentNodeId": "qq",
+        "san": "Nc4"
+      },
+      "fZ": {
+        "adjacentNodeIds": [
+          "P8"
+        ],
+        "comments": [
+          {
+            "text": "This variation was equal. \n\nHowever, Lasker thought that he was winning thanks to his 5th rank pin so he didn't play this.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3pp3/5qpQ/1PNP4/6R1/P4PPP/4R1K1 w - - 0 3",
+        "parentNodeId": "Z",
+        "san": "hxg5"
+      },
+      "gT": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White's attack is unpleasant.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h6-g5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pb3pp1/3pp1nB/7Q/1P1q4/4N1R1/P4PPP/4R1K1 w - - 1 5",
+        "parentNodeId": "EK",
+        "san": "Ng6"
+      },
+      "hx": {
+        "adjacentNodeIds": [
+          "60"
+        ],
+        "comments": [
+          {
+            "text": "White takes on b7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4nk1/pN2r1pp/4pp2/3q2BQ/1P1P4/6R1/P4PPP/4R1K1 b - - 0 4",
+        "parentNodeId": "Fm",
+        "san": "Nxb7"
+      },
+      "kQ": {
+        "adjacentNodeIds": [
+          "KD"
+        ],
+        "comments": [
+          {
+            "text": "And only now did he go for the queen.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-h5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h8",
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rn1k/p7/3ppB1p/6Rq/1P1P4/4N3/P4PPP/4R1K1 b - - 4 10",
+        "parentNodeId": "9a",
+        "san": "Rg5+"
+      },
+      "lL": {
+        "adjacentNodeIds": [
+          "Ta"
+        ],
+        "comments": [
+          {
+            "text": "Lasker took the queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3ppB1p/7q/1P1P4/4N1R1/P4PPP/4R1K1 w - - 0 5",
+        "parentNodeId": "8A",
+        "san": "Qxh5"
+      },
+      "lN": {
+        "adjacentNodeIds": [
+          "rA"
+        ],
+        "comments": [
+          {
+            "text": "...Qb5 is fine now since g7 is defended.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-b5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4nk1/pb2r1pp/3ppp2/5qBQ/1P1P4/4N1R1/P4PPP/4R1K1 b - - 3 3",
+        "parentNodeId": "Sy",
+        "san": "Ne3"
+      },
+      "nN": {
+        "adjacentNodeIds": [
+          "qb"
+        ],
+        "comments": [
+          {
+            "text": "And White won the queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rn2/p6k/3ppB1p/7R/1P1P4/4N3/P4PPP/4R1K1 b - - 0 11",
+        "parentNodeId": "KD",
+        "san": "Rxh5"
+      },
+      "qR": {
+        "adjacentNodeIds": [
+          "si"
+        ],
+        "comments": [
+          {
+            "text": "If Bf6 now, the queen on d5 is defended.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3ppB1p/3q3Q/1PNP4/6R1/P4PPP/4R1K1 b - - 3 3",
+        "parentNodeId": "9u",
+        "san": "Bf6"
+      },
+      "qb": {
+        "adjacentNodeIds": [
+          "wT"
+        ],
+        "comments": [
+          {
+            "text": "Although Black had a really nice fork with the king...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6",
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rn2/p7/3ppBkp/7R/1P1P4/4N3/P4PPP/4R1K1 w - - 1 12",
+        "parentNodeId": "nN",
+        "san": "Kg6"
+      },
+      "qq": {
+        "adjacentNodeIds": [
+          "eG"
+        ],
+        "comments": [
+          {
+            "text": "The computer gives this as a win for Black.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb4pp/3ppp2/5qBQ/1P1P4/N5R1/P4PPP/4R1K1 w - - 0 2",
+        "parentNodeId": "r",
+        "san": "f6"
+      },
+      "r": {
+        "adjacentNodeIds": [
+          "F",
+          "qq"
+        ],
+        "comments": [
+          {
+            "text": "Black is actually material up and could win this if they found the best moves.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3ppp/3pp3/5qBQ/1P1P4/N5R1/P4PPP/4R1K1 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Rg3"
+      },
+      "rA": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The pin on the bishop is fatal.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4nk1/pb2r1pp/3ppp2/1q4BQ/1P1P4/4N1R1/P4PPP/4R1K1 w - - 4 4",
+        "parentNodeId": "lN",
+        "san": "Qb5"
+      },
+      "si": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "So Black has time to cover g7.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pb3pp1/3ppBnp/3q3Q/1PNP4/6R1/P4PPP/4R1K1 w - - 4 4",
+        "parentNodeId": "qR",
+        "san": "Ng6"
+      },
+      "wT": {
+        "adjacentNodeIds": [
+          "Os"
+        ],
+        "comments": [
+          {
+            "text": "If we take a step back, it's easy to see how White is up 3 full pawns because h6 will fall.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rn2/p7/3ppBkp/8/1P1P4/4N2R/P4PPP/4R1K1 b - - 2 12",
+        "parentNodeId": "qb",
+        "san": "Rh3"
+      },
+      "ww": {
+        "adjacentNodeIds": [
+          "9a"
+        ],
+        "comments": [
+          {
+            "text": "White gave another check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3rnk1/p5R1/3ppB1p/7q/1P1P4/4N3/P4PPP/4R1K1 b - - 2 9",
+        "parentNodeId": "W8",
+        "san": "Rg7+"
+      },
+      "yF": {
+        "adjacentNodeIds": [
+          "YR"
+        ],
+        "comments": [
+          {
+            "text": "And Black is advised to trade queens.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3rnk1/pb3pp1/3Np1q1/6pQ/1P1P4/6R1/P4PPP/4R1K1 w - - 1 4",
+        "parentNodeId": "P8",
+        "san": "Qg6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

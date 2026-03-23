@@ -1,0 +1,59 @@
+{
+  "id": "4cbdfbc1-d25f-41de-a5b6-e643c8e33d00",
+  "name": "Quiz 4",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White takes on c6, noticing there's a pin. \n\nAre you pinned, or do you have a way to recapture?",
+    "answers": [
+      {
+        "text": "bxc6",
+        "feedback": {
+          "text": "Correct! You don't have to lose the rook by recapturing, the pawn can also recapture.\n...Rc8 also works, but the point of only having these 2 options is to show how White's thought process was flawed with the most obvious recapture.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "capturing with the pawn.",
+        "afterMoveFen": "3r2k1/p4p1p/2p1p1p1/3b4/6P1/2K4P/P1P2P2/3R4 w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Bxc6",
+        "feedback": {
+          "text": "This move loses the rook!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d1-d8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "capturing with the bishop.",
+        "afterMoveFen": "3r2k1/pp3p1p/2b1p1p1/8/6P1/2K4P/P1P2P2/3R4 w - - 0 2"
+      }
+    ],
+    "positionFen": "3r2k1/pp3p1p/2p1p1p1/3b4/B5P1/2K4P/P1P2P2/3R4 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bxc6",
+      "afterMoveFen": "3r2k1/pp3p1p/2B1p1p1/3b4/6P1/2K4P/P1P2P2/3R4 b - - 0 1"
+    }
+  },
+  "drill": null
+}

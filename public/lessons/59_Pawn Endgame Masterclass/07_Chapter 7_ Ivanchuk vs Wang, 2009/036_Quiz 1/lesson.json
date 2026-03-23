@@ -1,0 +1,93 @@
+{
+  "id": "60155872-57e8-4e44-b561-87a836c21077",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White captures on h4.\n\nWhat's the best move for Black?",
+    "answers": [
+      {
+        "text": "Kf3",
+        "feedback": {
+          "text": "Great! ...Kf4 also wins.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "g3"
+            ],
+            "opportunities": [
+              "f3"
+            ]
+          }
+        },
+        "comment": "keeping White in jail.",
+        "afterMoveFen": "8/1pp5/p2p2p1/3P2P1/P5PK/1P3k2/2P4P/8 w - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ke3",
+        "feedback": {
+          "text": "White can escape with Kg3!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h4-g3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": "going for the pawns on the queenside.",
+        "afterMoveFen": "8/1pp5/p2p2p1/3P2P1/P5PK/1P2k3/2P4P/8 w - - 1 2"
+      },
+      {
+        "text": "b5",
+        "feedback": {
+          "text": "You have something better!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "trading pawns before moving the king.",
+        "afterMoveFen": "8/2p5/p2p2p1/1p1P2P1/P3k1PK/1P6/2P4P/8 w - b6 0 2"
+      },
+      {
+        "text": "Kxd5",
+        "feedback": {
+          "text": "Looks appealing, but loses!\n\nWhite can play Kg3 and push h4.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h4-g3",
+              "h2-h4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "capturing on d5.",
+        "afterMoveFen": "8/1pp5/p2p2p1/3k2P1/P5PK/1P6/2P4P/8 w - - 0 2"
+      }
+    ],
+    "positionFen": "8/1pp5/p2p2p1/3P2P1/P3k1Pp/1P4K1/2P4P/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kxh4",
+      "afterMoveFen": "8/1pp5/p2p2p1/3P2P1/P3k1PK/1P6/2P4P/8 b - - 0 1"
+    }
+  },
+  "drill": null
+}

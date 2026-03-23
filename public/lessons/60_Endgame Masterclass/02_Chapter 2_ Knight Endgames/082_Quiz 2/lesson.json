@@ -1,0 +1,72 @@
+{
+  "id": "4e055fc5-aad6-4527-94b5-816541dca26e",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "You have the black pieces and White proposes a knight trade. \n\nShould you accept it?\n",
+    "answers": [
+      {
+        "text": "Yes, the king and pawn endgame is winning.",
+        "feedback": {
+          "text": "Exactly. Black gets two passed pawns and an easily winning king and pawn endgame.",
+          "arrows": {
+            "threats": [
+              "d5-e5"
+            ],
+            "opportunities": [
+              "g5-f3",
+              "e2-f3",
+              "c6-c5",
+              "c5-c4",
+              "c4-c3",
+              "c3-c2",
+              "c2-c1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, White would win the king and pawn endgame.",
+        "feedback": {
+          "text": "Are you sure? Who would have more passed pawns?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/2p5/3kP1n1/p4pP1/P7/4K3/4N3 w - - 1 1",
+    "arrows": {
+      "threats": [
+        "g5-f3"
+      ],
+      "opportunities": []
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nf3",
+      "afterMoveFen": "8/8/2p5/3kP1n1/p4pP1/P4N2/4K3/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

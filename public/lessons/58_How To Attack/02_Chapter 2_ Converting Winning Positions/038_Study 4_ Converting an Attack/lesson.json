@@ -1,0 +1,544 @@
+{
+  "id": "9eff9e1a-459c-4d04-b451-25d0674ccbc3",
+  "name": "Study 4: Converting an Attack",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "v"
+        ],
+        "comments": [
+          {
+            "text": "In this game I had the White pieces against GM Florian Handke.\n\nHowever, we're going to look at things from Black's perspective because he's the one that had the chance of converting the attack. \n\nAs you can see, Black has a really strong attack and the g-file is open. \n\nMore pieces can come into the g-file to attack! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-g7",
+                "g8-h8"
+              ]
+            },
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/31864293331?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1pp1qr1p/p2p1n1b/3P4/1PQPpp2/P1N5/5PPP/2B1RRK1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1o": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And I won the bishop! \n\nAfter this point, winning was easy. \n\nSo never let go of the attack and get that win! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/1pp4p/p2p3B/3P3n/1P1P4/P1N2Pr1/8/4R2K b - - 0 11",
+        "parentNodeId": "2a",
+        "san": "Bxh6"
+      },
+      "2a": {
+        "adjacentNodeIds": [
+          "1o"
+        ],
+        "comments": [
+          {
+            "text": "He recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/1pp4p/p2p3b/3P3n/1P1P4/P1N1BPr1/8/4R2K w - - 0 11",
+        "parentNodeId": "c2",
+        "san": "Nxh5"
+      },
+      "3q": {
+        "adjacentNodeIds": [
+          "Xn"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6rk/1pp2q1p/p2p1n1b/3P1Q2/1P1P4/P1N1pPP1/8/2B1R2K b - - 0 8",
+        "parentNodeId": "5H",
+        "san": "hxg3"
+      },
+      "3s": {
+        "adjacentNodeIds": [
+          "c2"
+        ],
+        "comments": [
+          {
+            "text": "Black lost material and didn't convert the attack.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/1pp4p/p2p1n1b/3P1Q1q/1P1P4/P1N1BPr1/8/4R2K w - - 1 10",
+        "parentNodeId": "xW",
+        "san": "Qh5+"
+      },
+      "4A": {
+        "adjacentNodeIds": [
+          "gk"
+        ],
+        "comments": [
+          {
+            "text": "The rook came to the g-file. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1pp1q1rp/p2p1n1b/3P4/1P1P1p2/P1NQpP2/6PP/2B1RRK1 w - - 2 3",
+        "parentNodeId": "K",
+        "san": "Rg7"
+      },
+      "5H": {
+        "adjacentNodeIds": [
+          "3q"
+        ],
+        "comments": [
+          {
+            "text": "Black captured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6rk/1pp2q1p/p2p1n1b/3P1Q2/1P1P4/P1N1pPr1/7P/2B1R2K w - - 0 8",
+        "parentNodeId": "Iv",
+        "san": "Rxg3"
+      },
+      "8E": {
+        "adjacentNodeIds": [
+          "mX"
+        ],
+        "comments": [
+          {
+            "text": "GM Florian made way for the other rook.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e8-g8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r2k/1pp2qrp/p2p1n1b/3P1Q2/1P1P1p2/P1N1pP2/6PP/2B1RR1K w - - 6 5",
+        "parentNodeId": "pn",
+        "san": "Kh8"
+      },
+      "Cb": {
+        "adjacentNodeIds": [
+          "pn"
+        ],
+        "comments": [
+          {
+            "text": "Black started maneuvering his queen into the attack.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-h5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1pp2qrp/p2p1n1b/3P4/1P1P1p2/P1NQpP2/6PP/2B1RR1K w - - 4 4",
+        "parentNodeId": "gk",
+        "san": "Qf7"
+      },
+      "DO": {
+        "adjacentNodeIds": [
+          "wB"
+        ],
+        "comments": [
+          {
+            "text": "And when the rook recaptures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/1pp2q1p/p2p1n2/3P1Q2/1P1P4/P1N1RPr1/8/7K b - - 0 10",
+        "parentNodeId": "S7",
+        "san": "Rxe3"
+      },
+      "EM": {
+        "adjacentNodeIds": [
+          "aG"
+        ],
+        "comments": [
+          {
+            "text": "Now after g4, en passant should take care of business, and that's in fact what Black did.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6rk/1pp2qrp/p2p1n1b/3P1Q2/1P1P1pP1/P1N1pP2/7P/2B1R1RK b - g3 0 6",
+        "parentNodeId": "Yb",
+        "san": "g4"
+      },
+      "Iv": {
+        "adjacentNodeIds": [
+          "5H"
+        ],
+        "comments": [
+          {
+            "text": "I took.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6rk/1pp2qrp/p2p1n1b/3P1Q2/1P1P4/P1N1pPR1/7P/2B1R2K b - - 0 7",
+        "parentNodeId": "aG",
+        "san": "Rxg3"
+      },
+      "K": {
+        "adjacentNodeIds": [
+          "4A"
+        ],
+        "comments": [
+          {
+            "text": "I brought my queen up.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d3-f5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/1pp1qr1p/p2p1n1b/3P4/1P1P1p2/P1NQpP2/6PP/2B1RRK1 b - - 1 2",
+        "parentNodeId": "m",
+        "san": "Qd3"
+      },
+      "PG": {
+        "adjacentNodeIds": [
+          "wC"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/1pp3qp/p2p1n2/3P1Q2/1P1P4/P1N2P2/4R3/6rK w - - 3 12",
+        "parentNodeId": "Pt",
+        "san": "Rg1+"
+      },
+      "Pt": {
+        "adjacentNodeIds": [
+          "PG"
+        ],
+        "comments": [
+          {
+            "text": "So if White covers the second rank...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/1pp3qp/p2p1n2/3P1Q2/1P1P4/P1N2Pr1/4R3/7K b - - 2 11",
+        "parentNodeId": "wB",
+        "san": "Re2"
+      },
+      "S7": {
+        "adjacentNodeIds": [
+          "DO"
+        ],
+        "comments": [
+          {
+            "text": "Bxe3 removes the tension...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/1pp2q1p/p2p1n2/3P1Q2/1P1P4/P1N1bPr1/8/4R2K w - - 0 10",
+        "parentNodeId": "xW",
+        "san": "Bxe3"
+      },
+      "Uv": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And there's no more checks! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q3nk/1pp3qp/p2p4/3P4/1P1P4/P1N1RPr1/8/7K w - - 3 12",
+        "parentNodeId": "m2",
+        "san": "Ng8"
+      },
+      "Xn": {
+        "adjacentNodeIds": [
+          "xW"
+        ],
+        "comments": [
+          {
+            "text": "Black wins a pawn and the attack is nearly converted.\n\nSo what's the way to win? Qg7 seems sound.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-g7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "7k/1pp2q1p/p2p1n1b/3P1Q2/1P1P4/P1N1pPr1/8/2B1R2K w - - 0 9",
+        "parentNodeId": "3q",
+        "san": "Rxg3"
+      },
+      "Yb": {
+        "adjacentNodeIds": [
+          "EM"
+        ],
+        "comments": [
+          {
+            "text": "And Black brought the other rook into the attack. \n\nThis is how you convert an attack: you increase pressure on your opponent, maximize the potential of your pieces, and then you go for the kill. \n\nAt present, White is still defending though. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6rk/1pp2qrp/p2p1n1b/3P1Q2/1P1P1p2/P1N1pP2/6PP/2B1R1RK w - - 8 6",
+        "parentNodeId": "mX",
+        "san": "Reg8"
+      },
+      "aG": {
+        "adjacentNodeIds": [
+          "Iv"
+        ],
+        "comments": [
+          {
+            "text": "He took.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6rk/1pp2qrp/p2p1n1b/3P1Q2/1P1P4/P1N1pPp1/7P/2B1R1RK w - - 0 7",
+        "parentNodeId": "EM",
+        "san": "fxg3"
+      },
+      "c2": {
+        "adjacentNodeIds": [
+          "2a"
+        ],
+        "comments": [
+          {
+            "text": "I took.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/1pp4p/p2p1n1b/3P3Q/1P1P4/P1N1BPr1/8/4R2K b - - 0 10",
+        "parentNodeId": "3s",
+        "san": "Qxh5"
+      },
+      "eJ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And checkmate.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "7k/1pp4p/p2p1n2/3P1Q2/1P1P4/P1N2Pq1/4R2K/6r1 w - - 5 13",
+        "parentNodeId": "wC",
+        "san": "Qg3#"
+      },
+      "gk": {
+        "adjacentNodeIds": [
+          "Cb"
+        ],
+        "comments": [
+          {
+            "text": "I took my king out of the g-file. \n\nI'm pretty much lost and super passive. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1pp1q1rp/p2p1n1b/3P4/1P1P1p2/P1NQpP2/6PP/2B1RR1K b - - 3 3",
+        "parentNodeId": "4A",
+        "san": "Kh1"
+      },
+      "m": {
+        "adjacentNodeIds": [
+          "K"
+        ],
+        "comments": [
+          {
+            "text": "After this point, Black is in the driver's seat.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1pp1qr1p/p2p1n1b/3P4/1PQP1p2/P1N1pP2/6PP/2B1RRK1 w - - 0 2",
+        "parentNodeId": "v",
+        "san": "e3"
+      },
+      "m2": {
+        "adjacentNodeIds": [
+          "Uv"
+        ],
+        "comments": [
+          {
+            "text": "White's checks can just be blocked.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q4k/1pp3qp/p2p1n2/3P4/1P1P4/P1N1RPr1/8/7K b - - 2 11",
+        "parentNodeId": "wB",
+        "san": "Qc8+"
+      },
+      "mX": {
+        "adjacentNodeIds": [
+          "Yb"
+        ],
+        "comments": [
+          {
+            "text": "I went completely passive. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4r2k/1pp2qrp/p2p1n1b/3P1Q2/1P1P1p2/P1N1pP2/6PP/2B1R1RK b - - 7 5",
+        "parentNodeId": "8E",
+        "san": "Rg1"
+      },
+      "pn": {
+        "adjacentNodeIds": [
+          "8E"
+        ],
+        "comments": [
+          {
+            "text": "I came into f5. My idea is to cover the h5 square.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/1pp2qrp/p2p1n1b/3P1Q2/1P1P1p2/P1N1pP2/6PP/2B1RR1K b - - 5 4",
+        "parentNodeId": "Cb",
+        "san": "Qf5"
+      },
+      "v": {
+        "adjacentNodeIds": [
+          "m"
+        ],
+        "comments": [
+          {
+            "text": "I played f3 here. \n\nUnfortunately this was the wrong approach since, obviously, Black can just push the pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1pp1qr1p/p2p1n1b/3P4/1PQPpp2/P1N2P2/6PP/2B1RRK1 b - - 0 1",
+        "parentNodeId": "0",
+        "san": "f3"
+      },
+      "wB": {
+        "adjacentNodeIds": [
+          "Pt",
+          "m2"
+        ],
+        "comments": [
+          {
+            "text": "Black could go Qg7 threatening checkmate.\n\nWorst of all, this is a double threat.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g7-h6",
+                "g3-g1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g1",
+                "h6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "7k/1pp3qp/p2p1n2/3P1Q2/1P1P4/P1N1RPr1/8/7K w - - 1 11",
+        "parentNodeId": "DO",
+        "san": "Qg7"
+      },
+      "wC": {
+        "adjacentNodeIds": [
+          "eJ"
+        ],
+        "comments": [
+          {
+            "text": "Only move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/1pp3qp/p2p1n2/3P1Q2/1P1P4/P1N2P2/4R2K/6r1 b - - 4 12",
+        "parentNodeId": "PG",
+        "san": "Kh2"
+      },
+      "xW": {
+        "adjacentNodeIds": [
+          "3s",
+          "S7"
+        ],
+        "comments": [
+          {
+            "text": "I took on e3.\n\nMy opponent blundered Qh5+, losing material. \n\nHow should Black have won, though?\n\nLet's analyze Bxe3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/1pp2q1p/p2p1n1b/3P1Q2/1P1P4/P1N1BPr1/8/4R2K b - - 0 9",
+        "parentNodeId": "Xn",
+        "san": "Bxe3"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

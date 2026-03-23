@@ -1,0 +1,60 @@
+{
+  "id": "382161b4-a771-4ec4-b93e-28e43df9f22c",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "You are currently down a bishop, but you have an extra pawn. \n\nIs the move ...e4, trading off some material, a good idea?",
+    "answers": [
+      {
+        "text": "No, it isn't.",
+        "feedback": {
+          "text": "Trading off rooks decreases your drawing chances. It's better to keep them on the board.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, trading pieces benefits the defender.",
+        "feedback": {
+          "text": "Trading pieces does benefit the defender if there's an attack going on. \n\nAt present, no attack is going on and it's only an endgame where some material on the board can be useful to draw.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/4pkp1/r4p1p/5P1P/5BP1/4RK2 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e5-e4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Re2",
+      "afterMoveFen": "8/8/8/4pkp1/r4p1p/5P1P/4RBP1/5K2 b - - 2 1"
+    }
+  },
+  "drill": null
+}

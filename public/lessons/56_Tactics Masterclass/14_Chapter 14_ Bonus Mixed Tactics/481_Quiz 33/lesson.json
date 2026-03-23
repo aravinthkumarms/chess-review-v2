@@ -1,0 +1,73 @@
+{
+  "id": "b396a336-f368-48ca-b338-8fea7f19c528",
+  "name": "Quiz 33 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black captures on e4. \n\n...Rh5 with the threat of checkmate looks dangerous. \n\nHow should White stop this?\n",
+    "answers": [
+      {
+        "text": "Nd2",
+        "feedback": {
+          "text": "Nice job! That's the best defensive move.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d2-f3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "1b1r2k1/pp4p1/7p/5r2/3Pp3/5bP1/PP1N1P2/2R1QRK1 b - - 1 2"
+      },
+      {
+        "text": "Rc5",
+        "feedback": {
+          "text": "That's also a nice defensive move! Trading off the attacker.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "1b1r2k1/pp4p1/7p/2R2r2/3Pp3/1N3bP1/PP3P2/4QRK1 b - - 1 2"
+      },
+      {
+        "text": "Rc3",
+        "feedback": {
+          "text": "Nice! We're up so much material we can even go for Rxf3 to remove the attacker.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c3-f3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "1b1r2k1/pp4p1/7p/5r2/3Pp3/1NR2bP1/PP3P2/4QRK1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you threaten to trade off Black's dangerous bishop on f3?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1b1r2k1/pp4p1/7p/3p1r2/3PB3/1N3bP1/PP3P2/2R1QRK1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "dxe4",
+      "afterMoveFen": "1b1r2k1/pp4p1/7p/5r2/3Pp3/1N3bP1/PP3P2/2R1QRK1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

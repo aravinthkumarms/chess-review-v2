@@ -1,0 +1,2084 @@
+{
+  "id": "d6b1e4e7-81b9-4d9b-80cb-25d1bbe7cd82",
+  "name": "Study 4: Kashdan vs Fine, 1936",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "Z"
+        ],
+        "comments": [
+          {
+            "text": "This game was played between Isaac Kashdan and Reuben Fine in 1936.\n\nThe players reached this position after 31 moves of play. Let's take a look at how Fine managed win the endgame.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1043784",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/pb3pp1/1p1n4/1N6/P4P2/1P4BP/3b3K/5B2 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0W": {
+        "adjacentNodeIds": [
+          "Jo",
+          "zB"
+        ],
+        "comments": [
+          {
+            "text": "Fine brought his bishop back to d6.\n\nWhite is in zugzwang! Any king or bishop move either gives up f4 or allows Black to advance ...g5.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-g5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p1b2p1/5k2/P1P2P2/5KBP/8/8 w - - 11 11",
+        "parentNodeId": "bA",
+        "san": "Bd6"
+      },
+      "1a": {
+        "adjacentNodeIds": [
+          "Zn"
+        ],
+        "comments": [
+          {
+            "text": "Fine went ...Be7, looking for ...Bb4.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e7-b4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/4b3/p7/P5p1/2k2p2/7P/3B1K2/8 w - - 4 32",
+        "parentNodeId": "aY",
+        "san": "Be7"
+      },
+      "1t": {
+        "adjacentNodeIds": [
+          "Xn"
+        ],
+        "comments": [
+          {
+            "text": "& Kashdan attacked the bishop again.\n\nThis was a mistake! The king has now stepped too far away from the f-pawn.",
+            "arrows": {
+              "threats": [
+                "d1-c1"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p3kp1/8/P1P2P2/6BP/8/2bK4 b - - 6 8",
+        "parentNodeId": "Vh",
+        "san": "Kd1"
+      },
+      "29": {
+        "adjacentNodeIds": [
+          "2B"
+        ],
+        "comments": [
+          {
+            "text": "But White can simply wait with Bh2!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p4p1/5k2/P1P2P2/5K1P/7B/2b5 b - - 8 9",
+        "parentNodeId": "dm",
+        "san": "Bh2"
+      },
+      "2B": {
+        "adjacentNodeIds": [
+          "dS"
+        ],
+        "comments": [
+          {
+            "text": "And if Black goes for the same plan...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a3-d6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p4p1/5k2/P1P2P2/b4K1P/7B/8 w - - 9 10",
+        "parentNodeId": "29",
+        "san": "Ba3"
+      },
+      "2T": {
+        "adjacentNodeIds": [
+          "tH"
+        ],
+        "comments": [
+          {
+            "text": "Fine then went ...Kc5.\n\nPhase three of Black's plan is to get the king to d7 and the bishop to d8.\n\nThe bishop needs to be on d8 so that it can simultaneously defend the pawn on g5 & put pressure on the a5-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c5-c6",
+                "c6-d7",
+                "e7-d8"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/2B1b3/p7/P1k2pp1/8/5K1P/8/8 w - - 1 26",
+        "parentNodeId": "tv",
+        "san": "Kc5"
+      },
+      "2h": {
+        "adjacentNodeIds": [
+          "ks"
+        ],
+        "comments": [
+          {
+            "text": "And Kashdan moved the king back.\n\nNow Black needs to employ phase two of the winning plan - go after the a-pawn and force it to a dark square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4b3/p3k3/B4pp1/P7/5K1P/8/8 b - - 1 21",
+        "parentNodeId": "7a",
+        "san": "Kf3"
+      },
+      "2s": {
+        "adjacentNodeIds": [
+          "LE"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan captured the f-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4b3/p7/P7/2k2B1p/8/5K2/8 b - - 0 33",
+        "parentNodeId": "iI",
+        "san": "Bxf4"
+      },
+      "4R": {
+        "adjacentNodeIds": [
+          "BR"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptures.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/2k5/p7/2K5 w - - 0 46",
+        "parentNodeId": "AX",
+        "san": "Kxc3"
+      },
+      "4W": {
+        "adjacentNodeIds": [
+          "zR"
+        ],
+        "comments": [
+          {
+            "text": "And Fine began activating his king.\n\nOne of Black's plans could be to bring the king into f5 and the bishop to d6 in order to put pressure on the f4-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g7-f6",
+                "f6-f5",
+                "d2-b4",
+                "b4-d6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4pk1/1p4p1/8/P1P2P2/6BP/3b4/6K1 w - - 1 6",
+        "parentNodeId": "Rn",
+        "san": "Kg7"
+      },
+      "5S": {
+        "adjacentNodeIds": [
+          "kl"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan proceeded with Bc3.\n\nThe idea of this move is to meet the natural ...Bxa5 with Bf6, winning g5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3b4/8/p7/Pk4p1/5p2/2B4P/5K2/8 b - - 1 30",
+        "parentNodeId": "WB",
+        "san": "Bc3"
+      },
+      "6": {
+        "adjacentNodeIds": [
+          "rB"
+        ],
+        "comments": [
+          {
+            "text": "Fine proceeded with ...g6.\n\nThe idea is to control the f5-square and bring the king up via Kg7-Kf6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g8-g7",
+                "g7-f6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/pb3p2/1p4p1/1B6/P4P2/1P4BP/3b3K/8 w - - 0 3",
+        "parentNodeId": "9",
+        "san": "g6"
+      },
+      "64": {
+        "adjacentNodeIds": [
+          "TF"
+        ],
+        "comments": [
+          {
+            "text": "And Fine continued ...Bf6.\n\nBlack's plan is as follows: put the bishop on e7 so that the g-pawn is defended and proceed w/Ke6 & f5.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-e7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/p4b2/B4kp1/P7/5K1P/8/8 w - - 6 18",
+        "parentNodeId": "eo",
+        "san": "Bf6"
+      },
+      "6I": {
+        "adjacentNodeIds": [
+          "B7"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan defended the a5-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d2-a5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3b4/8/p7/P7/2k4p/8/3B1K2/8 b - - 2 34",
+        "parentNodeId": "LE",
+        "san": "Bd2"
+      },
+      "7a": {
+        "adjacentNodeIds": [
+          "2h"
+        ],
+        "comments": [
+          {
+            "text": "Fine advanced the f-pawn with check.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-f5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": [
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/4b3/p3k3/B4pp1/P5K1/7P/8/8 w - f6 0 21",
+        "parentNodeId": "As",
+        "san": "f5+"
+      },
+      "88": {
+        "adjacentNodeIds": [
+          "9R"
+        ],
+        "comments": [
+          {
+            "text": "But Bh2 allowed Fine to push ...g5!\n\nThe g-pawn cannot be captured since the h2-bishop would hang. There's no way for White to defend the f4-pawn.",
+            "arrows": {
+              "threats": [
+                "g5-f4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p1b4/5kp1/P1P2P2/5K1P/7B/8 w - - 0 12",
+        "parentNodeId": "Jo",
+        "san": "g5"
+      },
+      "8S": {
+        "adjacentNodeIds": [
+          "bA"
+        ],
+        "comments": [
+          {
+            "text": "Fine proceeded with his plan w/...Kf5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p4p1/5k2/P1P2P2/b5BP/4K3/8 w - - 9 10",
+        "parentNodeId": "Xo",
+        "san": "Kf5"
+      },
+      "9": {
+        "adjacentNodeIds": [
+          "6"
+        ],
+        "comments": [
+          {
+            "text": "And Kashdan recaptured.\n\nThe material is equal, but White has a weak b3-pawn & split pawns (h3/f4).",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/pb3pp1/1p6/1B6/P4P2/1P4BP/3b3K/8 b - - 0 2",
+        "parentNodeId": "Z",
+        "san": "Bxb5"
+      },
+      "93": {
+        "adjacentNodeIds": [
+          "bW"
+        ],
+        "comments": [
+          {
+            "text": "Black would go for the brilliant ...Bd4!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a3-a2",
+                "a2-a1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/1k6/3b3B/p2K4/8/8 w - - 2 41",
+        "parentNodeId": "FO",
+        "san": "Bd4"
+      },
+      "9C": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The winning plan is ...Kd7, followed up with ...Bd8 on the next move.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e7-d8"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/3kb3/pB6/P4pp1/8/7P/6K1/8 w - - 5 28",
+        "parentNodeId": "h5",
+        "san": "Kd7"
+      },
+      "9R": {
+        "adjacentNodeIds": [
+          "sz"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan continued with Bg1, moving the bishop away from the diagonal & preparing to advance the c-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-c5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p1b4/5kp1/P1P2P2/5K1P/8/6B1 b - - 1 12",
+        "parentNodeId": "88",
+        "san": "Bg1"
+      },
+      "9T": {
+        "adjacentNodeIds": [
+          "RS"
+        ],
+        "comments": [
+          {
+            "text": "And Kashdan advanced his c-pawn.\n\nHe wants to trade off the weakness.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p6/2P2kp1/P4b2/5K1P/8/6B1 b - - 0 13",
+        "parentNodeId": "sz",
+        "san": "c5"
+      },
+      "AX": {
+        "adjacentNodeIds": [
+          "4R"
+        ],
+        "comments": [
+          {
+            "text": "White trades the bishops.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kB5/p7/2K5 b - - 0 45",
+        "parentNodeId": "bd",
+        "san": "Bxc3"
+      },
+      "As": {
+        "adjacentNodeIds": [
+          "7a"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan went forward with the king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4bp2/p3k3/B5p1/P5K1/7P/8/8 b - - 11 20",
+        "parentNodeId": "To",
+        "san": "Kg4"
+      },
+      "B7": {
+        "adjacentNodeIds": [
+          "Tq"
+        ],
+        "comments": [
+          {
+            "text": "But Fine attacked it again with ...Kb5.\n\nWhite is going to lose the a-pawn.",
+            "arrows": {
+              "threats": [
+                "b5-a5",
+                "d8-a5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3b4/8/p7/Pk6/7p/8/3B1K2/8 w - - 3 35",
+        "parentNodeId": "6I",
+        "san": "Kb5"
+      },
+      "BL": {
+        "adjacentNodeIds": [
+          "Cg"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan attacked h4 with Bg5.\n\nHe's going to win the pawn back, but the question is will it be enough...",
+            "arrows": {
+              "threats": [
+                "g5-h4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/p7/bk4B1/7p/8/6K1/8 b - - 1 36",
+        "parentNodeId": "le",
+        "san": "Bg5"
+      },
+      "BR": {
+        "adjacentNodeIds": [
+          "FW"
+        ],
+        "comments": [
+          {
+            "text": "White's only legal move is Kd1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/2k5/p7/3K4 b - - 1 46",
+        "parentNodeId": "4R",
+        "san": "Kd1"
+      },
+      "Bn": {
+        "adjacentNodeIds": [
+          "y0"
+        ],
+        "comments": [
+          {
+            "text": "And when Black brings the king up...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b3B2/8/2k5/8/p7/3K4 w - - 2 42",
+        "parentNodeId": "Xq",
+        "san": "Kc4"
+      },
+      "CL": {
+        "adjacentNodeIds": [
+          "Rn"
+        ],
+        "comments": [
+          {
+            "text": "Fine exchanged the bishops, forcing a same color bishop endgame where White has the inferior pawn structure.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/p4p2/1p4p1/8/P1b2P2/1P4BP/3b4/6K1 w - - 0 5",
+        "parentNodeId": "nS",
+        "san": "Bxc4"
+      },
+      "Cg": {
+        "adjacentNodeIds": [
+          "WE"
+        ],
+        "comments": [
+          {
+            "text": "Fine slid the bishop back to b6, freeing the path for the a-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a6-a5",
+                "a4-a3",
+                "a3-a2",
+                "a5-a4",
+                "a2-a1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/pb6/1k4B1/7p/8/6K1/8 w - - 2 37",
+        "parentNodeId": "BL",
+        "san": "Bb6"
+      },
+      "DR": {
+        "adjacentNodeIds": [
+          "nM"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan moved this bishop into c7.\n\nHe's just waiting - White just has no productive plan or any counterplay.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2B1b3/p7/3k1pp1/P7/5K1P/8/8 b - - 3 22",
+        "parentNodeId": "ks",
+        "san": "Bc7"
+      },
+      "Dz": {
+        "adjacentNodeIds": [
+          "xl"
+        ],
+        "comments": [
+          {
+            "text": "Fine placed his bishop on e7.\n\nThe plan is now ...Ke6 + ...f5!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-e6",
+                "f7-f5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4bp2/pB6/5kp1/P7/5K1P/8/8 w - - 8 19",
+        "parentNodeId": "TF",
+        "san": "Be7"
+      },
+      "FO": {
+        "adjacentNodeIds": [
+          "93"
+        ],
+        "comments": [
+          {
+            "text": "If White were to proceed with Kd3...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b6/1k6/7B/p2K4/8/8 b - - 1 40",
+        "parentNodeId": "ND",
+        "san": "Kd3"
+      },
+      "FW": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And Black promotes a new queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/2k5/8/q2K4 w - - 0 47",
+        "parentNodeId": "BR",
+        "san": "a1=Q+"
+      },
+      "GP": {
+        "adjacentNodeIds": [
+          "wJ"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan slid his bishop back to e3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4b3/p1k5/P4pp1/8/4BK1P/8/8 b - - 4 27",
+        "parentNodeId": "YV",
+        "san": "Be3"
+      },
+      "Gr": {
+        "adjacentNodeIds": [
+          "ac"
+        ],
+        "comments": [
+          {
+            "text": "Fine went ...Bd6.\n\nThe players shuffle a bit here.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/pB1b4/5kp1/P7/5K1P/8/8 w - - 2 16",
+        "parentNodeId": "Mc",
+        "san": "Bd6"
+      },
+      "Gs": {
+        "adjacentNodeIds": [
+          "Qk"
+        ],
+        "comments": [
+          {
+            "text": "White can try to wait with the bishop...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b6/8/8/1k6/p7/B1K5 b - - 1 43",
+        "parentNodeId": "JL",
+        "san": "Ba1"
+      },
+      "HV": {
+        "adjacentNodeIds": [
+          "Yz"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan brought his king closer.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b6/pk6/7B/5K2/8/8 b - - 1 38",
+        "parentNodeId": "xp",
+        "san": "Kf3"
+      },
+      "JG": {
+        "adjacentNodeIds": [
+          "R5"
+        ],
+        "comments": [
+          {
+            "text": "Fine kept on approaching the pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4b3/p7/B4pp1/P1k5/5K1P/8/8 w - - 6 24",
+        "parentNodeId": "lZ",
+        "san": "Kc4"
+      },
+      "JL": {
+        "adjacentNodeIds": [
+          "Gs"
+        ],
+        "comments": [
+          {
+            "text": "But Fine correctly pushed his a-pawn. \n\nKashdan resigned here, but let's see how Black would win this position...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b6-a5",
+                "a5-c3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1b3B2/8/8/1k6/p7/2K5 w - - 0 43",
+        "parentNodeId": "UV",
+        "san": "a2"
+      },
+      "Jo": {
+        "adjacentNodeIds": [
+          "88"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan proceeded with Bh2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p1b2p1/5k2/P1P2P2/5K1P/7B/8 b - - 12 11",
+        "parentNodeId": "0W",
+        "san": "Bh2"
+      },
+      "LE": {
+        "adjacentNodeIds": [
+          "6I"
+        ],
+        "comments": [
+          {
+            "text": "Fine attacked the a5-pawn.",
+            "arrows": {
+              "threats": [
+                "d8-a5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3b4/8/p7/P7/2k2B1p/8/5K2/8 w - - 1 34",
+        "parentNodeId": "2s",
+        "san": "Bd8"
+      },
+      "LM": {
+        "adjacentNodeIds": [
+          "WB"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan slid his king back a square.\n\nIt's important not to rush with ...Bxa5 since White would be able to take g5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3b4/8/p7/Pk3pp1/8/7P/3B1K2/8 b - - 8 29",
+        "parentNodeId": "tX",
+        "san": "Kf2"
+      },
+      "Mc": {
+        "adjacentNodeIds": [
+          "Gr"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan proceeded with Bb6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/pB6/5kp1/P4b2/5K1P/8/8 b - - 1 15",
+        "parentNodeId": "eT",
+        "san": "Bb6"
+      },
+      "Ml": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But Black would simply go ...f6 and push the g-pawn on the next move.\n\nWhite is in zugzwang and Black is guaranteed to win the f4-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-g5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/p7/1p1b1pp1/5k2/P1P2P1P/5KB1/8/8 w - - 0 12",
+        "parentNodeId": "zB",
+        "san": "f6"
+      },
+      "ND": {
+        "adjacentNodeIds": [
+          "QQ",
+          "FO"
+        ],
+        "comments": [
+          {
+            "text": "Fine kept on pushing the a-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b6/1k6/7B/p7/4K3/8 w - - 0 40",
+        "parentNodeId": "Si",
+        "san": "a3"
+      },
+      "QD": {
+        "adjacentNodeIds": [
+          "Xq"
+        ],
+        "comments": [
+          {
+            "text": "Black cannot rush with ...a2!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b3B2/1k6/8/8/p3K3/8 w - - 0 41",
+        "parentNodeId": "QQ",
+        "san": "a2"
+      },
+      "QQ": {
+        "adjacentNodeIds": [
+          "Uz",
+          "QD"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan tried to defend along the dark squared diagonal with Bf6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b3B2/1k6/8/p7/4K3/8 b - - 1 40",
+        "parentNodeId": "ND",
+        "san": "Bf6"
+      },
+      "Qk": {
+        "adjacentNodeIds": [
+          "yk"
+        ],
+        "comments": [
+          {
+            "text": "But Black has a simple plan - contest the a1-h8 diagonal with Ba5-Bc3.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a5-c3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/b7/8/1k6/p7/B1K5 w - - 2 44",
+        "parentNodeId": "Gs",
+        "san": "Ba5"
+      },
+      "R5": {
+        "adjacentNodeIds": [
+          "uV"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan went to c7 with the bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2B1b3/p7/5pp1/P1k5/5K1P/8/8 b - - 7 24",
+        "parentNodeId": "JG",
+        "san": "Bc7"
+      },
+      "R6": {
+        "adjacentNodeIds": [
+          "kA"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan tried to get closer with Kd2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b3B2/8/2k5/p7/3K4/8 b - - 3 41",
+        "parentNodeId": "Uz",
+        "san": "Kd2"
+      },
+      "RS": {
+        "adjacentNodeIds": [
+          "YM"
+        ],
+        "comments": [
+          {
+            "text": "Fine captured the pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/8/2p2kp1/P4b2/5K1P/8/6B1 w - - 0 14",
+        "parentNodeId": "9T",
+        "san": "bxc5"
+      },
+      "Rb": {
+        "adjacentNodeIds": [
+          "Vh"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan attacked the bishop w/Ke2.",
+            "arrows": {
+              "threats": [
+                "e2-d2"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "d2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p3kp1/8/P1P2P2/6BP/3bK3/8 b - - 4 7",
+        "parentNodeId": "fm",
+        "san": "Ke2"
+      },
+      "Rn": {
+        "adjacentNodeIds": [
+          "4W"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan recaptured.\n\nAll of White's pawns are now isolated and will be future targets for Black.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/p4p2/1p4p1/8/P1P2P2/6BP/3b4/6K1 b - - 0 5",
+        "parentNodeId": "CL",
+        "san": "bxc4"
+      },
+      "Si": {
+        "adjacentNodeIds": [
+          "ND"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan brought his king closer, but it is clear that the king isn't in the square and won't be able to catch the pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b6/1k6/p6B/8/4K3/8 b - - 1 39",
+        "parentNodeId": "Yz",
+        "san": "Ke2"
+      },
+      "TF": {
+        "adjacentNodeIds": [
+          "Dz"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan kept shuffling his bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/pB3b2/5kp1/P7/5K1P/8/8 b - - 7 18",
+        "parentNodeId": "64",
+        "san": "Bb6"
+      },
+      "To": {
+        "adjacentNodeIds": [
+          "As"
+        ],
+        "comments": [
+          {
+            "text": "Fine went ...Ke6, freeing the f-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-f5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/4bp2/p3k3/B5p1/P7/5K1P/8/8 w - - 10 20",
+        "parentNodeId": "xl",
+        "san": "Ke6"
+      },
+      "Tq": {
+        "adjacentNodeIds": [
+          "le"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan moved the king over to g2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3b4/8/p7/Pk6/7p/8/3B2K1/8 b - - 4 35",
+        "parentNodeId": "B7",
+        "san": "Kg2"
+      },
+      "UV": {
+        "adjacentNodeIds": [
+          "JL"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan went Kc1, hoping for Kb1.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c1-b1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1b3B2/8/8/pk6/8/2K5 b - - 5 42",
+        "parentNodeId": "kA",
+        "san": "Kc1"
+      },
+      "Ux": {
+        "adjacentNodeIds": [
+          "nS"
+        ],
+        "comments": [
+          {
+            "text": "Fine attacked the b3-pawn w/...Bd5.",
+            "arrows": {
+              "threats": [
+                "d5-b3"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/p4p2/1p4p1/1B1b4/P4P2/1P4BP/3b4/6K1 w - - 2 4",
+        "parentNodeId": "rB",
+        "san": "Bd5"
+      },
+      "Uz": {
+        "adjacentNodeIds": [
+          "R6"
+        ],
+        "comments": [
+          {
+            "text": "Fine went forward with his king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b3B2/8/2k5/p7/4K3/8 w - - 2 41",
+        "parentNodeId": "QQ",
+        "san": "Kc4"
+      },
+      "Vh": {
+        "adjacentNodeIds": [
+          "1t",
+          "mk"
+        ],
+        "comments": [
+          {
+            "text": "Fine moved the bishop away to c1.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p3kp1/8/P1P2P2/6BP/4K3/2b5 w - - 5 8",
+        "parentNodeId": "Rb",
+        "san": "Bc1"
+      },
+      "WB": {
+        "adjacentNodeIds": [
+          "5S"
+        ],
+        "comments": [
+          {
+            "text": "Fine advanced the f-pawn.\n\nThis makes it so that White's bishop no longer pressures the g5-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3b4/8/p7/Pk4p1/5p2/7P/3B1K2/8 w - - 0 30",
+        "parentNodeId": "LM",
+        "san": "f4"
+      },
+      "WE": {
+        "adjacentNodeIds": [
+          "xp"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan captured the h-pawn.\n\nIn many cases, same color bishop endgames where one side has an extra pawn are drawn since the bishop can sacrifice itself for the pawn, but that's not the case here!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/pb6/1k6/7B/8/6K1/8 b - - 0 37",
+        "parentNodeId": "Cg",
+        "san": "Bxh4"
+      },
+      "Xn": {
+        "adjacentNodeIds": [
+          "Xo"
+        ],
+        "comments": [
+          {
+            "text": "Fine brought the bishop back to a3.\n\nThe bishop is maneuvering to d6 from where it will pressure the f4-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a3-d6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p3kp1/8/P1P2P2/b5BP/8/3K4 w - - 7 9",
+        "parentNodeId": "1t",
+        "san": "Ba3"
+      },
+      "Xo": {
+        "adjacentNodeIds": [
+          "8S"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan went Ke2, looking to bring the king into f3 - but it's a little slow!",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p3kp1/8/P1P2P2/b5BP/4K3/8 b - - 8 9",
+        "parentNodeId": "Xn",
+        "san": "Ke2"
+      },
+      "Xq": {
+        "adjacentNodeIds": [
+          "Bn"
+        ],
+        "comments": [
+          {
+            "text": "White can move the king closer.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d1-c2",
+                "c2-b2"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1b3B2/1k6/8/8/p7/3K4 b - - 1 41",
+        "parentNodeId": "QD",
+        "san": "Kd1"
+      },
+      "YM": {
+        "adjacentNodeIds": [
+          "eT"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan recaptured, attacking a7.",
+            "arrows": {
+              "threats": [
+                "c5-a7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/8/2B2kp1/P4b2/5K1P/8/8 b - - 0 14",
+        "parentNodeId": "RS",
+        "san": "Bxc5"
+      },
+      "YV": {
+        "adjacentNodeIds": [
+          "GP",
+          "h5"
+        ],
+        "comments": [
+          {
+            "text": "Fine proceeded with ...Kc6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4b3/pBk5/P4pp1/8/5K1P/8/8 w - - 3 27",
+        "parentNodeId": "tH",
+        "san": "Kc6"
+      },
+      "Yz": {
+        "adjacentNodeIds": [
+          "Si"
+        ],
+        "comments": [
+          {
+            "text": "Fine kept on advancing with ...a4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b6/1k6/p6B/5K2/8/8 w - - 0 39",
+        "parentNodeId": "HV",
+        "san": "a4"
+      },
+      "Z": {
+        "adjacentNodeIds": [
+          "9"
+        ],
+        "comments": [
+          {
+            "text": "Fine exchanged the knights.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/pb3pp1/1p6/1n6/P4P2/1P4BP/3b3K/5B2 w - - 0 2",
+        "parentNodeId": "0",
+        "san": "Nxb5"
+      },
+      "Zn": {
+        "adjacentNodeIds": [
+          "iI"
+        ],
+        "comments": [
+          {
+            "text": "And Kashdan advanced his h-pawn, undermining Fine's kingside pawns.\n\nThis move forces a clarification...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4b3/p7/P5p1/2k2p1P/8/3B1K2/8 b - - 0 32",
+        "parentNodeId": "1a",
+        "san": "h4"
+      },
+      "aY": {
+        "adjacentNodeIds": [
+          "1a"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan slid the bishop back to d2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3b4/8/p7/P5p1/2k2p2/7P/3B1K2/8 b - - 3 31",
+        "parentNodeId": "kl",
+        "san": "Bd2"
+      },
+      "ac": {
+        "adjacentNodeIds": [
+          "zg"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan went Bd8, eyeing g5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3B4/5p2/p2b4/5kp1/P7/5K1P/8/8 b - - 3 16",
+        "parentNodeId": "Gr",
+        "san": "Bd8"
+      },
+      "bA": {
+        "adjacentNodeIds": [
+          "0W"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan went Kf3, supporting f4.\n\nIt looks like the pawn is sufficiently guarded, but that isn't the case!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p4p1/5k2/P1P2P2/b4KBP/8/8 b - - 10 10",
+        "parentNodeId": "8S",
+        "san": "Kf3"
+      },
+      "bW": {
+        "adjacentNodeIds": [
+          "j1"
+        ],
+        "comments": [
+          {
+            "text": "And when White takes the bishop...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/1k6/3K3B/p7/8/8 b - - 0 41",
+        "parentNodeId": "93",
+        "san": "Kxd4"
+      },
+      "bd": {
+        "adjacentNodeIds": [
+          "AX"
+        ],
+        "comments": [
+          {
+            "text": "Black proceeds with ...Bc3.\n\nA bishop trade is unavoidable.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/8/1kb5/pB6/2K5 w - - 4 45",
+        "parentNodeId": "yk",
+        "san": "Bc3"
+      },
+      "dS": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White is just in time with Bg1-Be3! \n\nWhite's bishop will defend the pawn from e3 and there's no ...g5 ideas.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g1-e3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p4p1/5k2/P1P2P2/b4K1P/8/6B1 b - - 10 10",
+        "parentNodeId": "2B",
+        "san": "Bg1"
+      },
+      "dm": {
+        "adjacentNodeIds": [
+          "29"
+        ],
+        "comments": [
+          {
+            "text": "Black would advance the king into f5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p4p1/5k2/P1P2P2/5KBP/8/2b5 w - - 7 9",
+        "parentNodeId": "mk",
+        "san": "Kf5"
+      },
+      "eT": {
+        "adjacentNodeIds": [
+          "Mc"
+        ],
+        "comments": [
+          {
+            "text": "And Fine responded with ...a6.\n\nThis is instructive. He's putting the pawn on a light square so that the dark-squared bishop can't target it.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/p7/2B2kp1/P4b2/5K1P/8/8 w - - 0 15",
+        "parentNodeId": "YM",
+        "san": "a6"
+      },
+      "eo": {
+        "adjacentNodeIds": [
+          "64"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan went Ba5.\n\nHe is pretty much just waiting and shuffling the bishop since there is nothing much that White can do.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/p7/B3bkp1/P7/5K1P/8/8 b - - 5 17",
+        "parentNodeId": "zg",
+        "san": "Ba5"
+      },
+      "fm": {
+        "adjacentNodeIds": [
+          "Rb"
+        ],
+        "comments": [
+          {
+            "text": "Fine brought his king into f6.\n\nBoth sides making improving moves.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p3kp1/8/P1P2P2/6BP/3b1K2/8 w - - 3 7",
+        "parentNodeId": "zR",
+        "san": "Kf6"
+      },
+      "h5": {
+        "adjacentNodeIds": [
+          "9C"
+        ],
+        "comments": [
+          {
+            "text": "If White were to wait with Kg2...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4b3/pBk5/P4pp1/8/7P/6K1/8 b - - 4 27",
+        "parentNodeId": "YV",
+        "san": "Kg2"
+      },
+      "iI": {
+        "adjacentNodeIds": [
+          "2s"
+        ],
+        "comments": [
+          {
+            "text": "Fine captured the h-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4b3/p7/P7/2k2p1p/8/3B1K2/8 w - - 0 33",
+        "parentNodeId": "Zn",
+        "san": "gxh4"
+      },
+      "j1": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black advances the a-pawn and there is no way for White to stop promotion.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a2-a1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/1k6/3K3B/8/p7/8 w - - 0 42",
+        "parentNodeId": "bW",
+        "san": "a2"
+      },
+      "k6": {
+        "adjacentNodeIds": [
+          "tX"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan defended the a-pawn w/Bd2.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d2-a5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3b4/8/p1k5/P4pp1/8/5K1P/3B4/8 b - - 6 28",
+        "parentNodeId": "wJ",
+        "san": "Bd2"
+      },
+      "kA": {
+        "adjacentNodeIds": [
+          "UV"
+        ],
+        "comments": [
+          {
+            "text": "But Fine was quicker with ...Kb3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b3B2/8/8/pk6/3K4/8 w - - 4 42",
+        "parentNodeId": "R6",
+        "san": "Kb3"
+      },
+      "kl": {
+        "adjacentNodeIds": [
+          "aY"
+        ],
+        "comments": [
+          {
+            "text": "Fine attacked the bishop with ...Kc4.",
+            "arrows": {
+              "threats": [
+                "c4-c3"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3b4/8/p7/P5p1/2k2p2/2B4P/5K2/8 w - - 2 31",
+        "parentNodeId": "5S",
+        "san": "Kc4"
+      },
+      "ks": {
+        "adjacentNodeIds": [
+          "DR"
+        ],
+        "comments": [
+          {
+            "text": "Fine began approaching the a-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d5-c4",
+                "c4-b3",
+                "b3-a4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4b3/p7/B2k1pp1/P7/5K1P/8/8 w - - 2 22",
+        "parentNodeId": "2h",
+        "san": "Kd5"
+      },
+      "lZ": {
+        "adjacentNodeIds": [
+          "JG"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan went back with the bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4b3/p7/B1k2pp1/P7/5K1P/8/8 b - - 5 23",
+        "parentNodeId": "nM",
+        "san": "Ba5"
+      },
+      "le": {
+        "adjacentNodeIds": [
+          "BL"
+        ],
+        "comments": [
+          {
+            "text": "Fine captured the a5-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/p7/bk6/7p/8/3B2K1/8 w - - 0 36",
+        "parentNodeId": "Tq",
+        "san": "Bxa5"
+      },
+      "mk": {
+        "adjacentNodeIds": [
+          "dm"
+        ],
+        "comments": [
+          {
+            "text": "A better move would've been Kf3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p3kp1/8/P1P2P2/5KBP/8/2b5 b - - 6 8",
+        "parentNodeId": "Vh",
+        "san": "Kf3"
+      },
+      "nM": {
+        "adjacentNodeIds": [
+          "lZ"
+        ],
+        "comments": [
+          {
+            "text": "Fine got closer with ...Kc5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2B1b3/p7/2k2pp1/P7/5K1P/8/8 w - - 4 23",
+        "parentNodeId": "DR",
+        "san": "Kc5"
+      },
+      "nS": {
+        "adjacentNodeIds": [
+          "CL"
+        ],
+        "comments": [
+          {
+            "text": "And Kashdan responded Bc4.\n\nThis is the only way to defend b3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/p4p2/1p4p1/3b4/P1B2P2/1P4BP/3b4/6K1 b - - 3 4",
+        "parentNodeId": "Ux",
+        "san": "Bc4"
+      },
+      "rB": {
+        "adjacentNodeIds": [
+          "Ux"
+        ],
+        "comments": [
+          {
+            "text": "Kasdhan went Kg1.\n\nHe is also looking to activate the king.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g1-f2",
+                "f2-e2"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/pb3p2/1p4p1/1B6/P4P2/1P4BP/3b4/6K1 b - - 1 3",
+        "parentNodeId": "6",
+        "san": "Kg1"
+      },
+      "sz": {
+        "adjacentNodeIds": [
+          "9T"
+        ],
+        "comments": [
+          {
+            "text": "Fine took the pawn with his bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p6/5kp1/P1P2b2/5K1P/8/6B1 w - - 0 13",
+        "parentNodeId": "9R",
+        "san": "Bxf4"
+      },
+      "tH": {
+        "adjacentNodeIds": [
+          "YV"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan gave a check with Bb6.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4b3/pB6/P1k2pp1/8/5K1P/8/8 b - - 2 26",
+        "parentNodeId": "2T",
+        "san": "Bb6+"
+      },
+      "tX": {
+        "adjacentNodeIds": [
+          "LM"
+        ],
+        "comments": [
+          {
+            "text": "But Fine attacked it again with ...Kb5.\n\nWhite is low on moves. The bishop can't move along the e1-a4 diagonal since it would take its eyes off of g5 and it can't move along the b1-g5 one since it would take its eyes off of a5.",
+            "arrows": {
+              "threats": [
+                "b5-a5",
+                "d8-a5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3b4/8/p7/Pk3pp1/8/5K1P/3B4/8 w - - 7 29",
+        "parentNodeId": "k6",
+        "san": "Kb5"
+      },
+      "tv": {
+        "adjacentNodeIds": [
+          "2T"
+        ],
+        "comments": [
+          {
+            "text": "And Kashdan advanced the pawn.\n\nPhase two complete: The a-pawn has been forced to move to a dark square.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c7-a5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/2B1b3/p7/P4pp1/1k6/5K1P/8/8 b - - 0 25",
+        "parentNodeId": "uV",
+        "san": "a5"
+      },
+      "uV": {
+        "adjacentNodeIds": [
+          "tv"
+        ],
+        "comments": [
+          {
+            "text": "Fine attacked the a-pawn with ...Kb4.",
+            "arrows": {
+              "threats": [
+                "b4-a4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/2B1b3/p7/5pp1/Pk6/5K1P/8/8 w - - 8 25",
+        "parentNodeId": "R5",
+        "san": "Kb4"
+      },
+      "wJ": {
+        "adjacentNodeIds": [
+          "k6"
+        ],
+        "comments": [
+          {
+            "text": "And Fine went ...Bd8 - no need for ...Kd7 since White's bishop left b5.\n\nThe bishop is perfect here, pressuring the a-pawn & protecting the g-pawn.",
+            "arrows": {
+              "threats": [
+                "d8-a5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3b4/8/p1k5/P4pp1/8/4BK1P/8/8 w - - 5 28",
+        "parentNodeId": "GP",
+        "san": "Bd8"
+      },
+      "xl": {
+        "adjacentNodeIds": [
+          "To"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan kept on waiting with Ba5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4bp2/p7/B4kp1/P7/5K1P/8/8 b - - 9 19",
+        "parentNodeId": "Dz",
+        "san": "Ba5"
+      },
+      "xp": {
+        "adjacentNodeIds": [
+          "HV"
+        ],
+        "comments": [
+          {
+            "text": "Fine began advancing the pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1b6/pk6/7B/8/6K1/8 w - - 0 38",
+        "parentNodeId": "WE",
+        "san": "a5"
+      },
+      "y0": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White goes Kc2 and there is simply no way to prevent Kb2 and Kxa2.\n\nThis position is a draw.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c2-b2",
+                "b2-a2"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1b3B2/8/2k5/8/p1K5/8 b - - 3 42",
+        "parentNodeId": "Bn",
+        "san": "Kc2"
+      },
+      "yk": {
+        "adjacentNodeIds": [
+          "bd"
+        ],
+        "comments": [
+          {
+            "text": "And if White keeps on waiting...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/b7/8/1k6/pB6/2K5 b - - 3 44",
+        "parentNodeId": "Qk",
+        "san": "Bb2"
+      },
+      "zB": {
+        "adjacentNodeIds": [
+          "Ml"
+        ],
+        "comments": [
+          {
+            "text": "White could try to stop ...g5 with h4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/1p1b2p1/5k2/P1P2P1P/5KB1/8/8 b - - 0 11",
+        "parentNodeId": "0W",
+        "san": "h4"
+      },
+      "zR": {
+        "adjacentNodeIds": [
+          "fm"
+        ],
+        "comments": [
+          {
+            "text": "Kashdan brought his king into f2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4pk1/1p4p1/8/P1P2P2/6BP/3b1K2/8 b - - 2 6",
+        "parentNodeId": "4W",
+        "san": "Kf2"
+      },
+      "zg": {
+        "adjacentNodeIds": [
+          "eo"
+        ],
+        "comments": [
+          {
+            "text": "Fine then went ...Be5, planning ...Bf6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-f6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3B4/5p2/p7/4bkp1/P7/5K1P/8/8 w - - 4 17",
+        "parentNodeId": "ac",
+        "san": "Be5"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

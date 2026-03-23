@@ -1,0 +1,73 @@
+{
+  "id": "83756a00-e74c-49f3-b34d-982632f6564f",
+  "name": "Quiz 42 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White develops the knight. \n\nBlack thinks that sacrificing on d4 is a good idea because they have a pin with a bishop and queen.\n\nDoes the sacrifice ...Nxd4 work?",
+    "answers": [
+      {
+        "text": "No, White has enough defenders that cannot be removed.",
+        "feedback": {
+          "text": "Exactly! Too many pieces will defend the d4-square.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, White has defenders but these can be removed.",
+        "feedback": {
+          "text": "White will have Rd1 to defend on d4. The rook cannot be removed from d1.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a1-d1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, White doesn’t have enough defenders.",
+        "feedback": {
+          "text": "White will defend on d4 also with their rook with Rd1.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a1-d1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2qr1k1/pp3pp1/2nb1np1/3p2B1/3P2PQ/5P2/PP2N2P/RN3RK1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c6-d4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nbc3",
+      "afterMoveFen": "r2qr1k1/pp3pp1/2nb1np1/3p2B1/3P2PQ/2N2P2/PP2N2P/R4RK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

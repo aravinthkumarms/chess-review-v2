@@ -1,0 +1,100 @@
+{
+  "id": "7f9029aa-0e35-40e3-b99b-a8a0ab783725",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black moves towards the queenside.\n\nHow to respond?",
+    "answers": [
+      {
+        "text": "g5",
+        "feedback": {
+          "text": "Excellent!\n\nYou will be left with two passed pawns on the kingside and on the queenside.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h6-g5",
+              "f4-g5",
+              "h4-g5",
+              "f6-g5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "g5"
+            ]
+          }
+        },
+        "comment": "trying to create a passer on the kingside.",
+        "afterMoveFen": "8/2k2p2/5p1p/P1p2PP1/1pPpKP1P/8/8/8 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kd5",
+        "feedback": {
+          "text": "Black can push the d-pawn to promotion!",
+          "arrows": {
+            "threats": [
+              "d4-d3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "moving in with the king.",
+        "afterMoveFen": "8/2k2p2/5p1p/P1pK1P2/1pPp1PPP/8/8/8 b - - 3 2"
+      },
+      {
+        "text": "a6",
+        "feedback": {
+          "text": "Black is quick enough to stop us!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c7-b6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "a6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "trying to push on the queenside.",
+        "afterMoveFen": "8/2k2p2/P4p1p/2p2P2/1pPpKPPP/8/8/8 b - - 0 2"
+      },
+      {
+        "text": "Kd3",
+        "feedback": {
+          "text": "You can always play Kd3 once Black plays ...b3!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "trying to stop the b-pawn if pushed.",
+        "afterMoveFen": "8/2k2p2/5p1p/P1p2P2/1pPp1PPP/3K4/8/8 b - - 3 2"
+      }
+    ],
+    "positionFen": "8/3k1p2/5p1p/P1p2P2/1pPpKPPP/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kc7",
+      "afterMoveFen": "8/2k2p2/5p1p/P1p2P2/1pPpKPPP/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

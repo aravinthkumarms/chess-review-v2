@@ -1,0 +1,1120 @@
+{
+  "id": "e49b042c-63aa-4dbe-80e4-098b6a610be2",
+  "name": "Study 1: Piece Activity and King Safety",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "Q",
+          "y",
+          "Gi",
+          "Ey"
+        ],
+        "comments": [
+          {
+            "text": "This game was played on chess.com between Magnus Carlsen and Daniel Naroditsky. \n\nLet's use the 4 criteria of evaluating positions.\n\nMaterial is equal. \n\nThe White king is safer than Black's. There's a pawn on h5 undermining the g6-hook, and h6 and f6 are weak around the king. \n\nWhite's pieces are better: the rook is on e1, the knight on e4. The Black bishop on h8 bites on granite on d4, and Black still has to develop the light-squared bishop.\n\nWhite has a +2 advantage according to the engine.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          },
+          {
+            "text": "White in fact has a wide variety of moves he could play and still be better.\n\nHe could develop the queen to f3. He could trade on g6. He could play Bg5, probing the f6 weakness. Or the bishop could go to h6, attacking the rook. Ba3 was played in the game.\n\nHook: a hook is a pawn in a position that can be attacked, literally \"hooked onto\" with another one of your pawns to open up a file.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d1-f3",
+                "c1-g5",
+                "c1-h6",
+                "h5-g6",
+                "c1-a3"
+              ]
+            },
+            "highlights": null
+          },
+          {
+            "text": "You can check out the full game here: \nhttps://www.chess.com/analysis/game/live/59284834229?tab=analysis",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d1-f3",
+                "c1-g5",
+                "c1-h6",
+                "h5-g6",
+                "c1-a3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/ppq1np1p/4p1p1/1B5P/3PN3/2P5/P4PP1/R1BQR1K1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0D": {
+        "adjacentNodeIds": [
+          "I6"
+        ],
+        "comments": [
+          {
+            "text": "If Black wants to stop it, they weaken their position.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/ppq1n2p/4ppp1/1B4BP/3PN3/2P5/P4PP1/R2QR1K1 w - - 0 2",
+        "parentNodeId": "Gi",
+        "san": "f6"
+      },
+      "1M": {
+        "adjacentNodeIds": [
+          "kn"
+        ],
+        "comments": [
+          {
+            "text": "The king recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br4/pq2n1k1/1p2p1p1/1B3p2/2PPN1P1/5Q2/P4PK1/R6R w - - 0 12",
+        "parentNodeId": "cz",
+        "san": "Kxg7"
+      },
+      "1q": {
+        "adjacentNodeIds": [
+          "8t"
+        ],
+        "comments": [
+          {
+            "text": "The rook came in.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rqbr4/p3nQ2/1p2p1pk/1B6/2PP2P1/4pP2/P5K1/7R b - - 3 17",
+        "parentNodeId": "QQ",
+        "san": "Rh1+"
+      },
+      "20": {
+        "adjacentNodeIds": [
+          "W7"
+        ],
+        "comments": [
+          {
+            "text": "And now Magnus puts another plan into effect: improve the activity of the rooks. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e1-h1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq1np2/4p1p1/1B6/3PN1P1/B1P2Q2/P4PK1/R3R3 b - - 1 5",
+        "parentNodeId": "MI",
+        "san": "Kg2"
+      },
+      "27": {
+        "adjacentNodeIds": [
+          "dF"
+        ],
+        "comments": [
+          {
+            "text": "The knight came to f5...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq2p1p/4p1p1/1B3n1P/3PN3/B1P2Q2/P4PP1/R3R1K1 w - - 5 3",
+        "parentNodeId": "83",
+        "san": "Nf5"
+      },
+      "5B": {
+        "adjacentNodeIds": [
+          "hG"
+        ],
+        "comments": [
+          {
+            "text": "Naroditsky gave a check, ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1br4/pq2n1k1/1p2p1p1/1B6/2PP1QP1/4p3/P4PK1/4R2R w - - 0 14",
+        "parentNodeId": "9B",
+        "san": "e3+"
+      },
+      "83": {
+        "adjacentNodeIds": [
+          "27"
+        ],
+        "comments": [
+          {
+            "text": "And Magnus developed his queen. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq1np1p/4p1p1/1B5P/3PN3/B1P2Q2/P4PP1/R3R1K1 b - - 4 2",
+        "parentNodeId": "FV",
+        "san": "Qf3"
+      },
+      "8t": {
+        "adjacentNodeIds": [
+          "Lr"
+        ],
+        "comments": [
+          {
+            "text": "The king went to g5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rqbr4/p3nQ2/1p2p1p1/1B4k1/2PP2P1/4pP2/P5K1/7R w - - 4 18",
+        "parentNodeId": "1q",
+        "san": "Kg5"
+      },
+      "9A": {
+        "adjacentNodeIds": [
+          "PD"
+        ],
+        "comments": [
+          {
+            "text": "So after a6, perhaps Black wants Bd7...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c8-d7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/1pq1np2/p3p1p1/1B6/3PN3/2P2Q2/P4PP1/R1B1R1K1 w - - 0 3",
+        "parentNodeId": "l0",
+        "san": "a6"
+      },
+      "9B": {
+        "adjacentNodeIds": [
+          "5B"
+        ],
+        "comments": [
+          {
+            "text": "The queen moved up the board, targetting the dark squares. \n\nWith the absence of the dark-squared defender, White can infiltrate. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-h6",
+                "f4-e5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br4/pq2n1k1/1p2p1p1/1B6/2PPpQP1/8/P4PK1/4R2R b - - 1 13",
+        "parentNodeId": "Jw",
+        "san": "Qf4"
+      },
+      "9j": {
+        "adjacentNodeIds": [
+          "k6"
+        ],
+        "comments": [
+          {
+            "text": "That's why Magnus decided it was time to trade that bishop on g7! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2k1/ppq2pb1/4p1p1/1B1n4/3PN1P1/2P2Q2/P4PK1/R1B4R b - - 5 7",
+        "parentNodeId": "r7",
+        "san": "Bc1"
+      },
+      "AA": {
+        "adjacentNodeIds": [
+          "xI"
+        ],
+        "comments": [
+          {
+            "text": "And after the queen got on the diagonal...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2k1/pq2npb1/1p2p1p1/1B6/2PPNBP1/5Q2/P4PK1/R6R w - - 3 10",
+        "parentNodeId": "lV",
+        "san": "Qb7"
+      },
+      "Au": {
+        "adjacentNodeIds": [
+          "ya"
+        ],
+        "comments": [
+          {
+            "text": "White continues with the plan: developing with a tempo. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/1pq2p2/p3p1p1/8/1nPPNB2/3B1Q2/P4PP1/R3R1K1 b - - 2 5",
+        "parentNodeId": "CS",
+        "san": "Bf4"
+      },
+      "CS": {
+        "adjacentNodeIds": [
+          "Au"
+        ],
+        "comments": [
+          {
+            "text": "Black attacks the bishop.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/1pq2p2/p3p1p1/8/1nPPN3/3B1Q2/P4PP1/R1B1R1K1 w - - 1 5",
+        "parentNodeId": "Nn",
+        "san": "Nb4"
+      },
+      "DD": {
+        "adjacentNodeIds": [
+          "Jo"
+        ],
+        "comments": [
+          {
+            "text": "The king came into f4, but this allows mate in one. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rqbr4/p3Q3/1p2p1p1/1B6/2PP1kP1/4pP2/P5K1/7R w - - 1 19",
+        "parentNodeId": "Lr",
+        "san": "Kf4"
+      },
+      "DO": {
+        "adjacentNodeIds": [
+          "f6"
+        ],
+        "comments": [
+          {
+            "text": "After the queen goes to e7...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/pp2qp1p/4p1p1/1B3n1P/3PNB2/2P2Q2/P4PP1/R3R1K1 w - - 7 4",
+        "parentNodeId": "TC",
+        "san": "Qe7"
+      },
+      "Ey": {
+        "adjacentNodeIds": [
+          "dn"
+        ],
+        "comments": [
+          {
+            "text": "Bh6 is another option. \n\nThe plan is the same: overrun Black using the activity of the pieces. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/ppq1np1p/4p1pB/1B5P/3PN3/2P5/P4PP1/R2QR1K1 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Bh6"
+      },
+      "FV": {
+        "adjacentNodeIds": [
+          "83"
+        ],
+        "comments": [
+          {
+            "text": "The rook moved out of the pin. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq1np1p/4p1p1/1B5P/3PN3/B1P5/P4PP1/R2QR1K1 w - - 3 2",
+        "parentNodeId": "Q",
+        "san": "Rd8"
+      },
+      "Gi": {
+        "adjacentNodeIds": [
+          "0D"
+        ],
+        "comments": [
+          {
+            "text": "Bg5, probing f6 is another idea. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/ppq1np1p/4p1p1/1B4BP/3PN3/2P5/P4PP1/R2QR1K1 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Bg5"
+      },
+      "H9": {
+        "adjacentNodeIds": [
+          "k8"
+        ],
+        "comments": [
+          {
+            "text": "And Magnus pushed on the queenside, attacking the knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1br2k1/p1q2pb1/1p2p1p1/1B1n4/2PPN1P1/5Q2/P4PK1/R1B4R b - - 0 8",
+        "parentNodeId": "k6",
+        "san": "c4"
+      },
+      "I0": {
+        "adjacentNodeIds": [
+          "i1"
+        ],
+        "comments": [
+          {
+            "text": "But Magnus finds the killer blow. \n\nThe idea is using the queen to get to f7 and then bringing the other rook to h1. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-f7",
+                "e1-h1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rqbr4/p3n1kR/1p2p1p1/1B6/2PP1QP1/4pP2/P5K1/4R3 b - - 2 15",
+        "parentNodeId": "ZY",
+        "san": "Rh7+"
+      },
+      "I6": {
+        "adjacentNodeIds": [
+          "Lf"
+        ],
+        "comments": [
+          {
+            "text": "The bishop retreats.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/ppq1n2p/4ppp1/1B5P/3PN3/2P5/P2B1PP1/R2QR1K1 b - - 1 2",
+        "parentNodeId": "0D",
+        "san": "Bd2"
+      },
+      "Jo": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Checkmate! \n\nThat's the result of acquiring more active pieces in the middle game, trading off your opponent's defenders, and consequently landing the final combinations! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rqbr4/p7/1p2pQp1/1B6/2PP1kP1/4pP2/P5K1/7R b - - 2 19",
+        "parentNodeId": "DD",
+        "san": "Qf6#"
+      },
+      "Jw": {
+        "adjacentNodeIds": [
+          "9B"
+        ],
+        "comments": [
+          {
+            "text": "After Naroditsky took on e4 with the pawn, the queen came alive on the f-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br4/pq2n1k1/1p2p1p1/1B6/2PPp1P1/5Q2/P4PK1/4R2R w - - 0 13",
+        "parentNodeId": "kn",
+        "san": "fxe4"
+      },
+      "Kh": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And now White indirectly defends d4 with the rooks.\n\nWhite's superior piece activity is evident. White has 6 active pieces, meanwhile Black only has 1 knight active on b4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d1",
+                "e1",
+                "d3",
+                "e4",
+                "f4",
+                "f3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rkb/1p3p2/p3p1p1/8/1nPPNB2/3B1Q2/P4PP1/3RR1K1 b - - 4 6",
+        "parentNodeId": "ya",
+        "san": "Rad1"
+      },
+      "LY": {
+        "adjacentNodeIds": [
+          "r7"
+        ],
+        "comments": [
+          {
+            "text": "The rook enters the h-file! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq2p2/4p1p1/1B1n4/3PN1P1/B1P2Q2/P4PK1/R6R b - - 3 6",
+        "parentNodeId": "W7",
+        "san": "Rh1"
+      },
+      "Lf": {
+        "adjacentNodeIds": [
+          "WS"
+        ],
+        "comments": [
+          {
+            "text": "After g5...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/ppq1n2p/4pp2/1B4pP/3PN3/2P5/P2B1PP1/R2QR1K1 w - - 0 3",
+        "parentNodeId": "I6",
+        "san": "g5"
+      },
+      "Lr": {
+        "adjacentNodeIds": [
+          "DD"
+        ],
+        "comments": [
+          {
+            "text": "White captured the knight with check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rqbr4/p3Q3/1p2p1p1/1B4k1/2PP2P1/4pP2/P5K1/7R b - - 0 18",
+        "parentNodeId": "8t",
+        "san": "Qxe7+"
+      },
+      "MI": {
+        "adjacentNodeIds": [
+          "20"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq1np2/4p1p1/1B6/3PN1P1/B1P2Q2/P4P2/R3R1K1 w - - 0 5",
+        "parentNodeId": "uP",
+        "san": "hxg6"
+      },
+      "MM": {
+        "adjacentNodeIds": [
+          "cz"
+        ],
+        "comments": [
+          {
+            "text": "Black countered, attacking the knight...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2k1/pq2n1b1/1p2p1p1/1B2Bp2/2PPN1P1/5Q2/P4PK1/R6R w - f6 0 11",
+        "parentNodeId": "xI",
+        "san": "f5"
+      },
+      "Nn": {
+        "adjacentNodeIds": [
+          "CS"
+        ],
+        "comments": [
+          {
+            "text": "White pushes, attacking Black's most active piece.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/1pq2p2/p3p1p1/3n4/2PPN3/3B1Q2/P4PP1/R1B1R1K1 b - - 0 4",
+        "parentNodeId": "zs",
+        "san": "c4"
+      },
+      "PD": {
+        "adjacentNodeIds": [
+          "zs"
+        ],
+        "comments": [
+          {
+            "text": "White could go to d3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/1pq1np2/p3p1p1/8/3PN3/2PB1Q2/P4PP1/R1B1R1K1 b - - 1 3",
+        "parentNodeId": "9A",
+        "san": "Bd3"
+      },
+      "Q": {
+        "adjacentNodeIds": [
+          "FV"
+        ],
+        "comments": [
+          {
+            "text": "Magnus chose to activate his bishop and pin Daniel's knight. \n\nWhite's plan is to maximize the potential of his pieces, attack weaknesses (like the a3-f8 diagonal) and obtain a winning advantage as a result. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/ppq1np1p/4p1p1/1B5P/3PN3/B1P5/P4PP1/R2QR1K1 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Ba3"
+      },
+      "QQ": {
+        "adjacentNodeIds": [
+          "1q"
+        ],
+        "comments": [
+          {
+            "text": "Black went to h6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rqbr4/p3nQ2/1p2p1pk/1B6/2PP2P1/4pP2/P5K1/4R3 w - - 2 17",
+        "parentNodeId": "dN",
+        "san": "Kh6"
+      },
+      "So": {
+        "adjacentNodeIds": [
+          "TC"
+        ],
+        "comments": [
+          {
+            "text": "The knight could attack the bishop once...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq2p1p/4p1pB/1B3n1P/3PN3/2P2Q2/P4PP1/R3R1K1 w - - 5 3",
+        "parentNodeId": "fF",
+        "san": "Nf5"
+      },
+      "TC": {
+        "adjacentNodeIds": [
+          "DO"
+        ],
+        "comments": [
+          {
+            "text": "But we can bring it back...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq2p1p/4p1p1/1B3n1P/3PNB2/2P2Q2/P4PP1/R3R1K1 b - - 6 3",
+        "parentNodeId": "So",
+        "san": "Bf4"
+      },
+      "W7": {
+        "adjacentNodeIds": [
+          "LY"
+        ],
+        "comments": [
+          {
+            "text": "The knight went to d5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq2p2/4p1p1/1B1n4/3PN1P1/B1P2Q2/P4PK1/R3R3 w - - 2 6",
+        "parentNodeId": "20",
+        "san": "Nd5"
+      },
+      "WS": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "e6 is weak. White has pressure and the pieces have a purpose.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/ppq1n2p/4pp2/1BN3pP/3P4/2P5/P2B1PP1/R2QR1K1 b - - 1 3",
+        "parentNodeId": "Lf",
+        "san": "Nc5"
+      },
+      "X": {
+        "adjacentNodeIds": [
+          "l0"
+        ],
+        "comments": [
+          {
+            "text": "Black had to recapture towards the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/ppq1np2/4p1p1/1B6/3PN3/2P5/P4PP1/R1BQR1K1 w - - 0 2",
+        "parentNodeId": "y",
+        "san": "hxg6"
+      },
+      "ZY": {
+        "adjacentNodeIds": [
+          "I0"
+        ],
+        "comments": [
+          {
+            "text": "A desperate attempt to trade...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rqbr4/p3n1k1/1p2p1p1/1B6/2PP1QP1/4pP2/P5K1/4R2R w - - 1 15",
+        "parentNodeId": "hG",
+        "san": "Qb8"
+      },
+      "ak": {
+        "adjacentNodeIds": [
+          "pU"
+        ],
+        "comments": [
+          {
+            "text": "The knight was running out of squares...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/pp2qp1p/4p1p1/1B5P/3PNBPn/2P2Q2/P4P2/R3R1K1 w - - 1 5",
+        "parentNodeId": "f6",
+        "san": "Nh4"
+      },
+      "bB": {
+        "adjacentNodeIds": [
+          "uP"
+        ],
+        "comments": [
+          {
+            "text": "Naroditsky brought his knight back...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq1np1p/4p1p1/1B5P/3PN1P1/B1P2Q2/P4P2/R3R1K1 w - - 1 4",
+        "parentNodeId": "dF",
+        "san": "Ne7"
+      },
+      "cz": {
+        "adjacentNodeIds": [
+          "1M"
+        ],
+        "comments": [
+          {
+            "text": "But at this point Carlsen could just trade the important defender...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2k1/pq2n1B1/1p2p1p1/1B3p2/2PPN1P1/5Q2/P4PK1/R6R b - - 0 11",
+        "parentNodeId": "MM",
+        "san": "Bxg7"
+      },
+      "dF": {
+        "adjacentNodeIds": [
+          "bB"
+        ],
+        "comments": [
+          {
+            "text": "Magnus kicked out the knight, controlling more squares in Black's position. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq2p1p/4p1p1/1B3n1P/3PN1P1/B1P2Q2/P4P2/R3R1K1 b - g3 0 3",
+        "parentNodeId": "27",
+        "san": "g4"
+      },
+      "dN": {
+        "adjacentNodeIds": [
+          "QQ"
+        ],
+        "comments": [
+          {
+            "text": "The queen came in with check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7",
+                "h7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rqbr4/p3nQ1k/1p2p1p1/1B6/2PP2P1/4pP2/P5K1/4R3 b - - 1 16",
+        "parentNodeId": "i1",
+        "san": "Qf7+"
+      },
+      "dn": {
+        "adjacentNodeIds": [
+          "fF"
+        ],
+        "comments": [
+          {
+            "text": "Suppose the rook moves out of the way. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq1np1p/4p1pB/1B5P/3PN3/2P5/P4PP1/R2QR1K1 w - - 3 2",
+        "parentNodeId": "Ey",
+        "san": "Rd8"
+      },
+      "f6": {
+        "adjacentNodeIds": [
+          "ak"
+        ],
+        "comments": [
+          {
+            "text": "Black is getting destroyed.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/pp2qp1p/4p1p1/1B3n1P/3PNBP1/2P2Q2/P4P2/R3R1K1 b - g3 0 4",
+        "parentNodeId": "DO",
+        "san": "g4"
+      },
+      "fF": {
+        "adjacentNodeIds": [
+          "So"
+        ],
+        "comments": [
+          {
+            "text": "Again, the queen can come to f3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq1np1p/4p1pB/1B5P/3PN3/2P2Q2/P4PP1/R3R1K1 b - - 4 2",
+        "parentNodeId": "dn",
+        "san": "Qf3"
+      },
+      "hG": {
+        "adjacentNodeIds": [
+          "ZY"
+        ],
+        "comments": [
+          {
+            "text": "But Magnus just blocked.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1br4/pq2n1k1/1p2p1p1/1B6/2PP1QP1/4pP2/P5K1/4R2R b - - 0 14",
+        "parentNodeId": "5B",
+        "san": "f3"
+      },
+      "i1": {
+        "adjacentNodeIds": [
+          "dN"
+        ],
+        "comments": [
+          {
+            "text": "Black captured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rqbr4/p3n2k/1p2p1p1/1B6/2PP1QP1/4pP2/P5K1/4R3 w - - 0 16",
+        "parentNodeId": "I0",
+        "san": "Kxh7"
+      },
+      "k6": {
+        "adjacentNodeIds": [
+          "H9"
+        ],
+        "comments": [
+          {
+            "text": "Black went on to develop the light-squared bishop. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c8-b7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2k1/p1q2pb1/1p2p1p1/1B1n4/3PN1P1/2P2Q2/P4PK1/R1B4R w - - 0 8",
+        "parentNodeId": "9j",
+        "san": "b6"
+      },
+      "k8": {
+        "adjacentNodeIds": [
+          "lV"
+        ],
+        "comments": [
+          {
+            "text": "The knight retreated, and now the queen and black rook are on the same diagonal. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2k1/p1q1npb1/1p2p1p1/1B6/2PPN1P1/5Q2/P4PK1/R1B4R w - - 1 9",
+        "parentNodeId": "H9",
+        "san": "Ne7"
+      },
+      "kn": {
+        "adjacentNodeIds": [
+          "Jw"
+        ],
+        "comments": [
+          {
+            "text": "Magnus supported his knight, so that Qxe4, trading queens, couldn't be played.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br4/pq2n1k1/1p2p1p1/1B3p2/2PPN1P1/5Q2/P4PK1/4R2R b - - 1 12",
+        "parentNodeId": "1M",
+        "san": "Rae1"
+      },
+      "l0": {
+        "adjacentNodeIds": [
+          "9A"
+        ],
+        "comments": [
+          {
+            "text": "And now White could have developed the queen. The plan is: develop, make pieces as active as possible, and overrun Black because of the superior piece activity.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/ppq1np2/4p1p1/1B6/3PN3/2P2Q2/P4PP1/R1B1R1K1 b - - 1 2",
+        "parentNodeId": "X",
+        "san": "Qf3"
+      },
+      "lV": {
+        "adjacentNodeIds": [
+          "AA"
+        ],
+        "comments": [
+          {
+            "text": "Magnus brought the bishop out, though.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2k1/p1q1npb1/1p2p1p1/1B6/2PPNBP1/5Q2/P4PK1/R6R b - - 2 9",
+        "parentNodeId": "k8",
+        "san": "Bf4"
+      },
+      "pU": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But it's hard to say how Black will defend the knight. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-g5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1br2kb/pp2qp1p/4p1p1/1B5P/3PNBPn/2P3Q1/P4P2/R3R1K1 b - - 2 5",
+        "parentNodeId": "ak",
+        "san": "Qg3"
+      },
+      "r7": {
+        "adjacentNodeIds": [
+          "9j"
+        ],
+        "comments": [
+          {
+            "text": "Naroditsky wants to defend the dark squares around the king. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h8",
+                "h6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1br2k1/ppq2pb1/4p1p1/1B1n4/3PN1P1/B1P2Q2/P4PK1/R6R w - - 4 7",
+        "parentNodeId": "LY",
+        "san": "Bg7"
+      },
+      "uP": {
+        "adjacentNodeIds": [
+          "MI"
+        ],
+        "comments": [
+          {
+            "text": "Magnus traded once on g6, opening up the h-file. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1br2kb/ppq1np1p/4p1P1/1B6/3PN1P1/B1P2Q2/P4P2/R3R1K1 b - - 0 4",
+        "parentNodeId": "bB",
+        "san": "hxg6"
+      },
+      "xI": {
+        "adjacentNodeIds": [
+          "MM"
+        ],
+        "comments": [
+          {
+            "text": "Magnus came in to trade Black's only defender. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1br2k1/pq2npb1/1p2p1p1/1B2B3/2PPN1P1/5Q2/P4PK1/R6R b - - 4 10",
+        "parentNodeId": "AA",
+        "san": "Be5"
+      },
+      "y": {
+        "adjacentNodeIds": [
+          "X"
+        ],
+        "comments": [
+          {
+            "text": "This move was possible. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/ppq1np1p/4p1P1/1B6/3PN3/2P5/P4PP1/R1BQR1K1 b - - 0 1",
+        "parentNodeId": "0",
+        "san": "hxg6"
+      },
+      "ya": {
+        "adjacentNodeIds": [
+          "Kh"
+        ],
+        "comments": [
+          {
+            "text": "The queen attacks d4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rkb/1p3p2/p3p1p1/8/1nPPNB2/3B1Q2/P4PP1/R3R1K1 w - - 3 6",
+        "parentNodeId": "Au",
+        "san": "Qd8"
+      },
+      "zs": {
+        "adjacentNodeIds": [
+          "Nn"
+        ],
+        "comments": [
+          {
+            "text": "The knight attacks c3.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rkb/1pq2p2/p3p1p1/3n4/3PN3/2PB1Q2/P4PP1/R1B1R1K1 w - - 2 4",
+        "parentNodeId": "PD",
+        "san": "Nd5"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

@@ -1,0 +1,47 @@
+{
+  "id": "7c2e890a-03f6-4065-a158-87ea27e57756",
+  "name": "Quiz 2 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black captures our pawn on f4. \n\nOur opponent's king looks pretty weak in the center. \n\nWhat's the best move that prepares to start an attack on Black's king?",
+    "answers": [
+      {
+        "text": "Qe3",
+        "feedback": {
+          "text": "Excellent job! Preparing to play Qb6+ and infiltrate Black's queenside.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e3-b6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "2rk4/1p2npp1/3p1q2/1B1P4/PP3r1p/4Q2P/6P1/3RR1K1 b - - 1 2"
+      }
+    ],
+    "distractors": [],
+    "positionFen": "2rk4/1p2npp1/3p1q2/1B1P1r2/PP3P1p/1Q5P/6P1/3RR1K1 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "d8"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Rxf4",
+      "afterMoveFen": "2rk4/1p2npp1/3p1q2/1B1P4/PP3r1p/1Q5P/6P1/3RR1K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,37 @@
+{
+  "id": "12412f9d-c271-418b-a46b-b0660bc1198e",
+  "name": "Quiz 4 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black defends against checkmate on g7. \n\nHow can White bring yet another piece into the attack?",
+    "answers": [
+      {
+        "text": "Rf3",
+        "feedback": {
+          "text": "Good job! The rook can now move to h3.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f3-h3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r2q2rk/pp3p1p/3p1PpQ/3P4/3p2P1/3b1R2/PP4BP/R5K1 b - - 3 2"
+      }
+    ],
+    "distractors": [],
+    "positionFen": "r2q1r1k/pp3p1p/3p1PpQ/3P4/3p2P1/3b4/PP4BP/R4RK1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rg8",
+      "afterMoveFen": "r2q2rk/pp3p1p/3p1PpQ/3P4/3p2P1/3b4/PP4BP/R4RK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,100 @@
+{
+  "id": "409f74f7-afc5-45f1-a2a7-784d33437130",
+  "name": "Quiz 3",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The rook attacks the queen. \n\nWhat should you do about this attack?",
+    "answers": [
+      {
+        "text": "Qxe1#",
+        "feedback": {
+          "text": "Correct! The rook on e8 supports the queen, so you can take! \n\n",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e8",
+              "e1"
+            ]
+          }
+        },
+        "comment": "take the rook.",
+        "afterMoveFen": "4r2r/6k1/1pp2n1p/p2p4/5R2/2N2PPB/PPP5/3Kq3 w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Qc5",
+        "feedback": {
+          "text": "While this is a safe square for the queen, it isn't the best move.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "moving the queen to a safe square.",
+        "afterMoveFen": "4r2r/6k1/1pp2n1p/p1qp4/5R2/2N2PPB/PPP5/3KR3 w - - 3 2"
+      },
+      {
+        "text": "Qf2",
+        "feedback": {
+          "text": "This is another safe square. But it isn't the best move.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "moving the queen to a safe square.",
+        "afterMoveFen": "4r2r/6k1/1pp2n1p/p2p4/5R2/2N2PPB/PPP2q2/3KR3 w - - 3 2"
+      },
+      {
+        "text": "Qxf4",
+        "feedback": {
+          "text": "This makes things too complicated. There's no need to lose material.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "simplifying!",
+        "afterMoveFen": "4r2r/6k1/1pp2n1p/p2p4/5q2/2N2PPB/PPP5/3KR3 w - - 0 2"
+      }
+    ],
+    "positionFen": "4r2r/6k1/1pp2n1p/p2p4/5R2/2N1qPPB/PPP5/3K3R w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e1-e3"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "e3"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Re1",
+      "afterMoveFen": "4r2r/6k1/1pp2n1p/p2p4/5R2/2N1qPPB/PPP5/3KR3 b - - 2 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,78 @@
+{
+  "id": "747903d5-b4f2-4421-bce4-253bcfb7e1ae",
+  "name": "Quiz 29 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White jumps to h5. \n\nIs there something wrong with ...f5, attacking the queen?",
+    "answers": [
+      {
+        "text": "There’s nothing wrong. It’s a good move.",
+        "feedback": {
+          "text": "Good job! ...f5 is a nice expanding move that comes with a tempo.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f7-f5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes! White gets a tactic.",
+        "feedback": {
+          "text": "No tactics here!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "There’s nothing wrong with it tactically, but it’s not good strategically.",
+        "feedback": {
+          "text": "Not really. The queen will have to go to a worse square.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f7-f5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3rr1k1/1p2npbn/p6q/3p4/3PpNQ1/2P3B1/PPB2PP1/1R2R1K1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f7-f5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nh5",
+      "afterMoveFen": "3rr1k1/1p2npbn/p6q/3p3N/3Pp1Q1/2P3B1/PPB2PP1/1R2R1K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

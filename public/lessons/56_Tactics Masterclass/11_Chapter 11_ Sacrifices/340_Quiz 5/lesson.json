@@ -1,0 +1,58 @@
+{
+  "id": "522e63ae-a624-4b96-a2fc-bf4cc7ac5652",
+  "name": "Quiz 5 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The rook is attacking your knight. Try to see if any sacrifices of the knight on h5 work. \n\nWhich is the best square for your knight?",
+    "answers": [
+      {
+        "text": "Ng7+",
+        "feedback": {
+          "text": "The idea behind this sac is to go for a double sacrifice. Ng7+ Nxg7 Nxf7 Kxf7 and the queen gets the g6-square for Qg6+. The rook on g1 supports the queen along the g-file.",
+          "arrows": {
+            "threats": [
+              "g5-f7"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "3qk2r/p3bpN1/n3p3/3pPnN1/P1pP3P/1rP2P2/2Q2B2/R4KR1 b k - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you spot a clever sacrifice?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3qk2r/p3bp2/n3p2n/3pP1NN/P1pP3P/1rP2P2/2Q2B2/R4KR1 b k - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "h5"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Nf5",
+      "afterMoveFen": "3qk2r/p3bp2/n3p3/3pPnNN/P1pP3P/1rP2P2/2Q2B2/R4KR1 w k - 2 2"
+    }
+  },
+  "drill": null
+}

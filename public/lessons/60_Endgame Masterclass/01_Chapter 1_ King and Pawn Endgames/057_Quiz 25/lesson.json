@@ -1,0 +1,82 @@
+{
+  "id": "9969df35-2b75-42bc-9c70-53e54d17736a",
+  "name": "Quiz 25",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has traded into a king and pawn endgame. \n\nBoth sides have an equal amount of pawns. \n\nIs there something wrong with Kf4, getting the opposition?",
+    "answers": [
+      {
+        "text": "Yes, it is losing.",
+        "feedback": {
+          "text": "Correct! If Kf4 White does have the opposition, but after Black wastes a tempo with ...b5, it is White to move and so White loses the opposition and the game.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e3-f4",
+              "b7-b5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Nothing wrong, the game should be a draw.",
+        "feedback": {
+          "text": "Are you sure? Is there a way for Black to win the opposition back?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Nothing wrong, it should be a win for White.",
+        "feedback": {
+          "text": "If Black gets the opposition with ...b5, is it a win for White?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e3-f4",
+              "b7-b5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/1p3k2/2p2B2/3p3p/1P5P/P1P1K3/8/8 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e3-f4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Kxf6",
+      "afterMoveFen": "8/1p6/2p2k2/3p3p/1P5P/P1P1K3/8/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

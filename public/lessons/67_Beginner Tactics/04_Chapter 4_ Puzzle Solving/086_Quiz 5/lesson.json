@@ -1,0 +1,92 @@
+{
+  "id": "6b237347-9976-47f3-9b46-6f532eb29960",
+  "name": "Quiz 5",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Nd1 attacks the queen. \n\nWhat tactic does this move allow?",
+    "answers": [
+      {
+        "text": "A pin.",
+        "feedback": {
+          "text": "...Rxc1 wins material and it's a pin at the same time: the knight cannot move.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A fork.",
+        "feedback": {
+          "text": "I don't think there are any forks here.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "A discovered attack.",
+        "feedback": {
+          "text": "The rook on c8, the queen on e3, already see the pieces they're attacking. There's no discovered attack to be played.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "A skewer.",
+        "feedback": {
+          "text": "It isn't a skewer if the piece of less value stands in front of the piece that's worth more.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r2rk1/5p1p/b3pnp1/p2p2N1/5P1Q/P1N1q3/6PP/R1R4K w - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "e3"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Nd1",
+      "afterMoveFen": "2r2rk1/5p1p/b3pnp1/p2p2N1/5P1Q/P3q3/6PP/R1RN3K b - - 2 1"
+    }
+  },
+  "drill": null
+}

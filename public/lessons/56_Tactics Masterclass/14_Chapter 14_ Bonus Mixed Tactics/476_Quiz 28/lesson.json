@@ -1,0 +1,80 @@
+{
+  "id": "3c298031-4690-4455-8677-32b3b0020f4b",
+  "name": "Quiz 28 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White defends the h2-pawn.\n\nCan you take on c2 with ...Qxc2?",
+    "answers": [
+      {
+        "text": "No, it’s a poisoned pawn.",
+        "feedback": {
+          "text": "Exactly, it allows Qe7+ and Rc1 next.",
+          "arrows": {
+            "threats": [
+              "c7-c2"
+            ],
+            "opportunities": [
+              "a3-e7",
+              "d1-c1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, it’s a free pawn.",
+        "feedback": {
+          "text": "Capturing the pawn would allow White's queen to infiltrate via Qe7+!",
+          "arrows": {
+            "threats": [
+              "c5-c2",
+              "c7-c2"
+            ],
+            "opportunities": [
+              "a3-e7",
+              "d1-c1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Maybe. It’s not really poisoned, but it gives White counterplay.",
+        "feedback": {
+          "text": "Counterplay is an understatement. It is definitely poisoned!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r6r/1pqk1p1p/p3p3/4b1B1/3pN3/Q7/PPP2PPP/3R2K1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c7-c2"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "g3",
+      "afterMoveFen": "r6r/1pqk1p1p/p3p3/4b1B1/3pN3/Q5P1/PPP2P1P/3R2K1 b - - 0 1"
+    }
+  },
+  "drill": null
+}

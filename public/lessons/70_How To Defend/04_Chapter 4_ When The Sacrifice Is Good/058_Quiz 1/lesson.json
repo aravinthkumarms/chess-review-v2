@@ -1,0 +1,71 @@
+{
+  "id": "fa92455d-5f38-4988-ac13-6495301ab972",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "I played this sacrifice with White in Titled Tuesday. \n\nWhat's wrong with ...bxa6, accepting the sacrifice?",
+    "answers": [
+      {
+        "text": "White will win the rook on f8 or checkmate the king.",
+        "feedback": {
+          "text": "Yes! After ...bxa6, Qxc6+.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "There's nothing wrong with accepting the sacrifice.",
+        "feedback": {
+          "text": "Are you sure?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White will win many pawns for the piece and they'll have a passed a-pawn.",
+        "feedback": {
+          "text": "There's something worse than this.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2k2r2/1p2q1p1/pQp1p2n/P2pP3/3P2p1/2PB2P1/2P3KP/5R2 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bxa6",
+      "afterMoveFen": "2k2r2/1p2q1p1/BQp1p2n/P2pP3/3P2p1/2P3P1/2P3KP/5R2 b - - 0 1"
+    }
+  },
+  "drill": null
+}

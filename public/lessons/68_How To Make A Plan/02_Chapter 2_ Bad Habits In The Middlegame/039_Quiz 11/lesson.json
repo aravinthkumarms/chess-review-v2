@@ -1,0 +1,76 @@
+{
+  "id": "7d4d479a-446b-4ac2-bc75-48e2d069eef7",
+  "name": "Quiz 11",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White is a pawn up. The queen just went back to c2. \n\nIs White threatening something, or should you just develop?",
+    "answers": [
+      {
+        "text": "Yes, there is danger. ",
+        "feedback": {
+          "text": "Exactly! b4 forks both of your knights! ",
+          "arrows": {
+            "threats": [
+              "b2-b4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c5",
+              "a5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No danger at all. Develop with Bd6. ",
+        "feedback": {
+          "text": "Look for a possible attack White may have. ",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "The knights are undefended, but there's no way to attack them at this moment. So just develop with Bd6. ",
+        "feedback": {
+          "text": "Are you sure there isn't a way to attack them? ",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2qkb1r/p4ppp/2p5/n1npp3/Q7/2P3PB/PP1PPP1P/RNB1K2R w KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qc2",
+      "afterMoveFen": "r2qkb1r/p4ppp/2p5/n1npp3/8/2P3PB/PPQPPP1P/RNB1K2R b KQkq - 2 1"
+    }
+  },
+  "drill": null
+}

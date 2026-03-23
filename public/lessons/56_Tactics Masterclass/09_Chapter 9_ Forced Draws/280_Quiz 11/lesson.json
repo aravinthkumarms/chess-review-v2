@@ -1,0 +1,53 @@
+{
+  "id": "53f710eb-a1ea-4cc5-90b0-3a0c43cf369a",
+  "name": "Quiz 11",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black recaptures our rook, and is a knight ahead. Let's get rid of our legal moves! \n\nHow should White proceed?",
+    "answers": [
+      {
+        "text": "f6",
+        "feedback": {
+          "text": "Great vision! Our f-pawn has to go first, so we don't have a move after we sacrifice a rook!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a7-e7"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/R3nk2/p4P2/1p6/1P6/KP6/2r5/8 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can we get rid of the f-pawn, so our rook can sacrifice itself in order to set up a stalemate?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/R3nk2/p7/1p3P2/1P6/KP6/2R2r2/8 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "f5"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Rxc2",
+      "afterMoveFen": "8/R3nk2/p7/1p3P2/1P6/KP6/2r5/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

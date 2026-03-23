@@ -1,0 +1,49 @@
+{
+  "id": "3a622218-f368-4871-ac54-e7a3ae05aa94",
+  "name": "Quiz 8",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White captures the c7-pawn.\n\nHow can Black trap the bishop?",
+    "answers": [
+      {
+        "text": "d6",
+        "feedback": {
+          "text": "Excellent! ...d6 traps the bishop. Ba5 fails due to ...Qg5+ so the bishop is truly trapped and can be won later.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1b1kbn1/p1B2pp1/2pp1q2/8/4P3/7r/PPP1BP1P/RN1Q1RK1 w q - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "You should look for a way to disallow White's bishop from retreating to g3.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1b1kbn1/p1pp1pp1/2p2q2/8/4PB2/7r/PPP1BP1P/RN1Q1RK1 w q - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bxc7",
+      "afterMoveFen": "r1b1kbn1/p1Bp1pp1/2p2q2/8/4P3/7r/PPP1BP1P/RN1Q1RK1 b q - 0 1"
+    }
+  },
+  "drill": null
+}

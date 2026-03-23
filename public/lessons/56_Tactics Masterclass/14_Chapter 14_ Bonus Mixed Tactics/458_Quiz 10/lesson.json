@@ -1,0 +1,85 @@
+{
+  "id": "4cc1f380-268d-4018-be0c-3293d05f12b3",
+  "name": "Quiz 10 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks your knight. \n\nWhich move sets up the most tactics for White?",
+    "answers": [
+      {
+        "text": "Ng5",
+        "feedback": {
+          "text": "Nice one! We're threatening Qe6+.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e1-e6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "jumping to g5.",
+        "afterMoveFen": "3r2k1/p5pp/8/1pRn1pN1/8/1P1q2P1/5P1P/4Q1K1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rc8",
+        "feedback": {
+          "text": "Not the best idea, since Black shuts down all threats with ...Nf4.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "if Black captures the rook we'll go Nc5 and Black has a weak back-rank and their queen is hanging.",
+        "afterMoveFen": "2Rr2k1/p5pp/8/1p1n1p2/4N3/1P1q2P1/5P1P/4Q1K1 b - - 1 2"
+      },
+      {
+        "text": "Nd6",
+        "feedback": {
+          "text": "Black has a strong desperado move ...Nf4 and captures our knight on d6 next!",
+          "arrows": {
+            "threats": [
+              "d5-f4"
+            ],
+            "opportunities": [
+              "d3-d6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": "exploiting the weak back-rank.",
+        "afterMoveFen": "3r2k1/p5pp/3N4/1pRn1p2/8/1P1q2P1/5P1P/4Q1K1 b - - 1 2"
+      },
+      {
+        "text": "Nc3",
+        "feedback": {
+          "text": "Black simply trades and the endgame doesn't favor us.",
+          "arrows": {
+            "threats": [
+              "d5-c3"
+            ],
+            "opportunities": []
+          },
+          "highlights": null
+        },
+        "comment": "putting pressure on the knight.",
+        "afterMoveFen": "3r2k1/p5pp/8/1pRn1p2/8/1PNq2P1/5P1P/4Q1K1 b - - 1 2"
+      }
+    ],
+    "positionFen": "3r2k1/p4ppp/8/1pRn4/4N3/1P1q2P1/5P1P/4Q1K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "f5",
+      "afterMoveFen": "3r2k1/p5pp/8/1pRn1p2/4N3/1P1q2P1/5P1P/4Q1K1 w - f6 0 2"
+    }
+  },
+  "drill": null
+}

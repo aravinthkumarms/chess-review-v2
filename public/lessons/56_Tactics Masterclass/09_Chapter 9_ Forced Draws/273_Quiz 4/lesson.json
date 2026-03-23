@@ -1,0 +1,55 @@
+{
+  "id": "3c9188d1-3054-40e0-b132-3d32175aed82",
+  "name": "Quiz 4 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White attacks the queen, and Black is down a piece. \n\nWhich move leads to a forced draw?",
+    "answers": [
+      {
+        "text": "Bd6",
+        "feedback": {
+          "text": "Nice one! After Nxd3 we have ...Bh2+ and White cannot escape the checks!",
+          "arrows": {
+            "threats": [
+              "e5-d3"
+            ],
+            "opportunities": [
+              "d6-h2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "h8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r3k1nr/1pp2pp1/p1pb4/4N3/4P1p1/2Pq4/PP1P1PP1/RNBQ1RK1 w kq - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Black wants to deliver a perpetual here, but the queen isn't necessary...",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r3kbnr/1pp2pp1/p1p5/4p3/4P1p1/2Pq1N2/PP1P1PP1/RNBQ1RK1 w kq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxe5",
+      "afterMoveFen": "r3kbnr/1pp2pp1/p1p5/4N3/4P1p1/2Pq4/PP1P1PP1/RNBQ1RK1 b kq - 0 1"
+    }
+  },
+  "drill": null
+}

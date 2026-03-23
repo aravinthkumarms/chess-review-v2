@@ -1,0 +1,65 @@
+{
+  "id": "1d377536-c183-45f9-a2db-4f1876448396",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black sacrifices the exchange on g3.\n\nWhat's the best way to recapture?",
+    "answers": [
+      {
+        "text": "White should recapture with the king to avoid tactics.",
+        "feedback": {
+          "text": "Great job! If Nxg3, Black has ...Bf4 with immense pressure on the knight.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h2-g3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White should recapture with the knight, to not expose the king.",
+        "feedback": {
+          "text": "After Nxg3, Black has ...Bg4 and the position could colllapse quickly.",
+          "arrows": {
+            "threats": [
+              "e4-g3"
+            ],
+            "opportunities": [
+              "h6-f4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Capturing either way is okay.",
+        "feedback": {
+          "text": "Unfortunately, one capture is better than the other!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1b3rk/1p2q3/pQ1p1n1b/3Pp2p/4N2P/3B1PB1/PP5K/3RR3 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rxg3",
+      "afterMoveFen": "r1b4k/1p2q3/pQ1p1n1b/3Pp2p/4N2P/3B1Pr1/PP5K/3RR3 w - - 0 2"
+    }
+  },
+  "drill": null
+}

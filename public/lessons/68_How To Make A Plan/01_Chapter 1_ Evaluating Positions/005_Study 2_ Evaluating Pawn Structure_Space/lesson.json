@@ -1,0 +1,691 @@
+{
+  "id": "5180eb3f-06da-4c1b-9b36-78827857d1fa",
+  "name": "Study 2: Evaluating Pawn Structure/Space",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "B",
+          "l",
+          "TB"
+        ],
+        "comments": [
+          {
+            "text": "Magnus Carlsen had this position with the Black pieces. \n\nMaterial count is equal. Both players have ok structures (though Black's central pawns are quite strong). \n\nBlack has more space. White's knight on the rim is dim. Both kings seem quite safe for the moment being. \n\nI think we'd have to give Black the advantage because of space and central control, and better pieces.\n\nThe engine agrees. Black has a -2.5 advantage.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/60826765133?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qr1k1/5pp1/3p1n1p/2pn1P2/N2p1BP1/1P3Q1P/P4P2/R3R1K1 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "2i": {
+        "adjacentNodeIds": [
+          "72"
+        ],
+        "comments": [
+          {
+            "text": "The knight can enter and attack the queen. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/5pp1/7p/1qpp1P2/3pn1P1/1P1N3P/P2Q1P2/4R1K1 w - - 3 8",
+        "parentNodeId": "JO",
+        "san": "Ne4"
+      },
+      "3x": {
+        "adjacentNodeIds": [
+          "o9"
+        ],
+        "comments": [
+          {
+            "text": "Black could trade one pair of rooks to disturb White's coordination...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r4k1/5pp1/5n1p/1qpp1P2/3p1QP1/1P1N3P/P4P2/3Rr1K1 w - - 0 6",
+        "parentNodeId": "o1",
+        "san": "Rxe1+"
+      },
+      "72": {
+        "adjacentNodeIds": [
+          "sd"
+        ],
+        "comments": [
+          {
+            "text": "When the queen goes to c2...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/5pp1/7p/1qpp1P2/3pn1P1/1P1N3P/P1Q2P2/4R1K1 b - - 4 8",
+        "parentNodeId": "2i",
+        "san": "Qc2"
+      },
+      "7Q": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Rb4 is a defence that we should've seen before going for the c4-c3 advances.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/2q2pp1/3p1n1p/3n1P2/Nr1p2P1/1PpQ2BP/P4P2/2R3K1 w - - 2 6",
+        "parentNodeId": "tN",
+        "san": "Rb4"
+      },
+      "7S": {
+        "adjacentNodeIds": [
+          "kO"
+        ],
+        "comments": [
+          {
+            "text": "Now the pawns can be pushed up to control more squares...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-e4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1r2r1k1/3q1pp1/5n1p/2pp1P2/3p1QP1/1P5P/PN3P2/R3R1K1 w - - 0 4",
+        "parentNodeId": "FE",
+        "san": "d5"
+      },
+      "B": {
+        "adjacentNodeIds": [
+          "YT"
+        ],
+        "comments": [
+          {
+            "text": "Magnus decided to connect his rooks.\n\nThis plan is also fine, and Magnus probably chose it because it's safe and keeps everything the way it currently is.  ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2r1k1/3q1pp1/3p1n1p/2pn1P2/N2p1BP1/1P3Q1P/P4P2/R3R1K1 w - - 2 2",
+        "parentNodeId": "0",
+        "san": "Qd7"
+      },
+      "Bs": {
+        "adjacentNodeIds": [
+          "Y5",
+          "MV"
+        ],
+        "comments": [
+          {
+            "text": "And now we can undermine the queenside with c4...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r4k1/2q2pp1/3p1n1p/3n1P2/N1pp2P1/1P3QBP/P4P2/4R1K1 w - - 0 4",
+        "parentNodeId": "mG",
+        "san": "c4"
+      },
+      "FE": {
+        "adjacentNodeIds": [
+          "7S"
+        ],
+        "comments": [
+          {
+            "text": "White would've been advised to improve their worst piece...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-b2",
+                "b2-d3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2r1k1/3q1pp1/3p1n1p/2p2P2/3p1QP1/1P5P/PN3P2/R3R1K1 b - - 2 3",
+        "parentNodeId": "Ky",
+        "san": "Nb2"
+      },
+      "JO": {
+        "adjacentNodeIds": [
+          "2i"
+        ],
+        "comments": [
+          {
+            "text": "If the queen defends both points...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/5pp1/5n1p/1qpp1P2/3p2P1/1P1N3P/P2Q1P2/4R1K1 b - - 2 7",
+        "parentNodeId": "SU",
+        "san": "Qd2"
+      },
+      "Ky": {
+        "adjacentNodeIds": [
+          "FE"
+        ],
+        "comments": [
+          {
+            "text": "Magnus could've still gone for Qd7...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2r1k1/3q1pp1/3p1n1p/2p2P2/N2p1QP1/1P5P/P4P2/R3R1K1 w - - 1 3",
+        "parentNodeId": "u",
+        "san": "Qd7"
+      },
+      "LG": {
+        "adjacentNodeIds": [
+          "yX"
+        ],
+        "comments": [
+          {
+            "text": "The bishop can retreat...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2r1k1/2q2pp1/3p1n1p/2pn1P2/N2p2P1/1P3QBP/P4P2/R3R1K1 b - - 3 2",
+        "parentNodeId": "TB",
+        "san": "Bg3"
+      },
+      "LY": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The knight is running out of squares and the queenside is destroyed.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r4k1/5pp1/3p1n1p/3n1P2/N1qp2P1/5QBP/P4P2/4R1K1 w - - 0 5",
+        "parentNodeId": "MV",
+        "san": "Qxc4"
+      },
+      "MV": {
+        "adjacentNodeIds": [
+          "LY"
+        ],
+        "comments": [
+          {
+            "text": "If this pawn were captured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r4k1/2q2pp1/3p1n1p/3n1P2/N1Pp2P1/5QBP/P4P2/4R1K1 b - - 0 4",
+        "parentNodeId": "Bs",
+        "san": "bxc4"
+      },
+      "N5": {
+        "adjacentNodeIds": [
+          "bD"
+        ],
+        "comments": [
+          {
+            "text": "But after Magnus brought his knight in...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/3q1pp1/3p1n1p/2p2P2/N2p2PP/1P3QB1/P1n2P2/R5K1 w - - 1 5",
+        "parentNodeId": "u4",
+        "san": "Nc2"
+      },
+      "PI": {
+        "adjacentNodeIds": [
+          "u4"
+        ],
+        "comments": [
+          {
+            "text": "Magnus recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/3q1pp1/3p1n1p/2p2P2/Nn1p2P1/1P3QBP/P4P2/R5K1 w - - 0 4",
+        "parentNodeId": "oX",
+        "san": "Rxe8"
+      },
+      "SU": {
+        "adjacentNodeIds": [
+          "JO"
+        ],
+        "comments": [
+          {
+            "text": "Hence we could continue by putting pressure on the a-pawn and the knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a2",
+                "d3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/5pp1/5n1p/1qpp1P2/3p1QP1/1P1N3P/P4P2/4R1K1 w - - 1 7",
+        "parentNodeId": "o9",
+        "san": "Ra8"
+      },
+      "TB": {
+        "adjacentNodeIds": [
+          "LG"
+        ],
+        "comments": [
+          {
+            "text": "Qc7 is another option to coordinate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2r1k1/2q2pp1/3p1n1p/2pn1P2/N2p1BP1/1P3Q1P/P4P2/R3R1K1 w - - 2 2",
+        "parentNodeId": "0",
+        "san": "Qc7"
+      },
+      "Tm": {
+        "adjacentNodeIds": [
+          "o1"
+        ],
+        "comments": [
+          {
+            "text": "Qb5 improves the queen's position, attacks the knight and defends c5. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d3"
+              ],
+              "opportunities": [
+                "c5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1r2r1k1/5pp1/5n1p/1qpp1P2/3p1QP1/1P1N3P/P4P2/R3R1K1 w - - 2 5",
+        "parentNodeId": "kO",
+        "san": "Qb5"
+      },
+      "WV": {
+        "adjacentNodeIds": [
+          "pD"
+        ],
+        "comments": [
+          {
+            "text": "The game could have continued like this...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/3q1pp1/3p1n1p/2p2P2/N2p2PP/1P4B1/P4P2/2RQn1K1 b - - 4 6",
+        "parentNodeId": "dW",
+        "san": "Qd1"
+      },
+      "Y5": {
+        "adjacentNodeIds": [
+          "xs"
+        ],
+        "comments": [
+          {
+            "text": "If White pins the pawn...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r4k1/2q2pp1/3p1n1p/3n1P2/N1pp2P1/1P3QBP/P4P2/2R3K1 b - - 1 4",
+        "parentNodeId": "Bs",
+        "san": "Rc1"
+      },
+      "YT": {
+        "adjacentNodeIds": [
+          "kh"
+        ],
+        "comments": [
+          {
+            "text": "White preserved their bishop. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2r1k1/3q1pp1/3p1n1p/2pn1P2/N2p2P1/1P3QBP/P4P2/R3R1K1 b - - 3 2",
+        "parentNodeId": "B",
+        "san": "Bg3"
+      },
+      "bD": {
+        "adjacentNodeIds": [
+          "dW"
+        ],
+        "comments": [
+          {
+            "text": "The rook came to c1, attacking the knight...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/3q1pp1/3p1n1p/2p2P2/N2p2PP/1P3QB1/P1n2P2/2R3K1 b - - 2 5",
+        "parentNodeId": "N5",
+        "san": "Rc1"
+      },
+      "dW": {
+        "adjacentNodeIds": [
+          "WV"
+        ],
+        "comments": [
+          {
+            "text": "Magnus attacked the queen and White resigned.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/3q1pp1/3p1n1p/2p2P2/N2p2PP/1P3QB1/P4P2/2R1n1K1 w - - 3 6",
+        "parentNodeId": "bD",
+        "san": "Ne1"
+      },
+      "kO": {
+        "adjacentNodeIds": [
+          "Tm"
+        ],
+        "comments": [
+          {
+            "text": "If Nd3, attacking c5...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1r2r1k1/3q1pp1/5n1p/2pp1P2/3p1QP1/1P1N3P/P4P2/R3R1K1 b - - 1 4",
+        "parentNodeId": "7S",
+        "san": "Nd3"
+      },
+      "kh": {
+        "adjacentNodeIds": [
+          "oX"
+        ],
+        "comments": [
+          {
+            "text": "The knight was activated further, threatening a fork.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b4-c2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2r1k1/3q1pp1/3p1n1p/2p2P2/Nn1p2P1/1P3QBP/P4P2/R3R1K1 w - - 4 3",
+        "parentNodeId": "YT",
+        "san": "Nb4"
+      },
+      "l": {
+        "adjacentNodeIds": [
+          "u"
+        ],
+        "comments": [
+          {
+            "text": "One of the plans was trading one of White's best pieces. \n\nThe bishop exerted some pressure on the d6 pawn. Besides, the knights were superfluous: they stepped on each other's toes, being both able to occupy the d5 square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qr1k1/5pp1/3p1n1p/2p2P2/N2p1nP1/1P3Q1P/P4P2/R3R1K1 w - - 0 2",
+        "parentNodeId": "0",
+        "san": "Nxf4"
+      },
+      "mG": {
+        "adjacentNodeIds": [
+          "Bs"
+        ],
+        "comments": [
+          {
+            "text": "This helps diminish the pressure.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r4k1/2q2pp1/3p1n1p/2pn1P2/N2p2P1/1P3QBP/P4P2/4R1K1 b - - 0 3",
+        "parentNodeId": "yX",
+        "san": "Rxe1"
+      },
+      "o1": {
+        "adjacentNodeIds": [
+          "3x"
+        ],
+        "comments": [
+          {
+            "text": "Supposing something like Rad1 was played to defend the knight...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1r2r1k1/5pp1/5n1p/1qpp1P2/3p1QP1/1P1N3P/P4P2/3RR1K1 b - - 3 5",
+        "parentNodeId": "Tm",
+        "san": "Rad1"
+      },
+      "o9": {
+        "adjacentNodeIds": [
+          "SU"
+        ],
+        "comments": [
+          {
+            "text": "The rook can recapture, since the knight is hanging but so is the rook on b8.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-b8",
+                "b5-d3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b8",
+                "d3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1r4k1/5pp1/5n1p/1qpp1P2/3p1QP1/1P1N3P/P4P2/4R1K1 b - - 0 6",
+        "parentNodeId": "3x",
+        "san": "Rxe1"
+      },
+      "oX": {
+        "adjacentNodeIds": [
+          "PI"
+        ],
+        "comments": [
+          {
+            "text": "The rooks were traded.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2R1k1/3q1pp1/3p1n1p/2p2P2/Nn1p2P1/1P3QBP/P4P2/R5K1 b - - 0 3",
+        "parentNodeId": "kh",
+        "san": "Rxe8+"
+      },
+      "pD": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But Qb7, threatening checkmate, was a killer move. \n\nBlack's superior pawn structure in the center allowed the knight some key squares to jump to, and White wasn't able to undermine the center.",
+            "arrows": {
+              "threats": [
+                "b7-g2"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/1q3pp1/3p1n1p/2p2P2/N2p2PP/1P4B1/P4P2/2RQn1K1 w - - 5 7",
+        "parentNodeId": "WV",
+        "san": "Qb7"
+      },
+      "sd": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The knight can jump into g5 and threaten forks! \n\nBlack is much better, and should win if they keep the pressure up! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-f3",
+                "g5-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h3",
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/5pp1/7p/1qpp1Pn1/3p2P1/1P1N3P/P1Q2P2/4R1K1 w - - 5 9",
+        "parentNodeId": "72",
+        "san": "Ng5"
+      },
+      "tN": {
+        "adjacentNodeIds": [
+          "7Q"
+        ],
+        "comments": [
+          {
+            "text": "So after something like Qd3, attacking d4...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1r4k1/2q2pp1/3p1n1p/3n1P2/N2p2P1/1PpQ2BP/P4P2/2R3K1 b - - 1 5",
+        "parentNodeId": "xs",
+        "san": "Qd3"
+      },
+      "u": {
+        "adjacentNodeIds": [
+          "Ky"
+        ],
+        "comments": [
+          {
+            "text": "The queen recaptures.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qr1k1/5pp1/3p1n1p/2p2P2/N2p1QP1/1P5P/P4P2/R3R1K1 b - - 0 2",
+        "parentNodeId": "l",
+        "san": "Qxf4"
+      },
+      "u4": {
+        "adjacentNodeIds": [
+          "N5"
+        ],
+        "comments": [
+          {
+            "text": "White began a plan of their own...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-g5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/3q1pp1/3p1n1p/2p2P2/Nn1p2PP/1P3QB1/P4P2/R5K1 b - - 0 4",
+        "parentNodeId": "PI",
+        "san": "h4"
+      },
+      "xs": {
+        "adjacentNodeIds": [
+          "tN"
+        ],
+        "comments": [
+          {
+            "text": "We can just advance it. \n\nAnd before advancing we've got to make sure that our pawns can be defended in case they're attacked.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r4k1/2q2pp1/3p1n1p/3n1P2/N2p2P1/1Pp2QBP/P4P2/2R3K1 w - - 0 5",
+        "parentNodeId": "Y5",
+        "san": "c3"
+      },
+      "yX": {
+        "adjacentNodeIds": [
+          "mG"
+        ],
+        "comments": [
+          {
+            "text": "We can trade one pair of rooks off.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r4k1/2q2pp1/3p1n1p/2pn1P2/N2p2P1/1P3QBP/P4P2/R3r1K1 w - - 0 3",
+        "parentNodeId": "LG",
+        "san": "Rxe1+"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

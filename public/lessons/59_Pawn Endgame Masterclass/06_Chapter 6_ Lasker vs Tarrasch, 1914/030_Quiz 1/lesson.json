@@ -1,0 +1,89 @@
+{
+  "id": "15223f8d-cdcb-4750-badf-7dde3f148a20",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "What's the drawing move for White?",
+    "answers": [
+      {
+        "text": "h4",
+        "feedback": {
+          "text": "Correct! Pawn to h5 is a threat, as we saw in the study.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h4-h5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "pushing the pawn.",
+        "afterMoveFen": "8/6K1/8/ppp2k2/7P/1P6/1P6/8 b - h3 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kf7",
+        "feedback": {
+          "text": "Too slow! Black can start pushing.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "trying to get to the queenside.",
+        "afterMoveFen": "8/5K2/8/ppp2k2/8/1P6/1P5P/8 b - - 3 2"
+      },
+      {
+        "text": "Kh6",
+        "feedback": {
+          "text": "Nope!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "trying to get closer to the h-pawn.",
+        "afterMoveFen": "8/8/7K/ppp2k2/8/1P6/1P5P/8 b - - 3 2"
+      },
+      {
+        "text": "b4",
+        "feedback": {
+          "text": "Black could still break through!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "sacrificing a pawn on the queenside to slow down Black's advancement.",
+        "afterMoveFen": "8/6K1/8/ppp2k2/1P6/8/1P5P/8 b - - 0 2"
+      }
+    ],
+    "positionFen": "8/6K1/8/ppp1k3/8/1P6/1P5P/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kf5",
+      "afterMoveFen": "8/6K1/8/ppp2k2/8/1P6/1P5P/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ff1b779a-aa70-4c92-b737-0d032397d31b",
+  "name": "Quiz 8",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Is ...Bb4 a good move here to pin White's knight to their king?",
+    "answers": [
+      {
+        "text": "No, because White can win that bishop.",
+        "feedback": {
+          "text": "Correct! White has a fork on a4.",
+          "arrows": {
+            "threats": [
+              "f8-b4"
+            ],
+            "opportunities": [
+              "d1-a4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, because that's a good developing move.",
+        "feedback": {
+          "text": "Is there something White can play to prove that's not true?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, because there is a better developing square for the bishop.",
+        "feedback": {
+          "text": "There's another, more concrete reason!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqkb1r/ppp2pp1/4pn1p/3p4/2PP4/2N2N2/PP2PPPP/R2QKB1R w KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f8-b4"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "c3"
+      ],
+      "opportunities": [
+        "b4"
+      ]
+    },
+    "contextMove": {
+      "san": "e3",
+      "afterMoveFen": "r1bqkb1r/ppp2pp1/4pn1p/3p4/2PP4/2N1PN2/PP3PPP/R2QKB1R b KQkq - 0 1"
+    }
+  },
+  "drill": null
+}

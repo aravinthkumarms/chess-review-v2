@@ -1,0 +1,75 @@
+{
+  "id": "807c55b6-cdbd-45bf-bcdd-b8e8dafaa66b",
+  "name": "Quiz 6",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has allowed Ne7! Is it a good move?",
+    "answers": [
+      {
+        "text": "It’s not a good move because it’s losing.",
+        "feedback": {
+          "text": "Correct! Black has ...Rd1+, followed by Qg2# checkmate.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d5-d1",
+              "c6-g2"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It’s a good move but Black gets some counterplay. It won’t be easy to win.",
+        "feedback": {
+          "text": "Black has a forced winning combination!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It’s the best move! An obvious fork!",
+        "feedback": {
+          "text": "Sometimes, your opponent might bait you into playing a tactic and blundering!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/kb3p2/3q1p2/p1prpN2/P7/1P2Q1P1/5PP1/2R3K1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f5-e7"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "d5",
+        "c6"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qc6",
+      "afterMoveFen": "8/kb3p2/2q2p2/p1prpN2/P7/1P2Q1P1/5PP1/2R3K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

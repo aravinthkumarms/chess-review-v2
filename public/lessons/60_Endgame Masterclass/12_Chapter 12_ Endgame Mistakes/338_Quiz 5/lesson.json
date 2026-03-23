@@ -1,0 +1,81 @@
+{
+  "id": "60db5c3c-f67f-43f7-9567-f047f05731c0",
+  "name": "Quiz 5",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has pushed their pawn to g4. \n\nWe are up a piece, and we want to simplify somehow. \n\nPlaying ...Qf7 comes to mind. \n\nIs that the correct idea here?",
+    "answers": [
+      {
+        "text": "After ...Qf7, White  doesn't have to trade the queens and might have some annoying counterplay with their queen instead.",
+        "feedback": {
+          "text": "Good job! Actually, after ...Qf7, White has Qa6+, and the only move next is to give up our queen with ...Qf6!",
+          "arrows": {
+            "threats": [
+              "e6-f7",
+              "e4-f6"
+            ],
+            "opportunities": [
+              "b7-a6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "That's a good idea. We are up a piece. The queen is also nicely placed on the f-file, and could potentially create some mating attacks later.",
+        "feedback": {
+          "text": "...Qf7 is a huge blunder here! White has Qa6+ and the only move is to play ...Qf6, giving up the queen.",
+          "arrows": {
+            "threats": [
+              "e6-f7",
+              "f7-f6",
+              "e4-f6"
+            ],
+            "opportunities": [
+              "b7-a6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/pQ4pp/4q1kn/4p3/1p1pN3/1P1Pb1PP/P1P3K1/8 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e6-f7"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "h6",
+        "e3"
+      ]
+    },
+    "contextMove": {
+      "san": "g4",
+      "afterMoveFen": "8/pQ4pp/4q1kn/4p3/1p1pN1P1/1P1Pb2P/P1P3K1/8 b - - 0 1"
+    }
+  },
+  "drill": null
+}

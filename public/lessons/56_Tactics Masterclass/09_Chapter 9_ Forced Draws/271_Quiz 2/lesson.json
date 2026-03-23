@@ -1,0 +1,48 @@
+{
+  "id": "ac417384-6954-4c0e-be0b-cc1e26ce09d1",
+  "name": "Quiz 2 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White would like to go for Bg2. \n\nWhich move leads to a forced draw?",
+    "answers": [
+      {
+        "text": "Bd6",
+        "feedback": {
+          "text": "Exactly, aiming for the h2-square. White must move their rook now and we'll go for perpetual from there.",
+          "arrows": {
+            "threats": [
+              "f1-e1"
+            ],
+            "opportunities": []
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "2kr3r/p1p2ppp/2pbpn2/8/2PP4/4BB1q/PP3P2/RN1Q1RK1 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can Black introduce another piece into the attack?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2kr1b1r/p1p2ppp/2p1pn2/8/2PP4/4B2q/PP2BP2/RN1Q1RK1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bf3",
+      "afterMoveFen": "2kr1b1r/p1p2ppp/2p1pn2/8/2PP4/4BB1q/PP3P2/RN1Q1RK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

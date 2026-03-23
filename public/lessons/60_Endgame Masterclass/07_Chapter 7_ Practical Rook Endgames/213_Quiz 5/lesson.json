@@ -1,0 +1,62 @@
+{
+  "id": "aae68228-57ed-4bf5-9120-b93655a631f7",
+  "name": "Quiz 5",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White is anchored on d6. Their position is quite dominant unless you do something. \n\nHow should you deal with their grip on the position?",
+    "answers": [
+      {
+        "text": "...Re7 for Rd7 to trade rooks off.",
+        "feedback": {
+          "text": "This plan is the most sound. You're getting rid of the pressure and guarantee a trade of rooks.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e6-e5",
+              "f4-d5",
+              "d5-b6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "...e5, kicking the knight out with the pawn. (...Re6 can be played next).",
+        "feedback": {
+          "text": "Be careful! Pushing a pawn creates weaknesses. \n\nThe knight could invade your position with Nd5.",
+          "arrows": {
+            "threats": [
+              "f4-d5"
+            ],
+            "opportunities": [
+              "e6-e5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2knr3/1p5p/p2Rpp2/5p2/2P2N2/1P3P2/P5PP/6K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "c5",
+      "afterMoveFen": "2knr3/1p5p/p2Rpp2/2P2p2/5N2/1P3P2/P5PP/6K1 b - - 0 1"
+    }
+  },
+  "drill": null
+}

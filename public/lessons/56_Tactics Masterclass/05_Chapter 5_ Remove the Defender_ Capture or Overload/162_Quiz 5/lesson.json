@@ -1,0 +1,43 @@
+{
+  "id": "3617e130-a46b-4815-b5c8-297cc0f434fe",
+  "name": "Quiz 5",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black takes a pawn in the center. It seems White's attack is almost over. \n\nCan you spot a way to win this?",
+    "answers": [
+      {
+        "text": "Rxh7+",
+        "feedback": {
+          "text": "Insane move! \n\nKxh7 runs into Rh1+ with checkmate to come. Nxh7 runs into Qxd5.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r4r1k/1p2pp1R/p4n2/2pq2Q1/4p3/3P2P1/PPP2PK1/R7 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you remove the queen's defender?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2q1r1k/1p2pp1p/p4n2/2pN2Q1/4p3/3P2P1/PPP2PK1/R6R b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qxd5",
+      "afterMoveFen": "r4r1k/1p2pp1p/p4n2/2pq2Q1/4p3/3P2P1/PPP2PK1/R6R w - - 0 2"
+    }
+  },
+  "drill": null
+}

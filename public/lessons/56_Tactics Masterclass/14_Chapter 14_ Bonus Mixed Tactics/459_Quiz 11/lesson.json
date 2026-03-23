@@ -1,0 +1,71 @@
+{
+  "id": "254c390e-9629-4f72-b484-069152fd79a3",
+  "name": "Quiz 11 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White puts pressure on the d5-pawn. \n\nWhat are your options?",
+    "answers": [
+      {
+        "text": "d4",
+        "feedback": {
+          "text": "You’re worse with Black, but giving up the pawn is your best shot at defending. Everything else allows tactics.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "sacrificing the pawn.",
+        "afterMoveFen": "r2rk3/p3n1pp/1p2bp2/8/2Pp4/1B2B3/PP1R1PPP/3R2K1 w q - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "dxc4",
+        "feedback": {
+          "text": "This allows a tactic starting with Ba4+ and our rook on d8 is lost!",
+          "arrows": {
+            "threats": [
+              "d2-d8",
+              "b3-a4"
+            ],
+            "opportunities": []
+          },
+          "highlights": null
+        },
+        "comment": "trading.",
+        "afterMoveFen": "r2rk3/p3n1pp/1p2bp2/8/2p5/1B2B3/PP1R1PPP/3R2K1 w q - 0 2"
+      },
+      {
+        "text": "Kf7",
+        "feedback": {
+          "text": "White just captures on d5 for free. They have many defenders!",
+          "arrows": {
+            "threats": [
+              "c4-d5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d1",
+              "d2",
+              "b3"
+            ]
+          }
+        },
+        "comment": "getting the king into safety.",
+        "afterMoveFen": "r2r4/p3nkpp/1p2bp2/3p4/2P5/1B2B3/PP1R1PPP/3R2K1 w - - 1 2"
+      }
+    ],
+    "positionFen": "r2rk3/p3n1pp/1p2bp2/3p4/8/1B2B3/PPPR1PPP/3R2K1 w q - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "c4",
+      "afterMoveFen": "r2rk3/p3n1pp/1p2bp2/3p4/2P5/1B2B3/PP1R1PPP/3R2K1 b q c3 0 1"
+    }
+  },
+  "drill": null
+}

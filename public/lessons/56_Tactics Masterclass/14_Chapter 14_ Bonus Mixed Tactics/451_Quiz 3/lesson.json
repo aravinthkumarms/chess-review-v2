@@ -1,0 +1,73 @@
+{
+  "id": "a65dfdf4-47a4-4651-acb7-587a04a7d45a",
+  "name": "Quiz 3 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gives a check. \n\nWhich is the best way to defend?",
+    "answers": [
+      {
+        "text": "Bf1",
+        "feedback": {
+          "text": "Yes! This move doesn't lose to any tactic.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "blocking with the bishop.",
+        "afterMoveFen": "6k1/pp3ppp/2pb4/3n3q/3P2b1/2P2PP1/PP1N2QP/R1B1rBK1 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Nf1",
+        "feedback": {
+          "text": "This loses the f3-pawn.",
+          "arrows": {
+            "threats": [
+              "g4-f3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "f3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "Blocking with the knight.",
+        "afterMoveFen": "6k1/pp3ppp/2pb4/3n3q/2BP2b1/2P2PP1/PP4QP/R1B1rNK1 b - - 3 2"
+      },
+      {
+        "text": "Kf2",
+        "feedback": {
+          "text": "This allows ...Bh3 and the queen is trapped!",
+          "arrows": {
+            "threats": [
+              "g4-h3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "g2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "moving the king forward.",
+        "afterMoveFen": "6k1/pp3ppp/2pb4/3n3q/2BP2b1/2P2PP1/PP1N1KQP/R1B1r3 b - - 3 2"
+      }
+    ],
+    "positionFen": "4r1k1/pp3ppp/2pb4/3n3q/2BP2b1/2P2PP1/PP1N2QP/R1B3K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Re1+",
+      "afterMoveFen": "6k1/pp3ppp/2pb4/3n3q/2BP2b1/2P2PP1/PP1N2QP/R1B1r1K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,92 @@
+{
+  "id": "f4325298-4ec9-43ed-b6b2-12b1e7d7a3c3",
+  "name": "Quiz 9",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has moved their knight. \n\nWhat tactic does Ng4 allow?",
+    "answers": [
+      {
+        "text": "A fork.",
+        "feedback": {
+          "text": "Yes! ...Rxe2+ also attacks the bishop on g2.",
+          "arrows": {
+            "threats": [
+              "e8-e2"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "g2",
+              "d2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A pin.",
+        "feedback": {
+          "text": "There isn't really a pin you could play here.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "A discovered attack.",
+        "feedback": {
+          "text": "There isn't any effective discovered attack here.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "A skewer.",
+        "feedback": {
+          "text": "It's not a skewer if there isn't any x-raying going on.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r1r1k1/p5p1/2n4p/3p4/2bP4/2P3P1/3KPNBP/R7 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ng4",
+      "afterMoveFen": "2r1r1k1/p5p1/2n4p/3p4/2bP2N1/2P3P1/3KP1BP/R7 b - - 2 1"
+    }
+  },
+  "drill": null
+}

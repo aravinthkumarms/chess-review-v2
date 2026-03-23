@@ -1,0 +1,48 @@
+{
+  "id": "0f4d430f-10e3-43dc-8930-a0779a693dee",
+  "name": "Quiz: Queen Supported by Piece Checkmate in one ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...f6.\n\nDo you see the best move for White?",
+    "answers": [
+      {
+        "text": "Qf7#",
+        "feedback": {
+          "text": "Well played! The queen delivers checkmate supported by the knight.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "f8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1q1rk2/pp1npQpp/5p2/4N3/8/4P2P/PP3PP1/R4RK1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "There is a checkmate in one move.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1q1rk2/pp1npppp/8/4N3/8/1Q2P2P/PP3PP1/R4RK1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "f6",
+      "afterMoveFen": "r1q1rk2/pp1np1pp/5p2/4N3/8/1Q2P2P/PP3PP1/R4RK1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

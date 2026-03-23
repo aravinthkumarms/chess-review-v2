@@ -1,0 +1,522 @@
+{
+  "id": "7cce376c-5300-4dff-8d37-8ff5d3bb456d",
+  "name": "Study: Same Side Castling Attacks",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "p"
+        ],
+        "comments": [
+          {
+            "text": "This was a game played by one of my subscribers. \n\nIn same side castling attacks, the attacking side can actually assess and see if pushing the pawns forward is safe...\n\nThe game continued in an entirely different manner, but analysis after the game revealed this plan White should have gone for! ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/62498415737?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/4qppp/2b1pb2/1pP5/pB1pP1Q1/P2P4/B4PPP/1R3RK1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1I": {
+        "adjacentNodeIds": [
+          "l6"
+        ],
+        "comments": [
+          {
+            "text": "White takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/5p2/5bp1/1pPr4/pB1p4/P2PQ3/6PP/1R3RK1 b - - 0 7",
+        "parentNodeId": "r5",
+        "san": "Qxe3"
+      },
+      "4z": {
+        "adjacentNodeIds": [
+          "Lg"
+        ],
+        "comments": [
+          {
+            "text": "If the rook tries to block...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/4qp1p/5bP1/1pP3r1/pB1p2Q1/P2P4/6PP/1R3RK1 w - - 1 6",
+        "parentNodeId": "Ng",
+        "san": "Rg5"
+      },
+      "Bs": {
+        "adjacentNodeIds": [
+          "iS"
+        ],
+        "comments": [
+          {
+            "text": "And after the queen takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/5p1p/5b2/1pPb1Pp1/pB1p2QP/P2q4/B4RP1/4R1K1 w - - 0 7",
+        "parentNodeId": "at",
+        "san": "Qxd3"
+      },
+      "Gc": {
+        "adjacentNodeIds": [
+          "t2"
+        ],
+        "comments": [
+          {
+            "text": "This is the engine generated defense, pinning the f5 pawn! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/3q1p1p/2b2bp1/1pP2P2/pB1p2Q1/P2P4/B5PP/1R3RK1 w - - 1 4",
+        "parentNodeId": "lK",
+        "san": "Qd7"
+      },
+      "KQ": {
+        "adjacentNodeIds": [
+          "n0"
+        ],
+        "comments": [
+          {
+            "text": "This was one of the only ways of dealing with the threats on g6...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/4qp1p/2b2b2/1pP2Pp1/pB1p2Q1/P2P4/B5PP/1R3RK1 w - - 0 4",
+        "parentNodeId": "lK",
+        "san": "g5"
+      },
+      "Lg": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The double attack still exists in the position! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-a8",
+                "f3-f6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f6",
+                "a8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/4qp1p/5bP1/1pP3r1/pB1p4/P2P1Q2/6PP/1R3RK1 b - - 2 6",
+        "parentNodeId": "4z",
+        "san": "Qf3"
+      },
+      "MD": {
+        "adjacentNodeIds": [
+          "s7",
+          "r5"
+        ],
+        "comments": [
+          {
+            "text": "White has a double attack! \n\nThe rook on d5 is attacked and the bishop on f6! \n\nThe power of f4 and f5, opening up the f-file! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5",
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/4qp2/5bp1/1pPr4/pB1p4/P2P1Q2/6PP/1R3RK1 b - - 1 6",
+        "parentNodeId": "w2",
+        "san": "Qf3"
+      },
+      "MM": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The a8 rook was x-rayed! \n\nThese are the powerful effects of a well-coordinated attack! \n\nRemember: launch a pawn storm on the same castled side if your king is safe enough and your pieces are placed well. \n\nIn this example, the queen, rook and light-squared bishop were on the right squares and the pawn storm would have worked. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "Q5k1/4qp2/5bp1/1pP2r2/pB1p4/P2P4/6PP/1R3RK1 b - - 0 7",
+        "parentNodeId": "s7",
+        "san": "Qxa8+"
+      },
+      "Ng": {
+        "adjacentNodeIds": [
+          "w2",
+          "4z"
+        ],
+        "comments": [
+          {
+            "text": "White can take on g6, opening up more lines! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/4qp1p/5bP1/1pPr4/pB1p2Q1/P2P4/6PP/1R3RK1 b - - 0 5",
+        "parentNodeId": "ZZ",
+        "san": "fxg6"
+      },
+      "PT": {
+        "adjacentNodeIds": [
+          "at"
+        ],
+        "comments": [
+          {
+            "text": "Suppose Black tried something more natural, like trading bishops...",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/5p1p/5b2/1pPb1Pp1/pB1p2QP/P2Pq3/B4RP1/1R4K1 w - - 3 6",
+        "parentNodeId": "eg",
+        "san": "Bd5"
+      },
+      "PY": {
+        "adjacentNodeIds": [
+          "ZZ"
+        ],
+        "comments": [
+          {
+            "text": "After this capture...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/4qp1p/5bp1/1pPB1P2/pB1p2Q1/P2P4/6PP/1R3RK1 b - - 0 4",
+        "parentNodeId": "Uo",
+        "san": "Bxd5"
+      },
+      "Uo": {
+        "adjacentNodeIds": [
+          "PY"
+        ],
+        "comments": [
+          {
+            "text": "So if Black tried to deal with this problem...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/4qp1p/5bp1/1pPb1P2/pB1p2Q1/P2P4/B5PP/1R3RK1 w - - 1 4",
+        "parentNodeId": "lK",
+        "san": "Bd5"
+      },
+      "V": {
+        "adjacentNodeIds": [
+          "y"
+        ],
+        "comments": [
+          {
+            "text": "g6 is a most natural move, giving the bishop a safe square on g7.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-g7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/4qp1p/2b1pbp1/1pP5/pB1pPPQ1/P2P4/B5PP/1R3RK1 w - - 0 2",
+        "parentNodeId": "p",
+        "san": "g6"
+      },
+      "ZZ": {
+        "adjacentNodeIds": [
+          "Ng"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/4qp1p/5bp1/1pPr1P2/pB1p2Q1/P2P4/6PP/1R3RK1 w - - 0 5",
+        "parentNodeId": "PY",
+        "san": "Rxd5"
+      },
+      "at": {
+        "adjacentNodeIds": [
+          "Bs"
+        ],
+        "comments": [
+          {
+            "text": "The rook is supported by the bishop...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2r2k1/5p1p/5b2/1pPb1Pp1/pB1p2QP/P2Pq3/B4RP1/4R1K1 b - - 4 6",
+        "parentNodeId": "PT",
+        "san": "Re1"
+      },
+      "eg": {
+        "adjacentNodeIds": [
+          "PT"
+        ],
+        "comments": [
+          {
+            "text": "White could block with the rook, yes, self-pinning but covering the 2nd rank!\n\nThis is lost. The computer gives the unnatural Be5 as a continuation, forsaking the g5 pawn!  ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/5p1p/2b2b2/1pP2Pp1/pB1p2QP/P2Pq3/B4RP1/1R4K1 b - - 2 5",
+        "parentNodeId": "vs",
+        "san": "Rf2"
+      },
+      "iS": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The f and h-pawn pressure proves decisive! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2r2k1/5p1p/5b2/1pPb1PP1/pB1p2Q1/P2q4/B4RP1/4R1K1 b - - 0 7",
+        "parentNodeId": "Bs",
+        "san": "hxg5"
+      },
+      "l6": {
+        "adjacentNodeIds": [
+          "zP"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/5p2/5bp1/1pPr4/pB6/P2Pp3/6PP/1R3RK1 w - - 0 8",
+        "parentNodeId": "1I",
+        "san": "dxe3"
+      },
+      "lK": {
+        "adjacentNodeIds": [
+          "Uo",
+          "KQ",
+          "Gc"
+        ],
+        "comments": [
+          {
+            "text": "White now has a threat of capturing on g6 because the f-pawn is pinned! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-g6",
+                "g4-g6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2r2k1/4qp1p/2b2bp1/1pP2P2/pB1p2Q1/P2P4/B5PP/1R3RK1 b - - 0 3",
+        "parentNodeId": "s9",
+        "san": "exf5"
+      },
+      "n0": {
+        "adjacentNodeIds": [
+          "vs"
+        ],
+        "comments": [
+          {
+            "text": "But now you can launch more pawns forward! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/4qp1p/2b2b2/1pP2Pp1/pB1p2QP/P2P4/B5P1/1R3RK1 b - h3 0 4",
+        "parentNodeId": "KQ",
+        "san": "h4"
+      },
+      "p": {
+        "adjacentNodeIds": [
+          "V"
+        ],
+        "comments": [
+          {
+            "text": "Here f4 would have been the best move! \n\ne5 is a threat, trapping the bishop! \n\nf4 is also the beginning of a kingside attack and allows moves like Rf3, bringing more attackers! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-e5",
+                "f1-f3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/4qppp/2b1pb2/1pP5/pB1pPPQ1/P2P4/B5PP/1R3RK1 b - f3 0 1",
+        "parentNodeId": "0",
+        "san": "f4"
+      },
+      "r5": {
+        "adjacentNodeIds": [
+          "1I"
+        ],
+        "comments": [
+          {
+            "text": "Check! \n\nTrading off the queens...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/5p2/5bp1/1pPr4/pB1p4/P2PqQ2/6PP/1R3RK1 w - - 2 7",
+        "parentNodeId": "MD",
+        "san": "Qe3+"
+      },
+      "s7": {
+        "adjacentNodeIds": [
+          "MM"
+        ],
+        "comments": [
+          {
+            "text": "There's no escape...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/4qp2/5bp1/1pP2r2/pB1p4/P2P1Q2/6PP/1R3RK1 w - - 2 7",
+        "parentNodeId": "MD",
+        "san": "Rf5"
+      },
+      "s9": {
+        "adjacentNodeIds": [
+          "lK"
+        ],
+        "comments": [
+          {
+            "text": "To illustrate how quickly things could go wrong...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/4qp1p/2b2bp1/1pP2p2/pB1pP1Q1/P2P4/B5PP/1R3RK1 w - - 0 3",
+        "parentNodeId": "y",
+        "san": "exf5"
+      },
+      "t2": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But all White has to do is improve their pieces before continuing the attack. \n\nWhite is still better! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/3q1p1p/2b2bp1/1pP2P2/p2p2Q1/P2P4/B2B2PP/1R3RK1 b - - 2 4",
+        "parentNodeId": "Gc",
+        "san": "Bd2"
+      },
+      "vs": {
+        "adjacentNodeIds": [
+          "eg"
+        ],
+        "comments": [
+          {
+            "text": "If Black tries seeking counterplay with check...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2r2k1/5p1p/2b2b2/1pP2Pp1/pB1p2QP/P2Pq3/B5P1/1R3RK1 w - - 1 5",
+        "parentNodeId": "n0",
+        "san": "Qe3+"
+      },
+      "w2": {
+        "adjacentNodeIds": [
+          "MD"
+        ],
+        "comments": [
+          {
+            "text": "And once Black recaptures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/4qp2/5bp1/1pPr4/pB1p2Q1/P2P4/6PP/1R3RK1 w - - 0 6",
+        "parentNodeId": "Ng",
+        "san": "hxg6"
+      },
+      "y": {
+        "adjacentNodeIds": [
+          "s9"
+        ],
+        "comments": [
+          {
+            "text": "But when you see pawn hooks like that, it's time to undermine them! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/4qp1p/2b1pbp1/1pP2P2/pB1pP1Q1/P2P4/B5PP/1R3RK1 b - - 0 2",
+        "parentNodeId": "V",
+        "san": "f5"
+      },
+      "zP": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And the bishop falls! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/5p2/5Rp1/1pPr4/pB6/P2Pp3/6PP/1R4K1 b - - 0 8",
+        "parentNodeId": "l6",
+        "san": "Rxf6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

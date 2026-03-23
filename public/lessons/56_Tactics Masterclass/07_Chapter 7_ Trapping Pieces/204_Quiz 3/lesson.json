@@ -1,0 +1,43 @@
+{
+  "id": "ceeb4f5a-dd35-4b33-a1ee-5e3ff0a5db59",
+  "name": "Quiz 3",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks the e4-knight w/...Bg6.\n\nWhite should move the knight. How many safe squares does it have?",
+    "answers": [
+      {
+        "text": "c3-g3",
+        "feedback": {
+          "text": "Great! The knight's only safe squares are c3 and g3. g5 might look safe, but White's knight gets trapped after ...h6",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The e4-knight has two safe squares.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2qkbnr/pp1npppp/2p5/7b/4N1P1/5N1P/PPPPBP2/R1BQK2R b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bg6",
+      "afterMoveFen": "r2qkbnr/pp1npppp/2p3b1/8/4N1P1/5N1P/PPPPBP2/R1BQK2R w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

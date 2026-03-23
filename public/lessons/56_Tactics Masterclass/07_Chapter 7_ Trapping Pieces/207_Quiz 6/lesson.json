@@ -1,0 +1,43 @@
+{
+  "id": "b9fe7005-dec4-4996-bf86-7f01b62cb9e5",
+  "name": "Quiz 6",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White attacks the c4-rook with Bf1.\n\nBlack should move the rook. How many safe squares does it have?",
+    "answers": [
+      {
+        "text": "c7",
+        "feedback": {
+          "text": "Excellent! c7 is the only safe square for the rook -- ...Rc6 would run into Bxb5 and ...Rc1 would run into Bh3.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The rook only has one safe square.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1r4n1/3q1p1k/1b1p2p1/1p2p1B1/1Pr1P3/2P3P1/3Q1PBK/R2R4 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bf1",
+      "afterMoveFen": "1r4n1/3q1p1k/1b1p2p1/1p2p1B1/1Pr1P3/2P3P1/3Q1P1K/R2R1B2 b - - 2 1"
+    }
+  },
+  "drill": null
+}

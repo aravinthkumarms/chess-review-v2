@@ -1,0 +1,59 @@
+{
+  "id": "b581928a-d567-4ba6-9cca-bd73c470dd33",
+  "name": "Quiz 5 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black proposes a bishop trade. \n\nShould you accept it and why or why not?",
+    "answers": [
+      {
+        "text": "Yes, because it's a drawn king and pawn endgame.",
+        "feedback": {
+          "text": "Exactly! After that you can control the key g2 and g1 squares.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f1-h3",
+              "g3-h3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, because it's simply a quicker loss.",
+        "feedback": {
+          "text": "Are you sure it's losing? Think about key squares.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, because to draw the bishop needs to be on the board.",
+        "feedback": {
+          "text": "I don't think drawing will be possilble here.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/5b2/7p/6k1/8/4KB2 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bh3",
+      "afterMoveFen": "8/8/8/8/7p/6kb/8/4KB2 w - - 2 2"
+    }
+  },
+  "drill": null
+}

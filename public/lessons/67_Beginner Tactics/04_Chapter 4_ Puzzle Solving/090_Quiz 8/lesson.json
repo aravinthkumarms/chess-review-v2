@@ -1,0 +1,79 @@
+{
+  "id": "5ac5c92f-f276-4c91-abf6-6c489c45dd70",
+  "name": "Quiz 8",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black takes on h5. \n\nWhat tactic could White go for in this position?",
+    "answers": [
+      {
+        "text": "A pin.",
+        "feedback": {
+          "text": "Yes! Qg5 is a pin on the bishop on g7 and the knight on e5.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d2-g5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A skewer.",
+        "feedback": {
+          "text": "Remember that in skewers, the most valuable piece is in the front, getting attacked, while the weaker piece is in the back, getting x-rayed.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "A discovered attack.",
+        "feedback": {
+          "text": "Nd5 is the best discovered attack available, but this fails because ...Qxd2+ is a check.",
+          "arrows": {
+            "threats": [
+              "a5-d2"
+            ],
+            "opportunities": [
+              "c3-d5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r4rk1/pp2ppbp/3pb1pB/q3n2R/3NP3/2N2P2/PPPQ2P1/2KR1B2 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "gxh5",
+      "afterMoveFen": "r4rk1/pp2ppbp/3pb2B/q3n2p/3NP3/2N2P2/PPPQ2P1/2KR1B2 w - - 0 2"
+    }
+  },
+  "drill": null
+}

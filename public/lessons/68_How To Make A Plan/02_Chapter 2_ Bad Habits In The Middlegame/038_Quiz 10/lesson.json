@@ -1,0 +1,71 @@
+{
+  "id": "03370b64-03ce-4a63-8786-f88aa1948c3b",
+  "name": "Quiz 10",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It's your turn. \n\nAs Black, you'd like to kick the knight out of f5. \n\nYou've got two options: g6 and Qd7. \n\nWhich should you play?",
+    "answers": [
+      {
+        "text": "g6",
+        "feedback": {
+          "text": "This is the safe and effective way of kicking the knight out. It doesn't run into any tactics.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "attacking the knight with the pawn.",
+        "afterMoveFen": "4r1k1/ppq2p2/2p3pp/3n1N2/1P1PNb2/P4Q2/6PP/5R1K w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Qd7",
+        "feedback": {
+          "text": "This blunder runs into Qg4 which threatens checkmate and Nxh6+, winning the queen.",
+          "arrows": {
+            "threats": [
+              "f3-g4",
+              "g4-g7"
+            ],
+            "opportunities": [
+              "f5-h6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h6",
+              "d7"
+            ],
+            "opportunities": [
+              "g4",
+              "g7"
+            ]
+          }
+        },
+        "comment": "attacking the knight with the queen.",
+        "afterMoveFen": "4r1k1/pp1q1pp1/2p4p/3n1N2/1P1PNb2/P4Q2/6PP/5R1K w - - 3 2"
+      }
+    ],
+    "positionFen": "4r1k1/ppq2pp1/2p4p/3n1N2/1P1PNb2/P7/5QPP/5R1K w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g7-g6",
+        "c7-d7"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "f5"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qf3",
+      "afterMoveFen": "4r1k1/ppq2pp1/2p4p/3n1N2/1P1PNb2/P4Q2/6PP/5R1K b - - 2 1"
+    }
+  },
+  "drill": null
+}

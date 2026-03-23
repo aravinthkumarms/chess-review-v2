@@ -1,0 +1,68 @@
+{
+  "id": "64cd5db2-442a-4754-aa67-d92459336aa0",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Rab1. \n\nMaterial is equal. White seems to have more space. \n\nIt's Black to move. Even though the Black pieces are relegated to the 8th and 7th ranks, maybe they can generate substantial pressure. \n\nWho's better?",
+    "answers": [
+      {
+        "text": "Black is better (-2.1)",
+        "feedback": {
+          "text": "After a move like Qa8, Black can get another attacker on the e4 pawn. Black will gain a material edge and a better position on top of that. ",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d8-a8"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Position is equal (+0.1)",
+        "feedback": {
+          "text": "White has more space and an intimidating center. Either White is better because of the space, or Black is better because of piece activity, but equality is not the answer.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White is better (+1.8)",
+        "feedback": {
+          "text": "This could be true. White does appear to have more space and central control. But Black may have some moves to take advantage of White's position. If so, we cannot say White is better.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black is winning (-3.6)",
+        "feedback": {
+          "text": "While it's possible that Black could have an advantage, -3.6 implies that Black has the possibility of winning a lot of material in the near future, or that Black has a strong attack. Such scenarios seem improbable. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3q1rk1/1brnbppp/p2ppn2/1p6/1P1NPP2/P1NBB2P/2PQ2P1/R4RK1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rab1",
+      "afterMoveFen": "3q1rk1/1brnbppp/p2ppn2/1p6/1P1NPP2/P1NBB2P/2PQ2P1/1R3RK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

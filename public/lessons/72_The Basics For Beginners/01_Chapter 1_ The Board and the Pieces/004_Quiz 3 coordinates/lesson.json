@@ -1,0 +1,81 @@
+{
+  "id": "03c41f01-1abe-43c6-9e01-e07657b8afb4",
+  "name": "Quiz 3 coordinates",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The center is very important in chess.\n\nWhat are the two central squares highlighted?",
+    "answers": [
+      {
+        "text": "They are d4 and d5.",
+        "feedback": {
+          "text": "Correct! These are two out of four central squares.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "d5"
+            ],
+            "opportunities": [
+              "d4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "They are e4 and e5.",
+        "feedback": {
+          "text": "You've guessed the other two central squares I highlighted here. They are close, but not quite it!",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "e5"
+            ],
+            "opportunities": [
+              "e4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "They are a1 and a8.",
+        "feedback": {
+          "text": "The squares a1 and a8 are corner squares. We are looking for squares in the center of the board.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "a8"
+            ],
+            "opportunities": [
+              "a1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "d5"
+      ],
+      "opportunities": [
+        "d4"
+      ]
+    },
+    "contextMove": {
+      "san": "Nc6",
+      "afterMoveFen": "r1bqkbnr/pppppppp/2n5/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,81 @@
+{
+  "id": "585e5317-b348-4b15-b366-a08b94029a5d",
+  "name": "Quiz 7",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black takes on g3. \n\nWhat's wrong with hxg3?",
+    "answers": [
+      {
+        "text": "It allows a perpetual check!",
+        "feedback": {
+          "text": "Correct, ...Qxg3+, Kh1 ...Qh3+ is a draw.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "There's nothing wrong. Let's take the free bishop!",
+        "feedback": {
+          "text": "This loses all the advantage.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It's losing for White.",
+        "feedback": {
+          "text": "While it's bad, losing isn't the correct way of describing the situation.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2k3r/p7/Rp1bQ3/1P1p3p/2pP2p1/4P1Pq/1PP4P/5RK1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "h2-g3"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "g3"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Bxg3",
+      "afterMoveFen": "r2k3r/p7/Rp2Q3/1P1p3p/2pP2p1/4P1bq/1PP4P/5RK1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

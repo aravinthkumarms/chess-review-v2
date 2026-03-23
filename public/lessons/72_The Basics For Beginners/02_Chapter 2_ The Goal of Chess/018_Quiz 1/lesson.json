@@ -1,0 +1,73 @@
+{
+  "id": "22c921a9-69a2-492d-9f2e-c35645a633e4",
+  "name": "Quiz 1 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The king goes to the corner. \n\nCan your queen deliver checkmate here?",
+    "answers": [
+      {
+        "text": "Qg2#",
+        "feedback": {
+          "text": "This move checks the king and it cannot escape or take the queen! Checkmate! Great job.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/8/8/8/6K1/6Q1/7k b - - 3 2"
+      },
+      {
+        "text": "Qh2#",
+        "feedback": {
+          "text": "This move checks the king and it cannot escape or take the queen!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/8/8/8/6K1/7Q/7k b - - 3 2"
+      },
+      {
+        "text": "Qf1#",
+        "feedback": {
+          "text": "This is checkmate! Good job!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/8/8/8/6K1/8/5Q1k b - - 3 2"
+      },
+      {
+        "text": "Qe1#",
+        "feedback": {
+          "text": "This is checkmate! Good job!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/8/8/8/6K1/8/4Q2k b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you find a checkmate like Qg2#?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/8/8/6K1/4Q3/6k1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kh1",
+      "afterMoveFen": "8/8/8/8/8/6K1/4Q3/7k w - - 2 2"
+    }
+  },
+  "drill": null
+}

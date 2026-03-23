@@ -1,0 +1,48 @@
+{
+  "id": "448665b3-d91d-4709-a6ae-e667b6bca078",
+  "name": "Quiz 8: Scandi",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black takes on d5. This is the Scandinavian. \n\nWhat's your move here?",
+    "answers": [
+      {
+        "text": "Nc3",
+        "feedback": {
+          "text": "Can you attack the queen?",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "d5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "There's a move here to attack the queen.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qxd5",
+      "afterMoveFen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+    }
+  },
+  "drill": null
+}

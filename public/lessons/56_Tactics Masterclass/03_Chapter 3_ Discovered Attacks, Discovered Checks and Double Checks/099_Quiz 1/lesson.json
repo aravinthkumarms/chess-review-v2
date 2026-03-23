@@ -1,0 +1,74 @@
+{
+  "id": "004650dc-cead-4fcb-a092-9e5c9b0be89b",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has just played Kd4.\n\nCan you set up a discovered check with ...Qf2+?",
+    "answers": [
+      {
+        "text": "No, because White has a countertactic.",
+        "feedback": {
+          "text": "Correct! White can play Qf8+ and win your queen.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b8-f8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f6",
+              "f1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, White can't do anything about this.",
+        "feedback": {
+          "text": "Are you sure about that?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, because White can escape the discovered check.",
+        "feedback": {
+          "text": "There's something much stronger White has!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1Q6/8/5k1p/p1N5/2K5/P3r3/7P/5q2 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f1-f2"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "f2"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Kd4",
+      "afterMoveFen": "1Q6/8/5k1p/p1N5/3K4/P3r3/7P/5q2 b - - 2 1"
+    }
+  },
+  "drill": null
+}

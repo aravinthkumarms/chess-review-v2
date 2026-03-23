@@ -1,0 +1,85 @@
+{
+  "id": "ef238bb5-3024-4a4c-b4dc-8e5d27998509",
+  "name": "Quiz 10 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black captures on h5. \n\nDoes the move Rh1 work to attack h7 and try to checkmate the king?",
+    "answers": [
+      {
+        "text": "No, Qxh7 doesn't lead to a checkmate.",
+        "feedback": {
+          "text": "Exactly, after Qxh7+  Black simply captures the bishop on g5. \n\nBlack's king will hide on f7! No attack after that.",
+          "arrows": {
+            "threats": [
+              "d1-h1"
+            ],
+            "opportunities": [
+              "h5-g5",
+              "g8-f7"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h7"
+            ],
+            "opportunities": [
+              "f7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rh1 is a strong tactic!",
+        "feedback": {
+          "text": "The king has an escape route via f7! Giving up the bishop on g5 isn't a good idea here.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Not really, since Black's queen just retreats with ...Qg6.",
+        "feedback": {
+          "text": "...Qg6 is not the strongest response for Black, but capturing the bishop ...Qxg5 is! The checkmate isn't there.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4r1k1/5qpp/1pp5/p1b1p1BP/2P2p2/5PP1/PPQ1P1K1/3R4 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d1-h1"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "h7",
+        "h5"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qxh5",
+      "afterMoveFen": "4r1k1/6pp/1pp5/p1b1p1Bq/2P2p2/5PP1/PPQ1P1K1/3R4 w - - 0 2"
+    }
+  },
+  "drill": null
+}

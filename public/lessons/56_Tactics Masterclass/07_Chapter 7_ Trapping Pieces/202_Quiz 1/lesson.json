@@ -1,0 +1,53 @@
+{
+  "id": "9645867e-5d97-4f56-8563-6b066d383558",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black pins the knight with ...Bb4.\n\nIs the White queen in some danger?",
+    "answers": [
+      {
+        "text": "Yes, White's queen is in danger & Black is threatening to trap it.",
+        "feedback": {
+          "text": "That's right! Black is now threatening to play ...Ba4 and trap White's queen.",
+          "arrows": {
+            "threats": [
+              "c6-a4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "a4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, White's queen is safe on b3 & Black has no way to attack it.",
+        "feedback": {
+          "text": "That's not quite right. The queen is in danger and Black has a strong threat.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rn2kb1r/pp3ppp/2b1pn2/q2p4/3P1B2/1QN5/PP2PPPP/R3KBNR b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bb4",
+      "afterMoveFen": "rn2k2r/pp3ppp/2b1pn2/q2p4/1b1P1B2/1QN5/PP2PPPP/R3KBNR w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

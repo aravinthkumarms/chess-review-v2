@@ -1,0 +1,76 @@
+{
+  "id": "cf1d4fab-70d3-4b07-9b35-73887ece9056",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has an extra pawn and they've pushed it. \n\nDoes Black get better chances of drawing this if they trade on f5?",
+    "answers": [
+      {
+        "text": "No, trading helps White.",
+        "feedback": {
+          "text": "In essence, trading does help White: White's rook on f6 is a bad piece. It doesn't have any legal moves. If you trade and that rook recaptures on f5, you've rescued it and brought it back to the game.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, trades favor the side who's defending.",
+        "feedback": {
+          "text": "Are you sure all trades favor the defender? Some trades improve your opponent's position!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "All moves are fairly equal and drawish. +1 pawn isn't enough for White to win.",
+        "feedback": {
+          "text": "This course places a lot of emphasis on being practical. Sure, it may be drawish...for a computer! You have to make things easy for yourself.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/r4pk1/5R1p/r2P1R2/6P1/5PK1/8/8 w - - 1 1",
+    "arrows": {
+      "threats": [
+        "a5-f5"
+      ],
+      "opportunities": []
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "d6",
+      "afterMoveFen": "8/r4pk1/3P1R1p/r4R2/6P1/5PK1/8/8 b - - 0 1"
+    }
+  },
+  "drill": null
+}

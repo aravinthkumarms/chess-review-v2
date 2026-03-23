@@ -1,0 +1,63 @@
+{
+  "id": "0d623e40-e363-410b-b3ab-e97fe956eec1",
+  "name": "Quiz 3 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The bishop defends the d2-square. You want to play the knight to d2 but the bishop is in the way. \n\nDoes Rxe3 work to remove the defender and land the knight on d2?",
+    "answers": [
+      {
+        "text": "Let's not go for it, and just capture the rook on e1.",
+        "feedback": {
+          "text": "Exactly, we cannot land a checkmate on d2 since White's queen defends it!",
+          "arrows": {
+            "threats": [
+              "c3-e3",
+              "f3-d2"
+            ],
+            "opportunities": [
+              "e1-e3",
+              "a5-d2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It is a winning tactic. We'll lose some material, but our knight will land on d2 and deliver mate.",
+        "feedback": {
+          "text": "Are you sure that the d2-square is unprotected?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "5k1r/3bppb1/p2p2p1/Qp6/4P2P/1Pr1Bn2/P1P5/1KR3R1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c3-e3"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Rge1",
+      "afterMoveFen": "5k1r/3bppb1/p2p2p1/Qp6/4P2P/1Pr1Bn2/P1P5/1KR1R3 b - - 2 1"
+    }
+  },
+  "drill": null
+}

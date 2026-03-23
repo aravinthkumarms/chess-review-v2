@@ -1,0 +1,1235 @@
+{
+  "id": "d38744aa-0908-4cf0-823a-ced2a593249e",
+  "name": "Study 2: The Beauty of Coordination",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "u"
+        ],
+        "comments": [
+          {
+            "text": "This was a game played between GM Yangyi Yu and GM Velimir Ivic at the 2022 Fide World Rapid and Blitz Championship. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1F": {
+        "adjacentNodeIds": [
+          "KC"
+        ],
+        "comments": [
+          {
+            "text": "Yu captured on d5. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/3qppbp/4b1p1/3B4/3P3P/5Q2/P2B1PP1/2R3K1 b - - 0 27",
+        "parentNodeId": "mV",
+        "san": "Bxd5"
+      },
+      "4S": {
+        "adjacentNodeIds": [
+          "iu"
+        ],
+        "comments": [
+          {
+            "text": "Yu sacrificed the queen. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/3qppbp/6p1/3Q4/3P3P/8/P2B1PP1/2R3K1 b - - 0 28",
+        "parentNodeId": "KC",
+        "san": "Qxd5"
+      },
+      "5s": {
+        "adjacentNodeIds": [
+          "Mw"
+        ],
+        "comments": [
+          {
+            "text": "Ivic defended the knight with his rook...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3r2k1/4ppbp/q3b1p1/N2n4/3P3P/1B3Q2/P2B1PP1/2R3K1 w - - 1 24",
+        "parentNodeId": "HR",
+        "san": "Rd8"
+      },
+      "6T": {
+        "adjacentNodeIds": [
+          "nZ"
+        ],
+        "comments": [
+          {
+            "text": "Ivic undermined the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp2ppbp/6p1/2pp4/2PPnB2/2N1PN2/PP3PPP/R2QKB1R w KQ c6 0 8",
+        "parentNodeId": "fA",
+        "san": "c5"
+      },
+      "9L": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Is Nxe4 a good trade? \n\nWhite is lost after this. \n\nCan you see what would happen? ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp1ppbp/6p1/3p2B1/2PPN3/5N2/PP2PPPP/R2QKB1R b KQkq - 0 6",
+        "parentNodeId": "si",
+        "san": "Nxe4"
+      },
+      "9l": {
+        "adjacentNodeIds": [
+          "x6"
+        ],
+        "comments": [
+          {
+            "text": "And Yu expanded on the kingside! \n\nThis move prepares an attack on the g6 hook and also gives the king some luft. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h4-h5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/4ppbp/p2qb1p1/1p1nN3/3P3P/1BP2Q2/P2B1PP1/2R1R1K1 b - h3 0 19",
+        "parentNodeId": "VJ",
+        "san": "h4"
+      },
+      "AD": {
+        "adjacentNodeIds": [
+          "X7"
+        ],
+        "comments": [
+          {
+            "text": "Not only does the knight take a pawn on a5, but Na5 is a discovered attack on the d5 knight! \n\nThe bishop on b3 and the queen on f3 converge on that piece. \n\nThe black queen should have never been sidelined on a6! Instead, centralization was necessary (Qd7)",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": [
+                "b3",
+                "f3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/4ppbp/q3b1p1/N2n4/3P3P/1B3Q2/P2B1PP1/2R1R1K1 b - - 0 22",
+        "parentNodeId": "yO",
+        "san": "Nxa5"
+      },
+      "Ax": {
+        "adjacentNodeIds": [
+          "I7"
+        ],
+        "comments": [
+          {
+            "text": "White puts another pawn in the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3PP3/2N5/PP3PPP/R1BQKBNR b KQkq e3 0 5",
+        "parentNodeId": "D7",
+        "san": "e4"
+      },
+      "By": {
+        "adjacentNodeIds": [
+          "fA"
+        ],
+        "comments": [
+          {
+            "text": "Ivic castled.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/ppp1ppbp/6p1/3p4/2PPnB2/2N2N2/PP2PPPP/R2QKB1R w KQ - 6 7",
+        "parentNodeId": "Pc",
+        "san": "O-O"
+      },
+      "Cb": {
+        "adjacentNodeIds": [
+          "bm"
+        ],
+        "comments": [
+          {
+            "text": "Black fianchettoed.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp1ppbp/5np1/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR w KQkq - 2 5",
+        "parentNodeId": "j8",
+        "san": "Bg7"
+      },
+      "D7": {
+        "adjacentNodeIds": [
+          "Ax"
+        ],
+        "comments": [
+          {
+            "text": "And after the recapture...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pp1p/6p1/3n4/3P4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 5",
+        "parentNodeId": "Et",
+        "san": "Nxd5"
+      },
+      "DW": {
+        "adjacentNodeIds": [
+          "xc"
+        ],
+        "comments": [
+          {
+            "text": "Ivic traded on c3 to remove one of the defenders of d5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp2ppbp/1n4p1/3P1b2/3P1B2/1Bn2N2/PP3PPP/R2Q1RK1 w - - 0 13",
+        "parentNodeId": "Vk",
+        "san": "Nxc3"
+      },
+      "Et": {
+        "adjacentNodeIds": [
+          "D7"
+        ],
+        "comments": [
+          {
+            "text": "Classically, players like Kasparov have played this. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pp1p/5np1/3P4/3P4/2N5/PP2PPPP/R1BQKBNR b KQkq - 0 4",
+        "parentNodeId": "eH",
+        "san": "cxd5"
+      },
+      "FR": {
+        "adjacentNodeIds": [
+          "I3"
+        ],
+        "comments": [
+          {
+            "text": "White brought a rook into a more active square and defended c3. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq1rk1/pp2ppbp/6p1/3n1b2/3P4/1BP2N2/P2B1PPP/2RQ1RK1 b - - 3 15",
+        "parentNodeId": "cU",
+        "san": "Rc1"
+      },
+      "G9": {
+        "adjacentNodeIds": [
+          "Sc"
+        ],
+        "comments": [
+          {
+            "text": "It's not even possible to create some luft for the king. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R2bk1/4p2p/6pB/3q1p2/3P3P/8/P4PP1/6K1 w - f6 0 31",
+        "parentNodeId": "qD",
+        "san": "f5"
+      },
+      "H9": {
+        "adjacentNodeIds": [
+          "VJ"
+        ],
+        "comments": [
+          {
+            "text": "And Yu simply developed the queen which attacks the d5 knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/4ppbp/p2q2p1/1p1nNb2/3P4/1BP2Q2/P2B1PPP/2R1R1K1 b - - 1 18",
+        "parentNodeId": "ep",
+        "san": "Qf3"
+      },
+      "HR": {
+        "adjacentNodeIds": [
+          "5s"
+        ],
+        "comments": [
+          {
+            "text": "But trading was played out of desperation. \n\nAs things stand, White's rook on c1 controls the c-file, and Black still has to deal with the attack on the knight! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b3-d5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5rk1/4ppbp/q3b1p1/N2n4/3P3P/1B3Q2/P2B1PP1/2R3K1 b - - 0 23",
+        "parentNodeId": "X7",
+        "san": "Rxc1"
+      },
+      "Ha": {
+        "adjacentNodeIds": [
+          "mD"
+        ],
+        "comments": [
+          {
+            "text": "And Yu developed the light-squared bishop, defending the recently acquired d-pawn. \n\nWhile White didn't realistically think he'd hold on to the pawn, his idea was to make recovering the d-pawn a bit harder.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1q1rk1/pp2ppbp/6p1/2pP1b2/2BPnB2/2N1PN2/PP3PPP/R2QK2R b KQ - 2 9",
+        "parentNodeId": "Kr",
+        "san": "Bc4"
+      },
+      "I3": {
+        "adjacentNodeIds": [
+          "gd"
+        ],
+        "comments": [
+          {
+            "text": "The queen was developed to d6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pp2ppbp/3q2p1/3n1b2/3P4/1BP2N2/P2B1PPP/2RQ1RK1 w - - 4 16",
+        "parentNodeId": "FR",
+        "san": "Qd6"
+      },
+      "I7": {
+        "adjacentNodeIds": [
+          "YA"
+        ],
+        "comments": [
+          {
+            "text": "The knights are traded...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pp1p/6p1/8/3PP3/2n5/PP3PPP/R1BQKBNR w KQkq - 0 6",
+        "parentNodeId": "Ax",
+        "san": "Nxc3"
+      },
+      "Iq": {
+        "adjacentNodeIds": [
+          "Vk"
+        ],
+        "comments": [
+          {
+            "text": "And Ivic attacked both the d-pawn and the c4 bishop. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp2ppbp/1n4p1/3P1b2/2BPnB2/2N2N2/PP3PPP/R2Q1RK1 w - - 3 12",
+        "parentNodeId": "ee",
+        "san": "Nb6"
+      },
+      "KC": {
+        "adjacentNodeIds": [
+          "4S"
+        ],
+        "comments": [
+          {
+            "text": "And when the bishop recaptured, Yu played an amazing move. \n\nWhite wants to invade the back rank, but the queen on d7 controls the c8 square.",
+            "arrows": {
+              "threats": [
+                "c1-c8"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/3qppbp/6p1/3b4/3P3P/5Q2/P2B1PP1/2R3K1 w - - 0 28",
+        "parentNodeId": "1F",
+        "san": "Bxd5"
+      },
+      "Kr": {
+        "adjacentNodeIds": [
+          "Ha"
+        ],
+        "comments": [
+          {
+            "text": "Ivic developed his bishop. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1q1rk1/pp2ppbp/6p1/2pP1b2/3PnB2/2N1PN2/PP3PPP/R2QKB1R w KQ - 1 9",
+        "parentNodeId": "nZ",
+        "san": "Bf5"
+      },
+      "L": {
+        "adjacentNodeIds": [
+          "Mj"
+        ],
+        "comments": [
+          {
+            "text": "Yu placed another pawn in the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+        "parentNodeId": "r",
+        "san": "c4"
+      },
+      "LB": {
+        "adjacentNodeIds": [
+          "nD"
+        ],
+        "comments": [
+          {
+            "text": "And Yu saw that he could fork the queen and rook. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d7",
+                "a6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1N4k1/3rppbp/q3b1p1/3n4/3P3P/1B3Q2/P2B1PP1/2R3K1 b - - 4 25",
+        "parentNodeId": "Tr",
+        "san": "Nb8"
+      },
+      "Mj": {
+        "adjacentNodeIds": [
+          "ka"
+        ],
+        "comments": [
+          {
+            "text": "Ivic went for a fianchetto. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f8-g7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "parentNodeId": "L",
+        "san": "g6"
+      },
+      "Mw": {
+        "adjacentNodeIds": [
+          "Tr"
+        ],
+        "comments": [
+          {
+            "text": "But Nc6! And the rook is under attack! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d8",
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r2k1/4ppbp/q1N1b1p1/3n4/3P3P/1B3Q2/P2B1PP1/2R3K1 b - - 2 24",
+        "parentNodeId": "5s",
+        "san": "Nc6"
+      },
+      "Pc": {
+        "adjacentNodeIds": [
+          "By"
+        ],
+        "comments": [
+          {
+            "text": "Yu brought the bishop to safety.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp1ppbp/6p1/3p4/2PPnB2/2N2N2/PP2PPPP/R2QKB1R b KQkq - 5 6",
+        "parentNodeId": "si",
+        "san": "Bf4"
+      },
+      "Q1": {
+        "adjacentNodeIds": [
+          "Uj"
+        ],
+        "comments": [
+          {
+            "text": "And the point of Qxd5 was revealed: Black left the back rank without a defender. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2R3k1/4ppbp/6p1/3q4/3P3P/8/P2B1PP1/6K1 b - - 1 29",
+        "parentNodeId": "iu",
+        "san": "Rc8+"
+      },
+      "Sc": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Since the rook covers the f7 square as well. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5Rk1/4p2p/6pB/3q1p2/3P3P/8/P4PP1/6K1 b - - 0 31",
+        "parentNodeId": "G9",
+        "san": "Rxf8#"
+      },
+      "Tr": {
+        "adjacentNodeIds": [
+          "LB"
+        ],
+        "comments": [
+          {
+            "text": "The rook went to d7. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/3rppbp/q1N1b1p1/3n4/3P3P/1B3Q2/P2B1PP1/2R3K1 w - - 3 25",
+        "parentNodeId": "Mw",
+        "san": "Rd7"
+      },
+      "Uj": {
+        "adjacentNodeIds": [
+          "qD"
+        ],
+        "comments": [
+          {
+            "text": "Ivic blocked the check. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R2bk1/4pp1p/6p1/3q4/3P3P/8/P2B1PP1/6K1 w - - 2 30",
+        "parentNodeId": "Q1",
+        "san": "Bf8"
+      },
+      "VJ": {
+        "adjacentNodeIds": [
+          "9l"
+        ],
+        "comments": [
+          {
+            "text": "The bishop hid away on e6, defending the d5 knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/4ppbp/p2qb1p1/1p1nN3/3P4/1BP2Q2/P2B1PPP/2R1R1K1 w - - 2 19",
+        "parentNodeId": "H9",
+        "san": "Be6"
+      },
+      "Vk": {
+        "adjacentNodeIds": [
+          "DW"
+        ],
+        "comments": [
+          {
+            "text": "Yu retreated the bishop. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp2ppbp/1n4p1/3P1b2/3PnB2/1BN2N2/PP3PPP/R2Q1RK1 b - - 4 12",
+        "parentNodeId": "Iq",
+        "san": "Bb3"
+      },
+      "W8": {
+        "adjacentNodeIds": [
+          "ee"
+        ],
+        "comments": [
+          {
+            "text": "Ivic brought the knight out. \n\nHe's coming to attack the d-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d7-b6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c4",
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1nppbp/6p1/3P1b2/2BPnB2/2N2N2/PP3PPP/R2QK2R w KQ - 1 11",
+        "parentNodeId": "ps",
+        "san": "Nd7"
+      },
+      "X7": {
+        "adjacentNodeIds": [
+          "HR"
+        ],
+        "comments": [
+          {
+            "text": "Ivic traded rooks...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/4ppbp/q3b1p1/N2n4/3P3P/1B3Q2/P2B1PP1/2r1R1K1 w - - 0 23",
+        "parentNodeId": "AD",
+        "san": "Rxc1"
+      },
+      "Xr": {
+        "adjacentNodeIds": [
+          "c9"
+        ],
+        "comments": [
+          {
+            "text": "And when the knight took on d5, attacking c3 and the bishop...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d5-c3",
+                "d5-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f4",
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp2ppbp/6p1/3n1b2/3P1B2/1BP2N2/P4PPP/R2Q1RK1 w - - 0 14",
+        "parentNodeId": "xc",
+        "san": "Nxd5"
+      },
+      "YA": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And White has a strong center that Black then undermines in a complex middle game. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c1-e3",
+                "f8-g7",
+                "c7-c5",
+                "f1-c4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pp1p/6p1/8/3PP3/2P5/P4PPP/R1BQKBNR b KQkq - 0 6",
+        "parentNodeId": "I7",
+        "san": "bxc3"
+      },
+      "Yt": {
+        "adjacentNodeIds": [
+          "mV"
+        ],
+        "comments": [
+          {
+            "text": "Yu took the exchange. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1q1Nppbp/4b1p1/3n4/3P3P/1B3Q2/P2B1PP1/2R3K1 b - - 0 26",
+        "parentNodeId": "nD",
+        "san": "Nxd7"
+      },
+      "an": {
+        "adjacentNodeIds": [
+          "nF"
+        ],
+        "comments": [
+          {
+            "text": "Ivic had to take the most significant menace...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/4ppbp/3qb1p1/p2nN3/2pP3P/1B3Q2/P2B1PP1/2R1R1K1 w - - 0 21",
+        "parentNodeId": "nj",
+        "san": "bxc4"
+      },
+      "bm": {
+        "adjacentNodeIds": [
+          "si"
+        ],
+        "comments": [
+          {
+            "text": "Yu developed the knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp1ppbp/5np1/3p2B1/2PP4/2N2N2/PP2PPPP/R2QKB1R b KQkq - 3 5",
+        "parentNodeId": "Cb",
+        "san": "Nf3"
+      },
+      "c9": {
+        "adjacentNodeIds": [
+          "cU"
+        ],
+        "comments": [
+          {
+            "text": "Yu solved the problem by bringing his bishop back to defend c3.\n\nMaterial is equal, but White has a bishop pair and a pawn on d4.\n\nMeanwhile Black doesn't have any pawns in the center! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp2ppbp/6p1/3n1b2/3P4/1BP2N2/P2B1PPP/R2Q1RK1 b - - 1 14",
+        "parentNodeId": "Xr",
+        "san": "Bd2"
+      },
+      "cU": {
+        "adjacentNodeIds": [
+          "FR"
+        ],
+        "comments": [
+          {
+            "text": "Ivic began to pressure the c3 pawn. \n\nThis is the correct strategy when playing the Grünfeld: Black has to pressure the pawns in White's center.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rq1rk1/pp2ppbp/6p1/3n1b2/3P4/1BP2N2/P2B1PPP/R2Q1RK1 w - - 2 15",
+        "parentNodeId": "c9",
+        "san": "Rc8"
+      },
+      "eH": {
+        "adjacentNodeIds": [
+          "j8",
+          "Et"
+        ],
+        "comments": [
+          {
+            "text": "And we have a Grünfeld Defense! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq d6 0 4",
+        "parentNodeId": "ka",
+        "san": "d5"
+      },
+      "eV": {
+        "adjacentNodeIds": [
+          "ep"
+        ],
+        "comments": [
+          {
+            "text": "Yu, meanwhile, centralized his knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/p3ppbp/3q2p1/1p1nNb2/3P4/1BP5/P2B1PPP/2RQR1K1 b - - 1 17",
+        "parentNodeId": "uH",
+        "san": "Ne5"
+      },
+      "ee": {
+        "adjacentNodeIds": [
+          "Iq"
+        ],
+        "comments": [
+          {
+            "text": "Yu castled.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1nppbp/6p1/3P1b2/2BPnB2/2N2N2/PP3PPP/R2Q1RK1 b - - 2 11",
+        "parentNodeId": "W8",
+        "san": "O-O"
+      },
+      "ep": {
+        "adjacentNodeIds": [
+          "H9"
+        ],
+        "comments": [
+          {
+            "text": "Ivic connected his queenside pawns to make them safer. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a6",
+                "b5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/4ppbp/p2q2p1/1p1nNb2/3P4/1BP5/P2B1PPP/2RQR1K1 w - - 0 18",
+        "parentNodeId": "eV",
+        "san": "a6"
+      },
+      "fA": {
+        "adjacentNodeIds": [
+          "6T"
+        ],
+        "comments": [
+          {
+            "text": "Yu started preparing to develop the light-squared bishop so that he could also castle. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/ppp1ppbp/6p1/3p4/2PPnB2/2N1PN2/PP3PPP/R2QKB1R b KQ - 0 7",
+        "parentNodeId": "By",
+        "san": "e3"
+      },
+      "gd": {
+        "adjacentNodeIds": [
+          "uH"
+        ],
+        "comments": [
+          {
+            "text": "White activated his rook by bringing it to the semi-open e-file. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pp2ppbp/3q2p1/3n1b2/3P4/1BP2N2/P2B1PPP/2RQR1K1 b - - 5 16",
+        "parentNodeId": "I3",
+        "san": "Re1"
+      },
+      "iu": {
+        "adjacentNodeIds": [
+          "Q1"
+        ],
+        "comments": [
+          {
+            "text": "Ivic recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/4ppbp/6p1/3q4/3P3P/8/P2B1PP1/2R3K1 w - - 0 29",
+        "parentNodeId": "4S",
+        "san": "Qxd5"
+      },
+      "j8": {
+        "adjacentNodeIds": [
+          "Cb"
+        ],
+        "comments": [
+          {
+            "text": "Yu doesn't go for traditional variations with cxd5, rather he puts some pressure on the f6 knight and develops the bishop. \n\nThis is called the Stockholm Variation of the Grunfeld Defense.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pp1p/5np1/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 1 4",
+        "parentNodeId": "eH",
+        "san": "Bg5"
+      },
+      "ka": {
+        "adjacentNodeIds": [
+          "eH"
+        ],
+        "comments": [
+          {
+            "text": "Yu developed the knight, controlling the center. \n\nPreparing moves like e4. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e2-e4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/2N5/PP2PPPP/R1BQKBNR b KQkq - 1 3",
+        "parentNodeId": "Mj",
+        "san": "Nc3"
+      },
+      "mD": {
+        "adjacentNodeIds": [
+          "ps"
+        ],
+        "comments": [
+          {
+            "text": "Ivic resolved some of the central tension. \n\nThe point is not to worry about White capturing on c5. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1q1rk1/pp2ppbp/6p1/3P1b2/2BpnB2/2N1PN2/PP3PPP/R2QK2R w KQ - 0 10",
+        "parentNodeId": "Ha",
+        "san": "cxd4"
+      },
+      "mV": {
+        "adjacentNodeIds": [
+          "1F"
+        ],
+        "comments": [
+          {
+            "text": "Ivic recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/3qppbp/4b1p1/3n4/3P3P/1B3Q2/P2B1PP1/2R3K1 w - - 0 27",
+        "parentNodeId": "Yt",
+        "san": "Qxd7"
+      },
+      "nD": {
+        "adjacentNodeIds": [
+          "Yt"
+        ],
+        "comments": [
+          {
+            "text": "After the queen defended the rook...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1N4k1/1q1rppbp/4b1p1/3n4/3P3P/1B3Q2/P2B1PP1/2R3K1 w - - 5 26",
+        "parentNodeId": "LB",
+        "san": "Qb7"
+      },
+      "nF": {
+        "adjacentNodeIds": [
+          "yO",
+          "qC"
+        ],
+        "comments": [
+          {
+            "text": "And when Yu recaptured, he added another attacker on the a5 pawn! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-a5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d6",
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/4ppbp/3qb1p1/p2n4/2NP3P/1B3Q2/P2B1PP1/2R1R1K1 b - - 0 21",
+        "parentNodeId": "an",
+        "san": "Nxc4"
+      },
+      "nZ": {
+        "adjacentNodeIds": [
+          "Kr"
+        ],
+        "comments": [
+          {
+            "text": "Yu just captured in the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp2ppbp/6p1/2pP4/3PnB2/2N1PN2/PP3PPP/R2QKB1R b KQ - 0 8",
+        "parentNodeId": "6T",
+        "san": "cxd5"
+      },
+      "nj": {
+        "adjacentNodeIds": [
+          "an"
+        ],
+        "comments": [
+          {
+            "text": "Yu immediately attacked everything with the move c4! \n\nc4 also unleashes the d2 bishop which now attacks the a5 pawn! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d2-a5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a5",
+                "d5",
+                "b5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/4ppbp/3qb1p1/pp1nN3/2PP3P/1B3Q2/P2B1PP1/2R1R1K1 b - - 0 20",
+        "parentNodeId": "x6",
+        "san": "c4"
+      },
+      "ps": {
+        "adjacentNodeIds": [
+          "W8"
+        ],
+        "comments": [
+          {
+            "text": "White recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1q1rk1/pp2ppbp/6p1/3P1b2/2BPnB2/2N2N2/PP3PPP/R2QK2R b KQ - 0 10",
+        "parentNodeId": "mD",
+        "san": "exd4"
+      },
+      "qC": {
+        "adjacentNodeIds": [
+          "sH"
+        ],
+        "comments": [
+          {
+            "text": "Instead, Ivic should have gotten the queen out of danger and kept the queen defending the d5 knight! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/3qppbp/4b1p1/p2n4/2NP3P/1B3Q2/P2B1PP1/2R1R1K1 w - - 1 22",
+        "parentNodeId": "nF",
+        "san": "Qd7"
+      },
+      "qD": {
+        "adjacentNodeIds": [
+          "G9"
+        ],
+        "comments": [
+          {
+            "text": "But after Bh6, checkmate is unavoidable. Ivic resigned. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2R2bk1/4pp1p/6pB/3q4/3P3P/8/P4PP1/6K1 b - - 3 30",
+        "parentNodeId": "Uj",
+        "san": "Bh6"
+      },
+      "r": {
+        "adjacentNodeIds": [
+          "L"
+        ],
+        "comments": [
+          {
+            "text": "Ivic developed the knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "parentNodeId": "u",
+        "san": "Nf6"
+      },
+      "sH": {
+        "adjacentNodeIds": [
+          "ue"
+        ],
+        "comments": [
+          {
+            "text": "After Nxa5, winning a pawn...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/3qppbp/4b1p1/N2n4/3P3P/1B3Q2/P2B1PP1/2R1R1K1 b - - 0 22",
+        "parentNodeId": "qC",
+        "san": "Nxa5"
+      },
+      "si": {
+        "adjacentNodeIds": [
+          "Pc",
+          "9L"
+        ],
+        "comments": [
+          {
+            "text": "Ivic centralized his knight, attacking the bishop on g5. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp1ppbp/6p1/3p2B1/2PPn3/2N2N2/PP2PPPP/R2QKB1R w KQkq - 4 6",
+        "parentNodeId": "bm",
+        "san": "Ne4"
+      },
+      "u": {
+        "adjacentNodeIds": [
+          "r"
+        ],
+        "comments": [
+          {
+            "text": "Yu started with 1. d4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1",
+        "parentNodeId": "0",
+        "san": "d4"
+      },
+      "uH": {
+        "adjacentNodeIds": [
+          "eV"
+        ],
+        "comments": [
+          {
+            "text": "Ivic played b5 to control the c4 square. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/p3ppbp/3q2p1/1p1n1b2/3P4/1BP2N2/P2B1PPP/2RQR1K1 w - b6 0 17",
+        "parentNodeId": "gd",
+        "san": "b5"
+      },
+      "ue": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black would've been able to take a pawn in the center! \n\nThis is possible because the knight has sufficient support! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/3qpp1p/4b1p1/N2n4/3b3P/1B3Q2/P2B1PP1/2R1R1K1 w - - 0 23",
+        "parentNodeId": "sH",
+        "san": "Bxd4"
+      },
+      "x6": {
+        "adjacentNodeIds": [
+          "nj"
+        ],
+        "comments": [
+          {
+            "text": "And now a strange move! \n\nBlack played a6 and then a5! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/4ppbp/3qb1p1/pp1nN3/3P3P/1BP2Q2/P2B1PP1/2R1R1K1 w - - 0 20",
+        "parentNodeId": "9l",
+        "san": "a5"
+      },
+      "xc": {
+        "adjacentNodeIds": [
+          "Xr"
+        ],
+        "comments": [
+          {
+            "text": "Yu recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp2ppbp/1n4p1/3P1b2/3P1B2/1BP2N2/P4PPP/R2Q1RK1 b - - 0 13",
+        "parentNodeId": "DW",
+        "san": "bxc3"
+      },
+      "yO": {
+        "adjacentNodeIds": [
+          "AD"
+        ],
+        "comments": [
+          {
+            "text": "The queen went to a6, trying to be near the a5 pawn. \n\nUnfortunately, the a5 pawn cannot be defended! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/4ppbp/q3b1p1/p2n4/2NP3P/1B3Q2/P2B1PP1/2R1R1K1 w - - 1 22",
+        "parentNodeId": "nF",
+        "san": "Qa6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

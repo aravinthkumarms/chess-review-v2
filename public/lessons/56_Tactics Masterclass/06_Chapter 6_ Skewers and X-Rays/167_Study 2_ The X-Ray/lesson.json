@@ -1,0 +1,430 @@
+{
+  "id": "7243d276-5d83-4e07-be36-5eab2e74cf04",
+  "name": "Study 2: The X-Ray",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "4"
+        ],
+        "comments": [
+          {
+            "text": "In study 2, we'll analyze what x-rays are. \n\nBasically, x-rays occur when you see your own piece through an enemy piece. \n\nThis example comes from a game of one of our editors.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1kr5/pp1r4/2p1pn1q/8/1B2B3/1Q6/PPR2PPP/2R3K1 b - - 8 33",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1h": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But a calm and collected h3 solves all issues. \n\nWhite should go on to convert this if they avoid falling into any tactics. But reality can be more complicated as seen in the main line!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/pp6/2p1p2q/8/1B1rn3/1Q5P/PP2RPP1/4R1K1 b - - 0 36",
+        "parentNodeId": "J7",
+        "san": "h3"
+      },
+      "4": {
+        "adjacentNodeIds": [
+          "d",
+          "9l"
+        ],
+        "comments": [
+          {
+            "text": "White is a pawn up with a better position. \n\nNot only that, the e6-pawn is really weak, and after it drops White will have a 3 on 0 on the kingside, making this easily winning for them.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c1-e1",
+                "c2-e2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e6",
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1kr5/pp1r4/2p1p2q/8/1B2n3/1Q6/PPR2PPP/2R3K1 w - - 0 34",
+        "parentNodeId": "0",
+        "san": "Nxe4"
+      },
+      "9": {
+        "adjacentNodeIds": [
+          "qv"
+        ],
+        "comments": [
+          {
+            "text": "Black can sacrifice the queen! \n\nWhite blundered! \n\nThe rook on c8 x-rays the c1-square and the queen on that square. This means that after Rxc1, Black can recapture and give another check!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1kr5/pp1r4/2R1p3/8/1B2n3/1Q6/PP3PPP/2q3K1 w - - 0 35",
+        "parentNodeId": "d",
+        "san": "Qxc1+"
+      },
+      "9l": {
+        "adjacentNodeIds": [
+          "cX"
+        ],
+        "comments": [
+          {
+            "text": "The best way for White to play is to add a rook on the semi-open e-file and attack both the knight and the weakness behind it.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4",
+                "e6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1kr5/pp1r4/2p1p2q/8/1B2n3/1Q6/PPR2PPP/4R1K1 b - - 1 34",
+        "parentNodeId": "4",
+        "san": "Re1"
+      },
+      "Cy": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And this should be a very easy win for White. \n\nBlack has two weaknesses: e6 and c6. Black is also down two pawns, which is enough to convert the endgame.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-h4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/pk6/2p1p2B/8/4n3/8/PP3PPP/2R3K1 b - - 0 37",
+        "parentNodeId": "j9",
+        "san": "Bxh6"
+      },
+      "Em": {
+        "adjacentNodeIds": [
+          "j9"
+        ],
+        "comments": [
+          {
+            "text": "But after this simplification...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1kr5/pQ6/2p1p2q/8/4n3/8/PP1B1PPP/2R3K1 b - - 0 36",
+        "parentNodeId": "Qd",
+        "san": "Qxb7+"
+      },
+      "J7": {
+        "adjacentNodeIds": [
+          "1h"
+        ],
+        "comments": [
+          {
+            "text": "Black could try to attack.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1k5r/pp6/2p1p2q/8/1B1rn3/1Q6/PP2RPPP/4R1K1 w - - 4 36",
+        "parentNodeId": "nK",
+        "san": "Rh8"
+      },
+      "Lu": {
+        "adjacentNodeIds": [
+          "RB"
+        ],
+        "comments": [
+          {
+            "text": "White can only block on bad squares.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k6/pp1r4/4p3/8/1B2n3/8/PP3PPP/2rQ2K1 b - - 1 36",
+        "parentNodeId": "NV",
+        "san": "Qd1"
+      },
+      "NV": {
+        "adjacentNodeIds": [
+          "Lu"
+        ],
+        "comments": [
+          {
+            "text": "And this is a simple checkmate in 2.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1k6/pp1r4/4p3/8/1B2n3/1Q6/PP3PPP/2r3K1 w - - 0 36",
+        "parentNodeId": "qv",
+        "san": "Rxc1+"
+      },
+      "OG": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black is advised to just continue the game by attacking and trying to get counterplay.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1k6/pp1r4/2R1p3/8/1B2nq2/1Q6/PP3PPP/6K1 w - - 1 36",
+        "parentNodeId": "mJ",
+        "san": "Qf4"
+      },
+      "Qd": {
+        "adjacentNodeIds": [
+          "Em"
+        ],
+        "comments": [
+          {
+            "text": "Black could block.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1kr5/pr6/2p1p2q/8/4n3/1Q6/PP1B1PPP/2R3K1 w - - 2 36",
+        "parentNodeId": "jZ",
+        "san": "Rb7"
+      },
+      "RB": {
+        "adjacentNodeIds": [
+          "oo"
+        ],
+        "comments": [
+          {
+            "text": "Check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k6/pp1r4/4p3/8/1B2n3/8/PP3PPP/3r2K1 w - - 0 37",
+        "parentNodeId": "Lu",
+        "san": "Rcxd1+"
+      },
+      "Tn": {
+        "adjacentNodeIds": [
+          "mJ"
+        ],
+        "comments": [
+          {
+            "text": "Taking back with the rook is nothing special.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k6/pp1r4/2r1p2q/8/1B2n3/1Q6/PP3PPP/2R3K1 w - - 0 35",
+        "parentNodeId": "d",
+        "san": "Rxc6"
+      },
+      "cX": {
+        "adjacentNodeIds": [
+          "nK"
+        ],
+        "comments": [
+          {
+            "text": "Black cannot hold things together.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1kr5/pp6/2p1p2q/8/1B1rn3/1Q6/PPR2PPP/4R1K1 w - - 2 35",
+        "parentNodeId": "9l",
+        "san": "Rd4"
+      },
+      "d": {
+        "adjacentNodeIds": [
+          "9",
+          "iE",
+          "Tn"
+        ],
+        "comments": [
+          {
+            "text": "It seems White has tactics on the pawn.  \n\nRxc6 seems like it wins. At least, Black cannot play ...bxc6. \n\nBut if we recall our definition of an x-ray, we can see that we can engineer that situation at this moment.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1kr5/pp1r4/2R1p2q/8/1B2n3/1Q6/PP3PPP/2R3K1 b - - 0 34",
+        "parentNodeId": "4",
+        "san": "Rxc6"
+      },
+      "iE": {
+        "adjacentNodeIds": [
+          "jZ"
+        ],
+        "comments": [
+          {
+            "text": "Taking the rook with a pawn allows White everything they want.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1kr5/p2r4/2p1p2q/8/1B2n3/1Q6/PP3PPP/2R3K1 w - - 0 35",
+        "parentNodeId": "d",
+        "san": "bxc6"
+      },
+      "j9": {
+        "adjacentNodeIds": [
+          "Cy"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/pk6/2p1p2q/8/4n3/8/PP1B1PPP/2R3K1 w - - 0 37",
+        "parentNodeId": "Em",
+        "san": "Kxb7"
+      },
+      "jZ": {
+        "adjacentNodeIds": [
+          "Qd"
+        ],
+        "comments": [
+          {
+            "text": "Bd2+ is a discovered check but also an attack on the queen.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h6",
+                "b8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1kr5/p2r4/2p1p2q/8/4n3/1Q6/PP1B1PPP/2R3K1 b - - 1 35",
+        "parentNodeId": "iE",
+        "san": "Bd2+"
+      },
+      "mJ": {
+        "adjacentNodeIds": [
+          "OG"
+        ],
+        "comments": [
+          {
+            "text": "After the trade on c6, White conveniently covers all checkmating squares on the back-rank: c1 and d1. \n\n...bxc6 is also problematic because of the simplification and endgame.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k6/pp1r4/2R1p2q/8/1B2n3/1Q6/PP3PPP/6K1 b - - 0 35",
+        "parentNodeId": "Tn",
+        "san": "Rxc6"
+      },
+      "nK": {
+        "adjacentNodeIds": [
+          "J7"
+        ],
+        "comments": [
+          {
+            "text": "Because White can double down on the e-file.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4",
+                "e6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1kr5/pp6/2p1p2q/8/1B1rn3/1Q6/PP2RPPP/4R1K1 b - - 3 35",
+        "parentNodeId": "cX",
+        "san": "Rce2"
+      },
+      "oJ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And checkmate. \n\nThe x-ray is a powerful tool to attack through an enemy piece, but also to defend. There are some examples in which you can defend your own piece because you're x-raying an attacker.\n\nYou may encounter some drills on this subject!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k6/pp1r4/4p3/8/4n3/8/PP3PPP/4r1K1 w - - 0 38",
+        "parentNodeId": "oo",
+        "san": "Rxe1#"
+      },
+      "oo": {
+        "adjacentNodeIds": [
+          "oJ"
+        ],
+        "comments": [
+          {
+            "text": "Another useless block.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k6/pp1r4/4p3/8/4n3/8/PP3PPP/3rB1K1 b - - 1 37",
+        "parentNodeId": "RB",
+        "san": "Be1"
+      },
+      "qv": {
+        "adjacentNodeIds": [
+          "NV"
+        ],
+        "comments": [
+          {
+            "text": "This move is forced, but since Black's rook x-rayed that square, Black can just recapture.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1kr5/pp1r4/4p3/8/1B2n3/1Q6/PP3PPP/2R3K1 b - - 0 35",
+        "parentNodeId": "9",
+        "san": "Rxc1"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

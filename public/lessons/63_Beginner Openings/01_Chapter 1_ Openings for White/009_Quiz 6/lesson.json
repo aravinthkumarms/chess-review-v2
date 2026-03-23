@@ -1,0 +1,84 @@
+{
+  "id": "13606f07-46c1-4fe4-bcf3-653f3bd70588",
+  "name": "Quiz 6 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black puts the bishop on g7. \n\nWhat do you think of the plan f3 and Qd2?",
+    "answers": [
+      {
+        "text": "It's a great plan to castle queenside.",
+        "feedback": {
+          "text": "This is a common plan in the Sicilian Defense.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f2-f3",
+              "d1-d2",
+              "e1-c1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "f3 is a mistake because we weaken our king.",
+        "feedback": {
+          "text": "f3 is fine since the king won't be in the center.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f2-f3",
+              "d1-d2",
+              "e1-c1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Qd2 is a mistake because the queen does nothing on d2.",
+        "feedback": {
+          "text": "The queen and bishop work together on the same diagonal!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d1-d2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e3",
+              "d2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkb1r/pp2pp1p/3p1np1/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f2-f3",
+        "d1-d2"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Bg7",
+      "afterMoveFen": "rnbqk2r/pp2ppbp/3p1np1/8/3NP3/2N1B3/PPP2PPP/R2QKB1R w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,81 @@
+{
+  "id": "06f11446-d0cd-4cf2-a292-fd34107bdbe0",
+  "name": "Quiz 2 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black defends the f5-pawn. \n\nIs e4, attacking the pinned pawn, a good move here?",
+    "answers": [
+      {
+        "text": "No; it allows Black to win the f4-pawn, and the more pawn trades occur Black gets more drawing chances.",
+        "feedback": {
+          "text": "Correct! After e4, ...Bh6! And the f-pawn cannot be defended anymore.",
+          "arrows": {
+            "threats": [
+              "g7-h6"
+            ],
+            "opportunities": [
+              "e3-e4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes! You're winning a pawn and Black cannot do anything!",
+        "feedback": {
+          "text": "Are you sure Black cannot do anything?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, Kb5 to win the b6-pawn is better. \n\nWe can keep e4 in reserve for now.",
+        "feedback": {
+          "text": "Kb5 loses a very important and healthy pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c4-b5",
+              "g7-c3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/5pb1/1p1k4/5p2/1PK2P1p/2P1P2B/7P/8 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e3-e4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke6",
+      "afterMoveFen": "8/5pb1/1p2k3/5p2/1PK2P1p/2P1P2B/7P/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

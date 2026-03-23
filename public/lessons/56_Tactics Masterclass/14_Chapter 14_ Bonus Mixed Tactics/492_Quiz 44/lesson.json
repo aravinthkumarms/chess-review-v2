@@ -1,0 +1,84 @@
+{
+  "id": "74b0432b-0344-4d5c-a928-dfc63e8c1db0",
+  "name": "Quiz 44 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White captured on e4 with the knight. \n\nHow should Black react and deal with the threat of Ng5?",
+    "answers": [
+      {
+        "text": "Black should aim to trade the rooks, so …Rg8.",
+        "feedback": {
+          "text": "Exactly! Good job.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f8-g8"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Capturing on d4 (...Qxd4) is fine here.",
+        "feedback": {
+          "text": "This still allows Ng5 with a dangerous attack.",
+          "arrows": {
+            "threats": [
+              "d8-d4"
+            ],
+            "opportunities": [
+              "e4-g5",
+              "g7-h7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "…Rh8 is a great prophylactic move, to prevent Rh7+ in the future.",
+        "feedback": {
+          "text": "Black should get rid of White's rook on g7 as quickly as possible, to not allow any attack.",
+          "arrows": {
+            "threats": [
+              "f8-h8"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "g7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2q1r2/ppp2pR1/4pP1k/8/3Pp2P/3B4/PPPN1P2/R3K3 w Q - 1 1",
+    "arrows": {
+      "threats": [
+        "e4-g5"
+      ],
+      "opportunities": []
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxe4",
+      "afterMoveFen": "r2q1r2/ppp2pR1/4pP1k/8/3PN2P/3B4/PPP2P2/R3K3 b Q - 0 1"
+    }
+  },
+  "drill": null
+}

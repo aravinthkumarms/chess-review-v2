@@ -1,0 +1,68 @@
+{
+  "id": "42fed970-3a86-4641-803e-ce9ac909a324",
+  "name": "Quiz 7",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White's center is quite strong. \n\nKeeping pawn breaks in mind, what should you play?",
+    "answers": [
+      {
+        "text": "f6",
+        "feedback": {
+          "text": "If you have time to challenge a central pawn, you should. This move poses White many problems.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "undermining the center, achieving a pawn break.",
+        "afterMoveFen": "r4rk1/2pqn1p1/bpn1pp1p/pN1pP3/P2P4/2P2N2/1P1Q1PPP/RB2K2R w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rac8",
+        "feedback": {
+          "text": "...c5 is too far away. Let's do something else.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "adding another piece to defend c7, maybe preparing a future c5.",
+        "afterMoveFen": "2r2rk1/2pqnpp1/bpn1p2p/pN1pP3/P2P4/2P2N2/1P1Q1PPP/RB2K2R w - - 3 2"
+      },
+      {
+        "text": "Bxb5",
+        "feedback": {
+          "text": "This move is too premature. We won't even have time to win the pawn so we have to do something else.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d2-c2"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": "getting rid of the strong knight.",
+        "afterMoveFen": "r4rk1/2pqnpp1/1pn1p2p/pb1pP3/P2P4/2P2N2/1P1Q1PPP/RB2K2R w - - 0 2"
+      },
+      {
+        "text": "Na7",
+        "feedback": {
+          "text": "You have to focus on challenging the central pawns first.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "putting more pressure on the knight.",
+        "afterMoveFen": "r4rk1/n1pqnpp1/bp2p2p/pN1pP3/P2P4/2P2N2/1P1Q1PPP/RB2K2R w - - 3 2"
+      }
+    ],
+    "positionFen": "r4rk1/2pqnpp1/bpn1p2p/pN1pP3/P2P4/2PB1N2/1P1Q1PPP/R3K2R w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bb1",
+      "afterMoveFen": "r4rk1/2pqnpp1/bpn1p2p/pN1pP3/P2P4/2P2N2/1P1Q1PPP/RB2K2R b - - 2 1"
+    }
+  },
+  "drill": null
+}

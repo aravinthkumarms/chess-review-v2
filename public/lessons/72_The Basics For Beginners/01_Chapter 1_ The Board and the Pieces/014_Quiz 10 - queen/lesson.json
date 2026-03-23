@@ -1,0 +1,43 @@
+{
+  "id": "3275d4da-cd10-4aab-8cff-b7d26de74fb3",
+  "name": "Quiz 10 - queen",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The queen is the most powerful piece. \n\nWhere could the white queen on d2 move to on this turn?",
+    "answers": [
+      {
+        "text": "c1-c2-b2-c3-b4-a5-d3-e3-e2-e1-f4",
+        "feedback": {
+          "text": "The queen can move in any direction, horizontally, vertically and diagonally.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The queen can move diagonally, horizontally and vertically!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1b1qrk1/1pp2pbp/p2p2p1/6P1/2PPP3/6BP/P2Q1PB1/3R1RK1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bd7",
+      "afterMoveFen": "r3qrk1/1ppb1pbp/p2p2p1/6P1/2PPP3/6BP/P2Q1PB1/3R1RK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

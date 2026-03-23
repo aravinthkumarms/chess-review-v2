@@ -1,0 +1,92 @@
+{
+  "id": "bd450558-6793-4202-a5a2-b898ca0ebef8",
+  "name": "Quiz 7 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has reached the queenside pawns. \n\nDoes White have a way to win?",
+    "answers": [
+      {
+        "text": "Yes, White can win creating a passed pawn.",
+        "feedback": {
+          "text": "a6 wins. Notice how the c6-pawn prevents the black king from stopping the pawns easily. The king would have to take a longer route and then the e-pawn comes into play!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a5-a6",
+              "e3-e4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No. The pawns on the queenside will be lost and White cannot do anything.",
+        "feedback": {
+          "text": "Are you sure? Here's a hint: calculate a6.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a5-a6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It should be a draw because Black will take the queenside pawns and White will take the h- and g-pawns.",
+        "feedback": {
+          "text": "It's impossible to win both kingside pawns because the g-pawn is a protected passer. The king cannot take these pawns because when the h-pawn is taken, the g-pawn runs.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g3-h4",
+              "h4-h5",
+              "g4-g3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/pp6/2p5/PPP4p/4k1p1/4P1K1/8/8 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d5-c5"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "c5"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Kd5",
+      "afterMoveFen": "8/pp6/2p5/PPPk3p/6p1/4P1K1/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

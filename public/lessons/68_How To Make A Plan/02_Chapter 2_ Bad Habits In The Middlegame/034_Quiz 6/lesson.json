@@ -1,0 +1,66 @@
+{
+  "id": "12f1c5ea-6c18-42b7-ba06-b80959775dc9",
+  "name": "Quiz 6",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black threatens to take on h4. \n\nShould you retreat with Nf3 or play something else?",
+    "answers": [
+      {
+        "text": "Bg5",
+        "feedback": {
+          "text": "This move deals with the attack.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "proposing a bishop trade.",
+        "afterMoveFen": "r3k1nr/pppqbpp1/2n5/4P1B1/2PpN2N/6P1/PP2PPKP/R2Q1R2 b kq - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Nf3",
+        "feedback": {
+          "text": "If the knight goes to this square, Black is winning. The queen will enter and the knight will take on e5, removing the defender.",
+          "arrows": {
+            "threats": [
+              "d7-h3",
+              "c6-e5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "g2"
+            ],
+            "opportunities": [
+              "e5"
+            ]
+          }
+        },
+        "comment": "removing the knight from danger.",
+        "afterMoveFen": "r3k1nr/pppqbpp1/2n5/4P3/2PpN3/5NP1/PP2PPKP/R1BQ1R2 b kq - 3 2"
+      }
+    ],
+    "positionFen": "r3kbnr/pppq1pp1/2n5/4P3/2PpN2N/6P1/PP2PPKP/R1BQ1R2 b kq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e7-h4"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "h4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Be7",
+      "afterMoveFen": "r3k1nr/pppqbpp1/2n5/4P3/2PpN2N/6P1/PP2PPKP/R1BQ1R2 w kq - 2 2"
+    }
+  },
+  "drill": null
+}

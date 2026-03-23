@@ -1,0 +1,76 @@
+{
+  "id": "65883b89-5649-41bd-9197-274dd2639654",
+  "name": "Quiz 5",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White supports their c3-pawn with the king.\n\nHow should we react here?",
+    "answers": [
+      {
+        "text": "We shouldn't capture on e2 immediately, but we should improve the rook first, perhaps ...Rc7 to e7.",
+        "feedback": {
+          "text": "Good job! Capturing on e2 immediately ruins the winning chances. The a6-pawn is hanging at the end.",
+          "arrows": {
+            "threats": [
+              "b5-e2",
+              "c5-c3"
+            ],
+            "opportunities": [
+              "a1-a6",
+              "d2-e2"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "a6"
+            ],
+            "opportunities": [
+              "a1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "We can capture the knight, with the idea that after White recaptures, the c3-pawn is hanging. The rook endgame is winning.",
+        "feedback": {
+          "text": "Capturing actually benefits White. Our pawn on a6 is hanging after we capture on c3 with the rook, and the resulting endgame is a draw.",
+          "arrows": {
+            "threats": [
+              "b5-e2",
+              "c5-c3"
+            ],
+            "opportunities": [
+              "d2-e2",
+              "a1-a6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/4k1p1/p4p1p/1br1p3/4P1P1/2P1KP2/4N3/R7 w - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "b5"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Kd2",
+      "afterMoveFen": "8/4k1p1/p4p1p/1br1p3/4P1P1/2P2P2/3KN3/R7 b - - 2 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "fcbb7a4b-4c7c-4b25-967b-2a791c924055",
+  "name": "Quiz 18",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The black king moves towards the pawn. \n\nCan you select the key squares that guarantee White a win if they invade with the king?",
+    "answers": [
+      {
+        "text": "e7-e8-f8-g8-g7",
+        "feedback": {
+          "text": "e7 and e8 are controlled by the black king in this example, but because of the geometry of the board, they are key squares generally. g7 and g8 are the relevant key squares that White can access here.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Select squares that secure the promotion of the pawn if White occupies them with the king. \n\nSince the pawn is on the 7th, consider squares in front but also next to it. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/5P2/3k2K1/8/8/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke7",
+      "afterMoveFen": "8/4kP2/6K1/8/8/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

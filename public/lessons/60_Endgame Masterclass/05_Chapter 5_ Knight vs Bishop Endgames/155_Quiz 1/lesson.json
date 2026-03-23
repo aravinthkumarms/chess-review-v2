@@ -1,0 +1,87 @@
+{
+  "id": "068246a5-4edf-478d-8afc-41decf426aeb",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks the knight on d4.\n\nIs capturing the bishop on c6 okay or is it too dangerous?",
+    "answers": [
+      {
+        "text": "It's ok because White can lock the queenside pawns down with b4, and then go after the a-pawn with Bf1.",
+        "feedback": {
+          "text": "Correct!\n\nWith this continuation of moves White is clearly better being up a pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d4-c6",
+              "b3-b4",
+              "g2-f1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It is okay because White can sacrifice the bishop for the two central pawns and maintain an advantage.",
+        "feedback": {
+          "text": "Incorrect!\n\nThere's a better follow-up White can choose to play.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It is dangerous because Black has two connected passed pawns in the center.",
+        "feedback": {
+          "text": "There is a defensive measure against them!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/1p4p1/p1b2k2/3p4/3Np1Pp/1P5P/P4KB1/8 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d4-c6"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "c6"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Ke5",
+      "afterMoveFen": "8/1p4p1/p1b5/3pk3/3Np1Pp/1P5P/P4KB1/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

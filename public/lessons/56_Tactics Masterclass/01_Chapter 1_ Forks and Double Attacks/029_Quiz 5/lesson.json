@@ -1,0 +1,64 @@
+{
+  "id": "da71b839-e518-4c4b-a5d0-f5b2f29113b9",
+  "name": "Quiz 5 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Qd3.\n\nNf4+ wins the queen! But first we'll have to capture the bishop.\n\nWhat's the best way to recapture it?",
+    "answers": [
+      {
+        "text": "Both options are correct.",
+        "feedback": {
+          "text": "Exactly. White's king is weak either way, and most importantly we'll just win the queen.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "g2",
+              "d3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Capturing with the rook is best.",
+        "feedback": {
+          "text": "Is there a better option?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Capturing with the bishop is best.",
+        "feedback": {
+          "text": "Is this the only way to continue?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r5k1/1p3ppp/2p3n1/2b5/p3r1q1/P1P1BNP1/1P2Q1K1/R3RN2 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g6-f4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Qd3",
+      "afterMoveFen": "r5k1/1p3ppp/2p3n1/2b5/p3r1q1/P1PQBNP1/1P4K1/R3RN2 b - - 2 1"
+    }
+  },
+  "drill": null
+}

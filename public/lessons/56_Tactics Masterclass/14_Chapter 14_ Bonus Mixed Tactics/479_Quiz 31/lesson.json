@@ -1,0 +1,63 @@
+{
+  "id": "f336d010-b989-4fda-8ea0-d66511286812",
+  "name": "Quiz 31 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White develops their bishop. \n\nWhich of these moves is a blunder?",
+    "answers": [
+      {
+        "text": "Be7",
+        "feedback": {
+          "text": "That's the blunder here, allowing Qd5! The f7-pawn isn't easily defendable.",
+          "arrows": {
+            "threats": [
+              "d1-d5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "f7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "developing the bishop to e7.",
+        "afterMoveFen": "r1bqk1nr/pppnbppp/8/4p3/2B1P3/5N2/PPP2PPP/RNBQK2R w KQkq - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Bc5",
+        "feedback": {
+          "text": "That's actually one of the best moves!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "developing the bishop to c5.",
+        "afterMoveFen": "r1bqk1nr/pppn1ppp/8/2b1p3/2B1P3/5N2/PPP2PPP/RNBQK2R w KQkq - 3 2"
+      },
+      {
+        "text": "c6",
+        "feedback": {
+          "text": "That's not a bad move!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "controlling the d5-square.",
+        "afterMoveFen": "r1bqkbnr/pp1n1ppp/2p5/4p3/2B1P3/5N2/PPP2PPP/RNBQK2R w KQkq - 0 2"
+      }
+    ],
+    "positionFen": "r1bqkbnr/pppn1ppp/8/4p3/4P3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bc4",
+      "afterMoveFen": "r1bqkbnr/pppn1ppp/8/4p3/2B1P3/5N2/PPP2PPP/RNBQK2R b KQkq - 2 1"
+    }
+  },
+  "drill": null
+}

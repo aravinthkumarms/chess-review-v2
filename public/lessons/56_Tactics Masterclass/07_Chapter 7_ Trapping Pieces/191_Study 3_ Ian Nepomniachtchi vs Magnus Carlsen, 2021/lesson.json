@@ -1,0 +1,1185 @@
+{
+  "id": "c9a6fa47-c457-46f0-a056-0f9b0894f69c",
+  "name": "Study 3: Ian Nepomniachtchi vs Magnus Carlsen, 2021 ",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "u"
+        ],
+        "comments": [
+          {
+            "text": "In this third study, we'll analyze a game played by Grandmasters Ian Nepomniachtchi and  Magnus Carlsen at their 2021 World Championship Match. \n\nThis was game 9, and it was a decisive one due to a trapped piece. \n\nMany times, a piece can become trapped because one player finds a sequence of forcing moves that result in the trap. In other cases, a trap is more self-inflicted.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2rb1k1/1pp2pp1/4p2p/4P3/1qP3nP/1N2Q1P1/P4PB1/RR4K1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "00": {
+        "adjacentNodeIds": [
+          "Tt"
+        ],
+        "comments": [
+          {
+            "text": "And lose the knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/P4ppk/4p3/2pbP2p/7P/6n1/5K2/8 w - - 2 21",
+        "parentNodeId": "xM",
+        "san": "Bd5"
+      },
+      "02": {
+        "adjacentNodeIds": [
+          "5C"
+        ],
+        "comments": [
+          {
+            "text": "Pushing here doesn't help either.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/P4pp1/2p1p3/2N1P2p/7P/5Pn1/8/R5K1 b - - 0 14",
+        "parentNodeId": "45",
+        "san": "a7"
+      },
+      "2g": {
+        "adjacentNodeIds": [
+          "PI"
+        ],
+        "comments": [
+          {
+            "text": "Here, Magnus put pressure on the c4-pawn.\n\nThe best move for Ian here is to attack the knight with f3 and then tuck the bishop in the center, on e4 for example.\n\nHowever, this is where the key mistake happened.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f2-f3",
+                "g4-h6",
+                "b7-e4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c4",
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rb1k1/1Bp2pp1/4p3/4P2p/r1P3nP/1N4P1/P4P2/R3R1K1 w - - 1 4",
+        "parentNodeId": "MJ",
+        "san": "Ra4"
+      },
+      "45": {
+        "adjacentNodeIds": [
+          "ku",
+          "02"
+        ],
+        "comments": [
+          {
+            "text": "However, Magnus had calculated the game until the very end and realized that it was completely fine to grab the pawn on g3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/5pp1/P1p1p3/2N1P2p/7P/5Pn1/8/R5K1 w - - 0 14",
+        "parentNodeId": "Rd",
+        "san": "Nxg3"
+      },
+      "5C": {
+        "adjacentNodeIds": [
+          "fR"
+        ],
+        "comments": [
+          {
+            "text": "Magnus would have just placed the rook back on a8 and there wouldn't be much for Ian to do here.\n\nIt's impossible for Ian to get his knight to b6, as you'll see in the main line.",
+            "arrows": {
+              "threats": [
+                "c5-a4",
+                "c5-d7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "b6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3b1k1/P4pp1/2p1p3/2N1P2p/7P/5Pn1/8/R5K1 w - - 1 15",
+        "parentNodeId": "02",
+        "san": "Ra8"
+      },
+      "5I": {
+        "adjacentNodeIds": [
+          "Rd"
+        ],
+        "comments": [
+          {
+            "text": "The rook retreated back to the eighth rank, ready to defend from it.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/5pp1/2p1p3/P1N1Pn1p/7P/5PP1/8/R5K1 w - - 1 13",
+        "parentNodeId": "t1",
+        "san": "Rb8"
+      },
+      "5L": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White is up an exchange here, but Black's got two extra pawns.\n\nThis position is a clear draw according to the computer.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g3"
+              ],
+              "opportunities": [
+                "g7",
+                "c5",
+                "a8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "R7/5ppk/4p3/2p1P2p/7P/5Pn1/8/6K1 b - - 0 21",
+        "parentNodeId": "F0",
+        "san": "Rxa8"
+      },
+      "7U": {
+        "adjacentNodeIds": [
+          "ww"
+        ],
+        "comments": [
+          {
+            "text": "There's Nb6 now, attacking the rook on a8.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3b1k1/P4pp1/1N2p3/2p1P2p/7P/5Pn1/8/R5K1 b - - 2 16",
+        "parentNodeId": "F1",
+        "san": "Nb6"
+      },
+      "8n": {
+        "adjacentNodeIds": [
+          "rV"
+        ],
+        "comments": [
+          {
+            "text": "If Magnus had passively defended, this would have meant trouble.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3rb1k1/rpp2pp1/4p2p/4P3/2P3nP/1N4P1/P4PB1/R3R1K1 w - - 1 3",
+        "parentNodeId": "L",
+        "san": "Ra7"
+      },
+      "A8": {
+        "adjacentNodeIds": [
+          "SH",
+          "F1"
+        ],
+        "comments": [
+          {
+            "text": "Ian tried pushing a7, and Carlsen had to be careful one last time.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/P4pp1/4p3/2p1P2p/N6P/5Pn1/8/R5K1 b - - 0 15",
+        "parentNodeId": "g7",
+        "san": "a7"
+      },
+      "AZ": {
+        "adjacentNodeIds": [
+          "mQ"
+        ],
+        "comments": [
+          {
+            "text": "Ian took back, and Magnus was basically forced to take on b6 again.\n\nTwo connected passed pawns would be too much to allow.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/5pp1/1Pp1p2n/4P2p/P6P/1N3PP1/8/R5K1 b - - 0 10",
+        "parentNodeId": "pz",
+        "san": "cxb6"
+      },
+      "Be": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Now ...Ra8 was extremely strong.\n\nIan's knight had no way of reaching the b6-square as it couldn't jump back to the a-file because the a7-pawn would be hanging.\n\nIan resigned in this position.\n\nThe self-inflicted piece trap definitely cost him a game here!",
+            "arrows": {
+              "threats": [
+                "c5-a4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3b1k1/P4pp1/4p3/2N1P2p/7P/5Pn1/8/R5K1 w - - 1 17",
+        "parentNodeId": "lz",
+        "san": "Ra8"
+      },
+      "CA": {
+        "adjacentNodeIds": [
+          "Ct"
+        ],
+        "comments": [
+          {
+            "text": "Ian couldn't do much but try to defend...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rb1k1/rB3pp1/2p1p2n/2P1P2p/1R5P/1N3PP1/P7/R5K1 b - - 4 7",
+        "parentNodeId": "Ng",
+        "san": "Rb4"
+      },
+      "Ct": {
+        "adjacentNodeIds": [
+          "nV"
+        ],
+        "comments": [
+          {
+            "text": "But there was another rook for Magnus, and this was also a pin on the bishop.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b7",
+                "b4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/rB3pp1/2p1p2n/2P1P2p/1R5P/1N3PP1/P7/R5K1 w - - 5 8",
+        "parentNodeId": "CA",
+        "san": "Rb8"
+      },
+      "F0": {
+        "adjacentNodeIds": [
+          "5L"
+        ],
+        "comments": [
+          {
+            "text": "The bishop must be sacrificed.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "bR6/5ppk/4p3/2p1P2p/7P/5Pn1/8/6K1 w - - 0 21",
+        "parentNodeId": "HE",
+        "san": "Bxa8"
+      },
+      "F1": {
+        "adjacentNodeIds": [
+          "7U"
+        ],
+        "comments": [
+          {
+            "text": "Blocking the pawn with ...Ra8 jumps right into Ian's hands.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3b1k1/P4pp1/4p3/2p1P2p/N6P/5Pn1/8/R5K1 w - - 1 16",
+        "parentNodeId": "A8",
+        "san": "Ra8"
+      },
+      "HE": {
+        "adjacentNodeIds": [
+          "F0"
+        ],
+        "comments": [
+          {
+            "text": "Whenever Ian queens...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "QR6/5ppk/4p3/2pbP2p/7P/5Pn1/8/6K1 b - - 0 20",
+        "parentNodeId": "m8",
+        "san": "a8=Q"
+      },
+      "IL": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Magnus would be up two pawns and probably play ...Nf5 to attack the h4-pawn.\n\nAn easily winning position for Black.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g3-f5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "N2r2k1/5pp1/4p3/2p1P2p/7P/5Pn1/8/R5K1 b - - 0 18",
+        "parentNodeId": "tw",
+        "san": "Nxa8"
+      },
+      "J": {
+        "adjacentNodeIds": [
+          "L"
+        ],
+        "comments": [
+          {
+            "text": "Magnus took the queen trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2rb1k1/1pp2pp1/4p2p/4P3/2P3nP/1N4P1/P4PB1/RR2q1K1 w - - 0 2",
+        "parentNodeId": "u",
+        "san": "Qxe1+"
+      },
+      "JR": {
+        "adjacentNodeIds": [
+          "xM"
+        ],
+        "comments": [
+          {
+            "text": "But can Magnus take it?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/P4ppk/4p3/2p1P2p/7P/5bn1/8/6K1 w - - 0 20",
+        "parentNodeId": "ul",
+        "san": "Bxf3"
+      },
+      "L": {
+        "adjacentNodeIds": [
+          "c6",
+          "8n"
+        ],
+        "comments": [
+          {
+            "text": "Ian recaptured, and now the pawn on b7 was hanging.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2rb1k1/1pp2pp1/4p2p/4P3/2P3nP/1N4P1/P4PB1/R3R1K1 b - - 0 2",
+        "parentNodeId": "J",
+        "san": "Rxe1"
+      },
+      "MJ": {
+        "adjacentNodeIds": [
+          "2g"
+        ],
+        "comments": [
+          {
+            "text": "There's definitely nothing wrong with that at the moment.\n\nHowever, if Ian is not careful, things could go downhill fast.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2rb1k1/1Bp2pp1/4p3/4P2p/2P3nP/1N4P1/P4P2/R3R1K1 b - - 0 3",
+        "parentNodeId": "c6",
+        "san": "Bxb7"
+      },
+      "Ng": {
+        "adjacentNodeIds": [
+          "CA"
+        ],
+        "comments": [
+          {
+            "text": "Naturally, Magnus avoided the trade and attacked the bishop on b7 instead.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rb1k1/rB3pp1/2p1p2n/2P1P2p/4R2P/1N3PP1/P7/R5K1 w - - 3 7",
+        "parentNodeId": "S7",
+        "san": "Ra7"
+      },
+      "PI": {
+        "adjacentNodeIds": [
+          "pj"
+        ],
+        "comments": [
+          {
+            "text": "Ian tried pushing that pawn and defending it that way.\n\nDo you see why this move is losing?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rb1k1/1Bp2pp1/4p3/2P1P2p/r5nP/1N4P1/P4P2/R3R1K1 b - - 0 4",
+        "parentNodeId": "2g",
+        "san": "c5"
+      },
+      "Pf": {
+        "adjacentNodeIds": [
+          "nR"
+        ],
+        "comments": [
+          {
+            "text": "Magnus would have the simple and winning ...Bc6 here, adding a piece to protect the queening square.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a8"
+              ],
+              "opportunities": [
+                "c6",
+                "d8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3r2k1/P4pp1/1Nb1p3/2p1P2p/7P/5Pn1/8/R5K1 w - - 3 17",
+        "parentNodeId": "oE",
+        "san": "Bc6"
+      },
+      "QL": {
+        "adjacentNodeIds": [
+          "ul"
+        ],
+        "comments": [
+          {
+            "text": "The best he could do is get out of the eighth rank so that Rb8 isn't a check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "b7/P4ppk/4p3/2p1P2p/7P/5Pn1/8/1R4K1 w - - 2 19",
+        "parentNodeId": "yx",
+        "san": "Kh7"
+      },
+      "Qc": {
+        "adjacentNodeIds": [
+          "pz"
+        ],
+        "comments": [
+          {
+            "text": "Ian went for a creative idea here, but unfortunately it turned out not to work.\n\nBlack's position was simply too strong.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/1r3pp1/1Rp1p2n/2P1P2p/P6P/1N3PP1/8/R5K1 b - - 1 9",
+        "parentNodeId": "fi",
+        "san": "Rb6"
+      },
+      "Rd": {
+        "adjacentNodeIds": [
+          "45"
+        ],
+        "comments": [
+          {
+            "text": "Ian continued pushing.\n\nThere wasn't much else he could do.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/5pp1/P1p1p3/2N1Pn1p/7P/5PP1/8/R5K1 b - - 0 13",
+        "parentNodeId": "5I",
+        "san": "a6"
+      },
+      "S7": {
+        "adjacentNodeIds": [
+          "Ng",
+          "a9"
+        ],
+        "comments": [
+          {
+            "text": "Now Ian tried trading the rooks with Re4.\n\nIs it good for Carlsen to trade here?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rb1k1/1B3pp1/2p1p2n/2P1P2p/r3R2P/1N3PP1/P7/R5K1 b - - 2 6",
+        "parentNodeId": "sh",
+        "san": "Re4"
+      },
+      "SH": {
+        "adjacentNodeIds": [
+          "lz",
+          "oE"
+        ],
+        "comments": [
+          {
+            "text": "Magnus couldn't allow Nb6, so he played ...Rd8 instead.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rb1k1/P4pp1/4p3/2p1P2p/N6P/5Pn1/8/R5K1 w - - 1 16",
+        "parentNodeId": "A8",
+        "san": "Rd8"
+      },
+      "Sp": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And now it's clear how quickly we would have reached the outcome of the game.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g8-f8",
+                "f8-e7",
+                "c7-b7",
+                "e7-d7",
+                "d7-c7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3b1k1/P4pp1/2p1p3/4P2p/4P2P/8/8/R5K1 b - - 0 16",
+        "parentNodeId": "Tk",
+        "san": "fxe4"
+      },
+      "Tk": {
+        "adjacentNodeIds": [
+          "Sp"
+        ],
+        "comments": [
+          {
+            "text": "Which Magnus could easily accept.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3b1k1/P4pp1/2p1p3/4P2p/4n2P/5P2/8/R5K1 w - - 0 16",
+        "parentNodeId": "fR",
+        "san": "Nxe4"
+      },
+      "Tt": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And, of course, Ian would still get a8=Q and win the bishop with a completely winning position now.\n\nChess indeed is a game where everything can go either way in any moment!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/P4ppk/4p3/2pbP2p/7P/6K1/8/8 b - - 0 21",
+        "parentNodeId": "00",
+        "san": "Kxg3"
+      },
+      "WB": {
+        "adjacentNodeIds": [
+          "qq"
+        ],
+        "comments": [
+          {
+            "text": "First, he played Nc5.\n\nHe wanted to disallow Magnus from playing ...c5 himself to open up the light-squared bishop.",
+            "arrows": {
+              "threats": [
+                "c6-c5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4b1k1/5pp1/1rp1p2n/2N1P2p/P6P/5PP1/8/R5K1 b - - 1 11",
+        "parentNodeId": "mQ",
+        "san": "Nc5"
+      },
+      "a9": {
+        "adjacentNodeIds": [
+          "vA"
+        ],
+        "comments": [
+          {
+            "text": "If Magnus trades...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rb1k1/1B3pp1/2p1p2n/2P1P2p/4r2P/1N3PP1/P7/R5K1 w - - 0 7",
+        "parentNodeId": "S7",
+        "san": "Rxe4"
+      },
+      "c6": {
+        "adjacentNodeIds": [
+          "MJ"
+        ],
+        "comments": [
+          {
+            "text": "However, Magnus completely ignored it and played ...h5. He did this to avoid getting his own piece trapped! \n\nThe b-pawn isn't that important: Magnus would have played on the a- and d-files.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-h6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2rb1k1/1pp2pp1/4p3/4P2p/2P3nP/1N4P1/P4PB1/R3R1K1 w - - 0 3",
+        "parentNodeId": "L",
+        "san": "h5"
+      },
+      "fR": {
+        "adjacentNodeIds": [
+          "Tk"
+        ],
+        "comments": [
+          {
+            "text": "The computer suggests the desperate Ne4, offering a knight trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3b1k1/P4pp1/2p1p3/4P2p/4N2P/5Pn1/8/R5K1 b - - 2 15",
+        "parentNodeId": "5C",
+        "san": "Ne4"
+      },
+      "fi": {
+        "adjacentNodeIds": [
+          "Qc"
+        ],
+        "comments": [
+          {
+            "text": "First, he had to face losing a piece on b7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/1r3pp1/2p1p2n/2P1P2p/PR5P/1N3PP1/8/R5K1 w - - 0 9",
+        "parentNodeId": "nV",
+        "san": "Raxb7"
+      },
+      "g7": {
+        "adjacentNodeIds": [
+          "A8"
+        ],
+        "comments": [
+          {
+            "text": "But, he had seen this idea as well and knew he could fight against it.\n\nThe moment that Ian's knight left the c5-square, Magnus pushed ...c5 and set his bishop free.\n\nNow it was attacking the knight and also ready to help out on the c6-square if needed.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/5pp1/P3p3/2p1P2p/N6P/5Pn1/8/R5K1 w - - 0 15",
+        "parentNodeId": "ku",
+        "san": "c5"
+      },
+      "ku": {
+        "adjacentNodeIds": [
+          "g7"
+        ],
+        "comments": [
+          {
+            "text": "Before pushing the pawn, Ian played Na4.\n\nThe idea was to try to push a7 and then follow it up with Nb6 is Magnus isn't careful.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a6-a7",
+                "b8-a8",
+                "a4-b6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a8",
+                "b8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/5pp1/P1p1p3/4P2p/N6P/5Pn1/8/R5K1 b - - 1 14",
+        "parentNodeId": "45",
+        "san": "Na4"
+      },
+      "lB": {
+        "adjacentNodeIds": [
+          "yx"
+        ],
+        "comments": [
+          {
+            "text": "Magnus would recapture and get two pieces for the rook.\n\nI'm just going to show an interesting computer line that eventually leads to a draw.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "b5k1/P4pp1/4p3/2p1P2p/7P/5Pn1/8/R5K1 w - - 0 18",
+        "parentNodeId": "u0",
+        "san": "Bxa8"
+      },
+      "lz": {
+        "adjacentNodeIds": [
+          "Be"
+        ],
+        "comments": [
+          {
+            "text": "Once Ian took on c5, however...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rb1k1/P4pp1/4p3/2N1P2p/7P/5Pn1/8/R5K1 b - - 0 16",
+        "parentNodeId": "SH",
+        "san": "Nxc5"
+      },
+      "m8": {
+        "adjacentNodeIds": [
+          "HE"
+        ],
+        "comments": [
+          {
+            "text": "The drawing move is ...Bd5, simply keeping the bishop in the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1R6/P4ppk/4p3/2pbP2p/7P/5Pn1/8/6K1 w - - 4 20",
+        "parentNodeId": "ul",
+        "san": "Bd5"
+      },
+      "mQ": {
+        "adjacentNodeIds": [
+          "WB"
+        ],
+        "comments": [
+          {
+            "text": "And, of course he took.\n\nIan's idea was to actually lure Black's rook to the b6-square so that a5 could come with tempo on the rook.\n\nDefinitely a good try.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-a5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4b1k1/5pp1/1rp1p2n/4P2p/P6P/1N3PP1/8/R5K1 w - - 0 11",
+        "parentNodeId": "AZ",
+        "san": "Rxb6"
+      },
+      "nR": {
+        "adjacentNodeIds": [
+          "tw"
+        ],
+        "comments": [
+          {
+            "text": "Yes, Ian could get a queen and win a piece...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "Q2r2k1/5pp1/1Nb1p3/2p1P2p/7P/5Pn1/8/R5K1 b - - 0 17",
+        "parentNodeId": "Pf",
+        "san": "a8=Q"
+      },
+      "nV": {
+        "adjacentNodeIds": [
+          "fi"
+        ],
+        "comments": [
+          {
+            "text": "Knowing he would lose a piece, Ian went for the most useful resource he had in the position: the pawn on a4.\n\nIt was an outside passed pawn after all, and Carlsen's knight was out of bounds on the kingside for the moment.\n\nMaybe Ian could achieve some counterplay.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-a5",
+                "a5-a6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/rB3pp1/2p1p2n/2P1P2p/PR5P/1N3PP1/8/R5K1 b - a3 0 8",
+        "parentNodeId": "Ct",
+        "san": "a4"
+      },
+      "oE": {
+        "adjacentNodeIds": [
+          "Pf"
+        ],
+        "comments": [
+          {
+            "text": "Going for Nb6 here doesn't work as Black's rook is not under attack.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3rb1k1/P4pp1/1N2p3/2p1P2p/7P/5Pn1/8/R5K1 b - - 2 16",
+        "parentNodeId": "SH",
+        "san": "Nb6"
+      },
+      "pj": {
+        "adjacentNodeIds": [
+          "xG"
+        ],
+        "comments": [
+          {
+            "text": "Magnus can trap the bishop with ...c6!\n\nSuddenly, the bishop had no available squares to move to and the only thing left was for Magnus to attack it.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-a7",
+                "d8-b8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": [
+                "e8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3rb1k1/1B3pp1/2p1p3/2P1P2p/r5nP/1N4P1/P4P2/R3R1K1 w - - 0 5",
+        "parentNodeId": "PI",
+        "san": "c6"
+      },
+      "pz": {
+        "adjacentNodeIds": [
+          "AZ"
+        ],
+        "comments": [
+          {
+            "text": "Magnus captured on b6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/5pp1/1rp1p2n/2P1P2p/P6P/1N3PP1/8/R5K1 w - - 0 10",
+        "parentNodeId": "Qc",
+        "san": "Rxb6"
+      },
+      "qq": {
+        "adjacentNodeIds": [
+          "t1"
+        ],
+        "comments": [
+          {
+            "text": "All the pieces but the knight were playing a role in Black's position, so he got the knight into the game as well.\n\nThe g3-pawn was under attack.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4b1k1/5pp1/1rp1p3/2N1Pn1p/P6P/5PP1/8/R5K1 w - - 2 12",
+        "parentNodeId": "WB",
+        "san": "Nf5"
+      },
+      "rV": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Ian would have been the one to win a trapped piece!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rb1k1/rpp2pp1/4p2p/4P3/2P3nP/1N3PP1/P5B1/R3R1K1 b - - 0 3",
+        "parentNodeId": "8n",
+        "san": "f3"
+      },
+      "sh": {
+        "adjacentNodeIds": [
+          "S7"
+        ],
+        "comments": [
+          {
+            "text": "Magnus retreated to h6 and kept his knight safe.\n\nHe knew he was going to be up a piece and that there wasn't much to worry about.\n\nIan contributed to trapping his own bishop, but Magnus had spotted it at the exact precise moment and prevented the bishop from ever leaving or the pawn from advancing.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rb1k1/1B3pp1/2p1p2n/2P1P2p/r6P/1N3PP1/P7/R3R1K1 w - - 1 6",
+        "parentNodeId": "xG",
+        "san": "Nh6"
+      },
+      "t1": {
+        "adjacentNodeIds": [
+          "5I"
+        ],
+        "comments": [
+          {
+            "text": "Ignoring the threat, Ian put his plan into motion.\n\nHe couldn't wait too long for Magnus to reactivate his extra piece.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4b1k1/5pp1/1rp1p3/P1N1Pn1p/7P/5PP1/8/R5K1 b - - 0 12",
+        "parentNodeId": "qq",
+        "san": "a5"
+      },
+      "tw": {
+        "adjacentNodeIds": [
+          "IL"
+        ],
+        "comments": [
+          {
+            "text": "But after the trades...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "b2r2k1/5pp1/1N2p3/2p1P2p/7P/5Pn1/8/R5K1 w - - 0 18",
+        "parentNodeId": "nR",
+        "san": "Bxa8"
+      },
+      "u": {
+        "adjacentNodeIds": [
+          "J"
+        ],
+        "comments": [
+          {
+            "text": "Ian with the White pieces proposed a queen trade here. \n\nThe position was equal and there really wasn't anything to write home about.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2rb1k1/1pp2pp1/4p2p/4P3/1qP3nP/1N4P1/P4PB1/RR2Q1K1 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Qe1"
+      },
+      "u0": {
+        "adjacentNodeIds": [
+          "lB"
+        ],
+        "comments": [
+          {
+            "text": "With correct play, this position would actually end in a draw.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "N5k1/P4pp1/2b1p3/2p1P2p/7P/5Pn1/8/R5K1 b - - 0 17",
+        "parentNodeId": "ww",
+        "san": "Nxa8"
+      },
+      "ul": {
+        "adjacentNodeIds": [
+          "m8",
+          "JR"
+        ],
+        "comments": [
+          {
+            "text": "Ian would still play it and put pressure on the bishop.\n\nThis line is interesting because the f3-pawn is hanging at the moment.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "bR6/P4ppk/4p3/2p1P2p/7P/5Pn1/8/6K1 b - - 3 19",
+        "parentNodeId": "QL",
+        "san": "Rb8"
+      },
+      "vA": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The pawn recaptures, and suddenly the bishop isn't trapped anymore!\n\nMagnus would lose all the advantage here.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b7-a6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rb1k1/1B3pp1/2p1p2n/2P1P2p/4P2P/1N4P1/P7/R5K1 b - - 0 7",
+        "parentNodeId": "a9",
+        "san": "fxe4"
+      },
+      "ww": {
+        "adjacentNodeIds": [
+          "u0"
+        ],
+        "comments": [
+          {
+            "text": "To keep the game in the balance, Magnus would have to play ...Bc6.\n\nAny other move gives Ian too much activity.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/P4pp1/1Nb1p3/2p1P2p/7P/5Pn1/8/R5K1 w - - 3 17",
+        "parentNodeId": "7U",
+        "san": "Bc6"
+      },
+      "xG": {
+        "adjacentNodeIds": [
+          "sh"
+        ],
+        "comments": [
+          {
+            "text": "Now Ian played the best move which was f3, but he was one move too late.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rb1k1/1B3pp1/2p1p3/2P1P2p/r5nP/1N3PP1/P7/R3R1K1 b - - 0 5",
+        "parentNodeId": "pj",
+        "san": "f3"
+      },
+      "xM": {
+        "adjacentNodeIds": [
+          "00"
+        ],
+        "comments": [
+          {
+            "text": "A king fork!\n\nIn order for Carlsen's pieces to stop promotion on a8, he'd have to retreat the bishop...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g3",
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1R6/P4ppk/4p3/2p1P2p/7P/5bn1/5K2/8 b - - 1 20",
+        "parentNodeId": "JR",
+        "san": "Kf2"
+      },
+      "yx": {
+        "adjacentNodeIds": [
+          "QL"
+        ],
+        "comments": [
+          {
+            "text": "Here, the way for Ian to win a piece would be Rb1, going for the unstoppable Rb8+.\n\nMagnus can't save the bishop here.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b1-b8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g8",
+                "a8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "b5k1/P4pp1/4p3/2p1P2p/7P/5Pn1/8/1R4K1 b - - 1 18",
+        "parentNodeId": "lB",
+        "san": "Rb1"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

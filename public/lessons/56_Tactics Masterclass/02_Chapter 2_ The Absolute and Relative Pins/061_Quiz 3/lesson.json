@@ -1,0 +1,80 @@
+{
+  "id": "923561a4-513e-46a2-81da-fa005522188e",
+  "name": "Quiz 3 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Looks like we've got an advantage out of the opening. White is attacking our rook on h8.\n\nCan we go for ...Qe7 to pin the bishop to the king and try to win it?",
+    "answers": [
+      {
+        "text": "No, White has a way out.",
+        "feedback": {
+          "text": "Exactly. After ...Qe7 White has Qc8+, forcing a queen trade and our rook on h8 will be lost.",
+          "arrows": {
+            "threats": [
+              "d8-e7"
+            ],
+            "opportunities": [
+              "g4-c8",
+              "e5-h8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes! We'll win a piece.",
+        "feedback": {
+          "text": "Try to visualize. After ...Qe7, does White have any checks?",
+          "arrows": {
+            "threats": [
+              "d8-e7"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "g4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, our rook is lost, but we should go for ...Be7 to counter-attack the h4-pawn.",
+        "feedback": {
+          "text": "Not the best way to create counterplay. Moves like ...h5 or ...f6 are better.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h7-h5",
+              "f7-f6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rn1qkb1r/ppp2p1p/8/3p4/5BQP/3P4/PPP3P1/RN2KB1n w Qkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Be5",
+      "afterMoveFen": "rn1qkb1r/ppp2p1p/8/3pB3/6QP/3P4/PPP3P1/RN2KB1n b Qkq - 2 1"
+    }
+  },
+  "drill": null
+}

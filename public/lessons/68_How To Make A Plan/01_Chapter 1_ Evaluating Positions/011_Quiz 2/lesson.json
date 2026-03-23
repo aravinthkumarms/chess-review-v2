@@ -1,0 +1,96 @@
+{
+  "id": "d478af6c-c90f-4af3-b37a-c2c24b8b86ba",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has just played Ne2 to block the e-file. \n\nYou have the Black pieces. \n\nHow would you evaluate this position?",
+    "answers": [
+      {
+        "text": "Black is better (-2.24)",
+        "feedback": {
+          "text": "White has weaknesses on the kingside light squares. Black may attack with Qf6, Bh3 or Bg4. Thus, Black has an edge.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c8-g4",
+              "d8-f6",
+              "c8-h3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is better (+1.1)",
+        "feedback": {
+          "text": "White cannot be said to be better because of the light square weaknesses on the kingside and limited piece activity. It's also questionable if White will have adequate king safety.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "The position is equal (+0.04)",
+        "feedback": {
+          "text": "With all the weaknesses on the kingside, and the fact that White is barely holding on before something bad happens to their position (moves like Qf6 or Bh3) we cannot say this is equal. ",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black has a slight edge (-0.5)",
+        "feedback": {
+          "text": "If Black were to have an advantage, -0.5 wouldn't do it justice. If the Black pieces like the f8 rook and the light-squared bishop pose some problems, it's going to be more than -0.5.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d8-f6",
+              "c8-h3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bq1rk1/ppp3pp/2n5/3p4/1b1P4/3B2P1/PP1B1P1P/R2QK1NR w KQ - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ne2",
+      "afterMoveFen": "r1bq1rk1/ppp3pp/2n5/3p4/1b1P4/3B2P1/PP1BNP1P/R2QK2R b KQ - 2 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,90 @@
+{
+  "id": "13b8a7a0-ef3f-4e84-8dd9-7f5a8e45f7ff",
+  "name": "Quiz 6: Seirawan vs Kasparov, 1983, 4.Kb3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It's Black to move. \n\nWhat's the winning method here?",
+    "answers": [
+      {
+        "text": "Triangulation (losing a tempo) with ...Kd7 or Kc7 so that the kings can face each other with White to move.",
+        "feedback": {
+          "text": "Exactly! \n\nThe white king has to stay near the b-pawn, so eventually it will have to go back to the 4th rank, where Black will be able to win the opposition.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c6-d7",
+              "c6-c7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "...b3, pawn sacrifice, to distract the king and invade more squares with our own king.",
+        "feedback": {
+          "text": "Neither plan of invasion works because the white king can just take the pawn and then defend our threats.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b4-b3",
+              "c4-b3",
+              "c6-c5",
+              "c6-d6",
+              "d6-e5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "...Kd6, taking the king over to the kingside where it will have better attacking chances.",
+        "feedback": {
+          "text": "The king can never make progress in the kingside. And if Black doesn't get the opposition, Black won't be able to move forward.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c6-d6",
+              "d6-e7",
+              "e7-f7",
+              "f7-g7",
+              "g7-h6",
+              "c4-d4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g5",
+              "e5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/2k2p2/p4P1p/Pp2P2P/3K4/8/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kc4",
+      "afterMoveFen": "8/8/2k2p2/p4P1p/PpK1P2P/8/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

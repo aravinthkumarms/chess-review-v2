@@ -1,0 +1,78 @@
+{
+  "id": "6be91ee2-dab4-4c91-ba8f-cd5d9931e108",
+  "name": "Quiz 11 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has captured our pawn on g3. Looks like our attack could be dangerous since we have the open h-file and White's f2-pawn is pinned. \n\nShould we go for ...Nxg3 and immediately capture a pawn in front of White’s king?",
+    "answers": [
+      {
+        "text": "No, let’s safely castle first.",
+        "feedback": {
+          "text": "Yes! Good job, our king is still open and White might have some annoying checks, so castling first is great here.",
+          "arrows": {
+            "threats": [
+              "e4-g3"
+            ],
+            "opportunities": [
+              "h6-g6",
+              "e8-a8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, it comes with a tempo on the f1-rook, so it’s fine.",
+        "feedback": {
+          "text": "Our king is quite open. Is it really safe to go for pawns now?",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "e8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, let’s continue attacking with ...f4",
+        "feedback": {
+          "text": "Our king isn't safe, and attacking shouldn't be our priority now.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r3kr2/pp1b4/1qpPp2Q/5p2/4n3/P1BN2p1/1P3PPP/3R1RK1 w q - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "b6-g1",
+        "e4-g3",
+        "g3-e2"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "hxg3",
+      "afterMoveFen": "r3kr2/pp1b4/1qpPp2Q/5p2/4n3/P1BN2P1/1P3PP1/3R1RK1 b q - 0 1"
+    }
+  },
+  "drill": null
+}

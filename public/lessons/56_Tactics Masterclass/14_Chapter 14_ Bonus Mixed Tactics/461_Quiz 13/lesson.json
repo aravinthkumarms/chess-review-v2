@@ -1,0 +1,69 @@
+{
+  "id": "270521a2-3aa4-495c-a0b1-bcf11ed47a8d",
+  "name": "Quiz 13 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black pushes on the queenside. \n\nYou want to play Nxf5, but are you losing the knight after ...b3?",
+    "answers": [
+      {
+        "text": "No, there are a few ways to save the knight",
+        "feedback": {
+          "text": "Good job! We can trade on b3 and move our queen to d3 next.",
+          "arrows": {
+            "threats": [
+              "b4-b3"
+            ],
+            "opportunities": [
+              "a2-b3",
+              "c2-d3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, ...b3 removes the defender (our queen) of our knight on f5.",
+        "feedback": {
+          "text": "This tactic doesn't work for Black!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, but there is enough compensation for the knight.",
+        "feedback": {
+          "text": "Black has a dangerous attack on the kingside, so losing the knight would not give us any compensation.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1r2k2r/4qp2/2n1b3/1p1pPp1p/2pP1Pp1/2P1N3/PBQ3PP/1R2R1K1 b k - 1 1",
+    "arrows": {
+      "threats": [
+        "b4-b3"
+      ],
+      "opportunities": [
+        "e3-f5",
+        "c2-f5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "b4",
+      "afterMoveFen": "1r2k2r/4qp2/2n1b3/3pPp1p/1ppP1Pp1/2P1N3/PBQ3PP/1R2R1K1 w k - 0 2"
+    }
+  },
+  "drill": null
+}

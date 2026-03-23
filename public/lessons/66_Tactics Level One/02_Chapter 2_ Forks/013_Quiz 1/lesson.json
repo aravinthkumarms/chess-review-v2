@@ -1,0 +1,70 @@
+{
+  "id": "ecd1da02-5b04-4a0a-a17e-0785900ff33f",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black develops their bishop.\n\nIs Nxf5+ a good move here?",
+    "answers": [
+      {
+        "text": "Yes. It leads to a fork.",
+        "feedback": {
+          "text": "That's right! If Black responds by taking our knight, we have Nxd5+ to fork Black's king and queen.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h4-f5",
+              "c3-d5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e7",
+              "b6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, it loses a knight.",
+        "feedback": {
+          "text": "That's not true. There's a tactical justification to this knight sacrifice.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, but it only gives us positional compensation.",
+        "feedback": {
+          "text": "That's not quite right. There's a tactical idea behind this sacrifice.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1b4r/1p2kp2/pqn1p2p/3pPp2/3P3N/1PN1Q3/P4PPP/3R1RK1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "h4-f5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Bd7",
+      "afterMoveFen": "r6r/1p1bkp2/pqn1p2p/3pPp2/3P3N/1PN1Q3/P4PPP/3R1RK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

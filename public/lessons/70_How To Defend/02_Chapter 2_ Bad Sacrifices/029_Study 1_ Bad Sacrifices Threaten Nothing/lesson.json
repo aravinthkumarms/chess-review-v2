@@ -1,0 +1,855 @@
+{
+  "id": "4c4da9da-a161-4fa0-8740-76dff807a472",
+  "name": "Study 1: Bad Sacrifices Threaten Nothing",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "z"
+        ],
+        "comments": [
+          {
+            "text": "For this first study we'll see a game sent by a subscriber. In it, you'll be introduced to the fact that sometimes a sacrifice is bad because it doesn't threaten anything.  \n\nBlack has just castled queenside. \n\nThe d8 rook is on the same file as the queen. In addition, ...Bh3 forced White to play g3, creating many light square weaknesses! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d8"
+              ],
+              "opportunities": []
+            }
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/69129184605?tab=analysis",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2kr2nr/pp1nbpp1/2p3qp/4p3/2B1P3/2NQ1NPb/PPP2P1P/R1B1R1K1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0E": {
+        "adjacentNodeIds": [
+          "Ii"
+        ],
+        "comments": [
+          {
+            "text": "This sacrifice forces White to capture the bishop! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/Q4n1p/7q/4P1b1/2N3P1/PPP2b1P/4R1K1 w - - 0 11",
+        "parentNodeId": "km",
+        "san": "Bxf2+"
+      },
+      "1k": {
+        "adjacentNodeIds": [
+          "Zd"
+        ],
+        "comments": [
+          {
+            "text": "The queen went to e2 to defend the knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1k1r2nr/pp1nbpp1/2p3qp/4p3/2B1P1b1/2N1BNP1/PPP1QP1P/3RR1K1 b - - 6 3",
+        "parentNodeId": "7N",
+        "san": "Qe2"
+      },
+      "1l": {
+        "adjacentNodeIds": [
+          "eA"
+        ],
+        "comments": [
+          {
+            "text": "Check here should have been played, a good sacrifice of the knight on d8. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/2Q4p/2bn3q/4P3/5bP1/PPP2P1P/4R1K1 b - - 1 12",
+        "parentNodeId": "F5",
+        "san": "Qc6+"
+      },
+      "28": {
+        "adjacentNodeIds": [
+          "km",
+          "Os"
+        ],
+        "comments": [
+          {
+            "text": "The king went to c7, and now White should have played: Nb5+. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r4/p1k2pp1/Q1N2n1p/2b4q/4P1b1/2N3P1/PPP2P1P/4R1K1 w - - 1 10",
+        "parentNodeId": "RD",
+        "san": "Kc7"
+      },
+      "2b": {
+        "adjacentNodeIds": [
+          "F5"
+        ],
+        "comments": [
+          {
+            "text": "White gave a check. \n\nThis is a really tricky move because ...Nxd5 activates the rook along the e-file! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/Q4n1p/2bN3q/4P3/5bP1/PPP2P1P/4R1K1 b - - 2 11",
+        "parentNodeId": "eb",
+        "san": "Nd5+"
+      },
+      "2j": {
+        "adjacentNodeIds": [
+          "jL"
+        ],
+        "comments": [
+          {
+            "text": "Instead, ...Qh5 was winning for Black. \n\nWhite's bishop on a6 is stranded, and the knight on f3 is pinned. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1k1r3r/pp1nbpp1/B1p2n1p/4p2q/4P1b1/2N1BNP1/PPP1QP1P/3RR1K1 w - - 9 5",
+        "parentNodeId": "Nt",
+        "san": "Qh5"
+      },
+      "4R": {
+        "adjacentNodeIds": [
+          "zv"
+        ],
+        "comments": [
+          {
+            "text": "And after the bishop recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r4/p4pp1/Q1p2nqp/2b1p3/4P1b1/2N2NP1/PPP2P1P/4R1K1 w - - 0 8",
+        "parentNodeId": "mA",
+        "san": "Bxc5"
+      },
+      "7N": {
+        "adjacentNodeIds": [
+          "1k"
+        ],
+        "comments": [
+          {
+            "text": "...Bg4 is now a pin and an attack on the knight on f3. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1k1r2nr/pp1nbpp1/2p3qp/4p3/2B1P1b1/2NQBNP1/PPP2P1P/3RR1K1 w - - 5 3",
+        "parentNodeId": "n",
+        "san": "Bg4"
+      },
+      "7Y": {
+        "adjacentNodeIds": [
+          "wW"
+        ],
+        "comments": [
+          {
+            "text": "Black recovered much needed material. \n\nThe position is now tough for White, since the bishops create many threats. \n\nThe queen needs to defend the f3 square. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3k4/p4pp1/1b5p/3b3q/8/2Q3P1/PPP2P1P/4R1K1 w - - 0 15",
+        "parentNodeId": "KJ",
+        "san": "Kxd8"
+      },
+      "Av": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White threatens checkmate in one and the bishop on c5. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e1-e8",
+                "c6-c5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3k4/p4pp1/2Q4p/2bP3q/8/5bP1/PPP2P1P/4R1K1 b - - 0 13",
+        "parentNodeId": "eA",
+        "san": "exd5"
+      },
+      "Db": {
+        "adjacentNodeIds": [
+          "z4"
+        ],
+        "comments": [
+          {
+            "text": "This allowed Black the final sacrifice, which was brutally good. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/p4pp1/7p/3b3q/1Q6/6P1/PPP2b1P/4R1K1 w - - 0 16",
+        "parentNodeId": "wW",
+        "san": "Bxf2+"
+      },
+      "EB": {
+        "adjacentNodeIds": [
+          "U3"
+        ],
+        "comments": [
+          {
+            "text": "The king went back to g1...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/p4pp1/7p/3b4/1Q6/5qP1/PPP4P/4R1K1 b - - 2 17",
+        "parentNodeId": "ju",
+        "san": "Kg1"
+      },
+      "Eg": {
+        "adjacentNodeIds": [
+          "de"
+        ],
+        "comments": [
+          {
+            "text": "In the game, however, Black did accept the sacrifice! \n\nAnd this is another thing I want to mention: when your opponent plays a bad sacrifice, you don't have to accept it. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r3r/p2nbpp1/p1p2nqp/4p3/4P1b1/2N1BNP1/PPP1QP1P/3RR1K1 w - - 0 5",
+        "parentNodeId": "Nt",
+        "san": "bxa6"
+      },
+      "F5": {
+        "adjacentNodeIds": [
+          "Ip",
+          "1l"
+        ],
+        "comments": [
+          {
+            "text": "And Black played exactly that! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/Q6p/2bn3q/4P3/5bP1/PPP2P1P/4R1K1 w - - 0 12",
+        "parentNodeId": "2b",
+        "san": "Nxd5"
+      },
+      "FK": {
+        "adjacentNodeIds": [
+          "mA"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r4/p3bpp1/Q1p2nqp/2n1p3/4P1b1/2N1BNP1/PPP2P1P/4R1K1 w - - 0 7",
+        "parentNodeId": "kY",
+        "san": "Rxd8"
+      },
+      "Ii": {
+        "adjacentNodeIds": [
+          "Kq"
+        ],
+        "comments": [
+          {
+            "text": "Once the king takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/Q4n1p/7q/4P1b1/2N3P1/PPP2K1P/4R3 b - - 0 11",
+        "parentNodeId": "0E",
+        "san": "Kxf2"
+      },
+      "Ip": {
+        "adjacentNodeIds": [
+          "Qs"
+        ],
+        "comments": [
+          {
+            "text": "White recaptured. \n\nThis move loses the d5-pawn. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/Q6p/2bP3q/8/5bP1/PPP2P1P/4R1K1 b - - 0 12",
+        "parentNodeId": "F5",
+        "san": "exd5"
+      },
+      "KJ": {
+        "adjacentNodeIds": [
+          "7Y"
+        ],
+        "comments": [
+          {
+            "text": "And after this check...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/1b5p/3b3q/8/2Q3P1/PPP2P1P/4R1K1 b - - 3 14",
+        "parentNodeId": "ro",
+        "san": "Qc3+"
+      },
+      "Kq": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black has sufficient counterplay against the king. \n\nThey're either getting a perpetual check, or they're going to recover material. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/Q4n1p/8/4P1b1/2N3P1/PPP2K1q/4R3 w - - 0 12",
+        "parentNodeId": "Ii",
+        "san": "Qxh2+"
+      },
+      "Ns": {
+        "adjacentNodeIds": [
+          "kY"
+        ],
+        "comments": [
+          {
+            "text": "Instead, Black focused on defending a7 by blocking the e3 bishop. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r3r/p3bpp1/Q1p2nqp/2n1p3/4P1b1/2N1BNP1/PPP2P1P/3RR1K1 w - - 1 6",
+        "parentNodeId": "de",
+        "san": "Nc5"
+      },
+      "Nt": {
+        "adjacentNodeIds": [
+          "Eg",
+          "2j"
+        ],
+        "comments": [
+          {
+            "text": "Ba6 is an invitation for Black to play ...bxa6, but Black isn't forced to play this. \n\nBa6 puts some pressure on b7, but the king sufficiently defends b7, and White doesn't have any way to increase the pressure.\n\nBa6 can be considered a waste of time, and it allows Black to add an attacker on f3. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r3r/pp1nbpp1/B1p2nqp/4p3/4P1b1/2N1BNP1/PPP1QP1P/3RR1K1 b - - 8 4",
+        "parentNodeId": "Zd",
+        "san": "Ba6"
+      },
+      "Os": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "This was another check, and it would have given White the advantage.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r4/p1k2pp1/Q1N2n1p/1Nb4q/4P1b1/6P1/PPP2P1P/4R1K1 b - - 2 10",
+        "parentNodeId": "28",
+        "san": "Nb5+"
+      },
+      "Qs": {
+        "adjacentNodeIds": [
+          "y3"
+        ],
+        "comments": [
+          {
+            "text": "The bishop took. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/Q6p/2bb3q/8/6P1/PPP2P1P/4R1K1 w - - 0 13",
+        "parentNodeId": "Ip",
+        "san": "Bxd5"
+      },
+      "RD": {
+        "adjacentNodeIds": [
+          "28"
+        ],
+        "comments": [
+          {
+            "text": "And White captured on c6 with check, attacking the rook as well. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b8",
+                "d8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1k1r4/p4pp1/Q1N2n1p/2b4q/4P1b1/2N3P1/PPP2P1P/4R1K1 b - - 0 9",
+        "parentNodeId": "gL",
+        "san": "Nxc6+"
+      },
+      "U3": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And ...Qg2 was checkmate. \n\nIn conclusion, we need to be careful with sacrifices like ...Bxf2+. What happens if we take? \n\nOn the other hand, we must accept bad sacrifices like Ba6 when the opportunity presents itself, and we must do so in the best of circumstances. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3k4/p4pp1/7p/3b4/1Q6/6P1/PPP3qP/4R1K1 w - - 3 18",
+        "parentNodeId": "EB",
+        "san": "Qg2#"
+      },
+      "Zd": {
+        "adjacentNodeIds": [
+          "Nt"
+        ],
+        "comments": [
+          {
+            "text": "Black developed their knight to f6, but quite frankly, ...Qh5 was already winning. \n\nThis gave White some time to maybe try getting out of their problem with Nh4, but instead White played a meaningless move that didn't threaten anything. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-h4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1k1r3r/pp1nbpp1/2p2nqp/4p3/2B1P1b1/2N1BNP1/PPP1QP1P/3RR1K1 w - - 7 4",
+        "parentNodeId": "1k",
+        "san": "Ngf6"
+      },
+      "de": {
+        "adjacentNodeIds": [
+          "Ns"
+        ],
+        "comments": [
+          {
+            "text": "Now, since White managed to recapture on a6, they've activated the queen. \n\nBlack cannot take on f3 in optimal circumstances. That's why it was better to play ...Qh5 first, to force Kg2. \n\nBlack didn't deal with the bad sacrifice correctly. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a7"
+              ],
+              "opportunities": [
+                "e3",
+                "a6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1k1r3r/p2nbpp1/Q1p2nqp/4p3/4P1b1/2N1BNP1/PPP2P1P/3RR1K1 b - - 0 5",
+        "parentNodeId": "Eg",
+        "san": "Qxa6"
+      },
+      "eA": {
+        "adjacentNodeIds": [
+          "Av"
+        ],
+        "comments": [
+          {
+            "text": "Because when the king takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/p4pp1/2Q4p/2bn3q/4P3/5bP1/PPP2P1P/4R1K1 w - - 0 13",
+        "parentNodeId": "1l",
+        "san": "Kxd8"
+      },
+      "eb": {
+        "adjacentNodeIds": [
+          "2b"
+        ],
+        "comments": [
+          {
+            "text": "Instead, Black went for checkmate. \n\nBut this is too slow! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/Q4n1p/2b4q/4P3/2N2bP1/PPP2P1P/4R1K1 w - - 1 11",
+        "parentNodeId": "km",
+        "san": "Bf3"
+      },
+      "gL": {
+        "adjacentNodeIds": [
+          "RD"
+        ],
+        "comments": [
+          {
+            "text": "The queen got out of danger...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r4/p4pp1/Q1p2n1p/2b1N2q/4P1b1/2N3P1/PPP2P1P/4R1K1 w - - 1 9",
+        "parentNodeId": "zv",
+        "san": "Qh5"
+      },
+      "jL": {
+        "adjacentNodeIds": [
+          "pz"
+        ],
+        "comments": [
+          {
+            "text": "This would have forced Kg2 to defend.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r3r/pp1nbpp1/B1p2n1p/4p2q/4P1b1/2N1BNP1/PPP1QPKP/3RR3 b - - 10 5",
+        "parentNodeId": "2j",
+        "san": "Kg2"
+      },
+      "ju": {
+        "adjacentNodeIds": [
+          "EB"
+        ],
+        "comments": [
+          {
+            "text": "Accepting the sacrifice allowed checkmate in two moves. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/p4pp1/7p/3b4/1Q6/5qP1/PPP2K1P/4R3 w - - 1 17",
+        "parentNodeId": "z4",
+        "san": "Qf3+"
+      },
+      "kY": {
+        "adjacentNodeIds": [
+          "FK"
+        ],
+        "comments": [
+          {
+            "text": "White traded with check. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1R3r/p3bpp1/Q1p2nqp/2n1p3/4P1b1/2N1BNP1/PPP2P1P/4R1K1 b - - 0 6",
+        "parentNodeId": "Ns",
+        "san": "Rxd8+"
+      },
+      "km": {
+        "adjacentNodeIds": [
+          "eb",
+          "0E"
+        ],
+        "comments": [
+          {
+            "text": "Instead they took on d8. \n\nThe problem with this move is that allows Black a sacrifice that helps them stay alive. \n\nWith all these pieces aiming at the kingside, Black should have played ...Bxf2+! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c5-f2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c5",
+                "g4",
+                "f6",
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/Q4n1p/2b4q/4P1b1/2N3P1/PPP2P1P/4R1K1 b - - 0 10",
+        "parentNodeId": "28",
+        "san": "Nxd8"
+      },
+      "lv": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Nd1, giving the queen room along the 3rd rank, was better. \n\nBut if these are the moves that are necessary to stay in the game, we can conclude that White is in bad shape! \n\nNd1 also undefends the e4 pawn. This position is not easy. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d3-c3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r2nr/pp1nbpp1/2p3qp/4p3/2B1P3/3QBNPb/PPP2P1P/R2NR1K1 b - - 4 2",
+        "parentNodeId": "s",
+        "san": "Nd1"
+      },
+      "mA": {
+        "adjacentNodeIds": [
+          "4R"
+        ],
+        "comments": [
+          {
+            "text": "They took the knight which was attacking the queen...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r4/p3bpp1/Q1p2nqp/2B1p3/4P1b1/2N2NP1/PPP2P1P/4R1K1 b - - 0 7",
+        "parentNodeId": "FK",
+        "san": "Bxc5"
+      },
+      "n": {
+        "adjacentNodeIds": [
+          "7N"
+        ],
+        "comments": [
+          {
+            "text": "White was not aware of the danger, and placed their rook on the same diagonal as the knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r2nr/pp1nbpp1/2p3qp/4p3/2B1P3/2NQBNPb/PPP2P1P/3RR1K1 b - - 4 2",
+        "parentNodeId": "s",
+        "san": "Rad1"
+      },
+      "pz": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And the difference now is that ...bxa6 can be played, and the queen will be distracted from defending f3. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r3r/p2nbpp1/p1p2n1p/4p2q/4P1b1/2N1BNP1/PPP1QPKP/3RR3 w - - 0 6",
+        "parentNodeId": "jL",
+        "san": "bxa6"
+      },
+      "ro": {
+        "adjacentNodeIds": [
+          "KJ"
+        ],
+        "comments": [
+          {
+            "text": "Black got in the way.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/1b5p/Q2b3q/8/6P1/PPP2P1P/4R1K1 w - - 2 14",
+        "parentNodeId": "y3",
+        "san": "Bb6"
+      },
+      "s": {
+        "adjacentNodeIds": [
+          "n",
+          "lv"
+        ],
+        "comments": [
+          {
+            "text": "Black simply defended, keeping the d-file threats alive, and now since the bishop on e3 disconnects the queen from the knight, ...Bg4 will come with a tempo! ",
+            "arrows": {
+              "threats": [
+                "h3-g4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1k1r2nr/pp1nbpp1/2p3qp/4p3/2B1P3/2NQBNPb/PPP2P1P/R3R1K1 w - - 3 2",
+        "parentNodeId": "z",
+        "san": "Kb8"
+      },
+      "wW": {
+        "adjacentNodeIds": [
+          "Db"
+        ],
+        "comments": [
+          {
+            "text": "But White went to b4 with the queen. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/p4pp1/1b5p/3b3q/1Q6/6P1/PPP2P1P/4R1K1 b - - 1 15",
+        "parentNodeId": "7Y",
+        "san": "Qb4"
+      },
+      "y3": {
+        "adjacentNodeIds": [
+          "ro"
+        ],
+        "comments": [
+          {
+            "text": "White gave a meaningless check. \n\n...Bb6 blocks and attacks the queen. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3N4/p1k2pp1/7p/Q1bb3q/8/6P1/PPP2P1P/4R1K1 b - - 1 13",
+        "parentNodeId": "Qs",
+        "san": "Qa5+"
+      },
+      "z": {
+        "adjacentNodeIds": [
+          "s"
+        ],
+        "comments": [
+          {
+            "text": "White developed the bishop, attacking the a7 pawn. \n\nThe problem with White is also a lack of coordination: the queen on d3 prevents the bishop on c4 from going back to e2 or f1 to defend the light squares. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a7"
+              ],
+              "opportunities": [
+                "c4",
+                "d3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2kr2nr/pp1nbpp1/2p3qp/4p3/2B1P3/2NQBNPb/PPP2P1P/R3R1K1 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Be3"
+      },
+      "z4": {
+        "adjacentNodeIds": [
+          "ju"
+        ],
+        "comments": [
+          {
+            "text": "It actually should not have been accepted. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/p4pp1/7p/3b3q/1Q6/6P1/PPP2K1P/4R3 b - - 0 16",
+        "parentNodeId": "Db",
+        "san": "Kxf2"
+      },
+      "zv": {
+        "adjacentNodeIds": [
+          "gL"
+        ],
+        "comments": [
+          {
+            "text": "White won a pawn in the center, forking the queen the bishop and the c6 pawn. \n\nFrom completely losing to completely winning, all because Black paid attention to Ba6, which was a sacrifice that didn't threaten anything! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g6",
+                "g4",
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1k1r4/p4pp1/Q1p2nqp/2b1N3/4P1b1/2N3P1/PPP2P1P/4R1K1 b - - 0 8",
+        "parentNodeId": "4R",
+        "san": "Nxe5"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

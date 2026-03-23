@@ -1,0 +1,102 @@
+{
+  "id": "70d5f40e-691c-4b75-9bef-3cb5287b0096",
+  "name": "Quiz 8 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black invades the second rank.\n\nAll of our pieces seem to be protected. \n\nIs there anything wrong with playing Nxe6 and forking Black's heavy pieces?",
+    "answers": [
+      {
+        "text": "Yes! Our king will get in danger.",
+        "feedback": {
+          "text": "That's right. After Nxe6 Black has this annoying move ...Qe5, threatening a checkmate on b2 which is pretty hard to stop! White will have to give up a lot of material.",
+          "arrows": {
+            "threats": [
+              "g7-e6"
+            ],
+            "opportunities": [
+              "c7-e5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b2",
+              "b1",
+              "e6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, it's safe. We'll win material.",
+        "feedback": {
+          "text": "After Nxg6, Black has ...Qe5! Essentially a double attack that threatens checkmate and our e6-knight.",
+          "arrows": {
+            "threats": [
+              "g7-e6"
+            ],
+            "opportunities": [
+              "c7-e5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e6",
+              "b2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It's not wrong, but not good either. Black will just trade the rooks with ...Rxd1+.",
+        "feedback": {
+          "text": "...Rxd1+ would be a severe mistake by Black since that allows us to take control over the d-file after recapturing it! \n\nBlack has a much more dangerous response.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d1-d8",
+              "h1-d1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2kr4/1pq1b1N1/1pp1p1Qp/4r3/1PP3PP/8/P4P2/1K1R3R b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g7-e6"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "d8",
+        "c7"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Re2",
+      "afterMoveFen": "2kr4/1pq1b1N1/1pp1p1Qp/8/1PP3PP/8/P3rP2/1K1R3R w - - 2 2"
+    }
+  },
+  "drill": null
+}

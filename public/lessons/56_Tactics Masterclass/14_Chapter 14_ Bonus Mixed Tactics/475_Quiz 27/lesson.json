@@ -1,0 +1,92 @@
+{
+  "id": "75a125ca-125a-4239-81ee-6557bc06ae9d",
+  "name": "Quiz 27 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White captured on f3.\n\nThe e6-pawn is hanging. \n\nDoes it make a difference with what rook you defend it? \n\n",
+    "answers": [
+      {
+        "text": "Yes. Depending on which rook you defend with, you may allow a fork.",
+        "feedback": {
+          "text": "Yes! Good job, playing ...Rde8 would allow Nd7+ jumping to f6 next — forking the two rooks.",
+          "arrows": {
+            "threats": [
+              "d8-e8"
+            ],
+            "opportunities": [
+              "c5-d7",
+              "d7-f6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g8",
+              "e8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Both defenses are equally valid.",
+        "feedback": {
+          "text": "One of them allows a tactic!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It’s better to defend with the d8-rook to move around with the g8 one.",
+        "feedback": {
+          "text": "That would be a mistake! Nd7+ and Nf6 next comes with a fork on the two rooks.",
+          "arrows": {
+            "threats": [
+              "d8-e8"
+            ],
+            "opportunities": [
+              "c5-d7",
+              "d7-f6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g8",
+              "e8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1k1r2r1/1pp2R2/4p1pp/p1NpP3/3P4/1PP2p1P/5R1K/2b5 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g8-e8",
+        "d8-e8"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "e6"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "R2xf3",
+      "afterMoveFen": "1k1r2r1/1pp2R2/4p1pp/p1NpP3/3P4/1PP2R1P/7K/2b5 b - - 0 1"
+    }
+  },
+  "drill": null
+}

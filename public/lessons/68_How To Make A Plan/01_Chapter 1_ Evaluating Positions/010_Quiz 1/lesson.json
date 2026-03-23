@@ -1,0 +1,85 @@
+{
+  "id": "d0f20efb-0472-4914-83b0-553d14430a80",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is a pawn up. \n\nThe white king can never castle. \n\nBlack can castle on this turn. \n\nHowever, based on piece activity, king safety and space, who do you think is better?",
+    "answers": [
+      {
+        "text": "White is winning (+4.20)",
+        "feedback": {
+          "text": "The black queen can't move. White has more space, better piece activity, greater king safety. White is crushing, so +4.20 is a good evaluation of what's going on. ",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d2-h6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is better (+1.4)",
+        "feedback": {
+          "text": "While it is true that White is better, +1.4 implies that White is better but not winning. However, in a position where Black is practically in Zugzwang, +1.4 doesn't really do it justice.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black is better (-1.2)",
+        "feedback": {
+          "text": "White's king is safe, their rooks are doubled, the queen will be able to attack the black king soon. Black cannot be better. No way! ",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d2-h6",
+              "f3-g5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Position is equal (+0.1)",
+        "feedback": {
+          "text": "I wouldn't call this equality: Black's pieces are stuck on the back ranks, the white queen can infiltrate the position soon, so the black king isn't so safe. This is better for White. The question is, how much?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d2-h6",
+              "f3-g5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqk2r/ppRn1p1p/4p1n1/1P1pP3/N2P4/P2B1NP1/3QK3/7R w kq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e8-g8"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Rhc1",
+      "afterMoveFen": "r1bqk2r/ppRn1p1p/4p1n1/1P1pP3/N2P4/P2B1NP1/3QK3/2R5 b kq - 2 1"
+    }
+  },
+  "drill": null
+}

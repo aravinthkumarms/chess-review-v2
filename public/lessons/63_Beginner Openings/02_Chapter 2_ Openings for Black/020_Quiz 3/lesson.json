@@ -1,0 +1,53 @@
+{
+  "id": "39ae91de-742d-471c-bc4d-167c30a9e63f",
+  "name": "Quiz 3 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White pushes d3.\n\nWhat's the useful move as Black here?",
+    "answers": [
+      {
+        "text": "h6",
+        "feedback": {
+          "text": "Good job! This move prevents White from developing the bishop to g5 and pinning the knight.",
+          "arrows": {
+            "threats": [
+              "c1-g5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "h6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1bq1rk1/pppp1pp1/2n2n1p/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you prevent White from pinning our knight on the kingside?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bq1rk1/pppp1ppp/2n2n2/2b1p3/2B1P3/2N2N2/PPPP1PPP/R1BQ1RK1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "d3",
+      "afterMoveFen": "r1bq1rk1/pppp1ppp/2n2n2/2b1p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 b - - 0 1"
+    }
+  },
+  "drill": null
+}

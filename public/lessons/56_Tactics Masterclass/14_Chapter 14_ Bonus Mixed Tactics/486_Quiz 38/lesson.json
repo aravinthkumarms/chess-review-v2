@@ -1,0 +1,85 @@
+{
+  "id": "06809230-d5be-4490-b30f-1ab609977316",
+  "name": "Quiz 38",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks your rook. Is there something wrong with Rd4 to attack the a4-pawn?",
+    "answers": [
+      {
+        "text": "There's something way worse.",
+        "feedback": {
+          "text": "Correct. Black has ...Ne6 to fork the rook and the bishop.",
+          "arrows": {
+            "threats": [
+              "d3-d4"
+            ],
+            "opportunities": [
+              "c5-e6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c7",
+              "d3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Black has …f6 to attack e5 and also back-rank mate.",
+        "feedback": {
+          "text": "There's something even stronger for Black!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f7-f6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "There’s nothing wrong.",
+        "feedback": {
+          "text": "Think again. Black has a tactical shot!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4r1k1/1pB2ppp/2b5/4Pp2/p3n3/P2R4/5PPP/3B2K1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d3-d4"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "d3",
+        "a4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Nc5",
+      "afterMoveFen": "4r1k1/1pB2ppp/2b5/2n1Pp2/p7/P2R4/5PPP/3B2K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

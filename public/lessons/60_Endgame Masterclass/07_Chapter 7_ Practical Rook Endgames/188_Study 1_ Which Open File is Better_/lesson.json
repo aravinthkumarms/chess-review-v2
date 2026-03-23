@@ -1,0 +1,1277 @@
+{
+  "id": "c61c3a28-efa7-4f02-bf54-7d4d1e04d686",
+  "name": "Study 1: Which Open File is Better?",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "P",
+          "q"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to our chapter on practical rook endgames. This is a game I played against IM Eric Rosen. I had the black pieces.\n\nThe truth is, rook endgames are the most popular and you won't always have book positions. \n\nRather, you'll have many pieces and probably one or two minor pieces which you can trade to enter a rook only endgame.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/game/live/66532966657",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/8/p5Bp/3p3P/P1pP1p2/8/5PP1/R6K w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1K": {
+        "adjacentNodeIds": [
+          "oL"
+        ],
+        "comments": [
+          {
+            "text": "And now the engine gives this king maneuver as a good practical way of fighting back. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-h3",
+                "h3-g4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/8/p6p/3p3P/P1pP1p2/8/5PPK/R7 b - - 1 2",
+        "parentNodeId": "3U",
+        "san": "Kh2"
+      },
+      "1i": {
+        "adjacentNodeIds": [
+          "lt"
+        ],
+        "comments": [
+          {
+            "text": "My pawn is too quick. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/3p1k2/1K1P1P1p/8/5P2/8 w - - 0 16",
+        "parentNodeId": "pt",
+        "san": "h4"
+      },
+      "3U": {
+        "adjacentNodeIds": [
+          "1K"
+        ],
+        "comments": [
+          {
+            "text": "I would have recaptured, taking control of the e-file. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/8/p6p/3p3P/P1pP1p2/8/5PP1/R6K w - - 0 2",
+        "parentNodeId": "q",
+        "san": "Rxe8"
+      },
+      "4Q": {
+        "adjacentNodeIds": [
+          "w9"
+        ],
+        "comments": [
+          {
+            "text": "Rosen left the open file because he was afraid of my c-pawn.\n\nAnd this answers our other question: White couldn't make any use of the open e-file, so in this example the b-file was better.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r6/6k1/p5Pp/3p4/P1pP1p2/8/5PP1/2R4K b - - 2 3",
+        "parentNodeId": "5N",
+        "san": "Rc1"
+      },
+      "56": {
+        "adjacentNodeIds": [
+          "yT"
+        ],
+        "comments": [
+          {
+            "text": "And I got my queen up the board to attack some pawns.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f4",
+                "f2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/2K5/3P1k2/5P2/5q2/5P2/8 w - - 1 20",
+        "parentNodeId": "hZ",
+        "san": "Qf3"
+      },
+      "5I": {
+        "adjacentNodeIds": [
+          "lF"
+        ],
+        "comments": [
+          {
+            "text": "But I just kept going for the queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/2Kp1k2/3P1P2/7p/5P2/8 w - - 0 17",
+        "parentNodeId": "lt",
+        "san": "h3"
+      },
+      "5N": {
+        "adjacentNodeIds": [
+          "4Q"
+        ],
+        "comments": [
+          {
+            "text": "To answer one of these questions, Black's c4-pawn is better because it is protected passed pawn on the queenside, far from White's king. \n\nWhite's passed g6-pawn is blockaded by my king, so this pawn isn't as strong. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-c3",
+                "c3-c2",
+                "c2-c1",
+                "d5-c4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g6"
+              ],
+              "opportunities": [
+                "c4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1r6/6k1/p5Pp/3p4/P1pP1p2/8/5PP1/4R2K w - - 1 3",
+        "parentNodeId": "Pp",
+        "san": "Kg7"
+      },
+      "5g": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But Rosen's king will be active.\n\nBlack has a small advantage but with good defensive opportunities.",
+            "arrows": {
+              "threats": [
+                "h3-g4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/8/p6p/3p3P/P1pP1p2/7K/4rPP1/R7 b - - 3 3",
+        "parentNodeId": "oL",
+        "san": "Kh3"
+      },
+      "5q": {
+        "adjacentNodeIds": [
+          "X5"
+        ],
+        "comments": [
+          {
+            "text": "Rosen got his king up. f5 was better, but losing nonetheless. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/2rP1P2/2p3K1/5P2/2R5 b - - 2 7",
+        "parentNodeId": "Ft",
+        "san": "Kg3"
+      },
+      "78": {
+        "adjacentNodeIds": [
+          "MC"
+        ],
+        "comments": [
+          {
+            "text": "I traded rooks.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/6Pp/3p4/3P1P2/p2K4/2r2P2/8 w - - 0 12",
+        "parentNodeId": "BA",
+        "san": "Rxc2"
+      },
+      "7E": {
+        "adjacentNodeIds": [
+          "BI"
+        ],
+        "comments": [
+          {
+            "text": "He gave a check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5K2/3q4/6k1/5P2/8/8/8/8 b - - 0 27",
+        "parentNodeId": "gt",
+        "san": "f5+"
+      },
+      "7j": {
+        "adjacentNodeIds": [
+          "lV"
+        ],
+        "comments": [
+          {
+            "text": "It's all a matter of conversion now even though we're both down on time. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4K3/3Pq3/5k2/8/8/5P2/8 w - - 3 23",
+        "parentNodeId": "zt",
+        "san": "Qe6+"
+      },
+      "BA": {
+        "adjacentNodeIds": [
+          "78"
+        ],
+        "comments": [
+          {
+            "text": "Rosen took on c2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/6Pp/3p4/2rP1P2/p2K4/2R2P2/8 b - - 0 11",
+        "parentNodeId": "yN",
+        "san": "Rxc2"
+      },
+      "BI": {
+        "adjacentNodeIds": [
+          "kI"
+        ],
+        "comments": [
+          {
+            "text": "I got my king into f6 finally, and there's no stalemate because he still has g8.\n\nHe lost on time here.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f8-g8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5K2/3q4/5k2/5P2/8/8/8/8 w - - 1 28",
+        "parentNodeId": "7E",
+        "san": "Kf6"
+      },
+      "BM": {
+        "adjacentNodeIds": [
+          "KZ"
+        ],
+        "comments": [
+          {
+            "text": "He can defend his g-pawn and attack my a-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a6"
+              ],
+              "opportunities": [
+                "g6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/6k1/p1R3Pp/3p4/3r1p2/6P1/5P1K/8 b - - 1 7",
+        "parentNodeId": "tR",
+        "san": "Rc6"
+      },
+      "DX": {
+        "adjacentNodeIds": [
+          "m4"
+        ],
+        "comments": [
+          {
+            "text": "Low on time, I moved my queen again.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4K3/8/8/5k2/3q4/8/5P2/8 w - - 2 25",
+        "parentNodeId": "iT",
+        "san": "Qd4"
+      },
+      "Ec": {
+        "adjacentNodeIds": [
+          "zt"
+        ],
+        "comments": [
+          {
+            "text": "I moved my queen into c4. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-e6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3K4/3P4/5k2/2q5/8/5P2/8 w - - 1 22",
+        "parentNodeId": "Rj",
+        "san": "Qc4"
+      },
+      "FF": {
+        "adjacentNodeIds": [
+          "x6"
+        ],
+        "comments": [
+          {
+            "text": "I pushed.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a5-a1",
+                "a1-e1",
+                "e1-e5",
+                "e5-a5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/6Pp/p2p4/2rP1P2/5K2/2p2P2/2R5 w - - 0 9",
+        "parentNodeId": "Rp",
+        "san": "a5"
+      },
+      "Ft": {
+        "adjacentNodeIds": [
+          "5q"
+        ],
+        "comments": [
+          {
+            "text": "Of course, seeing that the c-pawn is important, I put my rook behind the pawn. \n\nThis isn't checkers: I didn't have to take on d4, allowing him to take on c3. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/2rP1P2/2p5/5P1K/2R5 w - - 1 7",
+        "parentNodeId": "HQ",
+        "san": "Rc4"
+      },
+      "HQ": {
+        "adjacentNodeIds": [
+          "Ft"
+        ],
+        "comments": [
+          {
+            "text": "Rosen just took on f4 automatically, but he should have taken the c-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/r2P1P2/2p5/5P1K/2R5 b - - 0 6",
+        "parentNodeId": "Tm",
+        "san": "gxf4"
+      },
+      "Hj": {
+        "adjacentNodeIds": [
+          "Tm"
+        ],
+        "comments": [
+          {
+            "text": "Instead, he chose to undermine the f-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/r1pP1p2/6P1/5P1K/2R5 b - - 0 5",
+        "parentNodeId": "L6",
+        "san": "g3"
+      },
+      "IU": {
+        "adjacentNodeIds": [
+          "v1"
+        ],
+        "comments": [
+          {
+            "text": "Here comes the queen. ",
+            "arrows": {
+              "threats": [
+                "h2-h1"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/3K1k2/3P1P2/8/5P1p/8 w - - 0 18",
+        "parentNodeId": "lF",
+        "san": "h2"
+      },
+      "IX": {
+        "adjacentNodeIds": [
+          "gi"
+        ],
+        "comments": [
+          {
+            "text": "Even though Rosen can theoretically win the c-pawn here as well...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/p5kp/3p4/2rP1P2/4K3/2p2P2/2R5 b - - 1 9",
+        "parentNodeId": "S1",
+        "san": "Ke3"
+      },
+      "KZ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Even though I can push, he can always go to a6 to get behind the pawn. \n\nThis isn't so easy now. The engine says it should be a draw. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c6-a6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/2R3Pp/p2p4/3r1p2/6P1/5P1K/8 w - - 0 8",
+        "parentNodeId": "BM",
+        "san": "a5"
+      },
+      "L6": {
+        "adjacentNodeIds": [
+          "Hj"
+        ],
+        "comments": [
+          {
+            "text": "And I took the a4-pawn.\n\nSo, as a result I had a protected passed pawn on c4 and an outside passed pawn on a6. \n\nRosen's best plan was to activate the king.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-h3",
+                "h3-g4",
+                "g4-h5",
+                "g4-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/r1pP1p2/8/5PPK/2R5 w - - 0 5",
+        "parentNodeId": "Mu",
+        "san": "Rxa4"
+      },
+      "MC": {
+        "adjacentNodeIds": [
+          "dE"
+        ],
+        "comments": [
+          {
+            "text": "He recaptured, but as you can see, my h-pawn will win the game. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h6-h5",
+                "h5-h4",
+                "h4-h3",
+                "h3-h2",
+                "h2-h1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/6k1/6Pp/3p4/3P1P2/p7/2K2P2/8 b - - 0 12",
+        "parentNodeId": "78",
+        "san": "Kxc2"
+      },
+      "Mu": {
+        "adjacentNodeIds": [
+          "L6"
+        ],
+        "comments": [
+          {
+            "text": "Rosen started to activate his king. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-h3",
+                "h3-g4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/PrpP1p2/8/5PPK/2R5 b - - 4 4",
+        "parentNodeId": "w9",
+        "san": "Kh2"
+      },
+      "NS": {
+        "adjacentNodeIds": [
+          "tR"
+        ],
+        "comments": [
+          {
+            "text": "With this move, he gets rid of his biggest problem. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/r2P1p2/2R3P1/5P1K/8 b - - 0 6",
+        "parentNodeId": "Tm",
+        "san": "Rxc3"
+      },
+      "P": {
+        "adjacentNodeIds": [
+          "b"
+        ],
+        "comments": [
+          {
+            "text": "IM Rosen played his rook into the open e-file, attacking my bishop. \n\nBut I had my rook on the open b-file already. \n\nWhich open file is more relevant? ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2b1k1/8/p5Bp/3p3P/P1pP1p2/8/5PP1/4R2K b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Re1"
+      },
+      "Pp": {
+        "adjacentNodeIds": [
+          "5N"
+        ],
+        "comments": [
+          {
+            "text": "Rosen recaptured, and now we have an interesting situation on the board. \n\nBoth sides control an open file. Which file is better? Are they the same? \n\nBoth sides have a passed pawn. Which pawn is better?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r4k1/8/p5Pp/3p4/P1pP1p2/8/5PP1/4R2K b - - 0 2",
+        "parentNodeId": "b",
+        "san": "hxg6"
+      },
+      "Rj": {
+        "adjacentNodeIds": [
+          "Ec"
+        ],
+        "comments": [
+          {
+            "text": "But this isn't winning at all for White still. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3K4/3P4/5k2/5q2/8/5P2/8 b - - 0 21",
+        "parentNodeId": "cr",
+        "san": "d6"
+      },
+      "Rp": {
+        "adjacentNodeIds": [
+          "FF",
+          "S1"
+        ],
+        "comments": [
+          {
+            "text": "Rosen started getting his king closer to the action. \n\nThe concept of the square applies here. \n\nRosen will technically be able to stop both queenside pawns because he's getting into the a-pawn's square.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a6-a5",
+                "a5-a1",
+                "a1-e1",
+                "e1-e5",
+                "e5-a5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/2rP1P2/5K2/2p2P2/2R5 b - - 1 8",
+        "parentNodeId": "X5",
+        "san": "Kf3"
+      },
+      "S1": {
+        "adjacentNodeIds": [
+          "IX"
+        ],
+        "comments": [
+          {
+            "text": "The best move was to be active with my king as well: use the queenside pawns as distractors and combine ...Kf5 ideas with a5-a4 ideas.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/p5kp/3p4/2rP1P2/5K2/2p2P2/2R5 w - - 0 9",
+        "parentNodeId": "Rp",
+        "san": "Kxg6"
+      },
+      "Tm": {
+        "adjacentNodeIds": [
+          "HQ",
+          "NS"
+        ],
+        "comments": [
+          {
+            "text": "Here, I made a mistake. \n\nI got rid of my best pawn in order to simplify.\n\nTruth be told, simplification can be attempted without losing one's best asset. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/r2P1p2/2p3P1/5P1K/2R5 w - - 0 6",
+        "parentNodeId": "Hj",
+        "san": "c3"
+      },
+      "VL": {
+        "adjacentNodeIds": [
+          "yN"
+        ],
+        "comments": [
+          {
+            "text": "Rosen got his king into d3, but like I said, this will be winning for me thanks to the h-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/6k1/6Pp/3p4/p1rP1P2/3K4/2p2P2/2R5 b - - 1 10",
+        "parentNodeId": "oj",
+        "san": "Kd3"
+      },
+      "X5": {
+        "adjacentNodeIds": [
+          "Rp"
+        ],
+        "comments": [
+          {
+            "text": "I pushed the c-pawn. \n\nI made a simple plan to win: push the a-pawn and when the rook takes on a1, promote the c-pawn. \n\nThe problem is my plan isn't inherently winning.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a6-a5",
+                "a5-a4",
+                "a4-a3",
+                "a3-a2",
+                "a2-a1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/2rP1P2/6K1/2p2P2/2R5 w - - 0 8",
+        "parentNodeId": "5q",
+        "san": "c2"
+      },
+      "b": {
+        "adjacentNodeIds": [
+          "Pp"
+        ],
+        "comments": [
+          {
+            "text": "Since my bishop was under attack, I took on g6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r4k1/8/p5bp/3p3P/P1pP1p2/8/5PP1/4R2K w - - 0 2",
+        "parentNodeId": "P",
+        "san": "Bxg6"
+      },
+      "cr": {
+        "adjacentNodeIds": [
+          "Rj"
+        ],
+        "comments": [
+          {
+            "text": "However, I took the least important pawn. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3K4/8/3P1k2/5q2/8/5P2/8 w - - 0 21",
+        "parentNodeId": "yT",
+        "san": "Qxf4"
+      },
+      "dE": {
+        "adjacentNodeIds": [
+          "l7"
+        ],
+        "comments": [
+          {
+            "text": "I made the game longer by taking on g6 first.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/6kp/3p4/3P1P2/p7/2K2P2/8 w - - 0 13",
+        "parentNodeId": "MC",
+        "san": "Kxg6"
+      },
+      "dS": {
+        "adjacentNodeIds": [
+          "pt"
+        ],
+        "comments": [
+          {
+            "text": "And I pushed the h-pawn.\n\nAs you can see, his king is nowhere near my pawn. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-h1",
+                "h1-d1",
+                "d1-d5",
+                "d5-h5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/3p1k1p/3P1P2/K7/5P2/8 w - - 0 15",
+        "parentNodeId": "sb",
+        "san": "h5"
+      },
+      "er": {
+        "adjacentNodeIds": [
+          "hZ"
+        ],
+        "comments": [
+          {
+            "text": "But this queen vs pawn scenario isn't a draw.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2K5/5k2/3P1P2/8/5P2/7q w - - 0 19",
+        "parentNodeId": "v1",
+        "san": "h1=Q+"
+      },
+      "f1": {
+        "adjacentNodeIds": [
+          "sb"
+        ],
+        "comments": [
+          {
+            "text": "But I went after his pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/7p/3p1k2/3P1P2/pK6/5P2/8 w - - 2 14",
+        "parentNodeId": "l7",
+        "san": "Kf5"
+      },
+      "fZ": {
+        "adjacentNodeIds": [
+          "gt"
+        ],
+        "comments": [
+          {
+            "text": "He pushed his pawn, trying to get rid of all his legal moves.\n\n...Kf6, once again, was the best.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-f6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5K2/3q4/8/5k2/5P2/8/8/8 b - f3 0 26",
+        "parentNodeId": "rF",
+        "san": "f4"
+      },
+      "gA": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And this would be checkmate. \n\nIn conclusion, the b-file ended up being more useful in part due to my passed pawns being better than White's. \n\nI then forced Rosen to simplify on c2 because I had a passed h-pawn. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6K1/6q1/5k2/5P2/8/8/8/8 w - - 3 29",
+        "parentNodeId": "kI",
+        "san": "Qg7#"
+      },
+      "gi": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "I would have two outside passed pawns, which are impossible to stop with the king alone.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h6-h5",
+                "h5-h4",
+                "h4-h3",
+                "h3-h2",
+                "h2-h1",
+                "a6-a5",
+                "a5-a4",
+                "a4-a3",
+                "a3-a2",
+                "a2-a1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/p6p/3p1k2/2rP1P2/4K3/2p2P2/2R5 w - - 2 10",
+        "parentNodeId": "IX",
+        "san": "Kf5"
+      },
+      "gt": {
+        "adjacentNodeIds": [
+          "7E"
+        ],
+        "comments": [
+          {
+            "text": "I instead went into g6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5K2/3q4/6k1/8/5P2/8/8/8 w - - 1 27",
+        "parentNodeId": "fZ",
+        "san": "Kg6"
+      },
+      "hZ": {
+        "adjacentNodeIds": [
+          "56"
+        ],
+        "comments": [
+          {
+            "text": "Rosen blocked the check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2K5/3P1k2/5P2/8/5P2/7q b - - 0 19",
+        "parentNodeId": "er",
+        "san": "d5"
+      },
+      "iT": {
+        "adjacentNodeIds": [
+          "DX"
+        ],
+        "comments": [
+          {
+            "text": "He got his king into e8. \n\nThe quickest checkmate was now ...Kf6 because he doesn't have any legal moves with the king.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-f6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4K3/8/3q4/5k2/8/8/5P2/8 b - - 1 24",
+        "parentNodeId": "kj",
+        "san": "Ke8"
+      },
+      "kI": {
+        "adjacentNodeIds": [
+          "gA"
+        ],
+        "comments": [
+          {
+            "text": "The king would have only had 1 move. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6K1/3q4/5k2/5P2/8/8/8/8 b - - 2 28",
+        "parentNodeId": "BI",
+        "san": "Kg8"
+      },
+      "kj": {
+        "adjacentNodeIds": [
+          "iT"
+        ],
+        "comments": [
+          {
+            "text": "I took with check. \n\nNow I have to be careful about stalemates.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5K2/8/3q4/5k2/8/8/5P2/8 w - - 0 24",
+        "parentNodeId": "lV",
+        "san": "Qxd6+"
+      },
+      "l7": {
+        "adjacentNodeIds": [
+          "f1"
+        ],
+        "comments": [
+          {
+            "text": "Rosen went for my a-pawn. To be quite frank, I could have just started pushing the h-pawn to win. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/6kp/3p4/3P1P2/pK6/5P2/8 b - - 1 13",
+        "parentNodeId": "dE",
+        "san": "Kb3"
+      },
+      "lF": {
+        "adjacentNodeIds": [
+          "IU"
+        ],
+        "comments": [
+          {
+            "text": "He took on d5, but I simply had too much of an advantage in the pawn race.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/3K1k2/3P1P2/7p/5P2/8 b - - 0 17",
+        "parentNodeId": "5I",
+        "san": "Kxd5"
+      },
+      "lV": {
+        "adjacentNodeIds": [
+          "kj"
+        ],
+        "comments": [
+          {
+            "text": "His king went to f8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5K2/8/3Pq3/5k2/8/8/5P2/8 b - - 4 23",
+        "parentNodeId": "7j",
+        "san": "Kf8"
+      },
+      "lt": {
+        "adjacentNodeIds": [
+          "5I"
+        ],
+        "comments": [
+          {
+            "text": "He went after my d-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/2Kp1k2/3P1P1p/8/5P2/8 b - - 1 16",
+        "parentNodeId": "1i",
+        "san": "Kc5"
+      },
+      "m4": {
+        "adjacentNodeIds": [
+          "rF"
+        ],
+        "comments": [
+          {
+            "text": "He moved his king back to f8. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5K2/8/8/5k2/3q4/8/5P2/8 b - - 3 25",
+        "parentNodeId": "DX",
+        "san": "Kf8"
+      },
+      "oL": {
+        "adjacentNodeIds": [
+          "5g"
+        ],
+        "comments": [
+          {
+            "text": "Yes, I'm getting in the second rank. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/8/p6p/3p3P/P1pP1p2/8/4rPPK/R7 w - - 2 3",
+        "parentNodeId": "1K",
+        "san": "Re2"
+      },
+      "oj": {
+        "adjacentNodeIds": [
+          "VL"
+        ],
+        "comments": [
+          {
+            "text": "I pushed the a-pawn again. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/6Pp/3p4/p1rP1P2/4K3/2p2P2/2R5 w - - 0 10",
+        "parentNodeId": "x6",
+        "san": "a4"
+      },
+      "pt": {
+        "adjacentNodeIds": [
+          "1i"
+        ],
+        "comments": [
+          {
+            "text": "He tried coming back to do some damage.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b4-c5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/3p1k1p/1K1P1P2/8/5P2/8 b - - 1 15",
+        "parentNodeId": "dS",
+        "san": "Kb4"
+      },
+      "q": {
+        "adjacentNodeIds": [
+          "3U"
+        ],
+        "comments": [
+          {
+            "text": "Why didn't IM Rosen trade?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2B1k1/8/p6p/3p3P/P1pP1p2/8/5PP1/R6K b - - 0 1",
+        "parentNodeId": "0",
+        "san": "Bxe8"
+      },
+      "rF": {
+        "adjacentNodeIds": [
+          "fZ"
+        ],
+        "comments": [
+          {
+            "text": "And I cut his king off on the back rank. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d7-h7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5K2/3q4/8/5k2/8/8/5P2/8 w - - 4 26",
+        "parentNodeId": "m4",
+        "san": "Qd7"
+      },
+      "sb": {
+        "adjacentNodeIds": [
+          "dS"
+        ],
+        "comments": [
+          {
+            "text": "He took on a3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/7p/3p1k2/3P1P2/K7/5P2/8 b - - 0 14",
+        "parentNodeId": "f1",
+        "san": "Kxa3"
+      },
+      "tR": {
+        "adjacentNodeIds": [
+          "BM"
+        ],
+        "comments": [
+          {
+            "text": "And if I take on d4...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/3r1p2/2R3P1/5P1K/8 w - - 0 7",
+        "parentNodeId": "NS",
+        "san": "Rxd4"
+      },
+      "v1": {
+        "adjacentNodeIds": [
+          "er"
+        ],
+        "comments": [
+          {
+            "text": "Rosen stepped out of the pawn's range. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2K5/5k2/3P1P2/8/5P1p/8 b - - 1 18",
+        "parentNodeId": "IU",
+        "san": "Kc6"
+      },
+      "w9": {
+        "adjacentNodeIds": [
+          "Mu"
+        ],
+        "comments": [
+          {
+            "text": "I made use of the open b-file and went into the b4-square, attacking the a-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/6k1/p5Pp/3p4/PrpP1p2/8/5PP1/2R4K w - - 3 4",
+        "parentNodeId": "4Q",
+        "san": "Rb4"
+      },
+      "x6": {
+        "adjacentNodeIds": [
+          "oj"
+        ],
+        "comments": [
+          {
+            "text": "And Rosen is close enough! \n\nThis is only winning because after the rook trade and I lose both of the queenside pawns, the resulting king and pawn endgame is winning for me, thanks to the h-pawn. \n\nThis isn't the best conversion.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a5-a1",
+                "a1-e1",
+                "e1-e5",
+                "e5-a5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/6Pp/p2p4/2rP1P2/4K3/2p2P2/2R5 b - - 1 9",
+        "parentNodeId": "FF",
+        "san": "Ke3"
+      },
+      "yN": {
+        "adjacentNodeIds": [
+          "BA"
+        ],
+        "comments": [
+          {
+            "text": "I pushed again. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6k1/6Pp/3p4/2rP1P2/p2K4/2p2P2/2R5 w - - 0 11",
+        "parentNodeId": "VL",
+        "san": "a3"
+      },
+      "yT": {
+        "adjacentNodeIds": [
+          "cr"
+        ],
+        "comments": [
+          {
+            "text": "He got his king into d7, completely losing the pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3K4/8/3P1k2/5P2/5q2/5P2/8 b - - 2 20",
+        "parentNodeId": "56",
+        "san": "Kd7"
+      },
+      "zt": {
+        "adjacentNodeIds": [
+          "7j"
+        ],
+        "comments": [
+          {
+            "text": "He didn't play this ideally, but anything loses.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4K3/3P4/5k2/2q5/8/5P2/8 b - - 2 22",
+        "parentNodeId": "Ec",
+        "san": "Ke7"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

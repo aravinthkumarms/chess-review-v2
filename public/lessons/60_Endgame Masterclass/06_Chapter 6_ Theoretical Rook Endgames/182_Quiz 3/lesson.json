@@ -1,0 +1,85 @@
+{
+  "id": "598a643b-b4ef-49ab-a6ad-20bac91b0fd3",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Going for theoretical draws, some players could try creating practical chances by trying to block the checks on the long side.\n\nWhat's a good plan to draw?",
+    "answers": [
+      {
+        "text": "Waiting for the king to move. So some safe waiting move with the rook and when the king moves somewhere, start checking it. A waiting move like Ra1 is safe.",
+        "feedback": {
+          "text": "Exactly! Great plan!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "...Kh6 to go for the opposition.",
+        "feedback": {
+          "text": "...Kh6 gets the king too far from its proper defensive stance.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h7-h6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "...Rb7 to defend on the 7th rank. White cannot make progress and if the king moves, ...Kg7 is good.",
+        "feedback": {
+          "text": "If ...Rb7, Re7+ forces a trade into a lost king and pawn endgame.",
+          "arrows": {
+            "threats": [
+              "e8-e7"
+            ],
+            "opportunities": [
+              "b1-b7"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h7",
+              "b7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "R7/7k/5K2/5P2/8/8/8/1r6 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e8-e6"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Re8",
+      "afterMoveFen": "4R3/7k/5K2/5P2/8/8/8/1r6 b - - 2 1"
+    }
+  },
+  "drill": null
+}

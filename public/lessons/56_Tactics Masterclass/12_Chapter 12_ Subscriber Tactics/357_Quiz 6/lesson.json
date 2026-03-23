@@ -1,0 +1,39 @@
+{
+  "id": "74d5644d-21ee-43bf-9018-8efd263bdf05",
+  "name": "Quiz 6",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White thinks they've won a free pawn and captures on e5.\n\nWhat can you play here to prove them wrong?",
+    "answers": [
+      {
+        "text": "Qg5",
+        "feedback": {
+          "text": "Nice! We skewer the knight and the bishop, while also attacking the g2-pawn.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "g2",
+              "e5",
+              "b5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1b1kbnr/pppp1ppp/8/1B2N1q1/1n2P3/8/PPPP1PPP/RNBQK2R w KQkq - 1 2"
+      }
+    ],
+    "distractors": [],
+    "positionFen": "r1bqkbnr/pppp1ppp/8/1B2p3/1n2P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxe5",
+      "afterMoveFen": "r1bqkbnr/pppp1ppp/8/1B2N3/1n2P3/8/PPPP1PPP/RNBQK2R b KQkq - 0 1"
+    }
+  },
+  "drill": null
+}

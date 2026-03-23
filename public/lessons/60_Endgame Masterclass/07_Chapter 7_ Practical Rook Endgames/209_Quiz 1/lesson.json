@@ -1,0 +1,87 @@
+{
+  "id": "dbc62065-91b3-40c0-8e9f-60a7e59f4429",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black takes on d5. \n\nIt seems Black is an exchange up, and they also have a pawn. \n\nWith perfect play, what should the result of this game be?",
+    "answers": [
+      {
+        "text": "A draw.",
+        "feedback": {
+          "text": "Exactly. \n\nThe pawns could be traded, and Rook vs Knight isn't winning for any of the parties involved.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Black is winning because they're an exchange up, the pawns are irrelevant.",
+        "feedback": {
+          "text": "A simple exchange isn't enough to win.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black is winning because they have a rook and a pawn. Black only has to win the g-pawn and this would be winning.",
+        "feedback": {
+          "text": "Sure, if Black wins the g-pawn, they win. But White can easily defend with his king and knight.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black is lost. The knight overpowers the rook.",
+        "feedback": {
+          "text": "That isn't the case. The rook is generally stronger than the knight.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/3P2kp/8/3r2N1/6PK/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rxd5",
+      "afterMoveFen": "8/8/8/3r2kp/8/6N1/6PK/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

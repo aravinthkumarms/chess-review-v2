@@ -1,0 +1,76 @@
+{
+  "id": "5aacea78-12df-4f2d-ba8d-34afd4bff148",
+  "name": "Quiz 2 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "You're close to winning this game. \n\nCan you play a ladder checkmate right now?",
+    "answers": [
+      {
+        "text": "No, we have to prepare it.",
+        "feedback": {
+          "text": "Exactly. Giving a check right now loses a rook.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f2-f1",
+              "e2-e1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes. We can play ...Rf1#.",
+        "feedback": {
+          "text": "The king can take it!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f2-f1",
+              "g1-f1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes. Both ...Rf1# and ...Re1# can be played.",
+        "feedback": {
+          "text": "Both of these moves lose material. The king is too close.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e2-e1",
+              "g1-f2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "g1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/8/3k4/8/4rr2/7K w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kg1",
+      "afterMoveFen": "8/8/8/8/3k4/8/4rr2/6K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

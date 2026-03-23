@@ -1,0 +1,80 @@
+{
+  "id": "3f5a564c-8e8f-459f-a3a0-d1c5864a8d73",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...Qc7.\n\nWhy is that a bad move?",
+    "answers": [
+      {
+        "text": "Because White can play Ne4 and attack the bishop on d6.",
+        "feedback": {
+          "text": "Excellent! The bishop can't be defended again, and if it moves or takes the knight, our bishop becomes extremely dangerous.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c3-e4",
+              "e5-f7"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d6",
+              "f7"
+            ],
+            "opportunities": [
+              "f4",
+              "e5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Because White can play Bf3 and target the undefendable c6-pawn.",
+        "feedback": {
+          "text": "The c6-pawn is sufficiently defended!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Because White has a tactic. They can play Ng6 and open up an attack on the dark diagonal.",
+        "feedback": {
+          "text": "The bishop is still on d6! Black could simply capture the knight.",
+          "arrows": {
+            "threats": [
+              "e5-g6"
+            ],
+            "opportunities": [
+              "h7-g6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rn1qk1nr/1b3ppp/p1pbp3/1p2N3/2pP1B2/2N1P3/PP2BPPP/R2Q1RK1 b kq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qc7",
+      "afterMoveFen": "rn2k1nr/1bq2ppp/p1pbp3/1p2N3/2pP1B2/2N1P3/PP2BPPP/R2Q1RK1 w kq - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,65 @@
+{
+  "id": "c97eed1f-de74-46e8-849e-6885986cf55d",
+  "name": "Quiz 9 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black doubles the rooks.\n\nWhat should you play?",
+    "answers": [
+      {
+        "text": "Ka2",
+        "feedback": {
+          "text": "Good job! Defending the bishop on a3.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "a3"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "1r4k1/5pb1/p5pp/8/P4nP1/Br1P1N1P/KP3P2/3RR3 b - - 3 2"
+      },
+      {
+        "text": "Kc2",
+        "feedback": {
+          "text": "Good job! Moving out of the b-file.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "b3"
+            ],
+            "opportunities": [
+              "c2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "1r4k1/5pb1/p5pp/8/P4nP1/Br1P1N1P/1PK2P2/3RR3 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you defend against Black’s tactical threats?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4r1k1/5pb1/p5pp/8/P4nP1/Br1P1N1P/1P3P2/1K1RR3 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Reb8",
+      "afterMoveFen": "1r4k1/5pb1/p5pp/8/P4nP1/Br1P1N1P/1P3P2/1K1RR3 w - - 2 2"
+    }
+  },
+  "drill": null
+}

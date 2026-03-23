@@ -1,0 +1,53 @@
+{
+  "id": "9d1bc1ad-0e4f-4d69-9b60-ec9f20a45a2f",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is two pawns up. They're not separated by 3 files, but they're quite advanced in White's camp. \n\nIs this winning for Black?",
+    "answers": [
+      {
+        "text": "Yes, it's completely winning.",
+        "feedback": {
+          "text": "Yes, this is an easy win. \n\nA nice plan to win may be getting the king to g2 to push the pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e4-f5",
+              "f5-g4",
+              "g4-g3",
+              "g3-g2",
+              "g4-h3",
+              "h3-g2"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, this is a draw.",
+        "feedback": {
+          "text": "Are you sure? What if Black ensures the advance of one of the pawns?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/8/bBp1k3/5p2/8/4K3 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kd2",
+      "afterMoveFen": "8/8/8/8/bBp1k3/5p2/3K4/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

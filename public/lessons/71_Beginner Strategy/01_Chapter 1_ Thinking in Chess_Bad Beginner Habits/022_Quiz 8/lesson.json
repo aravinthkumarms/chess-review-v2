@@ -1,0 +1,80 @@
+{
+  "id": "9abeaa3b-222d-4767-afa8-b6817c402d5c",
+  "name": "Quiz 8",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "With the Black pieces, the queen has just arrived on d5. \n\nShould you play Ne7, or does something bad happen if g4?",
+    "answers": [
+      {
+        "text": "Ne7 is best, attacking the queen.",
+        "feedback": {
+          "text": "Correct! Ne7 develops a piece and kicks the queen out of d5. You eliminate the threat of Nxe5.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "g4 is best, attacking the knight. I can go Ne7 later.",
+        "feedback": {
+          "text": "If g4, Nxe5. You can't take on e5 with fxe5 because of Qxe5+, losing the rook.",
+          "arrows": {
+            "threats": [
+              "f3-e5",
+              "d5-e5",
+              "e5-h8"
+            ],
+            "opportunities": [
+              "f6-e5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e8",
+              "h8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Nothing bad happens if g4, but I prefer Ne7 just because it attacks the queen first.",
+        "feedback": {
+          "text": "Actually, are you sure nothing bad happens if g4? What if Nxe5?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2qkbnr/pp1b4/5p2/n1p1p1pp/3pP3/PQPP1N2/1P2NPPP/R1B1KB1R w KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qd5",
+      "afterMoveFen": "r2qkbnr/pp1b4/5p2/n1pQp1pp/3pP3/P1PP1N2/1P2NPPP/R1B1KB1R b KQkq - 2 1"
+    }
+  },
+  "drill": null
+}

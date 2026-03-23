@@ -1,0 +1,644 @@
+{
+  "id": "06bd3ade-20bb-45d8-989f-4ed7b2db6f83",
+  "name": "Study 4: The Greek Gift",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "9"
+        ],
+        "comments": [
+          {
+            "text": "In this study, we're going to analyze the popular Greek Gift Sacrifice. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0b": {
+        "adjacentNodeIds": [
+          "wk",
+          "oi"
+        ],
+        "comments": [
+          {
+            "text": "The knight, supported by the bishop, can give a check. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "h7"
+              ],
+              "opportunities": [
+                "c1",
+                "g5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pppn1ppk/4p3/3pP1N1/1b1P4/2N5/PPP2PPP/R1BQK2R b KQ - 1 8",
+        "parentNodeId": "Tk",
+        "san": "Ng5+"
+      },
+      "1a": {
+        "adjacentNodeIds": [
+          "Oi"
+        ],
+        "comments": [
+          {
+            "text": "Black attacks the e4 pawn. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 2 4",
+        "parentNodeId": "sE",
+        "san": "Nf6"
+      },
+      "2K": {
+        "adjacentNodeIds": [
+          "F9"
+        ],
+        "comments": [
+          {
+            "text": "Now there's checkmate in two.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqrk2/pppn2pQ/4p3/3pP1N1/1b1P4/2N5/PPP2PPP/R1B1K2R w KQ - 5 13",
+        "parentNodeId": "Dx",
+        "san": "Kf8"
+      },
+      "5q": {
+        "adjacentNodeIds": [
+          "Hg"
+        ],
+        "comments": [
+          {
+            "text": "h5 check is still powerful. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pppn2p1/4p1k1/3pPpNP/1b1P4/2N5/PPP2PP1/R1BQK2R b KQ - 0 10",
+        "parentNodeId": "ud",
+        "san": "h5+"
+      },
+      "6": {
+        "adjacentNodeIds": [
+          "S5"
+        ],
+        "comments": [
+          {
+            "text": "White places two pawns in the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppp1ppp/4p3/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+        "parentNodeId": "t",
+        "san": "d4"
+      },
+      "8J": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Nxe6+ is a discovered check and White should win quite soon. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d8",
+                "h6"
+              ],
+              "opportunities": [
+                "c1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pppn2p1/4N2k/3pPp1P/1b1P4/2N5/PPP2PP1/R1BQK2R b KQ - 0 11",
+        "parentNodeId": "Hg",
+        "san": "Nxe6+"
+      },
+      "8S": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "This is a very common checkmate arising from the Greek Gift. \n\nTactics after a Greek Gift can come in all shapes and sizes, but the ideas of attracting the king to an unsafe square and of destroying the pawns around the king are always the same! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqr3/pppnk1Q1/4p3/3pP1N1/1b1P4/2N5/PPP2PPP/R1B1K2R b KQ - 0 14",
+        "parentNodeId": "C0",
+        "san": "Qxg7#"
+      },
+      "9": {
+        "adjacentNodeIds": [
+          "t"
+        ],
+        "comments": [
+          {
+            "text": "It can arise from many openings, like the French Defense or the London Opening. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+        "parentNodeId": "0",
+        "san": "e4"
+      },
+      "AJ": {
+        "adjacentNodeIds": [
+          "yo"
+        ],
+        "comments": [
+          {
+            "text": "Check. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqr2k/pppn2p1/4p3/3pP1NQ/1b1P4/2N5/PPP2PPP/R1B1K2R b KQ - 2 11",
+        "parentNodeId": "sh",
+        "san": "Qh5+"
+      },
+      "C0": {
+        "adjacentNodeIds": [
+          "8S"
+        ],
+        "comments": [
+          {
+            "text": "And once the king reaches e7...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqr2Q/pppnk1p1/4p3/3pP1N1/1b1P4/2N5/PPP2PPP/R1B1K2R w KQ - 7 14",
+        "parentNodeId": "F9",
+        "san": "Ke7"
+      },
+      "Dx": {
+        "adjacentNodeIds": [
+          "2K"
+        ],
+        "comments": [
+          {
+            "text": "The king is forced to f8. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g8-f8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqr1k1/pppn2pQ/4p3/3pP1N1/1b1P4/2N5/PPP2PPP/R1B1K2R b KQ - 4 12",
+        "parentNodeId": "yo",
+        "san": "Qh7+"
+      },
+      "F9": {
+        "adjacentNodeIds": [
+          "C0"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h8-g7",
+                "f8-e7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqrk1Q/pppn2p1/4p3/3pP1N1/1b1P4/2N5/PPP2PPP/R1B1K2R b KQ - 6 13",
+        "parentNodeId": "2K",
+        "san": "Qh8+"
+      },
+      "FW": {
+        "adjacentNodeIds": [
+          "wn"
+        ],
+        "comments": [
+          {
+            "text": "The bishop is developed to b4 to pin the knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/pppn1ppp/4p3/3pP3/1b1P4/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 3 6",
+        "parentNodeId": "cL",
+        "san": "Bb4"
+      },
+      "Hg": {
+        "adjacentNodeIds": [
+          "8J"
+        ],
+        "comments": [
+          {
+            "text": "The king only has one square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pppn2p1/4p2k/3pPpNP/1b1P4/2N5/PPP2PP1/R1BQK2R w KQ - 1 11",
+        "parentNodeId": "5q",
+        "san": "Kh6"
+      },
+      "KP": {
+        "adjacentNodeIds": [
+          "i9"
+        ],
+        "comments": [
+          {
+            "text": "If the rook tries to give the king some room to move around. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g8-f8",
+                "f8-e7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqr1k1/pppn1pp1/4p3/3pP1NQ/1b1P4/2N5/PPP2PPP/R1B1K2R w KQ - 4 10",
+        "parentNodeId": "lX",
+        "san": "Re8"
+      },
+      "Oi": {
+        "adjacentNodeIds": [
+          "gY"
+        ],
+        "comments": [
+          {
+            "text": "And here we advance and establish the first element of the Greek Gift sacrifice: a pawn on e5 that forces the f6 knight away from defense of h7. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp2ppp/4pn2/3pP3/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+        "parentNodeId": "1a",
+        "san": "e5"
+      },
+      "S5": {
+        "adjacentNodeIds": [
+          "sE"
+        ],
+        "comments": [
+          {
+            "text": "Black undermines e4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq d6 0 3",
+        "parentNodeId": "6",
+        "san": "d5"
+      },
+      "Tk": {
+        "adjacentNodeIds": [
+          "0b"
+        ],
+        "comments": [
+          {
+            "text": "When the king takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pppn1ppk/4p3/3pP3/1b1P4/2N2N2/PPP2PPP/R1BQK2R w KQ - 0 8",
+        "parentNodeId": "wY",
+        "san": "Kxh7"
+      },
+      "cL": {
+        "adjacentNodeIds": [
+          "FW"
+        ],
+        "comments": [
+          {
+            "text": "We develop. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppn1ppp/4p3/3pP3/3P4/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+        "parentNodeId": "gY",
+        "san": "Nf3"
+      },
+      "gY": {
+        "adjacentNodeIds": [
+          "cL"
+        ],
+        "comments": [
+          {
+            "text": "The knight goes back. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppn1ppp/4p3/3pP3/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+        "parentNodeId": "Oi",
+        "san": "Nfd7"
+      },
+      "i9": {
+        "adjacentNodeIds": [
+          "sh"
+        ],
+        "comments": [
+          {
+            "text": "There's forced checkmate. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqr1k1/pppn1Qp1/4p3/3pP1N1/1b1P4/2N5/PPP2PPP/R1B1K2R b KQ - 0 10",
+        "parentNodeId": "KP",
+        "san": "Qxf7+"
+      },
+      "lX": {
+        "adjacentNodeIds": [
+          "KP"
+        ],
+        "comments": [
+          {
+            "text": "We can threaten checkmate. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-h7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pppn1pp1/4p3/3pP1NQ/1b1P4/2N5/PPP2PPP/R1B1K2R b KQ - 3 9",
+        "parentNodeId": "wk",
+        "san": "Qh5"
+      },
+      "oi": {
+        "adjacentNodeIds": [
+          "yn"
+        ],
+        "comments": [
+          {
+            "text": "Many moves win here. \n\nIn this particular example...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pppn1pp1/4p1k1/3pP1N1/1b1P4/2N5/PPP2PPP/R1BQK2R w KQ - 2 9",
+        "parentNodeId": "0b",
+        "san": "Kg6"
+      },
+      "sE": {
+        "adjacentNodeIds": [
+          "1a"
+        ],
+        "comments": [
+          {
+            "text": "White defends the e4 pawn. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c3-e4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 1 3",
+        "parentNodeId": "S5",
+        "san": "Nc3"
+      },
+      "sh": {
+        "adjacentNodeIds": [
+          "AJ"
+        ],
+        "comments": [
+          {
+            "text": "The king goes to h8. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqr2k/pppn1Qp1/4p3/3pP1N1/1b1P4/2N5/PPP2PPP/R1B1K2R w KQ - 1 11",
+        "parentNodeId": "i9",
+        "san": "Kh8"
+      },
+      "sl": {
+        "adjacentNodeIds": [
+          "wY"
+        ],
+        "comments": [
+          {
+            "text": "If Black castles now for example, you can go over your Greek Gift checklist: \n\n1) A bishop that can take on h7. \n\n2) A knight that has sufficient support to reach g5. \n\n3) An e5 pawn.\n\n4) A queen that can join the attack along the light squares (g4, h5, d3).",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-g5",
+                "d1-h5",
+                "d1-d3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g5",
+                "e5",
+                "d3",
+                "f3",
+                "d1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pppn1ppp/4p3/3pP3/1b1P4/2NB1N2/PPP2PPP/R1BQK2R w KQ - 5 7",
+        "parentNodeId": "wn",
+        "san": "O-O"
+      },
+      "t": {
+        "adjacentNodeIds": [
+          "6"
+        ],
+        "comments": [
+          {
+            "text": "Let's exemplify this sacrifice using the French. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "parentNodeId": "9",
+        "san": "e6"
+      },
+      "ud": {
+        "adjacentNodeIds": [
+          "5q"
+        ],
+        "comments": [
+          {
+            "text": "If Black tries to block some lines...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pppn2p1/4p1k1/3pPpN1/1b1P3P/2N5/PPP2PP1/R1BQK2R w KQ f6 0 10",
+        "parentNodeId": "yn",
+        "san": "f5"
+      },
+      "wY": {
+        "adjacentNodeIds": [
+          "Tk"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pppn1ppB/4p3/3pP3/1b1P4/2N2N2/PPP2PPP/R1BQK2R b KQ - 0 7",
+        "parentNodeId": "sl",
+        "san": "Bxh7+"
+      },
+      "wk": {
+        "adjacentNodeIds": [
+          "lX"
+        ],
+        "comments": [
+          {
+            "text": "When the king moves up...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pppn1pp1/4p3/3pP1N1/1b1P4/2N5/PPP2PPP/R1BQK2R w KQ - 2 9",
+        "parentNodeId": "0b",
+        "san": "Kg8"
+      },
+      "wn": {
+        "adjacentNodeIds": [
+          "sl"
+        ],
+        "comments": [
+          {
+            "text": "Meanwhile White can get another one of the precursors to the Greek Gift: A bishop on d3 (in general, along the b1-h7 diagonal) that can sacrifice itself later on h7. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/pppn1ppp/4p3/3pP3/1b1P4/2NB1N2/PPP2PPP/R1BQK2R b KQkq - 4 6",
+        "parentNodeId": "FW",
+        "san": "Bd3"
+      },
+      "yn": {
+        "adjacentNodeIds": [
+          "ud"
+        ],
+        "comments": [
+          {
+            "text": "The idea of h5+ is brutal. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h4-h5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pppn1pp1/4p1k1/3pP1N1/1b1P3P/2N5/PPP2PP1/R1BQK2R b KQ h3 0 9",
+        "parentNodeId": "oi",
+        "san": "h4"
+      },
+      "yo": {
+        "adjacentNodeIds": [
+          "Dx"
+        ],
+        "comments": [
+          {
+            "text": "And we can force the king to e7 to give checkmate. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqr1k1/pppn2p1/4p3/3pP1NQ/1b1P4/2N5/PPP2PPP/R1B1K2R w KQ - 3 12",
+        "parentNodeId": "AJ",
+        "san": "Kg8"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

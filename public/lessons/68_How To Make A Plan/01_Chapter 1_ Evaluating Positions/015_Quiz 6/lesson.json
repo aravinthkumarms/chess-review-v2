@@ -1,0 +1,63 @@
+{
+  "id": "902e5442-01c4-4920-8394-13ef1e927b85",
+  "name": "Quiz 6",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Both sides contest the c-file. \n\nConsider if space and material are equal. \n\nMake sure to scan for king safety. \n\nHow would you evaluate this position?",
+    "answers": [
+      {
+        "text": "Position is equal (+0.13)",
+        "feedback": {
+          "text": "Material and space are equal, both kings are safe, the pieces are both active. There isn't much to it. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is slightly better (+0.6)",
+        "feedback": {
+          "text": "There is no reason, based on the four criteria, to assume that White is slightly better. The only possible reason is piece activity, but as things stand, the rooks cancel themselves off and the pieces in the center don't do much for either side.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black is slightly better (-0.5)",
+        "feedback": {
+          "text": "This implies that you see Black's pieces as better, but that's not really the case. The pieces are fairly similar and the structure is symmetrical. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White is better (+1.15)",
+        "feedback": {
+          "text": "There is nothing in the position to claim that White has an advantage. The one criterion I left on the table was piece activity: but White's pieces aren't in any way more dominant than Black's.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r2rk1/p3qpp1/1p2pn1p/3b4/1P1Nn3/P3PN2/2Q1BPPP/2R2RK1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qb2",
+      "afterMoveFen": "2r2rk1/p3qpp1/1p2pn1p/3b4/1P1Nn3/P3PN2/1Q2BPPP/2R2RK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

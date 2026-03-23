@@ -1,0 +1,43 @@
+{
+  "id": "9a66b367-0446-4d21-b2c4-53c3ecd9964e",
+  "name": "Quiz 37",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...g5.\n\nCan you find the best move for White here?",
+    "answers": [
+      {
+        "text": "Bxg5",
+        "feedback": {
+          "text": "Excellent! Black mustn't recapture on g5 as they would get mated after Qxg5.\n\nWhite is breaking through.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "5r1r/1bq1n1k1/p1p1p2p/1pPnN1B1/P2P2P1/2PB3R/5PK1/R1Q5 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Think tactically!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "5r1r/1bq1n1k1/p1p1p1pp/1pPnN3/P2P2P1/2PB3R/3B1PK1/R1Q5 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "g5",
+      "afterMoveFen": "5r1r/1bq1n1k1/p1p1p2p/1pPnN1p1/P2P2P1/2PB3R/3B1PK1/R1Q5 w - - 0 2"
+    }
+  },
+  "drill": null
+}

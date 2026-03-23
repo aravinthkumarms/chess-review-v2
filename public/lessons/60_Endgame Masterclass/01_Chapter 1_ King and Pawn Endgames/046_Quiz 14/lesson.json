@@ -1,0 +1,43 @@
+{
+  "id": "2b222ffd-4e86-4158-8713-31ebc61456db",
+  "name": "Quiz 14",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black moves their king up to c7. Invading one of the key squares is crucial to win.\n\nWhich are the key squares that White would need to invade to win this endgame?",
+    "answers": [
+      {
+        "text": "b6-c6-d6",
+        "feedback": {
+          "text": "Yes. If the White king had access to one of these squares this game would be a win for White.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "When the pawn is on the 4th rank, there are 3 key squares. If the attacking king invades any one of these, the endgame is considered \"winning.\" Can you take a guess at what the three key squares are for this c4 pawn? ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1k6/8/8/8/2P1K3/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kc7",
+      "afterMoveFen": "8/2k5/8/8/2P1K3/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

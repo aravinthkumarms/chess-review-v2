@@ -1,0 +1,1188 @@
+{
+  "id": "480de725-a7c5-4841-82dc-64c43c4698bb",
+  "name": "Study 1: Removing the Defender",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "G"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to Chapter 5!\n\nIn this chapter, we'll learn about removing the defender of a certain square or piece and how that can help us prevail in a chess game!\n\nThis game was played between grandmasters Wesley So and David Navara at Tata Steel Group B in 2011.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1604484",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1pp1ppbp/1nn1b1p1/8/p2P4/2N1PNP1/PP2QPBP/R1BR2K1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "2d": {
+        "adjacentNodeIds": [
+          "z2"
+        ],
+        "comments": [
+          {
+            "text": "But Wesley was only using that pawn as a blockade in Black's position.\n\nHe went for Qf4, pinning the knight on f6, but most importantly, attacking the pawn on c7 twice now.\n\nAnd there was no way for Black to protect it.\n\n...e5 doesn't work because White can take the knight first and then the queen.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e6-e5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c7",
+                "f6",
+                "c8"
+              ],
+              "opportunities": [
+                "b5",
+                "f4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1pp1pk1p/r1n1pnp1/1N6/p4Q2/4P1PB/PP3P1P/3R2K1 b - - 5 13",
+        "parentNodeId": "dw",
+        "san": "Qf4"
+      },
+      "2f": {
+        "adjacentNodeIds": [
+          "F9"
+        ],
+        "comments": [
+          {
+            "text": "Wesley had h3 to simply attack the knight, which couldn't move because of the mentioned tactic.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-e5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g4",
+                "f7",
+                "d7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/3qpk1p/1p1rp1p1/2p5/5Pn1/4PNPP/PPQ5/4R1K1 b - - 0 21",
+        "parentNodeId": "JG",
+        "san": "h3"
+      },
+      "3f": {
+        "adjacentNodeIds": [
+          "dP"
+        ],
+        "comments": [
+          {
+            "text": "This was Wesley's second idea.\n\nHe played Ng5, pressuring the bishop on e6, as well as the knight on d5 twice now that the bishop was open.\n\nBlack had to react to the attack on the knight...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e6",
+                "d5"
+              ],
+              "opportunities": [
+                "g2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1q1r1k1/1pp1ppbp/2n1b1p1/1N1n2N1/p7/4P1P1/PP2QPBP/R1BR2K1 b - - 3 3",
+        "parentNodeId": "de",
+        "san": "Ng5"
+      },
+      "4A": {
+        "adjacentNodeIds": [
+          "th"
+        ],
+        "comments": [
+          {
+            "text": "Black got the rook into the d-file. \n\nTactics were flying all over the place.\n\nThe best move for White would probably be b4, putting pressure on the pinned pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b2-b4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d4",
+                "d1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/3rpnp1/2p1n3/3N4/4P1PB/PPQ2P1P/3R2K1 w - - 2 17",
+        "parentNodeId": "qY",
+        "san": "Rd6"
+      },
+      "4Y": {
+        "adjacentNodeIds": [
+          "mz"
+        ],
+        "comments": [
+          {
+            "text": "Here, Wesley had no decision to make.\n\nOptimizing pieces is almost always the priority in chess.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6",
+                "g7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2qr3k/1pp1p1bp/r1n1pnp1/1N6/p7/2B1P1PB/PP2QP1P/1R1R2K1 b - - 7 8",
+        "parentNodeId": "OR",
+        "san": "Bc3"
+      },
+      "4d": {
+        "adjacentNodeIds": [
+          "xt"
+        ],
+        "comments": [
+          {
+            "text": "Black needed to relieve some of the tension, specially in the center.\n\nSo ...Nf6 arrived as a logical move, offering a trade of rooks on the d-file.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d8",
+                "d1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1qr3k/1pp1p1bp/2n1pnp1/1N6/p7/4P1PB/PP2QP1P/1RBR2K1 w - - 4 7",
+        "parentNodeId": "lH",
+        "san": "Nf6"
+      },
+      "5": {
+        "adjacentNodeIds": [
+          "W"
+        ],
+        "comments": [
+          {
+            "text": "And Navara took it.\n\nOtherwise, he would have been forked.\n\nWhat was Wesley's idea?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1pp1ppbp/2n1b1p1/3n4/p7/2N1PNP1/PP2QPBP/R1BR2K1 w - - 0 2",
+        "parentNodeId": "G",
+        "san": "Nxd5"
+      },
+      "AE": {
+        "adjacentNodeIds": [
+          "oX"
+        ],
+        "comments": [
+          {
+            "text": "Which allows for ...Qd5, basically forcing a queen trade.\n\nRetreating would be too passive.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c4",
+                "b5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1pp1p1kp/r1n2np1/1N1q4/p1Q5/4P1PB/PP3P1P/1R4K1 w - - 3 14",
+        "parentNodeId": "ag",
+        "san": "Qd5"
+      },
+      "As": {
+        "adjacentNodeIds": [
+          "We"
+        ],
+        "comments": [
+          {
+            "text": "Now the rook arrives to d3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/4pnp1/8/2p2Pn1/3rPNPB/PPQ4P/4R1K1 w - - 2 20",
+        "parentNodeId": "Lj",
+        "san": "Rd3"
+      },
+      "F9": {
+        "adjacentNodeIds": [
+          "M0"
+        ],
+        "comments": [
+          {
+            "text": "Black desperately tried capturing on e3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3qpk1p/1p1rp1p1/2p5/5P2/4nNPP/PPQ5/4R1K1 w - - 0 22",
+        "parentNodeId": "2f",
+        "san": "Nxe3"
+      },
+      "G": {
+        "adjacentNodeIds": [
+          "5"
+        ],
+        "comments": [
+          {
+            "text": "In this position, Wesley played d5, forking the bishop and the knight.\n\nHowever, that pawn was completely free!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1pp1ppbp/1nn1b1p1/3P4/p7/2N1PNP1/PP2QPBP/R1BR2K1 b - - 0 1",
+        "parentNodeId": "0",
+        "san": "d5"
+      },
+      "JG": {
+        "adjacentNodeIds": [
+          "2f"
+        ],
+        "comments": [
+          {
+            "text": "Navara recaptured, but that didn't matter.\n\nAlthough it seems that Black defends, this won't last.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-e5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/3qpk1p/1p1rp1p1/2p5/5Pn1/4PNP1/PPQ4P/4R1K1 w - - 0 21",
+        "parentNodeId": "YK",
+        "san": "Nxg4"
+      },
+      "Lj": {
+        "adjacentNodeIds": [
+          "As"
+        ],
+        "comments": [
+          {
+            "text": "For example, Wesley can go for the same Nf3 idea.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/3rpnp1/8/2p2Pn1/4PNPB/PPQ4P/4R1K1 b - - 1 19",
+        "parentNodeId": "wm",
+        "san": "Nf3"
+      },
+      "M0": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But after Rxe3, he resigned, because there's no point in playing against someone of Wesley So's caliber in an endgame a piece down.\n\nUtilizing the opponent's weakness as a positional advantage rather than capturing it, creating complications with pins and finally winning the game by removing a defender, Wesley once again proved why he's world class.\n\nThe e5-square in White's perpetual control gave them the fork at the end.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3qpk1p/1p1rp1p1/2p5/5P2/4RNPP/PPQ5/6K1 b - - 0 22",
+        "parentNodeId": "F9",
+        "san": "Rxe3"
+      },
+      "MD": {
+        "adjacentNodeIds": [
+          "Rt"
+        ],
+        "comments": [
+          {
+            "text": "Rb1 prevents that.",
+            "arrows": {
+              "threats": [
+                "a4-a3"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1qr2k1/1pp1p1bp/2n1p1p1/1N1n4/p7/4P1P1/PP2QPBP/1RBR2K1 b - - 1 5",
+        "parentNodeId": "zw",
+        "san": "Rb1"
+      },
+      "OR": {
+        "adjacentNodeIds": [
+          "4Y"
+        ],
+        "comments": [
+          {
+            "text": "Another prophylactic move by Navara.\n\nHe probably wanted a rook to guard the sixth rank in case the queen moved away from c8.\n\nHowever, something like ...Ne4, grabbing space and preparing for Bc3 was better.",
+            "arrows": {
+              "threats": [
+                "f6-e4",
+                "d2-c3"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2qr3k/1pp1p1bp/r1n1pnp1/1N6/p7/4P1PB/PP1BQP1P/1R1R2K1 w - - 6 8",
+        "parentNodeId": "xt",
+        "san": "Ra6"
+      },
+      "Om": {
+        "adjacentNodeIds": [
+          "qY"
+        ],
+        "comments": [
+          {
+            "text": "Navara tried to kick out the knight with ...c5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/1r2pnp1/2p1n3/Q2N4/4P1PB/PP3P1P/3R2K1 w - c6 0 16",
+        "parentNodeId": "k3",
+        "san": "c5"
+      },
+      "Pe": {
+        "adjacentNodeIds": [
+          "WW"
+        ],
+        "comments": [
+          {
+            "text": "Let's say Wesley plays a random move here.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3q4/1pp1p1kp/r1n1Bnp1/1N6/p1Q5/4P1PP/PP3P2/1R4K1 b - - 0 13",
+        "parentNodeId": "rz",
+        "san": "h3"
+      },
+      "QN": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Because Black had ...Rxe3, and there's no time to capture the knight because of the hanging rook on e1.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e1",
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/4p1p1/8/2p2Pn1/4rNPP/PPQ5/4R1K1 w - - 0 22",
+        "parentNodeId": "e3",
+        "san": "Rxe3"
+      },
+      "Qf": {
+        "adjacentNodeIds": [
+          "dw"
+        ],
+        "comments": [
+          {
+            "text": "Instead of capturing it, Wesley occupied the d-file with the rook.\n\nHe wanted to give Black no chance to reactivate the queen anytime soon.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/1pp1p1kp/r1n1pnp1/1N6/p1Q5/4P1PB/PP3P1P/3R2K1 b - - 3 12",
+        "parentNodeId": "wU",
+        "san": "Rd1"
+      },
+      "Rf": {
+        "adjacentNodeIds": [
+          "k3"
+        ],
+        "comments": [
+          {
+            "text": "Navara finally activated the c6-knight to e5.\n\nA move like ...Nf3+ could be unpleasant...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-f3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1pp1pk1p/1r2pnp1/1N2n3/Q7/4P1PB/PP3P1P/3R2K1 w - - 1 15",
+        "parentNodeId": "Wf",
+        "san": "Ne5"
+      },
+      "Rt": {
+        "adjacentNodeIds": [
+          "lH"
+        ],
+        "comments": [
+          {
+            "text": "Navara played a slow but prophylactic move here, placing the king on a safer square.\n\nNow it was time for Wesley to start targeting weaknesses.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1qr3k/1pp1p1bp/2n1p1p1/1N1n4/p7/4P1P1/PP2QPBP/1RBR2K1 w - - 2 6",
+        "parentNodeId": "MD",
+        "san": "Kh8"
+      },
+      "TC": {
+        "adjacentNodeIds": [
+          "gH"
+        ],
+        "comments": [
+          {
+            "text": "However, Wesley realized it was an opportune time to start trading some pieces.\n\nOf course, the pinned e6-pawn can't recapture here.",
+            "arrows": {
+              "threats": [
+                "e6-d5"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q4k/1pp1p1bp/r1n1pnp1/1N1R4/p7/2B1P1PB/PP2QP1P/1R4K1 b - - 0 9",
+        "parentNodeId": "mz",
+        "san": "Rxd5"
+      },
+      "W": {
+        "adjacentNodeIds": [
+          "de"
+        ],
+        "comments": [
+          {
+            "text": "Well, now Black's knight was pinned to the queen on the d-file.\n\nIf Wesley could play e4 without Navara having the option to capture on c3, he'd win the knight.\n\nSo, he played Nb5, moving the knight away from c3 and pressuring the queenside.\n\nNow, e4 was the threat.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-e4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d5",
+                "d8",
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1pp1ppbp/2n1b1p1/1N1n4/p7/4PNP1/PP2QPBP/R1BR2K1 b - - 1 2",
+        "parentNodeId": "5",
+        "san": "Nb5"
+      },
+      "WW": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "All of a sudden, there's ...Ne5, attacking the queen!\n\nThe rook from a6 also pressures the bishop on e6 in that case.\n\nThere would actually be no way for White to defend against both threats.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c4",
+                "e6"
+              ],
+              "opportunities": [
+                "a6",
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3q4/1pp1p1kp/r3Bnp1/1N2n3/p1Q5/4P1PP/PP3P2/1R4K1 w - - 1 14",
+        "parentNodeId": "Pe",
+        "san": "Ne5"
+      },
+      "We": {
+        "adjacentNodeIds": [
+          "ig"
+        ],
+        "comments": [
+          {
+            "text": "If Wesley goes for the same idea, removing the defender...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/4pnp1/8/2p2PB1/3rPNP1/PPQ4P/4R1K1 b - - 0 20",
+        "parentNodeId": "As",
+        "san": "Bxg4"
+      },
+      "Wf": {
+        "adjacentNodeIds": [
+          "Rf"
+        ],
+        "comments": [
+          {
+            "text": "However, now Wesley went for the a4-pawn instead!\n\nIt just seemed like he was one step ahead at all times in this game.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/1pp1pk1p/1rn1pnp1/1N6/Q7/4P1PB/PP3P1P/3R2K1 b - - 0 14",
+        "parentNodeId": "z2",
+        "san": "Qxa4"
+      },
+      "YK": {
+        "adjacentNodeIds": [
+          "JG"
+        ],
+        "comments": [
+          {
+            "text": "Well, if the knight wasn't on g4, guarding the e5-square, Ne5+ would be a royal fork!\n\nSo Wesley removed the defender of that key square.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-e5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3qpk1p/1p1rpnp1/2p5/5PB1/4PNP1/PPQ4P/4R1K1 b - - 0 20",
+        "parentNodeId": "eI",
+        "san": "Bxg4"
+      },
+      "ZW": {
+        "adjacentNodeIds": [
+          "kc"
+        ],
+        "comments": [
+          {
+            "text": "Which jumped to g4, counterattacking the e3-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/3rpnp1/2p5/3N1Pn1/4P1PB/PPQ4P/3R2K1 w - - 1 18",
+        "parentNodeId": "th",
+        "san": "Neg4"
+      },
+      "ag": {
+        "adjacentNodeIds": [
+          "AE"
+        ],
+        "comments": [
+          {
+            "text": "Because of the shown threat, White would have to retreat here...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3q4/1pp1p1kp/r1n2np1/1N6/p1Q5/4P1PB/PP3P1P/1R4K1 b - - 2 13",
+        "parentNodeId": "rz",
+        "san": "Bh3"
+      },
+      "bO": {
+        "adjacentNodeIds": [
+          "eI"
+        ],
+        "comments": [
+          {
+            "text": "He retreated to f3, with the idea of jumping to e5 or g5 in the future if convenient.\n\nAnd convenient it was going to be.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-e5",
+                "f3-g5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/4pk1p/1p1rpnp1/2p5/5Pn1/4PNPB/PPQ4P/4R1K1 b - - 1 19",
+        "parentNodeId": "hL",
+        "san": "Nf3"
+      },
+      "dP": {
+        "adjacentNodeIds": [
+          "gV"
+        ],
+        "comments": [
+          {
+            "text": "With ...Re8, for example, defending.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1qr2k1/1pp1ppbp/2n1b1p1/1N1n2N1/p7/4P1P1/PP2QPBP/R1BR2K1 w - - 4 4",
+        "parentNodeId": "3f",
+        "san": "Rd8"
+      },
+      "de": {
+        "adjacentNodeIds": [
+          "3f"
+        ],
+        "comments": [
+          {
+            "text": "Black had to unpin, so he played ...Qc8, still keeping an eye on the c7-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1q1r1k1/1pp1ppbp/2n1b1p1/1N1n4/p7/4PNP1/PP2QPBP/R1BR2K1 w - - 2 3",
+        "parentNodeId": "W",
+        "san": "Qc8"
+      },
+      "dw": {
+        "adjacentNodeIds": [
+          "2d"
+        ],
+        "comments": [
+          {
+            "text": "Navara took the opportunity to defend his pawn, at least.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1pp1pk1p/r1n1pnp1/1N6/p1Q5/4P1PB/PP3P1P/3R2K1 w - - 4 13",
+        "parentNodeId": "Qf",
+        "san": "Kf7"
+      },
+      "e3": {
+        "adjacentNodeIds": [
+          "QN"
+        ],
+        "comments": [
+          {
+            "text": "h3 doesn't work here.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/4p1p1/8/2p2Pn1/3rPNPP/PPQ5/4R1K1 b - - 0 21",
+        "parentNodeId": "ig",
+        "san": "h3"
+      },
+      "eI": {
+        "adjacentNodeIds": [
+          "YK"
+        ],
+        "comments": [
+          {
+            "text": "Navara made So's life easier with a blunder.\n\nHe played ...Qd7.\n\nBut why is that a blunder?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3qpk1p/1p1rpnp1/2p5/5Pn1/4PNPB/PPQ4P/4R1K1 w - - 2 20",
+        "parentNodeId": "bO",
+        "san": "Qd7"
+      },
+      "eN": {
+        "adjacentNodeIds": [
+          "wq"
+        ],
+        "comments": [
+          {
+            "text": "Navara recaptured.\n\nThese trades were good for White because he got rid of some central problems, and traded Black's strong bishop.\n\nNow he could focus on getting to Black's weaknesses with less pieces for Black to defend with.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/1pp1p1kp/r1n1p1p1/1N1n4/p7/4P1PB/PP2QP1P/1R4K1 w - - 0 11",
+        "parentNodeId": "hu",
+        "san": "Kxg7"
+      },
+      "gH": {
+        "adjacentNodeIds": [
+          "hu"
+        ],
+        "comments": [
+          {
+            "text": "So the knight has to.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q4k/1pp1p1bp/r1n1p1p1/1N1n4/p7/2B1P1PB/PP2QP1P/1R4K1 w - - 0 10",
+        "parentNodeId": "TC",
+        "san": "Nxd5"
+      },
+      "gV": {
+        "adjacentNodeIds": [
+          "zw"
+        ],
+        "comments": [
+          {
+            "text": "However, now Wesley captured the bishop on e6.\n\nNavara couldn't recapture with the queen because of Nxc7 fork.",
+            "arrows": {
+              "threats": [
+                "c8-e6"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c7"
+              ],
+              "opportunities": [
+                "b5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1qr2k1/1pp1ppbp/2n1N1p1/1N1n4/p7/4P1P1/PP2QPBP/R1BR2K1 b - - 0 4",
+        "parentNodeId": "dP",
+        "san": "Nxe6"
+      },
+      "hL": {
+        "adjacentNodeIds": [
+          "bO"
+        ],
+        "comments": [
+          {
+            "text": "However, he played ...b6, strengthening the c5-pawn.\n\nThis gave Wesley the green light to finally move the knight to where he wanted.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/4pk1p/1p1rpnp1/2p5/3N1Pn1/4P1PB/PPQ4P/4R1K1 w - - 0 19",
+        "parentNodeId": "kc",
+        "san": "b6"
+      },
+      "hu": {
+        "adjacentNodeIds": [
+          "eN"
+        ],
+        "comments": [
+          {
+            "text": "Now Wesley traded the dark-squared bishops too.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2q4k/1pp1p1Bp/r1n1p1p1/1N1n4/p7/4P1PB/PP2QP1P/1R4K1 b - - 0 10",
+        "parentNodeId": "gH",
+        "san": "Bxg7+"
+      },
+      "ig": {
+        "adjacentNodeIds": [
+          "e3"
+        ],
+        "comments": [
+          {
+            "text": "Navara would have just recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/4p1p1/8/2p2Pn1/3rPNP1/PPQ4P/4R1K1 w - - 0 21",
+        "parentNodeId": "We",
+        "san": "Nxg4"
+      },
+      "jN": {
+        "adjacentNodeIds": [
+          "rz"
+        ],
+        "comments": [
+          {
+            "text": "Capturing on e6 is not a bad move by any means.\n\nWesley just had a different idea in mind.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/1pp1p1kp/r1n1Bnp1/1N6/p1Q5/4P1P1/PP3P1P/1R4K1 b - - 0 12",
+        "parentNodeId": "wU",
+        "san": "Bxe6"
+      },
+      "k3": {
+        "adjacentNodeIds": [
+          "Om"
+        ],
+        "comments": [
+          {
+            "text": "So Wesley retreated to d4, controlling that square.\n\nNot only that, but the knight from d4 was also attacking the e6-pawn, preventing ...Rxb2.",
+            "arrows": {
+              "threats": [
+                "b6-b2"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f3",
+                "e6",
+                "b6"
+              ],
+              "opportunities": [
+                "h3",
+                "d4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1pp1pk1p/1r2pnp1/4n3/Q2N4/4P1PB/PP3P1P/3R2K1 b - - 2 15",
+        "parentNodeId": "Rf",
+        "san": "Nd4"
+      },
+      "kc": {
+        "adjacentNodeIds": [
+          "hL",
+          "wm"
+        ],
+        "comments": [
+          {
+            "text": "Wesley had to defend with Re1.\n\nNow, it was necessary for Navara to play ...c4 to prove Wesley had misplayed.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c5-c4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/3rpnp1/2p5/3N1Pn1/4P1PB/PPQ4P/4R1K1 b - - 2 18",
+        "parentNodeId": "ZW",
+        "san": "Re1"
+      },
+      "lH": {
+        "adjacentNodeIds": [
+          "4d"
+        ],
+        "comments": [
+          {
+            "text": "And the most obvious weakness was the doubled isolated pawn on e6.\n\nOf course, it was still defended.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1qr3k/1pp1p1bp/2n1p1p1/1N1n4/p7/4P1PB/PP2QP1P/1RBR2K1 b - - 3 6",
+        "parentNodeId": "Rt",
+        "san": "Bh3"
+      },
+      "lQ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "In this position, Wesley would still have Rd1, attacking the knight and then Nxc7, and the evaluation would have still been a significant advantage.\n\nHowever, he just didn't like the queen trade, so he chose not to go for this line.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b1-d1",
+                "b5-c7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1pp1p1kp/r1n3p1/1N1n4/p7/4P1PB/PP3P1P/1R4K1 w - - 0 15",
+        "parentNodeId": "oX",
+        "san": "Nxd5"
+      },
+      "mz": {
+        "adjacentNodeIds": [
+          "TC"
+        ],
+        "comments": [
+          {
+            "text": "For David, he had to find a way to untangle his queen from the c8-square.\n\nOne of the ways to do that is to place the rook on d5, for example, and try to reactivate the queen behind it in the future.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q4k/1pp1p1bp/r1n1pnp1/1N1r4/p7/2B1P1PB/PP2QP1P/1R1R2K1 w - - 8 9",
+        "parentNodeId": "4Y",
+        "san": "Rd5"
+      },
+      "oX": {
+        "adjacentNodeIds": [
+          "lQ"
+        ],
+        "comments": [
+          {
+            "text": "After the queens are traded...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1pp1p1kp/r1n2np1/1N1Q4/p7/4P1PB/PP3P1P/1R4K1 b - - 0 14",
+        "parentNodeId": "AE",
+        "san": "Qxd5"
+      },
+      "qY": {
+        "adjacentNodeIds": [
+          "4A"
+        ],
+        "comments": [
+          {
+            "text": "But had to face another pin by So.",
+            "arrows": {
+              "threats": [
+                "c5-d4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/1r2pnp1/2p1n3/3N4/4P1PB/PPQ2P1P/3R2K1 b - - 1 16",
+        "parentNodeId": "Om",
+        "san": "Qc2"
+      },
+      "rz": {
+        "adjacentNodeIds": [
+          "ag",
+          "Pe"
+        ],
+        "comments": [
+          {
+            "text": "Black would have taken the d-file with the queen, which is what Wesley didn't like.\n\nAlso, there would be a threat now.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3q4/1pp1p1kp/r1n1Bnp1/1N6/p1Q5/4P1P1/PP3P1P/1R4K1 w - - 1 13",
+        "parentNodeId": "jN",
+        "san": "Qd8"
+      },
+      "th": {
+        "adjacentNodeIds": [
+          "ZW"
+        ],
+        "comments": [
+          {
+            "text": "However, he played f4, attacking the knight on e5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/3rpnp1/2p1n3/3N1P2/4P1PB/PPQ4P/3R2K1 b - f3 0 17",
+        "parentNodeId": "4A",
+        "san": "f4"
+      },
+      "wU": {
+        "adjacentNodeIds": [
+          "Qf",
+          "jN"
+        ],
+        "comments": [
+          {
+            "text": "So Navara had to move the knight away.\n\nAs you can see, the e6-pawn is hanging!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1pp1p1kp/r1n1pnp1/1N6/p1Q5/4P1PB/PP3P1P/1R4K1 w - - 2 12",
+        "parentNodeId": "wq",
+        "san": "Nf6"
+      },
+      "wm": {
+        "adjacentNodeIds": [
+          "Lj"
+        ],
+        "comments": [
+          {
+            "text": "The only drawing move was to push ...c4.\n\nThe idea was that the rook was coming to d3, with pressure on the e3-square, restricting Wesley.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d6-d3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/1p2pk1p/3rpnp1/8/2pN1Pn1/4P1PB/PPQ4P/4R1K1 w - - 0 19",
+        "parentNodeId": "kc",
+        "san": "c4"
+      },
+      "wq": {
+        "adjacentNodeIds": [
+          "wU"
+        ],
+        "comments": [
+          {
+            "text": "He activated the queen to c4.\n\nThe threat was Qxd5, utilizing the pin on the e6-pawn!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-d5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d5",
+                "e6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2q5/1pp1p1kp/r1n1p1p1/1N1n4/p1Q5/4P1PB/PP3P1P/1R4K1 b - - 1 11",
+        "parentNodeId": "eN",
+        "san": "Qc4"
+      },
+      "xt": {
+        "adjacentNodeIds": [
+          "OR"
+        ],
+        "comments": [
+          {
+            "text": "Wesley didn't really want to trade and preferred to block the trade while developing a piece.\n\nOf course, the most active square for the bishop is c3.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d2-c3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1qr3k/1pp1p1bp/2n1pnp1/1N6/p7/4P1PB/PP1BQP1P/1R1R2K1 b - - 5 7",
+        "parentNodeId": "4d",
+        "san": "Bd2"
+      },
+      "z2": {
+        "adjacentNodeIds": [
+          "Wf"
+        ],
+        "comments": [
+          {
+            "text": "Black played ...Rb6, preparing to capture on b2 in the future.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q5/1pp1pk1p/1rn1pnp1/1N6/p4Q2/4P1PB/PP3P1P/3R2K1 w - - 6 14",
+        "parentNodeId": "2d",
+        "san": "Rb6"
+      },
+      "zw": {
+        "adjacentNodeIds": [
+          "MD"
+        ],
+        "comments": [
+          {
+            "text": "So, he recaptured with the pawn.\n\nIf you think about it, this whole line was forced starting with the move d5.\n\nFor the price of a pawn, Wesley activated his pieces and doubled Black's pawns on the e-file, which is a great positional benefit.\n\nHowever, Black was still threatening ...a3, utilizing the pin on the b2-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-a3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e6",
+                "e7",
+                "b2"
+              ],
+              "opportunities": [
+                "b5",
+                "g2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1qr2k1/1pp1p1bp/2n1p1p1/1N1n4/p7/4P1P1/PP2QPBP/R1BR2K1 w - - 0 5",
+        "parentNodeId": "gV",
+        "san": "fxe6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

@@ -1,0 +1,879 @@
+{
+  "id": "2fba9ac0-b2a7-49f7-8e3b-995a2c1f526f",
+  "name": "Study 3: Sacrifice on h3",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "G"
+        ],
+        "comments": [
+          {
+            "text": "This was a game I played against GM Canty. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/6227226776?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/ppp2ppp/2nb1n2/8/2BP4/2N4P/PP2NPP1/R1BQK2R w KQ - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0K": {
+        "adjacentNodeIds": [
+          "CM"
+        ],
+        "comments": [
+          {
+            "text": "The king went to h1. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp4pp/2p5/2b2p2/4PNnq/7N/PPB3Q1/4RR1K b - - 2 18",
+        "parentNodeId": "DJ",
+        "san": "Kh1"
+      },
+      "1H": {
+        "adjacentNodeIds": [
+          "ql"
+        ],
+        "comments": [
+          {
+            "text": "And I brought my knight back and attacked the bishop. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/2pb4/4nn2/5N1q/2N1BB2/PP3PQ1/4RRK1 w - - 2 11",
+        "parentNodeId": "nf",
+        "san": "Ne5"
+      },
+      "29": {
+        "adjacentNodeIds": [
+          "61"
+        ],
+        "comments": [
+          {
+            "text": "The bishop went to c2...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4pp/2pb3n/4np2/5N1q/4B3/PPB1NPQ1/4RRK1 b - - 1 13",
+        "parentNodeId": "vf",
+        "san": "Bc2"
+      },
+      "4r": {
+        "adjacentNodeIds": [
+          "bj"
+        ],
+        "comments": [
+          {
+            "text": "The pawn recaptured. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4pp/2pb4/4np2/7q/4P2N/PPB1N1Q1/4RRK1 b - - 0 15",
+        "parentNodeId": "wM",
+        "san": "fxe3"
+      },
+      "5E": {
+        "adjacentNodeIds": [
+          "i3"
+        ],
+        "comments": [
+          {
+            "text": "He captured with the bishop. \n\nAnd since it was a blitz game, I chose the safe option. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp4pp/2p5/2b5/4BNnq/7N/PP4Q1/4RR1K b - - 0 19",
+        "parentNodeId": "CM",
+        "san": "Bxe4"
+      },
+      "5G": {
+        "adjacentNodeIds": [
+          "Xs"
+        ],
+        "comments": [
+          {
+            "text": "And I went ahead and created the battery.",
+            "arrows": {
+              "threats": [
+                "f5-h3"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pppq1ppp/2nb1n2/5b2/2BP4/2N1B2P/PP2NPP1/R2Q1RK1 w - - 5 3",
+        "parentNodeId": "8",
+        "san": "Qd7"
+      },
+      "61": {
+        "adjacentNodeIds": [
+          "vI"
+        ],
+        "comments": [
+          {
+            "text": "And my h-knight came back into the game. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4pp/2pb4/4np2/5Nnq/4B3/PPB1NPQ1/4RRK1 w - - 2 14",
+        "parentNodeId": "29",
+        "san": "Nhg4"
+      },
+      "6e": {
+        "adjacentNodeIds": [
+          "kR"
+        ],
+        "comments": [
+          {
+            "text": "White defended the bishop. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/ppp2ppp/3b4/3B1n2/5Nnq/2N1B3/PP3PQ1/4RRK1 b - - 3 9",
+        "parentNodeId": "oc",
+        "san": "Rce1"
+      },
+      "8": {
+        "adjacentNodeIds": [
+          "5G"
+        ],
+        "comments": [
+          {
+            "text": "My opponent brought his bishop to e3, supporting d4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/ppp2ppp/2nb1n2/5b2/2BP4/2N1B2P/PP2NPP1/R2Q1RK1 b - - 4 2",
+        "parentNodeId": "n",
+        "san": "Be3"
+      },
+      "9L": {
+        "adjacentNodeIds": [
+          "i2"
+        ],
+        "comments": [
+          {
+            "text": "White took. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pppq1ppp/2nb1n2/8/2BP4/2N1B2P/PP2NP2/2RQ1RK1 b - - 0 4",
+        "parentNodeId": "Gn",
+        "san": "gxh3"
+      },
+      "Bx": {
+        "adjacentNodeIds": [
+          "Yk"
+        ],
+        "comments": [
+          {
+            "text": "In this position I missed that this capture was winning.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/2pb4/5n2/5N1q/2N1nB2/PP3PQ1/4RRK1 w - - 0 11",
+        "parentNodeId": "nf",
+        "san": "Ngxe3"
+      },
+      "CM": {
+        "adjacentNodeIds": [
+          "5E"
+        ],
+        "comments": [
+          {
+            "text": "I took on e4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp4pp/2p5/2b5/4pNnq/7N/PPB3Q1/4RR1K w - - 0 19",
+        "parentNodeId": "0K",
+        "san": "fxe4"
+      },
+      "DJ": {
+        "adjacentNodeIds": [
+          "0K"
+        ],
+        "comments": [
+          {
+            "text": "I gave a check. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp4pp/2p5/2b2p2/4PNnq/7N/PPB3Q1/4RRK1 w - - 1 18",
+        "parentNodeId": "Gj",
+        "san": "Bc5+"
+      },
+      "Dh": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black will win a lot of material. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c5-e3",
+                "h4-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e3",
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/2p5/2b5/5N1q/2N1RB2/PP4Q1/5RK1 w - - 1 13",
+        "parentNodeId": "JD",
+        "san": "Bc5"
+      },
+      "FE": {
+        "adjacentNodeIds": [
+          "JD"
+        ],
+        "comments": [
+          {
+            "text": "The knight can take at the end, forking queen and rook.",
+            "arrows": {
+              "threats": [
+                "h4-f4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/2pb4/8/5N1q/2N1nB2/PP4Q1/4RRK1 w - - 0 12",
+        "parentNodeId": "Yk",
+        "san": "Nxe3"
+      },
+      "G": {
+        "adjacentNodeIds": [
+          "n"
+        ],
+        "comments": [
+          {
+            "text": "In this position he castled kingside.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/ppp2ppp/2nb1n2/8/2BP4/2N4P/PP2NPP1/R1BQ1RK1 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "O-O"
+      },
+      "Gj": {
+        "adjacentNodeIds": [
+          "DJ"
+        ],
+        "comments": [
+          {
+            "text": "White pushed e4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp4pp/2pb4/5p2/4PNnq/7N/PPB3Q1/4RRK1 b - - 0 17",
+        "parentNodeId": "oE",
+        "san": "e4"
+      },
+      "Gn": {
+        "adjacentNodeIds": [
+          "9L"
+        ],
+        "comments": [
+          {
+            "text": "And I sacrificed on h3! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pppq1ppp/2nb1n2/8/2BP4/2N1B2b/PP2NPP1/2RQ1RK1 w - - 0 4",
+        "parentNodeId": "Xs",
+        "san": "Bxh3"
+      },
+      "H2": {
+        "adjacentNodeIds": [
+          "cY"
+        ],
+        "comments": [
+          {
+            "text": "The bishop stepped out of the e-file...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rr1k/pp4pp/2p5/2b5/5Nnq/7N/PPB3Q1/4RR1K b - - 2 20",
+        "parentNodeId": "i3",
+        "san": "Bc2"
+      },
+      "JD": {
+        "adjacentNodeIds": [
+          "Dh"
+        ],
+        "comments": [
+          {
+            "text": "If the rook takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/2pb4/8/5N1q/2N1RB2/PP4Q1/5RK1 b - - 0 12",
+        "parentNodeId": "FE",
+        "san": "Rxe3"
+      },
+      "JP": {
+        "adjacentNodeIds": [
+          "wE"
+        ],
+        "comments": [
+          {
+            "text": "The queen defended.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/ppp2ppp/2nb4/8/2BP1Nnq/2N1B3/PP3PQ1/2R2RK1 b - - 5 7",
+        "parentNodeId": "z8",
+        "san": "Qg2"
+      },
+      "Xs": {
+        "adjacentNodeIds": [
+          "Gn"
+        ],
+        "comments": [
+          {
+            "text": "The rook came into the c-file. \n\nAn active file for sure. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pppq1ppp/2nb1n2/5b2/2BP4/2N1B2P/PP2NPP1/2RQ1RK1 b - - 6 3",
+        "parentNodeId": "5G",
+        "san": "Rc1"
+      },
+      "Yk": {
+        "adjacentNodeIds": [
+          "FE"
+        ],
+        "comments": [
+          {
+            "text": "Even though White can recapture.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/2pb4/5n2/5N1q/2N1PB2/PP4Q1/4RRK1 b - - 0 11",
+        "parentNodeId": "Bx",
+        "san": "fxe3"
+      },
+      "a4": {
+        "adjacentNodeIds": [
+          "oc"
+        ],
+        "comments": [
+          {
+            "text": "The bishop went to d5. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d5-b7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/ppp2ppp/3b4/3B4/3n1Nnq/2N1B3/PP3PQ1/2R2RK1 b - - 1 8",
+        "parentNodeId": "wE",
+        "san": "Bd5"
+      },
+      "a9": {
+        "adjacentNodeIds": [
+          "oE"
+        ],
+        "comments": [
+          {
+            "text": "White tried to keep coordination with both of his knights. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f4",
+                "h3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4pp/2pb4/5p2/5Nnq/4P2N/PPB3Q1/4RRK1 b - - 2 16",
+        "parentNodeId": "bj",
+        "san": "Nef4"
+      },
+      "bj": {
+        "adjacentNodeIds": [
+          "a9"
+        ],
+        "comments": [
+          {
+            "text": "And I attacked the e3 pawn, bringing the other knight to g4.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-e3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4pp/2pb4/5p2/6nq/4P2N/PPB1N1Q1/4RRK1 w - - 1 16",
+        "parentNodeId": "4r",
+        "san": "Ng4"
+      },
+      "cY": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But the rook on e1 was hanging. \n\nWhite resigned. \n\nAs you can see, a sacrifice can lead to pressure on your opponent's position, which may lead to mistakes as seen in this last move. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r1k/pp4pp/2p5/2b5/5Nnq/7N/PPB3Q1/4rR1K w - - 0 21",
+        "parentNodeId": "H2",
+        "san": "Rxe1"
+      },
+      "i2": {
+        "adjacentNodeIds": [
+          "tC"
+        ],
+        "comments": [
+          {
+            "text": "And I have two pawns for the bishop, plus an attack. \n\nThis is a common sacrifice. \n\nUsually it's a good sacrifice if you have other pieces to help the queen attack, like the bishop on d6 and the knight on f6 capable of jumping into g4. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-g4",
+                "d6-h2"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/ppp2ppp/2nb1n2/8/2BP4/2N1B2q/PP2NP2/2RQ1RK1 w - - 0 5",
+        "parentNodeId": "9L",
+        "san": "Qxh3"
+      },
+      "i3": {
+        "adjacentNodeIds": [
+          "H2"
+        ],
+        "comments": [
+          {
+            "text": "I took my king out of the diagonal. \n\nThere is now extreme pressure along the e-file. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e8-e1",
+                "h4-e1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4rr1k/pp4pp/2p5/2b5/4BNnq/7N/PP4Q1/4RR1K w - - 1 20",
+        "parentNodeId": "5E",
+        "san": "Kh8"
+      },
+      "kR": {
+        "adjacentNodeIds": [
+          "nf"
+        ],
+        "comments": [
+          {
+            "text": "I attacked the light-squared bishop and defended my b7 pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/2pb4/3B1n2/5Nnq/2N1B3/PP3PQ1/4RRK1 w - - 0 10",
+        "parentNodeId": "6e",
+        "san": "c6"
+      },
+      "n": {
+        "adjacentNodeIds": [
+          "8"
+        ],
+        "comments": [
+          {
+            "text": "I developed my bishop to f5. \n\nOne of the ideas in this opening is to create a bishop and queen battery and sacrifice on h3. ",
+            "arrows": {
+              "threats": [
+                "f5-h3"
+              ],
+              "opportunities": [
+                "d8-d7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/ppp2ppp/2nb1n2/5b2/2BP4/2N4P/PP2NPP1/R1BQ1RK1 w - - 3 2",
+        "parentNodeId": "G",
+        "san": "Bf5"
+      },
+      "nf": {
+        "adjacentNodeIds": [
+          "1H",
+          "Bx"
+        ],
+        "comments": [
+          {
+            "text": "The bishop attacked my knight.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/2pb4/5n2/5Nnq/2N1BB2/PP3PQ1/4RRK1 b - - 1 10",
+        "parentNodeId": "kR",
+        "san": "Bf3"
+      },
+      "oE": {
+        "adjacentNodeIds": [
+          "Gj"
+        ],
+        "comments": [
+          {
+            "text": "I brought my other rook in to attack the weakness. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-e3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp4pp/2pb4/5p2/5Nnq/4P2N/PPB3Q1/4RRK1 w - - 3 17",
+        "parentNodeId": "a9",
+        "san": "Rae8"
+      },
+      "oc": {
+        "adjacentNodeIds": [
+          "6e"
+        ],
+        "comments": [
+          {
+            "text": "I brought my knight to safety and attacked the e3 bishop. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-e3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/ppp2ppp/3b4/3B1n2/5Nnq/2N1B3/PP3PQ1/2R2RK1 w - - 2 9",
+        "parentNodeId": "a4",
+        "san": "Nf5"
+      },
+      "pG": {
+        "adjacentNodeIds": [
+          "z8"
+        ],
+        "comments": [
+          {
+            "text": "The queen came to f3 to defend the kingside.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/ppp2ppp/2nb1n2/8/2BP1N1q/2N1BQ2/PP3P2/2R2RK1 b - - 3 6",
+        "parentNodeId": "rX",
+        "san": "Qf3"
+      },
+      "ql": {
+        "adjacentNodeIds": [
+          "z1"
+        ],
+        "comments": [
+          {
+            "text": "The bishop went to e4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/2pb4/4nn2/4BN1q/2N1B3/PP3PQ1/4RRK1 b - - 3 11",
+        "parentNodeId": "1H",
+        "san": "Be4"
+      },
+      "rX": {
+        "adjacentNodeIds": [
+          "pG"
+        ],
+        "comments": [
+          {
+            "text": "I dodged the attack and stayed on the h-file. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-g4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/ppp2ppp/2nb1n2/8/2BP1N1q/2N1B3/PP3P2/2RQ1RK1 w - - 2 6",
+        "parentNodeId": "tC",
+        "san": "Qh4"
+      },
+      "tC": {
+        "adjacentNodeIds": [
+          "rX"
+        ],
+        "comments": [
+          {
+            "text": "Canty brought the knight to f4, blocking my bishop and attacking my queen. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/ppp2ppp/2nb1n2/8/2BP1N2/2N1B2q/PP3P2/2RQ1RK1 b - - 1 5",
+        "parentNodeId": "i2",
+        "san": "Nf4"
+      },
+      "vE": {
+        "adjacentNodeIds": [
+          "vf"
+        ],
+        "comments": [
+          {
+            "text": "White brought my forces into the defense. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/2pb3n/4n3/4BN1q/4B3/PP2NPQ1/4RRK1 b - - 5 12",
+        "parentNodeId": "z1",
+        "san": "Nce2"
+      },
+      "vI": {
+        "adjacentNodeIds": [
+          "wM"
+        ],
+        "comments": [
+          {
+            "text": "White brought the knight to h3 to try to block the file, maybe even to attack the queen. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-g5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4pp/2pb4/4np2/6nq/4B2N/PPB1NPQ1/4RRK1 b - - 3 14",
+        "parentNodeId": "61",
+        "san": "Nh3"
+      },
+      "vf": {
+        "adjacentNodeIds": [
+          "29"
+        ],
+        "comments": [
+          {
+            "text": "I pushed f5, attacking the e4 bishop. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4pp/2pb3n/4np2/4BN1q/4B3/PP2NPQ1/4RRK1 w - f6 0 13",
+        "parentNodeId": "vE",
+        "san": "f5"
+      },
+      "wE": {
+        "adjacentNodeIds": [
+          "a4"
+        ],
+        "comments": [
+          {
+            "text": "And now I took the d-pawn because the bishop is overloaded.\n\nNow it's three pawns for the piece! \n\nThis is considered a balanced trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/ppp2ppp/3b4/8/2Bn1Nnq/2N1B3/PP3PQ1/2R2RK1 w - - 0 8",
+        "parentNodeId": "JP",
+        "san": "Nxd4"
+      },
+      "wM": {
+        "adjacentNodeIds": [
+          "4r"
+        ],
+        "comments": [
+          {
+            "text": "Thus I took on e3. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4pp/2pb4/4np2/7q/4n2N/PPB1NPQ1/4RRK1 w - - 0 15",
+        "parentNodeId": "vI",
+        "san": "Nxe3"
+      },
+      "z1": {
+        "adjacentNodeIds": [
+          "vE"
+        ],
+        "comments": [
+          {
+            "text": "I decided not to allow any trades to keep my attack alive.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h6-g4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/2pb3n/4n3/4BN1q/2N1B3/PP3PQ1/4RRK1 w - - 4 12",
+        "parentNodeId": "ql",
+        "san": "Nh6"
+      },
+      "z8": {
+        "adjacentNodeIds": [
+          "JP"
+        ],
+        "comments": [
+          {
+            "text": "I threatened checkmate. ",
+            "arrows": {
+              "threats": [
+                "h4-h2"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/ppp2ppp/2nb4/8/2BP1Nnq/2N1BQ2/PP3P2/2R2RK1 w - - 4 7",
+        "parentNodeId": "pG",
+        "san": "Ng4"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

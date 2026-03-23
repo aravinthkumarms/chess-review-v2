@@ -1,0 +1,70 @@
+{
+  "id": "788aeb00-cd42-426e-b0a6-1e425f6230a4",
+  "name": "Quiz 5 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It is White to move. How do you force checkmate in this position?",
+    "answers": [
+      {
+        "text": "With any rook move along the 6th rank (except Ra6+).",
+        "feedback": {
+          "text": "Exactly! You have to play a waiting move to set up the checkmate!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b6-h6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "With any rook move along the b-file.",
+        "feedback": {
+          "text": "If you move the rook away, the black king gets more options! You're delaying the win.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b6-b5",
+              "a7-a6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "We have checkmate in one right now: Ra6#.",
+        "feedback": {
+          "text": "This loses the rook and draws the game. The king can capture the rook and get out of check.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b6-a6",
+              "a7-a6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "k7/2K5/1R6/8/8/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ka7",
+      "afterMoveFen": "8/k1K5/1R6/8/8/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

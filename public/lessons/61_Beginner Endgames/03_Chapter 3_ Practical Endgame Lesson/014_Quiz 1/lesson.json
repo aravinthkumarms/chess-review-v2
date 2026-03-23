@@ -1,0 +1,64 @@
+{
+  "id": "b4126b37-478b-4664-99e3-9f1afed7eaa4",
+  "name": "Quiz 1 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gives you a check. \n\nWhat's a good, practical move?",
+    "answers": [
+      {
+        "text": "Rd4",
+        "feedback": {
+          "text": "This is a great move because if you trade, you get a passed d-pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d8-d4",
+              "c3-d4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "3r2k1/5pp1/8/8/3R4/1pP3P1/1P1K4/8 b - - 3 2"
+      },
+      {
+        "text": "Ke3",
+        "feedback": {
+          "text": "This move is great because it places the king on a better square and your rook is still going to go to b4 to attack b3.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g4-b4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "3r2k1/5pp1/8/8/6R1/1pP1K1P1/1P6/8 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you block the check or move the king to a better square?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4r1k1/5pp1/8/8/6R1/1pP3P1/1P1K4/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rd8+",
+      "afterMoveFen": "3r2k1/5pp1/8/8/6R1/1pP3P1/1P1K4/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

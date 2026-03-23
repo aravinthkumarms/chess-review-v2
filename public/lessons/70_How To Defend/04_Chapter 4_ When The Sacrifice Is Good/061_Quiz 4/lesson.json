@@ -1,0 +1,89 @@
+{
+  "id": "e8087ae4-cde8-49fd-8906-6c3cfb31fdb0",
+  "name": "Quiz 4 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black didn't accept the sacrifice on e6. \n\nHow should you continue as White?",
+    "answers": [
+      {
+        "text": "Bg5",
+        "feedback": {
+          "text": "This move also clear the way for Qh3, and it's lights out after that.",
+          "arrows": {
+            "threats": [
+              "g5-f6"
+            ],
+            "opportunities": [
+              "d3-h3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e7"
+            ],
+            "opportunities": [
+              "h3"
+            ]
+          }
+        },
+        "comment": "attacking the queen.",
+        "afterMoveFen": "2r3k1/1p2qp2/p1n1N1p1/2NpP1B1/PPnP4/3Q4/5PP1/6K1 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Nf4",
+        "feedback": {
+          "text": "This is actually a bit too slow. Black can take on b4.",
+          "arrows": {
+            "threats": [
+              "c6-b4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "b4"
+            ]
+          }
+        },
+        "comment": "attacking d5.",
+        "afterMoveFen": "2r3k1/1p2qp2/p1n3p1/2NpP3/PPnP1N2/3QB3/5PP1/6K1 b - - 3 2"
+      },
+      {
+        "text": "Ng5",
+        "feedback": {
+          "text": "Once again, Black is surviving after ...Nxb4.",
+          "arrows": {
+            "threats": [
+              "c6-b4"
+            ],
+            "opportunities": [
+              "g8-g7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "b4"
+            ]
+          }
+        },
+        "comment": "getting away from danger.",
+        "afterMoveFen": "2r3k1/1p2qp2/p1n3p1/2NpP1N1/PPnP4/3QB3/5PP1/6K1 b - - 3 2"
+      }
+    ],
+    "positionFen": "2r3k1/1pq2p2/p1n1N1p1/2NpP3/PPnP4/3QB3/5PP1/6K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qe7",
+      "afterMoveFen": "2r3k1/1p2qp2/p1n1N1p1/2NpP3/PPnP4/3QB3/5PP1/6K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

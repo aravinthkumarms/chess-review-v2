@@ -1,0 +1,46 @@
+{
+  "id": "b0269770-32e3-44ab-a187-3df02375657b",
+  "name": "Quiz 3 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "There is one move, and one move only, to draw this game. \n\nWhich is it?",
+    "answers": [
+      {
+        "text": "Qg7+",
+        "feedback": {
+          "text": "Great move! The g7-square is pivotal: if ...Kf2, Qd4+, if ...Kf1, Qa1+. The king cannot escape the checks. If the king goes elsewhere on the g- or h-files, it's easier to check it because the queen is already on a diagonal with access to those files.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/5pQ1/8/8/8/5q2/3K2k1/8 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "What's the only square from which you make sure you can give endless checks?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/5p1Q/8/8/8/5q1k/3K4/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kg2",
+      "afterMoveFen": "8/5p1Q/8/8/8/5q2/3K2k1/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

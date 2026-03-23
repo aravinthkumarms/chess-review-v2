@@ -1,0 +1,65 @@
+{
+  "id": "309d96f1-828b-4192-b21c-f04db5d0a29b",
+  "name": "Quiz: Closed Position ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "This is a closed position, with many pawns on the board. \n\nWhat can we do?",
+    "answers": [
+      {
+        "text": "Push b3 and then c3. We are breaking the queenside apart!",
+        "feedback": {
+          "text": "This is a beautiful pawn to make use of our advanced queenside majority.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b4-b3",
+              "c4-c3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "...g6 to stop White's attack.",
+        "feedback": {
+          "text": "...g6 actually makes it easy for White to attack us.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g7-g6",
+              "h4-h5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "...Kh8. We must defend.",
+        "feedback": {
+          "text": "There's a more aggressive option that plays for a win!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r2bk1/3r1ppp/p1b1p3/q2pP1B1/PppP2Q1/6P1/1P3PBP/R3R1K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "h4",
+      "afterMoveFen": "2r2bk1/3r1ppp/p1b1p3/q2pP1B1/PppP2QP/6P1/1P3PB1/R3R1K1 b - h3 0 1"
+    }
+  },
+  "drill": null
+}

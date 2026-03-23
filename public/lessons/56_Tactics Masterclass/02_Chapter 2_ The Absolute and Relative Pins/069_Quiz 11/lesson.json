@@ -1,0 +1,56 @@
+{
+  "id": "0097a8f7-59f7-4c4c-8b98-333c4d598329",
+  "name": "Quiz 11",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "There has been a trade of pawns in the center. \n\nWhite is down a piece and a pawn. \n\nCan you spot the only move for counterplay?",
+    "answers": [
+      {
+        "text": "Nc4",
+        "feedback": {
+          "text": "A wonderful double pin! \n\nThe knight is pinned, and the d-pawn is pinned to the queen.",
+          "arrows": {
+            "threats": [
+              "d5-c4",
+              "a5-e5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "b6"
+            ],
+            "opportunities": [
+              "e5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "3r3r/1pkb1pp1/1np3p1/Q2pq3/P1N5/1P5P/5PP1/R2R2K1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you exploit a pin here?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3r3r/1pkb1pp1/1np1p1p1/Q2Pq3/P7/1P5P/3N1PP1/R2R2K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "exd5",
+      "afterMoveFen": "3r3r/1pkb1pp1/1np3p1/Q2pq3/P7/1P5P/3N1PP1/R2R2K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

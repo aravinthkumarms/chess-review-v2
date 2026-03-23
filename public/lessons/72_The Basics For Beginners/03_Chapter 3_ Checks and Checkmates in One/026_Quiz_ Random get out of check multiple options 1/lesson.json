@@ -1,0 +1,79 @@
+{
+  "id": "27de6fd8-ace9-49bf-9174-67e8fe535d88",
+  "name": "Quiz: Random get out of check multiple options 1 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gives a check!\n\nWhat are some ways you can get out of this check?",
+    "answers": [
+      {
+        "text": "Rc3",
+        "feedback": {
+          "text": "Correct! The rook comes to c3 and blocks the check.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "c3",
+              "c1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "8/ppr2pp1/1b1k2np/8/6P1/2R5/1P1P1P2/1BK1N3 b - - 3 2"
+      },
+      {
+        "text": "Nc2",
+        "feedback": {
+          "text": "The knight can also block the check by jumping to c2.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/ppr2pp1/1b1k2np/8/6P1/7R/1PNP1P2/1BK5 b - - 3 2"
+      },
+      {
+        "text": "Bc2",
+        "feedback": {
+          "text": "Well done. The bishop blocks the check on c2.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/ppr2pp1/1b1k2np/8/6P1/7R/1PBP1P2/2K1N3 b - - 3 2"
+      },
+      {
+        "text": "Kd1",
+        "feedback": {
+          "text": "Apart from blocking the check, you can also move the king to d1 and escape it. Nice.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/ppr2pp1/1b1k2np/8/6P1/7R/1P1P1P2/1B1KN3 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "You have three ways to block the check with a piece and one move with the king.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/pp1r1pp1/1b1k2np/8/6P1/7R/1P1P1P2/1BK1N3 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rc7+",
+      "afterMoveFen": "8/ppr2pp1/1b1k2np/8/6P1/7R/1P1P1P2/1BK1N3 w - - 2 2"
+    }
+  },
+  "drill": null
+}

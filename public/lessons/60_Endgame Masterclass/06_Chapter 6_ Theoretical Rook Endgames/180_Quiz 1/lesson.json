@@ -1,0 +1,55 @@
+{
+  "id": "934532bb-5bb3-47f1-b87f-9ef2e6d2b61b",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is coming up the board, but they're only one pawn up. \n\nHow would you evaluate this endgame?",
+    "answers": [
+      {
+        "text": "Black is winning.",
+        "feedback": {
+          "text": "The king is cut off, so White cannot go into a Philidor or similar defensive stance. Black is winning this.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It's a draw because White can get a Philidor or something similar.",
+        "feedback": {
+          "text": "How can White get the Philidor if the king is cut off?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/1k6/2p1K3/3r4/8/8/R7 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kb5",
+      "afterMoveFen": "8/8/8/1kp1K3/3r4/8/8/R7 w - - 2 2"
+    }
+  },
+  "drill": null
+}

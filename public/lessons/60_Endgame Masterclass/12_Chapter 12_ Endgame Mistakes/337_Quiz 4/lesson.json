@@ -1,0 +1,66 @@
+{
+  "id": "d74d9e5a-74b6-44cd-abfb-b95bec7ff0d2",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has recaptured on e5.\n\nThere is a tactical opportunity now with Rxc6 followed by Bxd5 — winning two pieces for a rook.\n\nHow would you evaluate this sequence? Should we go for it or do something else?",
+    "answers": [
+      {
+        "text": "It is not a good idea to go for it. The a2 and h4 pawns are weak, our pieces don't work in harmony and Black's passed c-pawn is too strong.",
+        "feedback": {
+          "text": "Good job, that's a correct assessment. We'll go for the activity with Re2 instead.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c2-e2",
+              "e2-e8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "This tactic is correct. The knight and the bishop will prove to be stronger than Black's rook, which is currently not very active.",
+        "feedback": {
+          "text": "The problem in the resulting endgame is that we have some weak pawns, and Black has a very strong passed c-pawn.",
+          "arrows": {
+            "threats": [
+              "g5-h4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "h4",
+              "f5",
+              "a2"
+            ],
+            "opportunities": [
+              "c7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "6k1/2p3pp/2b5/rp1pRPpN/2n4P/8/P1R3B1/6K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxe5",
+      "afterMoveFen": "6k1/2p3pp/2b5/rp1pnPpN/7P/8/P1R3B1/6K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,70 @@
+{
+  "id": "f29f9da6-a46d-4a58-a6f9-8b3b3f45c40b",
+  "name": "Quiz 5 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White's queen retreats. \n\nIs there something wrong with\n 20…Nd4 to propose a knight trade?",
+    "answers": [
+      {
+        "text": "Yes, there’s something wrong and even worse than all the other mentioned downsides.",
+        "feedback": {
+          "text": "Nh4 and the queen has no squares!",
+          "arrows": {
+            "threats": [
+              "c6-d4"
+            ],
+            "opportunities": [
+              "f3-h4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, there’s nothing wrong.",
+        "feedback": {
+          "text": "After ...Nd4, White has a way of trapping our queen!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes. White isn’t forced to trade and can attack the rook with Ne5.",
+        "feedback": {
+          "text": "That's not White's strongest idea after ...Nd4!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4r1k1/pb1rpp1p/1pn2npB/2p2q2/P1P2Q2/3P1N1P/2P2PP1/R2BR1K1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c6-d4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Qc1",
+      "afterMoveFen": "4r1k1/pb1rpp1p/1pn2npB/2p2q2/P1P5/3P1N1P/2P2PP1/R1QBR1K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

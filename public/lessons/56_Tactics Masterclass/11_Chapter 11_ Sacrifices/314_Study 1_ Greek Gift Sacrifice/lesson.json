@@ -1,0 +1,718 @@
+{
+  "id": "b55c82db-9cbc-4f76-a73e-b3568c5e6ccb",
+  "name": "Study 1: Greek Gift Sacrifice",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "B"
+        ],
+        "comments": [
+          {
+            "text": "You've made it to the chapter on Sacrifices! \n\nIn this first study, we'll be taking a look at a sacrifice known as the \"Greek Gift\".\n\nThis classical example arises out of a Caro-Kann gone wrong, but it could also happen in an Alapin Sicilian or French Defense, to name a few. \n\nThe \"Greek Gift\" is a bishop sacrifice designed to expose the enemy king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0x": {
+        "adjacentNodeIds": [
+          "jF"
+        ],
+        "comments": [
+          {
+            "text": "The only way for Black not to get mated is to free up f8 with ...Re8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqr1k1/pp2npp1/4p3/2bpP1NQ/8/8/PPP2PPP/RNB2RK1 w - - 4 11",
+        "parentNodeId": "zj",
+        "san": "Re8"
+      },
+      "1E": {
+        "adjacentNodeIds": [
+          "Mk"
+        ],
+        "comments": [
+          {
+            "text": "Black's only legal move is ...Kf8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqrk2/pp2nppQ/4p3/2bpP1N1/8/8/PPP2PPP/RNB2RK1 w - - 6 12",
+        "parentNodeId": "jF",
+        "san": "Kf8"
+      },
+      "1J": {
+        "adjacentNodeIds": [
+          "5Y"
+        ],
+        "comments": [
+          {
+            "text": "And if Black defends against Qh5...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1r1k/pp2np1B/4p1p1/2bpP1N1/8/8/PPP2PPP/RNBQ1RK1 w - - 0 10",
+        "parentNodeId": "KC",
+        "san": "g6"
+      },
+      "1t": {
+        "adjacentNodeIds": [
+          "6c",
+          "tt",
+          "bt"
+        ],
+        "comments": [
+          {
+            "text": "And the best way to proceed is Bg5+.\n\nThis check basically ends the game.\n\nBlack has three ways to respond...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqr1nQ/pp2kppN/4p3/2bpP1B1/8/8/PPP2PPP/RN3RK1 b - - 11 14",
+        "parentNodeId": "qw",
+        "san": "Bg5+"
+      },
+      "2C": {
+        "adjacentNodeIds": [
+          "iv",
+          "yD"
+        ],
+        "comments": [
+          {
+            "text": "And White follows up with Ng5+.\n\nThis is always the follow-up move and the sacrifice only works when Ng5+ is possible (meaning Black doesn't cover g5).\n\nWhite gives a check and opens the path for the queen to join the attack.\n\nBlack now has a decision to make...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d1-h5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pp2nppk/4p3/2bpP1N1/8/8/PPP2PPP/RNBQ1RK1 b - - 1 9",
+        "parentNodeId": "yr",
+        "san": "Ng5+"
+      },
+      "2z": {
+        "adjacentNodeIds": [
+          "6M"
+        ],
+        "comments": [
+          {
+            "text": "Black strikes at White's center with ...c5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pp2pppp/8/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
+        "parentNodeId": "cg",
+        "san": "c5"
+      },
+      "4b": {
+        "adjacentNodeIds": [
+          "Im"
+        ],
+        "comments": [
+          {
+            "text": "Black develops the king's knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/pp2nppp/4p3/2bpP3/8/3B1N2/PPP2PPP/RNBQK2R w KQkq - 2 7",
+        "parentNodeId": "nj",
+        "san": "Ne7"
+      },
+      "5C": {
+        "adjacentNodeIds": [
+          "yr",
+          "CY"
+        ],
+        "comments": [
+          {
+            "text": "White sacrifices the bishop with Bxh7+!\n\nThis move is the signature move of the Greek Gift - White is sacrificing the bishop to expose Black's king.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d3-h7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": [
+                "h7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp2nppB/4p3/2bpP3/8/5N2/PPP2PPP/RNBQ1RK1 b - - 0 8",
+        "parentNodeId": "mc",
+        "san": "Bxh7+"
+      },
+      "5Y": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White can go Qf3, followed by Qh3.\n\nBlack's position is in dire straits.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1r1k/pp2np1B/4p1p1/2bpP1N1/8/5Q2/PPP2PPP/RNB2RK1 b - - 1 10",
+        "parentNodeId": "1J",
+        "san": "Qf3"
+      },
+      "6M": {
+        "adjacentNodeIds": [
+          "hw"
+        ],
+        "comments": [
+          {
+            "text": "White responds by taking the pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pp2pppp/8/2PpP3/8/8/PPP2PPP/RNBQKBNR b KQkq - 0 4",
+        "parentNodeId": "2z",
+        "san": "dxc5"
+      },
+      "6c": {
+        "adjacentNodeIds": [
+          "XF"
+        ],
+        "comments": [
+          {
+            "text": "If Black moves the king out of check...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqr1nQ/pp1k1ppN/4p3/2bpP1B1/8/8/PPP2PPP/RN3RK1 w - - 12 15",
+        "parentNodeId": "1t",
+        "san": "Kd7"
+      },
+      "7H": {
+        "adjacentNodeIds": [
+          "m1"
+        ],
+        "comments": [
+          {
+            "text": "The only legal move is now ...Ng8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqrknQ/pp3pp1/4p3/2bpP1N1/8/8/PPP2PPP/RNB2RK1 w - - 8 13",
+        "parentNodeId": "Mk",
+        "san": "Ng8"
+      },
+      "B": {
+        "adjacentNodeIds": [
+          "a"
+        ],
+        "comments": [
+          {
+            "text": "The Greek Gift is a motif in a handful of openings for both White and Black.\n\nWe'll take a look at how the Greek Gift frequently happens in the Caro-Kann.\n\nAlso, the analysis will be from White's perspective, but all of the ideas are applicable from Black's perspective.\n\nWhite opens with the king's pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+        "parentNodeId": "0",
+        "san": "e4"
+      },
+      "CY": {
+        "adjacentNodeIds": [
+          "KC"
+        ],
+        "comments": [
+          {
+            "text": "Black can also decline the sacrifice.\n\nOftentimes, this doesn't help matters.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1r1k/pp2nppB/4p3/2bpP3/8/5N2/PPP2PPP/RNBQ1RK1 w - - 1 9",
+        "parentNodeId": "5C",
+        "san": "Kh8"
+      },
+      "Di": {
+        "adjacentNodeIds": [
+          "nj"
+        ],
+        "comments": [
+          {
+            "text": "Black captures the c5-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk1nr/pp3ppp/4p3/2bpP3/8/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 6",
+        "parentNodeId": "MQ",
+        "san": "Bxc5"
+      },
+      "Im": {
+        "adjacentNodeIds": [
+          "mc"
+        ],
+        "comments": [
+          {
+            "text": "White castles their king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/pp2nppp/4p3/2bpP3/8/3B1N2/PPP2PPP/RNBQ1RK1 b kq - 3 7",
+        "parentNodeId": "4b",
+        "san": "O-O"
+      },
+      "KC": {
+        "adjacentNodeIds": [
+          "1J"
+        ],
+        "comments": [
+          {
+            "text": "White can then still proceed with Ng5.\n\nThe imminent threat is Qh5, which would likely lead to a mating attack.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d1-h5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1r1k/pp2nppB/4p3/2bpP1N1/8/8/PPP2PPP/RNBQ1RK1 b - - 2 9",
+        "parentNodeId": "CY",
+        "san": "Ng5"
+      },
+      "MQ": {
+        "adjacentNodeIds": [
+          "Di"
+        ],
+        "comments": [
+          {
+            "text": "White continues developing with Nf3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pp3ppp/4p3/2PpP3/8/5N2/PPP2PPP/RNBQKB1R b KQkq - 1 5",
+        "parentNodeId": "hw",
+        "san": "Nf3"
+      },
+      "Mk": {
+        "adjacentNodeIds": [
+          "7H"
+        ],
+        "comments": [
+          {
+            "text": "The queen can give another check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqrk1Q/pp2npp1/4p3/2bpP1N1/8/8/PPP2PPP/RNB2RK1 b - - 7 12",
+        "parentNodeId": "1E",
+        "san": "Qh8+"
+      },
+      "Mu": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Against this, it's often strong to go h4.\n\nWhy is White winning here? Well, the black king is out in the open and White's pieces are ready to take its head off.\n\nThere is a multitude of ideas, but two common attacking moves here are Qg4 and h5+.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d1-g4",
+                "h4-h5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g4",
+                "h5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pp2npp1/4p1k1/2bpP1N1/7P/8/PPP2PP1/RNBQ1RK1 b - h3 0 10",
+        "parentNodeId": "yD",
+        "san": "h4"
+      },
+      "Us": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White checkmates the king with Qxg7#.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqr1n1/pp2k1QN/4pp2/2bpP1B1/8/8/PPP2PPP/RN3RK1 b - - 0 15",
+        "parentNodeId": "tt",
+        "san": "Qxg7#"
+      },
+      "XF": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White can simply capture the queen.\n\nThis is, of course, completely winning.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbBr1nQ/pp1k1ppN/4p3/2bpP3/8/8/PPP2PPP/RN3RK1 b - - 0 15",
+        "parentNodeId": "6c",
+        "san": "Bxd8"
+      },
+      "a": {
+        "adjacentNodeIds": [
+          "z"
+        ],
+        "comments": [
+          {
+            "text": "Black responds ...c6 - The Caro-Kann.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "parentNodeId": "B",
+        "san": "c6"
+      },
+      "bt": {
+        "adjacentNodeIds": [
+          "tE"
+        ],
+        "comments": [
+          {
+            "text": "If Black blocks with the knight...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e8-h8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqr2Q/pp2kppN/4pn2/2bpP1B1/8/8/PPP2PPP/RN3RK1 w - - 12 15",
+        "parentNodeId": "1t",
+        "san": "Nf6"
+      },
+      "cg": {
+        "adjacentNodeIds": [
+          "2z"
+        ],
+        "comments": [
+          {
+            "text": "And White pushes forward with e5.\n\n3. e5 signifies the Advance Variation.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+        "parentNodeId": "tG",
+        "san": "e5"
+      },
+      "hw": {
+        "adjacentNodeIds": [
+          "MQ"
+        ],
+        "comments": [
+          {
+            "text": "Black goes for ...e6, opening up their dark-squared bishop & attacking c5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pp3ppp/4p3/2PpP3/8/8/PPP2PPP/RNBQKBNR w KQkq - 0 5",
+        "parentNodeId": "6M",
+        "san": "e6"
+      },
+      "iv": {
+        "adjacentNodeIds": [
+          "zj"
+        ],
+        "comments": [
+          {
+            "text": "Black goes back with the king.\n\nAt first glance, this might look like the safer option, but it runs into trouble!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp2npp1/4p3/2bpP1N1/8/8/PPP2PPP/RNBQ1RK1 w - - 2 10",
+        "parentNodeId": "2C",
+        "san": "Kg8"
+      },
+      "jF": {
+        "adjacentNodeIds": [
+          "1E"
+        ],
+        "comments": [
+          {
+            "text": "White's queen can then give a check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqr1k1/pp2nppQ/4p3/2bpP1N1/8/8/PPP2PPP/RNB2RK1 b - - 5 11",
+        "parentNodeId": "0x",
+        "san": "Qh7+"
+      },
+      "m1": {
+        "adjacentNodeIds": [
+          "qw"
+        ],
+        "comments": [
+          {
+            "text": "White's knight can now give a check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqrknQ/pp3ppN/4p3/2bpP3/8/8/PPP2PPP/RNB2RK1 b - - 9 13",
+        "parentNodeId": "7H",
+        "san": "Nh7+"
+      },
+      "mc": {
+        "adjacentNodeIds": [
+          "5C"
+        ],
+        "comments": [
+          {
+            "text": "And Black also castles their king.\n\nNothing can be wrong with this, right?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp2nppp/4p3/2bpP3/8/3B1N2/PPP2PPP/RNBQ1RK1 w - - 4 8",
+        "parentNodeId": "Im",
+        "san": "O-O"
+      },
+      "nj": {
+        "adjacentNodeIds": [
+          "4b"
+        ],
+        "comments": [
+          {
+            "text": "White develops the f1-bishop to d3.\n\nThis bishop will be the key piece!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk1nr/pp3ppp/4p3/2bpP3/8/3B1N2/PPP2PPP/RNBQK2R b KQkq - 1 6",
+        "parentNodeId": "Di",
+        "san": "Bd3"
+      },
+      "qw": {
+        "adjacentNodeIds": [
+          "1t"
+        ],
+        "comments": [
+          {
+            "text": "Black's only legal move is now ...Ke7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqr1nQ/pp2kppN/4p3/2bpP3/8/8/PPP2PPP/RNB2RK1 w - - 10 14",
+        "parentNodeId": "m1",
+        "san": "Ke7"
+      },
+      "tE": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White can simply take the g7-pawn.\n\nThe f6-knight will be lost on the next move. White is completely winning.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqr3/pp2kpQN/4pn2/2bpP1B1/8/8/PPP2PPP/RN3RK1 b - - 0 15",
+        "parentNodeId": "bt",
+        "san": "Qxg7"
+      },
+      "tG": {
+        "adjacentNodeIds": [
+          "cg"
+        ],
+        "comments": [
+          {
+            "text": "Black advances their d-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq d6 0 3",
+        "parentNodeId": "z",
+        "san": "d5"
+      },
+      "tt": {
+        "adjacentNodeIds": [
+          "Us"
+        ],
+        "comments": [
+          {
+            "text": "If Black blocks with the f-pawn...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqr1nQ/pp2k1pN/4pp2/2bpP1B1/8/8/PPP2PPP/RN3RK1 w - - 0 15",
+        "parentNodeId": "1t",
+        "san": "f6"
+      },
+      "yD": {
+        "adjacentNodeIds": [
+          "Mu"
+        ],
+        "comments": [
+          {
+            "text": "It might seem counter-intuitive, but the most resilient way to fight against the Greek Gift is to walk the king forward.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pp2npp1/4p1k1/2bpP1N1/8/8/PPP2PPP/RNBQ1RK1 w - - 2 10",
+        "parentNodeId": "2C",
+        "san": "Kg6"
+      },
+      "yr": {
+        "adjacentNodeIds": [
+          "2C"
+        ],
+        "comments": [
+          {
+            "text": "Black accepts the sacrifice with...Kxh7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1r2/pp2nppk/4p3/2bpP3/8/5N2/PPP2PPP/RNBQ1RK1 w - - 0 9",
+        "parentNodeId": "5C",
+        "san": "Kxh7"
+      },
+      "z": {
+        "adjacentNodeIds": [
+          "tG"
+        ],
+        "comments": [
+          {
+            "text": "White expands in the center with d4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+        "parentNodeId": "a",
+        "san": "d4"
+      },
+      "zj": {
+        "adjacentNodeIds": [
+          "0x"
+        ],
+        "comments": [
+          {
+            "text": "White goes Qh5, bringing the queen into the attack and threatening mate!\n\nThe continuation of the attack will differ from position to position, but let's see how White would win this.",
+            "arrows": {
+              "threats": [
+                "h5-h7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "h7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp2npp1/4p3/2bpP1NQ/8/8/PPP2PPP/RNB2RK1 b - - 3 10",
+        "parentNodeId": "iv",
+        "san": "Qh5"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

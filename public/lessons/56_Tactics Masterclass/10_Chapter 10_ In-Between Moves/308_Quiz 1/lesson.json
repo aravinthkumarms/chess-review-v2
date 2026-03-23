@@ -1,0 +1,51 @@
+{
+  "id": "26321566-de77-476a-a2bc-34b1a1348186",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black saves their knight. \n\nOur knight will give up itself for a pawn since we'll have a rook for two pieces.\n\nIs there a difference between ...Nxe6 and ...Nxg6?",
+    "answers": [
+      {
+        "text": "Yes! One of the moves wins a pawn!",
+        "feedback": {
+          "text": "Good job! The g6-pawn is attacked twice by our queen and by our knight.",
+          "arrows": {
+            "threats": [
+              "f7-g6"
+            ],
+            "opportunities": [
+              "f8-g6",
+              "c2-g6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, capturing either pawn is good.",
+        "feedback": {
+          "text": "Try to focus not only on the knight but on another piece that is in the attack. \n\nWhich pawn is attacked twice?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r2Nk1/2p2pb1/1p2p1p1/p2q2Pp/P2PnP2/2P5/1PQ3P1/3RR1K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ng3",
+      "afterMoveFen": "2r2Nk1/2p2pb1/1p2p1p1/p2q2Pp/P2P1P2/2P3n1/1PQ3P1/3RR1K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

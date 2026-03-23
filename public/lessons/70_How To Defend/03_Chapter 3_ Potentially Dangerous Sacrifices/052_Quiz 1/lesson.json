@@ -1,0 +1,57 @@
+{
+  "id": "af2773f0-8273-4bf3-869b-9f39267be028",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has just sacrificed on g4. \n\nShould you accept this sacrifice, or play something else?",
+    "answers": [
+      {
+        "text": "Ne7+",
+        "feedback": {
+          "text": "Good job! Ne7 blocks the queen's diagonal, and ...Qh4 is stopped.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "checking the king and blocking the queen's diagonal.",
+        "afterMoveFen": "r2q1rk1/bp2N1pp/p2p4/2p5/1PPn2b1/P2Q1p1P/1B3P1K/4RR1B b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "hxg4",
+        "feedback": {
+          "text": "White is losing after accepting this sac, because of Qh4+.",
+          "arrows": {
+            "threats": [
+              "d8-h4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "accepting the sacrifice.",
+        "afterMoveFen": "r2q1rk1/bp4pp/p2p4/2pN4/1PPn2P1/P2Q1p2/1B3P1K/4RR1B b - - 0 2"
+      }
+    ],
+    "positionFen": "r2q1rk1/bp1b2pp/p2p4/2pN4/1PPn2P1/P2Q1p1P/1B3P1K/4RR1B b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bxg4",
+      "afterMoveFen": "r2q1rk1/bp4pp/p2p4/2pN4/1PPn2b1/P2Q1p1P/1B3P1K/4RR1B w - - 0 2"
+    }
+  },
+  "drill": null
+}

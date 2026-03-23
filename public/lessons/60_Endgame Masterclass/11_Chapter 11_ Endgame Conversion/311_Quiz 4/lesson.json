@@ -1,0 +1,61 @@
+{
+  "id": "1bbf56bd-fefc-4c36-b8cf-3e0ec9aa3eb0",
+  "name": "Quiz 4 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "You're playing over-the-board and you're low on time. \n\nSimplifying would be great, if possible. \n\nIs ...Re4+, giving up the extra piece, still winning for you?",
+    "answers": [
+      {
+        "text": "Yes, it is.",
+        "feedback": {
+          "text": "Great job! You have a strong outside passed pawn that will help you win.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f4-e4",
+              "e3-e4",
+              "f6-e4",
+              "e5-e4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "g7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, it isn't. It should be a draw because Black is only a pawn up.",
+        "feedback": {
+          "text": "Are you sure?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/pp3kp1/2p2n2/8/P1PK1r2/1P2R3/8/8 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f4-e4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke5",
+      "afterMoveFen": "8/pp3kp1/2p2n2/4K3/P1P2r2/1P2R3/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,74 @@
+{
+  "id": "50c98fe6-867d-4d62-9f58-207658942cd4",
+  "name": "Quiz 1 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "In this position, Black has traded for our knight on c5.\n\nWhich capture gives us the most tactical opportunities?",
+    "answers": [
+      {
+        "text": "Rxc5",
+        "feedback": {
+          "text": "Good job! Our queen creates a pin on the e6-pawn, so Black's bishop is now attacked.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c5-d5",
+              "e3-e8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "capturing with the rook.",
+        "afterMoveFen": "r3k1r1/p7/1q2pp1p/2Rb4/3P4/4Q1B1/5PPP/R5K1 b q - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "dxc5",
+        "feedback": {
+          "text": "Black will have no problem stopping the passed pawn thanks to their light-squared bishop. Is there anything better? \n",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "d5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "creating a passed pawn.",
+        "afterMoveFen": "r3k1r1/p7/1q2pp1p/2Pb4/8/4Q1B1/5PPP/R1R3K1 b q - 0 2"
+      },
+      {
+        "text": "Rab1",
+        "feedback": {
+          "text": "Black can go for ...Nb3 to block the attack.",
+          "arrows": {
+            "threats": [
+              "c5-b3"
+            ],
+            "opportunities": []
+          },
+          "highlights": null
+        },
+        "comment": "attacking the queen first.",
+        "afterMoveFen": "r3k1r1/p7/1q2pp1p/2nb4/3P4/4Q1B1/5PPP/1RR3K1 b q - 1 2"
+      }
+    ],
+    "positionFen": "r3k1r1/p2n4/1q2pp1p/2Nb4/3P4/4Q1B1/5PPP/R1R3K1 b q - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxc5",
+      "afterMoveFen": "r3k1r1/p7/1q2pp1p/2nb4/3P4/4Q1B1/5PPP/R1R3K1 w q - 0 2"
+    }
+  },
+  "drill": null
+}

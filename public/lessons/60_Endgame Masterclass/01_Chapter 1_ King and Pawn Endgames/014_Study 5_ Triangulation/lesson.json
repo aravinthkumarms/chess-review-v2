@@ -1,0 +1,733 @@
+{
+  "id": "218b8fd3-f365-4285-847a-5b07c9f4592c",
+  "name": "Study 5: Triangulation",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "F"
+        ],
+        "comments": [
+          {
+            "text": "This game was played between Evgeny Bareev and a true chess legend, Judit Polgar.\n\nWe will take a look at how Polgar implements some of the concepts we have seen, including a new one called triangulation, which implements losing a tempo instead of gaining one!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k1p2/4p2p/2p1P1pP/8/P6P/1P2K3/8 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "2W": {
+        "adjacentNodeIds": [
+          "R5"
+        ],
+        "comments": [
+          {
+            "text": "The next step is to move the king along the 7th rank instead of going back to the 6th rank.\n\nThis way, Black loses a tempo!\n\nBareev resigned here, but let's see how the game would have continued.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1k3p2/4p2p/2p1P1pP/8/1PK4P/8/8 w - - 6 9",
+        "parentNodeId": "Pg",
+        "san": "Kb7"
+      },
+      "2z": {
+        "adjacentNodeIds": [
+          "ZL"
+        ],
+        "comments": [
+          {
+            "text": "...And Polgar would have reached her wanted position but with White to move!\n\nThis is how triangulation is done. \n\nYou get the enemy king to its best defensive square, but with them to move. Therefore, they have to move the king away. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": [
+                "b5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/1kp1P1pP/8/1PK4P/8/8 w - - 10 11",
+        "parentNodeId": "aZ",
+        "san": "Kb5"
+      },
+      "3A": {
+        "adjacentNodeIds": [
+          "Pg",
+          "JJ"
+        ],
+        "comments": [
+          {
+            "text": "So how can Judit reach the position where the kings are on c3 and b5 but it's White to move?\n\nThis is where the concept called triangulation is used. \n\nBlack will make a triangle with her king and lose a tempo. That way, when the wanted position is reached, it will be White to play! \n\nThe first step is to move the king to c7 or b7, it's the same.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c7-b7",
+                "b7-b6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2k2p2/4p2p/2p1P1pP/8/1P1K3P/8/8 w - - 4 8",
+        "parentNodeId": "cR",
+        "san": "Kc7"
+      },
+      "4X": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...then Black would have gotten exactly the position she wanted!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/1kp1P1pP/8/1PK4P/8/8 w - - 8 10",
+        "parentNodeId": "eH",
+        "san": "Kb5"
+      },
+      "7u": {
+        "adjacentNodeIds": [
+          "mV"
+        ],
+        "comments": [
+          {
+            "text": "Now Judit went back, in order to be close enough to the a-pawn.\n\nNot only that, but now the a-pawn can't be defended!\n\nBy using the technique to move forward, force Bareev to push the a-pawn and then come back, Judit had secured the winning of the a5-pawn!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c6-b5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k1p2p/P1p1P1pP/8/7P/1P2K3/8 w - - 1 4",
+        "parentNodeId": "l4",
+        "san": "Kc6"
+      },
+      "9d": {
+        "adjacentNodeIds": [
+          "ae"
+        ],
+        "comments": [
+          {
+            "text": "So just to illustrate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/1kp1P1pP/8/1P1K3P/8/8 w - - 4 8",
+        "parentNodeId": "cR",
+        "san": "Kb5"
+      },
+      "9g": {
+        "adjacentNodeIds": [
+          "x2"
+        ],
+        "comments": [
+          {
+            "text": "But ...Kb5 and there is no hope for the a-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/Pkp1P1pP/8/3K3P/1P6/8 w - - 3 5",
+        "parentNodeId": "mV",
+        "san": "Kb5"
+      },
+      "F": {
+        "adjacentNodeIds": [
+          "u"
+        ],
+        "comments": [
+          {
+            "text": "Firstly, Judit positioned her king on a more active square, as everyone should in an endgame.\n\nWhite has a passed a-pawn which is a huge asset for him. Polgar's king needs to stay close to it at all times.\n\nOn the other hand, Black has a better pawn structure in the center and on the kingside and can quickly attack the over-extended e5-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a3-a4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": [
+                "a3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k1p2p/2p1P1pP/8/P6P/1P2K3/8 w - - 2 2",
+        "parentNodeId": "0",
+        "san": "Kc6"
+      },
+      "HF": {
+        "adjacentNodeIds": [
+          "JV"
+        ],
+        "comments": [
+          {
+            "text": "And Polgar took the pawn on a5.\n\nHowever, it's still not over!\n\nWhite's king is pretty active and has an e-pawn which blocks Black's f- and e-pawns from moving forward.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/k1p1P1pP/8/1P1K3P/8/8 w - - 0 6",
+        "parentNodeId": "x2",
+        "san": "Kxa5"
+      },
+      "JJ": {
+        "adjacentNodeIds": [
+          "ky"
+        ],
+        "comments": [
+          {
+            "text": "If Kc4 had been played instead, then Black would have gotten the opposition and space.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c7-c6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2k2p2/4p2p/2p1P1pP/2K5/1P5P/8/8 b - - 5 8",
+        "parentNodeId": "3A",
+        "san": "Kc4"
+      },
+      "JV": {
+        "adjacentNodeIds": [
+          "ta"
+        ],
+        "comments": [
+          {
+            "text": "Naturally, White attacked the undefended c5-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/k1p1P1pP/2K5/1P5P/8/8 b - - 1 6",
+        "parentNodeId": "HF",
+        "san": "Kc4"
+      },
+      "Lp": {
+        "adjacentNodeIds": [
+          "zp"
+        ],
+        "comments": [
+          {
+            "text": "...Kd5 is also desirable.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k1p2p/2p1P1pP/8/1P1K3P/8/8 w - - 4 8",
+        "parentNodeId": "cR",
+        "san": "Kc6"
+      },
+      "Me": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Now the a-pawn would have promoted and White would have won.\n\nCould Polgar have entered the square in the next move? The answer is no.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a6-a8",
+                "a8-c8",
+                "c8-c6",
+                "c6-a6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/P3p2p/2p1k1pP/8/7P/1P2K3/8 b - - 0 4",
+        "parentNodeId": "wy",
+        "san": "a6"
+      },
+      "N": {
+        "adjacentNodeIds": [
+          "l4"
+        ],
+        "comments": [
+          {
+            "text": "With this move, however, Polgar forced Bareev to push the a-pawn one more square!\n\nIf he hadn't played a5 on the next move, Black would have taken the e5-pawn and been in time to catch the a-pawn with the king.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-a5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/2pkP1pP/P7/7P/1P2K3/8 w - - 1 3",
+        "parentNodeId": "u",
+        "san": "Kd5"
+      },
+      "Pg": {
+        "adjacentNodeIds": [
+          "2W"
+        ],
+        "comments": [
+          {
+            "text": "In the game, Bareev went back to c3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2k2p2/4p2p/2p1P1pP/8/1PK4P/8/8 b - - 5 8",
+        "parentNodeId": "3A",
+        "san": "Kc3"
+      },
+      "Pm": {
+        "adjacentNodeIds": [
+          "Xs"
+        ],
+        "comments": [
+          {
+            "text": "A simple pawn push, and White has to trade.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/4P1pP/1kp5/1P5P/2K5/8 w - - 0 13",
+        "parentNodeId": "s0",
+        "san": "c4"
+      },
+      "R5": {
+        "adjacentNodeIds": [
+          "e9"
+        ],
+        "comments": [
+          {
+            "text": "White wouldn't have had any choice but to shuffle between the d3 and c3 squares. \n\nIf the White king had gone back to the 2nd rank, Black would have had access to the d5-square!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1k3p2/4p2p/2p1P1pP/8/1P1K3P/8/8 b - - 7 9",
+        "parentNodeId": "2W",
+        "san": "Kd3"
+      },
+      "TL": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "What if White tries to come forward?\n\nThis is the same as 8. Kc4.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b6-c6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/1k2p2p/2p1P1pP/2K5/1P5P/8/8 b - - 9 10",
+        "parentNodeId": "e9",
+        "san": "Kc4"
+      },
+      "Ub": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Takes.\n\nFrom this position, it is pretty clear how Black would have won.\n\nTry to play it out for yourself!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-d4",
+                "d4-e5",
+                "e6-e5",
+                "f7-f5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/4P1pP/2k5/7P/2K5/8 w - - 0 14",
+        "parentNodeId": "Xs",
+        "san": "Kxc4"
+      },
+      "Xs": {
+        "adjacentNodeIds": [
+          "Ub"
+        ],
+        "comments": [
+          {
+            "text": "Takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/4P1pP/1kP5/7P/2K5/8 b - - 0 13",
+        "parentNodeId": "Pm",
+        "san": "bxc4"
+      },
+      "ZL": {
+        "adjacentNodeIds": [
+          "q8"
+        ],
+        "comments": [
+          {
+            "text": "Bareev would have moved back to d3, but now it's different.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/1kp1P1pP/8/1P1K3P/8/8 b - - 11 11",
+        "parentNodeId": "2z",
+        "san": "Kd3"
+      },
+      "aZ": {
+        "adjacentNodeIds": [
+          "2z"
+        ],
+        "comments": [
+          {
+            "text": "The king would have come back to c3...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/1k2p2p/2p1P1pP/8/1PK4P/8/8 b - - 9 10",
+        "parentNodeId": "e9",
+        "san": "Kc3"
+      },
+      "ae": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Here it's Black to move and Black can't make forward progress. \n\nIn opposition, the kings repeal each other face-to-face. \n\nSometimes the kings don't have to be facing each other to repel one another. There could be a pawn or two and so the dynamic changes.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c3-b3",
+                "b5-c5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/1kp1P1pP/8/1PK4P/8/8 b - - 5 8",
+        "parentNodeId": "9d",
+        "san": "Kc3"
+      },
+      "cR": {
+        "adjacentNodeIds": [
+          "3A",
+          "9d",
+          "Lp"
+        ],
+        "comments": [
+          {
+            "text": "The White king decided to come back to d3. Now is the key moment.\n\nOf course, Judit would have loved to come to the b5 square. But if ...Kb5 was played now, then after Kc3 Black is a little bit stuck.\n\nIf the kings were on b5 and c3 and it was White to move, then White would have to fall back and Judit would have gotten more space.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b6-c7",
+                "c7-b7",
+                "b7-b6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/1k2p2p/2p1P1pP/8/1P1K3P/8/8 b - - 3 7",
+        "parentNodeId": "ta",
+        "san": "Kd3"
+      },
+      "e9": {
+        "adjacentNodeIds": [
+          "aZ",
+          "TL"
+        ],
+        "comments": [
+          {
+            "text": "Now the king would have moved back to b6, where it had been 3 moves ago! \n\nBut in that same position, it was Black to move. Now it's White!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": [
+                "b5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/1k2p2p/2p1P1pP/8/1P1K3P/8/8 w - - 8 10",
+        "parentNodeId": "R5",
+        "san": "Kb6"
+      },
+      "eH": {
+        "adjacentNodeIds": [
+          "4X"
+        ],
+        "comments": [
+          {
+            "text": "If the king had gone to c3...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k1p2p/2p1P1pP/8/1PK4P/8/8 b - - 7 9",
+        "parentNodeId": "ky",
+        "san": "Kc3"
+      },
+      "h6": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But now Black would have gotten the e5 pawn and been in time to defend the c-pawn.\n\nThis wouldn't pay off for White.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d5-e5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/2pkP1pP/8/1P1K3P/8/8 w - - 8 10",
+        "parentNodeId": "qM",
+        "san": "Kd5"
+      },
+      "ky": {
+        "adjacentNodeIds": [
+          "qM",
+          "eH"
+        ],
+        "comments": [
+          {
+            "text": "Now the White king would have had to move back.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k1p2p/2p1P1pP/2K5/1P5P/8/8 w - - 6 9",
+        "parentNodeId": "JJ",
+        "san": "Kc6"
+      },
+      "l4": {
+        "adjacentNodeIds": [
+          "7u",
+          "wy"
+        ],
+        "comments": [
+          {
+            "text": "That's why a5 was basically forced.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/P1pkP1pP/8/7P/1P2K3/8 b - - 0 3",
+        "parentNodeId": "N",
+        "san": "a5"
+      },
+      "mV": {
+        "adjacentNodeIds": [
+          "9g"
+        ],
+        "comments": [
+          {
+            "text": "White tried to activate the king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k1p2p/P1p1P1pP/8/3K3P/1P6/8 b - - 2 4",
+        "parentNodeId": "7u",
+        "san": "Kd3"
+      },
+      "q8": {
+        "adjacentNodeIds": [
+          "s0"
+        ],
+        "comments": [
+          {
+            "text": "Polgar would have attacked the pawn on b3.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/2p1P1pP/1k6/1P1K3P/8/8 w - - 12 12",
+        "parentNodeId": "ZL",
+        "san": "Kb4"
+      },
+      "qM": {
+        "adjacentNodeIds": [
+          "h6"
+        ],
+        "comments": [
+          {
+            "text": "Here Kd3 would be the most sensible.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k1p2p/2p1P1pP/8/1P1K3P/8/8 b - - 7 9",
+        "parentNodeId": "ky",
+        "san": "Kd3"
+      },
+      "s0": {
+        "adjacentNodeIds": [
+          "Pm"
+        ],
+        "comments": [
+          {
+            "text": "And White would have defended.\n\nBut now the White king is too far behind.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/2p1P1pP/1k6/1P5P/2K5/8 b - - 13 12",
+        "parentNodeId": "q8",
+        "san": "Kc2"
+      },
+      "ta": {
+        "adjacentNodeIds": [
+          "cR"
+        ],
+        "comments": [
+          {
+            "text": "But the king defended it pretty easily.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/1k2p2p/2p1P1pP/2K5/1P5P/8/8 w - - 2 7",
+        "parentNodeId": "JV",
+        "san": "Kb6"
+      },
+      "u": {
+        "adjacentNodeIds": [
+          "N"
+        ],
+        "comments": [
+          {
+            "text": "White started pushing his a-pawn, as passed pawns are to be pushed!\n\nBlack can't get her king too far away, as the a-pawn would just roll down the board.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k1p2p/2p1P1pP/P7/7P/1P2K3/8 b - - 0 2",
+        "parentNodeId": "F",
+        "san": "a4"
+      },
+      "wy": {
+        "adjacentNodeIds": [
+          "Me"
+        ],
+        "comments": [
+          {
+            "text": "Of course, if Polgar hadn't been careful...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/P1p1k1pP/8/7P/1P2K3/8 w - - 0 4",
+        "parentNodeId": "l4",
+        "san": "Kxe5"
+      },
+      "x2": {
+        "adjacentNodeIds": [
+          "HF"
+        ],
+        "comments": [
+          {
+            "text": "The b3-push prevented the Black king from reaching the c4-square in the future...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4p2p/Pkp1P1pP/8/1P1K3P/8/8 b - - 0 5",
+        "parentNodeId": "9g",
+        "san": "b3"
+      },
+      "zp": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But Kc4 stops it. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k1p2p/2p1P1pP/2K5/1P5P/8/8 b - - 5 8",
+        "parentNodeId": "Lp",
+        "san": "Kc4"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "f27e3b91-4112-4763-87dd-64b782e91a86",
+  "name": "Quiz 12",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White attacks your queen with their rook. \n\nThere's nothing defending that rook, however. \n\nSo what's White's idea if you take that rook?",
+    "answers": [
+      {
+        "text": "Something even worse.",
+        "feedback": {
+          "text": "Exactly, if you take on a3, the move is still Qxc6+, but if Kd8 there's Nf7#.",
+          "arrows": {
+            "threats": [
+              "a6-a3",
+              "e6-c6"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "a3",
+              "c6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "They want to take on c6 (Qxc6+), and take the rook on a8 after with Qxa8+.",
+        "feedback": {
+          "text": "Are you sure that's the best White could do? ",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r3kb1r/p3p1p1/q1p1Qn2/3pN2p/7P/7R/P1PN1PP1/4K3 w kq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ra3",
+      "afterMoveFen": "r3kb1r/p3p1p1/q1p1Qn2/3pN2p/7P/R7/P1PN1PP1/4K3 b kq - 2 1"
+    }
+  },
+  "drill": null
+}

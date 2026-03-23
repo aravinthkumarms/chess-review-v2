@@ -1,0 +1,43 @@
+{
+  "id": "d060eb2a-34d9-47da-8952-3c0d880add32",
+  "name": "Quiz 7",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gets out of the attack. \n\nShould you play Rdg1 to attack or should you play something else?",
+    "answers": [
+      {
+        "text": "Qd3",
+        "feedback": {
+          "text": "Your knight was pinned and Nc3+ was a threat.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "moving the queen to a better square.",
+        "afterMoveFen": "2rr2k1/5ppp/4p3/p2n1q2/1bBPN1R1/1P1Q1P2/P4P1P/1K1R4 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rdg1",
+        "feedback": {
+          "text": "Doubling rooks fails to see what Black could do: a fork!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "doubling rooks and attacking g7.",
+        "afterMoveFen": "2rr2k1/5ppp/4p3/p2n1q2/1bBPN1R1/1P3P2/P3QP1P/1K4R1 b - - 3 2"
+      }
+    ],
+    "positionFen": "2rr2k1/5ppp/4p3/p2n4/1bBPNqR1/1P3P2/P3QP1P/1K1R4 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qf5",
+      "afterMoveFen": "2rr2k1/5ppp/4p3/p2n1q2/1bBPN1R1/1P3P2/P3QP1P/1K1R4 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,58 @@
+{
+  "id": "e4536e80-4212-440c-a92e-15999a94f314",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White attacks the pawn. \n\nThe pawns are far from being dangerous right now, and maybe White can adopt some defensive setup. \n\nWhat should the result of this game be and why?",
+    "answers": [
+      {
+        "text": "A win for Black because the pawns are very far from each other and White's defense will be split.",
+        "feedback": {
+          "text": "Excellent! When the pawns are separated by 3 files or more, the attacker will surely be able to win.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A draw. It's opposite color bishops and the pawns don't help each other.",
+        "feedback": {
+          "text": "The pawns don't need to help each other in this ending.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "A draw. White can sacrifice the bishop and camp on b1 because it's a light square.",
+        "feedback": {
+          "text": "Camping on the promotion square only works in the corner, not on any other square.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4k3/1p4p1/3b4/8/8/3B4/8/3K4 w - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "b7"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Be4",
+      "afterMoveFen": "4k3/1p4p1/3b4/8/4B3/8/8/3K4 b - - 2 1"
+    }
+  },
+  "drill": null
+}

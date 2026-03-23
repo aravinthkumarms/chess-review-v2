@@ -1,0 +1,59 @@
+{
+  "id": "48dfb336-5c13-4885-b5a2-7ac497816ff9",
+  "name": "Quiz 7",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Kg2.\n\nThey're about to promote the d-pawn!\n\nCan you defend against that?",
+    "answers": [
+      {
+        "text": "Rd1",
+        "feedback": {
+          "text": "Excellent! If White promotes, we'll take and then play ...Nxe3+ and win the rook.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d7-d8",
+              "e7-d8",
+              "c8-d8",
+              "d5-e3",
+              "d1-d8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d8",
+              "e3",
+              "g2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "2R5/3Pbkp1/6pp/3n4/8/4P1P1/5PKP/3r4 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "You can't prevent the promotion right away, but you can defend against it in the form of a discovered attack!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2R5/3Pbkp1/6pp/3n4/8/4P1P1/5P1P/r5K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kg2",
+      "afterMoveFen": "2R5/3Pbkp1/6pp/3n4/8/4P1P1/5PKP/r7 b - - 2 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,1064 @@
+{
+  "id": "185db7ef-9580-412e-8c13-1049a96febbf",
+  "name": "Study 1: Blackburne vs Minckwitz, 1881",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "3"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to this course! \n\nIn chapter 1, we'll go over an old game. Joseph Henry Blackburne vs Johannes Minckwitz in 1881. \n\nBlack gets quite a few amount of pieces for the queen: but this doesn't matter if the multipurpose enemy queen isn't denied activity.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb2q1pp/3bp3/2p2p1R/1n6/1P1BPN2/PB3PPP/Q3R1K1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1L": {
+        "adjacentNodeIds": [
+          "xl"
+        ],
+        "comments": [
+          {
+            "text": "Let's see if Black's pieces will be good against White's queen. \n\nBlackburne started of by activating his rook along the d-file. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb5p/3bp3/2p2pN1/8/1P1nP3/P4PPP/Q2R2K1 b - - 1 4",
+        "parentNodeId": "v7",
+        "san": "Rd1"
+      },
+      "1c": {
+        "adjacentNodeIds": [
+          "Yz"
+        ],
+        "comments": [
+          {
+            "text": "...Kh8 is the only move. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/pb3r1p/1b2N3/2pn2Q1/4p3/1P6/P4PPP/6K1 w - - 2 13",
+        "parentNodeId": "BJ",
+        "san": "Kh8"
+      },
+      "1z": {
+        "adjacentNodeIds": [
+          "kh"
+        ],
+        "comments": [
+          {
+            "text": "Blackburne attacked the rook once again. \n\nThese attacks aren't pointless: they're played to improve the position of the queen and get it to different parts of the board with tempi. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h4-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "7k/pb1nr2p/1b2N3/2p2P2/7Q/1P6/P4PPP/6K1 b - - 4 15",
+        "parentNodeId": "dg",
+        "san": "Qh4"
+      },
+      "2J": {
+        "adjacentNodeIds": [
+          "J8"
+        ],
+        "comments": [
+          {
+            "text": "And instead of taking a pawn right away, Blackburne invaded on the 7th rank first.\n\nThis attacks the bishop and improves the rook at the same time. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb1R3p/4p3/2p1bpN1/1n6/1P2P3/P4PPP/1Q4K1 b - - 5 6",
+        "parentNodeId": "Yv",
+        "san": "Rd7"
+      },
+      "3": {
+        "adjacentNodeIds": [
+          "4",
+          "JV"
+        ],
+        "comments": [
+          {
+            "text": "White took on g7 with the idea of Rg5.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-g5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb2q1Bp/3bp3/2p2p1R/1n6/1P1BPN2/P4PPP/Q3R1K1 b - - 0 1",
+        "parentNodeId": "0",
+        "san": "Bxg7"
+      },
+      "3L": {
+        "adjacentNodeIds": [
+          "Hi"
+        ],
+        "comments": [
+          {
+            "text": "And Blackburne took a pawn, anchoring his knight on e6. \n\nIf we could summarize how Blackburne beat 4 pieces, it's because of the powerful combination of the queen and knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/pb3r1p/1b2Nn2/2p2PQ1/8/1P6/P4PPP/6K1 b - - 0 13",
+        "parentNodeId": "OM",
+        "san": "exf5"
+      },
+      "4": {
+        "adjacentNodeIds": [
+          "9"
+        ],
+        "comments": [
+          {
+            "text": "Black captured, accepting the Rg5 idea. \n\nBut capturing wasn't forced.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb4qp/3bp3/2p2p1R/1n6/1P1BPN2/P4PPP/Q3R1K1 w - - 0 2",
+        "parentNodeId": "3",
+        "san": "Qxg7"
+      },
+      "4X": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But ...Rfd8 is winning for Black because they're breaking through and they have a rook coming to the d1-square with check. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rr2k1/pb1R3p/4p3/2p1bpN1/8/1P2P3/Pn3PPP/1Q4K1 w - - 6 7",
+        "parentNodeId": "F2",
+        "san": "Rfd8"
+      },
+      "5o": {
+        "adjacentNodeIds": [
+          "js"
+        ],
+        "comments": [
+          {
+            "text": "And Blackburne defended his f5-pawn. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "7k/p2n1r1p/1b1QN3/1bp2P2/6P1/1P6/P4P1P/6K1 b - g3 0 18",
+        "parentNodeId": "g7",
+        "san": "g4"
+      },
+      "64": {
+        "adjacentNodeIds": [
+          "Fv"
+        ],
+        "comments": [
+          {
+            "text": "Black would take this bishop...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/p3q2p/3bp3/2p2p1R/1n6/1P1BPb2/P4PPP/Q3R1K1 w - - 0 3",
+        "parentNodeId": "bN",
+        "san": "Rxf8"
+      },
+      "6r": {
+        "adjacentNodeIds": [
+          "hx"
+        ],
+        "comments": [
+          {
+            "text": "Minckwitz centralized his knight, interrupting the coordination between the queen and rook. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/pbrR3p/4p3/2pnbpN1/8/1P2P3/P4PPP/3Q2K1 w - - 8 8",
+        "parentNodeId": "PM",
+        "san": "Nd5"
+      },
+      "9": {
+        "adjacentNodeIds": [
+          "PJ"
+        ],
+        "comments": [
+          {
+            "text": "However, after Qxg7, Rg5 pins the queen. Still, Black will get quite a few pieces for the queen! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb4qp/3bp3/2p2pR1/1n6/1P1BPN2/P4PPP/Q3R1K1 b - - 1 2",
+        "parentNodeId": "4",
+        "san": "Rg5"
+      },
+      "9X": {
+        "adjacentNodeIds": [
+          "dh",
+          "LL"
+        ],
+        "comments": [
+          {
+            "text": "Blackburne undermined the f5-pawn. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/pb3r1p/1b2N3/2pn1p1Q/4P3/1P6/P4PPP/6K1 b - - 0 11",
+        "parentNodeId": "Ps",
+        "san": "e4"
+      },
+      "Ag": {
+        "adjacentNodeIds": [
+          "F2"
+        ],
+        "comments": [
+          {
+            "text": "The reason ...Nb2 was so venomous, was because if White plays a natural move like Rd7...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb5p/4p3/2p1bpN1/8/1P2P3/Pn3PPP/1Q1R2K1 w - - 4 6",
+        "parentNodeId": "yj",
+        "san": "Nb2"
+      },
+      "BJ": {
+        "adjacentNodeIds": [
+          "1c"
+        ],
+        "comments": [
+          {
+            "text": "...this check is problematic.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/pb3r1p/1b2N3/2pn2Q1/4p3/1P6/P4PPP/6K1 b - - 1 12",
+        "parentNodeId": "LL",
+        "san": "Qg5+"
+      },
+      "Cw": {
+        "adjacentNodeIds": [
+          "I5"
+        ],
+        "comments": [
+          {
+            "text": "Minckwitz went back to b6.\n\nThe bishop, I must add, does nothing on b6 since it's blocked by its own c5-pawn. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/p2n1r1p/Qb2N3/2p2P2/6P1/1P6/5P1P/6K1 w - - 1 22",
+        "parentNodeId": "Sk",
+        "san": "Bb6"
+      },
+      "Df": {
+        "adjacentNodeIds": [
+          "YT"
+        ],
+        "comments": [
+          {
+            "text": "The queen is ready to go to the center.",
+            "arrows": {
+              "threats": [
+                "g3-d6"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "7k/pb1n1r1p/1b2N3/2p2P2/8/1P4Q1/P4PPP/6K1 b - - 6 16",
+        "parentNodeId": "kh",
+        "san": "Qg3"
+      },
+      "F2": {
+        "adjacentNodeIds": [
+          "4X"
+        ],
+        "comments": [
+          {
+            "text": "White seems to be quite active on the 7th rank. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb1R3p/4p3/2p1bpN1/8/1P2P3/Pn3PPP/1Q4K1 b - - 5 6",
+        "parentNodeId": "Ag",
+        "san": "Rd7"
+      },
+      "Fv": {
+        "adjacentNodeIds": [
+          "iM"
+        ],
+        "comments": [
+          {
+            "text": "And when White takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/p3q2p/3bp3/2p2p1R/1n6/1P1BPP2/P4P1P/Q3R1K1 b - - 0 3",
+        "parentNodeId": "64",
+        "san": "gxf3"
+      },
+      "Fw": {
+        "adjacentNodeIds": [
+          "Ps"
+        ],
+        "comments": [
+          {
+            "text": "And here comes Blackburne's queen.\n\nThe queen pressures the f5-pawn and has a check on g5 to disrupt Black's stability further.",
+            "arrows": {
+              "threats": [
+                "h5-g5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/pbb2r1p/4N3/2pn1p1Q/8/1P2P3/P4PPP/6K1 b - - 2 10",
+        "parentNodeId": "zt",
+        "san": "Qh5"
+      },
+      "Hi": {
+        "adjacentNodeIds": [
+          "WI"
+        ],
+        "comments": [
+          {
+            "text": "Minckwitz played a move that looks safe. \n\nBlack's position is so compromised that it's hard to find moves that don't drop material. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/pb1n1r1p/1b2N3/2p2PQ1/8/1P6/P4PPP/6K1 w - - 1 14",
+        "parentNodeId": "3L",
+        "san": "Nd7"
+      },
+      "I5": {
+        "adjacentNodeIds": [
+          "Ry"
+        ],
+        "comments": [
+          {
+            "text": "Blackburne entered the newly acquired light squares. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q3k1/p2n1r1p/1b2N3/2p2P2/6P1/1P6/5P1P/6K1 b - - 2 22",
+        "parentNodeId": "Cw",
+        "san": "Qc8+"
+      },
+      "IX": {
+        "adjacentNodeIds": [
+          "yD"
+        ],
+        "comments": [
+          {
+            "text": "And a5 attacks the dark-squared bishop but it x-rays the other one as well. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a6",
+                "b6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/p2n1r1p/bb1QN3/P1p2P2/6P1/1P6/5P1P/6K1 b - - 0 20",
+        "parentNodeId": "nL",
+        "san": "a5"
+      },
+      "J8": {
+        "adjacentNodeIds": [
+          "PM"
+        ],
+        "comments": [
+          {
+            "text": "Minckwitz contested the rook on the 7th rank, proposing a trade to lessen the pressure. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/pbrR3p/4p3/2p1bpN1/1n6/1P2P3/P4PPP/1Q4K1 w - - 6 7",
+        "parentNodeId": "2J",
+        "san": "Rc7"
+      },
+      "JV": {
+        "adjacentNodeIds": [
+          "bN"
+        ],
+        "comments": [
+          {
+            "text": "...Bxf3 would have made Rg5 impossible, because the knight wouldn't support the g5-square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/p3q1Bp/3bp3/2p2p1R/1n6/1P1BPb2/P4PPP/Q3R1K1 w - - 0 2",
+        "parentNodeId": "3",
+        "san": "Bxf3"
+      },
+      "Jn": {
+        "adjacentNodeIds": [
+          "g7"
+        ],
+        "comments": [
+          {
+            "text": "The queen went into d6, attacking the bishop. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "7k/p2n1r1p/1bbQN3/2p2P2/8/1P6/P4PPP/6K1 b - - 8 17",
+        "parentNodeId": "YT",
+        "san": "Qd6"
+      },
+      "L2": {
+        "adjacentNodeIds": [
+          "fj"
+        ],
+        "comments": [
+          {
+            "text": "If Black blocks...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/pb3r1p/1b2Nn2/2p1Q3/4p3/1P6/P4PPP/6K1 w - - 4 14",
+        "parentNodeId": "Yz",
+        "san": "Nf6"
+      },
+      "LL": {
+        "adjacentNodeIds": [
+          "BJ"
+        ],
+        "comments": [
+          {
+            "text": "Had Minckwitz captured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/pb3r1p/1b2N3/2pn3Q/4p3/1P6/P4PPP/6K1 w - - 0 12",
+        "parentNodeId": "9X",
+        "san": "fxe4"
+      },
+      "OM": {
+        "adjacentNodeIds": [
+          "3L"
+        ],
+        "comments": [
+          {
+            "text": "The king hid in the corner.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/pb3r1p/1b2Nn2/2p2pQ1/4P3/1P6/P4PPP/6K1 w - - 3 13",
+        "parentNodeId": "t1",
+        "san": "Kh8"
+      },
+      "OW": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And Blackburned improved his king, getting ready to activate the rest of his pawns. \n\nMinckwitz resigned.\n\nThe knight on f8 is pinned and there's absolutely no rational way to get out of the pin. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f2-f4",
+                "h2-h4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q2nk1/p4r1p/1b2N3/2p2P2/6P1/1P6/5PKP/8 b - - 4 23",
+        "parentNodeId": "Ry",
+        "san": "Kg2"
+      },
+      "P6": {
+        "adjacentNodeIds": [
+          "zp"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/pbb4p/4p3/2pn1pN1/8/1P2P3/P4PPP/3Q2K1 w - - 0 9",
+        "parentNodeId": "hx",
+        "san": "Bxc7"
+      },
+      "PJ": {
+        "adjacentNodeIds": [
+          "bt"
+        ],
+        "comments": [
+          {
+            "text": "Black took the rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb5p/3bp3/2p2pq1/1n6/1P1BPN2/P4PPP/Q3R1K1 w - - 0 3",
+        "parentNodeId": "9",
+        "san": "Qxg5"
+      },
+      "PM": {
+        "adjacentNodeIds": [
+          "6r"
+        ],
+        "comments": [
+          {
+            "text": "And Blackburn, instead of trading, defended the rook.\n\nIf ...Rxd7, Qxd7 and the queen is now active on the 7th. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/pbrR3p/4p3/2p1bpN1/1n6/1P2P3/P4PPP/3Q2K1 b - - 7 7",
+        "parentNodeId": "J8",
+        "san": "Qd1"
+      },
+      "Ps": {
+        "adjacentNodeIds": [
+          "9X"
+        ],
+        "comments": [
+          {
+            "text": "The bishop went to b6, escaping the knight's capture.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/pb3r1p/1b2N3/2pn1p1Q/8/1P2P3/P4PPP/6K1 w - - 3 11",
+        "parentNodeId": "Fw",
+        "san": "Bb6"
+      },
+      "Ry": {
+        "adjacentNodeIds": [
+          "OW"
+        ],
+        "comments": [
+          {
+            "text": "The knight blocked.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q2nk1/p4r1p/1b2N3/2p2P2/6P1/1P6/5P1P/6K1 w - - 3 23",
+        "parentNodeId": "I5",
+        "san": "Nf8"
+      },
+      "Sk": {
+        "adjacentNodeIds": [
+          "Cw"
+        ],
+        "comments": [
+          {
+            "text": "And Blackburne won a piece. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/p2n1r1p/Q3N3/b1p2P2/6P1/1P6/5P1P/6K1 b - - 0 21",
+        "parentNodeId": "yD",
+        "san": "Qxa6"
+      },
+      "WI": {
+        "adjacentNodeIds": [
+          "dg"
+        ],
+        "comments": [
+          {
+            "text": "Blackburne attacked the rook. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/pb1n1r1p/1b2N3/2p2P1Q/8/1P6/P4PPP/6K1 b - - 2 14",
+        "parentNodeId": "Hi",
+        "san": "Qh5"
+      },
+      "XQ": {
+        "adjacentNodeIds": [
+          "k4"
+        ],
+        "comments": [
+          {
+            "text": "The rook has to stay defending the knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r1k/pb5p/1b3n2/2p1Q1N1/4p3/1P6/P4PPP/6K1 w - - 6 15",
+        "parentNodeId": "fj",
+        "san": "Rf8"
+      },
+      "YT": {
+        "adjacentNodeIds": [
+          "Jn"
+        ],
+        "comments": [
+          {
+            "text": "Black played ...Bc6, adding extra defense to the knight. \n\nBut this is exactly what I have been saying: it's hard to find useful moves when there is constant danger.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/p2n1r1p/1bb1N3/2p2P2/8/1P4Q1/P4PPP/6K1 w - - 7 17",
+        "parentNodeId": "Df",
+        "san": "Bc6"
+      },
+      "Yv": {
+        "adjacentNodeIds": [
+          "2J"
+        ],
+        "comments": [
+          {
+            "text": "Minckwitz moved the knight to b4. \n\nThis seems like the only square, but Minckwitz had a tricky way to activate his pieces. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb5p/4p3/2p1bpN1/1n6/1P2P3/P4PPP/1Q1R2K1 w - - 4 6",
+        "parentNodeId": "yj",
+        "san": "Nb4"
+      },
+      "Yz": {
+        "adjacentNodeIds": [
+          "L2"
+        ],
+        "comments": [
+          {
+            "text": "And since the pawn is no longer blocking the queen's path, Qe5+ is possible. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "7k/pb3r1p/1b2N3/2pnQ3/4p3/1P6/P4PPP/6K1 b - - 3 13",
+        "parentNodeId": "1c",
+        "san": "Qe5+"
+      },
+      "aj": {
+        "adjacentNodeIds": [
+          "nL"
+        ],
+        "comments": [
+          {
+            "text": "Blackburne attacked the bishop. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/p2n1r1p/1b1QN3/1bp2P2/P5P1/1P6/5P1P/6K1 b - a3 0 19",
+        "parentNodeId": "js",
+        "san": "a4"
+      },
+      "bN": {
+        "adjacentNodeIds": [
+          "64"
+        ],
+        "comments": [
+          {
+            "text": "This would be the only way to not lose excessive material. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2Bk1/p3q2p/3bp3/2p2p1R/1n6/1P1BPb2/P4PPP/Q3R1K1 b - - 0 2",
+        "parentNodeId": "JV",
+        "san": "Bxf8"
+      },
+      "bt": {
+        "adjacentNodeIds": [
+          "v7"
+        ],
+        "comments": [
+          {
+            "text": "Blackburne captured the queen. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb5p/3bp3/2p2pN1/1n6/1P1BP3/P4PPP/Q3R1K1 b - - 0 3",
+        "parentNodeId": "PJ",
+        "san": "Nxg5"
+      },
+      "dg": {
+        "adjacentNodeIds": [
+          "1z"
+        ],
+        "comments": [
+          {
+            "text": "The rook went to e7, preventing Qe8+. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/pb1nr2p/1b2N3/2p2P1Q/8/1P6/P4PPP/6K1 w - - 3 15",
+        "parentNodeId": "WI",
+        "san": "Re7"
+      },
+      "dh": {
+        "adjacentNodeIds": [
+          "t1"
+        ],
+        "comments": [
+          {
+            "text": "Minckwitz ignored the pawn and attacked the queen. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/pb3r1p/1b2Nn2/2p2p1Q/4P3/1P6/P4PPP/6K1 w - - 1 12",
+        "parentNodeId": "9X",
+        "san": "Nf6"
+      },
+      "fj": {
+        "adjacentNodeIds": [
+          "XQ"
+        ],
+        "comments": [
+          {
+            "text": "White is coming in with full force. \n\nThe queen and knight coordinate very well because they attack in different ways. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-f8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "7k/pb3r1p/1b3n2/2p1Q1N1/4p3/1P6/P4PPP/6K1 b - - 5 14",
+        "parentNodeId": "L2",
+        "san": "Ng5"
+      },
+      "g7": {
+        "adjacentNodeIds": [
+          "5o"
+        ],
+        "comments": [
+          {
+            "text": "The bishop went to b5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/p2n1r1p/1b1QN3/1bp2P2/8/1P6/P4PPP/6K1 w - - 9 18",
+        "parentNodeId": "Jn",
+        "san": "Bb5"
+      },
+      "hx": {
+        "adjacentNodeIds": [
+          "P6"
+        ],
+        "comments": [
+          {
+            "text": "Blackburne took on c7. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/pbR4p/4p3/2pnbpN1/8/1P2P3/P4PPP/3Q2K1 b - - 0 8",
+        "parentNodeId": "6r",
+        "san": "Rxc7"
+      },
+      "iM": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...Black would have two pieces vs a rook, which is generally a good imbalance for the side with the two pieces. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/p3q2p/3bp3/2p2p1R/8/1P1nPP2/P4P1P/Q3R1K1 w - - 0 4",
+        "parentNodeId": "Fv",
+        "san": "Nxd3"
+      },
+      "js": {
+        "adjacentNodeIds": [
+          "aj"
+        ],
+        "comments": [
+          {
+            "text": "The king came back to g8, supporting the rook and getting out of some possible checks.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/p2n1r1p/1b1QN3/1bp2P2/6P1/1P6/P4P1P/6K1 w - - 1 19",
+        "parentNodeId": "5o",
+        "san": "Kg8"
+      },
+      "k4": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And with Qe7 we can see how the multipurpose queen can attack multiple pieces if they're not working together well. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f8",
+                "b7",
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5r1k/pb2Q2p/1b3n2/2p3N1/4p3/1P6/P4PPP/6K1 b - - 7 15",
+        "parentNodeId": "XQ",
+        "san": "Qe7"
+      },
+      "kh": {
+        "adjacentNodeIds": [
+          "Df"
+        ],
+        "comments": [
+          {
+            "text": "The rook went back to f7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/pb1n1r1p/1b2N3/2p2P2/7Q/1P6/P4PPP/6K1 w - - 5 16",
+        "parentNodeId": "1z",
+        "san": "Rf7"
+      },
+      "nL": {
+        "adjacentNodeIds": [
+          "IX"
+        ],
+        "comments": [
+          {
+            "text": "The bishop went to a6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/p2n1r1p/bb1QN3/2p2P2/P5P1/1P6/5P1P/6K1 w - - 1 20",
+        "parentNodeId": "aj",
+        "san": "Ba6"
+      },
+      "t1": {
+        "adjacentNodeIds": [
+          "OM"
+        ],
+        "comments": [
+          {
+            "text": "Blackburne escaped the attack with check. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/pb3r1p/1b2Nn2/2p2pQ1/4P3/1P6/P4PPP/6K1 b - - 2 12",
+        "parentNodeId": "dh",
+        "san": "Qg5+"
+      },
+      "v7": {
+        "adjacentNodeIds": [
+          "1L"
+        ],
+        "comments": [
+          {
+            "text": "And Minckwitz took yet another piece. \n\nMinckwitz has a rook and two pieces for the queen. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb5p/3bp3/2p2pN1/8/1P1nP3/P4PPP/Q3R1K1 w - - 0 4",
+        "parentNodeId": "bt",
+        "san": "Nxd3"
+      },
+      "xl": {
+        "adjacentNodeIds": [
+          "yj"
+        ],
+        "comments": [
+          {
+            "text": "Minckwitz gained a tempo on the queen. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb5p/4p3/2p1bpN1/8/1P1nP3/P4PPP/Q2R2K1 w - - 2 5",
+        "parentNodeId": "1L",
+        "san": "Be5"
+      },
+      "yD": {
+        "adjacentNodeIds": [
+          "Sk"
+        ],
+        "comments": [
+          {
+            "text": "Minckwitz took on a5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/p2n1r1p/b2QN3/b1p2P2/6P1/1P6/5P1P/6K1 w - - 0 21",
+        "parentNodeId": "IX",
+        "san": "Bxa5"
+      },
+      "yj": {
+        "adjacentNodeIds": [
+          "Yv",
+          "Ag"
+        ],
+        "comments": [
+          {
+            "text": "And Blackburne attacked the knight once again, forcing Minckwitz to move the knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r2rk1/pb5p/4p3/2p1bpN1/8/1P1nP3/P4PPP/1Q1R2K1 b - - 3 5",
+        "parentNodeId": "xl",
+        "san": "Qb1"
+      },
+      "zp": {
+        "adjacentNodeIds": [
+          "zt"
+        ],
+        "comments": [
+          {
+            "text": "...but the problem for Minckwitz is that the e6-pawn, which anchored the knight in the center, falls. \n\nThis forces the bishop to be defending the knight. That's the first step in winning with the queen: make the pieces defend each other, remove outposts, and attack loose pieces! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/pbb4p/4N3/2pn1p2/8/1P2P3/P4PPP/3Q2K1 b - - 0 9",
+        "parentNodeId": "P6",
+        "san": "Nxe6"
+      },
+      "zt": {
+        "adjacentNodeIds": [
+          "Fw"
+        ],
+        "comments": [
+          {
+            "text": "The rook was attacked, so it moved, defending the 7th rank. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/pbb2r1p/4N3/2pn1p2/8/1P2P3/P4PPP/3Q2K1 w - - 1 10",
+        "parentNodeId": "zp",
+        "san": "Rf7"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

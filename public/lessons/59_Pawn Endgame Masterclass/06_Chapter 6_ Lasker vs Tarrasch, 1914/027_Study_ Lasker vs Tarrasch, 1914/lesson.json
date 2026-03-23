@@ -1,0 +1,1119 @@
+{
+  "id": "1bd08bd5-cbec-4cd3-9b56-70a00877ddba",
+  "name": "Study: Lasker vs Tarrasch, 1914",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "H",
+          "UW"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to the sixth study of our pawn endgames course!\n\nThis game was played more than 100 years ago, in 1914, between Emanuel Lasker and Siegbert Tarrasch.\n\nEven though White's h-pawn is passed and looks appealing, it's White to play and draw!\n\nBlack's three pawns on the queenside are extremely strong.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a5",
+                "b5",
+                "c5",
+                "h2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/6K1/8/ppp2k2/8/1P6/1P5P/8 w - - 0 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "3G": {
+        "adjacentNodeIds": [
+          "kd"
+        ],
+        "comments": [
+          {
+            "text": "But Tarrasch's king was close too.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d2-c2",
+                "c2-b3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/ppK5/8/1P6/1P1k4/8 w - - 1 7",
+        "parentNodeId": "AI",
+        "san": "Kd2"
+      },
+      "42": {
+        "adjacentNodeIds": [
+          "yB"
+        ],
+        "comments": [
+          {
+            "text": "One square away.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6KP/8/5k2/8/p1P5/8/8 b - - 0 6",
+        "parentNodeId": "fn",
+        "san": "h7"
+      },
+      "55": {
+        "adjacentNodeIds": [
+          "Ji"
+        ],
+        "comments": [
+          {
+            "text": "If Black had tried pushing...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/pp3K2/2p4k/1P6/1P6/8 w - - 0 4",
+        "parentNodeId": "vG",
+        "san": "c4"
+      },
+      "5L": {
+        "adjacentNodeIds": [
+          "EV"
+        ],
+        "comments": [
+          {
+            "text": "Takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6K1/8/p4k2/2p4P/8/1P6/8 w - - 0 3",
+        "parentNodeId": "FJ",
+        "san": "bxc4"
+      },
+      "79": {
+        "adjacentNodeIds": [
+          "nD"
+        ],
+        "comments": [
+          {
+            "text": "In the previous line, the king was on e5, and the only route to the a-pawn was via c3!\n\nNow the king would have been one move closer and could have moved via d3.\n\nAgain, one tempo decides everything.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-d3",
+                "a4-a1",
+                "a1-d1",
+                "d1-d4",
+                "d4-a4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/p3K2k/2P5/8/8 w - - 0 7",
+        "parentNodeId": "CS",
+        "san": "a4"
+      },
+      "8y": {
+        "adjacentNodeIds": [
+          "CL"
+        ],
+        "comments": [
+          {
+            "text": "Captures.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6K1/8/p4k1P/8/2P5/8/8 b - - 0 4",
+        "parentNodeId": "VS",
+        "san": "bxc3"
+      },
+      "9H": {
+        "adjacentNodeIds": [
+          "cl"
+        ],
+        "comments": [
+          {
+            "text": "The same trick, clearing the path for the a-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/p3K3/6kP/2p5/1P6/8 w - - 0 5",
+        "parentNodeId": "Tg",
+        "san": "c3"
+      },
+      "AI": {
+        "adjacentNodeIds": [
+          "3G"
+        ],
+        "comments": [
+          {
+            "text": "The first pawn fell.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/ppK5/8/1P2k3/1P6/8 b - - 0 6",
+        "parentNodeId": "hN",
+        "san": "Kxc5"
+      },
+      "CL": {
+        "adjacentNodeIds": [
+          "Dx"
+        ],
+        "comments": [
+          {
+            "text": "And now the pawn race would have begun.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6K1/8/5k1P/p7/2P5/8/8 w - - 0 5",
+        "parentNodeId": "8y",
+        "san": "a4"
+      },
+      "CS": {
+        "adjacentNodeIds": [
+          "79"
+        ],
+        "comments": [
+          {
+            "text": "Captures.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a5-a1",
+                "a1-e1",
+                "e1-e5",
+                "e5-a5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/p7/4K2k/2P5/8/8 b - - 0 6",
+        "parentNodeId": "r8",
+        "san": "bxc3"
+      },
+      "Cf": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The king would have caught on to the pawn.\n\nThis position is actually winning for White!\n\nTry to play it out for yourself.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a3-a1",
+                "a1-c1",
+                "c1-c3",
+                "c3-a3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/7k/p1P5/2K5/8 b - - 1 8",
+        "parentNodeId": "p3",
+        "san": "Kc2"
+      },
+      "DN": {
+        "adjacentNodeIds": [
+          "k9",
+          "QT"
+        ],
+        "comments": [
+          {
+            "text": "White took the last pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/K7/8/1P6/1Pk5/8 b - - 0 8",
+        "parentNodeId": "WT",
+        "san": "Kxa5"
+      },
+      "DP": {
+        "adjacentNodeIds": [
+          "hl"
+        ],
+        "comments": [
+          {
+            "text": "In the game, Tarrasch had realized what was going on and started moving towards the queenside.\n\nBut first take a look at what would have happened had Black decided to go for the usual pawn breakthrough.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/ppp2K2/8/1P4k1/1P6/8 w - - 2 4",
+        "parentNodeId": "vG",
+        "san": "Kg3"
+      },
+      "Dx": {
+        "adjacentNodeIds": [
+          "fn"
+        ],
+        "comments": [
+          {
+            "text": "White would have promoted first, as we'll see.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6K1/7P/5k2/p7/2P5/8/8 b - - 0 5",
+        "parentNodeId": "CL",
+        "san": "h6"
+      },
+      "E4": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black would have promoted as well.\n\nIn this position, both players would have had queens on the board, but it would have been White to move, and he would have had an extra c-pawn!\n\nThis is usually a draw though, because of annoying queens checks.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "7Q/6K1/8/5k2/8/2P5/8/q7 w - - 0 8",
+        "parentNodeId": "GK",
+        "san": "a1=Q"
+      },
+      "EV": {
+        "adjacentNodeIds": [
+          "VS"
+        ],
+        "comments": [
+          {
+            "text": "Now the h-pawn goes!\n\nIn this scenario, the h6 square is protected by White's king, so ...Kg5 does nothing for Black!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-h6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/6K1/8/p4k1P/2p5/8/1P6/8 b - - 0 3",
+        "parentNodeId": "5L",
+        "san": "h5"
+      },
+      "FJ": {
+        "adjacentNodeIds": [
+          "5L"
+        ],
+        "comments": [
+          {
+            "text": "Takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6K1/8/pp3k2/2P4P/8/1P6/8 b - - 0 2",
+        "parentNodeId": "vn",
+        "san": "bxc4"
+      },
+      "GK": {
+        "adjacentNodeIds": [
+          "E4"
+        ],
+        "comments": [
+          {
+            "text": "White is first.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7Q/6K1/8/5k2/8/2P5/p7/8 b - - 0 7",
+        "parentNodeId": "yB",
+        "san": "h8=Q"
+      },
+      "H": {
+        "adjacentNodeIds": [
+          "q",
+          "vn"
+        ],
+        "comments": [
+          {
+            "text": "Lasker had to be precise from the start with 1.h4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6K1/8/ppp2k2/7P/1P6/1P6/8 b - h3 0 1",
+        "parentNodeId": "0",
+        "san": "h4"
+      },
+      "J9": {
+        "adjacentNodeIds": [
+          "r8"
+        ],
+        "comments": [
+          {
+            "text": "And the king would have been closer to the pawns, not being forced to walk on the a1-h8 diagonal!\n\nRemember the rule of the square! \n\nThe king is in! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a5-a1",
+                "a1-e1",
+                "e1-e5",
+                "e5-a5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/p7/2p1K2k/8/1P6/8 b - - 1 5",
+        "parentNodeId": "R3",
+        "san": "Ke4"
+      },
+      "Ji": {
+        "adjacentNodeIds": [
+          "R3"
+        ],
+        "comments": [
+          {
+            "text": "Takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/pp3K2/2P4k/8/1P6/8 b - - 0 4",
+        "parentNodeId": "55",
+        "san": "bxc4"
+      },
+      "QT": {
+        "adjacentNodeIds": [
+          "Y9"
+        ],
+        "comments": [
+          {
+            "text": "Of course, Black had to be careful here and take the correct pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/K7/8/1P6/1k6/8 w - - 0 9",
+        "parentNodeId": "DN",
+        "san": "Kxb2"
+      },
+      "Qh": {
+        "adjacentNodeIds": [
+          "bW"
+        ],
+        "comments": [
+          {
+            "text": "With the king being too far away, White would have had to push the h-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5K2/8/p4k2/2p4P/8/1P6/8 b - h3 0 3",
+        "parentNodeId": "Vg",
+        "san": "h4"
+      },
+      "R3": {
+        "adjacentNodeIds": [
+          "J9"
+        ],
+        "comments": [
+          {
+            "text": "Takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/p4K2/2p4k/8/1P6/8 w - - 0 5",
+        "parentNodeId": "Ji",
+        "san": "bxc4"
+      },
+      "RF": {
+        "adjacentNodeIds": [
+          "u9"
+        ],
+        "comments": [
+          {
+            "text": "Captures, as otherwise Black would have captured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5K2/8/p4k2/7P/2P5/8/8 b - - 0 4",
+        "parentNodeId": "bW",
+        "san": "bxc3"
+      },
+      "Tg": {
+        "adjacentNodeIds": [
+          "9H"
+        ],
+        "comments": [
+          {
+            "text": "The king would have chased.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/p3K3/2p3kP/8/1P6/8 b - - 1 4",
+        "parentNodeId": "nz",
+        "san": "Ke5"
+      },
+      "UW": {
+        "adjacentNodeIds": [
+          "jQ"
+        ],
+        "comments": [
+          {
+            "text": "Had he tried to get his king closer to the kingside first, this loses by force!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5K2/8/ppp2k2/8/1P6/1P5P/8 b - - 1 1",
+        "parentNodeId": "0",
+        "san": "Kf7"
+      },
+      "Up": {
+        "adjacentNodeIds": [
+          "nz"
+        ],
+        "comments": [
+          {
+            "text": "Takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5K2/pp6/2P3kP/8/1P6/8 b - - 0 3",
+        "parentNodeId": "qT",
+        "san": "bxc4"
+      },
+      "VS": {
+        "adjacentNodeIds": [
+          "8y"
+        ],
+        "comments": [
+          {
+            "text": "Black would have tried the same...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6K1/8/p4k1P/8/2p5/1P6/8 w - - 0 4",
+        "parentNodeId": "EV",
+        "san": "c3"
+      },
+      "Vg": {
+        "adjacentNodeIds": [
+          "Qh"
+        ],
+        "comments": [
+          {
+            "text": "Takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5K2/8/p4k2/2p5/8/1P5P/8 w - - 0 3",
+        "parentNodeId": "pF",
+        "san": "bxc4"
+      },
+      "WT": {
+        "adjacentNodeIds": [
+          "DN"
+        ],
+        "comments": [
+          {
+            "text": "But Black was close enough to hold on for a draw.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/pK6/8/1P6/1Pk5/8 w - - 1 8",
+        "parentNodeId": "kd",
+        "san": "Kc2"
+      },
+      "Y9": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Now the b-pawn couldn't have been stopped and White would have won.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b4-b8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/K7/1P6/8/1k6/8 b - - 0 9",
+        "parentNodeId": "QT",
+        "san": "b4"
+      },
+      "bW": {
+        "adjacentNodeIds": [
+          "RF"
+        ],
+        "comments": [
+          {
+            "text": "But Black would have been much faster.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5K2/8/p4k2/7P/2p5/1P6/8 w - - 0 4",
+        "parentNodeId": "Qh",
+        "san": "c3"
+      },
+      "cB": {
+        "adjacentNodeIds": [
+          "hN"
+        ],
+        "comments": [
+          {
+            "text": "...And there was nothing either side could do about it.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/pppK4/8/1P3k2/1P6/8 b - - 5 5",
+        "parentNodeId": "h0",
+        "san": "Kd5"
+      },
+      "cl": {
+        "adjacentNodeIds": [
+          "l5"
+        ],
+        "comments": [
+          {
+            "text": "Captures.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/p3K3/6kP/2P5/8/8 b - - 0 5",
+        "parentNodeId": "9H",
+        "san": "bxc3"
+      },
+      "fn": {
+        "adjacentNodeIds": [
+          "42"
+        ],
+        "comments": [
+          {
+            "text": "Pushing.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6K1/7P/5k2/8/p1P5/8/8 w - - 0 6",
+        "parentNodeId": "Dx",
+        "san": "a3"
+      },
+      "h0": {
+        "adjacentNodeIds": [
+          "cB"
+        ],
+        "comments": [
+          {
+            "text": "The kings went chasing the other side's pawns...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-d5",
+                "f3-e2",
+                "e2-d2"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/ppp1K3/8/1P3k2/1P6/8 w - - 4 5",
+        "parentNodeId": "hl",
+        "san": "Kf3"
+      },
+      "hN": {
+        "adjacentNodeIds": [
+          "AI"
+        ],
+        "comments": [
+          {
+            "text": "It was lucky for Black that this position was barely savable!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/pppK4/8/1P2k3/1P6/8 w - - 6 6",
+        "parentNodeId": "cB",
+        "san": "Ke3"
+      },
+      "hW": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "We can clearly see that Black would have queened before White.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a3-a2",
+                "a2-a1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5K2/8/5k2/2P4P/p7/8/8 w - - 0 6",
+        "parentNodeId": "v4",
+        "san": "a3"
+      },
+      "hl": {
+        "adjacentNodeIds": [
+          "h0"
+        ],
+        "comments": [
+          {
+            "text": "But now the White king had time to collect Black's pawns on the queenside.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/ppp1K3/8/1P4k1/1P6/8 b - - 3 4",
+        "parentNodeId": "DP",
+        "san": "Ke5"
+      },
+      "iH": {
+        "adjacentNodeIds": [
+          "qT"
+        ],
+        "comments": [
+          {
+            "text": "Kf6 might seem as a more natural move, but it loses! This is a very important line to remember.\n\nIt loses because going down this diagonal makes the king run into its own c3-pawn! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/5K2/ppp5/6kP/1P6/1P6/8 b - - 2 2",
+        "parentNodeId": "q",
+        "san": "Kf6"
+      },
+      "jJ": {
+        "adjacentNodeIds": [
+          "v7"
+        ],
+        "comments": [
+          {
+            "text": "But after Kd4 it becomes clear that White's own pawn on c3 is blocking the king's path!\n\nNow the White king would have had to go around the c3-pawn and would have lost one tempo too much.",
+            "arrows": {
+              "threats": [
+                "d4-c3"
+              ],
+              "opportunities": [
+                "a4-a1",
+                "a1-d1",
+                "d1-d4",
+                "d4-a4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/p2K2kP/2P5/8/8 b - - 1 6",
+        "parentNodeId": "l5",
+        "san": "Kd4"
+      },
+      "jQ": {
+        "adjacentNodeIds": [
+          "pF"
+        ],
+        "comments": [
+          {
+            "text": "Tarrasch would have used his 3 vs 2 pawn majority on the kingside and broken through.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b5-c4",
+                "b3-c4",
+                "a5-a4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5K2/8/pp3k2/2p5/1P6/1P5P/8 w - - 0 2",
+        "parentNodeId": "UW",
+        "san": "c4"
+      },
+      "jw": {
+        "adjacentNodeIds": [
+          "vG"
+        ],
+        "comments": [
+          {
+            "text": "Captures.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/6K1/ppp5/7k/1P6/1P6/8 w - - 0 3",
+        "parentNodeId": "p",
+        "san": "Kxh4"
+      },
+      "k9": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Of course, Tarrasch took the pawn on b3. Next, he would have taken the b2 pawn.\n\nHowever, in this position, the players agreed to a draw, for obvious reasons.\n\nEmanuel Lasker played the only drawing sequence! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/K7/8/1k6/1P6/8 w - - 0 9",
+        "parentNodeId": "DN",
+        "san": "Kxb3"
+      },
+      "kd": {
+        "adjacentNodeIds": [
+          "WT"
+        ],
+        "comments": [
+          {
+            "text": "White cleaned up all the pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/pK6/8/1P6/1P1k4/8 b - - 0 7",
+        "parentNodeId": "3G",
+        "san": "Kxb5"
+      },
+      "l5": {
+        "adjacentNodeIds": [
+          "jJ"
+        ],
+        "comments": [
+          {
+            "text": "The a-pawn would have started to roll, and it seems like White would have been in time...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-a1",
+                "a1-d1",
+                "d1-d4",
+                "d4-a4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/4K3/p5kP/2P5/8/8 w - - 0 6",
+        "parentNodeId": "cl",
+        "san": "a4"
+      },
+      "nD": {
+        "adjacentNodeIds": [
+          "p3"
+        ],
+        "comments": [
+          {
+            "text": "Now Lasker would have been in time.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-a1",
+                "a1-d1",
+                "d1-d4",
+                "d4-a4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/p6k/2PK4/8/8 b - - 1 7",
+        "parentNodeId": "79",
+        "san": "Kd3"
+      },
+      "nz": {
+        "adjacentNodeIds": [
+          "Tg"
+        ],
+        "comments": [
+          {
+            "text": "Takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5K2/p7/2p3kP/8/1P6/8 w - - 0 4",
+        "parentNodeId": "Up",
+        "san": "bxc4"
+      },
+      "p": {
+        "adjacentNodeIds": [
+          "jw"
+        ],
+        "comments": [
+          {
+            "text": "Lasker took the chance to move the king to the g6-square.\n\nNow Black was forced to capture on h4 as the threat of h5 was introduced again.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h4-h5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/6K1/ppp5/6kP/1P6/1P6/8 b - - 2 2",
+        "parentNodeId": "q",
+        "san": "Kg6"
+      },
+      "p3": {
+        "adjacentNodeIds": [
+          "Cf"
+        ],
+        "comments": [
+          {
+            "text": "Pushing, but with no hope.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a3-a1",
+                "a1-c1",
+                "c1-c3",
+                "c3-a3",
+                "d3-c2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/7k/p1PK4/8/8 w - - 0 8",
+        "parentNodeId": "nD",
+        "san": "a3"
+      },
+      "pF": {
+        "adjacentNodeIds": [
+          "Vg"
+        ],
+        "comments": [
+          {
+            "text": "Takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5K2/8/pp3k2/2P5/8/1P5P/8 b - - 0 2",
+        "parentNodeId": "jQ",
+        "san": "bxc4"
+      },
+      "q": {
+        "adjacentNodeIds": [
+          "p",
+          "iH"
+        ],
+        "comments": [
+          {
+            "text": "As pushing the pawn to h5 was a threat, as we saw, Black stopped the pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/6K1/8/ppp5/6kP/1P6/1P6/8 w - - 1 2",
+        "parentNodeId": "H",
+        "san": "Kg4"
+      },
+      "qT": {
+        "adjacentNodeIds": [
+          "Up"
+        ],
+        "comments": [
+          {
+            "text": "Black would have continued with the usual breakthrough, as the h-pawn can't go anywhere.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5K2/pp6/2p3kP/1P6/1P6/8 w - - 0 3",
+        "parentNodeId": "iH",
+        "san": "c4"
+      },
+      "r8": {
+        "adjacentNodeIds": [
+          "CS"
+        ],
+        "comments": [
+          {
+            "text": "Black would have tried the same approach.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/p7/4K2k/2p5/1P6/8 w - - 0 6",
+        "parentNodeId": "J9",
+        "san": "c3"
+      },
+      "u9": {
+        "adjacentNodeIds": [
+          "v4"
+        ],
+        "comments": [
+          {
+            "text": "And now the a-pawn would have just had an open path to promotion.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-a1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5K2/8/5k2/p6P/2P5/8/8 w - - 0 5",
+        "parentNodeId": "RF",
+        "san": "a4"
+      },
+      "v4": {
+        "adjacentNodeIds": [
+          "hW"
+        ],
+        "comments": [
+          {
+            "text": "The c-pawn would have been to slow.\n\nIf White had tried something like h5, there would have been ...Kg5 to stop it, of course.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h4-h5",
+                "f5-g5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5K2/8/5k2/p1P4P/8/8/8 b - - 0 5",
+        "parentNodeId": "u9",
+        "san": "c4"
+      },
+      "v7": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And Black would have won. The king cannot enter the square.\n\nEmanuel Lasker saw all this!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a2-a1",
+                "a3-a1",
+                "a1-c1",
+                "c1-c3",
+                "c3-a3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/8/3K2kP/p1P5/8/8 w - - 0 7",
+        "parentNodeId": "jJ",
+        "san": "a3"
+      },
+      "vG": {
+        "adjacentNodeIds": [
+          "DP",
+          "55"
+        ],
+        "comments": [
+          {
+            "text": "And this is the idea! Now the White king had a different route to the queenside via f5!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-e4",
+                "e4-d3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/ppp2K2/7k/1P6/1P6/8 b - - 1 3",
+        "parentNodeId": "jw",
+        "san": "Kf5"
+      },
+      "vn": {
+        "adjacentNodeIds": [
+          "FJ"
+        ],
+        "comments": [
+          {
+            "text": "If Black had tried the same technique as in the previous line...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6K1/8/pp3k2/2p4P/1P6/1P6/8 w - - 0 2",
+        "parentNodeId": "H",
+        "san": "c4"
+      },
+      "yB": {
+        "adjacentNodeIds": [
+          "GK"
+        ],
+        "comments": [
+          {
+            "text": "Black would have been close too.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6KP/8/5k2/8/2P5/p7/8 w - - 0 7",
+        "parentNodeId": "42",
+        "san": "a2"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

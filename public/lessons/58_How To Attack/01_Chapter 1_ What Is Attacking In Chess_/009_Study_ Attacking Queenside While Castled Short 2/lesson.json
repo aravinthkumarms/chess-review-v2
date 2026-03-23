@@ -1,0 +1,533 @@
+{
+  "id": "40ba7c9f-bd7d-484f-a786-26e8142d072f",
+  "name": "Study: Attacking Queenside While Castled Short 2",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "3"
+        ],
+        "comments": [
+          {
+            "text": "White has brought his rook to the c-file and he's even sacrificed a pawn on d5 to block Black's pieces! \n\nThis was a game I played against GM Joey. I had the Black pieces.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/59785180907?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr3r/pbpqnp2/1p3p1b/3p4/2P5/4BNP1/PP2QPB1/2RR2K1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1j": {
+        "adjacentNodeIds": [
+          "An"
+        ],
+        "comments": [
+          {
+            "text": "If White avoids the trade that benefits me, he gets a worse position! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r4/pbpq1p2/1pn2p1r/1NPp4/8/6P1/PP2QPB1/2RR2K1 b - - 3 4",
+        "parentNodeId": "aT",
+        "san": "Nb5"
+      },
+      "1l": {
+        "adjacentNodeIds": [
+          "Gk"
+        ],
+        "comments": [
+          {
+            "text": "GM Joey put some pressure on my pawn and even had some ideas of Qf4+.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": [
+                "f4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1k5r/pb1qnp2/1pp2p1r/2Pp4/1P1N4/5QP1/P4PB1/2RR2K1 b - - 2 5",
+        "parentNodeId": "HN",
+        "san": "Qf3"
+      },
+      "2E": {
+        "adjacentNodeIds": [
+          "O9"
+        ],
+        "comments": [
+          {
+            "text": "But remember what we discussed about hooks! \n\nThe b5 pawn is a hook! \n\nGM Joey attacks it immediately! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/pb1qnp2/2p2p1r/1pPp4/PP1N4/5QP1/5PB1/2RR2K1 b - a3 0 6",
+        "parentNodeId": "Gk",
+        "san": "a4"
+      },
+      "3": {
+        "adjacentNodeIds": [
+          "M"
+        ],
+        "comments": [
+          {
+            "text": "White is attacking on the queenside, trying to open the c-file! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr3r/pbpqnp2/1p3p1b/2Pp4/8/4BNP1/PP2QPB1/2RR2K1 b - - 0 1",
+        "parentNodeId": "0",
+        "san": "c5"
+      },
+      "3p": {
+        "adjacentNodeIds": [
+          "uG"
+        ],
+        "comments": [
+          {
+            "text": "I played c6. My logic was that the c6 pawn prevents the advance of the c-pawn and it is also well-defended.\n\nIt also prepares b5, closing the queenside.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b6-b5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1k1r4/pb1qnp2/1pp2p1r/2Pp4/3N4/6P1/PP2QPB1/2RR2K1 w - - 0 4",
+        "parentNodeId": "al",
+        "san": "c6"
+      },
+      "An": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "I can now double rooks, and the h-file isn't as dead as in the game.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/pbpq1p2/1pn2p1r/1NPp4/8/6P1/PP2QPB1/2RR2K1 w - - 4 5",
+        "parentNodeId": "1j",
+        "san": "Rdh8"
+      },
+      "Bl": {
+        "adjacentNodeIds": [
+          "LB"
+        ],
+        "comments": [
+          {
+            "text": "He traded, opening up lines.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/1b1qnp2/p1p2p1r/1PPp4/1P1N4/5QP1/5PB1/2RR2K1 b - - 0 7",
+        "parentNodeId": "O9",
+        "san": "axb5"
+      },
+      "E": {
+        "adjacentNodeIds": [
+          "JQ"
+        ],
+        "comments": [
+          {
+            "text": "White traded on h6...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r3r/pbpqnp2/1p3p1B/2Pp4/8/5NP1/PP2QPB1/2RR2K1 b - - 0 2",
+        "parentNodeId": "M",
+        "san": "Bxh6"
+      },
+      "Ei": {
+        "adjacentNodeIds": [
+          "Oz"
+        ],
+        "comments": [
+          {
+            "text": "I brought my bishop to c8 because I had hopes of activating it somehow along the c8-h3 diagonal. \n\nUnfortunately, I didn't have enough time for this. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1kb4r/3qnp2/2p2p1r/1pPp4/1P1N4/5QP1/5PB1/R2R2K1 w - - 2 9",
+        "parentNodeId": "ex",
+        "san": "Bc8"
+      },
+      "Gk": {
+        "adjacentNodeIds": [
+          "2E"
+        ],
+        "comments": [
+          {
+            "text": "I chose to close the position here.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/pb1qnp2/2p2p1r/1pPp4/1P1N4/5QP1/P4PB1/2RR2K1 w - - 0 6",
+        "parentNodeId": "1l",
+        "san": "b5"
+      },
+      "HN": {
+        "adjacentNodeIds": [
+          "1l"
+        ],
+        "comments": [
+          {
+            "text": "I doubled rooks.\n\nUnfortunately, the g2 bishop defends White's position really well. \n\nIt seems GM Joey's idea of blocking the bishop was brilliant! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/pb1qnp2/1pp2p1r/2Pp4/1P1N4/6P1/P3QPB1/2RR2K1 w - - 1 5",
+        "parentNodeId": "uG",
+        "san": "Rdh8"
+      },
+      "Ip": {
+        "adjacentNodeIds": [
+          "is"
+        ],
+        "comments": [
+          {
+            "text": "I tried to trade my knight...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1kb4r/3q1p2/2p2p1r/1pPp1n2/1P1N4/5QP1/5PB1/R3R1K1 w - - 4 10",
+        "parentNodeId": "Oz",
+        "san": "Nf5"
+      },
+      "JQ": {
+        "adjacentNodeIds": [
+          "al"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r4/pbpqnp2/1p3p1r/2Pp4/8/5NP1/PP2QPB1/2RR2K1 w - - 0 3",
+        "parentNodeId": "E",
+        "san": "Rxh6"
+      },
+      "LB": {
+        "adjacentNodeIds": [
+          "ex"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured.\n\nThe a-file is now open! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/1b1qnp2/2p2p1r/1pPp4/1P1N4/5QP1/5PB1/2RR2K1 w - - 0 8",
+        "parentNodeId": "Bl",
+        "san": "axb5"
+      },
+      "M": {
+        "adjacentNodeIds": [
+          "E"
+        ],
+        "comments": [
+          {
+            "text": "I got my king out of the way.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r3r/pbpqnp2/1p3p1b/2Pp4/8/4BNP1/PP2QPB1/2RR2K1 w - - 1 2",
+        "parentNodeId": "3",
+        "san": "Kb8"
+      },
+      "O9": {
+        "adjacentNodeIds": [
+          "Bl"
+        ],
+        "comments": [
+          {
+            "text": "I defended.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1k5r/1b1qnp2/p1p2p1r/1pPp4/PP1N4/5QP1/5PB1/2RR2K1 w - - 0 7",
+        "parentNodeId": "2E",
+        "san": "a6"
+      },
+      "Oz": {
+        "adjacentNodeIds": [
+          "Ip"
+        ],
+        "comments": [
+          {
+            "text": "GM Joey immediately put the rook on the open e-file! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e1-e7",
+                "d4-c6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e7",
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1kb4r/3qnp2/2p2p1r/1pPp4/1P1N4/5QP1/5PB1/R3R1K1 b - - 3 9",
+        "parentNodeId": "Ei",
+        "san": "Re1"
+      },
+      "T0": {
+        "adjacentNodeIds": [
+          "gd"
+        ],
+        "comments": [
+          {
+            "text": "I moved the king up.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b4r/1k1q1p2/2p2p1r/1pPp1n2/1P1N1Q2/6P1/5PB1/R3R1K1 w - - 6 11",
+        "parentNodeId": "is",
+        "san": "Kb7"
+      },
+      "YE": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Checkmate is near.\n\nGM Joey demonstrated that when attacking the queenside, opening up the a, b or c-file is a key idea.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e7-d7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "7r/1k1bRp2/2p2p1r/1pPp1Q2/1P6/6P1/5PB1/R5K1 b - - 0 13",
+        "parentNodeId": "uH",
+        "san": "Qxf5"
+      },
+      "aT": {
+        "adjacentNodeIds": [
+          "1j"
+        ],
+        "comments": [
+          {
+            "text": "I should have challenged that strong d4 knight! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r4/pbpq1p2/1pn2p1r/2Pp4/3N4/6P1/PP2QPB1/2RR2K1 w - - 2 4",
+        "parentNodeId": "al",
+        "san": "Nc6"
+      },
+      "al": {
+        "adjacentNodeIds": [
+          "3p",
+          "aT"
+        ],
+        "comments": [
+          {
+            "text": "And he brought his knight to blockade the d-pawn, shutting my bishop out of the game! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k1r4/pbpqnp2/1p3p1r/2Pp4/3N4/6P1/PP2QPB1/2RR2K1 b - - 1 3",
+        "parentNodeId": "JQ",
+        "san": "Nd4"
+      },
+      "ex": {
+        "adjacentNodeIds": [
+          "Ei",
+          "tE"
+        ],
+        "comments": [
+          {
+            "text": "So of course, the rook was placed on the open file! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/1b1qnp2/2p2p1r/1pPp4/1P1N4/5QP1/5PB1/R2R2K1 b - - 1 8",
+        "parentNodeId": "LB",
+        "san": "Ra1"
+      },
+      "gd": {
+        "adjacentNodeIds": [
+          "lJ"
+        ],
+        "comments": [
+          {
+            "text": "White captured, distracting my queen...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b4r/1k1q1p2/2p2p1r/1pPp1N2/1P3Q2/6P1/5PB1/R3R1K1 b - - 0 11",
+        "parentNodeId": "T0",
+        "san": "Nxf5"
+      },
+      "is": {
+        "adjacentNodeIds": [
+          "T0"
+        ],
+        "comments": [
+          {
+            "text": "But Nf5 was a terrible idea. \n\nThis check is devastating.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1kb4r/3q1p2/2p2p1r/1pPp1n2/1P1N1Q2/6P1/5PB1/R3R1K1 b - - 5 10",
+        "parentNodeId": "Ip",
+        "san": "Qf4+"
+      },
+      "lJ": {
+        "adjacentNodeIds": [
+          "tp"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b4r/1k3p2/2p2p1r/1pPp1q2/1P3Q2/6P1/5PB1/R3R1K1 w - - 0 12",
+        "parentNodeId": "gd",
+        "san": "Qxf5"
+      },
+      "tE": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Defensive moves like Nc8 were more resilient.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1kn4r/1b1q1p2/2p2p1r/1pPp4/1P1N4/5QP1/5PB1/R2R2K1 w - - 2 9",
+        "parentNodeId": "ex",
+        "san": "Nc8"
+      },
+      "tp": {
+        "adjacentNodeIds": [
+          "uH"
+        ],
+        "comments": [
+          {
+            "text": "But this allows the rook to come in.\n\nI resigned.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b4r/1k2Rp2/2p2p1r/1pPp1q2/1P3Q2/6P1/5PB1/R5K1 b - - 1 12",
+        "parentNodeId": "lJ",
+        "san": "Re7+"
+      },
+      "uG": {
+        "adjacentNodeIds": [
+          "HN"
+        ],
+        "comments": [
+          {
+            "text": "GM Joey lended some support to his c5 pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1k1r4/pb1qnp2/1pp2p1r/2Pp4/1P1N4/6P1/P3QPB1/2RR2K1 b - b3 0 4",
+        "parentNodeId": "3p",
+        "san": "b4"
+      },
+      "uH": {
+        "adjacentNodeIds": [
+          "YE"
+        ],
+        "comments": [
+          {
+            "text": "Blocking with the bishop pins the queen's defender.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7r/1k1bRp2/2p2p1r/1pPp1q2/1P3Q2/6P1/5PB1/R5K1 w - - 2 13",
+        "parentNodeId": "tp",
+        "san": "Bd7"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

@@ -1,0 +1,71 @@
+{
+  "id": "4ce84b80-2b6d-4d49-8f85-b9edf7fa56a0",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "You're attacking the bishop on b4 with a3, but Black plays ...a5, sacrificing. \n\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Decline the sacrifice to keep the king safe.",
+        "feedback": {
+          "text": "Yes, this is the practical approach. You're not forced to take, and if you do take, your king will come under fire.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Accept the sacrifice (axb4), there's no danger.",
+        "feedback": {
+          "text": "There is some major danger along the a-file.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Accept the sacrifice, but give the material back somehow.",
+        "feedback": {
+          "text": "Accepting the sacrifice opens up the a-file and is tough to defend from a practical point of view.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1rb1nrk1/2q2ppp/p2p4/4p1B1/1bp1P3/P1N2P2/1PPQN1PP/K2R3R b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "a5",
+      "afterMoveFen": "1rb1nrk1/2q2ppp/3p4/p3p1B1/1bp1P3/P1N2P2/1PPQN1PP/K2R3R w - - 0 2"
+    }
+  },
+  "drill": null
+}

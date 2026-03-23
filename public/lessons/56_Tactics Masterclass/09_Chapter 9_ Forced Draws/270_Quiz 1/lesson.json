@@ -1,0 +1,67 @@
+{
+  "id": "79045ade-4928-40e9-ba2c-37e2a4b87b4b",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black threatens ...Rb2+ and ...Ra2+ perpetual, with an attack on our queen. \n\nHow should White avoid a draw?",
+    "answers": [
+      {
+        "text": "Keep the queen defended on the second rank (Qe2), we don’t mind if the rook captures our queen.",
+        "feedback": {
+          "text": "Exactly! We are up so much material that we can afford to trade the queen for our opponent's rook and win later.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f2-e2"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "We should save our queen, play Qe3 and threaten Black's c3-pawn.",
+        "feedback": {
+          "text": "Remember, Black has perpetual with ...Rb2+ and ...Ra2+!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Let's capture the rook. We are up so much material that we'll be able to win anyway.",
+        "feedback": {
+          "text": "This allows Black to get a dangerous passed pawn after ...cxd2, recapturing our queen. \n\nAnd since they have a light-squared bishop, we won't be able to stop the c-pawn.",
+          "arrows": {
+            "threats": [
+              "f2-d2"
+            ],
+            "opportunities": [
+              "c3-d2",
+              "d2-d1",
+              "b3-d1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3r4/1k4p1/1p3p2/p3pP1p/4P3/1bp5/5Q2/1KR2B2 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rd2",
+      "afterMoveFen": "8/1k4p1/1p3p2/p3pP1p/4P3/1bp5/3r1Q2/1KR2B2 w - - 2 2"
+    }
+  },
+  "drill": null
+}

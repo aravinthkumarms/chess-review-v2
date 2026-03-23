@@ -1,0 +1,53 @@
+{
+  "id": "c613cb3c-276b-4ce1-9941-bb756ffaefac",
+  "name": "Quiz castling",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Let's practice castling.\n\nTry to castle in as many ways as possible.",
+    "answers": [
+      {
+        "text": "O-O",
+        "feedback": {
+          "text": "Well played! This is called short side castling, or simply short castling.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r2qkb1r/1ppb1ppp/p1nppn2/8/3PP3/2NQBN2/PPP1BPPP/R4RK1 b kq - 1 2"
+      },
+      {
+        "text": "O-O-O",
+        "feedback": {
+          "text": "Good work. This is called long side castling, or simply long castling.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r2qkb1r/1ppb1ppp/p1nppn2/8/3PP3/2NQBN2/PPP1BPPP/2KR3R b kq - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "There are two possible castling moves. Your king should slide two squares to the right or left, and the rook should go around and next to it.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2qkb1r/pppb1ppp/2nppn2/8/3PP3/2NQBN2/PPP1BPPP/R3K2R b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "a6",
+      "afterMoveFen": "r2qkb1r/1ppb1ppp/p1nppn2/8/3PP3/2NQBN2/PPP1BPPP/R3K2R w KQkq - 0 2"
+    }
+  },
+  "drill": null
+}

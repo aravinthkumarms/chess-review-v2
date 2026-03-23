@@ -1,0 +1,43 @@
+{
+  "id": "34d0e217-ea11-4ae6-b21f-73b5693b23fc",
+  "name": "Quiz 6 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White recaptured on d3. \n\nWhite's king is still uncastled, so Black can go for ...Qe7+ to disrupt their coordination. \n\nShould Black go for it?",
+    "answers": [
+      {
+        "text": "No, it is not safe. Black's king is also still in the center.",
+        "feedback": {
+          "text": "Exactly, after ...Qe7+, White just moves the king and Re1 pin is threatened.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Black should go for it. White will have a hard time coordinating their pieces.",
+        "feedback": {
+          "text": "After ...Qe7+, our queen is aligned with our king. Is it really safe?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2qkb1r/1p1n1pp1/8/pPpp2Pp/3P1B1P/P2b1P1N/2P5/R2QK2R w KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qxd3",
+      "afterMoveFen": "r2qkb1r/1p1n1pp1/8/pPpp2Pp/3P1B1P/P2Q1P1N/2P5/R3K2R b KQkq - 0 1"
+    }
+  },
+  "drill": null
+}

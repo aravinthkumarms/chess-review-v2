@@ -1,0 +1,67 @@
+{
+  "id": "e226fcd6-fe74-4d32-8883-7f9a584677af",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White is one square from making a queen. \n\nIs ...Qxb5 a good move here?",
+    "answers": [
+      {
+        "text": "No, because it's a drawn endgame when White makes a queen as well.",
+        "feedback": {
+          "text": "Exactly. Letting White queen isn't a good idea.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, because even though White queens Black is a knight up.",
+        "feedback": {
+          "text": "A knight up isn't always enough to win in the endgame.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/6KP/1N6/2n5/3k4/8/1q6 w - - 1 1",
+    "arrows": {
+      "threats": [
+        "b1-b5"
+      ],
+      "opportunities": [
+        "h7-h8"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "b5"
+      ]
+    },
+    "contextMove": {
+      "san": "h7",
+      "afterMoveFen": "8/7P/6K1/1N6/2n5/3k4/8/1q6 b - - 0 1"
+    }
+  },
+  "drill": null
+}

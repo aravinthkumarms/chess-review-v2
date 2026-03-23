@@ -1,0 +1,833 @@
+{
+  "id": "96ee74e8-7180-456a-b462-c0928aa887fd",
+  "name": "Study: Making a Plan 1",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "w"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to the chapter on plans and the checklist! \n\nThis position is from a game played between GM Magnus Carlsen with White and GM Vahap Sanal with Black. \n\nMagnus brought his queen to b5, attacking b7, so Black pushed b6.\n\nMagnus here made a plan to maximize all his pieces: Qc6, Re1, Nf3-Ne5.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b5-c6",
+                "a1-e1",
+                "d2-f3",
+                "f3-e5"
+              ]
+            },
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/61942800591?tab=analysis",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b5-c6",
+                "a1-e1",
+                "d2-f3",
+                "f3-e5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q2k1/p1p2p1p/1p3bp1/1Q1p1n2/3P1B2/2P5/PP1N1PPP/R5K1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "09": {
+        "adjacentNodeIds": [
+          "yj"
+        ],
+        "comments": [
+          {
+            "text": "After the knight jumps to e5...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/p1p2p2/1p3k1p/3pNn2/3P2p1/P1P5/1P3PPP/4R1K1 b - - 1 8",
+        "parentNodeId": "hb",
+        "san": "Ne5"
+      },
+      "1m": {
+        "adjacentNodeIds": [
+          "mf"
+        ],
+        "comments": [
+          {
+            "text": "Qxd8",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3Q1r2/p1p2p1k/1p4pp/3pB3/3P1PPn/2P1R3/PP5P/6K1 b - - 0 10",
+        "parentNodeId": "8v",
+        "san": "Qxd8"
+      },
+      "3e": {
+        "adjacentNodeIds": [
+          "nS",
+          "yO"
+        ],
+        "comments": [
+          {
+            "text": "So the players traded...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pk1/1pQ3pp/3pB3/3P2Pn/2P5/PP3P1P/4R1K1 b - - 0 6",
+        "parentNodeId": "DU",
+        "san": "Bxe5+"
+      },
+      "6X": {
+        "adjacentNodeIds": [
+          "8z"
+        ],
+        "comments": [
+          {
+            "text": "And after Be5...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pk1/1pQ2b1p/3pBnp1/3P4/P1P2N2/1P3PPP/4R1K1 b - - 1 5",
+        "parentNodeId": "ZL",
+        "san": "Be5"
+      },
+      "6f": {
+        "adjacentNodeIds": [
+          "O5"
+        ],
+        "comments": [
+          {
+            "text": "And after the queen recaptures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/p1p3k1/1pQ2qpp/3p4/3P2Pn/2P5/PP3P1P/4R1K1 w - - 0 8",
+        "parentNodeId": "tg",
+        "san": "Qxf6"
+      },
+      "72": {
+        "adjacentNodeIds": [
+          "hb"
+        ],
+        "comments": [
+          {
+            "text": "And after the trades...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/p1p2pk1/1p3Q1p/3p1n2/3P2p1/P1P2N2/1P3PPP/4R1K1 b - - 0 7",
+        "parentNodeId": "N3",
+        "san": "Qxf6+"
+      },
+      "7e": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "h5, securing the knight's outpost on f5, was a good move.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2rq2k1/p1p2p2/1pQ2bp1/3p1n1p/3P1B2/2P5/PP1N1PPP/4R1K1 w - h6 0 3",
+        "parentNodeId": "z",
+        "san": "h5"
+      },
+      "7o": {
+        "adjacentNodeIds": [
+          "Pm"
+        ],
+        "comments": [
+          {
+            "text": "And Black wins the exchange.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p3k1/1pQ2ppp/3p4/3P2P1/2P3B1/PP3P1P/4nK2 w - - 0 9",
+        "parentNodeId": "cK",
+        "san": "Nxe1"
+      },
+      "8v": {
+        "adjacentNodeIds": [
+          "1m"
+        ],
+        "comments": [
+          {
+            "text": "Qd8, for example, allows:",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3q1r2/p1pQ1p1k/1p4pp/3pB3/3P1PPn/2P1R3/PP5P/6K1 w - - 1 10",
+        "parentNodeId": "mI",
+        "san": "Qd8"
+      },
+      "8z": {
+        "adjacentNodeIds": [
+          "xS"
+        ],
+        "comments": [
+          {
+            "text": "Black disrupts White's pieces. \n\nThe knight would love to jump to e5, but the bishop is there! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pk1/1pQ2b1p/3pBn2/3P2p1/P1P2N2/1P3PPP/4R1K1 w - - 0 6",
+        "parentNodeId": "6X",
+        "san": "g4"
+      },
+      "Bh": {
+        "adjacentNodeIds": [
+          "DU"
+        ],
+        "comments": [
+          {
+            "text": "But again, Magnus doesn't trade! \n\nRather, he jumps to e5, supporting g4.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pk1/1pQ2bpp/3pN3/3P1BPn/2P5/PP3P1P/4R1K1 b - - 2 5",
+        "parentNodeId": "DV",
+        "san": "Ne5"
+      },
+      "DU": {
+        "adjacentNodeIds": [
+          "3e"
+        ],
+        "comments": [
+          {
+            "text": "GM Vahap didn't like the knight there...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pk1/1pQ3pp/3pb3/3P1BPn/2P5/PP3P1P/4R1K1 w - - 0 6",
+        "parentNodeId": "Bh",
+        "san": "Bxe5"
+      },
+      "DV": {
+        "adjacentNodeIds": [
+          "Bh"
+        ],
+        "comments": [
+          {
+            "text": "The knight went to h4...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pk1/1pQ2bpp/3p4/3P1BPn/2P2N2/PP3P1P/4R1K1 w - - 1 5",
+        "parentNodeId": "Rf",
+        "san": "Nh4"
+      },
+      "IE": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And a nice fork on f6.\n\nAnd it all started with a simple plan: improve all of my pieces. \n\nIt then evolved to: what does my opponent want and how can I disturb that? The answer to that question was g4. \n\nAnd finally, Magnus covered against his opponent's threats of Nf3+ playing Re3 and he covered Qg5 with Qd7. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d8",
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r4/p1p2p1k/1p3Bpp/3p4/3P1PPn/2P1R3/PP5P/6K1 b - - 1 11",
+        "parentNodeId": "mf",
+        "san": "Bf6"
+      },
+      "J": {
+        "adjacentNodeIds": [
+          "z"
+        ],
+        "comments": [
+          {
+            "text": "Vahap defended his c7 pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2rq2k1/p1p2p1p/1pQ2bp1/3p1n2/3P1B2/2P5/PP1N1PPP/R5K1 w - - 3 2",
+        "parentNodeId": "w",
+        "san": "Rc8"
+      },
+      "Mf": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Because White captures this with check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q2k2/p1p5/1p3qpp/3p4/3P2Pn/2P5/PP3P1P/4R1K1 b - - 0 9",
+        "parentNodeId": "yx",
+        "san": "Qxc8+"
+      },
+      "N3": {
+        "adjacentNodeIds": [
+          "72"
+        ],
+        "comments": [
+          {
+            "text": "The queen would recapture...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/p1p2pk1/1pQ2q1p/3p1n2/3P2p1/P1P2N2/1P3PPP/4R1K1 w - - 0 7",
+        "parentNodeId": "xS",
+        "san": "Qxf6"
+      },
+      "O5": {
+        "adjacentNodeIds": [
+          "W4",
+          "yx"
+        ],
+        "comments": [
+          {
+            "text": "The rook is hanging! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c8",
+                "g7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r5/p1pQ2k1/1p3qpp/3p4/3P2Pn/2P5/PP3P1P/4R1K1 b - - 1 8",
+        "parentNodeId": "6f",
+        "san": "Qd7+"
+      },
+      "OV": {
+        "adjacentNodeIds": [
+          "mI"
+        ],
+        "comments": [
+          {
+            "text": "The rook went to f8, defending the pawn...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "5r2/p1pQ1p1k/1p4pp/3pB1q1/3P2Pn/2P1R3/PP3P1P/6K1 w - - 5 9",
+        "parentNodeId": "Ra",
+        "san": "Rf8"
+      },
+      "Pm": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "In fact, Black can even force a queen trade and they're just up an exchange.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d8-e8",
+                "c6-e8",
+                "c8-e8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p3k1/1pQ2ppp/3p4/3P2P1/2P3B1/PP3P1P/4K3 b - - 0 9",
+        "parentNodeId": "7o",
+        "san": "Kxe1"
+      },
+      "Ra": {
+        "adjacentNodeIds": [
+          "OV"
+        ],
+        "comments": [
+          {
+            "text": "Magnus responded with a one move solution that poses problems of its own: the queen defends g4, attacks the rook and the f7 pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c8",
+                "f7"
+              ],
+              "opportunities": [
+                "g4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2r5/p1pQ1p1k/1p4pp/3pB1q1/3P2Pn/2P1R3/PP3P1P/6K1 b - - 4 8",
+        "parentNodeId": "TA",
+        "san": "Qd7"
+      },
+      "Rf": {
+        "adjacentNodeIds": [
+          "DV"
+        ],
+        "comments": [
+          {
+            "text": "Instead, Magnus correctly saw that his opponent wanted g5. \n\nSo he didn't let Vahap achieve that but rather put immediate pressure on the knight! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pk1/1pQ2bpp/3p1n2/3P1BP1/2P2N2/PP3P1P/4R1K1 b - g3 0 4",
+        "parentNodeId": "bC",
+        "san": "g4"
+      },
+      "TA": {
+        "adjacentNodeIds": [
+          "Ra"
+        ],
+        "comments": [
+          {
+            "text": "The queen played a one move threat! \n\nRemember these? From the bad habits chapter? Even Grandmasters play them sometimes! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-g4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r5/p1p2p1k/1pQ3pp/3pB1q1/3P2Pn/2P1R3/PP3P1P/6K1 w - - 3 8",
+        "parentNodeId": "ms",
+        "san": "Qg5"
+      },
+      "W4": {
+        "adjacentNodeIds": [
+          "cJ"
+        ],
+        "comments": [
+          {
+            "text": "Qf7 runs into a pin.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/p1pQ1qk1/1p4pp/3p4/3P2Pn/2P5/PP3P1P/4R1K1 w - - 2 9",
+        "parentNodeId": "O5",
+        "san": "Qf7"
+      },
+      "ZL": {
+        "adjacentNodeIds": [
+          "6X"
+        ],
+        "comments": [
+          {
+            "text": "g5 is in the cards...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pk1/1pQ2b1p/3p1np1/3P1B2/P1P2N2/1P3PPP/4R1K1 w - - 0 5",
+        "parentNodeId": "lq",
+        "san": "g5"
+      },
+      "a7": {
+        "adjacentNodeIds": [
+          "vS"
+        ],
+        "comments": [
+          {
+            "text": "The king went to g7. The idea is to defend the bishop with another piece.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pkp/1pQ2bp1/3p1n2/3P1B2/2P5/PP1N1PPP/4R1K1 w - - 5 3",
+        "parentNodeId": "z",
+        "san": "Kg7"
+      },
+      "bC": {
+        "adjacentNodeIds": [
+          "Rf",
+          "lq"
+        ],
+        "comments": [
+          {
+            "text": "Black went h6, perhaps intending something like g5. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pk1/1pQ2bpp/3p1n2/3P1B2/2P2N2/PP3PPP/4R1K1 w - - 0 4",
+        "parentNodeId": "vS",
+        "san": "h6"
+      },
+      "cJ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White is winning...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/p1pQRqk1/1p4pp/3p4/3P2Pn/2P5/PP3P1P/6K1 b - - 3 9",
+        "parentNodeId": "W4",
+        "san": "Re7"
+      },
+      "cK": {
+        "adjacentNodeIds": [
+          "7o"
+        ],
+        "comments": [
+          {
+            "text": "The king moves to the side...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p3k1/1pQ2ppp/3p4/3P2P1/2P2nB1/PP3P1P/4RK2 b - - 3 8",
+        "parentNodeId": "vT",
+        "san": "Kf1"
+      },
+      "dO": {
+        "adjacentNodeIds": [
+          "vT"
+        ],
+        "comments": [
+          {
+            "text": "If Black only saw this variation, they have made the mistake of not using the checklist! \n\nThis isn't the only variation that exists! Bxf6+ had to be considered, not only the move that benefits you! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p3k1/1pQ2ppp/3p4/3P2Pn/2P3B1/PP3P1P/4R1K1 b - - 1 7",
+        "parentNodeId": "yO",
+        "san": "Bg3"
+      },
+      "hb": {
+        "adjacentNodeIds": [
+          "09"
+        ],
+        "comments": [
+          {
+            "text": "This is bad for Magnus because he's the one that had pressure in the position.\n\nNow, nearly all attackers are gone.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/p1p2p2/1p3k1p/3p1n2/3P2p1/P1P2N2/1P3PPP/4R1K1 w - - 0 8",
+        "parentNodeId": "72",
+        "san": "Kxf6"
+      },
+      "lq": {
+        "adjacentNodeIds": [
+          "ZL"
+        ],
+        "comments": [
+          {
+            "text": "So if Magnus just plays a useless move like a3...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pk1/1pQ2bpp/3p1n2/3P1B2/P1P2N2/1P3PPP/4R1K1 b - - 0 4",
+        "parentNodeId": "bC",
+        "san": "a3"
+      },
+      "mI": {
+        "adjacentNodeIds": [
+          "8v"
+        ],
+        "comments": [
+          {
+            "text": "And after f4, GM Vahap is lost. \n\nHe resigned.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r2/p1pQ1p1k/1p4pp/3pB1q1/3P1PPn/2P1R3/PP5P/6K1 b - f3 0 9",
+        "parentNodeId": "OV",
+        "san": "f4"
+      },
+      "mf": {
+        "adjacentNodeIds": [
+          "IE"
+        ],
+        "comments": [
+          {
+            "text": "Rxd8...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r4/p1p2p1k/1p4pp/3pB3/3P1PPn/2P1R3/PP5P/6K1 w - - 0 11",
+        "parentNodeId": "1m",
+        "san": "Rxd8"
+      },
+      "ms": {
+        "adjacentNodeIds": [
+          "TA"
+        ],
+        "comments": [
+          {
+            "text": "The rook was played to e3 to cover the f3 square.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2p1k/1pQ3pp/3pB3/3P2Pn/2P1R3/PP3P1P/6K1 b - - 2 7",
+        "parentNodeId": "nS",
+        "san": "Re3"
+      },
+      "nS": {
+        "adjacentNodeIds": [
+          "ms"
+        ],
+        "comments": [
+          {
+            "text": "And the king went to h7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2p1k/1pQ3pp/3pB3/3P2Pn/2P5/PP3P1P/4R1K1 w - - 1 7",
+        "parentNodeId": "3e",
+        "san": "Kh7"
+      },
+      "tg": {
+        "adjacentNodeIds": [
+          "6f"
+        ],
+        "comments": [
+          {
+            "text": "Magnus can take this! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p3k1/1pQ2Bpp/3p4/3P2Pn/2P5/PP3P1P/4R1K1 b - - 0 7",
+        "parentNodeId": "yO",
+        "san": "Bxf6+"
+      },
+      "vS": {
+        "adjacentNodeIds": [
+          "bC"
+        ],
+        "comments": [
+          {
+            "text": "Magnus improved his knight.\n\nNow it's going to e5.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-e5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pkp/1pQ2bp1/3p1n2/3P1B2/2P2N2/PP3PPP/4R1K1 b - - 6 3",
+        "parentNodeId": "a7",
+        "san": "Nf3"
+      },
+      "vT": {
+        "adjacentNodeIds": [
+          "cK"
+        ],
+        "comments": [
+          {
+            "text": "This does win for Black...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g1",
+                "e1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p3k1/1pQ2ppp/3p4/3P2P1/2P2nB1/PP3P1P/4R1K1 w - - 2 8",
+        "parentNodeId": "dO",
+        "san": "Nf3+"
+      },
+      "w": {
+        "adjacentNodeIds": [
+          "J"
+        ],
+        "comments": [
+          {
+            "text": "So Magnus went to c6, attacking c7.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a8",
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q2k1/p1p2p1p/1pQ2bp1/3p1n2/3P1B2/2P5/PP1N1PPP/R5K1 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Qc6"
+      },
+      "xS": {
+        "adjacentNodeIds": [
+          "N3"
+        ],
+        "comments": [
+          {
+            "text": "White would be forced to trade...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p2pk1/1pQ2B1p/3p1n2/3P2p1/P1P2N2/1P3PPP/4R1K1 b - - 0 6",
+        "parentNodeId": "8z",
+        "san": "Bxf6+"
+      },
+      "yO": {
+        "adjacentNodeIds": [
+          "tg",
+          "dO"
+        ],
+        "comments": [
+          {
+            "text": "It's important to show that if f6, attacking the bishop, Black is also threatening Nf3+, winning the exchange! \n\nBut this is a one move threat that whoever would have played it doesn't apply the checklist. \n\nIf you check captures, checks and attacks, you'll notice that there's Bxf6+ to consider as an immediate response. It seems defended but...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-e5",
+                "h4-f3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e5",
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rq4/p1p3k1/1pQ2ppp/3pB3/3P2Pn/2P5/PP3P1P/4R1K1 w - - 0 7",
+        "parentNodeId": "3e",
+        "san": "f6"
+      },
+      "yj": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The rook can come to defend, and White's pressure has been diminished greatly. \n\nBlack is on his way to defending this game! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "6r1/p1p2p2/1p3k1p/3pNn2/3P2p1/P1P5/1P3PPP/4R1K1 w - - 2 9",
+        "parentNodeId": "09",
+        "san": "Rg8"
+      },
+      "yx": {
+        "adjacentNodeIds": [
+          "Mf"
+        ],
+        "comments": [
+          {
+            "text": "The king going to the back rank also loses.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r2k2/p1pQ4/1p3qpp/3p4/3P2Pn/2P5/PP3P1P/4R1K1 w - - 2 9",
+        "parentNodeId": "O5",
+        "san": "Kf8"
+      },
+      "z": {
+        "adjacentNodeIds": [
+          "a7",
+          "7e"
+        ],
+        "comments": [
+          {
+            "text": "But now Carlsen brought his rook into the only open file. \n\nMany times masters don't necessarily think 10-15 moves ahead, though they can, but they just come up with little plans like improving their minor pieces, improving their rooks, etc. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq2k1/p1p2p1p/1pQ2bp1/3p1n2/3P1B2/2P5/PP1N1PPP/4R1K1 b - - 4 2",
+        "parentNodeId": "J",
+        "san": "Re1"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

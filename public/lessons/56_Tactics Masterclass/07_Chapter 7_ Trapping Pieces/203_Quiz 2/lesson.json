@@ -1,0 +1,68 @@
+{
+  "id": "92447e94-1cae-46d4-8a4f-371583efa8db",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black lines up their bishop & queen.\n\nIs there something wrong with the natural Ng1, preventing ...Bh3?",
+    "answers": [
+      {
+        "text": "Yes, White's queen is in trouble.",
+        "feedback": {
+          "text": "Excellent! ...Bg4 immediately wouldn't trap the queen (as there is Nxg4), but Black can instead start w/...Ng4 with the idea to trade off a defender of g4.",
+          "arrows": {
+            "threats": [
+              "f6-g4"
+            ],
+            "opportunities": [
+              "e2-g1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, Ng1 is an excellent move.",
+        "feedback": {
+          "text": "That's not quite right - one of White's pieces will run into trouble after Ng1.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, but there are better moves.",
+        "feedback": {
+          "text": "It is true that other moves (such as Kg1) are more useful, but there is something concretely wrong w/Ng1.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1r1q3r/3b1pk1/pp1p1nnp/2pPp1b1/P1P1P3/R3BQP1/1P2NPBN/4RK2 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e2-g1"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Qc8",
+      "afterMoveFen": "1rq4r/3b1pk1/pp1p1nnp/2pPp1b1/P1P1P3/R3BQP1/1P2NPBN/4RK2 w - - 2 2"
+    }
+  },
+  "drill": null
+}

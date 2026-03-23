@@ -1,0 +1,54 @@
+{
+  "id": "410865b2-ba8a-453d-88d7-c5f99b25389a",
+  "name": "Quiz 9",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black captures the queen.\n\nHow can you trap the knight?",
+    "answers": [
+      {
+        "text": "c4",
+        "feedback": {
+          "text": "Nice! The bishop cuts off the escape squares & the knight has no way out.",
+          "arrows": {
+            "threats": [
+              "f3-e2",
+              "e2-d1"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "d1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "7k/p5pp/1p6/2p1B3/2P2P2/P4K2/7P/3n4 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "There's a way to prevent Black's knight from escaping via ...Nb2.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "7k/p5pp/1p6/2p1B3/5P2/P1P1nK2/7P/3Q4 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxd1",
+      "afterMoveFen": "7k/p5pp/1p6/2p1B3/5P2/P1P2K2/7P/3n4 w - - 0 2"
+    }
+  },
+  "drill": null
+}

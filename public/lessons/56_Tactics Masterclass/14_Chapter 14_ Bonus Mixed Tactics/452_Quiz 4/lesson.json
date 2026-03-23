@@ -1,0 +1,72 @@
+{
+  "id": "a2fd3b98-f5bd-4c3a-9594-f6be33a3bd3b",
+  "name": "Quiz 4 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has e-file pressure. \n\nIs there something wrong with Bd2 to trade rooks?",
+    "answers": [
+      {
+        "text": "Yes, the queen gets trapped.",
+        "feedback": {
+          "text": "Exactly! ...Re2 seals the deal.",
+          "arrows": {
+            "threats": [
+              "e3-d2"
+            ],
+            "opportunities": [
+              "e7-e2"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "There’s nothing wrong. This is the best strategy to get rid of the strong rooks.",
+        "feedback": {
+          "text": "Is Black forced to trade the rooks if we move the bishop?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Bd2 is fine, but it’s better to insert fxg5 first.",
+        "feedback": {
+          "text": "The move fxg5 is a good one. In essence, you’re stalling. But Bd2 is not fine.",
+          "arrows": {
+            "threats": [
+              "e3-d2"
+            ],
+            "opportunities": [
+              "f4-g5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "5rk1/4r2p/p2b4/1p1p1ppq/3P1Pb1/2P1B1P1/PP3Q1P/R3RNK1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e3-d2"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Rfe8",
+      "afterMoveFen": "4r1k1/4r2p/p2b4/1p1p1ppq/3P1Pb1/2P1B1P1/PP3Q1P/R3RNK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

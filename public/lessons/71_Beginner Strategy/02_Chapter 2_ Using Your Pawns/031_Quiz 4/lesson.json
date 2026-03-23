@@ -1,0 +1,62 @@
+{
+  "id": "549c7c50-d97f-4176-bb5c-21bc93a9884c",
+  "name": "Quiz 4",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Which recapture is best for your structure?",
+    "answers": [
+      {
+        "text": "Rxf3",
+        "feedback": {
+          "text": "Correct! \n\nYou recapture with the rook and your pawn island remains intact. 3 pawns that could defend each other at any given moment.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f2",
+              "g2",
+              "h2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "3r1rk1/pp3ppp/1q3n2/8/8/2N2R2/PP3PPP/1RQ3K1 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "gxf3",
+        "feedback": {
+          "text": "Unfortunately, this creates doubled pawns. Doubled pawns are easier to attack. Besides, the g-file becomes open and your king can be attacked as well!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "f2",
+              "f3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "3r1rk1/pp3ppp/1q3n2/8/8/2N1RP2/PP3P1P/1RQ3K1 b - - 0 2"
+      }
+    ],
+    "positionFen": "3r1rk1/pp3ppp/1q3n2/8/3n4/2N1RB2/PP3PPP/1RQ3K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxf3+",
+      "afterMoveFen": "3r1rk1/pp3ppp/1q3n2/8/8/2N1Rn2/PP3PPP/1RQ3K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

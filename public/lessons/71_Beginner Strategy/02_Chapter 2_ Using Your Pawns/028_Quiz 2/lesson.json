@@ -1,0 +1,78 @@
+{
+  "id": "88df8471-79f1-4f4b-bc11-9a892480e1e8",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "This is a London Opening. \n\nWhat square does White control thanks to the pawns?",
+    "answers": [
+      {
+        "text": "The e5-square.",
+        "feedback": {
+          "text": "Correct!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d4-e5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The e4-square.",
+        "feedback": {
+          "text": "It is actually Black who controls it.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d5-e4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "The b3-square.",
+        "feedback": {
+          "text": "Yes, White controls b3 but it isn't relevant. The same can be said for Black: they control b6.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "b3"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkb1r/ppp2ppp/4pn2/3p4/3P1B2/4PN2/PPP2PPP/RN1QKB1R b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Be7",
+      "afterMoveFen": "rnbqk2r/ppp1bppp/4pn2/3p4/3P1B2/4PN2/PPP2PPP/RN1QKB1R w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,58 @@
+{
+  "id": "41185411-2b7b-45bc-bdf3-45eb1d33b56d",
+  "name": "Quiz 43 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black develops the knight. \n\nThere are two ways to continue this attack. Can you spot them?",
+    "answers": [
+      {
+        "text": "g4",
+        "feedback": {
+          "text": "Good job! That's a strong way to continue the attack.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r6r/p3qpp1/bpn1pb1k/2pp2NP/3P1PP1/2P1PN2/PPQ5/R3K2R b KQ g3 0 2"
+      },
+      {
+        "text": "Nxf7+",
+        "feedback": {
+          "text": "Nice! Preparing to push g4.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g2-g4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r6r/p3qNp1/bpn1pb1k/2pp3P/3P1P2/2P1PN2/PPQ3P1/R3K2R b KQ - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you expand on the kingside, or prepare it?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rn5r/p3qpp1/bp2pb1k/2pp2NP/3P1P2/2P1PN2/PPQ3P1/R3K2R b KQ - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nc6",
+      "afterMoveFen": "r6r/p3qpp1/bpn1pb1k/2pp2NP/3P1P2/2P1PN2/PPQ3P1/R3K2R w KQ - 2 2"
+    }
+  },
+  "drill": null
+}

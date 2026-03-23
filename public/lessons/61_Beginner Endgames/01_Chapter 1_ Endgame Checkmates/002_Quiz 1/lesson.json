@@ -1,0 +1,43 @@
+{
+  "id": "480ef331-5940-421f-9924-11d6adc85bf1",
+  "name": "Quiz 1 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "You have two queens in the endgame. \n\nCan you spot checkmate in one?",
+    "answers": [
+      {
+        "text": "Qc8#",
+        "feedback": {
+          "text": "Great job! This is checkmate!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "2Q1k3/Q4r2/8/8/8/8/8/3K4 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Do you remember the ladder checkmate? Make sure the rook cannot block it!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4k3/Q7/8/5r2/6Q1/8/8/3K4 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rf7",
+      "afterMoveFen": "4k3/Q4r2/8/8/6Q1/8/8/3K4 w - - 2 2"
+    }
+  },
+  "drill": null
+}

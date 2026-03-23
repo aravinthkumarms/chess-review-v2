@@ -1,0 +1,65 @@
+{
+  "id": "77937dac-b5cf-4008-b00f-14268aeccf9e",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White jumps the knight into b4.\n\nCan you force a skewer from here?",
+    "answers": [
+      {
+        "text": "Yes, a skewer can be forced but Black needs to prepare it first.",
+        "feedback": {
+          "text": "Excellent! Black can play ...Qc1+ & follow up w/...Bc4 on the next move.",
+          "arrows": {
+            "threats": [
+              "b2-c1",
+              "e6-c4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "d3",
+              "e2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, no skewer is possible here.",
+        "feedback": {
+          "text": "That's incorrect. There is a way for Black to expose the lineup of White's queen and rook. Give it another shot!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Maybe, a skewer exists but White would have to blunder.",
+        "feedback": {
+          "text": "Not quite. A skewer does exist in this position, but White doesn't have to blunder for it to happen on the board.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4r1k1/5pp1/p3bn1p/4p3/4P1P1/1p1Q3P/1qN1RPB1/6K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nb4",
+      "afterMoveFen": "4r1k1/5pp1/p3bn1p/4p3/1N2P1P1/1p1Q3P/1q2RPB1/6K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

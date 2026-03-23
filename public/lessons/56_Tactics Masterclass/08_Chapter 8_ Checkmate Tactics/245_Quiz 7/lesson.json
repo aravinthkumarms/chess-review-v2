@@ -1,0 +1,52 @@
+{
+  "id": "76094b12-4c67-4204-aefc-19fb5d731e53",
+  "name": "Quiz 7",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black moves their king to f7.",
+    "answers": [
+      {
+        "text": "Bg6+",
+        "feedback": {
+          "text": "Excellent! Qe7 or Qh5 (if the King captures) will both be checkmate.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c5-e7",
+              "c5-h5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r5q1/pp1b1kr1/2p2pB1/2Q5/2Pp4/1P4NP/P4P2/4RK2 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "It is White to move and play checkmate in 2. \n\nWhat is the first move of the sequence?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r4kq1/pp1b2r1/2p2p2/2Q5/2PpB3/1P4NP/P4P2/4RK2 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kf7",
+      "afterMoveFen": "r5q1/pp1b1kr1/2p2p2/2Q5/2PpB3/1P4NP/P4P2/4RK2 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,88 @@
+{
+  "id": "8b877600-deee-4bc5-89d2-cfe2295f1280",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White didn't have a plan, so they were just moving the queen back and forth. \n\nFor Black, is there something wrong here with ...Nxf2?",
+    "answers": [
+      {
+        "text": "Yes, White has a tactical way to punish this.",
+        "feedback": {
+          "text": "If ...Nxf2, d5 can be played and the e6-pawn, the queen on c6 and the knight on f2 come under fire. Black would lose something for sure.",
+          "arrows": {
+            "threats": [
+              "e4-f2",
+              "d4-d5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "f2"
+            ],
+            "opportunities": [
+              "c5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "There's nothing wrong with ...Nxf2, there's no tactic.",
+        "feedback": {
+          "text": "Are you sure?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, the knight gets trapped.",
+        "feedback": {
+          "text": "Are you sure? It could reasonably come back to e4. There's got to be something else or there's nothing wrong.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1Q6/5kp1/2q1p2p/2B2p2/p2Pn3/P6P/5PPK/8 w - - 1 1",
+    "arrows": {
+      "threats": [
+        "e4-f2"
+      ],
+      "opportunities": []
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "f2"
+      ]
+    },
+    "contextMove": {
+      "san": "Qe5",
+      "afterMoveFen": "8/5kp1/2q1p2p/2B1Qp2/p2Pn3/P6P/5PPK/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

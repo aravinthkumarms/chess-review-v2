@@ -1,0 +1,80 @@
+{
+  "id": "f3508771-4345-475e-9640-e892b1b386bb",
+  "name": "Quiz 5",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...g4 to grab more space on the kingside.\n\nWhy is that a bad move?",
+    "answers": [
+      {
+        "text": "Bf4",
+        "feedback": {
+          "text": "Excellent! Once the rook moves, there is d6 and d7!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d5-d6",
+              "d6-d7",
+              "e5-e8",
+              "c7-d8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c7",
+              "c8",
+              "b8"
+            ],
+            "opportunities": [
+              "f4"
+            ]
+          }
+        },
+        "comment": "attacking the rook on e5.",
+        "afterMoveFen": "1rk5/1pb5/5p2/PR1Pr3/3p1Bp1/6P1/2P2P2/1R3K2 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rc5",
+        "feedback": {
+          "text": "Also a good move, but you have to find the move that makes this move good!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "pinning the bishop on c7.",
+        "afterMoveFen": "1rk5/1pb5/5p2/P1RPr3/3p2p1/6P1/2PB1P2/1R3K2 b - - 1 2"
+      },
+      {
+        "text": "a6",
+        "feedback": {
+          "text": "What's the follow-up if Black captures?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "challenging the pawn on b7.",
+        "afterMoveFen": "1rk5/1pb5/P4p2/1R1Pr3/3p2p1/6P1/2PB1P2/1R3K2 b - - 0 2"
+      },
+      {
+        "text": "Re1",
+        "feedback": {
+          "text": "There's a tactic that wins material instead!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "offering a trade of rooks.",
+        "afterMoveFen": "1rk5/1pb5/5p2/PR1Pr3/3p2p1/6P1/2PB1P2/4RK2 b - - 1 2"
+      }
+    ],
+    "positionFen": "1rk5/1pb5/5p2/PR1Pr1p1/3p4/6P1/2PB1P2/1R3K2 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "g4",
+      "afterMoveFen": "1rk5/1pb5/5p2/PR1Pr3/3p2p1/6P1/2PB1P2/1R3K2 w - - 0 2"
+    }
+  },
+  "drill": null
+}

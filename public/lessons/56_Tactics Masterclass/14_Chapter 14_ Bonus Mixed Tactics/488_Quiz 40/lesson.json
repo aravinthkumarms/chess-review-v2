@@ -1,0 +1,93 @@
+{
+  "id": "5b18f365-1089-4855-9282-515801088789",
+  "name": "Quiz 40",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black blocks the check with the rook.\n\nWhat's the best queen move here for White?",
+    "answers": [
+      {
+        "text": "Qb8",
+        "feedback": {
+          "text": "Excellent! Black can't stop all the checkmate threats.\n\nThe best move sequence for Black here is ...Ka5 Qd8+ Ka4 Rb4+ and Black loses the queen.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "sliding the queen to b8.",
+        "afterMoveFen": "1Q6/8/k1r5/3p4/2q4p/P1p4P/P1P5/KR6 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Qd8",
+        "feedback": {
+          "text": "Black can play ...Rc7 and stop all the threats. Qa8+ leads to ...Ra7, blocking, and Black is not completely lost.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c6-c7"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "moving the queen to d8.",
+        "afterMoveFen": "3Q4/8/k1r5/3p4/2q4p/P1p4P/P1P5/KR6 b - - 3 2"
+      },
+      {
+        "text": "Qf8",
+        "feedback": {
+          "text": "Black can chase the queen away with ...Rc8 and there isn't much White can do to win directly.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c6-c8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "getting the queen to f8.",
+        "afterMoveFen": "5Q2/8/k1r5/3p4/2q4p/P1p4P/P1P5/KR6 b - - 3 2"
+      },
+      {
+        "text": "Qd7",
+        "feedback": {
+          "text": "Black can play ...Rb6 and offer a trade of rooks, and White loses all the advantage.\n\nThere are no threats.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c6-b6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "trying to instigate matters from the d7-square.",
+        "afterMoveFen": "8/3Q4/k1r5/3p4/2q4p/P1p4P/P1P5/KR6 b - - 3 2"
+      }
+    ],
+    "positionFen": "8/2r5/k2Q4/3p4/2q4p/P1p4P/P1P5/KR6 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rc6",
+      "afterMoveFen": "8/8/k1rQ4/3p4/2q4p/P1p4P/P1P5/KR6 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,107 @@
+{
+  "id": "d3f952f3-47a3-4a9d-ae2b-587835407700",
+  "name": "Quiz 19",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gets closer to the pawn. Think about key squares and if the pawn can be caught by the king here.\n\nWhich move wins?",
+    "answers": [
+      {
+        "text": "Kb7",
+        "feedback": {
+          "text": "There are two key squares for the rook's pawn: b7 and b8. But only b7 in this scenario gets close enough to defend the pawn and prevent the black king from winning it.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a5-a6",
+              "a6-a7",
+              "a7-a8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "b7",
+              "b8"
+            ]
+          }
+        },
+        "comment": "going into the b7 key square.",
+        "afterMoveFen": "8/1K6/8/P1k5/8/8/8/8 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kb8",
+        "feedback": {
+          "text": "Yes, b8 is a key square in theory. But in this example the black king can get very close to the pawn and win it.",
+          "arrows": {
+            "threats": [
+              "c5-b5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "a5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "going into the b8 key square.",
+        "afterMoveFen": "1K6/8/8/P1k5/8/8/8/8 b - - 3 2"
+      },
+      {
+        "text": "a6",
+        "feedback": {
+          "text": "This would be a draw because the king catches the pawn.",
+          "arrows": {
+            "threats": [
+              "c5-b6"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "a6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "pushing the pawn.",
+        "afterMoveFen": "2K5/8/P7/2k5/8/8/8/8 b - - 0 2"
+      },
+      {
+        "text": "Kc7",
+        "feedback": {
+          "text": "The opposition isn't something you should go for automatically but only with the purpose of defending against enemy progress or to achieve progress of your own. Here, the opposition is irrelevant because Black wants to go take the pawn, which they can perfectly do by moving sideways.",
+          "arrows": {
+            "threats": [
+              "c5-b5",
+              "b5-a6"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "a5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "taking the opposition.",
+        "afterMoveFen": "8/2K5/8/P1k5/8/8/8/8 b - - 3 2"
+      }
+    ],
+    "positionFen": "2K5/8/8/P7/3k4/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kc5",
+      "afterMoveFen": "2K5/8/8/P1k5/8/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

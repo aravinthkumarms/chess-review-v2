@@ -1,0 +1,48 @@
+{
+  "id": "0515e7fc-9565-4ba0-a5d8-a0a68692982d",
+  "name": "Quiz: Back-Rank Mate in one (queen)",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black puts the queen on f4 and attacks your knight.\n\nCan you spot the checkmate?",
+    "answers": [
+      {
+        "text": "Qc8#",
+        "feedback": {
+          "text": "The queen moves diagonally and delivers mate. Nice!",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "g8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "2Q3k1/r4ppp/8/8/3n1q2/1P6/P1PN4/K1R5 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Has Black forgotten about a back-rank checkmate?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1q4k1/r4ppp/8/8/3n4/1P5Q/P1PN4/K1R5 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qf4",
+      "afterMoveFen": "6k1/r4ppp/8/8/3n1q2/1P5Q/P1PN4/K1R5 w - - 2 2"
+    }
+  },
+  "drill": null
+}

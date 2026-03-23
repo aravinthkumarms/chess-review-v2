@@ -1,0 +1,63 @@
+{
+  "id": "936db8f4-839d-4104-8905-64d1ae225276",
+  "name": "Quiz 5",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Think about pawn breaks in the current position. \n\nWhat should you play?",
+    "answers": [
+      {
+        "text": "d4",
+        "feedback": {
+          "text": "This is the best move to open up your pieces!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "putting a pawn in the center and opening up the c1 bishop.",
+        "afterMoveFen": "r1bqk2r/4bppp/p2p1n2/npp1p3/3PP3/2P2N2/PPB2PPP/RNBQR1K1 b kq d3 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Na3",
+        "feedback": {
+          "text": "This square isn't the most active. It's on the edge of the board!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "developing the knight to an active square.",
+        "afterMoveFen": "r1bqk2r/4bppp/p2p1n2/npp1p3/4P3/N1P2N2/PPBP1PPP/R1BQR1K1 b kq - 1 2"
+      },
+      {
+        "text": "Qe2",
+        "feedback": {
+          "text": "The e4-pawn doesn't need another defender!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "defending the e4-pawn.",
+        "afterMoveFen": "r1bqk2r/4bppp/p2p1n2/npp1p3/4P3/2P2N2/PPBPQPPP/RNB1R1K1 b kq - 1 2"
+      },
+      {
+        "text": "b4",
+        "feedback": {
+          "text": "This move is not the main pawn break: you want to play in the center.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "pawn break on the queenside.",
+        "afterMoveFen": "r1bqk2r/4bppp/p2p1n2/npp1p3/1P2P3/2P2N2/P1BP1PPP/RNBQR1K1 b kq b3 0 2"
+      }
+    ],
+    "positionFen": "r1bqk2r/2p1bppp/p2p1n2/np2p3/4P3/2P2N2/PPBP1PPP/RNBQR1K1 b kq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "c5",
+      "afterMoveFen": "r1bqk2r/4bppp/p2p1n2/npp1p3/4P3/2P2N2/PPBP1PPP/RNBQR1K1 w kq c6 0 2"
+    }
+  },
+  "drill": null
+}

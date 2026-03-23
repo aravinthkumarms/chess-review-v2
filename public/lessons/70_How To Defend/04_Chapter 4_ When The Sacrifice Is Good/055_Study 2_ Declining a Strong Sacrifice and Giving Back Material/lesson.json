@@ -1,0 +1,386 @@
+{
+  "id": "b28c36f5-f9f7-4bed-9b29-bed7d95adc76",
+  "name": "Study 2: Declining a Strong Sacrifice and Giving Back Material",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "a",
+          "v"
+        ],
+        "comments": [
+          {
+            "text": "This game was sent by one of my subscribers. \n\nBlack is up 2 points of material (they're up an exchange). In situations like these, you should simplify to avoid danger. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rn2k1/1pq2p1p/p3p1p1/2NpP1NP/PPnP4/3QB3/5PP1/6K1 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0D": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And there's simply no good way to avoid material loss when trying to defend the checkmate. \n\nThe other variations, although less obvious than ...fxe6, were the only moves that didn't lose right away.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-f6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r4k/1pq5/p1n1p1Q1/2NpP1B1/PPnP4/8/5PP1/6K1 b - - 2 5",
+        "parentNodeId": "M0",
+        "san": "Bg5"
+      },
+      "0P": {
+        "adjacentNodeIds": [
+          "fd"
+        ],
+        "comments": [
+          {
+            "text": "So imagine the knight takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rn2k1/2q2p1p/Np2p1p1/3pP1NP/PP1P4/4Q3/5PP1/6K1 b - - 0 3",
+        "parentNodeId": "Eq",
+        "san": "Nxa6"
+      },
+      "1": {
+        "adjacentNodeIds": [
+          "Eq"
+        ],
+        "comments": [
+          {
+            "text": "And after the queen trade...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rn2k1/1pq2p1p/p3p1p1/2NpP1NP/PP1P4/4Q3/5PP1/6K1 b - - 0 2",
+        "parentNodeId": "v",
+        "san": "Qxe3"
+      },
+      "5K": {
+        "adjacentNodeIds": [
+          "kh"
+        ],
+        "comments": [
+          {
+            "text": "White captured on g6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r3k1/1pq2p1p/p1n1p1P1/2NpP1N1/PPnP4/3QB3/5PP1/6K1 b - - 0 2",
+        "parentNodeId": "a",
+        "san": "hxg6"
+      },
+      "5e": {
+        "adjacentNodeIds": [
+          "8I"
+        ],
+        "comments": [
+          {
+            "text": "...Nxb4 was still possible, attacking the queen. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r3k1/1pq2p2/p3N1p1/2NpP3/PnnP4/3QB3/5PP1/6K1 w - - 0 4",
+        "parentNodeId": "xm",
+        "san": "Nxb4"
+      },
+      "8I": {
+        "adjacentNodeIds": [
+          "DI"
+        ],
+        "comments": [
+          {
+            "text": "If the queen had gone to b1...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r3k1/1pq2p2/p3N1p1/2NpP3/PnnP4/4B3/5PP1/1Q4K1 b - - 1 4",
+        "parentNodeId": "5e",
+        "san": "Qb1"
+      },
+      "Cu": {
+        "adjacentNodeIds": [
+          "gp"
+        ],
+        "comments": [
+          {
+            "text": "In the game, Black accepted the sacrifice. \n\nThis was a blunder that handed the win on a silver platter to White.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r3k1/1pq5/p1n1p1p1/2NpP3/PPnP4/3QB3/5PP1/6K1 w - - 0 4",
+        "parentNodeId": "xm",
+        "san": "fxe6"
+      },
+      "DI": {
+        "adjacentNodeIds": [
+          "Uo"
+        ],
+        "comments": [
+          {
+            "text": "The queen now has a square on c6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r3k1/1p3p2/p1q1N1p1/2NpP3/PnnP4/4B3/5PP1/1Q4K1 w - - 2 5",
+        "parentNodeId": "8I",
+        "san": "Qc6"
+      },
+      "Eq": {
+        "adjacentNodeIds": [
+          "0P"
+        ],
+        "comments": [
+          {
+            "text": "Black can even afford to give up some material if it means they'll simplify and get out of danger! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c5-a6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rn2k1/2q2p1p/pp2p1p1/2NpP1NP/PP1P4/4Q3/5PP1/6K1 w - - 0 3",
+        "parentNodeId": "1",
+        "san": "b6"
+      },
+      "IL": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And Black takes some pawns for the piece. On e5, the queen is better placed to defend against White's strong pieces. \n\nBlack has a rook for two pieces, so the material situation isn't strictly losing. \n\nWhite isn't crushing through with Qxg6+ any time soon! ",
+            "arrows": {
+              "threats": [
+                "c6-b4",
+                "d5-d4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b4",
+                "c8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2r3k1/1p3p2/p1n1N1p1/2Npq3/PP6/3QB3/5PP1/6K1 w - - 0 5",
+        "parentNodeId": "VA",
+        "san": "Qxe5"
+      },
+      "Iu": {
+        "adjacentNodeIds": [
+          "VA"
+        ],
+        "comments": [
+          {
+            "text": "This was another potential defense. \n\nIt gives up material, but it tries to hold things together.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r3k1/1pq2p2/p1n1N1p1/2Npn3/PP1P4/3QB3/5PP1/6K1 w - - 0 4",
+        "parentNodeId": "xm",
+        "san": "N4xe5"
+      },
+      "Jj": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Now it's a bit safer to take on e6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r3k1/1p6/p1q1p1p1/2NpP3/PQnP4/4B3/5PP1/6K1 w - - 0 6",
+        "parentNodeId": "Uo",
+        "san": "fxe6"
+      },
+      "M0": {
+        "adjacentNodeIds": [
+          "0D"
+        ],
+        "comments": [
+          {
+            "text": "The king went to h8. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r4k/1pq5/p1n1p1Q1/2NpP3/PPnP4/4B3/5PP1/6K1 w - - 1 5",
+        "parentNodeId": "gp",
+        "san": "Kh8"
+      },
+      "Uo": {
+        "adjacentNodeIds": [
+          "Jj"
+        ],
+        "comments": [
+          {
+            "text": "And if White takes on b4...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r3k1/1p3p2/p1q1N1p1/2NpP3/PQnP4/4B3/5PP1/6K1 b - - 0 5",
+        "parentNodeId": "DI",
+        "san": "Qxb4"
+      },
+      "VA": {
+        "adjacentNodeIds": [
+          "IL"
+        ],
+        "comments": [
+          {
+            "text": "White recaptures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r3k1/1pq2p2/p1n1N1p1/2NpP3/PP6/3QB3/5PP1/6K1 b - - 0 4",
+        "parentNodeId": "Iu",
+        "san": "dxe5"
+      },
+      "a": {
+        "adjacentNodeIds": [
+          "5K"
+        ],
+        "comments": [
+          {
+            "text": "Black brought their knight to c6, trying to activate their worst piece. \n\nThis has some strategic merit but it's tactically flawed. \n\nBlack should have simplified.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r3k1/1pq2p1p/p1n1p1p1/2NpP1NP/PPnP4/3QB3/5PP1/6K1 w - - 2 2",
+        "parentNodeId": "0",
+        "san": "Nc6"
+      },
+      "fd": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "This move guarantees a queen trade.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e3",
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rn2k1/5p1p/Np2p1p1/3pP1NP/PP1P4/4Q3/5PP1/2q3K1 w - - 1 4",
+        "parentNodeId": "0P",
+        "san": "Qc1+"
+      },
+      "gp": {
+        "adjacentNodeIds": [
+          "M0"
+        ],
+        "comments": [
+          {
+            "text": "White gave a check. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r3k1/1pq5/p1n1p1Q1/2NpP3/PPnP4/4B3/5PP1/6K1 b - - 0 4",
+        "parentNodeId": "Cu",
+        "san": "Qxg6+"
+      },
+      "kh": {
+        "adjacentNodeIds": [
+          "xm"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptured. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r3k1/1pq2p2/p1n1p1p1/2NpP1N1/PPnP4/3QB3/5PP1/6K1 w - - 0 3",
+        "parentNodeId": "5K",
+        "san": "hxg6"
+      },
+      "v": {
+        "adjacentNodeIds": [
+          "1"
+        ],
+        "comments": [
+          {
+            "text": "This move simplified the position. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rn2k1/1pq2p1p/p3p1p1/2NpP1NP/PP1P4/3Qn3/5PP1/6K1 w - - 0 2",
+        "parentNodeId": "0",
+        "san": "Nxe3"
+      },
+      "xm": {
+        "adjacentNodeIds": [
+          "Cu",
+          "5e",
+          "Iu"
+        ],
+        "comments": [
+          {
+            "text": "And White played a strong sacrifice on e6! \n\nThis sacrifice cannot be accepted because it simply implies an immediate and easy win. We certainly don't want to hand out the easiest wins to our opponents. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r3k1/1pq2p2/p1n1N1p1/2NpP3/PPnP4/3QB3/5PP1/6K1 b - - 0 3",
+        "parentNodeId": "kh",
+        "san": "Ngxe6"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

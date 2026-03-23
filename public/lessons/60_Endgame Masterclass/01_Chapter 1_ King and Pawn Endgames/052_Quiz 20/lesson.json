@@ -1,0 +1,88 @@
+{
+  "id": "b1f7dc0b-0d3b-42a1-aaac-eff953f2cc88",
+  "name": "Quiz 20",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Oh no! Black has the opposition. The kings face each other and it's White to move. \n\nIs this winning for Black and if not why?",
+    "answers": [
+      {
+        "text": "It's not winning because the f4-pawn controls the invasion square e5.",
+        "feedback": {
+          "text": "Exactly. Kc4 can be played and Black cannot invade.",
+          "arrows": {
+            "threats": [
+              "f4-e5"
+            ],
+            "opportunities": [
+              "d4-c4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, this is winning for Black.",
+        "feedback": {
+          "text": "Are you sure? After Kc4, how does Black invade?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d4-c4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It's not winning because White will defend the pawns with their king (Ke3 or Kd3 for example.",
+        "feedback": {
+          "text": "Moving back with the king to try to defend the pawns and allowing the black king entry is losing for White.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d4-e3",
+              "d4-d3",
+              "d4-c3",
+              "d6-c5",
+              "d6-d5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/7p/4k1p1/5pP1/3K1P1P/8/8/8 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": []
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Kd6",
+      "afterMoveFen": "8/7p/3k2p1/5pP1/3K1P1P/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

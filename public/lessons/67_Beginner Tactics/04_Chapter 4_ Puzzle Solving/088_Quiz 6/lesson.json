@@ -1,0 +1,92 @@
+{
+  "id": "89857487-c140-4a12-a473-a9a9a6a5255d",
+  "name": "Quiz 6",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has taken on d1. \n\nIf White takes the queen, what tactic do they allow?",
+    "answers": [
+      {
+        "text": "A fork.",
+        "feedback": {
+          "text": "Yes, ...Nf2+ would recover the lost queen.",
+          "arrows": {
+            "threats": [
+              "e1-d1"
+            ],
+            "opportunities": [
+              "e4-f2"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h1",
+              "d1"
+            ],
+            "opportunities": [
+              "d1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A pin.",
+        "feedback": {
+          "text": "While ...Rc1 is a pin, the queen can just take that rook because nothing defends it.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c8-c1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "A discovered attack.",
+        "feedback": {
+          "text": "All long range pieces are open, so no discovered attacks are possible here.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r3k1/5p1p/b3N1p1/p2p4/4nP2/P6P/6P1/2qNQ2K b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e1-d1"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "d1"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qxd1",
+      "afterMoveFen": "2r3k1/5p1p/b3N1p1/p2p4/4nP2/P6P/6P1/3qQ2K w - - 0 2"
+    }
+  },
+  "drill": null
+}

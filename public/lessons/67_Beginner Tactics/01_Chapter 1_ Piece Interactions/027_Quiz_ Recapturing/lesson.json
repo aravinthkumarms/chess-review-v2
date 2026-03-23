@@ -1,0 +1,62 @@
+{
+  "id": "abf91c62-257e-4117-a4cd-6bafba4ea578",
+  "name": "Quiz: Recapturing",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White captured on a6. \n\nIn a game, Black played ...Rxa6. \n\nIs there a problem with ...Rxa6?",
+    "answers": [
+      {
+        "text": "Yes, there's a problem.",
+        "feedback": {
+          "text": "Exactly. Rxb8+ is the problem.",
+          "arrows": {
+            "threats": [
+              "b1-b8"
+            ],
+            "opportunities": [
+              "a8-a6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "a6",
+              "b8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No problem at all.",
+        "feedback": {
+          "text": "Are you sure? Does ...Rxa6 leave a piece undefended?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rn2k1n1/5pr1/b4q2/2bp3p/P2p2p1/8/N3BPPP/1RBQNRK1 w q - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bxa6",
+      "afterMoveFen": "rn2k1n1/5pr1/B4q2/2bp3p/P2p2p1/8/N4PPP/1RBQNRK1 b q - 0 1"
+    }
+  },
+  "drill": null
+}

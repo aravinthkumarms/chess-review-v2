@@ -1,0 +1,71 @@
+{
+  "id": "a61f20e1-8ffe-4378-87ff-c426d2a76de9",
+  "name": "Quiz: Seirawan vs Kasparov",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White goes back to d3.\n\nWhat move is winning on the spot for Black?",
+    "answers": [
+      {
+        "text": "Kd7",
+        "feedback": {
+          "text": "Excellent! We use triangulation. We don't want to step on the sixth rank immediately but lose a tempo this way.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "sliding the king to d7.",
+        "afterMoveFen": "8/3k4/5p2/p4P1p/Pp2P2P/3K4/8/8 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kd6",
+        "feedback": {
+          "text": "Not the move! Remember, you want to lose a tempo!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "moving closer to the center.",
+        "afterMoveFen": "8/8/3k1p2/p4P1p/Pp2P2P/3K4/8/8 w - - 3 2"
+      },
+      {
+        "text": "Kc6",
+        "feedback": {
+          "text": "Not the move! Remember, you want to lose a tempo here.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "getting to c6.",
+        "afterMoveFen": "8/8/2k2p2/p4P1p/Pp2P2P/3K4/8/8 w - - 3 2"
+      }
+    ],
+    "positionFen": "8/2k5/5p2/p4P1p/PpK1P2P/8/8/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kd3",
+      "afterMoveFen": "8/2k5/5p2/p4P1p/Pp2P2P/3K4/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

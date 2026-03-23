@@ -1,0 +1,53 @@
+{
+  "id": "6dec7882-40fd-4c08-b291-18ab9565d62e",
+  "name": "Quiz 4 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is surrounding the White king. \n\nWhat should the result of this game be and why?",
+    "answers": [
+      {
+        "text": "This should be a draw because Black cannot checkmate the king.",
+        "feedback": {
+          "text": "Without a checkmate, Black should just go for a perpetual because White's pawns are dangerous.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Black has checkmate in two.",
+        "feedback": {
+          "text": "Are you sure? How exactly?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "This is a win for White because of the passed pawns and Black's weak king.",
+        "feedback": {
+          "text": "It's Black to move. Does Black have to lose?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "7k/p7/1p4Q1/3P2P1/8/P3n1b1/1P5r/5K2 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kg1",
+      "afterMoveFen": "7k/p7/1p4Q1/3P2P1/8/P3n1b1/1P5r/6K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

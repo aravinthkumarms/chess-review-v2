@@ -1,0 +1,73 @@
+{
+  "id": "7a5dd07d-be13-43fe-a82c-95403f464fb4",
+  "name": "Quiz 5 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black develops. In the Closed Sicilian, why do we put the knight on e2?",
+    "answers": [
+      {
+        "text": "To not block the bishop on g2.",
+        "feedback": {
+          "text": "Exactly. If we play Nf3 we block the bishop.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g1-e2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "g2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No reason. Nf3 is better.",
+        "feedback": {
+          "text": "Are you sure?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No reason. Nh3 is better.",
+        "feedback": {
+          "text": "A knight on the rim is dim!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g1-h3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqkbnr/pp1p1ppp/2n1p3/2p5/4P3/2N3P1/PPPP1PBP/R1BQK1NR b KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g1-e2"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nf6",
+      "afterMoveFen": "r1bqkb1r/pp1p1ppp/2n1pn2/2p5/4P3/2N3P1/PPPP1PBP/R1BQK1NR w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

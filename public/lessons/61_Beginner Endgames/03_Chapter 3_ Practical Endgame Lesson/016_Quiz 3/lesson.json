@@ -1,0 +1,63 @@
+{
+  "id": "65da7a46-5b10-42a6-9c8e-4ceba2356c3f",
+  "name": "Quiz 3 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Even in endgames, there can be weaknesses. \n\nHow can you attack a weakness?",
+    "answers": [
+      {
+        "text": "Bd6",
+        "feedback": {
+          "text": "Perfect. This move targets the weak pawn that cannot be defended.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d6-h2"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/3b4/p7/1p5k/1Pp4p/2P4P/2K2B2 w - - 3 2"
+      },
+      {
+        "text": "Bg1",
+        "feedback": {
+          "text": "This is one of the two moves that are possible to attack h2. Great!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/8/p7/1p5k/1Pp4p/2P4P/2K2Bb1 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you attack h2?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/p1b5/1pB4k/1Pp4p/2P4P/2K5 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bf1",
+      "afterMoveFen": "8/8/8/p1b5/1p5k/1Pp4p/2P4P/2K2B2 b - - 2 1"
+    }
+  },
+  "drill": null
+}

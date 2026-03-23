@@ -1,0 +1,79 @@
+{
+  "id": "1eb39c80-7e5d-4eb9-8ef5-1e74ca116601",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White develops the bishop. \n\nYour rook is active on the d-file and your queen puts some pressure on the bishop. \n\nWhat's the best pawn move?",
+    "answers": [
+      {
+        "text": "e5",
+        "feedback": {
+          "text": "...e5 makes use of the pin, attacks the bishop and the d4 pawn.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "d4",
+              "f4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "undermining d4.",
+        "afterMoveFen": "2kr1b1r/pp3ppp/2n2n2/qB2pb2/3P1B2/2N2P2/PPP1N1PP/R2QK2R w KQ e6 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "h6",
+        "feedback": {
+          "text": "h6 for ...g5 is too slow. There's a better move.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "preventing Bg5 and preparing ...g5.",
+        "afterMoveFen": "2kr1b1r/pp2ppp1/2n2n1p/qB3b2/3P1B2/2N2P2/PPP1N1PP/R2QK2R w KQ - 0 2"
+      },
+      {
+        "text": "e6",
+        "feedback": {
+          "text": "This move is too passive. You have to be dynamic if you can. There's a good opportunity in this position.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "controlling the d5-square.",
+        "afterMoveFen": "2kr1b1r/pp3ppp/2n1pn2/qB3b2/3P1B2/2N2P2/PPP1N1PP/R2QK2R w KQ - 0 2"
+      },
+      {
+        "text": "a6",
+        "feedback": {
+          "text": "The bishop will actually take on c6 without you forcing it. \n\nThere's a better pawn move.",
+          "arrows": {
+            "threats": [
+              "b5-c6"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "c6"
+            ]
+          }
+        },
+        "comment": "kicking the bishop out of b5.",
+        "afterMoveFen": "2kr1b1r/1p2pppp/p1n2n2/qB3b2/3P1B2/2N2P2/PPP1N1PP/R2QK2R w KQ - 0 2"
+      }
+    ],
+    "positionFen": "2kr1b1r/pp2pppp/2n2n2/qB3b2/3P4/2N2P2/PPP1N1PP/R1BQK2R w KQ - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bf4",
+      "afterMoveFen": "2kr1b1r/pp2pppp/2n2n2/qB3b2/3P1B2/2N2P2/PPP1N1PP/R2QK2R b KQ - 2 1"
+    }
+  },
+  "drill": null
+}

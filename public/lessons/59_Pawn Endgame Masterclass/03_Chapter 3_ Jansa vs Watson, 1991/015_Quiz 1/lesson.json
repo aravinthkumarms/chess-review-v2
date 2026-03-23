@@ -1,0 +1,87 @@
+{
+  "id": "bb240932-9350-4fe7-87a4-e314e845b058",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "This is the position.\n\nWhich move wins for White?",
+    "answers": [
+      {
+        "text": "Ke4",
+        "feedback": {
+          "text": "Excellent! \n\nI hope you learned how one tempo makes all the difference.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "centralizing the king.",
+        "afterMoveFen": "8/1p6/p3p3/P7/1k2K3/6P1/8/8 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "g4",
+        "feedback": {
+          "text": "Incorrect!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "pushing.",
+        "afterMoveFen": "8/1p6/p3p3/P7/1k4P1/5K2/8/8 b - - 0 2"
+      },
+      {
+        "text": "Kf4",
+        "feedback": {
+          "text": "That's not it!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "going forward.",
+        "afterMoveFen": "8/1p6/p3p3/P7/1k3K2/6P1/8/8 b - - 3 2"
+      },
+      {
+        "text": "Ke3",
+        "feedback": {
+          "text": "Nope!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "sliding to the side.",
+        "afterMoveFen": "8/1p6/p3p3/P7/1k6/4K1P1/8/8 b - - 3 2"
+      }
+    ],
+    "positionFen": "8/1p6/p3p3/P7/8/1k3KP1/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kb4",
+      "afterMoveFen": "8/1p6/p3p3/P7/1k6/5KP1/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

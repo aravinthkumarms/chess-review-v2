@@ -1,0 +1,64 @@
+{
+  "id": "50496201-6a6d-4598-90ba-c7de49e68fc7",
+  "name": "Quiz 8 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks your bishop.\n\nWhat did they miss?",
+    "answers": [
+      {
+        "text": "Bg5",
+        "feedback": {
+          "text": "Good job! The queen is trapped.",
+          "arrows": {
+            "threats": [
+              "f6-d8"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "g6",
+              "h6",
+              "e5",
+              "d4"
+            ],
+            "opportunities": [
+              "c2",
+              "g5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "2r1k2r/1p1b1ppp/2nPpq2/p2p2B1/P1n5/2P2N2/1PB2PPP/1R1Q1RK1 b k - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Black's queen might be in danger...",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2rqk2r/1p1b1ppp/2nPp3/p2p4/P1n2B2/2P2N2/1PB2PPP/1R1Q1RK1 b k - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "f4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qf6",
+      "afterMoveFen": "2r1k2r/1p1b1ppp/2nPpq2/p2p4/P1n2B2/2P2N2/1PB2PPP/1R1Q1RK1 w k - 2 2"
+    }
+  },
+  "drill": null
+}

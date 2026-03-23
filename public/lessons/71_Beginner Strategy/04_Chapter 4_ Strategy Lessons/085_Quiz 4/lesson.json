@@ -1,0 +1,79 @@
+{
+  "id": "68773aed-d041-405c-8dcc-b01e5fe72904",
+  "name": "Quiz 4",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The position is quite closed. It's time to find an outpost for one of your pieces! \n\nHow can you improve a piece?",
+    "answers": [
+      {
+        "text": "Na5",
+        "feedback": {
+          "text": "The best move! The knight is pinned so it cannot take the a-pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a5-b3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": "headed for the b3 outpost.",
+        "afterMoveFen": "2r5/1p1k1pp1/rb2p3/n2pPn1p/p2P1P2/P1N1BN2/1PR2KPP/3R4 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "g6",
+        "feedback": {
+          "text": "The pawn was fine. It wasn't under any attack.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "reinforcing the h5 pawn.",
+        "afterMoveFen": "2r5/1p1k1p2/rbn1p1p1/3pPn1p/p2P1P2/P1N1BN2/1PR2KPP/3R4 w - - 0 2"
+      },
+      {
+        "text": "Rc7",
+        "feedback": {
+          "text": "You would be losing your a-pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a6-a8",
+              "a8-c8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "a4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "with the idea of Ra8, Rac8, doubling rooks.",
+        "afterMoveFen": "8/1prk1pp1/rbn1p3/3pPn1p/p2P1P2/P1N1BN2/1PR2KPP/3R4 w - - 3 2"
+      },
+      {
+        "text": "Ba5",
+        "feedback": {
+          "text": "There's a better idea.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "with the idea of trading knight for bishop.",
+        "afterMoveFen": "2r5/1p1k1pp1/r1n1p3/b2pPn1p/p2P1P2/P1N1BN2/1PR2KPP/3R4 w - - 3 2"
+      }
+    ],
+    "positionFen": "2r5/1p1k1pp1/rbn1p3/3pPn1p/p2P1P2/P1N1BN2/1PR2KPP/7R w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rd1",
+      "afterMoveFen": "2r5/1p1k1pp1/rbn1p3/3pPn1p/p2P1P2/P1N1BN2/1PR2KPP/3R4 b - - 2 1"
+    }
+  },
+  "drill": null
+}

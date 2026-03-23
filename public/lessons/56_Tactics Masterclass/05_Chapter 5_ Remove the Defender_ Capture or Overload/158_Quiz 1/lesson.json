@@ -1,0 +1,53 @@
+{
+  "id": "1ec577ff-830c-4f58-bd98-986dd8e27ad2",
+  "name": "Quiz 1 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has captured a central pawn.\n\nHow can we add pressure to the knight on e4?",
+    "answers": [
+      {
+        "text": "Re1",
+        "feedback": {
+          "text": "Good job! Black cannot move the knight for Nd6+.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c4-d6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "2r4r/p3nkp1/1p5p/3b4/2N1n3/P2B2B1/6PP/2R1R1K1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Which piece could move to the d-file and attack the knight?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r4r/p3nkp1/1p3n1p/3b4/2N1P3/P2B2B1/6PP/2RR2K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxe4",
+      "afterMoveFen": "2r4r/p3nkp1/1p5p/3b4/2N1n3/P2B2B1/6PP/2RR2K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

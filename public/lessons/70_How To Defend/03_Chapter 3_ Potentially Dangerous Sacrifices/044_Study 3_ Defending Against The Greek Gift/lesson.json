@@ -1,0 +1,708 @@
+{
+  "id": "c1184c80-177a-4bc7-b66e-8da616a4e4f5",
+  "name": "Study 3: Defending Against The Greek Gift",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "Y"
+        ],
+        "comments": [
+          {
+            "text": "One of my subscribers sent me this game.\n\nThe Greek Gift is the sacrifice of a bishop on the h7 square from White's perspective, and on h2 if Black is the one who sacrifices. \n\nCertain positions allow the defending side chances of surviving. Let's explore how Black could have survived the Greek Gift in this study. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/69122621063?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp1qppp/p1n1p3/8/2BPPn2/2N2N2/PP3PPP/R2QR1K1 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1J": {
+        "adjacentNodeIds": [
+          "Yy"
+        ],
+        "comments": [
+          {
+            "text": "And the bishop went to d3, aiming at h7. \n\nBlack's queen has a problem: it's on the same file as the rook.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "h7",
+                "e5",
+                "e1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp1qppp/p7/n2Pp3/3P4/3B1N2/PP3PPP/R2QR1K1 b - - 2 4",
+        "parentNodeId": "jB",
+        "san": "Bd3"
+      },
+      "4g": {
+        "adjacentNodeIds": [
+          "Rd",
+          "pn"
+        ],
+        "comments": [
+          {
+            "text": "The king could have just marched up the board and taken the knight.\n\nIf you can take an attacker without losing, you should go ahead and do it because if not, those pieces can come back and haunt you. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2r2/1pp2pp1/p7/n2Pp1k1/1q1P4/3Q4/PP3PPP/R3R1K1 w - - 0 8",
+        "parentNodeId": "kE",
+        "san": "Kxg5"
+      },
+      "4s": {
+        "adjacentNodeIds": [
+          "Rz"
+        ],
+        "comments": [
+          {
+            "text": "Instead of Kxg5, Black played ...Bf5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2pp1/p5k1/n2PpbN1/1q1P4/3Q4/PP3PPP/R3R1K1 w - - 4 8",
+        "parentNodeId": "kE",
+        "san": "Bf5"
+      },
+      "8Y": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The reason for this is because if the bishop stays alive, in conjunction with the queen, it'll be very hard if not impossible to defend the light squares. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-g5",
+                "f3-e5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c2",
+                "d1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2r1k/1pp2pp1/p7/n2Pp3/1q1P4/5N2/PPB2PPP/R2QR1K1 b - - 2 6",
+        "parentNodeId": "as",
+        "san": "Bc2"
+      },
+      "B": {
+        "adjacentNodeIds": [
+          "e"
+        ],
+        "comments": [
+          {
+            "text": "To my surprise, White found the top engine move, Nd5, attacking the queen and provoking a knight trade! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp1qppp/p1n5/3Np3/2BPPn2/5N2/PP3PPP/R2QR1K1 b - - 1 2",
+        "parentNodeId": "Y",
+        "san": "Nd5"
+      },
+      "E3": {
+        "adjacentNodeIds": [
+          "m3"
+        ],
+        "comments": [
+          {
+            "text": "Black took on g5 too late. They should have done this way sooner.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2pp1/p7/n2PQbk1/1q1P4/8/PP3PPP/R3R1K1 w - - 0 10",
+        "parentNodeId": "aD",
+        "san": "Kxg5"
+      },
+      "KI": {
+        "adjacentNodeIds": [
+          "MC"
+        ],
+        "comments": [
+          {
+            "text": "Black proposed a queen trade, desperately. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2pp1/p2q4/n2PQbk1/3P4/4R3/PP3PPP/R5K1 w - - 2 11",
+        "parentNodeId": "m3",
+        "san": "Qd6"
+      },
+      "Ka": {
+        "adjacentNodeIds": [
+          "kE"
+        ],
+        "comments": [
+          {
+            "text": "And Black went to g6 with the king. \n\nThis isn't a bad move, but it requires more calculation. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2r2/1pp2pp1/p5k1/n2Pp1N1/1q1P4/8/PP3PPP/R2QR1K1 w - - 2 7",
+        "parentNodeId": "zA",
+        "san": "Kg6"
+      },
+      "M4": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But how tricky is it, really? ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-f6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2r2/1pp2pp1/p7/n2Pp1k1/3q4/3QR3/PP3PPP/R5K1 w - - 0 9",
+        "parentNodeId": "pn",
+        "san": "Qxd4"
+      },
+      "MC": {
+        "adjacentNodeIds": [
+          "sb"
+        ],
+        "comments": [
+          {
+            "text": "White gave a check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2pp1/p2q4/n2PQbk1/3P4/6R1/PP3PPP/R5K1 b - - 3 11",
+        "parentNodeId": "KI",
+        "san": "Rg3+"
+      },
+      "MX": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...Bf5 guards defends h7. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-g6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5",
+                "g6",
+                "h7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/1pp2pp1/p7/n2PpbNQ/1q1P4/8/PP3PPP/R3R1K1 w - - 4 8",
+        "parentNodeId": "Z0",
+        "san": "Bf5"
+      },
+      "Rd": {
+        "adjacentNodeIds": [
+          "d4"
+        ],
+        "comments": [
+          {
+            "text": "After Rxe5+...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2r2/1pp2pp1/p7/n2PR1k1/1q1P4/3Q4/PP3PPP/R5K1 b - - 0 8",
+        "parentNodeId": "4g",
+        "san": "Rxe5+"
+      },
+      "Rz": {
+        "adjacentNodeIds": [
+          "rc"
+        ],
+        "comments": [
+          {
+            "text": "And White set up a dangerous discovery. \n\nBlack is lost.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2pp1/p5k1/n2PpbN1/1q1P4/6Q1/PP3PPP/R3R1K1 b - - 5 8",
+        "parentNodeId": "4s",
+        "san": "Qg3"
+      },
+      "Y": {
+        "adjacentNodeIds": [
+          "B"
+        ],
+        "comments": [
+          {
+            "text": "Black got themselves into a bit of trouble with ...e5. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp1qppp/p1n5/4p3/2BPPn2/2N2N2/PP3PPP/R2QR1K1 w - - 0 2",
+        "parentNodeId": "0",
+        "san": "e5"
+      },
+      "Yy": {
+        "adjacentNodeIds": [
+          "ym"
+        ],
+        "comments": [
+          {
+            "text": "Hence Black decided to bring their queen to b4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp2ppp/p7/n2Pp3/1q1P4/3B1N2/PP3PPP/R2QR1K1 w - - 3 5",
+        "parentNodeId": "1J",
+        "san": "Qb4"
+      },
+      "Z0": {
+        "adjacentNodeIds": [
+          "MX"
+        ],
+        "comments": [
+          {
+            "text": "After Qh5, threatening checkmate...",
+            "arrows": {
+              "threats": [
+                "h5-h7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp2pp1/p7/n2Pp1NQ/1q1P4/8/PP3PPP/R3R1K1 b - - 3 7",
+        "parentNodeId": "jk",
+        "san": "Qh5"
+      },
+      "aD": {
+        "adjacentNodeIds": [
+          "E3"
+        ],
+        "comments": [
+          {
+            "text": "But Qxe5+ forces the king back and also opens up the e-file. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2pp1/p4k2/n2PQbN1/1q1P4/8/PP3PPP/R3R1K1 b - - 0 9",
+        "parentNodeId": "rc",
+        "san": "Qxe5+"
+      },
+      "aN": {
+        "adjacentNodeIds": [
+          "mR"
+        ],
+        "comments": [
+          {
+            "text": "And after Qxg7+...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2pQ1/p2q3k/n2P1b2/3P4/6R1/PP3PPP/R5K1 b - - 0 12",
+        "parentNodeId": "sb",
+        "san": "Qxg7+"
+      },
+      "as": {
+        "adjacentNodeIds": [
+          "8Y"
+        ],
+        "comments": [
+          {
+            "text": "Greek Gifts usually have to be taken. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2r1k/1pp2ppB/p7/n2Pp3/1q1P4/5N2/PP3PPP/R2QR1K1 w - - 1 6",
+        "parentNodeId": "ym",
+        "san": "Kh8"
+      },
+      "co": {
+        "adjacentNodeIds": [
+          "pq"
+        ],
+        "comments": [
+          {
+            "text": "Against this one...",
+            "arrows": {
+              "threats": [
+                "d3-h7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp2pp1/p7/n2Pp1N1/1q1P4/3Q4/PP3PPP/R3R1K1 b - - 3 7",
+        "parentNodeId": "jk",
+        "san": "Qd3"
+      },
+      "d4": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...f5 blocks, and gives the king a safe f6 retreat.\n\nThis was the proper defense to this particular Greek Gift. Greek gifts may come in all shapes and sizes, so you have to understand the elements of each position to defend as best as you can. \n\nKxg5 should have been played.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-f6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2r2/1pp3p1/p7/n2PRpk1/1q1P4/3Q4/PP3PPP/R5K1 w - f6 0 9",
+        "parentNodeId": "Rd",
+        "san": "f5"
+      },
+      "e": {
+        "adjacentNodeIds": [
+          "p7"
+        ],
+        "comments": [
+          {
+            "text": "Black took on d5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp1qppp/p1n5/3np3/2BPP3/5N2/PP3PPP/R2QR1K1 w - - 0 3",
+        "parentNodeId": "B",
+        "san": "Nxd5"
+      },
+      "fE": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Qg5#. \n\nBlack should have taken on g5 with the king, or they should have initially gone to the safer g8 square.\n\nSometimes, Kg8 isn't possible after a Greek Gift because Qh5 threatening checkmate cannot be defended. But in this game, ...Bf5 was possible to defend.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2p2/p2q4/n2P1bQk/3P4/6R1/PP3PPP/R5K1 b - - 2 13",
+        "parentNodeId": "mR",
+        "san": "Qg5#"
+      },
+      "jB": {
+        "adjacentNodeIds": [
+          "1J"
+        ],
+        "comments": [
+          {
+            "text": "The knight moved away, attacking the bishop on c4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp1qppp/p7/n2Pp3/2BP4/5N2/PP3PPP/R2QR1K1 w - - 1 4",
+        "parentNodeId": "p7",
+        "san": "Na5"
+      },
+      "jk": {
+        "adjacentNodeIds": [
+          "Z0",
+          "co"
+        ],
+        "comments": [
+          {
+            "text": "...Kg8 was safer.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp2pp1/p7/n2Pp1N1/1q1P4/8/PP3PPP/R2QR1K1 w - - 2 7",
+        "parentNodeId": "zA",
+        "san": "Kg8"
+      },
+      "kE": {
+        "adjacentNodeIds": [
+          "4s",
+          "4g"
+        ],
+        "comments": [
+          {
+            "text": "White gave a check. \n\nThis is precisely the reason why a bishop on c1 supporting the knight is a key ingredient in Greek Gifts. \n\nBlack could have played ...Kxg5! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2r2/1pp2pp1/p5k1/n2Pp1N1/1q1P4/3Q4/PP3PPP/R3R1K1 b - - 3 7",
+        "parentNodeId": "Ka",
+        "san": "Qd3+"
+      },
+      "m3": {
+        "adjacentNodeIds": [
+          "KI"
+        ],
+        "comments": [
+          {
+            "text": "White played a rook lift.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-g3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2pp1/p7/n2PQbk1/1q1P4/4R3/PP3PPP/R5K1 b - - 1 10",
+        "parentNodeId": "E3",
+        "san": "Re3"
+      },
+      "mR": {
+        "adjacentNodeIds": [
+          "fE"
+        ],
+        "comments": [
+          {
+            "text": "The king went to h5, where it would meet its fate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2pQ1/p2q4/n2P1b1k/3P4/6R1/PP3PPP/R5K1 w - - 1 13",
+        "parentNodeId": "aN",
+        "san": "Kh5"
+      },
+      "p7": {
+        "adjacentNodeIds": [
+          "jB"
+        ],
+        "comments": [
+          {
+            "text": "And White recaptured, attacking the knight on c6. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp1qppp/p1n5/3Pp3/2BP4/5N2/PP3PPP/R2QR1K1 b - - 0 3",
+        "parentNodeId": "e",
+        "san": "exd5"
+      },
+      "pn": {
+        "adjacentNodeIds": [
+          "M4"
+        ],
+        "comments": [
+          {
+            "text": "This was a move I considered, which looks tricky.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-g3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2r2/1pp2pp1/p7/n2Pp1k1/1q1P4/3QR3/PP3PPP/R5K1 b - - 1 8",
+        "parentNodeId": "4g",
+        "san": "Re3"
+      },
+      "pq": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...g6 defends as well. \n\nWhite isn't winning after their Greek Gift! \n\nNotice Qh3 is impossible because the bishop guards the h3 square. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c8",
+                "h3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp2p2/p5p1/n2Pp1N1/1q1P4/3Q4/PP3PPP/R3R1K1 w - - 0 8",
+        "parentNodeId": "co",
+        "san": "g6"
+      },
+      "rc": {
+        "adjacentNodeIds": [
+          "aD"
+        ],
+        "comments": [
+          {
+            "text": "Black tried escaping with the king...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2pp1/p4k2/n2PpbN1/1q1P4/6Q1/PP3PPP/R3R1K1 w - - 6 9",
+        "parentNodeId": "Rz",
+        "san": "Kf6"
+      },
+      "sb": {
+        "adjacentNodeIds": [
+          "aN"
+        ],
+        "comments": [
+          {
+            "text": "The king went to h6...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/1pp2pp1/p2q3k/n2PQb2/3P4/6R1/PP3PPP/R5K1 w - - 4 12",
+        "parentNodeId": "MC",
+        "san": "Kh6"
+      },
+      "vQ": {
+        "adjacentNodeIds": [
+          "zA"
+        ],
+        "comments": [
+          {
+            "text": "Black took. Since there isn't a pawn on e5 or a bishop on c1 to support the knight on g5, maybe Black can defend more tenaciously. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2r2/1pp2ppk/p7/n2Pp3/1q1P4/5N2/PP3PPP/R2QR1K1 w - - 0 6",
+        "parentNodeId": "ym",
+        "san": "Kxh7"
+      },
+      "ym": {
+        "adjacentNodeIds": [
+          "vQ",
+          "as"
+        ],
+        "comments": [
+          {
+            "text": "And here, White went for Bxh7+, the Greek Gift. \n\nA Greek Gift usually results in checkmate when there's a pawn on e5, a piece—like a dark-squared bishop on c1—that supports Ng5+, and a queen that could arrive on h5. \n\nAs you can see, White doesn't have a piece to support the knight once it reaches g5, and there isn't a pawn on e5.",
+            "arrows": {
+              "threats": [
+                "f3-g5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": [
+                "g5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp2ppB/p7/n2Pp3/1q1P4/5N2/PP3PPP/R2QR1K1 b - - 0 5",
+        "parentNodeId": "Yy",
+        "san": "Bxh7+"
+      },
+      "zA": {
+        "adjacentNodeIds": [
+          "Ka",
+          "jk"
+        ],
+        "comments": [
+          {
+            "text": "The knight checked on g5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2r2/1pp2ppk/p7/n2Pp1N1/1q1P4/8/PP3PPP/R2QR1K1 b - - 1 6",
+        "parentNodeId": "vQ",
+        "san": "Ng5+"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

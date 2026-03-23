@@ -1,0 +1,43 @@
+{
+  "id": "aacae4e3-f4ba-459f-9732-08c14bae2190",
+  "name": "Quiz 1",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "On how many squares do the rook on a6 and the bishop on f3 have influence over?\n\nSelect them all!",
+    "answers": [
+      {
+        "text": "a5-a4-a3-a2-a1-a7-a8-b7-c6-d5-e4-b6-d6-e6-f6-g6-e2-d1-g4-h5-g2",
+        "feedback": {
+          "text": "The light-squared bishop and rook control many squares, even more than the black queen.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Simply carefully think about and pick out all the squares that the two pieces control.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3r1r2/2p2pkp/R5p1/1qN1p3/1p6/1P2BB2/1P3PPP/5RK1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "h5",
+      "afterMoveFen": "3r1r2/2p2pk1/R5p1/1qN1p2p/1p6/1P2BB2/1P3PPP/5RK1 w - h6 0 2"
+    }
+  },
+  "drill": null
+}

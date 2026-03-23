@@ -1,0 +1,71 @@
+{
+  "id": "4231ef1a-db1e-447d-9fa4-abc4c519a1e9",
+  "name": "Quiz 6",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is up a piece and has the active king, but White has some passed pawns and a dangerous h-pawn. \n\nWhat's the correct assessment here?",
+    "answers": [
+      {
+        "text": "Black’s bishop will stop all of White’s pawns, but Black cannot force a win here.",
+        "feedback": {
+          "text": "Exactly! Our king's position allows for some stalemate ideas since Black has to keep protecting the g6-pawn.",
+          "arrows": {
+            "threats": [
+              "f7-g6"
+            ],
+            "opportunities": [
+              "h6-h7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "h8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White can go for the win here. The free h-pawn and the passed pawns on the  queenside are a huge advantage",
+        "feedback": {
+          "text": "Black's king is very active and they are up a piece! Are you sure this is a win?",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f7",
+              "c6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black can go for the win by capturing White’s queenside pawns, using \nWhite’s bad king position, and making use of their bishop.",
+        "feedback": {
+          "text": "Is this really loosing for White? Try to look for some stalemate possibilities.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "7K/1b3k2/1P4pP/2P2pP1/5P2/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bc6",
+      "afterMoveFen": "7K/5k2/1Pb3pP/2P2pP1/5P2/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

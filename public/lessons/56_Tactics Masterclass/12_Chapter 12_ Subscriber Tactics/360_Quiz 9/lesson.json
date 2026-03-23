@@ -1,0 +1,70 @@
+{
+  "id": "6794c202-7a30-4100-91a6-b8c8c21c3ac0",
+  "name": "Quiz 9 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White brings their knight to the kingside.\n\nWhy is pushing ...h6 here bad?",
+    "answers": [
+      {
+        "text": "It loses to a tactic that White has.",
+        "feedback": {
+          "text": "Exactly. After ...h6 White has Nh5+, collecting our knight on f6.",
+          "arrows": {
+            "threats": [
+              "h7-h6"
+            ],
+            "opportunities": [
+              "f4-h5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It’s not losing, but it’s simply a waste of time. The queen doesn’t threaten anything.",
+        "feedback": {
+          "text": "The move ...h6 has a different evaluation.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It is a good move, White has to retreat.",
+        "feedback": {
+          "text": "After ...h6, White has Nh5+! Winning our knight on f6.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1rb2r2/4qpkp/5np1/p1n3Q1/4p3/PPN4P/2P1NPP1/R4RK1 w - - 1 1",
+    "arrows": {
+      "threats": [
+        "h7-h6"
+      ],
+      "opportunities": []
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nf4",
+      "afterMoveFen": "1rb2r2/4qpkp/5np1/p1n3Q1/4pN2/PPN4P/2P2PP1/R4RK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

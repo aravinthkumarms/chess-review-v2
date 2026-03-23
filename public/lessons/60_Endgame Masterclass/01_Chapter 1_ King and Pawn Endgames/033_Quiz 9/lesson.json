@@ -1,0 +1,75 @@
+{
+  "id": "c1031273-2627-4765-aa7f-21d278efd753",
+  "name": "Quiz 9",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has taken their king to the h4-square.\n\nDoes ...d4 win for Black?",
+    "answers": [
+      {
+        "text": "No, because the king can enter the pawn's square and stop it.",
+        "feedback": {
+          "text": "Very good. The king is really close. Black should wait to see if White tries Kh5 to then push d4.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d5-d4",
+              "d4-d1",
+              "d1-g1",
+              "g1-g4",
+              "g4-d4",
+              "h4-g3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes. The king cannot catch the d-pawn.",
+        "feedback": {
+          "text": "Are you sure? Look at that square starting on d4.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d4-d1",
+              "d1-g1",
+              "g1-g4",
+              "g4-d4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/2k4p/1pPpp3/1P4P1/4P1K1/8/8 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d5-d4"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Kh4",
+      "afterMoveFen": "8/8/2k4p/1pPpp3/1P4PK/4P3/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

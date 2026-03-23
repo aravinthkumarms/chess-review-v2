@@ -1,0 +1,78 @@
+{
+  "id": "ffe35149-9b3e-4151-9d06-b0adaaa6921a",
+  "name": "Quiz 8",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Re1.\n\nWould you say there's something wrong with ...Qxe3-trading?",
+    "answers": [
+      {
+        "text": "Yes, there’s a tactic.",
+        "feedback": {
+          "text": "Correct. If ...Qxe3, White has Qxg4, with a discovered attack on the queen and an attack on the rook!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e2-g4",
+              "e4-e3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g4",
+              "c8",
+              "e4"
+            ],
+            "opportunities": [
+              "e1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, it’s the best move.",
+        "feedback": {
+          "text": "Are you sure White doesn't have something better than to trade?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, Black doesn’t want trades.",
+        "feedback": {
+          "text": "Black is up two pawns, so they don't mind trading. There's a different reason.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r1k2r/1p3pb1/p2p4/3np3/4q1p1/1P1NB1Pp/P1P1QR1P/2R3K1 w k - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e4-e3"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "e3"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Re1",
+      "afterMoveFen": "2r1k2r/1p3pb1/p2p4/3np3/4q1p1/1P1NB1Pp/P1P1QR1P/4R1K1 b k - 2 1"
+    }
+  },
+  "drill": null
+}

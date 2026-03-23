@@ -1,0 +1,48 @@
+{
+  "id": "113742cf-0608-4a5c-90ef-1d5ca7280917",
+  "name": "Quiz 7",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is ahead in material, but we have a dangerous passed d-pawn.\n\nHow should we proceed with a draw in mind?",
+    "answers": [
+      {
+        "text": "Rxf7+",
+        "feedback": {
+          "text": "Nice job! Black recaptures the rook and it is a stalemate!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f8-f7"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "3K1k2/3P1R2/8/1p6/2r5/8/8/8 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you set up a stalemate here?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3K1k2/3PRb2/8/1pr5/8/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rc4",
+      "afterMoveFen": "3K1k2/3PRb2/8/1p6/2r5/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

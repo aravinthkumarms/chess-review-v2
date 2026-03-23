@@ -1,0 +1,83 @@
+{
+  "id": "abb137bc-67bd-4476-8ecd-049a54305dba",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Let's take a look at the pawns and consider pawn islands. \n\nHow many pawn islands does each side have?",
+    "answers": [
+      {
+        "text": "White has two pawn islands.\n\nBlack has three pawn islands, and two of them consist of isolated pawns.",
+        "feedback": {
+          "text": "Correct! White has the a2-c2 pawn island and the e2-f3 pawn island. \n\nBlack has a pawn island from a7-d7, and then two isolated pawns on f7 and h6 (these count as two distinct islands).",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "h6",
+              "f7",
+              "d6",
+              "c7",
+              "b6",
+              "a7",
+              "f3",
+              "e2",
+              "c2",
+              "b2",
+              "a2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White has one pawn island, and Black has two pawn islands.",
+        "feedback": {
+          "text": "Count the pawns that are together and connected, and count those that are isolated too.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White has two pawn islands and Black only has one because the pawns on f7 and h6 don't form an island.",
+        "feedback": {
+          "text": "The black pawns on f7 and h6 actually are considered islands. They are isolated pawns.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4rknr/p1pq1p2/1p1p2bp/4b3/4N2B/3Q1P2/PPP1P3/2KR1B1R w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kb1",
+      "afterMoveFen": "4rknr/p1pq1p2/1p1p2bp/4b3/4N2B/3Q1P2/PPP1P3/1K1R1B1R b - - 2 1"
+    }
+  },
+  "drill": null
+}

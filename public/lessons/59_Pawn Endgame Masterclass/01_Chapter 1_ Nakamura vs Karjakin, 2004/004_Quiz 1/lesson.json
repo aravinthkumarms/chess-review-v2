@@ -1,0 +1,92 @@
+{
+  "id": "ccfddf48-d1b6-4ae3-9ba6-9e33a735639f",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is in the corner. What's the winning move?",
+    "answers": [
+      {
+        "text": "Kg6",
+        "feedback": {
+          "text": "Correct!\n\nKings on 6th rank are powerful.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h8-g8",
+              "g6-h6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "g6"
+            ]
+          }
+        },
+        "comment": "Back to the sixth rank.",
+        "afterMoveFen": "7k/8/6K1/6P1/p7/P7/8/8 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "g6",
+        "feedback": {
+          "text": "This is stalemate!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "trying to promote.",
+        "afterMoveFen": "7k/5K2/6P1/8/p7/P7/8/8 b - - 0 2"
+      },
+      {
+        "text": "Kf8",
+        "feedback": {
+          "text": "Not the one!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "following Black's king.",
+        "afterMoveFen": "5K1k/8/8/6P1/p7/P7/8/8 b - - 3 2"
+      },
+      {
+        "text": "Ke6",
+        "feedback": {
+          "text": "You can promote on the kingside!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "going for the pawn on the queenside.",
+        "afterMoveFen": "7k/8/4K3/6P1/p7/P7/8/8 b - - 3 2"
+      }
+    ],
+    "positionFen": "8/5K1k/8/6P1/p7/P7/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kh8",
+      "afterMoveFen": "7k/5K2/8/6P1/p7/P7/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

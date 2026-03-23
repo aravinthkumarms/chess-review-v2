@@ -1,0 +1,51 @@
+{
+  "id": "4f581350-f322-4cd3-baf3-deeb9b783924",
+  "name": "Quiz 4 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black retreats their knight. \n\nWhat's the best move here?",
+    "answers": [
+      {
+        "text": "Rxc5",
+        "feedback": {
+          "text": "Nice one! If Black decides to capture the rook, we have Bxf7+ a discovered attack on the enemy queen!",
+          "arrows": {
+            "threats": [
+              "c7-c5"
+            ],
+            "opportunities": [
+              "d5-f7",
+              "h5-c5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "3r1rk1/1pq1nppp/p7/2RB3Q/P4P2/1P2P3/6PP/3R2K1 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you immediately win some material?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3r1rk1/1pq2ppp/p5n1/2pB3Q/P4P2/1P2P3/6PP/2RR2K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ne7",
+      "afterMoveFen": "3r1rk1/1pq1nppp/p7/2pB3Q/P4P2/1P2P3/6PP/2RR2K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

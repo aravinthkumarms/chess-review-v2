@@ -1,0 +1,74 @@
+{
+  "id": "9bb374bf-745f-4730-b1d8-8cd2d98b24bf",
+  "name": "Quiz 8",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is attacking. \n\nHowever, the a8 rook, the a7 bishop and the c6 knight aren't participating. \n\nWhite has more space and material is equal. \n\nWhite has more pawns around their king.\n\nWho's better?",
+    "answers": [
+      {
+        "text": "White is winning (+4.45)",
+        "feedback": {
+          "text": "Black's attack isn't going anywhere. Black has actually exposed their king a bit too much. White is defending, and soon they'll throw haymakers at Black.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is slightly better (+0.6)",
+        "feedback": {
+          "text": "This either underestimates White's king safety and better pieces, or it overestimates Black's activity. Black's pieces aren't really that great, and they'll be traded off or even won, with moves like Nxf5 and Re1.\n",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h4-f5",
+              "f1-e1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black is better (-1.5)",
+        "feedback": {
+          "text": "This evaluation overestimates Black's piece activity. \n\nUnfortunately, White is doing just enough to neutralize the attack.\n",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black is slightly better (-0.58)",
+        "feedback": {
+          "text": "A slight edge for Black is too generous here. If you think Black's pieces are active here, after Nxf5 and Re1 from White, think again. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r5k1/bppq1p2/p1np3r/3N1b1p/2PPn1p1/PP3NPP/1B3PBK/2RQ1R2 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nh4",
+      "afterMoveFen": "r5k1/bppq1p2/p1np3r/3N1b1p/2PPn1pN/PP4PP/1B3PBK/2RQ1R2 b - - 2 1"
+    }
+  },
+  "drill": null
+}

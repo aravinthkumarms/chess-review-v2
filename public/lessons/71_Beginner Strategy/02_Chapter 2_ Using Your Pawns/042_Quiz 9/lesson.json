@@ -1,0 +1,66 @@
+{
+  "id": "a4866be9-20b7-4295-af27-3f6926f225f8",
+  "name": "Quiz 9",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has played Nf3. \n\nIs Black ready to play the d5 pawn break?",
+    "answers": [
+      {
+        "text": "No, Black cannot do this yet.",
+        "feedback": {
+          "text": "There are 3 pieces controlling the d5 square, and Black only has 2 pieces that would support the d5-pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "c4",
+              "c3",
+              "e4",
+              "e7",
+              "d8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, Black is 100% ready. ...d5 will attack the light-squared bishop on c4 and open up the c8 bishop.",
+        "feedback": {
+          "text": "Are you sure that this pawn has enough support? \n\nWhat if White just takes the pawn?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqkb1r/ppppnppp/2n5/4p3/2B1P3/2N5/PPPP1PPP/R1BQK1NR w KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d7-d5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nf3",
+      "afterMoveFen": "r1bqkb1r/ppppnppp/2n5/4p3/2B1P3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 2 1"
+    }
+  },
+  "drill": null
+}

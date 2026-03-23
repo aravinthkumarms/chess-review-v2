@@ -1,0 +1,63 @@
+{
+  "id": "1b788eb6-ae5c-4c00-a6c3-84dc74f2046d",
+  "name": "Quiz 4 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It is Black to move. \n\nHow should this game end?",
+    "answers": [
+      {
+        "text": "It's a draw.",
+        "feedback": {
+          "text": "Black can never make progress because if this pawn is taken, the white king gets stalemated.",
+          "arrows": {
+            "threats": [
+              "b6-c7"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "c7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It's an easy win for Black.",
+        "feedback": {
+          "text": "Are you sure Black can win this? How can the pawn be won without stalemate?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It's a tough win for Black. Black's king has to get closer little by little.",
+        "feedback": {
+          "text": "This is impossible to do if White plays this correctly.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1K6/2P5/1q5k/8/8/8/8/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ka8",
+      "afterMoveFen": "K7/2P5/1q5k/8/8/8/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

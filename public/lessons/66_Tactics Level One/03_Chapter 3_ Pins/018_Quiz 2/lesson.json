@@ -1,0 +1,75 @@
+{
+  "id": "cd112b1f-198e-4e8e-9507-c1918f645e60",
+  "name": "Quiz 2 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The d4-pawn is not defended. Can White take it?",
+    "answers": [
+      {
+        "text": "No, it's a trap.",
+        "feedback": {
+          "text": "1.Qxd4 Bc5 pins the queen to the king.",
+          "arrows": {
+            "threats": [
+              "d1-d4",
+              "f8-c5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d4",
+              "c5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, it's a free pawn.",
+        "feedback": {
+          "text": "There's a cost for White.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White can take the pawn, but Black has some compensation.",
+        "feedback": {
+          "text": "This is an understatement.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3qrbk1/pp4pp/2p2n2/8/P2p4/5PN1/1PP3PP/R1BQ2K1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d1-d4"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "d4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qa5",
+      "afterMoveFen": "4rbk1/pp4pp/2p2n2/q7/P2p4/5PN1/1PP3PP/R1BQ2K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

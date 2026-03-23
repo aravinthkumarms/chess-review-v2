@@ -1,0 +1,81 @@
+{
+  "id": "da83c9a7-fb64-4a30-b60e-33c5ec714068",
+  "name": "Quiz 13",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Kg1. \n\nThe king is already on the 3rd rank. \n\nIs there something wrong with pushing the pawn one square?",
+    "answers": [
+      {
+        "text": "Yes, it's a draw.",
+        "feedback": {
+          "text": "Exactly. ...g3, Kh1 and if ...g2+, Kg1. If you defend the pawn it's stalemate. The reason for this is that ...g3 Kh1 and ...Kf2 is a draw as well because the king is in the corner.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g4-g3",
+              "g1-h1",
+              "g3-g2",
+              "h1-g1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, it wins but it takes more time.",
+        "feedback": {
+          "text": "Are you sure it wins?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, it wins because the king is already on the 3rd rank.",
+        "feedback": {
+          "text": "Are there any stalemate tricks and resources related to the king being in the corner?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/8/6p1/5k2/7K/8 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g4-g3"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Kg1",
+      "afterMoveFen": "8/8/8/8/6p1/5k2/8/6K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

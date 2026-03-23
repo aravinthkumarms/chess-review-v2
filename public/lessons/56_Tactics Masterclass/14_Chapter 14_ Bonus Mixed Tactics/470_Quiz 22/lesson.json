@@ -1,0 +1,80 @@
+{
+  "id": "f2e23c1e-98e7-4499-b5f1-493397d03e26",
+  "name": "Quiz 22 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White develops their bishop to b2. \n\nThe move ...e5 is a thematic pawn break. \n\nIs there something wrong with it at this moment?",
+    "answers": [
+      {
+        "text": "No, it’s a great move and there’s nothing wrong with it",
+        "feedback": {
+          "text": "Good job! That's absolutely right.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It loses a pawn.",
+        "feedback": {
+          "text": "Pushing ...e5 is thematic here. If White captures dxe5, Black usually goes ...Ne4.",
+          "arrows": {
+            "threats": [
+              "d4-e5"
+            ],
+            "opportunities": [
+              "e7-e5",
+              "f6-e4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b2"
+            ],
+            "opportunities": [
+              "g7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Besides losing the pawn, it gives White many more tactical chances.",
+        "feedback": {
+          "text": "Actually, the tactics will be in Black's favor! Pushing ...e5 is very strong thanks to the bishops eyeing each other.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "b2"
+            ],
+            "opportunities": [
+              "g7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bq1rk1/ppp1p1bp/2np1np1/5p2/2PP4/1P3NP1/P3PPBP/RNBQ1RK1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e7-e5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Bb2",
+      "afterMoveFen": "r1bq1rk1/ppp1p1bp/2np1np1/5p2/2PP4/1P3NP1/PB2PPBP/RN1Q1RK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

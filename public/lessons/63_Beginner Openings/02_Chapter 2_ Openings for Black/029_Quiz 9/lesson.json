@@ -1,0 +1,61 @@
+{
+  "id": "d8153156-551d-4bdf-b778-32522237eaca",
+  "name": "Quiz 9",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White prepares to castle.\n\nWhat are some of the plans as Black?",
+    "answers": [
+      {
+        "text": "Push ...e5 or ...c5.",
+        "feedback": {
+          "text": "Yes, exactly! We have to prepare ...e5 first with moves like ...Nbd7.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e7-e5",
+              "c7-c5",
+              "f8-e8",
+              "b8-d7"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Play ...b6 to fianchetto with ...Bb7.",
+        "feedback": {
+          "text": "That's not a correct plan.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Play ...e6 and ...c6 to fight for the center.",
+        "feedback": {
+          "text": "This is too passive.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP3PPP/R1BQKB1R w KQ - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Be2",
+      "afterMoveFen": "rnbq1rk1/ppp1ppbp/3p1np1/8/2PPP3/2N2N2/PP2BPPP/R1BQK2R b KQ - 2 1"
+    }
+  },
+  "drill": null
+}

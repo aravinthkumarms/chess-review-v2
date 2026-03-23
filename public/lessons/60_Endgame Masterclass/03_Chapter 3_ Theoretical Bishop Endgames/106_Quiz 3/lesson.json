@@ -1,0 +1,68 @@
+{
+  "id": "90bd1693-18a2-41f2-978a-eaea9f0c453b",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is pushing their a-pawn. \n\nWhite has two connected passers but the bishop is currently holding them off. \n\nWhat should the result of this game be?",
+    "answers": [
+      {
+        "text": "White is winning because Black's king is too far to defend against the passed pawns.",
+        "feedback": {
+          "text": "Correct! \n\nBlack's king is too far and their a-pawn isn't doing anything. If it ever goes to a2 it will be taken and White can win with the two connected passers.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g2-g3",
+              "g3-g4",
+              "g4-g5",
+              "h5-h6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It should be a draw.",
+        "feedback": {
+          "text": "With the king this far, are you sure this should be a draw?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black is winning because of the a-pawn.",
+        "feedback": {
+          "text": "A win is impossible. If ...a2 is ever played, Bxa2 will be the response and at most Black has a draw.",
+          "arrows": {
+            "threats": [
+              "e6-a2"
+            ],
+            "opportunities": [
+              "a3-a2"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/6b1/4B1P1/7P/pk6/8/6K1/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "a3",
+      "afterMoveFen": "8/6b1/4B1P1/7P/1k6/p7/6K1/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

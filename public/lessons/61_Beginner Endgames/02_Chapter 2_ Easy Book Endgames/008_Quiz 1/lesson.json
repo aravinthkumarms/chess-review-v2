@@ -1,0 +1,43 @@
+{
+  "id": "8a4cadbf-29cc-4827-b2c0-10ca59719d18",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It is White to move. \n\nCan White win this game?",
+    "answers": [
+      {
+        "text": "No, it's a draw.",
+        "feedback": {
+          "text": "Exactly. With White to move, White cannot make progress. This same position is a win if it's Black to move.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, White has an extra pawn!",
+        "feedback": {
+          "text": "Yes, White has an extra pawn, but since it's White to move, White cannot help the pawn queen if Black plays this correctly.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/5k2/8/4K3/4P3/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke7",
+      "afterMoveFen": "8/4k3/8/4K3/4P3/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

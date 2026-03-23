@@ -1,0 +1,76 @@
+{
+  "id": "2847e057-e927-4834-9e3c-04d240559279",
+  "name": "Quiz 4",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "You've got a rook on the c7 square and another on d1. \n\nWhat's the best you can do with them?",
+    "answers": [
+      {
+        "text": "Rdd7",
+        "feedback": {
+          "text": "Correct! \n\nWith both rooks on the 7th rank, you can attack b7 and f7. ",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f3-g5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b7",
+              "f7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "doubling rooks on the 7th rank. ",
+        "afterMoveFen": "r4rk1/ppRR1pbp/1qn1p1p1/8/2B2Q1P/2P1PNP1/PP3P2/6K1 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rcd7",
+        "feedback": {
+          "text": "Are you sure that's the best both rooks can do? ",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "doubling rooks on the d-file. ",
+        "afterMoveFen": "r4rk1/pp1R1pbp/1qn1p1p1/8/2B2Q1P/2P1PNP1/PP3P2/3R2K1 b - - 3 2"
+      },
+      {
+        "text": "Rxf7",
+        "feedback": {
+          "text": "Are you sure that's the best? \n\nRxf7, Bxe6, Rf8, Rd7 and Ne8. Black defends. ",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "with the idea of Bxe6 next. ",
+        "afterMoveFen": "r4rk1/pp3Rbp/1qn1p1p1/8/2B2Q1P/2P1PNP1/PP3P2/3R2K1 b - - 0 2"
+      }
+    ],
+    "positionFen": "r4rk1/ppR2pbp/2n1p1p1/2q5/2B2Q1P/2P1PNP1/PP3P2/3R2K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qb6",
+      "afterMoveFen": "r4rk1/ppR2pbp/1qn1p1p1/8/2B2Q1P/2P1PNP1/PP3P2/3R2K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,64 @@
+{
+  "id": "f62915a8-dc63-4266-878a-9313c2e1e933",
+  "name": "Quiz 2 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The bishop takes on b5. \n\nIs Nc3 a good idea to develop, or should you do something else first?",
+    "answers": [
+      {
+        "text": "Re1",
+        "feedback": {
+          "text": "Correct! The bishop was attacking your rook! So getting it to safety is best.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "f1",
+              "b5"
+            ],
+            "opportunities": [
+              "e1"
+            ]
+          }
+        },
+        "comment": "moving the rook.",
+        "afterMoveFen": "r2qk1nr/2ppbppp/2n1p3/1b6/p2PP3/P4N2/BP3PPP/RNBQR1K1 b kq - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Nc3",
+        "feedback": {
+          "text": "Yes, you attack the bishop. But what can that bishop do to hurt you?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b5-f1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "developing and attacking the bishop on b5.",
+        "afterMoveFen": "r2qk1nr/2ppbppp/2n1p3/1b6/p2PP3/P1N2N2/BP3PPP/R1BQ1RK1 b kq - 1 2"
+      }
+    ],
+    "positionFen": "r2qk1nr/2ppbppp/b1n1p3/1P6/p2PP3/P4N2/BP3PPP/RNBQ1RK1 b kq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bxb5",
+      "afterMoveFen": "r2qk1nr/2ppbppp/2n1p3/1b6/p2PP3/P4N2/BP3PPP/RNBQ1RK1 w kq - 0 2"
+    }
+  },
+  "drill": null
+}

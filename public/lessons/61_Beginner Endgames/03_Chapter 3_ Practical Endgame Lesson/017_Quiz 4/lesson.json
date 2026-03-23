@@ -1,0 +1,83 @@
+{
+  "id": "c0974688-7521-4a5c-b694-52ac108f3ea6",
+  "name": "Quiz 4 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It is White to move in this rook endgame. \n\nWhat do you think of the move Re8?",
+    "answers": [
+      {
+        "text": "It's a tactical blunder.",
+        "feedback": {
+          "text": "This is the correct description. 1.Re8 Re2+ is a skewer. Black wins a rook.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f8-e8",
+              "a2-e2"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e4",
+              "e8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It's a good move. White's idea is to double on the 8th rank.",
+        "feedback": {
+          "text": "This move is a blunder. Can you figure out why?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f8-e8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It's a strategic mistake.",
+        "feedback": {
+          "text": "Can you think of the reason why this move is bad?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f8-e8"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "5Rk1/1p1r2p1/7p/3P4/1P2K1P1/7P/r7/5R2 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f8-e8"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Kh7",
+      "afterMoveFen": "5R2/1p1r2pk/7p/3P4/1P2K1P1/7P/r7/5R2 w - - 2 2"
+    }
+  },
+  "drill": null
+}

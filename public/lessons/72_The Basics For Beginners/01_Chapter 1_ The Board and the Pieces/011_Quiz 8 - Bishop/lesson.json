@@ -1,0 +1,43 @@
+{
+  "id": "9720d3f1-d44f-4249-a655-ae4c2f80538e",
+  "name": "Quiz 8 - Bishop",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Analyze the bishop's legal moves. \n\nHow many squares can your bishop on e5 go to?",
+    "answers": [
+      {
+        "text": "d6-c7-b8-f6-g7-h8-f4-g3",
+        "feedback": {
+          "text": "Yes! Your bishop cannot go to c3 because the d-pawn blocks its path, and it cannot go to h2 because the king is there. So it can only go to the selected squares where there are no obstacles.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The bishop can move along any of its diagonals.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4k3/p2q3p/1n2p1p1/3pBpQ1/3P4/4PP1P/1P4PK/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qb5",
+      "afterMoveFen": "4k3/p6p/1n2p1p1/1q1pBpQ1/3P4/4PP1P/1P4PK/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

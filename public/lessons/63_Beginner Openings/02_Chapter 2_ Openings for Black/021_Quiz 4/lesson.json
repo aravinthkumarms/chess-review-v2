@@ -1,0 +1,61 @@
+{
+  "id": "e93843d0-a985-4b83-a687-e48892c36d39",
+  "name": "Quiz 4 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White jumps with the knight forward. \n\nIs symmetry possible here?",
+    "answers": [
+      {
+        "text": "No, we have to defend against a threat.",
+        "feedback": {
+          "text": "Exactly. White is attacking the c7-pawn twice so we'll have to defend with the rook.",
+          "arrows": {
+            "threats": [
+              "f4-c7",
+              "b5-c7"
+            ],
+            "opportunities": [
+              "a8-c8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, jumping with the knight creates an equally dangerous threat.",
+        "feedback": {
+          "text": "Symmetry isn't possible when White creates an attack.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2qkbnr/ppp1pppp/2n5/3p1b2/3P1B2/2N5/PPP1PPPP/R2QKBNR w KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c6-b4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nb5",
+      "afterMoveFen": "r2qkbnr/ppp1pppp/2n5/1N1p1b2/3P1B2/8/PPP1PPPP/R2QKBNR b KQkq - 2 1"
+    }
+  },
+  "drill": null
+}

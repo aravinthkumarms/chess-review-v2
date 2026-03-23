@@ -1,0 +1,1113 @@
+{
+  "id": "2839ef4d-8804-4136-92c3-a21987f2a04c",
+  "name": "Study 2: Converting a Better Position",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "1"
+        ],
+        "comments": [
+          {
+            "text": "I had the White pieces in this game against IM Igor Gulkov. \n\nBlack is better. \n\nIM Igor is up a pawn, has a powerful rook on the h-file. \n\nMy rook is dormant on a1.\n\nMy first move was played to prevent Rh1+.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h6-h1",
+                "e2-g3"
+              ]
+            },
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/game/live/5765136195",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h6-h1",
+                "e2-g3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/1pqbnp2/p2pp1pr/2p5/3nP3/P2P4/BPP1NPN1/R2Q1K2 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "01": {
+        "adjacentNodeIds": [
+          "7d"
+        ],
+        "comments": [
+          {
+            "text": "And now the knight came to e5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p1bnp2/p3p1p1/2p1n3/4PN2/P1P3N1/BP3P2/R4K2 w - - 1 7",
+        "parentNodeId": "mK",
+        "san": "Ne5"
+      },
+      "0W": {
+        "adjacentNodeIds": [
+          "KS"
+        ],
+        "comments": [
+          {
+            "text": "Perhaps getting the king closer was more resilient.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/2b1p3/p7/2P1P3/n1PBK3/8/7N b - - 1 26",
+        "parentNodeId": "vV",
+        "san": "Ke3"
+      },
+      "1": {
+        "adjacentNodeIds": [
+          "f"
+        ],
+        "comments": [
+          {
+            "text": "I defended the h1 square.\n\nNow, Black has to come up with a way to increase the pressure.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k5/1pqbnp2/p2pp1pr/2p5/3nP3/P2P2N1/BPP2PN1/R2Q1K2 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Ng3"
+      },
+      "1H": {
+        "adjacentNodeIds": [
+          "n8"
+        ],
+        "comments": [
+          {
+            "text": "My opponent just went back to c6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/1pqbnp2/p1n1p1pr/2pp4/4P3/P1PP2N1/BP3PN1/R2Q1K2 w - - 1 3",
+        "parentNodeId": "K",
+        "san": "Ndc6"
+      },
+      "2z": {
+        "adjacentNodeIds": [
+          "tu"
+        ],
+        "comments": [
+          {
+            "text": "Black improved their bishop.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/1p2np2/p1b1p3/2p1n1pN/4P3/P1P3N1/BP3P2/3R1K2 w - - 2 9",
+        "parentNodeId": "BU",
+        "san": "Bc6"
+      },
+      "38": {
+        "adjacentNodeIds": [
+          "HC"
+        ],
+        "comments": [
+          {
+            "text": "I proposed a queen trade. \n\nMy idea is to exchange pieces because I'm not safe in this position.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1pqbnp2/p1n1p1p1/2pp4/4PQ2/P1PP2N1/BP3PN1/R4K2 b - - 4 4",
+        "parentNodeId": "yY",
+        "san": "Qf4"
+      },
+      "4g": {
+        "adjacentNodeIds": [
+          "EJ"
+        ],
+        "comments": [
+          {
+            "text": "I moved my king to f4.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-e5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1p3/2p1n3/4PK2/P1P5/1P6/1B5N b - - 2 22",
+        "parentNodeId": "LL",
+        "san": "Kf4"
+      },
+      "7Q": {
+        "adjacentNodeIds": [
+          "Pr"
+        ],
+        "comments": [
+          {
+            "text": "And Bd3. \n\nThere's a small threat, at least at first glance, of c4, traping the knight.\n\nBut this is no issue for Black really.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1p3/2p5/4PK2/nPPB4/8/7N b - - 1 24",
+        "parentNodeId": "JI",
+        "san": "Bd3"
+      },
+      "7d": {
+        "adjacentNodeIds": [
+          "pZ"
+        ],
+        "comments": [
+          {
+            "text": "I brought my rook to the open d-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p1bnp2/p3p1p1/2p1n3/4PN2/P1P3N1/BP3P2/3R1K2 b - - 2 7",
+        "parentNodeId": "01",
+        "san": "Rd1"
+      },
+      "7e": {
+        "adjacentNodeIds": [
+          "vV"
+        ],
+        "comments": [
+          {
+            "text": "I captured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1p3/8/2P1PK2/n1PB4/8/7N b - - 0 25",
+        "parentNodeId": "Pr",
+        "san": "bxc4"
+      },
+      "87": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "a3 and I resigned.\n\nMy knight is also too clumsy to defend.\n\nBlack won some pawns, kept the pressure up, improved his pieces, and simply created counterplay when I was starting to win back some material for myself.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a3-a2",
+                "a2-a1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4kp2/2b1p3/2P5/2p1P3/p1P1K3/8/3N4 w - - 0 31",
+        "parentNodeId": "zB",
+        "san": "a3"
+      },
+      "9m": {
+        "adjacentNodeIds": [
+          "t7"
+        ],
+        "comments": [
+          {
+            "text": "Black's improving his other knight! \n\nThis is how you convert! \n\nYou continue applying pressure and improving your pieces! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p3p2/p1b1p1n1/2p1n1pN/4P3/P1P3N1/1P3P2/1B1R1K2 w - - 4 10",
+        "parentNodeId": "tu",
+        "san": "N7g6"
+      },
+      "A9": {
+        "adjacentNodeIds": [
+          "cE"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3k4/1p3p1N/p1b1p3/2p1n2n/4P1p1/P1P3K1/1P6/1B5N w - - 2 17",
+        "parentNodeId": "eO",
+        "san": "Nh5+"
+      },
+      "Af": {
+        "adjacentNodeIds": [
+          "mK"
+        ],
+        "comments": [
+          {
+            "text": "Black released the central tension, as this wasn't going to benefit him.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p1bnp2/p1n1p1p1/2p5/4pN2/P1PP2N1/BP3P2/R4K2 w - - 0 6",
+        "parentNodeId": "Me",
+        "san": "dxe4"
+      },
+      "BU": {
+        "adjacentNodeIds": [
+          "2z"
+        ],
+        "comments": [
+          {
+            "text": "I went to the h-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p1bnp2/p3p3/2p1n1pN/4P3/P1P3N1/BP3P2/3R1K2 b - - 1 8",
+        "parentNodeId": "pZ",
+        "san": "Nfh5"
+      },
+      "Bf": {
+        "adjacentNodeIds": [
+          "qT"
+        ],
+        "comments": [
+          {
+            "text": "He accepted the trade...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/1p3p2/p1b1pN2/2p1n1p1/4Pn2/P1P3N1/1P3K2/1B5r w - - 0 14",
+        "parentNodeId": "oa",
+        "san": "Rxh1"
+      },
+      "EJ": {
+        "adjacentNodeIds": [
+          "kq"
+        ],
+        "comments": [
+          {
+            "text": "And now the pawns can't be defended.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b2",
+                "a3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1p3/2p5/2n1PK2/P1P5/1P6/1B5N w - - 3 23",
+        "parentNodeId": "4g",
+        "san": "Nc4"
+      },
+      "Fy": {
+        "adjacentNodeIds": [
+          "Ya"
+        ],
+        "comments": [
+          {
+            "text": "Under the extreme pressure, I blundered! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p3p2/p1b1pN2/2p1n1p1/4Pn2/P1P2PN1/1P6/1B1R1K2 b - - 0 11",
+        "parentNodeId": "cM",
+        "san": "f3"
+      },
+      "Gi": {
+        "adjacentNodeIds": [
+          "TW"
+        ],
+        "comments": [
+          {
+            "text": "But at least my king wasn't lacking squares anymore.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/1p3p2/p1b1pN2/2p3p1/4Pn2/P1P2nN1/1P3K2/1B1R4 b - - 1 12",
+        "parentNodeId": "Ya",
+        "san": "Kf2"
+      },
+      "HC": {
+        "adjacentNodeIds": [
+          "Me"
+        ],
+        "comments": [
+          {
+            "text": "Black captured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p1bnp2/p1n1p1p1/2pp4/4Pq2/P1PP2N1/BP3PN1/R4K2 w - - 0 5",
+        "parentNodeId": "38",
+        "san": "Qxf4"
+      },
+      "Hc": {
+        "adjacentNodeIds": [
+          "LL"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1p1n1/2p5/4P1K1/P1P5/1P6/1B5N b - - 0 21",
+        "parentNodeId": "KU",
+        "san": "Kxg4"
+      },
+      "IP": {
+        "adjacentNodeIds": [
+          "W8"
+        ],
+        "comments": [
+          {
+            "text": "The knight escaped through c4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4kp2/2b1p3/1pP5/p1n1PK2/2PB4/8/3N4 w - - 1 29",
+        "parentNodeId": "Wr",
+        "san": "Nc4"
+      },
+      "JI": {
+        "adjacentNodeIds": [
+          "7Q"
+        ],
+        "comments": [
+          {
+            "text": "Black took.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1p3/2p5/4PK2/nPP5/8/1B5N w - - 0 24",
+        "parentNodeId": "kq",
+        "san": "Nxa3"
+      },
+      "K": {
+        "adjacentNodeIds": [
+          "1H"
+        ],
+        "comments": [
+          {
+            "text": "I tried getting rid of this monster knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/1pqbnp2/p3p1pr/2pp4/3nP3/P1PP2N1/BP3PN1/R2Q1K2 b - - 0 2",
+        "parentNodeId": "f",
+        "san": "c3"
+      },
+      "KS": {
+        "adjacentNodeIds": [
+          "lm"
+        ],
+        "comments": [
+          {
+            "text": "If Black pushed...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/2b1p3/8/p1P1P3/n1PBK3/8/7N w - - 0 27",
+        "parentNodeId": "0W",
+        "san": "a4"
+      },
+      "KU": {
+        "adjacentNodeIds": [
+          "Hc"
+        ],
+        "comments": [
+          {
+            "text": "It's now time to trade.\n\nPerhaps the knight can come into e5 with check and create some chaos.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-e5",
+                "e5-c4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1p1n1/2p5/4P1n1/P1P3K1/1P6/1B5N w - - 0 21",
+        "parentNodeId": "a6",
+        "san": "Nxg4"
+      },
+      "Ki": {
+        "adjacentNodeIds": [
+          "Xq"
+        ],
+        "comments": [
+          {
+            "text": "IM Igor returned to the same square...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/1p3p1N/p1b1p3/2p1n3/4PnpK/P1P5/1P6/1B5N w - - 4 18",
+        "parentNodeId": "cE",
+        "san": "Nf4"
+      },
+      "LL": {
+        "adjacentNodeIds": [
+          "4g"
+        ],
+        "comments": [
+          {
+            "text": "Check! \n\nHere comes the knight.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-c4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1p3/2p1n3/4P1K1/P1P5/1P6/1B5N w - - 1 22",
+        "parentNodeId": "Hc",
+        "san": "Ne5+"
+      },
+      "Me": {
+        "adjacentNodeIds": [
+          "Af"
+        ],
+        "comments": [
+          {
+            "text": "The knight recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p1bnp2/p1n1p1p1/2pp4/4PN2/P1PP2N1/BP3P2/R4K2 b - - 0 5",
+        "parentNodeId": "HC",
+        "san": "Nxf4"
+      },
+      "NN": {
+        "adjacentNodeIds": [
+          "pC"
+        ],
+        "comments": [
+          {
+            "text": "I went for a one move threat.\n\nBut this actually can't be defended, so Black's going to have to push to defend.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3k4/1p3p1N/p1b1p3/2p1n1p1/4Pn2/P1P5/1P3K2/1B5N b - - 2 15",
+        "parentNodeId": "ne",
+        "san": "Nh7"
+      },
+      "Oc": {
+        "adjacentNodeIds": [
+          "a6"
+        ],
+        "comments": [
+          {
+            "text": "Improving the king can't hurt.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1pNn1/2p1n3/4P1p1/P1P3K1/1P6/1B5N w - - 8 20",
+        "parentNodeId": "bs",
+        "san": "Ke7"
+      },
+      "Oh": {
+        "adjacentNodeIds": [
+          "zB"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptured, quite simply.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4kp2/2b1p3/2P5/p1p1PK2/2P5/8/3N4 w - - 0 30",
+        "parentNodeId": "W8",
+        "san": "bxc4"
+      },
+      "Pr": {
+        "adjacentNodeIds": [
+          "7e"
+        ],
+        "comments": [
+          {
+            "text": "And Black gained a tempo on my bishop, sacrificing the pawn! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d3",
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1p3/8/2p1PK2/nPPB4/8/7N w - - 0 25",
+        "parentNodeId": "7Q",
+        "san": "c4"
+      },
+      "TW": {
+        "adjacentNodeIds": [
+          "oa"
+        ],
+        "comments": [
+          {
+            "text": "IM Igor just brought his knight back to its great square on e5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p3p2/p1b1pN2/2p1n1p1/4Pn2/P1P3N1/1P3K2/1B1R4 w - - 2 13",
+        "parentNodeId": "Gi",
+        "san": "Ne5"
+      },
+      "W8": {
+        "adjacentNodeIds": [
+          "Oh"
+        ],
+        "comments": [
+          {
+            "text": "I took.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4kp2/2b1p3/1pP5/p1B1PK2/2P5/8/3N4 b - - 0 29",
+        "parentNodeId": "IP",
+        "san": "Bxc4"
+      },
+      "Wr": {
+        "adjacentNodeIds": [
+          "IP"
+        ],
+        "comments": [
+          {
+            "text": "I pushed.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4kp2/2b1p3/1pP5/p3PK2/n1PB4/8/3N4 b - - 0 28",
+        "parentNodeId": "dv",
+        "san": "c5"
+      },
+      "Xj": {
+        "adjacentNodeIds": [
+          "dv"
+        ],
+        "comments": [
+          {
+            "text": "I'm getting my knight closer, as I said.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/2b1p3/8/p1P1PK2/n1PB4/8/3N4 b - - 1 27",
+        "parentNodeId": "w7",
+        "san": "Nd1"
+      },
+      "Xq": {
+        "adjacentNodeIds": [
+          "i7"
+        ],
+        "comments": [
+          {
+            "text": "And a draw is fine with me at this point! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/1p3p1N/p1b1p3/2p1n3/4Pnp1/P1P3K1/1P6/1B5N b - - 5 18",
+        "parentNodeId": "Ki",
+        "san": "Kg3"
+      },
+      "Ya": {
+        "adjacentNodeIds": [
+          "Gi"
+        ],
+        "comments": [
+          {
+            "text": "Black captured the free pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p3p2/p1b1pN2/2p3p1/4Pn2/P1P2nN1/1P6/1B1R1K2 w - - 0 12",
+        "parentNodeId": "Fy",
+        "san": "Nxf3"
+      },
+      "a6": {
+        "adjacentNodeIds": [
+          "KU"
+        ],
+        "comments": [
+          {
+            "text": "The pawn falls, but this was inevitable.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1p1n1/2p1n3/4P1N1/P1P3K1/1P6/1B5N b - - 0 20",
+        "parentNodeId": "Oc",
+        "san": "Nxg4"
+      },
+      "bs": {
+        "adjacentNodeIds": [
+          "Oc"
+        ],
+        "comments": [
+          {
+            "text": "I came back to f6, attacking g4.\n\nIt seems Black isn't well coordinated on the kingside.\n\nHow will Black convert this?",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3k4/1p3p2/p1b1pNn1/2p1n3/4P1p1/P1P3K1/1P6/1B5N b - - 7 19",
+        "parentNodeId": "i7",
+        "san": "Nf6"
+      },
+      "cE": {
+        "adjacentNodeIds": [
+          "Ki"
+        ],
+        "comments": [
+          {
+            "text": "I attacked the knight.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3k4/1p3p1N/p1b1p3/2p1n2n/4P1pK/P1P5/1P6/1B5N b - - 3 17",
+        "parentNodeId": "A9",
+        "san": "Kh4"
+      },
+      "cM": {
+        "adjacentNodeIds": [
+          "Fy"
+        ],
+        "comments": [
+          {
+            "text": "IM Igor got his knight into f4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p3p2/p1b1pN2/2p1n1p1/4Pn2/P1P3N1/1P3P2/1B1R1K2 w - - 6 11",
+        "parentNodeId": "t7",
+        "san": "Nf4"
+      },
+      "dv": {
+        "adjacentNodeIds": [
+          "Wr"
+        ],
+        "comments": [
+          {
+            "text": "But here comes b5! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4kp2/2b1p3/1p6/p1P1PK2/n1PB4/8/3N4 w - b6 0 28",
+        "parentNodeId": "Xj",
+        "san": "b5"
+      },
+      "eO": {
+        "adjacentNodeIds": [
+          "A9"
+        ],
+        "comments": [
+          {
+            "text": "I came up to pressure the pawn and knight.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4",
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3k4/1p3p1N/p1b1p3/2p1n3/4Pnp1/P1P3K1/1P6/1B5N b - - 1 16",
+        "parentNodeId": "pC",
+        "san": "Kg3"
+      },
+      "eU": {
+        "adjacentNodeIds": [
+          "w7"
+        ],
+        "comments": [
+          {
+            "text": "I brought my knight closer to the action.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/2b1p3/p7/2P1PK2/n1PB4/5N2/8 b - - 1 26",
+        "parentNodeId": "vV",
+        "san": "Nf2"
+      },
+      "f": {
+        "adjacentNodeIds": [
+          "K"
+        ],
+        "comments": [
+          {
+            "text": "Black chose d5! \n\nIf the position opens up, the White king will fall! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/1pqbnp2/p3p1pr/2pp4/3nP3/P2P2N1/BPP2PN1/R2Q1K2 w - - 0 2",
+        "parentNodeId": "1",
+        "san": "d5"
+      },
+      "i7": {
+        "adjacentNodeIds": [
+          "bs"
+        ],
+        "comments": [
+          {
+            "text": "But of course, Black doesn't want this. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/1p3p1N/p1b1p1n1/2p1n3/4P1p1/P1P3K1/1P6/1B5N w - - 6 19",
+        "parentNodeId": "Xq",
+        "san": "Nfg6"
+      },
+      "kq": {
+        "adjacentNodeIds": [
+          "JI"
+        ],
+        "comments": [
+          {
+            "text": "I played b3, losing the least important pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/p1b1p3/2p5/2n1PK2/PPP5/8/1B5N b - - 0 23",
+        "parentNodeId": "EJ",
+        "san": "b3"
+      },
+      "lm": {
+        "adjacentNodeIds": [
+          "oT"
+        ],
+        "comments": [
+          {
+            "text": "The king now has some relevance in the position.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/2b1p3/8/p1P1P3/n1PB4/3K4/7N b - - 1 27",
+        "parentNodeId": "KS",
+        "san": "Kd2"
+      },
+      "mK": {
+        "adjacentNodeIds": [
+          "01"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured with the pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p1bnp2/p1n1p1p1/2p5/4PN2/P1P3N1/BP3P2/R4K2 b - - 0 6",
+        "parentNodeId": "Af",
+        "san": "dxe4"
+      },
+      "n8": {
+        "adjacentNodeIds": [
+          "yY"
+        ],
+        "comments": [
+          {
+            "text": "I attacked the rook.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k5/1pqbnp2/p1n1p1pr/2pp4/4P3/P1PP2N1/BP1Q1PN1/R4K2 b - - 2 3",
+        "parentNodeId": "1H",
+        "san": "Qd2"
+      },
+      "ne": {
+        "adjacentNodeIds": [
+          "NN"
+        ],
+        "comments": [
+          {
+            "text": "Black started improving his king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/1p3p2/p1b1pN2/2p1n1p1/4Pn2/P1P5/1P3K2/1B5N w - - 1 15",
+        "parentNodeId": "qT",
+        "san": "Kd8"
+      },
+      "oT": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The bad part is now the Black king could begin winning stuff in the center, so the position is losing either way.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d6-c5",
+                "d6-e5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p3p2/2bkp3/8/p1P1P3/n1PB4/3K4/7N w - - 2 28",
+        "parentNodeId": "lm",
+        "san": "Kd6"
+      },
+      "oa": {
+        "adjacentNodeIds": [
+          "Bf"
+        ],
+        "comments": [
+          {
+            "text": "I proposed another trade to try and hold the endgame. \n\nBlack's rook is better than mine either way.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p3p2/p1b1pN2/2p1n1p1/4Pn2/P1P3N1/1P3K2/1B5R b - - 3 13",
+        "parentNodeId": "TW",
+        "san": "Rh1"
+      },
+      "pC": {
+        "adjacentNodeIds": [
+          "eO"
+        ],
+        "comments": [
+          {
+            "text": "So he pushed.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3k4/1p3p1N/p1b1p3/2p1n3/4Pnp1/P1P5/1P3K2/1B5N w - - 0 16",
+        "parentNodeId": "NN",
+        "san": "g4"
+      },
+      "pZ": {
+        "adjacentNodeIds": [
+          "BU"
+        ],
+        "comments": [
+          {
+            "text": "Black dislodged my knight from f4. \n\ng5 also ensures Black's knight on e5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/1p1bnp2/p3p3/2p1n1p1/4PN2/P1P3N1/BP3P2/3R1K2 w - - 0 8",
+        "parentNodeId": "7d",
+        "san": "g5"
+      },
+      "qT": {
+        "adjacentNodeIds": [
+          "ne"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/1p3p2/p1b1pN2/2p1n1p1/4Pn2/P1P5/1P3K2/1B5N b - - 0 14",
+        "parentNodeId": "Bf",
+        "san": "Nxh1"
+      },
+      "t7": {
+        "adjacentNodeIds": [
+          "cM"
+        ],
+        "comments": [
+          {
+            "text": "It's hard to suggest a move for me. I'm down a pawn and my knights are very awkward. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1p3p2/p1b1pNn1/2p1n1p1/4P3/P1P3N1/1P3P2/1B1R1K2 b - - 5 10",
+        "parentNodeId": "9m",
+        "san": "Nf6"
+      },
+      "tu": {
+        "adjacentNodeIds": [
+          "9m"
+        ],
+        "comments": [
+          {
+            "text": "I overprotected my pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/1p2np2/p1b1p3/2p1n1pN/4P3/P1P3N1/1P3P2/1B1R1K2 b - - 3 9",
+        "parentNodeId": "2z",
+        "san": "Bb1"
+      },
+      "vV": {
+        "adjacentNodeIds": [
+          "eU",
+          "0W"
+        ],
+        "comments": [
+          {
+            "text": "And my opponent began pushing the pawn! \n\nIs this the way of converting? Pushing a passed a-pawn like in the previous game? \n\nIt seems there's a trend here! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/2b1p3/p7/2P1PK2/n1PB4/8/7N w - - 0 26",
+        "parentNodeId": "7e",
+        "san": "a5"
+      },
+      "w7": {
+        "adjacentNodeIds": [
+          "Xj"
+        ],
+        "comments": [
+          {
+            "text": "But the a-pawn is too fast.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2kp2/2b1p3/8/p1P1PK2/n1PB4/5N2/8 w - - 0 27",
+        "parentNodeId": "eU",
+        "san": "a4"
+      },
+      "yY": {
+        "adjacentNodeIds": [
+          "38"
+        ],
+        "comments": [
+          {
+            "text": "IM Igor went to a safe square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/1pqbnp2/p1n1p1p1/2pp4/4P3/P1PP2N1/BP1Q1PN1/R4K2 w - - 3 4",
+        "parentNodeId": "n8",
+        "san": "Rh8"
+      },
+      "zB": {
+        "adjacentNodeIds": [
+          "87"
+        ],
+        "comments": [
+          {
+            "text": "And sadly now my king is too slow.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4kp2/2b1p3/2P5/p1p1P3/2P1K3/8/3N4 b - - 1 30",
+        "parentNodeId": "Oh",
+        "san": "Ke3"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

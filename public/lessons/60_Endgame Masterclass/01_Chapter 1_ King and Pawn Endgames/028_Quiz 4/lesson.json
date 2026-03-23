@@ -1,0 +1,73 @@
+{
+  "id": "62aafd24-a7f0-42f9-918f-f89a0b242098",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It is Black to move. \n\nHow would you evaluate this king and pawn endgame?",
+    "answers": [
+      {
+        "text": "Black is winning.",
+        "feedback": {
+          "text": "...g2 and the square gets even smaller. The white king isn't inside it so Black wins.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is winning.",
+        "feedback": {
+          "text": "Are you sure? It's Black to move. Can Black win?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g3-g2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It should be a draw because both kings can reach the enemy pawns in time.",
+        "feedback": {
+          "text": "It's Black to move. Are you sure it's a draw here?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/4k3/1P6/8/6p1/8/2K5 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kd2",
+      "afterMoveFen": "8/8/4k3/1P6/8/6p1/3K4/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

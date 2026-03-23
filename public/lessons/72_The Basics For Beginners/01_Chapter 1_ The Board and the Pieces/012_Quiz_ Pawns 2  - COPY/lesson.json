@@ -1,0 +1,73 @@
+{
+  "id": "312cbd06-759e-4837-b5ba-202752b1faac",
+  "name": "Quiz: Pawns 2  - COPY",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White pushes a pawn. Here, you can make a special pawn move. \n\nHow many pawn moves can you make?",
+    "answers": [
+      {
+        "text": "axb3",
+        "feedback": {
+          "text": "This is an en-passant capture! A special move in chess!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/5pp1/6p1/3k4/8/Pp4P1/5P1P/5K2 w - - 0 2"
+      },
+      {
+        "text": "f6",
+        "feedback": {
+          "text": "The f-pawn can be pushed!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/6p1/5pp1/3k4/pP6/P5P1/5P1P/5K2 w - - 0 2"
+      },
+      {
+        "text": "f5",
+        "feedback": {
+          "text": "The f-pawn can also be pushed twice! Good job!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/6p1/6p1/3k1p2/pP6/P5P1/5P1P/5K2 w - f6 0 2"
+      },
+      {
+        "text": "g5",
+        "feedback": {
+          "text": "The g-pawn can also move up a square.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/5pp1/8/3k2p1/pP6/P5P1/5P1P/5K2 w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you make moves with the pawns? There's even a capture that you can play en passant!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/5pp1/6p1/3k4/p7/P5P1/1P3P1P/5K2 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "b4",
+      "afterMoveFen": "8/5pp1/6p1/3k4/pP6/P5P1/5P1P/5K2 b - b3 0 1"
+    }
+  },
+  "drill": null
+}

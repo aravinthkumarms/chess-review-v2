@@ -1,0 +1,48 @@
+{
+  "id": "514a02d4-9ae7-4854-a84c-2a57edfe0751",
+  "name": "Quiz",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The queen pins your knight. \n\nWhat should you play?",
+    "answers": [
+      {
+        "text": "Bf5",
+        "feedback": {
+          "text": "...Bf7 allows the queen to escape, while on f5 you cover the escape diagonal!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r2qk2r/ppp1n1pp/4Qp2/2pPpb2/2P5/P3P3/1P3PPP/R1B1KB1R w KQkq - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you trap the queen?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2qk2r/ppp1n1pp/5pb1/2pPp3/2P3Q1/P3P3/1P3PPP/R1B1KB1R w KQkq - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "e6"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qe6",
+      "afterMoveFen": "r2qk2r/ppp1n1pp/4Qpb1/2pPp3/2P5/P3P3/1P3PPP/R1B1KB1R b KQkq - 2 1"
+    }
+  },
+  "drill": null
+}

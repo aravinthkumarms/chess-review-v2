@@ -1,0 +1,80 @@
+{
+  "id": "22d33454-7d26-451d-a912-fcf1abeea45b",
+  "name": "Quiz 5",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It seems White has allowed ...Na3+ - a discovered attack.\n\nIs this discovered attack strong?",
+    "answers": [
+      {
+        "text": "No, because it isn't enough compensation for the piece.",
+        "feedback": {
+          "text": "Correct! White can simply capture the knight, then play Ka1 and is actually safe!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c4-a3",
+              "b2-a3",
+              "b1-a1",
+              "c7-c2"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes. The attack on the c2-pawn leads to checkmate.",
+        "feedback": {
+          "text": "White's pieces are actually defended and there is no way to mate the king.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, because White has a countertactic.",
+        "feedback": {
+          "text": "There is no countertactic in this case!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r3k1/1bq1bp1p/4p1pP/pB1pP3/PpnQ1P2/1N5R/1PP3P1/1K1R4 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c4-a3"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "b1",
+        "c2"
+      ],
+      "opportunities": [
+        "c7",
+        "c8"
+      ]
+    },
+    "contextMove": {
+      "san": "g4",
+      "afterMoveFen": "2r3k1/1bq1bp1p/4p1pP/pB1pP3/PpnQ1PP1/1N5R/1PP5/1K1R4 b - g3 0 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,48 @@
+{
+  "id": "0e9444fd-2abd-4f6f-a436-8164dddfafc8",
+  "name": "Quiz 2: Back-Rank Mate in one (rook)",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black captures your rook!\n\nDo you have a checkmate?",
+    "answers": [
+      {
+        "text": "Rxe8#",
+        "feedback": {
+          "text": "Nice! The Black king is in check and cannot move. Its own bishop on h7 is blocking it.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "g8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "4R1k1/p4ppb/8/8/8/1P4B1/PKPr4/8 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you find checkmate in one move?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3rr1k1/p4ppb/8/8/8/1P4B1/PKPR4/4R3 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rxd2",
+      "afterMoveFen": "4r1k1/p4ppb/8/8/8/1P4B1/PKPr4/4R3 w - - 0 2"
+    }
+  },
+  "drill": null
+}

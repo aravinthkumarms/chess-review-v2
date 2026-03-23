@@ -1,0 +1,65 @@
+{
+  "id": "394ecd28-5333-480e-bbe9-60f3397a2a08",
+  "name": "Quiz 3 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has pushed their pawn to e6.\n\nThe pawn on b2 is free to capture now, but White would recapture on b4 next.\n\nShould we go for this trade?",
+    "answers": [
+      {
+        "text": "No, because Wihite's b2-pawn is weak and we could try to capture it later without losing any material.",
+        "feedback": {
+          "text": "That's right! White doesn't have a good way of protecting the b2-pawn — improving minor pieces is the way to go here (...Nc6).",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, because we get rid of the potential passed b-pawn, and our pieces will prove to be stronger than the rook in the endgame.",
+        "feedback": {
+          "text": "Although this isn't a mistake, by trading for our b4-pawn we give White more drawing chances.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2n1k3/1R2n1pp/8/4PP2/1p1b2P1/8/1P4KP/8 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "b7-b4"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "b2"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "e6",
+      "afterMoveFen": "2n1k3/1R2n1pp/4P3/5P2/1p1b2P1/8/1P4KP/8 b - - 0 1"
+    }
+  },
+  "drill": null
+}

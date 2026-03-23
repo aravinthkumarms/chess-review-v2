@@ -1,0 +1,94 @@
+{
+  "id": "ac475e34-04ae-4ec5-b337-48a40e1e585c",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has recaptured the knight on f4.\n\nThere are some weaknesses in White's camp.\n\nWhat's the best way to proceed here?",
+    "answers": [
+      {
+        "text": "We shouldn't trade the rooks,  nor capture the pawn on d3 immediately. We'll keep the f-file occupied and play ...Qb5 to attack White's both weak pawns.",
+        "feedback": {
+          "text": "That's right! Trading the rooks is unnecessary here, and capturing the pawn on d3 loses to Rxf8+, and the pawn on h7 is hanging.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f4-f8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White's biggest weakness — the d3-pawn is now free to capture. Our rook will be very active, and If White doesn't trade on f8, we'll double up on the d-file.",
+        "feedback": {
+          "text": "If we capture on d3 immediately, White trades on f8 (Rxf8+), and the h7-pawn will be hanging.",
+          "arrows": {
+            "threats": [
+              "d8-d3"
+            ],
+            "opportunities": [
+              "f4-f8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "We need to trade on f4 first (...Rxf4), so we can capture on d3 next. The d-file will be a big asset in this position, since White cannot easily challenge it.",
+        "feedback": {
+          "text": "While we get the d-file, White will get the f-file! After Rd1, our king is suddenly very weak.",
+          "arrows": {
+            "threats": [
+              "f8-f4",
+              "h4-f4"
+            ],
+            "opportunities": [
+              "a1-f1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3r1rk1/pp4pp/2p1p3/q1p5/4Pn1Q/2PP3P/PP4P1/R4RK1 w - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "d3",
+        "b2"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Rxf4",
+      "afterMoveFen": "3r1rk1/pp4pp/2p1p3/q1p5/4PR1Q/2PP3P/PP4P1/R5K1 b - - 0 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,32 @@
+{
+  "id": "4bf91cc7-2722-463d-bb03-2cc186e6999d",
+  "name": "Quiz 5 ",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black offers a queen trade. \n\nTry to select a piece/pawn in Black's camp, that prevents a checkmate in one.",
+    "answers": [
+      {
+        "text": "b7",
+        "feedback": {
+          "text": "Good job! Without the b7-pawn, Ba6 would be a checkmate!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [],
+    "positionFen": "2kr1b1r/pp1npppp/2p1bn2/4q3/5B2/2NB1Q1P/PPP1N1P1/2KR3R b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qh5",
+      "afterMoveFen": "2kr1b1r/pp1npppp/2p1bn2/7q/5B2/2NB1Q1P/PPP1N1P1/2KR3R w - - 2 2"
+    }
+  },
+  "drill": null
+}

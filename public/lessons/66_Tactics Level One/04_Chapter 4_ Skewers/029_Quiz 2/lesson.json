@@ -1,0 +1,54 @@
+{
+  "id": "e77873b6-edd0-4476-98a6-0cdaa128861c",
+  "name": "Quiz 2",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black captures the e4-pawn.\n\nIt is White to move. What is the only move that loses the game?",
+    "answers": [
+      {
+        "text": "Kxe4",
+        "feedback": {
+          "text": "That's right! Kxe4 loses the game because Black can play ...Bc6+ and skewer the king and rook.",
+          "arrows": {
+            "threats": [
+              "d7-c6"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "e4",
+              "h1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "8/3b2k1/r3p3/1pB5/3PK1P1/1P6/8/7R b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "This move doesn't lose. Is there a way for White to run into a skewer?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/3b2k1/r3p3/1pBp4/3PP1P1/1P1K4/8/7R b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "dxe4+",
+      "afterMoveFen": "8/3b2k1/r3p3/1pB5/3Pp1P1/1P1K4/8/7R w - - 0 2"
+    }
+  },
+  "drill": null
+}

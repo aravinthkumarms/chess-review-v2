@@ -1,0 +1,53 @@
+{
+  "id": "39f5c7f4-5744-4eb9-9021-7b067635063d",
+  "name": "Quiz 4 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White wants to go attack the pawns with their king. \n\nWhat's the best move here?",
+    "answers": [
+      {
+        "text": "c4",
+        "feedback": {
+          "text": "Great job! \n\nYou're going to create a strong passed pawn no matter what!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/5Bk1/4KbP1/p7/Pppp4/1P1P4/8/8 w - - 0 2"
+      },
+      {
+        "text": "Bd8",
+        "feedback": {
+          "text": "This would be the move if and only if you were certain that you couldn't do anything else. This basically states that you'll defend and fight for a draw. Can you find a way to win?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "3b4/5Bk1/4K1P1/p1p5/Pp1p4/1P1P4/8/8 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Is there a way to break through on a side of the board?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/5Bk1/5bP1/p1p2K2/Pp1p4/1P1P4/8/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke6",
+      "afterMoveFen": "8/5Bk1/4KbP1/p1p5/Pp1p4/1P1P4/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

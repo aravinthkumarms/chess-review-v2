@@ -1,0 +1,76 @@
+{
+  "id": "e9fb7dcc-86eb-4bc8-88cb-2bcaa0903fba",
+  "name": "Quiz 7",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black captures the knight.\n\nCan White safely capture d4?",
+    "answers": [
+      {
+        "text": "No, Qxd4 loses a piece.",
+        "feedback": {
+          "text": "That's right! After Qxd4, Black can play ...c5 & there is no good way to prevent ...c4, trapping the bishop.",
+          "arrows": {
+            "threats": [
+              "c7-c5",
+              "c5-c4",
+              "d1-d4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "b3",
+              "d4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, Qxd4 is perfectly safe.",
+        "feedback": {
+          "text": "That's not quite right. The natural capture actually loses a piece!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, Qxd4 is a safe move, but it is better to play something else.",
+        "feedback": {
+          "text": "It's true that other moves are better, but only because Qxd4 isn't a safe move - it actually loses a full piece!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqkbnr/2p2ppp/p2p4/1p2p3/3NP3/1B6/PPP2PPP/RNBQK2R b KQkq - 1 1",
+    "arrows": {
+      "threats": [
+        "d1-d4"
+      ],
+      "opportunities": []
+    },
+    "highlights": {
+      "threats": [
+        "d4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "exd4",
+      "afterMoveFen": "r1bqkbnr/2p2ppp/p2p4/1p6/3pP3/1B6/PPP2PPP/RNBQK2R w KQkq - 0 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,807 @@
+{
+  "id": "44709c8b-6b2d-4973-80bf-9367e90aaab8",
+  "name": "Study 2: Outside Passed Pawn Creation",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "R"
+        ],
+        "comments": [
+          {
+            "text": "This was a game played between Anish Giri & Vasyl Ivanchuk in 2012. \n\nIn this study, you will learn how to use the structural imbalance to create an outside passed pawn which will help you to win the king & pawn endgame.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1652602",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/3k1p2/R4p2/2pP3p/5K1P/4P1P1/5P2/8 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "4": {
+        "adjacentNodeIds": [
+          "r"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk traded the rooks.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k1p2/2r2p2/2pP3p/5K1P/4P1P1/5P2/8 w - - 0 2",
+        "parentNodeId": "R",
+        "san": "Rxc6"
+      },
+      "6a": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black is still in time to go ...Ke7 and stop White's pawns. This is a draw!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e7-f8",
+                "f8-g7",
+                "g7-h6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/4kp2/5p2/7P/2p1PK1P/5P2/8/8 w - - 1 7",
+        "parentNodeId": "Xz",
+        "san": "Ke7"
+      },
+      "6m": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White slides the queen over to c8, skewering Black's king and queen!",
+            "arrows": {
+              "threats": [
+                "c8-c6",
+                "c6-c1"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c1",
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2Q5/5p2/2k2p2/8/5Kp1/4P3/5P2/2q5 b - - 1 8",
+        "parentNodeId": "Yd",
+        "san": "Qc8+"
+      },
+      "A5": {
+        "adjacentNodeIds": [
+          "Bp"
+        ],
+        "comments": [
+          {
+            "text": "Anish supported his e & g pawns w/f3.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-e4",
+                "f3-g4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g4",
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/3k1p2/7p/2p1PKPP/5P2/8/8 b - - 0 5",
+        "parentNodeId": "UA",
+        "san": "f3"
+      },
+      "BK": {
+        "adjacentNodeIds": [
+          "ia"
+        ],
+        "comments": [
+          {
+            "text": "And Anish finally captured on h5.\n\nHis plan is now as follows: Use the outside passed pawn to distract the king and win Black's passed c-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-h6",
+                "h6-h7",
+                "h7-h8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/5p2/4k2P/2p1P2P/4KP2/8/8 b - - 0 7",
+        "parentNodeId": "Gd",
+        "san": "gxh5"
+      },
+      "Bp": {
+        "adjacentNodeIds": [
+          "hz",
+          "Xz"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk slid his king over to e6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/4kp2/7p/2p1PKPP/5P2/8/8 w - - 1 6",
+        "parentNodeId": "A5",
+        "san": "Ke6"
+      },
+      "Cr": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And Anish finished the game off by disallowing Vasyl's king from getting closer with the timely pawn push h5.\n\nThe win is now simple - just go after the c-pawn while Black's king is stuck guarding the outside passed pawns.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-g6",
+                "h6-g7",
+                "d2-c3",
+                "c3-c4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c4",
+                "g6",
+                "g7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/5k1P/7P/2p1Pp2/5P2/3K4/8 b - - 0 10",
+        "parentNodeId": "ga",
+        "san": "h5"
+      },
+      "Ex": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black is just in time to stop the pawns with ...Ke7. This position is a draw!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e7-f8",
+                "f8-g7",
+                "g7-h6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/4kp2/5p2/7P/2p1PK1P/8/5P2/8 w - - 1 6",
+        "parentNodeId": "nh",
+        "san": "Ke7"
+      },
+      "F7": {
+        "adjacentNodeIds": [
+          "xG"
+        ],
+        "comments": [
+          {
+            "text": "Black advances the c-pawn to c2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p1P/2k2p2/8/5Kp1/4P3/2p2P2/8 w - - 0 7",
+        "parentNodeId": "cL",
+        "san": "c2"
+      },
+      "Gd": {
+        "adjacentNodeIds": [
+          "BK"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk went ...Ke5, preventing White's king from moving back up. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/5p2/4k2p/2p1P1PP/4KP2/8/8 w - - 3 7",
+        "parentNodeId": "hz",
+        "san": "Ke5"
+      },
+      "Ic": {
+        "adjacentNodeIds": [
+          "hX"
+        ],
+        "comments": [
+          {
+            "text": "There's no need to rush with gxh5...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p2/7P/2p2K1P/4P3/5P2/8 b - - 0 4",
+        "parentNodeId": "ty",
+        "san": "gxh5"
+      },
+      "M8": {
+        "adjacentNodeIds": [
+          "lM"
+        ],
+        "comments": [
+          {
+            "text": "Black pushes the c-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p1P/8/5K1P/4P3/2p2P2/8 w - - 0 6",
+        "parentNodeId": "y9",
+        "san": "c2"
+      },
+      "NB": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And Black defends f6 with ...Qb2.\n\nThis queen endgame is still winning for White, but it is far from simple & White has to be very careful not to allow any perpetual checks.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7Q/5p2/2k2p2/8/5K1P/4P3/1q3P2/8 w - - 1 8",
+        "parentNodeId": "oH",
+        "san": "Qb2"
+      },
+      "R": {
+        "adjacentNodeIds": [
+          "4"
+        ],
+        "comments": [
+          {
+            "text": "Anish started by offering a rook trade.\n\nThe rook endgame was already really good for White, but Anish decided to transform the position into a winning king and pawn endgame.\n\nBlack can't really decline this trade by moving the rook away from the c-file since the c5-pawn would be lost.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a6-c6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2r5/3k1p2/2R2p2/2pP3p/5K1P/4P1P1/5P2/8 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Rc6"
+      },
+      "UA": {
+        "adjacentNodeIds": [
+          "A5",
+          "nh"
+        ],
+        "comments": [
+          {
+            "text": "Seeing that pushing the c-pawn is of no avail, Ivanchuk brought his king closer to the kingside to help defend.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/3k1p2/7p/2p1PKPP/8/5P2/8 w - - 1 5",
+        "parentNodeId": "sq",
+        "san": "Kd6"
+      },
+      "Xi": {
+        "adjacentNodeIds": [
+          "uU"
+        ],
+        "comments": [
+          {
+            "text": "Anish simply advanced the h-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/7P/4kp2/2p1P2P/4KP2/8/8 b - - 0 8",
+        "parentNodeId": "ia",
+        "san": "h6"
+      },
+      "Xz": {
+        "adjacentNodeIds": [
+          "6a"
+        ],
+        "comments": [
+          {
+            "text": "White still can't rush with gxh5...",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4kp2/7P/2p1PK1P/5P2/8/8 b - - 0 6",
+        "parentNodeId": "Bp",
+        "san": "gxh5"
+      },
+      "YO": {
+        "adjacentNodeIds": [
+          "ga"
+        ],
+        "comments": [
+          {
+            "text": "Anish moved his king back to d2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/7P/4k3/2p1Pp1P/5P2/3K4/8 b - - 1 9",
+        "parentNodeId": "uU",
+        "san": "Kd2"
+      },
+      "Yd": {
+        "adjacentNodeIds": [
+          "6m"
+        ],
+        "comments": [
+          {
+            "text": "And when Black promotes the pawn...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7Q/5p2/2k2p2/8/5Kp1/4P3/5P2/2q5 w - - 0 8",
+        "parentNodeId": "xG",
+        "san": "c1=Q"
+      },
+      "cL": {
+        "adjacentNodeIds": [
+          "F7"
+        ],
+        "comments": [
+          {
+            "text": "White also keeps on pushing.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p1P/2k2p2/8/5Kp1/2p1P3/5P2/8 b - - 0 6",
+        "parentNodeId": "eK",
+        "san": "h7"
+      },
+      "d2": {
+        "adjacentNodeIds": [
+          "fs"
+        ],
+        "comments": [
+          {
+            "text": "Black pushes the c-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p2/7P/2p2Kp1/4P3/5P2/8 w - - 0 5",
+        "parentNodeId": "rS",
+        "san": "c4"
+      },
+      "eK": {
+        "adjacentNodeIds": [
+          "cL"
+        ],
+        "comments": [
+          {
+            "text": "Black keeps on pushing the c-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p1P/8/5Kp1/2p1P3/5P2/8 w - - 0 6",
+        "parentNodeId": "fs",
+        "san": "c3"
+      },
+      "fs": {
+        "adjacentNodeIds": [
+          "eK"
+        ],
+        "comments": [
+          {
+            "text": "White pushes the h-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p1P/8/2p2Kp1/4P3/5P2/8 b - - 0 5",
+        "parentNodeId": "d2",
+        "san": "h6"
+      },
+      "ga": {
+        "adjacentNodeIds": [
+          "Cr"
+        ],
+        "comments": [
+          {
+            "text": "Vasyl tried to approach the h-pawn...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-g6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/5k1P/8/2p1Pp1P/5P2/3K4/8 w - - 2 10",
+        "parentNodeId": "YO",
+        "san": "Kf6"
+      },
+      "hX": {
+        "adjacentNodeIds": [
+          "y9"
+        ],
+        "comments": [
+          {
+            "text": "Black can advance the c-pawn and force White into a queen endgame.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-h6",
+                "h6-h7",
+                "h7-h8",
+                "c3-c2",
+                "c2-c1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p2/7P/5K1P/2p1P3/5P2/8 w - - 0 5",
+        "parentNodeId": "Ic",
+        "san": "c3"
+      },
+      "hz": {
+        "adjacentNodeIds": [
+          "Gd"
+        ],
+        "comments": [
+          {
+            "text": "Anish approached the c-pawn w/Ke3.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-d4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/4kp2/7p/2p1P1PP/4KP2/8/8 b - - 2 6",
+        "parentNodeId": "Bp",
+        "san": "Ke3"
+      },
+      "ia": {
+        "adjacentNodeIds": [
+          "Xi"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk advanced his f-pawn.\n\nThe idea is to free up f6 and bring the king closer to White's passed pawns.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-f6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/8/4kp1P/2p1P2P/4KP2/8/8 w - - 0 8",
+        "parentNodeId": "BK",
+        "san": "f5"
+      },
+      "lM": {
+        "adjacentNodeIds": [
+          "pz"
+        ],
+        "comments": [
+          {
+            "text": "White keeps on pushing the h-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p1P/2k2p2/8/5K1P/4P3/2p2P2/8 b - - 0 6",
+        "parentNodeId": "M8",
+        "san": "h7"
+      },
+      "nh": {
+        "adjacentNodeIds": [
+          "Ex"
+        ],
+        "comments": [
+          {
+            "text": "White shouldn't rush with gxh5...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/3k1p2/7P/2p1PK1P/8/5P2/8 b - - 0 5",
+        "parentNodeId": "UA",
+        "san": "gxh5"
+      },
+      "oH": {
+        "adjacentNodeIds": [
+          "NB"
+        ],
+        "comments": [
+          {
+            "text": "White promotes the pawn to a queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7Q/5p2/2k2p2/8/5K1P/4P3/5P2/2q5 b - - 0 7",
+        "parentNodeId": "pz",
+        "san": "h8=Q"
+      },
+      "pz": {
+        "adjacentNodeIds": [
+          "oH"
+        ],
+        "comments": [
+          {
+            "text": "Black promotes the pawn to a queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p1P/2k2p2/8/5K1P/4P3/5P2/2q5 w - - 0 7",
+        "parentNodeId": "lM",
+        "san": "c1=Q"
+      },
+      "qr": {
+        "adjacentNodeIds": [
+          "ty",
+          "r6"
+        ],
+        "comments": [
+          {
+            "text": "Anish advanced his g-pawn!\n\nThis timely pawn advance forces the creation of a passed pawn and is the key winning concept in this endgame.\n\nWhite is looking to go gxh5 and push the h-pawn down the board. The only way for Black to stop this idea is by capturing ...hxg4, which would still leave White with a passed h-pawn. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g3-g4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p2/2p4p/5KPP/4P3/5P2/8 b - - 0 3",
+        "parentNodeId": "rI",
+        "san": "g4"
+      },
+      "r": {
+        "adjacentNodeIds": [
+          "rI"
+        ],
+        "comments": [
+          {
+            "text": "Anish, of course, recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k1p2/2P2p2/2p4p/5K1P/4P1P1/5P2/8 b - - 0 2",
+        "parentNodeId": "4",
+        "san": "dxc6+"
+      },
+      "r6": {
+        "adjacentNodeIds": [
+          "rS"
+        ],
+        "comments": [
+          {
+            "text": "If Black were to capture the g-pawn...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p2/2p5/5KpP/4P3/5P2/8 w - - 0 4",
+        "parentNodeId": "qr",
+        "san": "hxg4"
+      },
+      "rI": {
+        "adjacentNodeIds": [
+          "qr"
+        ],
+        "comments": [
+          {
+            "text": "And Ivanchuk took the c-pawn. \n\nBlack has won (back) a pawn in this trade and still has a passed c-pawn which is ready to roll down the board. \n\nWhite needs to act quickly!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p2/2p4p/5K1P/4P1P1/5P2/8 w - - 0 3",
+        "parentNodeId": "r",
+        "san": "Kxc6"
+      },
+      "rS": {
+        "adjacentNodeIds": [
+          "d2"
+        ],
+        "comments": [
+          {
+            "text": "White would simply push the h-pawn and win the pawn race by a tempo.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-h6",
+                "h6-h7",
+                "h7-h8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p2/2p4P/5Kp1/4P3/5P2/8 b - - 0 4",
+        "parentNodeId": "r6",
+        "san": "h5"
+      },
+      "sq": {
+        "adjacentNodeIds": [
+          "UA"
+        ],
+        "comments": [
+          {
+            "text": "Giri advanced his e-pawn.\n\nThe idea of this move is two-fold - he is freeing up the king's path towards the c-pawn and preventing Black's king from moving into the d5-square.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-d5",
+                "f4-e3",
+                "e3-d2"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5",
+                "d2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p2/7p/2p1PKPP/8/5P2/8 b - - 0 4",
+        "parentNodeId": "ty",
+        "san": "e4"
+      },
+      "ty": {
+        "adjacentNodeIds": [
+          "sq",
+          "Ic"
+        ],
+        "comments": [
+          {
+            "text": "Vasyl began advancing his c-pawn.\n\nWhite now needs to be careful!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p2/7p/2p2KPP/4P3/5P2/8 w - - 0 4",
+        "parentNodeId": "qr",
+        "san": "c4"
+      },
+      "uU": {
+        "adjacentNodeIds": [
+          "YO"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk gave a check with ...f4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5p2/7P/4k3/2p1Pp1P/4KP2/8/8 w - - 0 9",
+        "parentNodeId": "Xi",
+        "san": "f4+"
+      },
+      "xG": {
+        "adjacentNodeIds": [
+          "Yd"
+        ],
+        "comments": [
+          {
+            "text": "White promotes the pawn to a queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7Q/5p2/2k2p2/8/5Kp1/4P3/2p2P2/8 b - - 0 7",
+        "parentNodeId": "F7",
+        "san": "h8=Q"
+      },
+      "y9": {
+        "adjacentNodeIds": [
+          "M8"
+        ],
+        "comments": [
+          {
+            "text": "White pushes the h-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/2k2p1P/8/5K1P/2p1P3/5P2/8 b - - 0 5",
+        "parentNodeId": "hX",
+        "san": "h6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

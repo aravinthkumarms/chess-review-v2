@@ -1,0 +1,58 @@
+{
+  "id": "773be422-ddba-43cf-90c5-fd32a4bc6ccd",
+  "name": "Quiz 3: Checkmate",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black moves the queen to e2.\n\nIs the game over?",
+    "answers": [
+      {
+        "text": "The game is over. It's checkmate.",
+        "feedback": {
+          "text": "Correct! The White king is under attack by the queen, and it can't move anywhere.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "e1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The game is over. It's stalemate.",
+        "feedback": {
+          "text": "It would be stalemate if the king wasn't under attack, but it is in this case. The queen is attacking the king.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "The game is not over. White can play on.",
+        "feedback": {
+          "text": "The White king doesn't have legal moves in this position.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/8/8/4k3/2q5/4K3 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qe2#",
+      "afterMoveFen": "8/8/8/8/8/4k3/4q3/4K3 w - - 2 2"
+    }
+  },
+  "drill": null
+}

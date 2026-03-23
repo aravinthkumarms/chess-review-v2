@@ -1,0 +1,80 @@
+{
+  "id": "7611e6d1-8df4-4f3a-8223-c0b95d9e0a6e",
+  "name": "Quiz 10",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "What tactic has Black allowed in this position?",
+    "answers": [
+      {
+        "text": "A discovered attack (which also sets up a pin).",
+        "feedback": {
+          "text": "Yes! d5 reveals an attack on the knight, which is pinned to the rook. d5 also attacks the e6 and c6 pawns.",
+          "arrows": {
+            "threats": [
+              "d4-d5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c6",
+              "e6",
+              "c3",
+              "b2"
+            ],
+            "opportunities": [
+              "f6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A skewer.",
+        "feedback": {
+          "text": "In skewers, the piece of higher value is attacked, with a piece of lower value behind it.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "A fork.",
+        "feedback": {
+          "text": "There aren't any forks here.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "6k1/5p1p/p1p1pB2/8/2PP4/2n2P2/Pr4PP/4R1K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kf8",
+      "afterMoveFen": "5k2/5p1p/p1p1pB2/8/2PP4/2n2P2/Pr4PP/4R1K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

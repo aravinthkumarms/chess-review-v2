@@ -1,0 +1,43 @@
+{
+  "id": "09ec4ef5-7176-4160-83d4-a74e6b4363b6",
+  "name": "Quiz 17",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "When it is a rook pawn, the key squares that the attacker needs to control change. \n\nWhich are the two existing key squares for the attacker?",
+    "answers": [
+      {
+        "text": "b2-b1",
+        "feedback": {
+          "text": "The two squares on the file next to the rook's file are the key squares. If the king controls them, the king controls the pawn's path.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Naturally, a flank pawn requires a special type of support. A square on the flank cannot be a key square because the board ends. So if we take away a-file squares, which squares on the b-file are key to secure promotion? ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/8/pk3K2/8/8/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke3",
+      "afterMoveFen": "8/8/8/8/pk6/4K3/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

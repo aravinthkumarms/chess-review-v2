@@ -1,0 +1,90 @@
+{
+  "id": "0ccea3bc-1fa1-49d1-8b4f-0f1c971a9c85",
+  "name": "Quiz: Choose the Best Reaction to the Check - COPY",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "This is a position arising from the Ragozin Defense against the Queen's Gambit. \n\nThe white queen currently \"sees\" the black king. This is check. \n\nThe queen also attacks the bishop on b4!\n\nAgainst a check, you can capture the piece that's giving the check, you can block the check or you can move the king away. In this case, the queen can't be taken.\n\nWhich is the best way to deal with the check that you have available?",
+    "answers": [
+      {
+        "text": "Nc6",
+        "feedback": {
+          "text": "Very good! This block protects the king, but it also defends the bishop on b4.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "c6",
+              "b4"
+            ]
+          }
+        },
+        "comment": "blocking with the knight.",
+        "afterMoveFen": "r1bqk2r/ppp2ppp/2n1pn2/3p4/QbPP4/2N2N2/PP2PPPP/R1B1KB1R w KQkq - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Bd7",
+        "feedback": {
+          "text": "While this move does block the check and attack the queen, it allows the queen to just take on b4 in the next move.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a4-b4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "blocking the check and attacking the queen.",
+        "afterMoveFen": "rn1qk2r/pppb1ppp/4pn2/3p4/QbPP4/2N2N2/PP2PPPP/R1B1KB1R w KQkq - 3 2"
+      },
+      {
+        "text": "Kf8",
+        "feedback": {
+          "text": "This move also doesn't do anything about the bishop on b4, which can be taken by the queen next.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a4-b4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "moving away from check.",
+        "afterMoveFen": "rnbq1k1r/ppp2ppp/4pn2/3p4/QbPP4/2N2N2/PP2PPPP/R1B1KB1R w KQ - 3 2"
+      }
+    ],
+    "positionFen": "rnbqk2r/ppp2ppp/4pn2/3p4/1bPP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "a4-b4"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "e8",
+        "b4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qa4+",
+      "afterMoveFen": "rnbqk2r/ppp2ppp/4pn2/3p4/QbPP4/2N2N2/PP2PPPP/R1B1KB1R b KQkq - 2 1"
+    }
+  },
+  "drill": null
+}

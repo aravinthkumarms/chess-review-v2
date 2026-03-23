@@ -1,0 +1,54 @@
+{
+  "id": "8acb9b4f-ff69-4c88-8aae-9973e021f69b",
+  "name": "Quiz 4",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks your queen. \n\nQb3 and Qd1 are two rational moves. \n\nCan you spot a third playable alternative?",
+    "answers": [
+      {
+        "text": "Nxc6",
+        "feedback": {
+          "text": "A Zwischenzug! Very good. You're attacking the queen.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "d8",
+              "c2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "2rqr1k1/4bp1p/p1N1pnp1/1p1p1bB1/3P4/P1P5/1PQN1PPP/1BR1R1K1 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "There's one more move. You're not forced to move the queen away!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2rqr1k1/4bp1p/p1n1pnp1/1p1pN1B1/3P2b1/P1P5/1PQN1PPP/1BR1R1K1 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "c2"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Bf5",
+      "afterMoveFen": "2rqr1k1/4bp1p/p1n1pnp1/1p1pNbB1/3P4/P1P5/1PQN1PPP/1BR1R1K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,87 @@
+{
+  "id": "4cd5a50b-2265-4b46-8c72-33bd8aa685b7",
+  "name": "Quiz 3",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "This is the final challenge. White takes on f6. The g-pawn is pinned. \n\nCan you find a way to win?",
+    "answers": [
+      {
+        "text": "Bc8+",
+        "feedback": {
+          "text": "This move is winning. If the rook takes on c8, you can take the queen next because you unpin the pawn!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "checking the king.",
+        "afterMoveFen": "2b5/p1R3pk/1p3Q2/n3p3/4P3/5P1K/PP1r3P/6r1 w - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rd3",
+        "feedback": {
+          "text": "There's a better move than this.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "putting pressure on the f3-pawn.",
+        "afterMoveFen": "8/pbR3pk/1p3Q2/n3p3/4P3/3r1P1K/PP5P/6r1 w - - 1 2"
+      },
+      {
+        "text": "Rg6",
+        "feedback": {
+          "text": "This move is too passive. Black has a killer move.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "defending the king.",
+        "afterMoveFen": "8/pbR3pk/1p3Qr1/n3p3/4P3/5P1K/PP1r3P/8 w - - 1 2"
+      },
+      {
+        "text": "Ba6",
+        "feedback": {
+          "text": "Is this the best move?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "preparing ...Bf1+.",
+        "afterMoveFen": "8/p1R3pk/bp3Q2/n3p3/4P3/5P1K/PP1r3P/6r1 w - - 1 2"
+      }
+    ],
+    "positionFen": "8/pbR1Q1pk/1p3p2/n3p3/4P3/5P1K/PP1r3P/6r1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qxf6",
+      "afterMoveFen": "8/pbR3pk/1p3Q2/n3p3/4P3/5P1K/PP1r3P/6r1 b - - 0 1"
+    }
+  },
+  "drill": null
+}

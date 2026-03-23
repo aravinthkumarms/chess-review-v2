@@ -1,0 +1,769 @@
+{
+  "id": "4e26b7d2-1b82-4098-b102-7b080e3b542e",
+  "name": "Study 1: H-File Attacks",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "N"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to our chapter on checkmates! \n\nWe will look at a great attack along the h-file to checkmate the enemy king. This game is known as the Chinese Immortal. \n\nIt was played between Wenzhe Liu and Jan Hein Donner at the Buenos Aires Olympiad in 1978. The use of the h-pawn to open up the h-file, coupled with a queen joining the rook on the open h-file, are common patterns you should know!",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1260270",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0j": {
+        "adjacentNodeIds": [
+          "ht"
+        ],
+        "comments": [
+          {
+            "text": "Donner here played his last move, 19... Kg7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qnr2/pp3Bk1/2npb1Pb/2pN1p2/4P3/8/PPP2P2/R1B1K1NR w KQ - 1 20",
+        "parentNodeId": "tz",
+        "san": "Kg7"
+      },
+      "4w": {
+        "adjacentNodeIds": [
+          "Bl"
+        ],
+        "comments": [
+          {
+            "text": "Donner played 4... Bg7-- logical.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp1ppbp/3p1np1/8/3PP3/2N5/PPP1BPPP/R1BQK1NR w KQkq - 2 5",
+        "parentNodeId": "7d",
+        "san": "Bg7"
+      },
+      "7d": {
+        "adjacentNodeIds": [
+          "4w"
+        ],
+        "comments": [
+          {
+            "text": "Liu played 4. Be2. \n\nThis move may seem odd, as one would assume 4. Nf3 should come first!\n\nHowever, this seemingly innocent developing move has a very devious idea.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP1BPPP/R1BQK1NR b KQkq - 1 4",
+        "parentNodeId": "xX",
+        "san": "Be2"
+      },
+      "Bl": {
+        "adjacentNodeIds": [
+          "vH"
+        ],
+        "comments": [
+          {
+            "text": "Liu began his strike on the kingside with 5. g4!?\n\nGenerally, the white king will remain in the center, or will castle kingside. Meanwhile, Black's development is completely dependent on castling kingside!",
+            "arrows": {
+              "threats": [
+                "h2-h4",
+                "h4-h5"
+              ],
+              "opportunities": [
+                "e8-g8"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp1ppbp/3p1np1/8/3PP1P1/2N5/PPP1BP1P/R1BQK1NR b KQkq g3 0 5",
+        "parentNodeId": "4w",
+        "san": "g4"
+      },
+      "Ci": {
+        "adjacentNodeIds": [
+          "pP"
+        ],
+        "comments": [
+          {
+            "text": "Liu played 18. Bf7+, sneakily removing the king's access to the g8 square. Intricate!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qnr2/pp3Bbk/2npb3/2pN1pP1/4P3/8/PPP2P2/R1B1K1NR b KQ - 3 18",
+        "parentNodeId": "lC",
+        "san": "Bf7+"
+      },
+      "D1": {
+        "adjacentNodeIds": [
+          "lC"
+        ],
+        "comments": [
+          {
+            "text": "Liu forced the king onto the rook's file with 17. Bh5+.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-f7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g6",
+                "f7",
+                "e8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2qnr2/pp4b1/2npb1k1/2pN1pPB/4P3/8/PPP2P2/R1B1K1NR b KQ - 1 17",
+        "parentNodeId": "z0",
+        "san": "Bh5+"
+      },
+      "Hw": {
+        "adjacentNodeIds": [
+          "ag"
+        ],
+        "comments": [
+          {
+            "text": "Liu captured in the most principled way, accepting the very nice open file towards the Black king.",
+            "arrows": {
+              "threats": [
+                "h1-h8"
+              ],
+              "opportunities": [
+                "d1-d3",
+                "d3-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp3pb1/3ppnp1/2pP2P1/4P3/2N5/PPP1BP2/R1BQK1NR b KQ - 0 10",
+        "parentNodeId": "Zt",
+        "san": "hxg5"
+      },
+      "Kp": {
+        "adjacentNodeIds": [
+          "vV"
+        ],
+        "comments": [
+          {
+            "text": "Donner castled, however, the kingside pawn storm is quite scary!\n\nThe pawn on h6 now can even serve as a \"hook\" in the enemy camp.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp2ppb1/3p1npp/2pP4/4P1P1/2N4P/PPP1BP2/R1BQK1NR w KQ - 1 8",
+        "parentNodeId": "e4",
+        "san": "O-O"
+      },
+      "N": {
+        "adjacentNodeIds": [
+          "Y"
+        ],
+        "comments": [
+          {
+            "text": "Liu opened with e4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+        "parentNodeId": "0",
+        "san": "e4"
+      },
+      "Ow": {
+        "adjacentNodeIds": [
+          "xX"
+        ],
+        "comments": [
+          {
+            "text": "Liu developed the knight, simultaneously protecting e4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+        "parentNodeId": "YR",
+        "san": "Nc3"
+      },
+      "S3": {
+        "adjacentNodeIds": [
+          "z0"
+        ],
+        "comments": [
+          {
+            "text": "16. Qxg6+!!\n\nThis is why we call this game, \"The Chinese Immortal\". \n\nThis queen sacrifice works because there is no real escape square into the center for the Black king. The White bishops will tear through the holes in the enemy camp, and there are so many discovered checks with g6+ and the Rook on h1!",
+            "arrows": {
+              "threats": [
+                "g5-g6",
+                "h1-h8",
+                "e2-h5"
+              ],
+              "opportunities": [
+                "d5-e7",
+                "d5-f6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g5",
+                "h1"
+              ],
+              "opportunities": [
+                "d5",
+                "f6",
+                "e7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2qnr2/pp3kb1/2npb1Q1/2pN1pP1/4P3/8/PPP1BP2/R1B1K1NR b KQ - 0 16",
+        "parentNodeId": "iv",
+        "san": "Qxg6+"
+      },
+      "TP": {
+        "adjacentNodeIds": [
+          "eA"
+        ],
+        "comments": [
+          {
+            "text": "Liu lifted his queen, and even with 11... exd5 coming, controlling h3, White's bombardment of the h-file is inevitable.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqnrk1/pp3pb1/3pp1p1/2pP2P1/4P3/2NQ4/PPP1BP2/R1B1K1NR b KQ - 2 11",
+        "parentNodeId": "ag",
+        "san": "Qd3"
+      },
+      "Uc": {
+        "adjacentNodeIds": [
+          "kN"
+        ],
+        "comments": [
+          {
+            "text": "Donner probably reasoned that there wasn't much to do, but to develop and hope for some counter-play.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqnrk1/pp3pb1/2np2p1/2pN2P1/4P3/3Q4/PPP1BP2/R1B1K1NR w KQ - 1 13",
+        "parentNodeId": "yB",
+        "san": "Nc6"
+      },
+      "Ux": {
+        "adjacentNodeIds": [
+          "WJ"
+        ],
+        "comments": [
+          {
+            "text": "In order for the knight to enter the game, Liu played this move to cement control of the attacking anchor-- the g4-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp1ppb1/3p1npp/8/3PP1P1/2N4P/PPP1BP2/R1BQK1NR b KQkq - 0 6",
+        "parentNodeId": "vH",
+        "san": "h3"
+      },
+      "V": {
+        "adjacentNodeIds": [
+          "YR"
+        ],
+        "comments": [
+          {
+            "text": "Liu responded in the most principled fashion, seizing the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pppp/3p4/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+        "parentNodeId": "Y",
+        "san": "d4"
+      },
+      "VN": {
+        "adjacentNodeIds": [
+          "bU"
+        ],
+        "comments": [
+          {
+            "text": "Donner plays the only move to free up an escape square for the king.",
+            "arrows": {
+              "threats": [
+                "h4-h7"
+              ],
+              "opportunities": [
+                "g8-f7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g8",
+                "f7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2qnrk1/pp4b1/2npb1p1/2pN1pP1/4P2Q/8/PPP1BP2/R1B1K1NR w KQ f6 0 15",
+        "parentNodeId": "wL",
+        "san": "f5"
+      },
+      "W7": {
+        "adjacentNodeIds": [
+          "wL"
+        ],
+        "comments": [
+          {
+            "text": "Nothing much else to do than develop! 14... f5 will come, and Black will try to evacuate the king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qnrk1/pp3pb1/2npb1p1/2pN2P1/4P3/6Q1/PPP1BP2/R1B1K1NR w KQ - 3 14",
+        "parentNodeId": "kN",
+        "san": "Be6"
+      },
+      "WJ": {
+        "adjacentNodeIds": [
+          "e4"
+        ],
+        "comments": [
+          {
+            "text": "6... c5 is a logical central strike. \n\n7. dxc5 does not force the queen trade, and a premature 7. d5 could result in White's structure being chipped away.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/pp2ppb1/3p1npp/2p5/3PP1P1/2N4P/PPP1BP2/R1BQK1NR w KQkq c6 0 7",
+        "parentNodeId": "Ux",
+        "san": "c5"
+      },
+      "Y": {
+        "adjacentNodeIds": [
+          "V"
+        ],
+        "comments": [
+          {
+            "text": "Donner replied with d6, the Pirc. \n\nBlack will generally find similar play as in the King's Indian Defense, with d6, g6, Bg7, and e5. Fun stuff!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g7-g6",
+                "e7-e5",
+                "f8-g7",
+                "g8-f6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "parentNodeId": "N",
+        "san": "d6"
+      },
+      "YR": {
+        "adjacentNodeIds": [
+          "Ow"
+        ],
+        "comments": [
+          {
+            "text": "Donner developed his knight, hitting the e5-pawn.",
+            "arrows": {
+              "threats": [
+                "f6-e4"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+        "parentNodeId": "V",
+        "san": "Nf6"
+      },
+      "Zt": {
+        "adjacentNodeIds": [
+          "Hw"
+        ],
+        "comments": [
+          {
+            "text": "Donner bit the bullet, and opened the h-file with 9... hxg5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp3pb1/3ppnp1/2pP2p1/4P2P/2N5/PPP1BP2/R1BQK1NR w KQ - 0 10",
+        "parentNodeId": "qe",
+        "san": "hxg5"
+      },
+      "ag": {
+        "adjacentNodeIds": [
+          "TP"
+        ],
+        "comments": [
+          {
+            "text": "Black hoped to counter-strike in the center with this move. \n\nUnfortunately, White's maneuver should come a bit too quickly.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqnrk1/pp3pb1/3pp1p1/2pP2P1/4P3/2N5/PPP1BP2/R1BQK1NR w KQ - 1 11",
+        "parentNodeId": "Hw",
+        "san": "Ne8"
+      },
+      "bU": {
+        "adjacentNodeIds": [
+          "iv"
+        ],
+        "comments": [
+          {
+            "text": "Liu forced the Black king to f7, where it feels very cramped due to the knight on d5.",
+            "arrows": {
+              "threats": [
+                "d5-e7",
+                "d5-f6"
+              ],
+              "opportunities": [
+                "g8-f7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2qnrk1/pp4bQ/2npb1p1/2pN1pP1/4P3/8/PPP1BP2/R1B1K1NR b KQ - 1 15",
+        "parentNodeId": "VN",
+        "san": "Qh7+"
+      },
+      "e4": {
+        "adjacentNodeIds": [
+          "Kp"
+        ],
+        "comments": [
+          {
+            "text": "Liu advanced in the center, cementing a Benoni-like structure. Black should attempt ideas with e6 or a6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a7-a6",
+                "e7-e6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/pp2ppb1/3p1npp/2pP4/4P1P1/2N4P/PPP1BP2/R1BQK1NR b KQkq - 0 7",
+        "parentNodeId": "WJ",
+        "san": "d5"
+      },
+      "eA": {
+        "adjacentNodeIds": [
+          "yB"
+        ],
+        "comments": [
+          {
+            "text": "Donner didn't have much of a choice, he had to temporarily seize control of h3!",
+            "arrows": {
+              "threats": [
+                "d3-h3"
+              ],
+              "opportunities": [
+                "c8-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d3",
+                "h3"
+              ],
+              "opportunities": [
+                "c8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqnrk1/pp3pb1/3p2p1/2pp2P1/4P3/2NQ4/PPP1BP2/R1B1K1NR w KQ - 0 12",
+        "parentNodeId": "TP",
+        "san": "exd5"
+      },
+      "ht": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Liu put the nail in the coffin. There is no way to avoid discovered checkmate on the h-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qnr2/pp3Bk1/2npb1PB/2pN1p2/4P3/8/PPP2P2/R3K1NR b KQ - 0 20",
+        "parentNodeId": "0j",
+        "san": "Bxh6+"
+      },
+      "iv": {
+        "adjacentNodeIds": [
+          "S3"
+        ],
+        "comments": [
+          {
+            "text": "There wasn't much choice here.\n\nAnd next, Liu uncorked a legendary combination.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qnr2/pp3kbQ/2npb1p1/2pN1pP1/4P3/8/PPP1BP2/R1B1K1NR w KQ - 2 16",
+        "parentNodeId": "bU",
+        "san": "Kf7"
+      },
+      "kN": {
+        "adjacentNodeIds": [
+          "W7"
+        ],
+        "comments": [
+          {
+            "text": "Liu played the very nice move, 13. Qg3. \n\nQh3 doesn't work, so even better, Qh2!",
+            "arrows": {
+              "threats": [
+                "h2-h8"
+              ],
+              "opportunities": [
+                "g3-h2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqnrk1/pp3pb1/2np2p1/2pN2P1/4P3/6Q1/PPP1BP2/R1B1K1NR b KQ - 2 13",
+        "parentNodeId": "Uc",
+        "san": "Qg3"
+      },
+      "lC": {
+        "adjacentNodeIds": [
+          "Ci"
+        ],
+        "comments": [
+          {
+            "text": "Donner stepped his king onto the h-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qnr2/pp4bk/2npb3/2pN1pPB/4P3/8/PPP2P2/R1B1K1NR w KQ - 2 18",
+        "parentNodeId": "D1",
+        "san": "Kh7"
+      },
+      "nx": {
+        "adjacentNodeIds": [
+          "qe"
+        ],
+        "comments": [
+          {
+            "text": "Donner played the thematic break, 8... e6. \n\nThis move serves as a way to open the center up for Black's counter-play with 9... exd5.\n\nHowever, White's pawn threats seem more menacing!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b7-b5",
+                "a7-a6",
+                "e6-d5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp3pb1/3ppnpp/2pP4/4P1PP/2N5/PPP1BP2/R1BQK1NR w KQ - 0 9",
+        "parentNodeId": "vV",
+        "san": "e6"
+      },
+      "pP": {
+        "adjacentNodeIds": [
+          "tz"
+        ],
+        "comments": [
+          {
+            "text": "This move was forced, and the next move is very pretty!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qnr2/pp3B1k/2npb2b/2pN1pP1/4P3/8/PPP2P2/R1B1K1NR w KQ - 4 19",
+        "parentNodeId": "Ci",
+        "san": "Bh6"
+      },
+      "qe": {
+        "adjacentNodeIds": [
+          "Zt"
+        ],
+        "comments": [
+          {
+            "text": "Liu forced the matter! \n\nHow does Black respond without opening a file towards their king, or simply dropping a piece? \n\nTrick question, it's not possible!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp3pb1/3ppnpp/2pP2P1/4P2P/2N5/PPP1BP2/R1BQK1NR b KQ - 0 9",
+        "parentNodeId": "nx",
+        "san": "g5"
+      },
+      "tz": {
+        "adjacentNodeIds": [
+          "0j"
+        ],
+        "comments": [
+          {
+            "text": "Liu played 19. g6+, avoiding 19. Rxh6+, which would give the Black king a square on g7, with no further checks. \n\nWith g6+, the combination continues!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qnr2/pp3B1k/2npb1Pb/2pN1p2/4P3/8/PPP2P2/R1B1K1NR b KQ - 0 19",
+        "parentNodeId": "pP",
+        "san": "g6+"
+      },
+      "vH": {
+        "adjacentNodeIds": [
+          "Ux"
+        ],
+        "comments": [
+          {
+            "text": "Donner played this move to resist the 6. g5 push.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp1ppb1/3p1npp/8/3PP1P1/2N5/PPP1BP1P/R1BQK1NR w KQkq - 0 6",
+        "parentNodeId": "Bl",
+        "san": "h6"
+      },
+      "vV": {
+        "adjacentNodeIds": [
+          "nx"
+        ],
+        "comments": [
+          {
+            "text": "Liu kept the aggression up, with 8. h4!\n\nThis move simply inches the pawn storm closer to the enemy king, but what is the concrete threat? \n\n9. g5! would pry open either the g or h-files, and Black would be in significant trouble.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp2ppb1/3p1npp/2pP4/4P1PP/2N5/PPP1BP2/R1BQK1NR b KQ - 0 8",
+        "parentNodeId": "Kp",
+        "san": "h4"
+      },
+      "wL": {
+        "adjacentNodeIds": [
+          "VN"
+        ],
+        "comments": [
+          {
+            "text": "Liu finally brought the queen onto the h-file, and the not-so-subtle threat of checkmate on h7 is very forcing!",
+            "arrows": {
+              "threats": [
+                "h4-h7"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qnrk1/pp3pb1/2npb1p1/2pN2P1/4P2Q/8/PPP1BP2/R1B1K1NR b KQ - 4 14",
+        "parentNodeId": "W7",
+        "san": "Qh4"
+      },
+      "xX": {
+        "adjacentNodeIds": [
+          "7d"
+        ],
+        "comments": [
+          {
+            "text": "Donner continued with the logical plan, preparing to fianchetto the bishop on g7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pp1p/3p1np1/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+        "parentNodeId": "Ow",
+        "san": "g6"
+      },
+      "yB": {
+        "adjacentNodeIds": [
+          "Uc"
+        ],
+        "comments": [
+          {
+            "text": "Liu recaptured with the knight, now occupying the key d5-square.\n\nVisually, it should be apparent that the position is nearly winning for White!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqnrk1/pp3pb1/3p2p1/2pN2P1/4P3/3Q4/PPP1BP2/R1B1K1NR b KQ - 0 12",
+        "parentNodeId": "eA",
+        "san": "Nxd5"
+      },
+      "z0": {
+        "adjacentNodeIds": [
+          "D1"
+        ],
+        "comments": [
+          {
+            "text": "There wasn't much to do, than to accept the beauty.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qnr2/pp4b1/2npb1k1/2pN1pP1/4P3/8/PPP1BP2/R1B1K1NR w KQ - 0 17",
+        "parentNodeId": "S3",
+        "san": "Kxg6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

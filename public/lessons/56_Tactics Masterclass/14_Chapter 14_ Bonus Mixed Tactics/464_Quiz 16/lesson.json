@@ -1,0 +1,88 @@
+{
+  "id": "e98da82b-d3fc-43ff-83e8-52db0bf07694",
+  "name": "Quiz 16 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White retreats the bishop. \n\nWould you say that playing ...c6 to challenge White's pawns is a mistake?",
+    "answers": [
+      {
+        "text": "No, it’s a great move to undermine the center.",
+        "feedback": {
+          "text": "Exactly! ...c6 is a nice move.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c7-c6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d5",
+              "e4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, it gives White a chance to fork two pieces.",
+        "feedback": {
+          "text": "Since White's king is still on e1, we'll always have ...Re8 to pin the e-pawn.",
+          "arrows": {
+            "threats": [
+              "e4-e5"
+            ],
+            "opportunities": [
+              "f8-e8",
+              "c7-c6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, it gives White a chance to trap a piece.",
+        "feedback": {
+          "text": "White's central paws will become quite after we push ...c6, that's why it is a good move.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c7-c6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e4",
+              "d5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bq1rk1/ppp1bppp/5n2/3P4/2p1P3/2PB1N1P/PP3PP1/RN1QK2R w KQ - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bc2",
+      "afterMoveFen": "r1bq1rk1/ppp1bppp/5n2/3P4/2p1P3/2P2N1P/PPB2PP1/RN1QK2R b KQ - 2 1"
+    }
+  },
+  "drill": null
+}

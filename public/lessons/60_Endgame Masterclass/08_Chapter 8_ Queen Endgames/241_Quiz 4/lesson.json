@@ -1,0 +1,43 @@
+{
+  "id": "235c6540-3c72-4e06-a8dc-e5617a850862",
+  "name": "Quiz 4 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gives a check. \n\nHow should you react to it?",
+    "answers": [
+      {
+        "text": "Kh5",
+        "feedback": {
+          "text": "Attacking the h6-pawn! \n\nThis is the only move to fight for the winning advantage.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "6q1/3k4/4p2p/3pP2K/3P3P/3Q1P2/8/8 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Should you retreat and keep the king safer or do some attacking?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1q6/3k4/4p2p/3pP3/3P2KP/3Q1P2/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qg8+",
+      "afterMoveFen": "6q1/3k4/4p2p/3pP3/3P2KP/3Q1P2/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

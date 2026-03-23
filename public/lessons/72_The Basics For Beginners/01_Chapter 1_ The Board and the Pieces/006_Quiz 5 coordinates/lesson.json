@@ -1,0 +1,74 @@
+{
+  "id": "2b1ec8eb-9760-41da-bfa4-2661ae26cb75",
+  "name": "Quiz 5 coordinates",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "After every new move in chess, we reach a new position.\n\nTake a look at this position. What squares are the queens on?",
+    "answers": [
+      {
+        "text": "They are on g4 and d6.",
+        "feedback": {
+          "text": "Correct! g4 is a light square, while d6 is a dark square.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "d6"
+            ],
+            "opportunities": [
+              "g4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "They are on g3 and b6.",
+        "feedback": {
+          "text": "The White queen is on a different rank, and the Black queen is on a different file.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "They are on e2 and b8.",
+        "feedback": {
+          "text": "That's where the kings are!",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "b8"
+            ],
+            "opportunities": [
+              "e2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1k1rbbr1/ppp1pn1p/n2q1p2/1B1p2p1/4P1Q1/P1NPBN2/1PP1KPPP/3R1R2 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "d6"
+      ],
+      "opportunities": [
+        "g4"
+      ]
+    },
+    "contextMove": {
+      "san": "h6",
+      "afterMoveFen": "1k1rbbr1/ppp1pn2/n2q1p1p/1B1p2p1/4P1Q1/P1NPBN2/1PP1KPPP/3R1R2 w - - 0 2"
+    }
+  },
+  "drill": null
+}

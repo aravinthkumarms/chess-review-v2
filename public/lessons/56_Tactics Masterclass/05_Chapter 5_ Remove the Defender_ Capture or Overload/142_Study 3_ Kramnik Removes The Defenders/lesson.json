@@ -1,0 +1,876 @@
+{
+  "id": "5b14e00e-cc31-4ad1-9f43-022c5fc7369e",
+  "name": "Study 3: Kramnik Removes The Defenders",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "D"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to the third study!\n\nThe following game was played between GM Kramnik & GM Anand in the 2007 World Blitz Championship.\n\nLet's see how Kramnik defeated his opponent in a beautiful tactical game!",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1479517",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0Y": {
+        "adjacentNodeIds": [
+          "ZX"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik took the knight with check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3qk2r/4bppp/2B1pn2/3p1b2/r2P1B2/2N1PN2/PP3PPP/2R2RK1 b k - 0 15",
+        "parentNodeId": "fu",
+        "san": "Bxc6+"
+      },
+      "22": {
+        "adjacentNodeIds": [
+          "Kc"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik went Be2, preparing O-O.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rqkb1r/1p2pppp/p1n2n2/3p1b2/3P1B2/2N1PN2/PP2BPPP/2RQK2R b Kk - 2 9",
+        "parentNodeId": "5E",
+        "san": "Be2"
+      },
+      "2R": {
+        "adjacentNodeIds": [
+          "PR"
+        ],
+        "comments": [
+          {
+            "text": "Anand followed up on his previous move by advancing the d-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pp2pppp/2p2n2/3p4/2P5/2N2N2/PP1PPPPP/R1BQKB1R w KQkq d6 0 4",
+        "parentNodeId": "Qv",
+        "san": "d5"
+      },
+      "3D": {
+        "adjacentNodeIds": [
+          "G5"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik attacked the queen.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5k1r/1B2bppp/2Rqp3/3p1b2/N2P4/4PN2/PP3PPP/5RK1 b - - 1 19",
+        "parentNodeId": "ZN",
+        "san": "Rc6"
+      },
+      "5E": {
+        "adjacentNodeIds": [
+          "22"
+        ],
+        "comments": [
+          {
+            "text": "Anand brought his rook to the c-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rqkb1r/1p2pppp/p1n2n2/3p1b2/3P1B2/2N1PN2/PP3PPP/2RQKB1R w Kk - 1 9",
+        "parentNodeId": "nv",
+        "san": "Rc8"
+      },
+      "7C": {
+        "adjacentNodeIds": [
+          "xu"
+        ],
+        "comments": [
+          {
+            "text": "Anand proceeded with ...Ne4, looking to push ...g5 and liberate his position.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g7-g5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3q1k1r/4bppp/2B1p3/3p1b2/N2PnB2/4PN2/PP3PPP/2R2RK1 w - - 1 17",
+        "parentNodeId": "f4",
+        "san": "Ne4"
+      },
+      "8": {
+        "adjacentNodeIds": [
+          "np"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik then proceeded with 2. c4, transposing into the English Opening.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppppppp/5n2/8/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq c3 0 2",
+        "parentNodeId": "y",
+        "san": "c4"
+      },
+      "8T": {
+        "adjacentNodeIds": [
+          "zh"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik went Ne5, attacking the only defender of the bishop -- the queen!\n\nThis is game over. Black's queen can't stay guarding the d8-bishop as both ...Qe7 and ...Qd6 are met with Nc6.\n\nSeeing that there is no way to save the bishop (and afterwards the rook), Vishy Anand resigned in this position.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2Rb1k1r/1B1q1ppp/4p3/3pNb2/N2P4/4P3/PP3PPP/5RK1 b - - 5 21",
+        "parentNodeId": "j9",
+        "san": "Ne5"
+      },
+      "9y": {
+        "adjacentNodeIds": [
+          "MZ"
+        ],
+        "comments": [
+          {
+            "text": "Anand blocked the check with ...Nc6.\n\nSeems pretty safe, right?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rqk2r/1p2bppp/p1n1pn2/3p1b2/Q2P1B2/2N1PN2/PP2BPPP/2R2RK1 w k - 6 13",
+        "parentNodeId": "ri",
+        "san": "Nc6"
+      },
+      "D": {
+        "adjacentNodeIds": [
+          "y"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik opened with 1. Nf3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+        "parentNodeId": "0",
+        "san": "Nf3"
+      },
+      "De": {
+        "adjacentNodeIds": [
+          "V0"
+        ],
+        "comments": [
+          {
+            "text": "Anand recaptured with the c-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pp2pppp/5n2/3p4/8/2N2N2/PP1PPPPP/R1BQKB1R w KQkq - 0 5",
+        "parentNodeId": "PR",
+        "san": "cxd5"
+      },
+      "Do": {
+        "adjacentNodeIds": [
+          "Z4"
+        ],
+        "comments": [
+          {
+            "text": "If Black were to take the bishop...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rqk2r/4bppp/p1n1pn2/3p1b2/Q2P1B2/2N1PN2/PP3PPP/2R2RK1 w k - 0 14",
+        "parentNodeId": "MZ",
+        "san": "bxa6"
+      },
+      "Em": {
+        "adjacentNodeIds": [
+          "Yg"
+        ],
+        "comments": [
+          {
+            "text": "This would be check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3R1k1r/1q3ppp/4p3/3pNb2/N2P4/4P3/PP3PPP/5RK1 b - - 0 22",
+        "parentNodeId": "zh",
+        "san": "Rxd8+"
+      },
+      "G5": {
+        "adjacentNodeIds": [
+          "H1"
+        ],
+        "comments": [
+          {
+            "text": "Anand slid the queen back a square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5k1r/1B1qbppp/2R1p3/3p1b2/N2P4/4PN2/PP3PPP/5RK1 w - - 2 20",
+        "parentNodeId": "3D",
+        "san": "Qd7"
+      },
+      "GC": {
+        "adjacentNodeIds": [
+          "TU"
+        ],
+        "comments": [
+          {
+            "text": "And Anand followed in his opponent's footsteps with ...Be7, preparing ..O-O.\n\nA very non-confrontational game so far, but that's about to change...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e8-g8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rqk2r/1p2bppp/p1n1pn2/3p1b2/3P1B2/2N1PN2/PP2BPPP/2RQ1RK1 w k - 2 11",
+        "parentNodeId": "ST",
+        "san": "Be7"
+      },
+      "H1": {
+        "adjacentNodeIds": [
+          "j9"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik gave a check with his rook.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2R2k1r/1B1qbppp/4p3/3p1b2/N2P4/4PN2/PP3PPP/5RK1 b - - 3 20",
+        "parentNodeId": "G5",
+        "san": "Rc8+"
+      },
+      "Kc": {
+        "adjacentNodeIds": [
+          "ST"
+        ],
+        "comments": [
+          {
+            "text": "Anand went e6, supporting d5 and preparing to develop the dark-squared bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rqkb1r/1p3ppp/p1n1pn2/3p1b2/3P1B2/2N1PN2/PP2BPPP/2RQK2R w Kk - 0 10",
+        "parentNodeId": "22",
+        "san": "e6"
+      },
+      "MZ": {
+        "adjacentNodeIds": [
+          "hj",
+          "Do"
+        ],
+        "comments": [
+          {
+            "text": "Well, not quite! Kramnik captured the a6-pawn, sacrificing the bishop in order to remove the main defender of Black's pinned knight -- the b7-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rqk2r/1p2bppp/B1n1pn2/3p1b2/Q2P1B2/2N1PN2/PP3PPP/2R2RK1 b k - 0 13",
+        "parentNodeId": "9y",
+        "san": "Bxa6"
+      },
+      "OS": {
+        "adjacentNodeIds": [
+          "Q1"
+        ],
+        "comments": [
+          {
+            "text": "Anand developed his other knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/pp2pppp/2n2n2/3p4/3P4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 1 6",
+        "parentNodeId": "V0",
+        "san": "Nc6"
+      },
+      "PR": {
+        "adjacentNodeIds": [
+          "De"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik traded the pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pp2pppp/2p2n2/3P4/8/2N2N2/PP1PPPPP/R1BQKB1R b KQkq - 0 4",
+        "parentNodeId": "2R",
+        "san": "cxd5"
+      },
+      "Q1": {
+        "adjacentNodeIds": [
+          "Xh"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik developed the c1-bishop.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/pp2pppp/2n2n2/3p4/3P1B2/2N2N2/PP2PPPP/R2QKB1R b KQkq - 2 6",
+        "parentNodeId": "OS",
+        "san": "Bf4"
+      },
+      "Qv": {
+        "adjacentNodeIds": [
+          "2R"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik developed his other knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pp1ppppp/2p2n2/8/2P5/2N2N2/PP1PPPPP/R1BQKB1R b KQkq - 1 3",
+        "parentNodeId": "np",
+        "san": "Nc3"
+      },
+      "ST": {
+        "adjacentNodeIds": [
+          "GC"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik safeguarded his king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rqkb1r/1p3ppp/p1n1pn2/3p1b2/3P1B2/2N1PN2/PP2BPPP/2RQ1RK1 b k - 1 10",
+        "parentNodeId": "Kc",
+        "san": "O-O"
+      },
+      "TU": {
+        "adjacentNodeIds": [
+          "UH"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik took the initiative with Qb3, attacking b7 and forcing a response.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rqk2r/1p2bppp/p1n1pn2/3p1b2/3P1B2/1QN1PN2/PP2BPPP/2R2RK1 b k - 3 11",
+        "parentNodeId": "GC",
+        "san": "Qb3"
+      },
+      "To": {
+        "adjacentNodeIds": [
+          "nv"
+        ],
+        "comments": [
+          {
+            "text": "Anand developed the c8-bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qkb1r/1p2pppp/p1n2n2/3p1b2/3P1B2/2N2N2/PP2PPPP/2RQKB1R w Kkq - 2 8",
+        "parentNodeId": "sd",
+        "san": "Bf5"
+      },
+      "UH": {
+        "adjacentNodeIds": [
+          "ri"
+        ],
+        "comments": [
+          {
+            "text": "Anand responded ...Na5, defending the pawn and attacking the queen.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rqk2r/1p2bppp/p3pn2/n2p1b2/3P1B2/1QN1PN2/PP2BPPP/2R2RK1 w k - 4 12",
+        "parentNodeId": "TU",
+        "san": "Na5"
+      },
+      "V0": {
+        "adjacentNodeIds": [
+          "OS"
+        ],
+        "comments": [
+          {
+            "text": "And Kramnik advanced his d-pawn.\n\nThis is now an Exchange Slav.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pp2pppp/5n2/3p4/3P4/2N2N2/PP2PPPP/R1BQKB1R b KQkq d3 0 5",
+        "parentNodeId": "De",
+        "san": "d4"
+      },
+      "Xh": {
+        "adjacentNodeIds": [
+          "sd"
+        ],
+        "comments": [
+          {
+            "text": "Anand chose to play ...a6 in order to prevent any piece from coming to b5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/1p2pppp/p1n2n2/3p4/3P1B2/2N2N2/PP2PPPP/R2QKB1R w KQkq - 0 7",
+        "parentNodeId": "Q1",
+        "san": "a6"
+      },
+      "Yg": {
+        "adjacentNodeIds": [
+          "xS"
+        ],
+        "comments": [
+          {
+            "text": "And after the king goes to e7, both Rd7+ for the simplification wins but the best is actually Rxh8.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d8-d7",
+                "d8-h8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3R3r/1q2kppp/4p3/3pNb2/N2P4/4P3/PP3PPP/5RK1 w - - 1 23",
+        "parentNodeId": "Em",
+        "san": "Ke7"
+      },
+      "Z4": {
+        "adjacentNodeIds": [
+          "kc"
+        ],
+        "comments": [
+          {
+            "text": "White would proceed Ne5, adding an attacker to Black's pinned knight.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rqk2r/4bppp/p1n1pn2/3pNb2/Q2P1B2/2N1P3/PP3PPP/2R2RK1 b k - 1 14",
+        "parentNodeId": "Do",
+        "san": "Ne5"
+      },
+      "ZN": {
+        "adjacentNodeIds": [
+          "3D"
+        ],
+        "comments": [
+          {
+            "text": "Anand recaptured with his queen to avoid losing it.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5k1r/1B2bppp/3qp3/3p1b2/N2P4/4PN2/PP3PPP/2R2RK1 w - - 0 19",
+        "parentNodeId": "zz",
+        "san": "Qxd6"
+      },
+      "ZX": {
+        "adjacentNodeIds": [
+          "f4"
+        ],
+        "comments": [
+          {
+            "text": "Anand slid his king out of check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3q1k1r/4bppp/2B1pn2/3p1b2/r2P1B2/2N1PN2/PP3PPP/2R2RK1 w - - 1 16",
+        "parentNodeId": "0Y",
+        "san": "Kf8"
+      },
+      "f4": {
+        "adjacentNodeIds": [
+          "7C"
+        ],
+        "comments": [
+          {
+            "text": "And Kramnik captured the rook with his knight (Nxa4 is better than Bxa4 because it opens up the c1-rook).\n\nIn this imbalance, White has gotten a knight, rook & two pawns for a queen. \"10 for 9\", but Black is cramped, the king on f8 is misplaced and White's pieces are active and ready to attack.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3q1k1r/4bppp/2B1pn2/3p1b2/N2P1B2/4PN2/PP3PPP/2R2RK1 b - - 0 16",
+        "parentNodeId": "ZX",
+        "san": "Nxa4"
+      },
+      "fu": {
+        "adjacentNodeIds": [
+          "0Y"
+        ],
+        "comments": [
+          {
+            "text": "Anand captured Kramnik's queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3qk2r/1B2bppp/2n1pn2/3p1b2/r2P1B2/2N1PN2/PP3PPP/2R2RK1 w k - 0 15",
+        "parentNodeId": "re",
+        "san": "Rxa4"
+      },
+      "hj": {
+        "adjacentNodeIds": [
+          "re"
+        ],
+        "comments": [
+          {
+            "text": "Instead of capturing, Anand decided to pin the bishop to Kramnik's queen.\n\nThe idea is to capture with the rook and keep the c6-knight defended.\n\nLooks like White is in some trouble...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qk2r/1p2bppp/B1n1pn2/3p1b2/Q2P1B2/2N1PN2/PP3PPP/2R2RK1 w k - 1 14",
+        "parentNodeId": "MZ",
+        "san": "Ra8"
+      },
+      "il": {
+        "adjacentNodeIds": [
+          "zz"
+        ],
+        "comments": [
+          {
+            "text": "Anand went ...Nd6, very temporarily defending against the threat of Rc8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3q1k1r/1B2bppp/3np3/3p1b2/N2P1B2/4PN2/PP3PPP/2R2RK1 w - - 3 18",
+        "parentNodeId": "xu",
+        "san": "Nd6"
+      },
+      "j9": {
+        "adjacentNodeIds": [
+          "8T"
+        ],
+        "comments": [
+          {
+            "text": "Anand blocked with the bishop.\n\nCan you see the win here?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Rb1k1r/1B1q1ppp/4p3/3p1b2/N2P4/4PN2/PP3PPP/5RK1 w - - 4 21",
+        "parentNodeId": "H1",
+        "san": "Bd8"
+      },
+      "kc": {
+        "adjacentNodeIds": [
+          "my"
+        ],
+        "comments": [
+          {
+            "text": "Black could try to defend with ...Qb6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r1k2r/4bppp/pqn1pn2/3pNb2/Q2P1B2/2N1P3/PP3PPP/2R2RK1 w k - 2 15",
+        "parentNodeId": "Z4",
+        "san": "Qb6"
+      },
+      "my": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But after a move like Ne2, there's simply no way to guard the knight!\n\n15. Ne2 exposes a relative pin on the knight as well. Even after a queen trade, the c6-knight cannot move because of the rook behind it.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r1k2r/4bppp/pqn1pn2/3pNb2/Q2P1B2/4P3/PP2NPPP/2R2RK1 b k - 3 15",
+        "parentNodeId": "kc",
+        "san": "Ne2"
+      },
+      "np": {
+        "adjacentNodeIds": [
+          "Qv"
+        ],
+        "comments": [
+          {
+            "text": "Anand went 2...c6, preparing ...d5.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d7-d5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pp1ppppp/2p2n2/8/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 0 3",
+        "parentNodeId": "8",
+        "san": "c6"
+      },
+      "nv": {
+        "adjacentNodeIds": [
+          "5E"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik went e3, supporting d4 & preparing to develop the f1-bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qkb1r/1p2pppp/p1n2n2/3p1b2/3P1B2/2N1PN2/PP3PPP/2RQKB1R b Kkq - 0 8",
+        "parentNodeId": "To",
+        "san": "e3"
+      },
+      "re": {
+        "adjacentNodeIds": [
+          "fu"
+        ],
+        "comments": [
+          {
+            "text": "But Kramnik confidently captured the pawn on b7, sacrificing his queen!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qk2r/1B2bppp/2n1pn2/3p1b2/Q2P1B2/2N1PN2/PP3PPP/2R2RK1 b k - 0 14",
+        "parentNodeId": "hj",
+        "san": "Bxb7"
+      },
+      "ri": {
+        "adjacentNodeIds": [
+          "9y",
+          "uy"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik met the attack on his queen by giving a check to Anand's king.\n\nThere are two sensible responses...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rqk2r/1p2bppp/p3pn2/n2p1b2/Q2P1B2/2N1PN2/PP2BPPP/2R2RK1 b k - 5 12",
+        "parentNodeId": "UH",
+        "san": "Qa4+"
+      },
+      "sd": {
+        "adjacentNodeIds": [
+          "To"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik brought his rook to the c-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/1p2pppp/p1n2n2/3p4/3P1B2/2N2N2/PP2PPPP/2RQKB1R b Kkq - 1 7",
+        "parentNodeId": "Xh",
+        "san": "Rc1"
+      },
+      "uy": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Better would've been 12...Kf8, giving up castling rights but still keeping the position somewhat under control.\n\nWhite has an advantage here, but there is still chess to be played.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rq1k1r/1p2bppp/p3pn2/n2p1b2/Q2P1B2/2N1PN2/PP2BPPP/2R2RK1 w - - 6 13",
+        "parentNodeId": "ri",
+        "san": "Kf8"
+      },
+      "xS": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black is down too much material, and he can't even win a queenside pawn because b2 is defended.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b2-b3",
+                "f1-c1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7R/1q2kppp/4p3/3pNb2/N2P4/4P3/PP3PPP/5RK1 b - - 0 23",
+        "parentNodeId": "Yg",
+        "san": "Rxh8"
+      },
+      "xu": {
+        "adjacentNodeIds": [
+          "il"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik went Bb7, preparing to bring the c1-rook down to the eight rank and win the queen.",
+            "arrows": {
+              "threats": [
+                "c1-c8"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3q1k1r/1B2bppp/4p3/3p1b2/N2PnB2/4PN2/PP3PPP/2R2RK1 b - - 2 17",
+        "parentNodeId": "7C",
+        "san": "Bb7"
+      },
+      "y": {
+        "adjacentNodeIds": [
+          "8"
+        ],
+        "comments": [
+          {
+            "text": "Anand responded with 1...Nf6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2",
+        "parentNodeId": "D",
+        "san": "Nf6"
+      },
+      "zh": {
+        "adjacentNodeIds": [
+          "Em"
+        ],
+        "comments": [
+          {
+            "text": "Just in case you're wondering, White can win this easily. \n\nWhite is up material. The queen isn't something to boast about anymore after so many pawns have fallen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Rb1k1r/1q3ppp/4p3/3pNb2/N2P4/4P3/PP3PPP/5RK1 w - - 0 22",
+        "parentNodeId": "8T",
+        "san": "Qxb7"
+      },
+      "zz": {
+        "adjacentNodeIds": [
+          "ZN"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik simply captured the knight, eliminating the main defender of c8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3q1k1r/1B2bppp/3Bp3/3p1b2/N2P4/4PN2/PP3PPP/2R2RK1 b - - 0 18",
+        "parentNodeId": "il",
+        "san": "Bxd6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

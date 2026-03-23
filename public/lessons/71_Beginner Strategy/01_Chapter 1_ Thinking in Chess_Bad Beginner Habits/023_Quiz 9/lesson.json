@@ -1,0 +1,99 @@
+{
+  "id": "2d94416e-8d30-4842-a112-0990a36e6856",
+  "name": "Quiz 9",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays Bh3, with pressure on g2. \n\nCan you take free material on b7, or is it too dangerous due to the pressure on g2?",
+    "answers": [
+      {
+        "text": "Bxb7",
+        "feedback": {
+          "text": "Correct! You can take material along the diagonal and your bishop still defends g2.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "rn2kb1r/pB3ppp/5nq1/4p3/8/2NP3b/PP2NPPP/R1BQ1RK1 b kq - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ng3",
+        "feedback": {
+          "text": "Are you sure this is necessary?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "rn2kb1r/pp3ppp/5nq1/4p3/8/2NP1BNb/PP3PPP/R1BQ1RK1 b kq - 3 2"
+      },
+      {
+        "text": "Qa4+",
+        "feedback": {
+          "text": "This move just allows Bd7, and the queen achieves nothing.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h3-d7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "rn2kb1r/pp3ppp/5nq1/4p3/Q7/2NP1B1b/PP2NPPP/R1B2RK1 b kq - 3 2"
+      },
+      {
+        "text": "g3",
+        "feedback": {
+          "text": "This move drops the rook. It wasn't necessary to defend g2 because the bishop defends.",
+          "arrows": {
+            "threats": [
+              "h3-f1"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "rn2kb1r/pp3ppp/5nq1/4p3/8/2NP1BPb/PP2NP1P/R1BQ1RK1 b kq - 0 2"
+      }
+    ],
+    "positionFen": "rnb1kb1r/pp3ppp/5nq1/4p3/8/2NP1B2/PP2NPPP/R1BQ1RK1 b kq - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "b7",
+        "g2"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Bh3",
+      "afterMoveFen": "rn2kb1r/pp3ppp/5nq1/4p3/8/2NP1B1b/PP2NPPP/R1BQ1RK1 w kq - 2 2"
+    }
+  },
+  "drill": null
+}

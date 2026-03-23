@@ -1,0 +1,453 @@
+{
+  "id": "201b4e45-38e2-4e5e-b77f-731c1a05b871",
+  "name": "Study 1: The Discovered Check",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "b"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to the first study of the third chapter in the Tactics Masterclass!\n\nThis was a Gotham subscriber game! They had Black. The ratings were 1712 (White) and 1854 (Black).\n\nIn this study, we'll take a look at one simple, yet interesting example of a tactic known as a discovered check.\n\nThe \"discovered check\" is a type of discovered attack - an attack on the king that is revealed when one piece moves out of the way of another.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "2R": {
+        "adjacentNodeIds": [
+          "3w"
+        ],
+        "comments": [
+          {
+            "text": "Black unpinned the pawn with ...Qe7.\n\nThe f3-knight is under attack...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1kbnr/ppppq1pp/2n5/5P2/2B1p3/5N2/PPPPQPPP/RNB1K2R w KQkq - 2 6",
+        "parentNodeId": "mz",
+        "san": "Qe7"
+      },
+      "3w": {
+        "adjacentNodeIds": [
+          "c7"
+        ],
+        "comments": [
+          {
+            "text": "So White was forced to passively move it back to its home square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kbnr/ppppq1pp/2n5/5P2/2B1p3/8/PPPPQPPP/RNB1K1NR b KQkq - 3 6",
+        "parentNodeId": "2R",
+        "san": "Ng1"
+      },
+      "A0": {
+        "adjacentNodeIds": [
+          "cd"
+        ],
+        "comments": [
+          {
+            "text": "White accepted the gambit with exf5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/pppp2pp/2n5/4pP2/2B5/5N2/PPPP1PPP/RNBQK2R b KQkq - 0 4",
+        "parentNodeId": "iT",
+        "san": "exf5"
+      },
+      "C": {
+        "adjacentNodeIds": [
+          "Xn"
+        ],
+        "comments": [
+          {
+            "text": "White developed their king's knight.\n\nThis move attacks the e5-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+        "parentNodeId": "h",
+        "san": "Nf3"
+      },
+      "C2": {
+        "adjacentNodeIds": [
+          "wG",
+          "qm"
+        ],
+        "comments": [
+          {
+            "text": "Black captured the c2-pawn with their knight, forking White's king and rook!",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e1",
+                "a1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/5n2/5P2/2B1p3/3P4/PPnQ1PPP/RNB1K1NR w KQkq - 0 9",
+        "parentNodeId": "aJ",
+        "san": "Nxc2+"
+      },
+      "HM": {
+        "adjacentNodeIds": [
+          "j2"
+        ],
+        "comments": [
+          {
+            "text": "This block isn't rational.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/5n2/5P2/2B5/3p4/PP2QPPP/RNB1K1NR b KQkq - 1 10",
+        "parentNodeId": "YF",
+        "san": "Qe2"
+      },
+      "Hv": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And Black simply captured the rook.\n\nThe looming discovered check tactic allowed Black to score a devastating knight fork and win some material.\n\nThe game went on for some 20 more moves and Black was able to convert.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/5n2/5P2/2B1p3/3P4/PP1Q1PPP/nNB2KNR w kq - 0 10",
+        "parentNodeId": "wG",
+        "san": "Nxa1"
+      },
+      "I5": {
+        "adjacentNodeIds": [
+          "iT"
+        ],
+        "comments": [
+          {
+            "text": "White went for the Italian with Bc4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+        "parentNodeId": "Xn",
+        "san": "Bc4"
+      },
+      "XJ": {
+        "adjacentNodeIds": [
+          "ei"
+        ],
+        "comments": [
+          {
+            "text": "White proceeded with d3, looking to trade off Black's e-pawn & preparing to develop the dark-squared bishop.\n\nThis, however, was a mistake!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/2n2n2/5P2/2B1p3/3P4/PPP1QPPP/RNB1K1NR b KQkq - 0 7",
+        "parentNodeId": "c7",
+        "san": "d3"
+      },
+      "Xn": {
+        "adjacentNodeIds": [
+          "I5"
+        ],
+        "comments": [
+          {
+            "text": "Black defended the e5-pawn with ...Nc6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+        "parentNodeId": "C",
+        "san": "Nc6"
+      },
+      "YF": {
+        "adjacentNodeIds": [
+          "a3",
+          "HM"
+        ],
+        "comments": [
+          {
+            "text": "Well, Black would proceed with ...exd3+!\n\nThis is known as a discovered check.\nBlack captures the pawn, opening up an attack towards White's king and simultaneously attacking the queen.\n\nThere is no good response. White has to deal with the check and there is no way to prevent the loss of their queen.",
+            "arrows": {
+              "threats": [
+                "d3-c2"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e1",
+                "c2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/5n2/5P2/2B5/3p4/PPQ2PPP/RNB1K1NR w KQkq - 0 10",
+        "parentNodeId": "qm",
+        "san": "exd3+"
+      },
+      "a3": {
+        "adjacentNodeIds": [
+          "e8"
+        ],
+        "comments": [
+          {
+            "text": "If the king moves away, the pawn can continue its destruction.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/5n2/5P2/2B5/3p4/PPQ2PPP/RNB2KNR b kq - 1 10",
+        "parentNodeId": "YF",
+        "san": "Kf1"
+      },
+      "aJ": {
+        "adjacentNodeIds": [
+          "C2"
+        ],
+        "comments": [
+          {
+            "text": "So White slid it over one square.\n\nLet's pause here. Notice how Black's queen is lined up with the white king. Why does this matter? Well, it means that when Black captures ...exd3, an attack opens up towards White's king.\n\nLet's see how Black capitalized...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/5n2/5P2/2Bnp3/3P4/PPPQ1PPP/RNB1K1NR b KQkq - 2 8",
+        "parentNodeId": "ei",
+        "san": "Qd2"
+      },
+      "b": {
+        "adjacentNodeIds": [
+          "h"
+        ],
+        "comments": [
+          {
+            "text": "White opened with the king's pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+        "parentNodeId": "0",
+        "san": "e4"
+      },
+      "c7": {
+        "adjacentNodeIds": [
+          "XJ"
+        ],
+        "comments": [
+          {
+            "text": "Black continued developing with ...Nf6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/2n2n2/5P2/2B1p3/8/PPPPQPPP/RNB1K1NR w KQkq - 4 7",
+        "parentNodeId": "3w",
+        "san": "Nf6"
+      },
+      "cd": {
+        "adjacentNodeIds": [
+          "mz"
+        ],
+        "comments": [
+          {
+            "text": "Black went ...e4, attacking the knight.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/pppp2pp/2n5/5P2/2B1p3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 5",
+        "parentNodeId": "A0",
+        "san": "e4"
+      },
+      "e8": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And this is should be the end. \n\nThis check is also effective because the pawn controlled the e2-square after 9...exd3+.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/5n2/5P2/2B5/8/PPp2PPP/RNB2KNR w kq - 0 11",
+        "parentNodeId": "a3",
+        "san": "dxc2"
+      },
+      "ei": {
+        "adjacentNodeIds": [
+          "aJ"
+        ],
+        "comments": [
+          {
+            "text": "Black jumped their knight into d4!\n\nWhite's queen is under attack...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/5n2/5P2/2Bnp3/3P4/PPP1QPPP/RNB1K1NR w KQkq - 1 8",
+        "parentNodeId": "XJ",
+        "san": "Nd4"
+      },
+      "h": {
+        "adjacentNodeIds": [
+          "C"
+        ],
+        "comments": [
+          {
+            "text": "Black responded symmetrically with ...e5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+        "parentNodeId": "b",
+        "san": "e5"
+      },
+      "iT": {
+        "adjacentNodeIds": [
+          "A0"
+        ],
+        "comments": [
+          {
+            "text": "And Black advanced their f-pawn.\n\n3...f5 marks the Rousseau Gambit.\nA very interesting opening choice by Black, but that's not our focus here.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/pppp2pp/2n5/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq f6 0 4",
+        "parentNodeId": "I5",
+        "san": "f5"
+      },
+      "j2": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But you do have to remember to take with the pawn. This is captures 101. \n\nWhite can now recapture the pawn easily, yet they're down material.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g1-e2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/5n2/5P2/2B5/8/PP2pPPP/RNB1K1NR w KQkq - 0 11",
+        "parentNodeId": "HM",
+        "san": "dxe2"
+      },
+      "mz": {
+        "adjacentNodeIds": [
+          "2R"
+        ],
+        "comments": [
+          {
+            "text": "White pinned the e-pawn with Qe2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/pppp2pp/2n5/5P2/2B1p3/5N2/PPPPQPPP/RNB1K2R b KQkq - 1 5",
+        "parentNodeId": "cd",
+        "san": "Qe2"
+      },
+      "qm": {
+        "adjacentNodeIds": [
+          "YF"
+        ],
+        "comments": [
+          {
+            "text": "What if White were to take the knight?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/5n2/5P2/2B1p3/3P4/PPQ2PPP/RNB1K1NR b KQkq - 0 9",
+        "parentNodeId": "C2",
+        "san": "Qxc2"
+      },
+      "wG": {
+        "adjacentNodeIds": [
+          "Hv"
+        ],
+        "comments": [
+          {
+            "text": "In the game, White responded Kf1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/ppppq1pp/5n2/5P2/2B1p3/3P4/PPnQ1PPP/RNB2KNR b kq - 1 9",
+        "parentNodeId": "C2",
+        "san": "Kf1"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

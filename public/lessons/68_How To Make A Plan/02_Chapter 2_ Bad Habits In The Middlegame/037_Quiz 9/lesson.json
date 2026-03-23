@@ -1,0 +1,63 @@
+{
+  "id": "d0a5f828-7da9-42e9-b69c-869d95515a84",
+  "name": "Quiz 9",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Qg5. \n\nThis puts some pressure on g7 but it is protected, so does White actually threaten something?",
+    "answers": [
+      {
+        "text": "Yes, White threatens a check with the knight with Nh6+.",
+        "feedback": {
+          "text": "After the knight checks on the h6 square, the pawn on f7 will fall. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No threat.",
+        "feedback": {
+          "text": "There actually is a threat here.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, Black's central pawn is under attack. Bxd4 is a threat.",
+        "feedback": {
+          "text": "Yes, in a sense, but there's a bigger threat.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, there are checkmate tactics in the air. ",
+        "feedback": {
+          "text": "Even after Ba3, Black can defend against the checkmate.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2q1bk1/1p3pp1/p4n2/5N2/3p2P1/1P3P2/PB1Q2K1/4R3 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qg5",
+      "afterMoveFen": "r2q1bk1/1p3pp1/p4n2/5NQ1/3p2P1/1P3P2/PB4K1/4R3 b - - 2 1"
+    }
+  },
+  "drill": null
+}

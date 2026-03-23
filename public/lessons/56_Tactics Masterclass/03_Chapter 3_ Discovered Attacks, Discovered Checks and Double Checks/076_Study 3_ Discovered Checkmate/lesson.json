@@ -1,0 +1,655 @@
+{
+  "id": "cf95262d-8f46-4779-b76c-da11562cba4a",
+  "name": "Study 3: Discovered Checkmate",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "K"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to Study 3 of Chapter 3!\n\nThis game was played between Peter Svidler and Denis Khismatullin in 2015 at the Russian Championship Superfinal.\n\nIt features some of the themes we go over in this chapter and includes a mesmerizing checkmate in the end.\n\nLet's analyze it and see what it can teach us!",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1799484",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbppbp/2np1np1/p7/1p2PP2/1P2N1PP/PBPQN1B1/1K3R1R b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "14": {
+        "adjacentNodeIds": [
+          "VB"
+        ],
+        "comments": [
+          {
+            "text": "If White captures the knight in the center, there's an extremely strong discovered attack here.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/5np1/4B3/1p3R2/1P2N1PP/2PQN3/1K5R b - - 0 7",
+        "parentNodeId": "JS",
+        "san": "Bxe5"
+      },
+      "1I": {
+        "adjacentNodeIds": [
+          "r9"
+        ],
+        "comments": [
+          {
+            "text": "White has to take.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/3bppbp/6p1/8/1p2R3/1P2N1PP/2PQN3/BK5R b - - 0 9",
+        "parentNodeId": "pX",
+        "san": "Bxa1"
+      },
+      "8": {
+        "adjacentNodeIds": [
+          "RY"
+        ],
+        "comments": [
+          {
+            "text": "Khismatullin captured.\n\nHe analyzed that he could give the rook up, and therefore White's tactical idea did not work. \n\n2. e5 opens up the bishop and pins the knight, but it doesn't matter.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbppbp/2n2np1/4p3/pp3P2/1P2N1PP/PBPQN1B1/1K3R1R w - - 0 3",
+        "parentNodeId": "i",
+        "san": "dxe5"
+      },
+      "8e": {
+        "adjacentNodeIds": [
+          "xR"
+        ],
+        "comments": [
+          {
+            "text": "Forcing the king to c1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/4ppbp/2N3p1/3Nn2n/1p3R2/1P4PP/qBPQ4/2K4R b - - 2 10",
+        "parentNodeId": "hZ",
+        "san": "Kc1"
+      },
+      "HH": {
+        "adjacentNodeIds": [
+          "yu"
+        ],
+        "comments": [
+          {
+            "text": "Instead of moving the rook away, Svidler tried getting the e3-knight to the game as well. \n\nHe was targeting the e7-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/6p1/3Nn2n/1p1N1R2/1P4PP/1BPQ4/1K5R b - - 4 8",
+        "parentNodeId": "kT",
+        "san": "Nd5"
+      },
+      "JS": {
+        "adjacentNodeIds": [
+          "mH",
+          "14"
+        ],
+        "comments": [
+          {
+            "text": "Khismatullin immediately played ...Qa7, completely giving up the knight in the center!\n\nHe had an idea that included discovered attacks and checkmate.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/5np1/4n3/1p3R2/1P2N1PP/1BPQN3/1K5R w - - 1 7",
+        "parentNodeId": "j3",
+        "san": "Qa7"
+      },
+      "Jj": {
+        "adjacentNodeIds": [
+          "w3"
+        ],
+        "comments": [
+          {
+            "text": "That's exactly what he did.\n\nRealizing the power of his position, he correctly assessed that this exchange sacrifice would be beneficial to him.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbppbp/5np1/4n3/pp6/1P2N1PP/PBPQN1B1/1K3R1R w - - 0 4",
+        "parentNodeId": "RY",
+        "san": "Nxe5"
+      },
+      "K": {
+        "adjacentNodeIds": [
+          "i"
+        ],
+        "comments": [
+          {
+            "text": "Khismatullin has a queenside pawn storm. \n\nIf he could open the a-file and stack pieces on it, things could go downhill for White in an instant.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbppbp/2np1np1/8/pp2PP2/1P2N1PP/PBPQN1B1/1K3R1R w - - 0 2",
+        "parentNodeId": "0",
+        "san": "a4"
+      },
+      "KT": {
+        "adjacentNodeIds": [
+          "hq"
+        ],
+        "comments": [
+          {
+            "text": "Another check...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c1-b2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/4ppbp/2N3p1/3Nn2n/1p3R2/1P4PP/2PQ4/r1K4R w - - 0 12",
+        "parentNodeId": "OM",
+        "san": "Rxa1+"
+      },
+      "OF": {
+        "adjacentNodeIds": [
+          "ph"
+        ],
+        "comments": [
+          {
+            "text": "The best move for White is to run with the king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/6p1/4B3/1p1Q1R2/1Pn1N1PP/2P1N3/2K4R b - - 4 9",
+        "parentNodeId": "ox",
+        "san": "Kc1"
+      },
+      "OM": {
+        "adjacentNodeIds": [
+          "KT"
+        ],
+        "comments": [
+          {
+            "text": "Of course, White is forced to capture here.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/4ppbp/2N3p1/3Nn2n/1p3R2/1P4PP/2PQ4/B1K4R b - - 0 11",
+        "parentNodeId": "xR",
+        "san": "Bxa1"
+      },
+      "Qr": {
+        "adjacentNodeIds": [
+          "ox"
+        ],
+        "comments": [
+          {
+            "text": "The best move for White is to offer a queen trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/6p1/4B3/1p1QnR2/1P2N1PP/2P1N3/1K5R b - - 2 8",
+        "parentNodeId": "VB",
+        "san": "Qd4"
+      },
+      "RY": {
+        "adjacentNodeIds": [
+          "Jj"
+        ],
+        "comments": [
+          {
+            "text": "White recaptured and the f-file was open.\n\nAlso, the e5-push had opened a discovered attack on the long diagonal.\n\nBlack couldn't really capture on e5 now as his rook would be hanging.\n\nOr could he?",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbppbp/2n2np1/4P3/pp6/1P2N1PP/PBPQN1B1/1K3R1R b - - 0 3",
+        "parentNodeId": "8",
+        "san": "fxe5"
+      },
+      "VB": {
+        "adjacentNodeIds": [
+          "Qr",
+          "kZ"
+        ],
+        "comments": [
+          {
+            "text": "The point is to get the knight to the center with tempo, threaten to jump to c3 and open up the attack on the bishop at the same time.\n\nOf course, White has to react to the attack on the queen here.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/6p1/4B3/1p2nR2/1P2N1PP/2PQN3/1K5R w - - 1 8",
+        "parentNodeId": "14",
+        "san": "Ne4"
+      },
+      "fC": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "A double check - royal fork - mate!\n\nThe bishop and the knight deliver a check together, and Black's pieces around White's king prevent it from moving anywhere.\n\nActually, ...Nd3# was also mate.\n\nWhat a great game by Denis Khismatullin!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/4ppbp/2N3p1/3N3n/1pn2R2/1P4PP/1KPQ4/r6R w - - 2 13",
+        "parentNodeId": "hq",
+        "san": "Nc4#"
+      },
+      "hZ": {
+        "adjacentNodeIds": [
+          "8e"
+        ],
+        "comments": [
+          {
+            "text": "First, a check on a2...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/4ppbp/2N3p1/3Nn2n/1p3R2/1P4PP/qBPQ4/1K5R w - - 1 10",
+        "parentNodeId": "zu",
+        "san": "Qa2+"
+      },
+      "hq": {
+        "adjacentNodeIds": [
+          "fC"
+        ],
+        "comments": [
+          {
+            "text": "Now forcing the king to b2.\n\nDo you see the checkmate in one from this position?\n\nIt's definitely one of the most beautiful checkmates I've seen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/4ppbp/2N3p1/3Nn2n/1p3R2/1P4PP/1KPQ4/r6R b - - 1 12",
+        "parentNodeId": "KT",
+        "san": "Kb2"
+      },
+      "i": {
+        "adjacentNodeIds": [
+          "8"
+        ],
+        "comments": [
+          {
+            "text": "This is where Svidler went wrong.\n\nInstead of admitting he was getting attacked and defending with something like Nc1, he decided to get aggressive.\n\nThe e5-push is an ambitious attempt to create complications in the center and open up some lines for the bishop, but this tactic does not work.",
+            "arrows": {
+              "threats": [
+                "g2-a8"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbppbp/2np1np1/4P3/pp3P2/1P2N1PP/PBPQN1B1/1K3R1R b - - 0 2",
+        "parentNodeId": "K",
+        "san": "e5"
+      },
+      "j3": {
+        "adjacentNodeIds": [
+          "JS"
+        ],
+        "comments": [
+          {
+            "text": "However, Peter Svidler captured with the a-pawn, and this is where things started to go wrong for him.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/2qbppbp/5np1/4n3/1p3R2/1P2N1PP/1BPQN3/1K5R b - - 0 6",
+        "parentNodeId": "mE",
+        "san": "axb3"
+      },
+      "kT": {
+        "adjacentNodeIds": [
+          "HH"
+        ],
+        "comments": [
+          {
+            "text": "Attacking the rook, Khismatullin got the first knight off the diagonal.\n\nThe end goal was, if possible, to trade bishops and checkmate White on the a-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/6p1/4n2n/1p1N1R2/1P2N1PP/1BPQ4/1K5R w - - 3 8",
+        "parentNodeId": "mH",
+        "san": "Nh5"
+      },
+      "kZ": {
+        "adjacentNodeIds": [
+          "pX"
+        ],
+        "comments": [
+          {
+            "text": "If White captures the knight...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/6p1/4B3/1p2R3/1P2N1PP/2PQN3/1K5R b - - 0 8",
+        "parentNodeId": "VB",
+        "san": "Rxe4"
+      },
+      "mE": {
+        "adjacentNodeIds": [
+          "j3"
+        ],
+        "comments": [
+          {
+            "text": "It was time to capture on b3 and open up the a-file.\n\nHere, it's a must for White to capture with the c-pawn, because the queen must protect the second rank.\n\nBlack's main idea is creating a queen/rook battery on the a-file anyway.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c7-a7",
+                "c2-b3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/2qbppbp/5np1/4n3/1p3R2/1p2N1PP/PBPQN3/1K5R w - - 0 6",
+        "parentNodeId": "td",
+        "san": "axb3"
+      },
+      "mH": {
+        "adjacentNodeIds": [
+          "kT"
+        ],
+        "comments": [
+          {
+            "text": "Svidler realized how dangerous it would be if he captures the knight on e5.\n\nHe tried keeping all his defenders where they are and improve the position with Nd4.\n\nBut his troubles weren't over.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/5np1/4n3/1p1N1R2/1P2N1PP/1BPQ4/1K5R b - - 2 7",
+        "parentNodeId": "JS",
+        "san": "Nd4"
+      },
+      "ox": {
+        "adjacentNodeIds": [
+          "OF",
+          "vr"
+        ],
+        "comments": [
+          {
+            "text": "And here's the key idea of the whole combination.\n\nThe knight lands on c3, with check and cuts the circulation of White's pieces on the long diagonal!\n\nNow ...Qa1 is a reintroduced threat.",
+            "arrows": {
+              "threats": [
+                "a7-a1"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/6p1/4B3/1p1Q1R2/1Pn1N1PP/2P1N3/1K5R w - - 3 9",
+        "parentNodeId": "Qr",
+        "san": "Nc3+"
+      },
+      "pX": {
+        "adjacentNodeIds": [
+          "1I"
+        ],
+        "comments": [
+          {
+            "text": "There's an elegant checkmate in two.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/3bppbp/6p1/4B3/1p2R3/1P2N1PP/2PQN3/qK5R w - - 1 9",
+        "parentNodeId": "kZ",
+        "san": "Qa1+"
+      },
+      "ph": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And lose everything.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e2-d4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c1",
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/6p1/4B3/1p1Q1R2/1P2N1PP/2P1n3/2K4R w - - 0 10",
+        "parentNodeId": "OF",
+        "san": "Nxe2+"
+      },
+      "r9": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Checkmate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/3bppbp/6p1/8/1p2R3/1P2N1PP/2PQN3/rK5R w - - 0 10",
+        "parentNodeId": "1I",
+        "san": "Rxa1#"
+      },
+      "s0": {
+        "adjacentNodeIds": [
+          "td"
+        ],
+        "comments": [
+          {
+            "text": "Khismatullin recaptured, and Black still had all the advantages of his position as before, without having to worry about White's bishop now.\n\nPressure on the queenside was still great.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/2qbppbp/5np1/4n3/pp6/1P2N1PP/PBPQN3/1K3R1R w - - 0 5",
+        "parentNodeId": "w3",
+        "san": "Rxa8"
+      },
+      "td": {
+        "adjacentNodeIds": [
+          "mE"
+        ],
+        "comments": [
+          {
+            "text": "Svidler correctly went for a rook lift, as he wanted to add a defender to the fourth rank.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/2qbppbp/5np1/4n3/pp3R2/1P2N1PP/PBPQN3/1K5R b - - 1 5",
+        "parentNodeId": "s0",
+        "san": "Rf4"
+      },
+      "vr": {
+        "adjacentNodeIds": [
+          "wi"
+        ],
+        "comments": [
+          {
+            "text": "For example, if the knight takes here...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/q2bppbp/6p1/4B3/1p1Q1R2/1PN1N1PP/2P5/1K5R b - - 0 9",
+        "parentNodeId": "ox",
+        "san": "Nxc3"
+      },
+      "w3": {
+        "adjacentNodeIds": [
+          "s0"
+        ],
+        "comments": [
+          {
+            "text": "Peter had no better move but to capture at this point.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "B4rk1/2qbppbp/5np1/4n3/pp6/1P2N1PP/PBPQN3/1K3R1R b - - 0 4",
+        "parentNodeId": "Jj",
+        "san": "Bxa8"
+      },
+      "wi": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "There's mate in one.\n\nThat's the whole idea of this beautiful combo.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/3bppbp/6p1/4B3/1p1Q1R2/1PN1N1PP/2P5/qK5R w - - 1 10",
+        "parentNodeId": "vr",
+        "san": "Qa1#"
+      },
+      "xR": {
+        "adjacentNodeIds": [
+          "OM"
+        ],
+        "comments": [
+          {
+            "text": "An amazing queen sacrifice!\n\nThe point is that the bishop on g7 will become so strong if White's bishop on b2 is removed that it's fine to give up the queen!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/4ppbp/2N3p1/3Nn2n/1p3R2/1P4PP/1BPQ4/q1K4R w - - 3 11",
+        "parentNodeId": "8e",
+        "san": "Qa1+"
+      },
+      "yu": {
+        "adjacentNodeIds": [
+          "zu"
+        ],
+        "comments": [
+          {
+            "text": "The best move by Khismatullin looks like a blunder.\n\nCalm, collected, his bishop pinned the knight on d5 and the queen now defended the e7-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a7-e7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": [
+                "e7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/q3ppbp/2b3p1/3Nn2n/1p1N1R2/1P4PP/1BPQ4/1K5R w - - 5 9",
+        "parentNodeId": "HH",
+        "san": "Bc6"
+      },
+      "zu": {
+        "adjacentNodeIds": [
+          "hZ"
+        ],
+        "comments": [
+          {
+            "text": "The knight captured on c6, but White completely missed the actual idea.\n\nHe didn't realize that at the moment that knight leaves the long diagonal, the game is over.\n\nLet's see the beautiful forced mate in 4 Black demonstrated here.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a7",
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/q3ppbp/2N3p1/3Nn2n/1p3R2/1P4PP/1BPQ4/1K5R b - - 0 9",
+        "parentNodeId": "yu",
+        "san": "Nxc6"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

@@ -1,0 +1,71 @@
+{
+  "id": "7d266f71-d37c-4227-b3cd-30db5836d5a5",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "There's tension between the rooks.\n\nLet's calculate:\n\nDoes Rxc6 with the idea of Ne7+ fork work?",
+    "answers": [
+      {
+        "text": "It doesn't.",
+        "feedback": {
+          "text": "Let's not go for this tactic. The e7-square is controlled by Black's bishop on a3!",
+          "arrows": {
+            "threats": [
+              "a3-e7"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "e7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It does win a piece!",
+        "feedback": {
+          "text": "The Ne7+ fork at the end is unfortunately covered by Black's bishop on a3.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "a3",
+              "e7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r4rk1/2R2p2/p1n3p1/1p1N4/4PP2/b3B3/P5K1/1R6 b - - 1 1",
+    "arrows": {
+      "threats": [
+        "c7-c6"
+      ],
+      "opportunities": [
+        "d5-e7"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "c6"
+      ]
+    },
+    "contextMove": {
+      "san": "Rac8",
+      "afterMoveFen": "2r2rk1/2R2p2/p1n3p1/1p1N4/4PP2/b3B3/P5K1/1R6 w - - 2 2"
+    }
+  },
+  "drill": null
+}

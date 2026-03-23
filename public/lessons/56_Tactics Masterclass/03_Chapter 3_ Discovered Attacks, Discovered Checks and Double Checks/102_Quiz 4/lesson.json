@@ -1,0 +1,58 @@
+{
+  "id": "ed77225d-fbca-403b-9fe0-85bec2f24903",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Qe4.\n\nWhat's the biggest danger for Black in this position?",
+    "answers": [
+      {
+        "text": "White is threatening to win material.",
+        "feedback": {
+          "text": "Correct! White is threatening a check with a discovered attack on the rook.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d4-e6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is threatening to attack the king - with h6+ for example.",
+        "feedback": {
+          "text": "The attack on the king isn't as strong here. Black has enough defenders around the king.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "The weak e7-pawn is backwards.",
+        "feedback": {
+          "text": "That is a positional disadvantage, but definitely not the biggest danger for Black right now!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/pp1bprkp/3p1p2/q2P2pP/2rN4/2P1Q3/PP3PP1/1K1R3R w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qe4",
+      "afterMoveFen": "8/pp1bprkp/3p1p2/q2P2pP/2rNQ3/2P5/PP3PP1/1K1R3R b - - 2 1"
+    }
+  },
+  "drill": null
+}

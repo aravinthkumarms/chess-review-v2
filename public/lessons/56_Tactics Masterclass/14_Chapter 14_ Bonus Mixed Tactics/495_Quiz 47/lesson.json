@@ -1,0 +1,86 @@
+{
+  "id": "914a5e3a-ac69-4729-8720-eb3e73066d3c",
+  "name": "Quiz 47 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black develops the knight. \n\nBlack’s king looks weak. \n\nIs ...Ne5 a good sacrifice?",
+    "answers": [
+      {
+        "text": "No, Black can defend straightforwardly.",
+        "feedback": {
+          "text": "Exactly, ...fxe5 and ...Rf6 defends well.",
+          "arrows": {
+            "threats": [
+              "d3-e5"
+            ],
+            "opportunities": [
+              "f6-e5",
+              "f8-f6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, the knight cannot be captured, and it will do a lot of damage from e5.",
+        "feedback": {
+          "text": "Not really! Black will simply capture on e5 and defend with ...Rf6.",
+          "arrows": {
+            "threats": [
+              "d3-e5"
+            ],
+            "opportunities": [
+              "f6-e5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Not a good move, but not a bad one either. Black can just defend the c6-pawn and the position is equal.",
+        "feedback": {
+          "text": "Black can actually capture the knight on e5 without any problems! ...Rf6 will be next.",
+          "arrows": {
+            "threats": [
+              "d3-e5"
+            ],
+            "opportunities": [
+              "f6-e5",
+              "f8-f6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rn1q1r1k/4p3/2pn1pBP/p2p2p1/1p1P4/3N4/PPP1Q3/2KR3R b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d3-e5"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "h8"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Na6",
+      "afterMoveFen": "r2q1r1k/4p3/n1pn1pBP/p2p2p1/1p1P4/3N4/PPP1Q3/2KR3R w - - 2 2"
+    }
+  },
+  "drill": null
+}

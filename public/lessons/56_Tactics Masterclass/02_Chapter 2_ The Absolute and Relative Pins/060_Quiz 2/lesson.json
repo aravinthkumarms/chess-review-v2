@@ -1,0 +1,72 @@
+{
+  "id": "89990694-63e8-4d59-afe1-93d84bf78d98",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black doubles the rooks on the f-file. \n\nLet's try to visualize:  \n\nWe have a nice outpost on d6. A strong continuation might be Qc4+ and Nd6 occupying the outpost.\n\nWhat do you think?",
+    "answers": [
+      {
+        "text": "Not a good idea, the d6-square should by occupied by our rook instead.",
+        "feedback": {
+          "text": "Good job! After Qc4 we can't even play Nd6, since Black's rook is pinning the knight to our queen.",
+          "arrows": {
+            "threats": [
+              "e2-c4",
+              "e4-d6"
+            ],
+            "opportunities": [
+              "g8-h8",
+              "f4-c4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Looks like a strong plan. We'll double up the rooks on the d-file later.",
+        "feedback": {
+          "text": "Watch out for pins! After Qc4+ will be our knight on e4 pinned.",
+          "arrows": {
+            "threats": [
+              "e2-c4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "e4"
+            ],
+            "opportunities": [
+              "f4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r5k1/2q3b1/2b4p/p1P1p1pP/1p2Nr2/5P2/PP2Q1B1/3R1RK1 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "d6"
+      ]
+    },
+    "contextMove": {
+      "san": "Raf8",
+      "afterMoveFen": "5rk1/2q3b1/2b4p/p1P1p1pP/1p2Nr2/5P2/PP2Q1B1/3R1RK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

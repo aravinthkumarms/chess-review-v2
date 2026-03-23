@@ -1,0 +1,69 @@
+{
+  "id": "19d6aead-3863-467c-8ecf-285b28d5a366",
+  "name": "Quiz 15",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White attacks your rook\n\nIs there something wrong with Rg6 to pin the knight?",
+    "answers": [
+      {
+        "text": "Yes, it loses the advantage.",
+        "feedback": {
+          "text": "Exactly! It allows a draw. Ra8+ and Ra7+ leads to a perpetual.",
+          "arrows": {
+            "threats": [
+              "f6-g6"
+            ],
+            "opportunities": [
+              "a7-a8",
+              "a8-a7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It’s the best move. White is lost.",
+        "feedback": {
+          "text": "Try to look out for any checks White can give after ...Rg6!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It’s not the best move but it doesn’t lose the advantage.",
+        "feedback": {
+          "text": "White has a drawing resource after ...Rg6!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "6k1/R5pp/3p1r2/2pPp3/2P2n2/4RP2/P4N1P/1q3BK1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f6-g6"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Ng4",
+      "afterMoveFen": "6k1/R5pp/3p1r2/2pPp3/2P2nN1/4RP2/P6P/1q3BK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

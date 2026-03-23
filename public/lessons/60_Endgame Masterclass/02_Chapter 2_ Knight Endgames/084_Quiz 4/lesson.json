@@ -1,0 +1,81 @@
+{
+  "id": "d8040e2b-c8bd-4baf-abfa-9bc06148f1f5",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gives a check. \n\nEven though knight endgames are usually drawn you have to be careful.\n\nDoes it matter where your king moves?",
+    "answers": [
+      {
+        "text": "Yes. Only Kg3 and Kf3 hold the draw.",
+        "feedback": {
+          "text": "Correct! If you go to h3, Black can give a check and save their pawn (...g4+). Your knight would be taken later.\n\nYou'll notice that if the king goes to f3, the pawn can still give a check, but your king can defend the knight with Kf4.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g4-g3",
+              "g4-f3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, it doesn't matter. White is lost.",
+        "feedback": {
+          "text": "Are you sure all moves are losing? What about the possibility of a draw by insufficient material?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, it matters. Only Kg3 holds the draw.",
+        "feedback": {
+          "text": "Are you sure? There may be another move to draw.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/6k1/5Npn/6KP/8/8/8 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g4-f3",
+        "g4-g3",
+        "g4-h3"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nf6+",
+      "afterMoveFen": "8/8/5nk1/5Np1/6KP/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

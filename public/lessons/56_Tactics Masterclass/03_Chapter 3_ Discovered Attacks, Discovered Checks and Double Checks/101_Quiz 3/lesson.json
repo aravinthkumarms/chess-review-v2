@@ -1,0 +1,78 @@
+{
+  "id": "eaf183ef-097e-4f56-b8fb-db66886ad6fb",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...Bf8.\n\nTry to calculate the line where you sacrifice your knight to set up a discovered check, starting with Nxf6+.\n\nDoes this sacrifice work?",
+    "answers": [
+      {
+        "text": "No, because Black can save themselves from the double threat.",
+        "feedback": {
+          "text": "Correct! At the end of the line, Black has ...Qd5. Try to visualize it.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, because we'll threaten both the queen and discovered check with Rxe6.",
+        "feedback": {
+          "text": "Correct, but Black's going to be able to sufficiently defend!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, because Black doesn't have to capture on f6 when we sacrifice.",
+        "feedback": {
+          "text": "If Black doesn't capture on f6, we'll take the rook on e8 or the knight on d5!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e4-f6",
+              "d5-f6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e8",
+              "d5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4r1k1/p1r3bp/1pq1ppp1/3n4/3PN3/1Q3NPP/1P2RPK1/4R3 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e4-f6",
+        "d5-f6",
+        "e2-e6"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "f6",
+        "e6"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Bf8",
+      "afterMoveFen": "4rbk1/p1r4p/1pq1ppp1/3n4/3PN3/1Q3NPP/1P2RPK1/4R3 w - - 2 2"
+    }
+  },
+  "drill": null
+}

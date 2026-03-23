@@ -1,0 +1,69 @@
+{
+  "id": "a9fc2197-2dc9-4290-814b-4f6dd29f29e9",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black castles. \n\nShould you play the Greek Gift bishop sacrifice on h7?",
+    "answers": [
+      {
+        "text": "No, the position is not ready for that yet.",
+        "feedback": {
+          "text": "Black controls the critical g5-square, so the Ng5+ follow-up is not possible.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e7",
+              "d8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes! It's a perfect position for this!",
+        "feedback": {
+          "text": "Are you sure? Can you play Ng5+ afterwards?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, you have to play c3 first to defend d4.",
+        "feedback": {
+          "text": "This isn't true. Even after c3, another criterion has to be met.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqk2r/ppp1bppp/2n1p3/3pP3/3P4/3B1N2/PPPB1PPP/R2Q1RK1 b kq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d3-h7"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "h7"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "O-O",
+      "afterMoveFen": "r1bq1rk1/ppp1bppp/2n1p3/3pP3/3P4/3B1N2/PPPB1PPP/R2Q1RK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

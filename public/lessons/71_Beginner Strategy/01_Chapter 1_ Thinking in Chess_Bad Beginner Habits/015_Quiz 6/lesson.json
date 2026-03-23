@@ -1,0 +1,76 @@
+{
+  "id": "1929558e-2f36-481f-b231-f79aebe25204",
+  "name": "Quiz 6",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White attacks the queen with Nf4. \n\nIs there something wrong with taking that knight with your knight (...Nxf4)?",
+    "answers": [
+      {
+        "text": "Yes, there's something extremely wrong with ...Nxf4.",
+        "feedback": {
+          "text": "Correct! ...Nxf4 allows Qxh7#.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "There's nothing wrong with ...Nxf4.",
+        "feedback": {
+          "text": "Are you sure you aren't losing if you do that?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "There is something wrong: you're down material so you want to avoid trades.",
+        "feedback": {
+          "text": "The trades are not the issue. \n\nThere's a bigger issue.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r6k/1p1n2pp/p1p1q1n1/4P3/1b1PQ3/3BB2P/PPP1N1P1/R5K1 w - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "e6"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Nf4",
+      "afterMoveFen": "r6k/1p1n2pp/p1p1q1n1/4P3/1b1PQN2/3BB2P/PPP3P1/R5K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

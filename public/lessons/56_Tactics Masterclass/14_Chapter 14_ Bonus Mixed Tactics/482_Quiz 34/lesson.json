@@ -1,0 +1,94 @@
+{
+  "id": "1e14cb30-8e4c-4dce-963e-15beea63f41a",
+  "name": "Quiz 34 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black sacrifices the exchange on f3. \n\nA common sacrifice, Black wants to play ...Nxe4 next.\n\nIs ...Rxc3 to remove the defender a good move?",
+    "answers": [
+      {
+        "text": "No, White would be winning.",
+        "feedback": {
+          "text": "Exactly! A nice checkmate would occur on f7.",
+          "arrows": {
+            "threats": [
+              "f6-e4"
+            ],
+            "opportunities": [
+              "a2-f7"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, It is winning for Black",
+        "feedback": {
+          "text": "After Black's knight moves from f6, White's rook will be open, and the bishop on a2 is eyeing the f7-square!",
+          "arrows": {
+            "threats": [
+              "f6-e4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f1",
+              "a2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, but Black doesn’t have an immediate win.",
+        "feedback": {
+          "text": "The knight on f7 cannot move due to the weak f7-pawn!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a2-f7"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f6"
+            ],
+            "opportunities": [
+              "f1",
+              "a2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2rqkb1r/pp1bpp2/3p1nnp/8/P2NP3/2N4P/BPP3PB/R2Q1RK1 b k - 1 1",
+    "arrows": {
+      "threats": [
+        "f6-e4"
+      ],
+      "opportunities": []
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Rxc3",
+      "afterMoveFen": "3qkb1r/pp1bpp2/3p1nnp/8/P2NP3/2r4P/BPP3PB/R2Q1RK1 w k - 0 2"
+    }
+  },
+  "drill": null
+}

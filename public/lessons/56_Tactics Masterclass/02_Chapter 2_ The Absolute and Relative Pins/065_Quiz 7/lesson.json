@@ -1,0 +1,62 @@
+{
+  "id": "6e63882c-5ff7-44d9-bd10-afb9de5c4a36",
+  "name": "Quiz 7 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White is developing their pieces.\n\nCan you find the best move here?",
+    "answers": [
+      {
+        "text": "Bxg3+",
+        "feedback": {
+          "text": "Nice one! Utilizing the pinned h2-pawn.",
+          "arrows": {
+            "threats": [
+              "h7-h1",
+              "h8-h1"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "capturing a pawn.",
+        "afterMoveFen": "1r1qk1nr/p1pn1pp1/Q3p3/3p4/2PP4/2N3b1/PP2P1PP/R1B1KB1R w KQk - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Qf6",
+        "feedback": {
+          "text": "Is there anything better in this position?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "attacking the d4-pawn.",
+        "afterMoveFen": "1r2k1nr/p1pn1pp1/Q2bpq2/3p4/2PP4/2N3P1/PP2P1PP/R1B1KB1R w KQk - 3 2"
+      },
+      {
+        "text": "dxc4",
+        "feedback": {
+          "text": "Do we have anything stronger?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "preventing ...c5.",
+        "afterMoveFen": "1r1qk1nr/p1pn1pp1/Q2bp3/8/2pP4/2N3P1/PP2P1PP/R1B1KB1R w KQk - 0 2"
+      }
+    ],
+    "positionFen": "1r1qk1nr/p1pn1pp1/Q2bp3/3p4/2PP4/6P1/PP2P1PP/RNB1KB1R w KQk - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nc3",
+      "afterMoveFen": "1r1qk1nr/p1pn1pp1/Q2bp3/3p4/2PP4/2N3P1/PP2P1PP/R1B1KB1R b KQk - 2 1"
+    }
+  },
+  "drill": null
+}

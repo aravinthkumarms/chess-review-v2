@@ -1,0 +1,71 @@
+{
+  "id": "f7344a5d-d88f-4328-a3e3-d0fead078d0c",
+  "name": "Quiz 24 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black jumps to b3. \n\nIs Rxb3 winning or is there something better?",
+    "answers": [
+      {
+        "text": "There’s another tactic that’s better.",
+        "feedback": {
+          "text": "Yes! And the tactic is to play Qb3. The knight will be lost.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c1-c2"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It’s the best move. You remove c5’s defender and get compensation.",
+        "feedback": {
+          "text": "King safety is key here. Black's king will simply hide on b8, meanwhile, our king is quite open!",
+          "arrows": {
+            "threats": [
+              "c3-b3"
+            ],
+            "opportunities": [
+              "a4-b3",
+              "c8-b8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2kr4/pp1r1p2/3Pp2p/1Pp5/q7/P1R2PB1/3n1P2/R1Q1K3 b Q - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c3-b3"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nb3",
+      "afterMoveFen": "2kr4/pp1r1p2/3Pp2p/1Pp5/q7/PnR2PB1/5P2/R1Q1K3 w Q - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,639 @@
+{
+  "id": "c9139c16-afb6-408a-9a68-cb5dfa8291b4",
+  "name": "Study 1: Alekhine Traps A Queen",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "b"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to the seventh chapter!\n\nIn this chapter, we'll be taking a look at how pieces can be trapped & won.\n\nA trapped piece is, as the name might suggest, a piece which doesn't have any square that it can safely move to.\n\nIn the first study, we'll take a look at a game played by Alexander Alekhine in a blindfolded simul in 1924. Let's see how he trapped his opponent's queen & won!",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1012280",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1K": {
+        "adjacentNodeIds": [
+          "54"
+        ],
+        "comments": [
+          {
+            "text": "And Alekhine went for the aggressive g4, attacking the bishop once again!\n\nThis is the start of a strong initiative.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn2kb1r/ppp1pppp/5n2/q6b/3P2P1/2N2N1P/PPP2P2/R1BQKB1R b KQkq g3 0 7",
+        "parentNodeId": "hi",
+        "san": "g4"
+      },
+      "1o": {
+        "adjacentNodeIds": [
+          "fz"
+        ],
+        "comments": [
+          {
+            "text": "His opponent responded with ...Qa6.\n\nNotice how Black's queen is short on squares -- a6 was the only safe one.\nThere's no immediate way to punish this, but it will soon become an issue.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3kb1r/pppnpppp/q4nb1/8/2NP2P1/2N4P/PPP2P2/R1BQKB1R w KQkq - 5 10",
+        "parentNodeId": "Um",
+        "san": "Qa6"
+      },
+      "54": {
+        "adjacentNodeIds": [
+          "oT"
+        ],
+        "comments": [
+          {
+            "text": "Black moved the bishop to safety.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn2kb1r/ppp1pppp/5nb1/q7/3P2P1/2N2N1P/PPP2P2/R1BQKB1R w KQkq - 1 8",
+        "parentNodeId": "1K",
+        "san": "Bg6"
+      },
+      "57": {
+        "adjacentNodeIds": [
+          "B8"
+        ],
+        "comments": [
+          {
+            "text": "And his opponent developed the c8-bishop out to g4, pinning the knight.\n\nThis approach is very provocative as the bishop can very quickly become a target for Alekhine's h and g pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn2kbnr/ppp1pppp/8/q7/6b1/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 4 5",
+        "parentNodeId": "Hp",
+        "san": "Bg4"
+      },
+      "66": {
+        "adjacentNodeIds": [
+          "BS"
+        ],
+        "comments": [
+          {
+            "text": "HIs opponent moved the queen over to the one and only safe square, b6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pppnpppp/1q3nb1/3P4/5BP1/2N1N2P/PPP2P2/R2QKB1R w KQ - 1 13",
+        "parentNodeId": "HM",
+        "san": "Qb6"
+      },
+      "6L": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "A better way to continue would have been ...Qb6, making use of the fact that the knight has departed from c4.\n\nWhite is still better with a move like Nb5, but the game keeps on going.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3kb1r/pppnpppp/1q3nb1/8/3P1BP1/2N1N2P/PPP2P2/R2QKB1R w KQkq - 9 12",
+        "parentNodeId": "UH",
+        "san": "Qb6"
+      },
+      "7P": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White could have also played this position in a more safe & solid way.\n\nThis would involve a move like Be2 to neutralize the pin on the f3-knight and natural development with Be3 and O-O.\n\nNotable, however, is that g4 is the most critical way to punish 4...Bg4.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c1-e3",
+                "e1-g1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn2kb1r/ppp1pppp/5n2/q6b/3P4/2N2N1P/PPP1BPP1/R1BQK2R b KQkq - 2 7",
+        "parentNodeId": "hi",
+        "san": "Be2"
+      },
+      "7j": {
+        "adjacentNodeIds": [
+          "UH"
+        ],
+        "comments": [
+          {
+            "text": "Black responded by giving a check.\n\nThis is the best defensive move.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3kb1r/pppnpppp/4qnb1/8/2NP1BP1/2N4P/PPP2P2/R2QKB1R w KQkq - 7 11",
+        "parentNodeId": "fz",
+        "san": "Qe6+"
+      },
+      "B8": {
+        "adjacentNodeIds": [
+          "Z9"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine immediately challenged his opponent's bishop by advancing h3.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn2kbnr/ppp1pppp/8/q7/6b1/2N2N1P/PPPP1PP1/R1BQKB1R b KQkq - 0 5",
+        "parentNodeId": "57",
+        "san": "h3"
+      },
+      "BS": {
+        "adjacentNodeIds": [
+          "kS",
+          "ZO"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine attacked the queen with Nc4.\n\nThe queen is in a lot of trouble now...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pppnpppp/1q3nb1/3P4/2N2BP1/2N4P/PPP2P2/R2QKB1R b KQ - 2 13",
+        "parentNodeId": "66",
+        "san": "Nc4"
+      },
+      "CF": {
+        "adjacentNodeIds": [
+          "hi"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine went d4, taking space in the center and opening up the c1-bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn2kbnr/ppp1pppp/8/q6b/3P4/2N2N1P/PPP2PP1/R1BQKB1R b KQkq d3 0 6",
+        "parentNodeId": "Z9",
+        "san": "d4"
+      },
+      "HM": {
+        "adjacentNodeIds": [
+          "66"
+        ],
+        "comments": [
+          {
+            "text": "Noticing that the queen is short on squares, Alekhine attacked it with d5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pppnpppp/4qnb1/3P4/5BP1/2N1N2P/PPP2P2/R2QKB1R b KQ - 0 12",
+        "parentNodeId": "vK",
+        "san": "d5"
+      },
+      "Hp": {
+        "adjacentNodeIds": [
+          "57"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine developed his other knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnb1kbnr/ppp1pppp/8/q7/8/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 3 4",
+        "parentNodeId": "IX",
+        "san": "Nf3"
+      },
+      "IX": {
+        "adjacentNodeIds": [
+          "Hp"
+        ],
+        "comments": [
+          {
+            "text": "His opponent responded with ...Qa5.\n\nThe queen is safe here (for now) and will pin the c3-knight if White goes d4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnb1kbnr/ppp1pppp/8/q7/8/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 4",
+        "parentNodeId": "pq",
+        "san": "Qa5"
+      },
+      "PR": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Another way to win the trapped queen was by simply advancing the b-pawn.",
+            "arrows": {
+              "threats": [
+                "b4-c5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pppnpppp/5nb1/2qP4/1PN2BP1/P1N4P/2P2P2/R2QKB1R b KQ b3 0 15",
+        "parentNodeId": "nW",
+        "san": "b4"
+      },
+      "SL": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White would win with Nd6+, opening up a discovered attack on Black's queen.",
+            "arrows": {
+              "threats": [
+                "f1-a6"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c8",
+                "a6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pppnpppp/q2N1nb1/3P4/5BP1/2N4P/PPP2P2/R2QKB1R b KQ - 4 14",
+        "parentNodeId": "ZO",
+        "san": "Nd6+"
+      },
+      "UH": {
+        "adjacentNodeIds": [
+          "vK",
+          "6L"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine blocked the check with Ne3.\n\nNe3 is better than the more natural Be2 because it prevents any ...Nd5.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3kb1r/pppnpppp/4qnb1/8/3P1BP1/2N1N2P/PPP2P2/R2QKB1R b KQkq - 8 11",
+        "parentNodeId": "7j",
+        "san": "Ne3"
+      },
+      "Um": {
+        "adjacentNodeIds": [
+          "1o"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine attacked the queen with Nc4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3kb1r/pppnpppp/5nb1/q7/2NP2P1/2N4P/PPP2P2/R1BQKB1R b KQkq - 4 9",
+        "parentNodeId": "YD",
+        "san": "Nc4"
+      },
+      "YD": {
+        "adjacentNodeIds": [
+          "Um"
+        ],
+        "comments": [
+          {
+            "text": "Black went ...Nbd7, developing a piece & challenging the e5-knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3kb1r/pppnpppp/5nb1/q3N3/3P2P1/2N4P/PPP2P2/R1BQKB1R w KQkq - 3 9",
+        "parentNodeId": "oT",
+        "san": "Nbd7"
+      },
+      "Z9": {
+        "adjacentNodeIds": [
+          "CF"
+        ],
+        "comments": [
+          {
+            "text": "His opponent slid the bishop back a square, maintaining the relative pin.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn2kbnr/ppp1pppp/8/q6b/8/2N2N1P/PPPP1PP1/R1BQKB1R w KQkq - 1 6",
+        "parentNodeId": "B8",
+        "san": "Bh5"
+      },
+      "ZO": {
+        "adjacentNodeIds": [
+          "SL"
+        ],
+        "comments": [
+          {
+            "text": "If Black were to respond with ...Qa6...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pppnpppp/q4nb1/3P4/2N2BP1/2N4P/PPP2P2/R2QKB1R w KQ - 3 14",
+        "parentNodeId": "BS",
+        "san": "Qa6"
+      },
+      "b": {
+        "adjacentNodeIds": [
+          "m"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine opened with the king's pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+        "parentNodeId": "0",
+        "san": "e4"
+      },
+      "c": {
+        "adjacentNodeIds": [
+          "s7"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine captured the d-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+        "parentNodeId": "m",
+        "san": "exd5"
+      },
+      "fz": {
+        "adjacentNodeIds": [
+          "7j"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine proceeded with Bf4, eyeing the c7-pawn & threatening to win Black's queen via a discovered attack (Nd6+)!",
+            "arrows": {
+              "threats": [
+                "c4-d6"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3kb1r/pppnpppp/q4nb1/8/2NP1BP1/2N4P/PPP2P2/R2QKB1R b KQkq - 6 10",
+        "parentNodeId": "1o",
+        "san": "Bf4"
+      },
+      "hi": {
+        "adjacentNodeIds": [
+          "1K",
+          "7P"
+        ],
+        "comments": [
+          {
+            "text": "Black continued developing with...Nf6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn2kb1r/ppp1pppp/5n2/q6b/3P4/2N2N1P/PPP2PP1/R1BQKB1R w KQkq - 1 7",
+        "parentNodeId": "CF",
+        "san": "Nf6"
+      },
+      "kS": {
+        "adjacentNodeIds": [
+          "qy"
+        ],
+        "comments": [
+          {
+            "text": "His opponent responded with ...Qb4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pppnpppp/5nb1/3P4/1qN2BP1/2N4P/PPP2P2/R2QKB1R w KQ - 3 14",
+        "parentNodeId": "BS",
+        "san": "Qb4"
+      },
+      "m": {
+        "adjacentNodeIds": [
+          "c"
+        ],
+        "comments": [
+          {
+            "text": "His opponent responded with 1...d5.\n\nThis is the Scandinavian Defence.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq d6 0 2",
+        "parentNodeId": "b",
+        "san": "d5"
+      },
+      "nW": {
+        "adjacentNodeIds": [
+          "yl",
+          "PR"
+        ],
+        "comments": [
+          {
+            "text": "His opponent responded with ...Qc5.\n\nYou should notice that the queen has no safe squares that it can move to.\n\nHow did Alekhine make use of this?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pppnpppp/5nb1/2qP4/2N2BP1/P1N4P/1PP2P2/R2QKB1R w KQ - 1 15",
+        "parentNodeId": "qy",
+        "san": "Qc5"
+      },
+      "oT": {
+        "adjacentNodeIds": [
+          "YD"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine proceeded Ne5 -- the knight is coming to c4 to harass the queen!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-c4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rn2kb1r/ppp1pppp/5nb1/q3N3/3P2P1/2N4P/PPP2P2/R1BQKB1R b KQkq - 2 8",
+        "parentNodeId": "54",
+        "san": "Ne5"
+      },
+      "pq": {
+        "adjacentNodeIds": [
+          "IX"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine proceeded with Nc3, developing a piece and attacking Black's queen.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3",
+        "parentNodeId": "s7",
+        "san": "Nc3"
+      },
+      "qy": {
+        "adjacentNodeIds": [
+          "nW"
+        ],
+        "comments": [
+          {
+            "text": "Alekhine attacked the queen with a3.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pppnpppp/5nb1/3P4/1qN2BP1/P1N4P/1PP2P2/R2QKB1R b KQ - 0 14",
+        "parentNodeId": "kS",
+        "san": "a3"
+      },
+      "s7": {
+        "adjacentNodeIds": [
+          "pq"
+        ],
+        "comments": [
+          {
+            "text": "His opponent took back with the queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+        "parentNodeId": "c",
+        "san": "Qxd5"
+      },
+      "vK": {
+        "adjacentNodeIds": [
+          "HM"
+        ],
+        "comments": [
+          {
+            "text": "And Alekhine's opponent castled long.\n\nA natural move, but a huge mistake!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pppnpppp/4qnb1/8/3P1BP1/2N1N2P/PPP2P2/R2QKB1R w KQ - 9 12",
+        "parentNodeId": "UH",
+        "san": "O-O-O"
+      },
+      "yl": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "By, of course, attacking the queen!\n\nAnd that was it - Black resigned the game seeing that the queen is lost.\n\nGreat tactical awareness by the fourth world champion, noticing that Black's queen is short on squares & realizing that it can be trapped and won. This game is a nice display of what might happen if Black isn't careful with their queen in the Scandinavian Defence.",
+            "arrows": {
+              "threats": [
+                "e3-c5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2kr1b1r/pppnpppp/5nb1/2qP4/2N3P1/P1N1B2P/1PP2P2/R2QKB1R b KQ - 2 15",
+        "parentNodeId": "nW",
+        "san": "Be3"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

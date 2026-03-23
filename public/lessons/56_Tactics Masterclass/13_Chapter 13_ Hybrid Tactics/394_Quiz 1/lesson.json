@@ -1,0 +1,107 @@
+{
+  "id": "3e3cb263-3771-4994-90da-2f7e37150647",
+  "name": "Quiz 1",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...Kh8.\n\nThere are multiple ways to win this position.\n\nCan you find some of them?",
+    "answers": [
+      {
+        "text": "Qd4",
+        "feedback": {
+          "text": "Excellent! The queen sets up an undefendable discovered check.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g7-g5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1q4k/6Rp/2b5/p1P2N2/3Q1P2/1P4P1/P6P/6K1 b - - 3 2"
+      },
+      {
+        "text": "Qc3",
+        "feedback": {
+          "text": "Correct! Any of the three squares b2,c3 and d4 works perfectly.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r1q4k/6Rp/2b5/p1P2N2/5P2/1PQ3P1/P6P/6K1 b - - 3 2"
+      },
+      {
+        "text": "Qb2",
+        "feedback": {
+          "text": "Well done. Checkmate is unstoppable down the diagonal.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g7-g5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1q4k/6Rp/2b5/p1P2N2/5P2/1P4P1/PQ5P/6K1 b - - 3 2"
+      },
+      {
+        "text": "Rg5",
+        "feedback": {
+          "text": "The rook can move anywhere on the g-file where it's safe to cover the g8-square. The queen is coming.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d2-d4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g8",
+              "h8"
+            ],
+            "opportunities": [
+              "g5",
+              "d2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1q4k/7p/2b5/p1P2NR1/5P2/1P4P1/P2Q3P/6K1 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "We definitely need the queen to deliver a check.\n\nWhere can it move to first?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1q3k1/6Rp/2b5/p1P2N2/5P2/1P4P1/P2Q3P/6K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kh8",
+      "afterMoveFen": "r1q4k/6Rp/2b5/p1P2N2/5P2/1P4P1/P2Q3P/6K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

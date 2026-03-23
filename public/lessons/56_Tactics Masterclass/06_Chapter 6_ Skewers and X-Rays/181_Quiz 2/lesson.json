@@ -1,0 +1,63 @@
+{
+  "id": "80b9f483-a492-49ab-a89b-2bf2528e5143",
+  "name": "Quiz 2",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Qg3, eyeing the kingside and lining up along the dark squares.\n\nThere are three moves that don't lose material here -- can you find them?",
+    "answers": [
+      {
+        "text": "Ne8",
+        "feedback": {
+          "text": "Perfect! This is the most solid choice, overprotecting c7 and the g7-pawn.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r1brn1k1/1p1pbppp/p1n1p3/q6P/4PB2/P1N3Q1/1PP1NPP1/2KR1B1R w - - 3 2"
+      },
+      {
+        "text": "Rf8",
+        "feedback": {
+          "text": "Great! While this isn't best, it's still a good way to avoid losing material.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r1b2rk1/1p1pbppp/p1n1pn2/q6P/4PB2/P1N3Q1/1PP1NPP1/2KR1B1R w - - 3 2"
+      },
+      {
+        "text": "d6",
+        "feedback": {
+          "text": "Nice! This is a good way to deal with White's threats - stopping any Bc7.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r1br2k1/1p2bppp/p1nppn2/q6P/4PB2/P1N3Q1/1PP1NPP1/2KR1B1R w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The most direct threat in this position is Bc7 - there are two ways for Black to prevent it and one way to avoid it.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1br2k1/1p1pbppp/p1n1pn2/q6P/4PB2/P1NQ4/1PP1NPP1/2KR1B1R w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qg3",
+      "afterMoveFen": "r1br2k1/1p1pbppp/p1n1pn2/q6P/4PB2/P1N3Q1/1PP1NPP1/2KR1B1R b - - 2 1"
+    }
+  },
+  "drill": null
+}

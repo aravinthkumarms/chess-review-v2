@@ -1,0 +1,79 @@
+{
+  "id": "e5b993ab-e8a4-42d8-a621-4e6aecfcf39e",
+  "name": "Quiz 9 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White captures on g6. \n\nIs it safe to make a queen here with ...a1=Q?",
+    "answers": [
+      {
+        "text": "No, White is attacking.",
+        "feedback": {
+          "text": "Correct! It is important to take control over the d5-square, so after Rxh7+ and Qc4+, we can go ...Qd5 to block the check.",
+          "arrows": {
+            "threats": [
+              "g4-c4",
+              "h1-h7"
+            ],
+            "opportunities": [
+              "d2-d1",
+              "h8-g8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d1",
+              "d5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, we are up so much material.",
+        "feedback": {
+          "text": "White's attack could get dangerous after Rxh7+ and Qc4+!",
+          "arrows": {
+            "threats": [
+              "h1-h7",
+              "g4-c4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "g8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, White has a draw with Rxa1 after we make a queen on a1.",
+        "feedback": {
+          "text": "Not exactly. \n\nWhite has a very dangerous threat after ...a1=Q and it is not a draw!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3r3k/6bp/6p1/4q1PP/6Q1/4PB2/p2p1PK1/7R w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "hxg6",
+      "afterMoveFen": "3r3k/6bp/6P1/4q1P1/6Q1/4PB2/p2p1PK1/7R b - - 0 1"
+    }
+  },
+  "drill": null
+}

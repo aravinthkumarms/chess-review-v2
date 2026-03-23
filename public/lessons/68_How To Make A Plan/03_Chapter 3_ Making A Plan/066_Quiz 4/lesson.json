@@ -1,0 +1,43 @@
+{
+  "id": "e462f55f-f84f-4bad-b989-7656f0dd716b",
+  "name": "Quiz 4",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Qa4. It seems to go backwards and doesn't really make any progress. \n\nIf White doesn't threaten anything, what's the right plan?",
+    "answers": [
+      {
+        "text": "Rc7",
+        "feedback": {
+          "text": "Rxe4 is a threat. You have to keep your rook safe!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "targeting the c3 pawn with the knight and rook.",
+        "afterMoveFen": "5rk1/p1r2pp1/4p3/3q3p/Q2Bn3/2P4P/P4PP1/R3R1K1 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rc8",
+        "feedback": {
+          "text": "This move drops Rxe4. If your queen recaptures, the white queen takes on d7.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "bringing the last piece into the action.",
+        "afterMoveFen": "2r3k1/p2r1pp1/4p3/3q3p/Q2Bn3/2P4P/P4PP1/R3R1K1 w - - 3 2"
+      }
+    ],
+    "positionFen": "5rk1/p2r1pp1/Q3p3/3q3p/3Bn3/2P4P/P4PP1/R3R1K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qa4",
+      "afterMoveFen": "5rk1/p2r1pp1/4p3/3q3p/Q2Bn3/2P4P/P4PP1/R3R1K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

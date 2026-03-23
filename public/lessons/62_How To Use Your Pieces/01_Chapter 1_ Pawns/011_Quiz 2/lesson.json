@@ -1,0 +1,63 @@
+{
+  "id": "25aecb11-7afd-4bed-9cfe-c3c54ee63404",
+  "name": "Quiz 2",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White castles. Black would love to activate their pieces somehow. \n\nShould you go for a pawn break, or an entirely different move altogether?",
+    "answers": [
+      {
+        "text": "d5",
+        "feedback": {
+          "text": "d5 threatens to activate the rook on d8 against the queen. \n\nIt's the best pawn move you have to activate your pieces.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "breaking in the center.",
+        "afterMoveFen": "r1br2k1/pp2nppp/1qn1p3/3p4/4P3/2N2N2/PPP1BPPP/1R1Q1RK1 w - d6 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "d6",
+        "feedback": {
+          "text": "...d6 is good in some positions. There's nothing inherently wrong with this move. \n\nThere's only something wrong with it if there's something better. And in this position, there is something better!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "controlling the e5- and c5-squares.",
+        "afterMoveFen": "r1br2k1/pp2nppp/1qnpp3/8/4P3/2N2N2/PPP1BPPP/1R1Q1RK1 w - - 0 2"
+      },
+      {
+        "text": "Ng6",
+        "feedback": {
+          "text": "The knight on g6 achieves nothing for the time being, and it removes itself from control of the d5 square to support the d5 pawn break.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "rerouting the knight.",
+        "afterMoveFen": "r1br2k1/pp1p1ppp/1qn1p1n1/8/4P3/2N2N2/PPP1BPPP/1R1Q1RK1 w - - 3 2"
+      },
+      {
+        "text": "f5",
+        "feedback": {
+          "text": "f5 undermines e4, but it doesn't activate any pieces.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "undermining the e4-pawn.",
+        "afterMoveFen": "r1br2k1/pp1pn1pp/1qn1p3/5p2/4P3/2N2N2/PPP1BPPP/1R1Q1RK1 w - f6 0 2"
+      }
+    ],
+    "positionFen": "r1br2k1/pp1pnppp/1qn1p3/8/4P3/2N2N2/PPP1BPPP/1R1QK2R w K - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "O-O",
+      "afterMoveFen": "r1br2k1/pp1pnppp/1qn1p3/8/4P3/2N2N2/PPP1BPPP/1R1Q1RK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

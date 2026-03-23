@@ -1,0 +1,102 @@
+{
+  "id": "572696d3-cf49-4643-88a4-9d535b93bd14",
+  "name": "Quiz 22",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black played ...Na5. \n\nIf you give a check on a1 and then take on a5, is this a winning king and pawn endgame?",
+    "answers": [
+      {
+        "text": "Yes, it is.",
+        "feedback": {
+          "text": "Yes. You can queen before Black does. And if the king tries stopping your pawn you can use your king to support your own pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b1-a1",
+              "a1-a5",
+              "a4-b4",
+              "b4-a5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "a5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No it isn't because the black king can stop White's passed pawn.",
+        "feedback": {
+          "text": "Are you sure this is the case? Your king can participate and escort the pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c5-c6",
+              "d5-d6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No it isn't because Black queens the pawn first.",
+        "feedback": {
+          "text": "Are you sure this would be the case? White needs to make 3 moves and Black needs to make 4.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c5-c6",
+              "c6-c7",
+              "c7-c8",
+              "h5-h4",
+              "h4-h3",
+              "h3-h2",
+              "h2-h1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/2n5/2PK3p/k7/8/8/1R6 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "b1-a1",
+        "a1-a5"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "a5"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Na5",
+      "afterMoveFen": "8/8/8/n1PK3p/k7/8/8/1R6 w - - 2 2"
+    }
+  },
+  "drill": null
+}

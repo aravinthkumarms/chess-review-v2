@@ -1,0 +1,101 @@
+{
+  "id": "78cbb28e-fd91-4d2c-afe3-10a55a5f4837",
+  "name": "Quiz 7",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "What tactic does White run into if they take the pawn on f6?",
+    "answers": [
+      {
+        "text": "A double attack.",
+        "feedback": {
+          "text": "Rxf6, ...Bg5 attacks the rook on f6 and the knight.",
+          "arrows": {
+            "threats": [
+              "f2-f6"
+            ],
+            "opportunities": [
+              "h6-g5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A pin.",
+        "feedback": {
+          "text": "There isn't really a piece you could pin down.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "A skewer.",
+        "feedback": {
+          "text": "There aren't any x-rays going on.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "A discovered attack.",
+        "feedback": {
+          "text": "The long range pieces aren't obstructed by anything you could move to reveal an attack.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "6k1/pp3p1p/2p2ppb/3p1b2/3P3N/1Pr4P/P4RPK/3R1B2 b - - 1 1",
+    "arrows": {
+      "threats": [
+        "f2-f6"
+      ],
+      "opportunities": []
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "f6"
+      ]
+    },
+    "contextMove": {
+      "san": "Be4",
+      "afterMoveFen": "6k1/pp3p1p/2p2ppb/3p4/3Pb2N/1Pr4P/P4RPK/3R1B2 w - - 2 2"
+    }
+  },
+  "drill": null
+}

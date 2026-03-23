@@ -1,0 +1,79 @@
+{
+  "id": "6046b7a7-d0ff-4b52-ae13-68b44d63cfe5",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...Nf6.\n\nWould you say Nd6+ is a useful check?",
+    "answers": [
+      {
+        "text": "No, because Black can win material at the end of a sequence.",
+        "feedback": {
+          "text": "Correct! Black can capture on d6, and then on e4 after we recapture with the queen.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b5-d6",
+              "f8-d6",
+              "d1-d6",
+              "f6-e4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d6",
+              "e4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, because Black can move the king and stay safe.",
+        "feedback": {
+          "text": "Black has something much better!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, because Black either has to trade bishop for knight or lose castling rights.",
+        "feedback": {
+          "text": "True, but Black has something to compensate for that!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqkbnr/pp1p1ppp/2n5/1N2p3/4P3/8/PPP2PPP/RNBQKB1R b KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "b5-d6"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "e8"
+      ],
+      "opportunities": [
+        "d6"
+      ]
+    },
+    "contextMove": {
+      "san": "Nf6",
+      "afterMoveFen": "r1bqkb1r/pp1p1ppp/2n2n2/1N2p3/4P3/8/PPP2PPP/RNBQKB1R w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,71 @@
+{
+  "id": "9654316e-3796-496c-b8a0-713562533cff",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It's time to count material. \n\nHow would you assess the material count?",
+    "answers": [
+      {
+        "text": "It's equal.",
+        "feedback": {
+          "text": "Yes, the three minor pieces are worth 3 points each (9 total), White has a queen so it is also worth 9. Both sides have 2 pawns and both sides have a rook.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is up material.",
+        "feedback": {
+          "text": "Are you sure? The queen is worth 9 points, the rook 5, and the pawns 1 each. That equals 16. Is that more than what Black has?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black is up material.",
+        "feedback": {
+          "text": "Each minor piece is worth 3 points. The pawns are worth 1 each and the rook is 5. Does Black really have a higher material count?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/1Q2nkp1/1p2b1n1/4PpP1/2r5/8/5R2/6K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qxb6",
+      "afterMoveFen": "8/4nkp1/1Q2b1n1/4PpP1/2r5/8/5R2/6K1 b - - 0 1"
+    }
+  },
+  "drill": null
+}

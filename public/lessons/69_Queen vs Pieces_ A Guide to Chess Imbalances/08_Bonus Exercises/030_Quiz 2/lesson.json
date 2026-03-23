@@ -1,0 +1,101 @@
+{
+  "id": "dc173364-2d9c-4c29-9374-f5a733289bdb",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black starts putting pressure on the a5-pawn. \n\nWhat tactic does White have?",
+    "answers": [
+      {
+        "text": "There's a fork.",
+        "feedback": {
+          "text": "Yes. Qb8+ and it doesn't matter where the king goes on the 7th rank, there's Qa7+",
+          "arrows": {
+            "threats": [
+              "c7-b8",
+              "b8-a7"
+            ],
+            "opportunities": [
+              "e8-d7",
+              "e8-e7",
+              "e8-f7",
+              "a7-f2"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "There's no tactic.",
+        "feedback": {
+          "text": "There is a tactic actually.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White can win two pawns at the very least by using checks to take the pawns.",
+        "feedback": {
+          "text": "Are pawns the only thing White could win?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White will promote the a-pawn by playing a6 right away. It cannot be stopped.",
+        "feedback": {
+          "text": "If a6, Rfa2 and White isn't promoting that pawn. There's even Raa2 threatening checkmate on h2.",
+          "arrows": {
+            "threats": [
+              "f2-a2"
+            ],
+            "opportunities": [
+              "a5-a6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4k3/2Q5/2pp2p1/P6p/7P/5rPK/5r2/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ra3",
+      "afterMoveFen": "4k3/2Q5/2pp2p1/P6p/7P/r5PK/5r2/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

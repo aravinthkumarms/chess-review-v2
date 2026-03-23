@@ -1,0 +1,82 @@
+{
+  "id": "9ae4b63d-0f95-4773-80a0-59ba66ebbb0c",
+  "name": "Quiz 4 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black pushes in the center. \n\nWhite's looking to finish development by connecting the rooks.\n\nQd2 comes to mind, what do you think?",
+    "answers": [
+      {
+        "text": "Playing Qd2 would be a blunder.",
+        "feedback": {
+          "text": "That's right! ...Qh4 comes next and picks up our bishop on h5.",
+          "arrows": {
+            "threats": [
+              "d1-d2"
+            ],
+            "opportunities": [
+              "d8-h4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e1",
+              "h5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Looks like a nice developing move to connect the rooks.",
+        "feedback": {
+          "text": "Watch out! Black is threatening a double attack.",
+          "arrows": {
+            "threats": [
+              "d8-h4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "h5",
+              "e1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Qd2 isn't a blunder, but there's a more tactical way for White to continue.",
+        "feedback": {
+          "text": "What tactic? There are none.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bq1knr/ppp3bp/3p4/3Ppp1B/2P2P2/2N1B3/PP4PP/R2QK2R b KQ - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d1-d2"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "e4",
+      "afterMoveFen": "r1bq1knr/ppp3bp/3p4/3P1p1B/2P1pP2/2N1B3/PP4PP/R2QK2R w KQ - 0 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,70 @@
+{
+  "id": "6ce41b69-4d9c-486d-b278-2f1d235c353e",
+  "name": "Quiz: 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black blocks the check. \n\nShould you trade rooks, or go to a8 or a7, far away?",
+    "answers": [
+      {
+        "text": "Go to a8 or a7. It's time to prepare a long side or short side defense.",
+        "feedback": {
+          "text": "Exactly. Since it's a d-pawn, it doesn't matter if you give a short or long side defense. \n\nTrading rooks loses the endgame.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a3-a7",
+              "a3-a8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Trade the rooks for the easy draw.",
+        "feedback": {
+          "text": "If you do that, Black wins with either taking with the king or with the pawn.",
+          "arrows": {
+            "threats": [
+              "a3-c3"
+            ],
+            "opportunities": [
+              "d4-c3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/2r5/8/8/3p4/R2k4/8/3K4 b - - 1 1",
+    "arrows": {
+      "threats": [
+        "a3-c3"
+      ],
+      "opportunities": [
+        "a3-a7",
+        "a3-a8"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Rc3",
+      "afterMoveFen": "8/8/8/8/3p4/R1rk4/8/3K4 w - - 2 2"
+    }
+  },
+  "drill": null
+}

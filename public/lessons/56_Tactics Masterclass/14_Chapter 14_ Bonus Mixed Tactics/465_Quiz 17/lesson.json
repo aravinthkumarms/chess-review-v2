@@ -1,0 +1,94 @@
+{
+  "id": "e54e701f-9857-4fe4-ab1e-9fd6fc4de5b7",
+  "name": "Quiz 17 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White attacks your pawn on c4.\n\nShould you try to hang onto it with ...b5?",
+    "answers": [
+      {
+        "text": "No, it allows a double attack.",
+        "feedback": {
+          "text": "Exactly. Qf3 will attack the pawn on f7 and the rook on a8.",
+          "arrows": {
+            "threats": [
+              "b7-b5"
+            ],
+            "opportunities": [
+              "e2-f3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f7",
+              "a8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, it allows an attack on the a8 rook.",
+        "feedback": {
+          "text": "If it was just the rook attacked, we would move it. The problem is that Qf3 also attacks the f7-pawn!",
+          "arrows": {
+            "threats": [
+              "b7-b5"
+            ],
+            "opportunities": [
+              "e2-f3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "a8",
+              "f7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, it’s the best move. White doesn’t have compensation.",
+        "feedback": {
+          "text": "After White has a dangerous double attack!",
+          "arrows": {
+            "threats": [
+              "b7-b5"
+            ],
+            "opportunities": []
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqk2r/ppp1bpp1/4p1n1/4P1Np/2pP3P/2N1B1P1/PPP2P2/R2QK2R w KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "b7-b5"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "c4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qe2",
+      "afterMoveFen": "r1bqk2r/ppp1bpp1/4p1n1/4P1Np/2pP3P/2N1B1P1/PPP1QP2/R3K2R b KQkq - 2 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,76 @@
+{
+  "id": "13cd8b03-b0fc-48b7-a878-c07874bba40c",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black goes to e7 with the king. \n\nWho is better and why?",
+    "answers": [
+      {
+        "text": "White is better because of better pieces and structure, with a slight material edge.",
+        "feedback": {
+          "text": "The c6-bishop isn't that good. Black has some weak pawns on d5 and f5. The knights are generally better than Black's minor pieces.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c3-e2",
+              "e2-f4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Black is better because their king is active.",
+        "feedback": {
+          "text": "King activity isn't relevant at this point. The king on e7 is just slightly more advanced than White's, nothing to write home about.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "This position is equal in material and activity.",
+        "feedback": {
+          "text": "Are you sure? White seems to be a pawn up, but that isn't the most relevant factor. What about piece quality/activity?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r2k2/pp5p/2b2n2/3pNp1P/3P4/2N1PP2/PP6/3K3R b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke7",
+      "afterMoveFen": "2r5/pp2k2p/2b2n2/3pNp1P/3P4/2N1PP2/PP6/3K3R w - - 2 2"
+    }
+  },
+  "drill": null
+}

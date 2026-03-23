@@ -1,0 +1,378 @@
+{
+  "id": "b618c1f7-34f6-48b6-8e2a-642d711960c2",
+  "name": "Study 1: The Skewer",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "X"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to our introduction to skewers! \n\nThe example is from one of our editor's games. Both players were rated around 2000 at the time. \n\nA skewer is a tactic in which two pieces that are lined up are attacked: the higher value piece is in front, and the lower value piece is on the same line behind it. When the higher value piece moves away, the attack on the lower value piece is exposed.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/pp1ppppp/2n2n2/8/3P1B2/4PN2/q2N1PPP/1R1QKB1R b Kkq - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "2": {
+        "adjacentNodeIds": [
+          "G"
+        ],
+        "comments": [
+          {
+            "text": "White continued developing with Be2.\n\nThey were open for castling next.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e1-g1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/pp1ppppp/2n2n2/q7/3P1B2/4PN2/3NBPPP/1R1QK2R b Kkq - 3 2",
+        "parentNodeId": "X",
+        "san": "Be2"
+      },
+      "28": {
+        "adjacentNodeIds": [
+          "PD"
+        ],
+        "comments": [
+          {
+            "text": "First, the knight arrived at c4, hitting the queen...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp1pppbp/2n2np1/q7/2NP1B2/4PN2/4BPPP/1R1Q1RK1 b kq - 3 4",
+        "parentNodeId": "5Z",
+        "san": "Nc4"
+      },
+      "3U": {
+        "adjacentNodeIds": [
+          "Cq"
+        ],
+        "comments": [
+          {
+            "text": "The queen, for example, to a4.\n\nThe threat is Nb6, attacking the rook and the bishop and making use of the pinned a-pawn!",
+            "arrows": {
+              "threats": [
+                "a7-b6"
+              ],
+              "opportunities": [
+                "c4-b6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a8",
+                "c8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnb2bk1/pp1p1p1p/4qnp1/8/Q1N5/4PN2/4BPPP/1R3RK1 b - - 1 10",
+        "parentNodeId": "aD",
+        "san": "Qa4"
+      },
+      "5Z": {
+        "adjacentNodeIds": [
+          "28"
+        ],
+        "comments": [
+          {
+            "text": "And Black went for their developing plan.\n\nHaving activated all their pieces, it was time for White to capitalize on that and start moving forward.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp1pppbp/2n2np1/q7/3P1B2/4PN2/3NBPPP/1R1Q1RK1 w kq - 2 4",
+        "parentNodeId": "UL",
+        "san": "Bg7"
+      },
+      "67": {
+        "adjacentNodeIds": [
+          "aD"
+        ],
+        "comments": [
+          {
+            "text": "And White got the exchange.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnb2Bk1/pp1p1pbp/4qnp1/8/2N5/4PN2/4BPPP/1R1Q1RK1 b - - 0 9",
+        "parentNodeId": "dh",
+        "san": "Bxf8"
+      },
+      "Ci": {
+        "adjacentNodeIds": [
+          "R6"
+        ],
+        "comments": [
+          {
+            "text": "White captured, forcing the queen to take back.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp1pPpbp/5np1/8/2N2B2/4PN2/4BPPP/1R1Q1RK1 b - - 0 7",
+        "parentNodeId": "ck",
+        "san": "dxe7"
+      },
+      "Cq": {
+        "adjacentNodeIds": [
+          "Th"
+        ],
+        "comments": [
+          {
+            "text": "Black played ...a6, which didn't stop White's intentions whatsoever.\n\nThey should have played ...Na6 instead, connecting the bishop and the rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnb2bk1/1p1p1p1p/p3qnp1/8/Q1N5/4PN2/4BPPP/1R3RK1 w - - 0 11",
+        "parentNodeId": "3U",
+        "san": "a6"
+      },
+      "G": {
+        "adjacentNodeIds": [
+          "UL"
+        ],
+        "comments": [
+          {
+            "text": "Black wanted to go for a dark-squared bishop fianchetto, so they played ...g6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f8-g7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/pp1ppp1p/2n2np1/q7/3P1B2/4PN2/3NBPPP/1R1QK2R w Kkq - 0 3",
+        "parentNodeId": "2",
+        "san": "g6"
+      },
+      "G6": {
+        "adjacentNodeIds": [
+          "ck"
+        ],
+        "comments": [
+          {
+            "text": "And here is how players engineer tactics.\n\nAlthough it looks unorthodox, d6 is a great move!\n\nIt challenges Black's structure around the king, and basically prevents them from castling.\n\nThe best move for Black here is ...e6, avoiding the trade.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e7-e6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/pp1pppbp/3P1np1/8/2N2B2/4PN2/4BPPP/1R1Q1RK1 b kq - 0 6",
+        "parentNodeId": "kD",
+        "san": "d6"
+      },
+      "O0": {
+        "adjacentNodeIds": [
+          "dh"
+        ],
+        "comments": [
+          {
+            "text": "White played Bd6, creating a skewer!\n\nThe bishop attacks the queen, forcing it to move.\n\nBut the rook on f8 is hanging \"behind\" the queen!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7",
+                "f8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnb2rk1/pp1pqpbp/3B1np1/8/2N5/4PN2/4BPPP/1R1Q1RK1 b - - 1 8",
+        "parentNodeId": "R6",
+        "san": "Bd6"
+      },
+      "PD": {
+        "adjacentNodeIds": [
+          "VN"
+        ],
+        "comments": [
+          {
+            "text": "Which went all the way back to d8.\n\nWe can notice that Black hadn't placed any of the pawns in the center yet, meaning White had full control of it.\n\nAnd that might get dangerous for Black.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/pp1pppbp/2n2np1/8/2NP1B2/4PN2/4BPPP/1R1Q1RK1 w kq - 4 5",
+        "parentNodeId": "28",
+        "san": "Qd8"
+      },
+      "R6": {
+        "adjacentNodeIds": [
+          "O0"
+        ],
+        "comments": [
+          {
+            "text": "Once it did...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnb2rk1/pp1pqpbp/5np1/8/2N2B2/4PN2/4BPPP/1R1Q1RK1 w - - 0 8",
+        "parentNodeId": "Ci",
+        "san": "Qxe7"
+      },
+      "Th": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White played Nb6, now forking the two pieces on the queenside, and Black resigned!\n\nA great display of how to engineer a simple tactic in a position where you have more active pieces!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a8",
+                "c8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnb2bk1/1p1p1p1p/pN2qnp1/8/Q7/4PN2/4BPPP/1R3RK1 b - - 1 11",
+        "parentNodeId": "Cq",
+        "san": "Nb6"
+      },
+      "UL": {
+        "adjacentNodeIds": [
+          "5Z"
+        ],
+        "comments": [
+          {
+            "text": "White castled...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/pp1ppp1p/2n2np1/q7/3P1B2/4PN2/3NBPPP/1R1Q1RK1 b kq - 1 3",
+        "parentNodeId": "G",
+        "san": "O-O"
+      },
+      "VN": {
+        "adjacentNodeIds": [
+          "kD"
+        ],
+        "comments": [
+          {
+            "text": "Now they pushed d5, attacking the knight on c6.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/pp1pppbp/2n2np1/3P4/2N2B2/4PN2/4BPPP/1R1Q1RK1 b kq - 0 5",
+        "parentNodeId": "PD",
+        "san": "d5"
+      },
+      "X": {
+        "adjacentNodeIds": [
+          "2"
+        ],
+        "comments": [
+          {
+            "text": "In this position, Black played ...Qa5 and pinned the knight on d2.\n\nThey had gone pawn hunting, but White had more pieces out and activated!\n\nThis would prove to be game-changing.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/pp1ppppp/2n2n2/q7/3P1B2/4PN2/3N1PPP/1R1QKB1R w Kkq - 2 2",
+        "parentNodeId": "0",
+        "san": "Qa5"
+      },
+      "aD": {
+        "adjacentNodeIds": [
+          "3U"
+        ],
+        "comments": [
+          {
+            "text": "The bishop recaptured.\n\nAlthough White was up an exchange, they still had some pieces to activate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnb2bk1/pp1p1p1p/4qnp1/8/2N5/4PN2/4BPPP/1R1Q1RK1 w - - 0 10",
+        "parentNodeId": "67",
+        "san": "Bxf8"
+      },
+      "ck": {
+        "adjacentNodeIds": [
+          "Ci"
+        ],
+        "comments": [
+          {
+            "text": "However, Black castled, which allowed for a nice tactic.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbq1rk1/pp1pppbp/3P1np1/8/2N2B2/4PN2/4BPPP/1R1Q1RK1 w - - 1 7",
+        "parentNodeId": "G6",
+        "san": "O-O"
+      },
+      "dh": {
+        "adjacentNodeIds": [
+          "67"
+        ],
+        "comments": [
+          {
+            "text": "Black wanted to stay active and moved to e6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnb2rk1/pp1p1pbp/3Bqnp1/8/2N5/4PN2/4BPPP/1R1Q1RK1 w - - 2 9",
+        "parentNodeId": "O0",
+        "san": "Qe6"
+      },
+      "kD": {
+        "adjacentNodeIds": [
+          "G6"
+        ],
+        "comments": [
+          {
+            "text": "The knight didn't have many squares to escape to, so Black jumped back to b8.\n\nWe can definitely see that White has a lot of advantage in activity, although being down two pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/pp1pppbp/5np1/3P4/2N2B2/4PN2/4BPPP/1R1Q1RK1 w kq - 1 6",
+        "parentNodeId": "VN",
+        "san": "Nb8"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

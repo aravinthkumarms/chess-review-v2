@@ -1,0 +1,78 @@
+{
+  "id": "5f623c1e-ff02-46cf-b90b-9e328f65af07",
+  "name": "Quiz 14",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It is Black to move and stalemate in one move. \n\nCan you see the three possible solutions?",
+    "answers": [
+      {
+        "text": "Qc8",
+        "feedback": {
+          "text": "Great! This controls a6!",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "a6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "2q5/6k1/4p2p/K7/8/1q6/8/8 w - - 3 2"
+      },
+      {
+        "text": "Qf1",
+        "feedback": {
+          "text": "This move also controls a6!",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "a6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "8/6k1/4p2p/K7/8/1q6/8/5q2 w - - 3 2"
+      },
+      {
+        "text": "Qd6",
+        "feedback": {
+          "text": "Once you notice you have to control a6, it's easy!",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "a6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "8/6k1/3qp2p/K7/8/1q6/8/8 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "You have to take the king's legal move away. There are three stalemates here.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "5q2/6k1/K3p2p/8/8/1q6/8/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ka5",
+      "afterMoveFen": "5q2/6k1/4p2p/K7/8/1q6/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,95 @@
+{
+  "id": "53e58bed-b672-4742-b80d-3a3282a5f929",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays Na5. Is material equal? Which side has more space? \n\nThe kings are both safe. \n\nWhite has pressure on d6 meanwhile Black has pressure on c4. This is a matter of whose pressure is more significant. \n\nBased on activity, who's better?",
+    "answers": [
+      {
+        "text": "White is much better (+2.4)",
+        "feedback": {
+          "text": "After White plays e5 with a tempo on d6, Black's position crumbles. +2.4 is closer to the truth. ",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e4-e5",
+              "e5-d6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Black is much better (-2.5)",
+        "feedback": {
+          "text": "An evaluation of -2.5 exaggerates the value of the c4 pawn, which is doubled. Yes, Black will win that pawn. But White also has a few aces up their sleeve.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a5-c4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Position is equal (+0.1)",
+        "feedback": {
+          "text": "This would be true, if the only thing happening were a trade of pawns. Black wins c4 and White wins d6. But is that all that can happen? ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White has a slight edge (+0.6)",
+        "feedback": {
+          "text": "A slight edge implies that White's position is slightly more pleasant. Maybe one piece is better, or there's a slight space advantage, but nothing major. Is that the case here, though? Remember, it's White to move! ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1rnr2k1/1pq2pp1/p1npb2p/2p5/2P1PB2/2P2N2/P2R1PPP/3QRBK1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "a5-c4"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "c4",
+        "d6"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Na5",
+      "afterMoveFen": "1rnr2k1/1pq2pp1/p2pb2p/n1p5/2P1PB2/2P2N2/P2R1PPP/3QRBK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

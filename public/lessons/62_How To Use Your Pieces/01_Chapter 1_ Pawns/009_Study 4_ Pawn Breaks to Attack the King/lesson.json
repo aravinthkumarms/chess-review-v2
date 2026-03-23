@@ -1,0 +1,310 @@
+{
+  "id": "fe930acc-96c1-43b3-a1b2-c54a53973736",
+  "name": "Study 4: Pawn Breaks to Attack the King",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "T"
+        ],
+        "comments": [
+          {
+            "text": "This is a game I played on chess.com. \n\nIn this study, we're going to go over some pawn breaks designed to open lines against the enemy king. \n\nAlso, when I open up my position, it really depends on how I do it. I need to place my pieces correctly and open up the right files and diagonals.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/32037630439?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pq1bb1p/2n2pp1/p1p1p3/2PpN1P1/PP1P2NP/1B2PPB1/R2Q1RK1 w kq - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0C": {
+        "adjacentNodeIds": [
+          "wL"
+        ],
+        "comments": [
+          {
+            "text": "I just recaptured.\n\nThe e4 knight must leave and I have a better position.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pq1b3/2n3b1/p1p1pp2/2PpN3/PP1PP1NP/1B3PB1/R2Q1RK1 w kq - 0 4",
+        "parentNodeId": "Ye",
+        "san": "Bxg6"
+      },
+      "5R": {
+        "adjacentNodeIds": [
+          "QN"
+        ],
+        "comments": [
+          {
+            "text": "Let's say I trade...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k2r/1pq1b3/2n3b1/p1p5/1PPpnp2/P2P3P/1B1N1PB1/R2Q1RK1 w kq - 0 8",
+        "parentNodeId": "yw",
+        "san": "Nxe4"
+      },
+      "6": {
+        "adjacentNodeIds": [
+          "ll"
+        ],
+        "comments": [
+          {
+            "text": "White took, and instead of recapturing...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pq1bb2/2n2pp1/p1p1p2P/2PpN3/PP1PP1NP/1B3PB1/R2Q1RK1 b kq - 0 2",
+        "parentNodeId": "y",
+        "san": "gxh5"
+      },
+      "6C": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "This would've been wrong. \n\nNot all pawn moves are the same. \n\ncxd4 weakens the b4 square and it leaves the c7 queen staring at its own pawn on e5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k2r/1pq1b3/2n2nb1/p3pp2/2Pp4/PP1P2NP/1B1N1PB1/R2Q1RK1 w kq - 0 6",
+        "parentNodeId": "PG",
+        "san": "cxd4"
+      },
+      "8Y": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And now the pawn that was formerly on f5, gave way for the bishop to occupy the f5 square at this point, attacking the kingside.\n\nLike I said, you have to be creative with your pawns!\n\nI hope this chapter gave you some ideas! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k2r/1pq1b3/2n5/p1p2b2/1PPpNp2/P2P3P/1B3PB1/R2Q1RK1 w kq - 1 9",
+        "parentNodeId": "QN",
+        "san": "Bf5"
+      },
+      "PG": {
+        "adjacentNodeIds": [
+          "wU",
+          "6C"
+        ],
+        "comments": [
+          {
+            "text": "White took on d4...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k2r/1pq1b3/2n2nb1/p1p1pp2/2PP4/PP1P2NP/1B1N1PB1/R2Q1RK1 b kq - 0 5",
+        "parentNodeId": "at",
+        "san": "exd4"
+      },
+      "QN": {
+        "adjacentNodeIds": [
+          "8Y"
+        ],
+        "comments": [
+          {
+            "text": "White activates their bad knight...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k2r/1pq1b3/2n3b1/p1p5/1PPpNp2/P2P3P/1B3PB1/R2Q1RK1 b kq - 0 8",
+        "parentNodeId": "5R",
+        "san": "Nxe4"
+      },
+      "T": {
+        "adjacentNodeIds": [
+          "y"
+        ],
+        "comments": [
+          {
+            "text": "White began with a pawn break of their own, e3. But I'm not forced to take this. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pq1bb1p/2n2pp1/p1p1p3/2PpN1P1/PP1PP1NP/1B3PB1/R2Q1RK1 b kq - 0 1",
+        "parentNodeId": "0",
+        "san": "e3"
+      },
+      "Ye": {
+        "adjacentNodeIds": [
+          "0C"
+        ],
+        "comments": [
+          {
+            "text": "What played this in-between move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pq1bb2/2n3P1/p1p1pp2/2PpN3/PP1PP1NP/1B3PB1/R2Q1RK1 b kq - 0 3",
+        "parentNodeId": "ll",
+        "san": "hxg6"
+      },
+      "at": {
+        "adjacentNodeIds": [
+          "PG"
+        ],
+        "comments": [
+          {
+            "text": "And here I developed my knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k2r/1pq1b3/2n2nb1/p1p1pp2/2Pp4/PP1PP1NP/1B1N1PB1/R2Q1RK1 w kq - 2 5",
+        "parentNodeId": "wL",
+        "san": "Nf6"
+      },
+      "ll": {
+        "adjacentNodeIds": [
+          "Ye"
+        ],
+        "comments": [
+          {
+            "text": "Now that the g4 pawn is gone, the f5 square is available for my pawn. \n\nI dislodged the knight! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pq1bb2/2n3p1/p1p1pp1P/2PpN3/PP1PP1NP/1B3PB1/R2Q1RK1 w kq - 0 3",
+        "parentNodeId": "6",
+        "san": "f5"
+      },
+      "pR": {
+        "adjacentNodeIds": [
+          "sN"
+        ],
+        "comments": [
+          {
+            "text": "The game continued with b4...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k2r/1pq1b3/2n2nb1/p1p2p2/1PPp4/P2P2NP/1B1N1PB1/R2Q1RK1 b kq - 0 6",
+        "parentNodeId": "wU",
+        "san": "b4"
+      },
+      "sN": {
+        "adjacentNodeIds": [
+          "yw"
+        ],
+        "comments": [
+          {
+            "text": "I should have played f4, because even though it blocks my own queen...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k2r/1pq1b3/2n2nb1/p1p5/1PPp1p2/P2P2NP/1B1N1PB1/R2Q1RK1 w kq - 0 7",
+        "parentNodeId": "pR",
+        "san": "f4"
+      },
+      "wL": {
+        "adjacentNodeIds": [
+          "at"
+        ],
+        "comments": [
+          {
+            "text": "The knight went to the suboptimal d2 square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pq1b3/2n3b1/p1p1pp2/2Pp4/PP1PP1NP/1B1N1PB1/R2Q1RK1 b kq - 1 4",
+        "parentNodeId": "0C",
+        "san": "Nd2"
+      },
+      "wU": {
+        "adjacentNodeIds": [
+          "pR"
+        ],
+        "comments": [
+          {
+            "text": "But this just allowed me to recapture with the e-pawn, activating my queen. \n\nI was better at this point, thanks to some creative pawn play opening up the right files and diagonals.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3k2r/1pq1b3/2n2nb1/p1p2p2/2Pp4/PP1P2NP/1B1N1PB1/R2Q1RK1 w kq - 0 6",
+        "parentNodeId": "PG",
+        "san": "exd4"
+      },
+      "y": {
+        "adjacentNodeIds": [
+          "6"
+        ],
+        "comments": [
+          {
+            "text": "In fact, I can more efectively go for a pawn break of my own! \n\nh5 has many ideas! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pq1bb2/2n2pp1/p1p1p2p/2PpN1P1/PP1PP1NP/1B3PB1/R2Q1RK1 w kq h6 0 2",
+        "parentNodeId": "T",
+        "san": "h5"
+      },
+      "yw": {
+        "adjacentNodeIds": [
+          "5R"
+        ],
+        "comments": [
+          {
+            "text": "After Nge4...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k2r/1pq1b3/2n2nb1/p1p5/1PPpNp2/P2P3P/1B1N1PB1/R2Q1RK1 b kq - 1 7",
+        "parentNodeId": "sN",
+        "san": "Nge4"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

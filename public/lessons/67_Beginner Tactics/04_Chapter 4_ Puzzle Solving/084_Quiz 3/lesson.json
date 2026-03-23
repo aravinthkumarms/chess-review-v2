@@ -1,0 +1,71 @@
+{
+  "id": "dc37ab0d-f817-4616-97f7-5a5616d3fed7",
+  "name": "Quiz 3",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White develops, but you've got very strong pieces aiming at the kingside (like the e6-rook and the e4-knight. \n\nCan you see a way of creating a pin?",
+    "answers": [
+      {
+        "text": "Ng3+",
+        "feedback": {
+          "text": "Yes! \n\nAfter hxg3, you've got ...Rh6, and this is a pin!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "forking queen and king.",
+        "afterMoveFen": "r2q2k1/pp3pp1/2pbr3/7Q/5P2/1PN3n1/PBP4P/R4R1K w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rh6",
+        "feedback": {
+          "text": "This is a good move, but it's not the best.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "attacking the queen.",
+        "afterMoveFen": "r2q2k1/pp3pp1/2pb3r/7Q/4nP2/1PN5/PBP4P/R4R1K w - - 3 2"
+      },
+      {
+        "text": "Nxc3",
+        "feedback": {
+          "text": "You shouldn't trade if you have other, stronger threats.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "trading.",
+        "afterMoveFen": "r2q2k1/pp3pp1/2pbr3/7Q/5P2/1Pn5/PBP4P/R4R1K w - - 0 2"
+      }
+    ],
+    "positionFen": "r2q2k1/pp3pp1/2pbr3/7Q/4nP2/1P6/PBP4P/RN3R1K w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nc3",
+      "afterMoveFen": "r2q2k1/pp3pp1/2pbr3/7Q/4nP2/1PN5/PBP4P/R4R1K b - - 2 1"
+    }
+  },
+  "drill": null
+}

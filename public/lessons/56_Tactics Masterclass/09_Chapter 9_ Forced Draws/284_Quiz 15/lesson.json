@@ -1,0 +1,43 @@
+{
+  "id": "6c56322a-6318-4c25-9d0d-b6b122cd213f",
+  "name": "Quiz 15",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is up material. \n\nCan you see a way to draw?",
+    "answers": [
+      {
+        "text": "Qg8+",
+        "feedback": {
+          "text": "Do you have a check?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "6Qk/6p1/7p/8/1p6/p1qp4/8/3K4 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you get rid of all of Black's legal moves?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "7k/6p1/7p/8/1p1q4/pQ1p4/8/3K4 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qc3",
+      "afterMoveFen": "7k/6p1/7p/8/1p6/pQqp4/8/3K4 w - - 2 2"
+    }
+  },
+  "drill": null
+}

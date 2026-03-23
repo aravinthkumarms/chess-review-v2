@@ -1,0 +1,58 @@
+{
+  "id": "cbc73d94-3373-43da-a940-7d7dec54157c",
+  "name": "Quiz 4: Game not over",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black moves the king to g3.\n\nHas the game ended?",
+    "answers": [
+      {
+        "text": "The game is not over. White can still make a move.",
+        "feedback": {
+          "text": "That's correct. White can move the king to g1.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h1-g1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The game is over. It's checkmate.",
+        "feedback": {
+          "text": "White's king is not under attack yet and it can move, so the game is not over yet.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "The White king can't move and it is not under attack, so it's stalemate.",
+        "feedback": {
+          "text": "The White king can move to g1!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/8/8/5k2/4q3/7K b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kg3",
+      "afterMoveFen": "8/8/8/8/8/6k1/4q3/7K w - - 2 2"
+    }
+  },
+  "drill": null
+}

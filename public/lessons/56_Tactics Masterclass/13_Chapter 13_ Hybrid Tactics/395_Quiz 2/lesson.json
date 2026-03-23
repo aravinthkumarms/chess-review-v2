@@ -1,0 +1,57 @@
+{
+  "id": "e8c5be83-edff-4fa7-975d-40d4e94c82f6",
+  "name": "Quiz 2",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Qd2.\n\nTry to use your knowledge of tactics to spot the winning move for Black here.",
+    "answers": [
+      {
+        "text": "Nxh3+",
+        "feedback": {
+          "text": "Great job! If White doesn't take, their knight is hanging. If they do, there's a fork on f3.",
+          "arrows": {
+            "threats": [
+              "g2-h3"
+            ],
+            "opportunities": [
+              "d4-f3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g4"
+            ],
+            "opportunities": [
+              "h3"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "4r1k1/1b5p/p3p1p1/1p2Rpq1/3n2N1/3B3n/PP1Q1PP1/2B3K1 w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "This move is a sacrifice that causes a deflection which enables a fork!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4r1k1/1b5p/p3p1p1/1p2Rpq1/3n1nN1/3B3P/PP3PP1/2BQ2K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qd2",
+      "afterMoveFen": "4r1k1/1b5p/p3p1p1/1p2Rpq1/3n1nN1/3B3P/PP1Q1PP1/2B3K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

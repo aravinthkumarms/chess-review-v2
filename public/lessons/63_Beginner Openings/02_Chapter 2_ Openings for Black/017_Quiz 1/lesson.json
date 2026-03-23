@@ -1,0 +1,78 @@
+{
+  "id": "9aeda00a-3502-479c-91fb-7724c1d2f5de",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White continues in a non-confrontational manner.\n\nHow should Black approach this?",
+    "answers": [
+      {
+        "text": "Bring out the knights and the bishops and castle.",
+        "feedback": {
+          "text": "Good job! We certainly do if White isn't trying to fight for the center!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g8-f6",
+              "b8-c6",
+              "f8-c5",
+              "c8-f5",
+              "e8-g8"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Squeeze White on the kingside with a lot of pawn pushes.",
+        "feedback": {
+          "text": "That's not a good approach. This neglects the development.",
+          "arrows": {
+            "threats": [
+              "h7-h5",
+              "g7-g5",
+              "f7-f5"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "g8",
+              "f8",
+              "d8",
+              "c8",
+              "b8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Bring out the queen as soon as possible to inflict damage.",
+        "feedback": {
+          "text": "Bringing out the queen early without developing other pieces isn't generally a good idea.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkbnr/ppp2ppp/8/3pp3/8/6P1/PPPPPPBP/RNBQK1NR w KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "e3",
+      "afterMoveFen": "rnbqkbnr/ppp2ppp/8/3pp3/8/4P1P1/PPPP1PBP/RNBQK1NR b KQkq - 0 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,63 @@
+{
+  "id": "8291960c-4e42-4b89-8a08-b13525b1467f",
+  "name": "Quiz 6",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "This position arises from a King's Indian Defense. \n\nWhat's the pawn move that makes the most sense given the structure?",
+    "answers": [
+      {
+        "text": "f5",
+        "feedback": {
+          "text": "This is a great pawn break in the King's Indian structures for Black.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "achieving a pawn break on the kingside.",
+        "afterMoveFen": "r1bq1rk1/pppnn1bp/3p2p1/3Ppp2/2P1P3/2N1B3/PP2BPPP/R2QNRK1 w - f6 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "c6",
+        "feedback": {
+          "text": "In some cases, it's useful to challenge the d5-pawn, but in KID structures we challenge another pawn primarily.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "challenging d5.",
+        "afterMoveFen": "r1bq1rk1/pp1nnpbp/2pp2p1/3Pp3/2P1P3/2N1B3/PP2BPPP/R2QNRK1 w - - 0 2"
+      },
+      {
+        "text": "b6",
+        "feedback": {
+          "text": "We want to focus on challenging White's control, not in controlling c5.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "to control the c5-square.",
+        "afterMoveFen": "r1bq1rk1/p1pnnpbp/1p1p2p1/3Pp3/2P1P3/2N1B3/PP2BPPP/R2QNRK1 w - - 0 2"
+      },
+      {
+        "text": "a5",
+        "feedback": {
+          "text": "Now is not the time for this. There's a better pawn move!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "controlling b4.",
+        "afterMoveFen": "r1bq1rk1/1ppnnpbp/3p2p1/p2Pp3/2P1P3/2N1B3/PP2BPPP/R2QNRK1 w - a6 0 2"
+      }
+    ],
+    "positionFen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N5/PP2BPPP/R1BQNRK1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Be3",
+      "afterMoveFen": "r1bq1rk1/pppnnpbp/3p2p1/3Pp3/2P1P3/2N1B3/PP2BPPP/R2QNRK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

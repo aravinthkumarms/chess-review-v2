@@ -1,0 +1,92 @@
+{
+  "id": "263c2c34-fb49-457a-8198-951e80529d87",
+  "name": "Quiz 18 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks your center. \n\nIs it ok to play 0-0-0 to put the rook opposite the queen?",
+    "answers": [
+      {
+        "text": "This isn't the most precise move.",
+        "feedback": {
+          "text": "Exactly. Our position is very good, but Black gains some counterplay with ...Bb7.",
+          "arrows": {
+            "threats": [
+              "e1-a1"
+            ],
+            "opportunities": [
+              "c8-b7"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e4",
+              "h1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, you set up many tactics this way.",
+        "feedback": {
+          "text": "Not exactly. Black has ...Bb7 to skewer the queen and the rook.",
+          "arrows": {
+            "threats": [
+              "e1-b1"
+            ],
+            "opportunities": [
+              "c8-b7"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e4",
+              "h1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "0-0-0 is best, not for tactical reasons, but to keep the king safe.",
+        "feedback": {
+          "text": "That would allow Black to complicate things with a ...Bb7 skewer.",
+          "arrows": {
+            "threats": [
+              "e1-b1"
+            ],
+            "opportunities": [
+              "c8-b7"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e4",
+              "h1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2b2rk1/p1pq1pp1/4p1n1/4P1Bp/1ppPQ2P/6P1/PPP1NP2/R3K2R b KQ - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "c5",
+      "afterMoveFen": "2b2rk1/p2q1pp1/4p1n1/2p1P1Bp/1ppPQ2P/6P1/PPP1NP2/R3K2R w KQ c6 0 2"
+    }
+  },
+  "drill": null
+}

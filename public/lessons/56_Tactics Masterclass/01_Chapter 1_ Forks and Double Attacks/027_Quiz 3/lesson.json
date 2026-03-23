@@ -1,0 +1,53 @@
+{
+  "id": "b439865d-d59f-41b4-895d-3801af0c0d38",
+  "name": "Quiz 3",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White steps away with their queen. \n\nHow can you create two threats at the same time?",
+    "answers": [
+      {
+        "text": "Qe7",
+        "feedback": {
+          "text": "Nice job! Attacking the bishop on e5 and threatening to win White's queen with ...Bb4 skewer.",
+          "arrows": {
+            "threats": [
+              "c5-b4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "e5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1b1k2r/pp1nqppp/8/2b1B3/4p3/2Q5/PPP2PPP/R3KBNR w KQkq - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Do you have a double attack here with pin ideas?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqk2r/pp1n1ppp/8/2b1B3/3Qp3/8/PPP2PPP/R3KBNR w KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qc3",
+      "afterMoveFen": "r1bqk2r/pp1n1ppp/8/2b1B3/4p3/2Q5/PPP2PPP/R3KBNR b KQkq - 2 1"
+    }
+  },
+  "drill": null
+}

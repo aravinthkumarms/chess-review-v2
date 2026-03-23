@@ -1,0 +1,70 @@
+{
+  "id": "6a3923a5-1475-42dd-b971-4e941d86b874",
+  "name": "Quiz 8",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Being aware of the rule of the square will help you win but also defend. \n\nIs White threatening something here?",
+    "answers": [
+      {
+        "text": "Yes. White is threatening a4 and the a-pawn will queen.",
+        "feedback": {
+          "text": "Exactly. a4 and a5 and Black doesn't get inside the square.\n\nThat's why Black would have to play a move like ...b5.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a3-a4",
+              "h4-g4",
+              "a4-a5",
+              "b6-a5",
+              "b4-a5",
+              "a5-a8",
+              "a8-d8",
+              "d8-d5",
+              "d5-a5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White doesn't threaten anything because if a4 (a potential danger) the black king can catch the pawn.",
+        "feedback": {
+          "text": "Are you sure Black can catch the pawn? Imagine the square on a5. Black needs at least 4 moves to enter this square.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a5-a8",
+              "a8-d8",
+              "d8-d5",
+              "d5-a5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/2p5/1p6/8/1P1n1p1k/P3P3/6K1/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "exd4",
+      "afterMoveFen": "8/2p5/1p6/8/1P1P1p1k/P7/6K1/8 b - - 0 1"
+    }
+  },
+  "drill": null
+}

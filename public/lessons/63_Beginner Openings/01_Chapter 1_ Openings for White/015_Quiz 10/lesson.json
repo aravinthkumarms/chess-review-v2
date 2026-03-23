@@ -1,0 +1,65 @@
+{
+  "id": "1ab66286-d18b-4988-bca5-87a50ed797f1",
+  "name": "Quiz 10",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black defends their pawn. \n\nWhy is this position good for White?",
+    "answers": [
+      {
+        "text": "It's good because White has central control.",
+        "feedback": {
+          "text": "The two pawns help control the center.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d4",
+              "e4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It's not good. This is a trick question.",
+        "feedback": {
+          "text": "This isn't a trick question. White has a good position.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d4",
+              "e4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It's good because White can play Qf3 to attack f7.",
+        "feedback": {
+          "text": "This isn't the reason.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkbnr/ppp1pppp/8/8/2pPP3/8/PP3PPP/RNBQKBNR b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "b5",
+      "afterMoveFen": "rnbqkbnr/p1p1pppp/8/1p6/2pPP3/8/PP3PPP/RNBQKBNR w KQkq b6 0 2"
+    }
+  },
+  "drill": null
+}

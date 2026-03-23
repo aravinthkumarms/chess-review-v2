@@ -1,0 +1,43 @@
+{
+  "id": "66f02be1-e6b7-4df5-a3fb-12a095851491",
+  "name": "Quiz 4 - king",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Observe the white king on the e2-square.\n\nTo which squares could it move to on this turn?",
+    "answers": [
+      {
+        "text": "d2-d3-e3-d1-f1",
+        "feedback": {
+          "text": "Exactly. The king can move one square in any direction, granted no enemy piece controls its squares.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The king can move one square in any direction.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r3k2r/pppbnppp/2n1p3/6P1/3P3P/2B2N2/PPP1KPB1/R3R3 b kq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "O-O-O",
+      "afterMoveFen": "2kr3r/pppbnppp/2n1p3/6P1/3P3P/2B2N2/PPP1KPB1/R3R3 w - - 2 2"
+    }
+  },
+  "drill": null
+}

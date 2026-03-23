@@ -1,0 +1,551 @@
+{
+  "id": "746f482b-b92f-49f5-93ab-530da918ee94",
+  "name": "Study 2: Surrounding The Enemy King",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "V",
+          "Y"
+        ],
+        "comments": [
+          {
+            "text": "In this second study, we'll analyze checkmates on a color complex. \n\nThis is a game I played on chess.com against a 2531-rated opponent nicknamed \"NightSak.\" \n\nThis is a typical position that arose after nine moves from The Leningrad Dutch opening. \n\nEverything is balanced so far, but let's see how I managed to create a nice attack against White's king!",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/game/live/82941731565?username=gothamchess",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2npbn2/2P1p1p1/4Pp2/1P1N2P1/P2N1PBP/R1BQ1RK1 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "3": {
+        "adjacentNodeIds": [
+          "af"
+        ],
+        "comments": [
+          {
+            "text": "White is trying to trade off my strong light-squared bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2np1n2/2P1p1p1/4Ppb1/1P1N1BP1/P2N1P1P/R1BQ1RK1 b - - 3 2",
+        "parentNodeId": "Y",
+        "san": "Bf3"
+      },
+      "3U": {
+        "adjacentNodeIds": [
+          "YF"
+        ],
+        "comments": [
+          {
+            "text": "The knight retreated to b2, which was the only free square for the d3-knight.\n\nOn e1, it blundered the queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n2n2/2P3p1/2N1p3/1P3pP1/PN3P1P/R1BQ1RK1 b - - 1 6",
+        "parentNodeId": "8W",
+        "san": "Ndb2"
+      },
+      "5z": {
+        "adjacentNodeIds": [
+          "MD"
+        ],
+        "comments": [
+          {
+            "text": "White got a pawn...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1q2rk1/pp4bp/2n2n2/2P3B1/2N1p3/1P3pP1/PN3P1P/R2Q1RK1 b - - 0 7",
+        "parentNodeId": "YF",
+        "san": "Bxg5"
+      },
+      "8W": {
+        "adjacentNodeIds": [
+          "3U"
+        ],
+        "comments": [
+          {
+            "text": "I pushed ...e4, attacking the knight. \n\nThe knight doesn't have many squares to move to now, and my f-pawn gets a defender.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n2n2/2P3p1/2N1p3/1P1N1pP1/P4P1P/R1BQ1RK1 w - - 0 6",
+        "parentNodeId": "N8",
+        "san": "e4"
+      },
+      "Dz": {
+        "adjacentNodeIds": [
+          "dv"
+        ],
+        "comments": [
+          {
+            "text": "Of course not Qxf3.\n\nThis was an attraction for a fork.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n2n2/2P1p1p1/2N5/1P1N1QP1/P4PKP/R1B2R2 b - - 0 5",
+        "parentNodeId": "Ro",
+        "san": "Qxf3"
+      },
+      "EJ": {
+        "adjacentNodeIds": [
+          "Ii"
+        ],
+        "comments": [
+          {
+            "text": "A natural move like this is bad.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2np1n2/2P1p1p1/4Ppb1/1P1N1PP1/P2N2BP/R1BQ1RK1 b - - 0 2",
+        "parentNodeId": "Y",
+        "san": "f3"
+      },
+      "I8": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White should've gone for counterplay against my e5-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n1bn2/2Ppp1p1/4Pp2/1P1N2P1/PB1N1PBP/R2Q1RK1 b - - 1 2",
+        "parentNodeId": "V",
+        "san": "Bb2"
+      },
+      "IO": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But Qxh2# was on the board.  \n\nThis game was a nice example of how expanding pawns can create problematic checkmate patterns, especially when there are no pieces to defend the enemy king!  \n\nVery often, the checkmate on g2/g7 when there is a protected pawn on f3/f6 cannot be stopped besides giving up a lot of material.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r1k/pp4bp/2n1Q3/2P3B1/4p1n1/1P2NpP1/PN3P1q/R4RK1 w - - 0 11",
+        "parentNodeId": "VL",
+        "san": "Qxh2#"
+      },
+      "Ii": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black has the threat of a fork and an attack on the knight, so the pawn can be taken.",
+            "arrows": {
+              "threats": [
+                "d8-d4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "g1",
+                "a1",
+                "d3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n2n2/2p1p1p1/4Ppb1/1P1N1PP1/P2N2BP/R1BQ1RK1 w - - 0 3",
+        "parentNodeId": "EJ",
+        "san": "dxc5"
+      },
+      "Jz": {
+        "adjacentNodeIds": [
+          "oy"
+        ],
+        "comments": [
+          {
+            "text": "I threatened a checkmate on h2 while also trying to remove the defender of g2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4bp/2n5/2P3B1/4p1n1/1P2NpPq/PN3P1P/R2Q1RK1 w - - 3 9",
+        "parentNodeId": "Ss",
+        "san": "Ng4"
+      },
+      "MD": {
+        "adjacentNodeIds": [
+          "Ss"
+        ],
+        "comments": [
+          {
+            "text": "...but I threatened a checkmate, which can only be stalled.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4bp/2n2n2/2P3B1/2N1p3/1P3pPq/PN3P1P/R2Q1RK1 w - - 1 8",
+        "parentNodeId": "5z",
+        "san": "Qh3"
+      },
+      "N8": {
+        "adjacentNodeIds": [
+          "8W"
+        ],
+        "comments": [
+          {
+            "text": "The king retreated.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n2n2/2P1p1p1/2N5/1P1N1pP1/P4P1P/R1BQ1RK1 b - - 1 5",
+        "parentNodeId": "Ro",
+        "san": "Kg1"
+      },
+      "Ok": {
+        "adjacentNodeIds": [
+          "kR"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured with the bishop.\n\nI am happy to trade off White's light-squared bishop since that's the king's main defender!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n2n2/2Pbp1p1/5p2/1P1N2P1/P2N1PBP/R1BQ1RK1 w - - 0 3",
+        "parentNodeId": "yw",
+        "san": "Bxd5"
+      },
+      "PE": {
+        "adjacentNodeIds": [
+          "zs"
+        ],
+        "comments": [
+          {
+            "text": "I gladly traded the light-squared bishops.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n2n2/2P1p1p1/2N2p2/1P1N2P1/P4PbP/R1BQ1RK1 w - - 0 4",
+        "parentNodeId": "kR",
+        "san": "Bxg2"
+      },
+      "Ro": {
+        "adjacentNodeIds": [
+          "N8",
+          "Dz"
+        ],
+        "comments": [
+          {
+            "text": "I expanded even further! ...f3+ and ...e4 come with a tempo.",
+            "arrows": {
+              "threats": [
+                "e5-e4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "g2",
+                "f3",
+                "d3"
+              ],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n2n2/2P1p1p1/2N5/1P1N1pP1/P4PKP/R1BQ1R2 w - - 0 5",
+        "parentNodeId": "zs",
+        "san": "f3+"
+      },
+      "Ss": {
+        "adjacentNodeIds": [
+          "Jz"
+        ],
+        "comments": [
+          {
+            "text": "This was the only move that avoided a checkmate in one.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4bp/2n2n2/2P3B1/4p3/1P2NpPq/PN3P1P/R2Q1RK1 b - - 2 8",
+        "parentNodeId": "MD",
+        "san": "Ne3"
+      },
+      "V": {
+        "adjacentNodeIds": [
+          "yw",
+          "I8"
+        ],
+        "comments": [
+          {
+            "text": "I first expanded in the center with the d5-pawn break. \n\nI wanted to see if I could trade light-squared bishops. Trading the important defender on g2 would weaken the king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n1bn2/2Ppp1p1/4Pp2/1P1N2P1/P2N1PBP/R1BQ1RK1 w - - 0 2",
+        "parentNodeId": "0",
+        "san": "d5"
+      },
+      "VL": {
+        "adjacentNodeIds": [
+          "IO"
+        ],
+        "comments": [
+          {
+            "text": "White attacked my knight on g4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4r1k/pp4bp/2n1Q3/2P3B1/4p1n1/1P2NpPq/PN3P1P/R4RK1 b - - 6 10",
+        "parentNodeId": "dD",
+        "san": "Qe6"
+      },
+      "Y": {
+        "adjacentNodeIds": [
+          "3",
+          "EJ"
+        ],
+        "comments": [
+          {
+            "text": "The computer says this was the best move.\n\nNf3 is just a pin, which would be really bad thanks to moves like d5 or (to play in a simple fashion) Nxe4.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d2-f3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2np1n2/2P1p1p1/4Ppb1/1P1N2P1/P2N1PBP/R1BQ1RK1 w - - 2 2",
+        "parentNodeId": "0",
+        "san": "Bg4"
+      },
+      "YF": {
+        "adjacentNodeIds": [
+          "5z"
+        ],
+        "comments": [
+          {
+            "text": "I prepared ...Qh3 for Qg2#. \n\nTrading the queens would only help White.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c8-h3",
+                "h3-g2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1q2rk1/pp4bp/2n2n2/2P3p1/2N1p3/1P3pP1/PN3P1P/R1BQ1RK1 w - - 2 7",
+        "parentNodeId": "3U",
+        "san": "Qc8"
+      },
+      "Yy": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And I have a great position.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d8-d7",
+                "d7-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/3p1n2/2P1p1p1/3nPp2/1P1N1QP1/P2N1P1P/R1B2RK1 w - - 1 4",
+        "parentNodeId": "pW",
+        "san": "Nd4"
+      },
+      "af": {
+        "adjacentNodeIds": [
+          "pW"
+        ],
+        "comments": [
+          {
+            "text": "But like I said, their bishop is important, too.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2np1n2/2P1p1p1/4Pp2/1P1N1bP1/P2N1P1P/R1BQ1RK1 w - - 0 3",
+        "parentNodeId": "3",
+        "san": "Bxf3"
+      },
+      "dD": {
+        "adjacentNodeIds": [
+          "VL"
+        ],
+        "comments": [
+          {
+            "text": "I simply moved the king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r1k/pp4bp/2n5/2PQ2B1/4p1n1/1P2NpPq/PN3P1P/R4RK1 w - - 5 10",
+        "parentNodeId": "oy",
+        "san": "Kh8"
+      },
+      "dv": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "I'd win material here.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3",
+                "d3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n2n2/2P3p1/2N1p3/1P1N1QP1/P4PKP/R1B2R2 w - - 0 6",
+        "parentNodeId": "Dz",
+        "san": "e4"
+      },
+      "kR": {
+        "adjacentNodeIds": [
+          "PE"
+        ],
+        "comments": [
+          {
+            "text": "White went for the activity with their knights.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n2n2/2Pbp1p1/2N2p2/1P1N2P1/P4PBP/R1BQ1RK1 b - - 1 3",
+        "parentNodeId": "Ok",
+        "san": "Nc4"
+      },
+      "oy": {
+        "adjacentNodeIds": [
+          "dD"
+        ],
+        "comments": [
+          {
+            "text": "White just tried prolonging the game at this point.\n\nThe checkmate was unavoidable.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4bp/2n5/2PQ2B1/4p1n1/1P2NpPq/PN3P1P/R4RK1 b - - 4 9",
+        "parentNodeId": "Jz",
+        "san": "Qd5+"
+      },
+      "pW": {
+        "adjacentNodeIds": [
+          "Yy"
+        ],
+        "comments": [
+          {
+            "text": "The queen recaptures.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2np1n2/2P1p1p1/4Pp2/1P1N1QP1/P2N1P1P/R1B2RK1 b - - 0 3",
+        "parentNodeId": "af",
+        "san": "Qxf3"
+      },
+      "yw": {
+        "adjacentNodeIds": [
+          "Ok"
+        ],
+        "comments": [
+          {
+            "text": "White traded on d5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n1bn2/2PPp1p1/5p2/1P1N2P1/P2N1PBP/R1BQ1RK1 b - - 0 2",
+        "parentNodeId": "V",
+        "san": "exd5"
+      },
+      "zs": {
+        "adjacentNodeIds": [
+          "Ro"
+        ],
+        "comments": [
+          {
+            "text": "White recaptured.\n\nWith the king on g2, this was my chance to attempt to do something. And I found a nice idea using the attraction and fork concepts.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp4bp/2n2n2/2P1p1p1/2N2p2/1P1N2P1/P4PKP/R1BQ1R2 b - - 0 4",
+        "parentNodeId": "PE",
+        "san": "Kxg2"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

@@ -1,0 +1,563 @@
+{
+  "id": "39a2e0db-a7fd-4872-b825-be0c35672367",
+  "name": "Study 1: One Move Threats and No Plan",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "f"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to the chapter on bad habits! \n\nEverything from 1 move threats that lead nowhere, to playing without a plan, not paying attention to what your opponent wants all the way to meaningless trades!\n\nThis first game was sent by one of my subscribers. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/game/live/57404876017",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3qr1k/1p2pp1p/p1pp2pQ/3P4/4P3/3P3P/PP2NP2/1K3BR1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1I": {
+        "adjacentNodeIds": [
+          "zI"
+        ],
+        "comments": [
+          {
+            "text": "And White got rid of the pawn tension.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r1k/1p2pp1p/p1Pp2r1/6pN/4P1R1/3P3P/PP3P2/1K3B2 b - - 0 7",
+        "parentNodeId": "Gt",
+        "san": "dxc6"
+      },
+      "3S": {
+        "adjacentNodeIds": [
+          "mj"
+        ],
+        "comments": [
+          {
+            "text": "But Black overprotected the g5 pawn.\n\nOverprotection is good when actual other pieces can potentially attack the pawn or piece that is being overprotected. In this case however, there's not like another rook coming to g1 or anything really.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r1k/4p2p/p1pp1pr1/6pN/1P2P1R1/3P3P/P4P2/1K3B2 w - - 0 9",
+        "parentNodeId": "gC",
+        "san": "f6"
+      },
+      "5H": {
+        "adjacentNodeIds": [
+          "Gt"
+        ],
+        "comments": [
+          {
+            "text": "This allowed the queen trade. \n\nAgain, Black missed an easy win with Rg6 earlier.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4Q1k/1p2pp1p/p1pp2r1/3P2pN/4P1R1/3P3P/PP3P2/1K3B2 b - - 0 6",
+        "parentNodeId": "I2",
+        "san": "Qxf8+"
+      },
+      "7G": {
+        "adjacentNodeIds": [
+          "DH"
+        ],
+        "comments": [
+          {
+            "text": "The best move is actually to retreat back to where the knight came from...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5qk/1p2pprp/p1pp3Q/3P2p1/4P1R1/3P3P/PP2NP2/1K3B2 b - - 3 5",
+        "parentNodeId": "Ey",
+        "san": "Ne2"
+      },
+      "8g": {
+        "adjacentNodeIds": [
+          "Ll",
+          "Hd"
+        ],
+        "comments": [
+          {
+            "text": "The fork was indeed played.\n\nA one move threat that was surely played without considering Rg4 or Nh5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3q2k/1p2pprp/p1pp3Q/3P2p1/4PN1R/3P3P/PP3P2/1K3B2 w - - 0 4",
+        "parentNodeId": "ma",
+        "san": "g5"
+      },
+      "Ab": {
+        "adjacentNodeIds": [
+          "q1"
+        ],
+        "comments": [
+          {
+            "text": "Black should have taken advantage of White's mindless play.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1r5k/4pp1p/p1pp2r1/6pN/1P2P1R1/3P3P/P4P2/1K3B2 w - - 1 9",
+        "parentNodeId": "gC",
+        "san": "Rb8"
+      },
+      "D": {
+        "adjacentNodeIds": [
+          "w",
+          "UW"
+        ],
+        "comments": [
+          {
+            "text": "Black sees the one move threat.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-h4",
+                "g8-g7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3q1rk/1p2pp1p/p1pp2pQ/3P4/4P1R1/3P3P/PP2NP2/1K3B2 w - - 3 2",
+        "parentNodeId": "f",
+        "san": "Rg8"
+      },
+      "DH": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And Black can now damage the structure. \n\nIn conclusion, Rh4 and Nf4 weren't worth it! \n\nAt the same time, g5 wasn't winning for Black as they supposed it would be. Each side needs to consider their prospects long term! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5qk/1p2pprp/p2p3Q/3p2p1/4P1R1/3P3P/PP2NP2/1K3B2 w - - 0 6",
+        "parentNodeId": "7G",
+        "san": "cxd5"
+      },
+      "Ey": {
+        "adjacentNodeIds": [
+          "7G"
+        ],
+        "comments": [
+          {
+            "text": "So after Qg8, defending the g5 pawn...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5qk/1p2pprp/p1pp3Q/3P2p1/4PNR1/3P3P/PP3P2/1K3B2 w - - 2 5",
+        "parentNodeId": "Hd",
+        "san": "Qg8"
+      },
+      "Gt": {
+        "adjacentNodeIds": [
+          "1I"
+        ],
+        "comments": [
+          {
+            "text": "Black traded...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r1k/1p2pp1p/p1pp2r1/3P2pN/4P1R1/3P3P/PP3P2/1K3B2 w - - 0 7",
+        "parentNodeId": "5H",
+        "san": "Rxf8"
+      },
+      "HL": {
+        "adjacentNodeIds": [
+          "Tk"
+        ],
+        "comments": [
+          {
+            "text": "Black saw a one move defense.\n\nInstead, Rg6 was winning.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4q1k/1p2pprp/p1pp3Q/3P2pN/4P2R/3P3P/PP3P2/1K3B2 w - - 2 5",
+        "parentNodeId": "Ll",
+        "san": "Qf8"
+      },
+      "Hd": {
+        "adjacentNodeIds": [
+          "It",
+          "Ey"
+        ],
+        "comments": [
+          {
+            "text": "This move refutes g5.\n\nThe pawn cannot take anymore...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3q2k/1p2pprp/p1pp3Q/3P2p1/4PNR1/3P3P/PP3P2/1K3B2 b - - 1 4",
+        "parentNodeId": "8g",
+        "san": "Rg4"
+      },
+      "I2": {
+        "adjacentNodeIds": [
+          "5H"
+        ],
+        "comments": [
+          {
+            "text": "Black got their rook out of danger...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4q1k/1p2pp1p/p1pp2rQ/3P2pN/4P1R1/3P3P/PP3P2/1K3B2 w - - 4 6",
+        "parentNodeId": "Tk",
+        "san": "Rg6"
+      },
+      "It": {
+        "adjacentNodeIds": [
+          "KW"
+        ],
+        "comments": [
+          {
+            "text": "If Black takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3q2k/1p2pprp/p1pp3Q/3P4/4PpR1/3P3P/PP3P2/1K3B2 w - - 0 5",
+        "parentNodeId": "Hd",
+        "san": "gxf4"
+      },
+      "KW": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Checkmate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3q2k/1p2ppQp/p1pp4/3P4/4PpR1/3P3P/PP3P2/1K3B2 b - - 0 5",
+        "parentNodeId": "It",
+        "san": "Qxg7#"
+      },
+      "Kr": {
+        "adjacentNodeIds": [
+          "sM"
+        ],
+        "comments": [
+          {
+            "text": "Black has great pressure and is probably winning a pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r5k/4pp1p/p2p2r1/2p3pN/1P2P1R1/P2P3P/5P2/1K3B2 w - - 0 10",
+        "parentNodeId": "q1",
+        "san": "c5"
+      },
+      "Ll": {
+        "adjacentNodeIds": [
+          "HL",
+          "s3"
+        ],
+        "comments": [
+          {
+            "text": "And White in fact jumped the knight into h5! \n\nA one move threat! \n\nBut one move threats often have one move solutions...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h6-g7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3q2k/1p2pprp/p1pp3Q/3P2pN/4P2R/3P3P/PP3P2/1K3B2 b - - 1 4",
+        "parentNodeId": "8g",
+        "san": "Nh5"
+      },
+      "MX": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "A good plan is always to improve your worst pieces. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r1k/4pp1p/p1pp2r1/6pN/4P1R1/3P3P/PP2BP2/1K6 b - - 1 8",
+        "parentNodeId": "zI",
+        "san": "Be2"
+      },
+      "P0": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Of course, Black only had to capture, which, to their credit, they did. \n\nWe saw many back and forth examples of playing without a plan, one move threats that could be easily refuted. \n\nDon't imitate these habits! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r1k/4p2p/2pp1pr1/1p4pN/4P1R1/3P3P/P4P2/1K3B2 w - - 0 10",
+        "parentNodeId": "mj",
+        "san": "axb5"
+      },
+      "Tk": {
+        "adjacentNodeIds": [
+          "I2"
+        ],
+        "comments": [
+          {
+            "text": "The rook attacked g5...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4q1k/1p2pprp/p1pp3Q/3P2pN/4P1R1/3P3P/PP3P2/1K3B2 b - - 3 5",
+        "parentNodeId": "HL",
+        "san": "Rg4"
+      },
+      "Tt": {
+        "adjacentNodeIds": [
+          "ma"
+        ],
+        "comments": [
+          {
+            "text": "So Black simply defended.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3q2k/1p2pprp/p1pp2pQ/3P4/4P2R/3P3P/PP2NP2/1K3B2 w - - 5 3",
+        "parentNodeId": "w",
+        "san": "Rg7"
+      },
+      "UW": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Something like Nc3, protecting d5 was more productive.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3q1rk/1p2pp1p/p1pp2pQ/3P4/4P1R1/2NP3P/PP3P2/1K3B2 b - - 4 2",
+        "parentNodeId": "D",
+        "san": "Nc3"
+      },
+      "WX": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black wins a pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r5k/4pp1p/p5r1/2p1p1pN/1P4R1/P2P3P/5P2/1K3B2 w - - 0 11",
+        "parentNodeId": "sM",
+        "san": "dxe5"
+      },
+      "f": {
+        "adjacentNodeIds": [
+          "D"
+        ],
+        "comments": [
+          {
+            "text": "Now, Rg4 isn't the type of moves we signed up to see in this chapter.\n\nIn fact, Rg4 is a good move.\n\nSure the checkmate threat with Rh4 can be defended, but it makes Black worsen their rook to do so! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3qr1k/1p2pp1p/p1pp2pQ/3P4/4P1R1/3P3P/PP2NP2/1K3B2 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Rg4"
+      },
+      "gC": {
+        "adjacentNodeIds": [
+          "3S",
+          "Ab"
+        ],
+        "comments": [
+          {
+            "text": "And now b4, losing a pawn and pushing without a plan! \n\nThis move was played without considering Rb8 from Black as a response.\n\nWhat should White's plan be at this stage?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r1k/4pp1p/p1pp2r1/6pN/1P2P1R1/3P3P/P4P2/1K3B2 b - b3 0 8",
+        "parentNodeId": "zI",
+        "san": "b4"
+      },
+      "ma": {
+        "adjacentNodeIds": [
+          "8g"
+        ],
+        "comments": [
+          {
+            "text": "Now White played Nf4! \n\nThis walks straight into a fork with g5. \n\nBefore playing a move like this, one needs to consider: what can my opponent do in response? \n\nAs Black, with this position on the board, you should ask yourself: if I go g5, and White goes Nh5, am I losing? \n\nAgain, as Black: if I go g5, and White goes Rg4, was g5 any good? ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3q2k/1p2pprp/p1pp2pQ/3P4/4PN1R/3P3P/PP3P2/1K3B2 b - - 6 3",
+        "parentNodeId": "Tt",
+        "san": "Nf4"
+      },
+      "mj": {
+        "adjacentNodeIds": [
+          "P0"
+        ],
+        "comments": [
+          {
+            "text": "And finally b5, voluntarily just giving up a pawn, is the final move we'll dissect.\n\nThere's no reason to do this. At all. \n\nThere's no pressure, no lines being opened. Nothing.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r1k/4p2p/p1pp1pr1/1P4pN/4P1R1/3P3P/P4P2/1K3B2 b - - 0 9",
+        "parentNodeId": "3S",
+        "san": "b5"
+      },
+      "q1": {
+        "adjacentNodeIds": [
+          "Kr"
+        ],
+        "comments": [
+          {
+            "text": "Should White defend...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r5k/4pp1p/p1pp2r1/6pN/1P2P1R1/P2P3P/5P2/1K3B2 b - - 0 9",
+        "parentNodeId": "Ab",
+        "san": "a3"
+      },
+      "s3": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "This move removes the rook from attack, and traps the queen. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3q2k/1p2pp1p/p1pp2rQ/3P2pN/4P2R/3P3P/PP3P2/1K3B2 w - - 2 5",
+        "parentNodeId": "Ll",
+        "san": "Rg6"
+      },
+      "sM": {
+        "adjacentNodeIds": [
+          "WX"
+        ],
+        "comments": [
+          {
+            "text": "If giving up a pawn is your defense to defending a pawn, you're in bad shape! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r5k/4pp1p/p2p2r1/2p1P1pN/1P4R1/P2P3P/5P2/1K3B2 b - - 0 10",
+        "parentNodeId": "Kr",
+        "san": "e5"
+      },
+      "w": {
+        "adjacentNodeIds": [
+          "Tt"
+        ],
+        "comments": [
+          {
+            "text": "And I assume White saw the defense, but they went to h4 anyway?\n\nIf your opponent can defend, it is only useful to make them defend up to a certain point. \n\nIn this position, something like Nc3, improving the knight, would have been better. \n\nIt is not positionally better to have the White rook placed on h4 just for a one move threat. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3q1rk/1p2pp1p/p1pp2pQ/3P4/4P2R/3P3P/PP2NP2/1K3B2 b - - 4 2",
+        "parentNodeId": "D",
+        "san": "Rh4"
+      },
+      "zI": {
+        "adjacentNodeIds": [
+          "gC",
+          "MX"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r1k/4pp1p/p1pp2r1/6pN/4P1R1/3P3P/PP3P2/1K3B2 w - - 0 8",
+        "parentNodeId": "1I",
+        "san": "bxc6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

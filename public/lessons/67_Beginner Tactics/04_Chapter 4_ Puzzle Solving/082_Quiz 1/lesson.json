@@ -1,0 +1,71 @@
+{
+  "id": "aa2b4108-8b12-4570-adbe-3fabaf2690d1",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White captures a pawn on e4. \n\nCan you capture on e4, or can something bad happen if you do?",
+    "answers": [
+      {
+        "text": "There's something even worse than Bxd7+.",
+        "feedback": {
+          "text": "That's right. If Qxe4, White can play Re1, pinning and winning your queen.",
+          "arrows": {
+            "threats": [
+              "e7-e4",
+              "f1-e1"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e4",
+              "e1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes something bad can happen. If Qxe4, Bxd7+, and Black loses castling rights. \n\nThe king will be weak.",
+        "feedback": {
+          "text": "Are you sure that's the worse thing that could happen?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r3k2r/pp1nq1pp/8/1BpP4/4p3/2P5/PP1N1PPP/R2Q1RK1 w kq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e7-e4"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "e4"
+      ]
+    },
+    "contextMove": {
+      "san": "Nxe4",
+      "afterMoveFen": "r3k2r/pp1nq1pp/8/1BpP4/4N3/2P5/PP3PPP/R2Q1RK1 b kq - 0 1"
+    }
+  },
+  "drill": null
+}

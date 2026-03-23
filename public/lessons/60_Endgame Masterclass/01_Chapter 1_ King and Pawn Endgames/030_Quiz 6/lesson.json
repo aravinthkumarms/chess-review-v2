@@ -1,0 +1,86 @@
+{
+  "id": "9eba8606-169a-4683-8da5-70c78eafc877",
+  "name": "Quiz 6",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black played ...b2. Kc2 is practically forced. \n\nWho would you say wins?",
+    "answers": [
+      {
+        "text": "Black is winning.",
+        "feedback": {
+          "text": "Believe it or not, after Kc2 there's d3+. If Kxb2, there's ...d2.",
+          "arrows": {
+            "threats": [
+              "d4-d3"
+            ],
+            "opportunities": [
+              "d2-c2"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is winning because the king can catch the b-pawn and White's pawn on e6 cannot be stopped.",
+        "feedback": {
+          "text": "Are you sure Black doesn't have a way to queen first using the d-pawn as well?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It should be a draw because both sides will make a queen.",
+        "feedback": {
+          "text": "If both sides make a queen, it's actually Black who's winning because Black has more pawns. Any queen trade will win for Black.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e6-e7",
+              "b2-b1",
+              "e7-e8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/4P1p1/p7/P2p1p2/1p3k2/3K4/8 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d2-c2"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "b2",
+      "afterMoveFen": "8/8/4P1p1/p7/P2p1p2/5k2/1p1K4/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

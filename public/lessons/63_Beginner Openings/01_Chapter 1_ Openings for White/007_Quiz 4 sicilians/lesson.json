@@ -1,0 +1,83 @@
+{
+  "id": "cf4b15fe-9ca6-45c9-a7f6-3c83c13cb041",
+  "name": "Quiz 4 sicilians",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays the Sicilian. \n\nWhat second moves do you remember?",
+    "answers": [
+      {
+        "text": "d4",
+        "feedback": {
+          "text": "This leads to the Smith-Morra Gambit! Can you find another as well?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "rnbqkbnr/pp1ppppp/8/2p5/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2"
+      },
+      {
+        "text": "Nf3",
+        "feedback": {
+          "text": "You prepare d4! Great!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d2-d4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+      },
+      {
+        "text": "c3",
+        "feedback": {
+          "text": "Another move that prepares d4 known as the Alapin.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d2-d4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/2P5/PP1P1PPP/RNBQKBNR b KQkq - 0 2"
+      },
+      {
+        "text": "Nc3",
+        "feedback": {
+          "text": "This leads to the closed Sicilian. Can you find more moves?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you find moves that lead to the Closed Sicilian or Alapin, for example?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "c5",
+      "afterMoveFen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq c6 0 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,43 @@
+{
+  "id": "d79afa07-dcb0-4572-a578-9c1e2d8a806b",
+  "name": "Quiz: Attacking 2",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Which pieces is the bishop on d4 attacking?",
+    "answers": [
+      {
+        "text": "f2-a1",
+        "feedback": {
+          "text": "Good job! Your bishop is only attacking two pieces, the rook on f2 and the rook on a1.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Look at both the bishop's diagonals!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1b1r1k1/ppp2ppp/3p1q2/8/3bPP2/1B6/P4RPP/RN2Q2K w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nd2",
+      "afterMoveFen": "r1b1r1k1/ppp2ppp/3p1q2/8/3bPP2/1B6/P2N1RPP/R3Q2K b - - 2 1"
+    }
+  },
+  "drill": null
+}

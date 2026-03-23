@@ -1,0 +1,81 @@
+{
+  "id": "042655da-e089-4546-b32c-552b2a5716fb",
+  "name": "Quiz 3 knight",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Let's make some moves with the knight! \n\nCan you practice moving the knight on f1 to another square?",
+    "answers": [
+      {
+        "text": "Nd2",
+        "feedback": {
+          "text": "Great job! The knight moves like an L, and this L can be one square up or down and two sideways, or two squares up or down and one sideways.\n\nThere are more moves. Try to find more!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "4k3/2p2pbp/3pn1p1/2p5/2P3P1/1P1P3P/3N1PB1/6K1 b - - 3 2"
+      },
+      {
+        "text": "Ne3",
+        "feedback": {
+          "text": "Awesome! This is a valid knight move as well! Just like an L shape.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "4k3/2p2pbp/3pn1p1/2p5/2P3P1/1P1PN2P/5PB1/6K1 b - - 3 2"
+      },
+      {
+        "text": "Ng3",
+        "feedback": {
+          "text": "A knight L-shaped jump! Great job!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "4k3/2p2pbp/3pn1p1/2p5/2P3P1/1P1P2NP/5PB1/6K1 b - - 3 2"
+      },
+      {
+        "text": "Nh2",
+        "feedback": {
+          "text": "There are 4 legal moves with the knight, and this is one of them. An L-shape with the knight!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "4k3/2p2pbp/3pn1p1/2p5/2P3P1/1P1P3P/5PBN/6K1 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you move the knight like an L-shape?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4k2b/2p2p1p/3pn1p1/2p5/2P3P1/1P1P3P/5PB1/5NK1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": []
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "f1"
+      ]
+    },
+    "contextMove": {
+      "san": "Bg7",
+      "afterMoveFen": "4k3/2p2pbp/3pn1p1/2p5/2P3P1/1P1P3P/5PB1/5NK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

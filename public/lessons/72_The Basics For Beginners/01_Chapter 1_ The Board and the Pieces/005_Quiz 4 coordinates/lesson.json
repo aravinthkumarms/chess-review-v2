@@ -1,0 +1,79 @@
+{
+  "id": "099106b5-e354-446e-978c-b6722d2500c1",
+  "name": "Quiz 4 coordinates",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "If we count the pawns, we can see that each side has 7 pawns now.\n\nThe \"columns\" on a chess board are called files, and the \"rows\" are called ranks.\n\nCould you say which file each side is missing a pawn from?",
+    "answers": [
+      {
+        "text": "White is missing a pawn from the e-file, and Black is missing a pawn from the c-file.",
+        "feedback": {
+          "text": "Excellent! Those pawns used to be on e2 and c7, but now they are gone.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c7"
+            ],
+            "opportunities": [
+              "e2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Both White and Black are missing a pawn from the d-file.",
+        "feedback": {
+          "text": "The pawns aren't missing; they just moved! They used to be on d2 and d7, but now they are on d4 and d5.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d2-d4",
+              "d7-d5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White is missing a pawn from the a-file, and Black is missing a pawn from the h-file.",
+        "feedback": {
+          "text": "Both the pawns on a2 and h7 are still on the board.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "h7"
+            ],
+            "opportunities": [
+              "a2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkbnr/pp2pppp/2p5/3P4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "cxd5",
+      "afterMoveFen": "rnbqkbnr/pp2pppp/8/3p4/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 2"
+    }
+  },
+  "drill": null
+}

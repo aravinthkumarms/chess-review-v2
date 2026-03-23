@@ -1,0 +1,81 @@
+{
+  "id": "111b303d-c7ad-41ab-baad-392028b974d9",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Sometimes, you can pin a piece in order to trade it. \n\nIs it a good idea to force a trade with Re7?",
+    "answers": [
+      {
+        "text": "Yes, because the endgame is winning.",
+        "feedback": {
+          "text": "That's right! ...Rxe7, Bxe7, and then you can march your king to f3 to win that pawn, while holding on to the d-pawn as well.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e6-e7",
+              "d7-e7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, because White is losing if this happens.",
+        "feedback": {
+          "text": "Are you sure? Are you down material?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, because trading makes things very easy to draw for Black.",
+        "feedback": {
+          "text": "This is not the case. Black cannot defend the f3-pawn ever.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/1k3r1p/4R3/2BP4/1K4P1/5p1P/5P2/2b5 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e6-e7"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Rd7",
+      "afterMoveFen": "8/1k1r3p/4R3/2BP4/1K4P1/5p1P/5P2/2b5 w - - 2 2"
+    }
+  },
+  "drill": null
+}

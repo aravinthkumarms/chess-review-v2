@@ -1,0 +1,69 @@
+{
+  "id": "c1345722-fb2c-4ee9-a562-7858b6884c5b",
+  "name": "Quiz 5",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks your knight on e5. \n\nNd3 & Ng4 are the natural moves, but is there something wrong with throwing in the intermezzo Bxe4?",
+    "answers": [
+      {
+        "text": "Yes, the e5-knight isn’t safe.",
+        "feedback": {
+          "text": "That's right! Bxe4 wouldn't be a good idea since the e5-knight would simply get trapped in the center after ...dxe4.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, there’s nothing wrong.",
+        "feedback": {
+          "text": "This isn't quite right. The intermezzo actually loses a full piece for White!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes. White's bishop is worth more than Black's e4-knight.",
+        "feedback": {
+          "text": "This is incorrect. The intermezzo is tactically flawed and White's bishop isn't worth more than Black's knight.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r4rk1/1pq2pp1/2p1p2p/p2pNb2/2PPnP2/1P2PB2/P5PP/R3QRK1 b - - 1 1",
+    "arrows": {
+      "threats": [
+        "f3-e4"
+      ],
+      "opportunities": []
+    },
+    "highlights": {
+      "threats": [
+        "e4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "f6",
+      "afterMoveFen": "r4rk1/1pq3p1/2p1pp1p/p2pNb2/2PPnP2/1P2PB2/P5PP/R3QRK1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

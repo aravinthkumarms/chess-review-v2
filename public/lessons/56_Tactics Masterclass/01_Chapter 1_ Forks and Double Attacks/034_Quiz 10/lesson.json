@@ -1,0 +1,56 @@
+{
+  "id": "6085bc7b-d137-4e23-af00-be0c26f58bb1",
+  "name": "Quiz 10",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black captures on a2.\n\nCan you find a way, as White, to fight back and stay in this game?",
+    "answers": [
+      {
+        "text": "Qb5",
+        "feedback": {
+          "text": "Excellent! We threaten checkmate on the back rank and attack the bishop at the same time. Black can't stop both threats.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e1-e8",
+              "b5-b7",
+              "h7-h6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g8",
+              "b7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r5k1/pb3ppp/3B1bn1/1Q6/8/8/q4PPP/3RR1K1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Think about Black's weaknesses, such as the back rank or the undefended bishop on b7.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r5k1/pb3ppp/3Bqbn1/7Q/8/8/P4PPP/3RR1K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qxa2",
+      "afterMoveFen": "r5k1/pb3ppp/3B1bn1/7Q/8/8/q4PPP/3RR1K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,57 @@
+{
+  "id": "3b2265a5-46e2-4dbd-884f-cf88d7a1cb05",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black pushes in the center. \n\nIs the Zwischenzug Bxa6 playable",
+    "answers": [
+      {
+        "text": "No, since Black captures on d4 with a tempo.",
+        "feedback": {
+          "text": "Exactly! White cannot go for Bxa6. That would lose a piece.",
+          "arrows": {
+            "threats": [
+              "d4-c3",
+              "f1-a6"
+            ],
+            "opportunities": [
+              "e5-d4",
+              "e5-c3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, since after Black plays ...bxa6, we'll jump to c6 with the knight.",
+        "feedback": {
+          "text": "Black doesn't have to recapture on a6. They have a different move in mind!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1b4r/pp3pkp/n3pnp1/3p4/3NP3/2N5/PPP2PPP/2KR1B1R b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f1-a6"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "e5",
+      "afterMoveFen": "r1b4r/pp3pkp/n4np1/3pp3/3NP3/2N5/PPP2PPP/2KR1B1R w - - 0 2"
+    }
+  },
+  "drill": null
+}

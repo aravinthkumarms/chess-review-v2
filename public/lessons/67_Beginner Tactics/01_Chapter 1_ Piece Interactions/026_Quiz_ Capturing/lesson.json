@@ -1,0 +1,71 @@
+{
+  "id": "b31d3f6a-f3cc-4c8f-b9dd-260b7c2e5d67",
+  "name": "Quiz: Capturing",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Your knight on f4 is attacking some of White's pieces. \n\nWhich one should you take?",
+    "answers": [
+      {
+        "text": "Nxe2",
+        "feedback": {
+          "text": "Yes! Great move! The queen is worth 9 points, the rook is worth 5, and the bishop is worth 3, so you should take the piece with the highest worth! ",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "taking the queen.",
+        "afterMoveFen": "3r4/pp2kp2/4pqp1/2P5/8/2P4B/PPK1n1R1/8 w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Nxg2",
+        "feedback": {
+          "text": "The rook is worth 5 points. \nIs that the highest value piece you can take? ",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "taking the rook.",
+        "afterMoveFen": "3r4/pp2kp2/4pqp1/2P5/8/2P4B/PPK1Q1n1/8 w - - 0 2"
+      },
+      {
+        "text": "Nxh3",
+        "feedback": {
+          "text": "The bishop is worth 3 points. \nIs that the highest value piece you can take? ",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "taking the bishop.",
+        "afterMoveFen": "3r4/pp2kp2/4pqp1/2P5/8/2P4n/PPK1Q1R1/8 w - - 0 2"
+      }
+    ],
+    "positionFen": "3r4/pp2kp2/4pqp1/2P5/5n2/2P4B/PP1KQ1R1/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kc2",
+      "afterMoveFen": "3r4/pp2kp2/4pqp1/2P5/5n2/2P4B/PPK1Q1R1/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

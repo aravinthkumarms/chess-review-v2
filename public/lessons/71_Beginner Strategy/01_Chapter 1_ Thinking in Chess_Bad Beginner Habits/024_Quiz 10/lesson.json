@@ -1,0 +1,62 @@
+{
+  "id": "b9b6b915-39a8-48e6-8525-be2c2344e30f",
+  "name": "Quiz 10",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has just played Qe8. \n\nIs there something very wrong with taking the queen?",
+    "answers": [
+      {
+        "text": "Be6",
+        "feedback": {
+          "text": "This move traps the queen and doesn't give White a win.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r3Qrk1/ppp2pbp/2n1b1p1/q7/3P4/2N2N2/PPP2PPP/R1B1R1K1 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rxe8",
+        "feedback": {
+          "text": "This move is losing right away. \n\nAfter Rxe8+, you have to block the check with your bishop.\n\nAfter blocking, Bh6 is killer.",
+          "arrows": {
+            "threats": [
+              "e1-e8"
+            ],
+            "opportunities": [
+              "g7-f8",
+              "c1-h6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1b1r1k1/ppp2pbp/2n3p1/q7/3P4/2N2N2/PPP2PPP/R1B1R1K1 w - - 0 2"
+      }
+    ],
+    "positionFen": "r1b2rk1/ppp1Qpbp/2n3p1/q7/3P4/2N2N2/PPP2PPP/R1B1R1K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qe8",
+      "afterMoveFen": "r1b1Qrk1/ppp2pbp/2n3p1/q7/3P4/2N2N2/PPP2PPP/R1B1R1K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

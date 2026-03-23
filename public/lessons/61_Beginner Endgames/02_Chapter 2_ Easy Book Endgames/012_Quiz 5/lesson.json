@@ -1,0 +1,58 @@
+{
+  "id": "bbebc2f4-6b9e-4316-bec8-b358962358ed",
+  "name": "Quiz 5 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black makes a new queen. \n\nIt is White to move. How should this game end?",
+    "answers": [
+      {
+        "text": "It's a draw.",
+        "feedback": {
+          "text": "h7 and it's a draw. The pawn is already very close to the corner, and so is the king.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h6-h7"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It's a win for Black, but it's difficult.",
+        "feedback": {
+          "text": "Are you sure?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black has a checkmate in three moves.",
+        "feedback": {
+          "text": "Where? The queen doesn't have help!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/6K1/7P/8/8/8/4kp2/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "f1=Q",
+      "afterMoveFen": "8/6K1/7P/8/8/8/4k3/5q2 w - - 0 2"
+    }
+  },
+  "drill": null
+}

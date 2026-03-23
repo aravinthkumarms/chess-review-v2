@@ -1,0 +1,96 @@
+{
+  "id": "6c413657-9489-4332-aff2-0bd27cc898b9",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black declines the sacrifice!\n\nHow should you proceed?",
+    "answers": [
+      {
+        "text": "f8=Q+",
+        "feedback": {
+          "text": "That's correct! \n\nNext, you'll get the opposition on f6 and soon pick up Black's pawns.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e7-f8",
+              "e5-f6",
+              "f6-g6",
+              "g6-h6",
+              "h6-g5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h6",
+              "g5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "insisting on sacrificing the pawn.",
+        "afterMoveFen": "5Q2/4k3/7p/4K1pP/8/5P2/8/8 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kf5",
+        "feedback": {
+          "text": "This way Black can get the opposition.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "getting closer to the pawns.",
+        "afterMoveFen": "8/4kP2/7p/5KpP/8/5P2/8/8 b - - 3 2"
+      },
+      {
+        "text": "f4",
+        "feedback": {
+          "text": "You don't have to trade pawns!\n\nAlso, Black can push g4 here.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "pushing.",
+        "afterMoveFen": "8/4kP2/7p/4K1pP/5P2/8/8/8 b - - 0 2"
+      },
+      {
+        "text": "Kd5",
+        "feedback": {
+          "text": "What other way?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "trying to go the other way.",
+        "afterMoveFen": "8/4kP2/7p/3K2pP/8/5P2/8/8 b - - 3 2"
+      }
+    ],
+    "positionFen": "5k2/5P2/7p/4K1pP/8/5P2/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke7",
+      "afterMoveFen": "8/4kP2/7p/4K1pP/8/5P2/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

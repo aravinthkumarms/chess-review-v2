@@ -1,0 +1,1395 @@
+{
+  "id": "ed0cb6d2-c6ce-4a51-b07a-e702f074850b",
+  "name": "Study 2: Yanofsky vs Pinkus, 1942",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "n"
+        ],
+        "comments": [
+          {
+            "text": "This was a game between Daniel A. Yanofsky and Albert Pinkus in 1942.\n\nThis position arose after 40 moves. The material is equal - both sides have a light-squared bishop & knight but White has the space advantage and White's pieces are more active.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1150077",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p1nb3p/3k1pp1/3p4/PK1N3P/3BP3/5PP1/8 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "5p": {
+        "adjacentNodeIds": [
+          "pe"
+        ],
+        "comments": [
+          {
+            "text": "Yanofski pushed his h-pawn, creating some pawn tension on the kingside.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h4-h5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/2k3p1/3p1p1P/PK1P1P2/6P1/4B3/8 b - - 0 9",
+        "parentNodeId": "wR",
+        "san": "h5"
+      },
+      "7": {
+        "adjacentNodeIds": [
+          "x"
+        ],
+        "comments": [
+          {
+            "text": "Yanofsky offered to trade the bishops.\n\nIf Black were to trade w/...Bxb5 White would recapture Nxb5+, winning a7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p2b3p/3knpp1/1B1p4/PK1N3P/4P3/5PP1/8 b - - 3 2",
+        "parentNodeId": "n",
+        "san": "Bb5"
+      },
+      "7F": {
+        "adjacentNodeIds": [
+          "Pp"
+        ],
+        "comments": [
+          {
+            "text": "White would advance the d-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/K1k5/P3B1b1/3P1p1p/5P2/6P1/8/8 b - - 0 29",
+        "parentNodeId": "t0",
+        "san": "d5"
+      },
+      "7Y": {
+        "adjacentNodeIds": [
+          "rl",
+          "8B"
+        ],
+        "comments": [
+          {
+            "text": "There's no need to rush with capturing the h5-pawn - Yanofsky advanced a6. \n\nPinkus resigned, but let's see how White would win this position...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4B3/K1k5/P3b3/3p1p1p/3P1P2/6P1/8/8 b - - 0 25",
+        "parentNodeId": "OS",
+        "san": "a6"
+      },
+      "7e": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White would simply win d5 with Kc5.\n\nThe king and pawn endgame is easily winning for White with the extra pawn and with the far more active king.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c5-d5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/p1k4p/5pp1/2Kp4/P2P3P/8/5PP1/8 b - - 2 5",
+        "parentNodeId": "Ps",
+        "san": "Kc5"
+      },
+      "8B": {
+        "adjacentNodeIds": [
+          "JT"
+        ],
+        "comments": [
+          {
+            "text": "Black could've also gone ...Bg8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4B1b1/K1k5/P7/3p1p1p/3P1P2/6P1/8/8 w - - 1 26",
+        "parentNodeId": "7Y",
+        "san": "Bg8"
+      },
+      "8r": {
+        "adjacentNodeIds": [
+          "pt"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus advanced his f-pawn with the idea to \"neutralize\" White's bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/3k2p1/3p1p2/PK1P3P/3B4/5PP1/8 w - - 0 5",
+        "parentNodeId": "ZM",
+        "san": "f5"
+      },
+      "8t": {
+        "adjacentNodeIds": [
+          "UH"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus went ...Bb7. He is just waiting and keeping an eye on the a6-square.\n\nThe issue is that waiting won't work...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/pb5p/3k4/PK1p1p2/3P1P2/6P1/4B3/8 w - - 9 16",
+        "parentNodeId": "iw",
+        "san": "Bb7"
+      },
+      "9o": {
+        "adjacentNodeIds": [
+          "Ps"
+        ],
+        "comments": [
+          {
+            "text": "White would recapture with the king.\n\nThe imminent threat is Ka6-Kxa7...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b5-a6",
+                "a6-a7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/p6p/3k1pp1/1K1p4/P2P3P/8/5PP1/8 b - - 0 4",
+        "parentNodeId": "cX",
+        "san": "Kxb5"
+      },
+      "AR": {
+        "adjacentNodeIds": [
+          "iJ"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus went ...Kb6 with the idea to prevent White's king from advancing.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/1k6/3p1p1B/PK1P1P2/6P1/8/8 w - - 1 11",
+        "parentNodeId": "NN",
+        "san": "Kb6"
+      },
+      "Av": {
+        "adjacentNodeIds": [
+          "wR"
+        ],
+        "comments": [
+          {
+            "text": "Yanofsky slid his bishop back to e2.\n\nThe idea is to advance the h-pawn and chip away at Black's structure.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h4-h5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/3k2p1/3p1p2/PK1P1P1P/6P1/4B3/8 b - - 4 8",
+        "parentNodeId": "e0",
+        "san": "Be2"
+      },
+      "E5": {
+        "adjacentNodeIds": [
+          "VF"
+        ],
+        "comments": [
+          {
+            "text": "Yanofsky kept on waiting with Bd3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p7/3k3p/PK1p1p2/3P1P2/3B2P1/8/8 b - - 1 18",
+        "parentNodeId": "zO",
+        "san": "Bd3"
+      },
+      "Iz": {
+        "adjacentNodeIds": [
+          "f7"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus moved the king back to c7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/K1k5/8/P2p1p1p/B2P1P2/6P1/8/8 w - - 4 24",
+        "parentNodeId": "bw",
+        "san": "Kc7"
+      },
+      "JT": {
+        "adjacentNodeIds": [
+          "Tk",
+          "wA"
+        ],
+        "comments": [
+          {
+            "text": "White would then have the brilliant winning resource Bd7 - attacking the f-pawn and sacrificing the bishop in order to deflect away Black's king!",
+            "arrows": {
+              "threats": [
+                "d7-f5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6b1/K1kB4/P7/3p1p1p/3P1P2/6P1/8/8 b - - 2 26",
+        "parentNodeId": "8B",
+        "san": "Bd7"
+      },
+      "KU": {
+        "adjacentNodeIds": [
+          "nO"
+        ],
+        "comments": [
+          {
+            "text": "And Yanofski moved his king into b5.\n\nWhite is making steady progress and Black's position is incredibly passive.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b1B3/p6p/3k4/PK1p1p2/3P1P2/6P1/8/8 b - - 4 13",
+        "parentNodeId": "nb",
+        "san": "Kb5"
+      },
+      "KX": {
+        "adjacentNodeIds": [
+          "wF"
+        ],
+        "comments": [
+          {
+            "text": "Yanofsky retreated his bishop to h5.\n\nHis plan is now to reroute the bishop to a better diagonal from which it will be able to pressure Black's pawns.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-e2",
+                "e2-d1",
+                "d1-c2",
+                "c2-b3",
+                "e2-d3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/p3k2p/8/PK1p1p1B/3P1P2/6P1/8/8 b - - 6 14",
+        "parentNodeId": "nO",
+        "san": "Bh5"
+      },
+      "Kb": {
+        "adjacentNodeIds": [
+          "xC"
+        ],
+        "comments": [
+          {
+            "text": "But the bishop gave up control over the a6-square & Yanofsky went Ka6.\n\nThe a7-pawn cannot be defended!",
+            "arrows": {
+              "threats": [
+                "a6-a7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p2b4/K2k3p/P2p1p2/3P1P2/3B2P1/8/8 b - - 3 19",
+        "parentNodeId": "VF",
+        "san": "Ka6"
+      },
+      "Kv": {
+        "adjacentNodeIds": [
+          "ZM"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus declined the trade with ...Bc8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/3k1pp1/1B1p4/PK1P3P/8/5PP1/8 w - - 1 4",
+        "parentNodeId": "qQ",
+        "san": "Bc8"
+      },
+      "NN": {
+        "adjacentNodeIds": [
+          "AR"
+        ],
+        "comments": [
+          {
+            "text": "And Yanofsky recaptured.\n\nThe light/dark-squared pawns can be  a blessing and a curse in same color bishop endgames - they either nicely limit the movement of the opposing bishop or are weaknesses which the opposing bishop is able to target.\n\nTake a look at Black's structure - there are three isolated light-squared pawns which White is going to look to target.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h7",
+                "d5",
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/2k5/3p1p1B/PK1P1P2/6P1/8/8 b - - 0 10",
+        "parentNodeId": "pe",
+        "san": "Bxh5"
+      },
+      "OS": {
+        "adjacentNodeIds": [
+          "7Y"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus played on with ...Be6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4B3/K1k5/4b3/P2p1p1p/3P1P2/6P1/8/8 w - - 6 25",
+        "parentNodeId": "f7",
+        "san": "Be6"
+      },
+      "OW": {
+        "adjacentNodeIds": [
+          "cH"
+        ],
+        "comments": [
+          {
+            "text": "If Black were to defend the pawn...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d6-d5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/K4B2/P2k4/3p1p1p/3P1P2/6P1/8/8 w - - 3 27",
+        "parentNodeId": "yA",
+        "san": "Kd6"
+      },
+      "Pp": {
+        "adjacentNodeIds": [
+          "kc"
+        ],
+        "comments": [
+          {
+            "text": "If Black now waits with the bishop...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/K1k4b/P3B3/3P1p1p/5P2/6P1/8/8 w - - 1 30",
+        "parentNodeId": "7F",
+        "san": "Bh7"
+      },
+      "Ps": {
+        "adjacentNodeIds": [
+          "7e"
+        ],
+        "comments": [
+          {
+            "text": "And if Black were to go back with the king, looking to meet Ka6 with ...Kb8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p1k4p/5pp1/1K1p4/P2P3P/8/5PP1/8 w - - 1 5",
+        "parentNodeId": "9o",
+        "san": "Kc7"
+      },
+      "RZ": {
+        "adjacentNodeIds": [
+          "k8"
+        ],
+        "comments": [
+          {
+            "text": "Black has nothing better than ...Bd7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/K1kb1B2/P7/3p1p1p/3P1P2/6P1/8/8 w - - 3 27",
+        "parentNodeId": "yA",
+        "san": "Bd7"
+      },
+      "TM": {
+        "adjacentNodeIds": [
+          "nT"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus defended the pawn with ...Bc8.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c8-f5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/3k4/PK1p1p2/3P1P2/3B2P1/8/8 w - - 11 17",
+        "parentNodeId": "UH",
+        "san": "Bc8"
+      },
+      "Tk": {
+        "adjacentNodeIds": [
+          "t9"
+        ],
+        "comments": [
+          {
+            "text": "And if Black were to defend f5...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h7-f5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/K1kB3b/P7/3p1p1p/3P1P2/6P1/8/8 w - - 3 27",
+        "parentNodeId": "JT",
+        "san": "Bh7"
+      },
+      "UH": {
+        "adjacentNodeIds": [
+          "TM"
+        ],
+        "comments": [
+          {
+            "text": "Yanofski attacked the f5-pawn w/Bd3.",
+            "arrows": {
+              "threats": [
+                "d3-f5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/pb5p/3k4/PK1p1p2/3P1P2/3B2P1/8/8 b - - 10 16",
+        "parentNodeId": "8t",
+        "san": "Bd3"
+      },
+      "VF": {
+        "adjacentNodeIds": [
+          "Kb"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus gave a check with his bishop.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p2b4/3k3p/PK1p1p2/3P1P2/3B2P1/8/8 w - - 2 19",
+        "parentNodeId": "E5",
+        "san": "Bd7+"
+      },
+      "VU": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And White moves the king into b6.\n\nThere is no way to stop the a-pawn!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a6-a7",
+                "a7-a8"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/7b/PK1kB3/5p1p/5P2/6P1/8/8 b - - 1 31",
+        "parentNodeId": "or",
+        "san": "Kb6"
+      },
+      "Yg": {
+        "adjacentNodeIds": [
+          "e0"
+        ],
+        "comments": [
+          {
+            "text": "Yanofsky offered to trade the bishops.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p2b3p/3k2p1/1B1p1p2/PK1P1P1P/6P1/8/8 b - - 2 7",
+        "parentNodeId": "o9",
+        "san": "Bb5"
+      },
+      "ZM": {
+        "adjacentNodeIds": [
+          "8r"
+        ],
+        "comments": [
+          {
+            "text": "Yanofsky slid the bishop back to d3.\n\nThe bishop now nicely monitors the movement of all of Black's pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/3k1pp1/3p4/PK1P3P/3B4/5PP1/8 b - - 2 4",
+        "parentNodeId": "Kv",
+        "san": "Bd3"
+      },
+      "bw": {
+        "adjacentNodeIds": [
+          "Iz"
+        ],
+        "comments": [
+          {
+            "text": "But Yanofsky checked the king w/Ba4.\n\nHis idea is to attack the h-pawn from the e8-square - the bishop is better placed on e8 than it is on d1 because it covers some important squares and prevents Black's king from activating.",
+            "arrows": {
+              "threats": [
+                "a4-c6",
+                "c6-e8",
+                "e8-h5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c6",
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/K7/2k5/P2p1p1p/B2P1P2/6P1/8/8 b - - 3 23",
+        "parentNodeId": "oy",
+        "san": "Ba4+"
+      },
+      "cH": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White would move the king into b6.\n\nThe a-pawn is ready to promote and Black will have to give up the bishop in order to stop that from happening.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a6-a7",
+                "a7-a8"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/5B2/PK1k4/3p1p1p/3P1P2/6P1/8/8 b - - 4 27",
+        "parentNodeId": "OW",
+        "san": "Kb6"
+      },
+      "cS": {
+        "adjacentNodeIds": [
+          "o9"
+        ],
+        "comments": [
+          {
+            "text": "Yanofsky supported his pawns w/g3.\n\nThere's no need to rush - Yanofsky is just slowly improving his position.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p6p/3kb1p1/3p1p2/PK1P1P1P/3B2P1/8/8 b - - 0 6",
+        "parentNodeId": "xW",
+        "san": "g3"
+      },
+      "cX": {
+        "adjacentNodeIds": [
+          "9o"
+        ],
+        "comments": [
+          {
+            "text": "If Black were to trade bishops...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p6p/3k1pp1/1b1p4/PK1P3P/8/5PP1/8 w - - 0 4",
+        "parentNodeId": "qQ",
+        "san": "Bxb5"
+      },
+      "e0": {
+        "adjacentNodeIds": [
+          "Av"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus declined the trade with ...Bc8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/3k2p1/1B1p1p2/PK1P1P1P/6P1/8/8 w - - 3 8",
+        "parentNodeId": "Yg",
+        "san": "Bc8"
+      },
+      "eG": {
+        "adjacentNodeIds": [
+          "kF"
+        ],
+        "comments": [
+          {
+            "text": "Yanofsky captured the a7-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/K1kb4/7p/P2p1p2/3P1P2/3B2P1/8/8 b - - 0 20",
+        "parentNodeId": "xC",
+        "san": "Kxa7"
+      },
+      "en": {
+        "adjacentNodeIds": [
+          "ia"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus moved his king over to c6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/2k5/P2p1p1B/1K1P1P2/6P1/8/8 w - - 1 12",
+        "parentNodeId": "iJ",
+        "san": "Kc6"
+      },
+      "f7": {
+        "adjacentNodeIds": [
+          "OS"
+        ],
+        "comments": [
+          {
+            "text": "Yanofski attacked the h-pawn w/Be8.",
+            "arrows": {
+              "threats": [
+                "e8-h5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b1B3/K1k5/8/P2p1p1p/3P1P2/6P1/8/8 b - - 5 24",
+        "parentNodeId": "Iz",
+        "san": "Be8"
+      },
+      "fK": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White would move the king into b6.\n\nThe a-pawn is unstoppable!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a6-a7",
+                "a7-a8"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "6b1/3k4/PK6/3p1p1p/3P1P2/6P1/8/8 b - - 1 27",
+        "parentNodeId": "wA",
+        "san": "Kb6"
+      },
+      "iJ": {
+        "adjacentNodeIds": [
+          "en"
+        ],
+        "comments": [
+          {
+            "text": "Yanofski gave a check with a5, forcing Black's king away from the b6-square.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/1k6/P2p1p1B/1K1P1P2/6P1/8/8 b - - 0 11",
+        "parentNodeId": "AR",
+        "san": "a5+"
+      },
+      "ia": {
+        "adjacentNodeIds": [
+          "nb"
+        ],
+        "comments": [
+          {
+            "text": "Yanofsky gave another check w/Be8.\n\nBlack's king is now simply forced to give up control over the b5-square.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b1B3/p6p/2k5/P2p1p2/1K1P1P2/6P1/8/8 b - - 2 12",
+        "parentNodeId": "en",
+        "san": "Be8+"
+      },
+      "iw": {
+        "adjacentNodeIds": [
+          "8t"
+        ],
+        "comments": [
+          {
+            "text": "Yanofski slid the bishop back to e2.\n\nBlack's position is totally hopeless. Any king move would allow Kc5 and the bishop has to stay guarding a6 in order to stop the king from infiltrating.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/3k4/PK1p1p2/3P1P2/6P1/4B3/8 b - - 8 15",
+        "parentNodeId": "wF",
+        "san": "Be2"
+      },
+      "k8": {
+        "adjacentNodeIds": [
+          "p8"
+        ],
+        "comments": [
+          {
+            "text": "White would capture the d5-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/K1kb4/P7/3B1p1p/3P1P2/6P1/8/8 b - - 0 27",
+        "parentNodeId": "RZ",
+        "san": "Bxd5"
+      },
+      "kF": {
+        "adjacentNodeIds": [
+          "tz"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus moved his bishop back to c8.\n\nThe idea is to \"jail\" White's king and make it difficult to make progress.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/K1k5/7p/P2p1p2/3P1P2/3B2P1/8/8 w - - 1 21",
+        "parentNodeId": "eG",
+        "san": "Bc8"
+      },
+      "kc": {
+        "adjacentNodeIds": [
+          "or"
+        ],
+        "comments": [
+          {
+            "text": "White advances the d-pawn!\n\nThe idea is to deflect Black's king.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/K1k4b/P2PB3/5p1p/5P2/6P1/8/8 b - - 0 30",
+        "parentNodeId": "Pp",
+        "san": "d6+"
+      },
+      "lH": {
+        "adjacentNodeIds": [
+          "uX"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus advanced his h-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/K1k5/8/P2p1p1p/3P1P2/6P1/2B5/8 w - - 0 22",
+        "parentNodeId": "tz",
+        "san": "h5"
+      },
+      "n": {
+        "adjacentNodeIds": [
+          "7"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus offered a knight trade w/...Ne6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p2b3p/3knpp1/3p4/PK1N3P/3BP3/5PP1/8 w - - 2 2",
+        "parentNodeId": "0",
+        "san": "Ne6"
+      },
+      "nO": {
+        "adjacentNodeIds": [
+          "KX"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus attacked the bishop w/...Ke7.",
+            "arrows": {
+              "threats": [
+                "e7-e8"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b1B3/p3k2p/8/PK1p1p2/3P1P2/6P1/8/8 w - - 5 14",
+        "parentNodeId": "KU",
+        "san": "Ke7"
+      },
+      "nT": {
+        "adjacentNodeIds": [
+          "zO"
+        ],
+        "comments": [
+          {
+            "text": "Yanofsky calmly slid his bishop back.\n\nThis is a neat waiting move - Black's bishop and king literally can't move. \n\nIf the king were to move White would get Kc5 & if the bishop were to move White would either win f5 or get Ka6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/3k4/PK1p1p2/3P1P2/6P1/2B5/8 b - - 12 17",
+        "parentNodeId": "TM",
+        "san": "Bc2"
+      },
+      "nb": {
+        "adjacentNodeIds": [
+          "KU"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus moved his king over to d6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b1B3/p6p/3k4/P2p1p2/1K1P1P2/6P1/8/8 w - - 3 13",
+        "parentNodeId": "ia",
+        "san": "Kd6"
+      },
+      "nf": {
+        "adjacentNodeIds": [
+          "t0"
+        ],
+        "comments": [
+          {
+            "text": "White would then attack the f5-pawn.",
+            "arrows": {
+              "threats": [
+                "e6-f5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4b3/K1k5/P3B3/5p1p/3P1P2/6P1/8/8 b - - 2 28",
+        "parentNodeId": "p8",
+        "san": "Be6"
+      },
+      "o9": {
+        "adjacentNodeIds": [
+          "Yg"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus moved his bishop back to d7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p2b3p/3k2p1/3p1p2/PK1P1P1P/3B2P1/8/8 w - - 1 7",
+        "parentNodeId": "cS",
+        "san": "Bd7"
+      },
+      "or": {
+        "adjacentNodeIds": [
+          "VU"
+        ],
+        "comments": [
+          {
+            "text": "Black has nothing better than ...Kxd6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/K6b/P2kB3/5p1p/5P2/6P1/8/8 w - - 0 31",
+        "parentNodeId": "kc",
+        "san": "Kxd6"
+      },
+      "oy": {
+        "adjacentNodeIds": [
+          "bw"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus tried to activate his king...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/K7/2k5/P2p1p1p/3P1P2/6P1/8/3B4 w - - 2 23",
+        "parentNodeId": "uX",
+        "san": "Kc6"
+      },
+      "p8": {
+        "adjacentNodeIds": [
+          "nf"
+        ],
+        "comments": [
+          {
+            "text": "Most resilient is ...Be8, preventing any Bf7, supporting h5 & preparing ...Bg6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e8-f7",
+                "f7-h5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4b3/K1k5/P7/3B1p1p/3P1P2/6P1/8/8 w - - 1 28",
+        "parentNodeId": "k8",
+        "san": "Be8"
+      },
+      "pe": {
+        "adjacentNodeIds": [
+          "NN"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus captured the h-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/2k5/3p1p1p/PK1P1P2/6P1/4B3/8 w - - 0 10",
+        "parentNodeId": "5p",
+        "san": "gxh5"
+      },
+      "pt": {
+        "adjacentNodeIds": [
+          "xW"
+        ],
+        "comments": [
+          {
+            "text": "And Yanofski advanced f4!\n\nThis is an instructive positional idea: White takes some space and fixes Black's pawns on the light-squares.\n\nBlack's light-squared bishop is now totally stuck behind its own pawns!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f2-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d5",
+                "f5",
+                "g6",
+                "h7",
+                "c8"
+              ],
+              "opportunities": [
+                "f4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/3k2p1/3p1p2/PK1P1P1P/3B4/6P1/8 b - f3 0 5",
+        "parentNodeId": "8r",
+        "san": "f4"
+      },
+      "qQ": {
+        "adjacentNodeIds": [
+          "Kv",
+          "cX"
+        ],
+        "comments": [
+          {
+            "text": "And Yanofsky recaptured.\n\nWe have now reached a same color bishops endgame where White has more space and is far more active.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p2b3p/3k1pp1/1B1p4/PK1P3P/8/5PP1/8 b - - 0 3",
+        "parentNodeId": "x",
+        "san": "exd4"
+      },
+      "rl": {
+        "adjacentNodeIds": [
+          "yA"
+        ],
+        "comments": [
+          {
+            "text": "Black could've played on with ...Bc8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b1B3/K1k5/P7/3p1p1p/3P1P2/6P1/8/8 w - - 1 26",
+        "parentNodeId": "7Y",
+        "san": "Bc8"
+      },
+      "t0": {
+        "adjacentNodeIds": [
+          "7F"
+        ],
+        "comments": [
+          {
+            "text": "And when Black would defend f5...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-f5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/K1k5/P3B1b1/5p1p/3P1P2/6P1/8/8 w - - 3 29",
+        "parentNodeId": "nf",
+        "san": "Bg6"
+      },
+      "t9": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White would attack the d-pawn w/Be6.\n\nThere is simply no way to hold onto this pawn as both ...Kd6 and ...Kc6 would allow Kb8 where the a-pawn would push forward and promote.\n\nAfter a move like ...Bg6 the win is very similar to that in the main continuation where White uses the passed d-pawn to deflect Black's king away.",
+            "arrows": {
+              "threats": [
+                "e6-d5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/K1k4b/P3B3/3p1p1p/3P1P2/6P1/8/8 b - - 4 27",
+        "parentNodeId": "Tk",
+        "san": "Be6"
+      },
+      "tz": {
+        "adjacentNodeIds": [
+          "lH"
+        ],
+        "comments": [
+          {
+            "text": "Yanofsky slid his bishop back.\n\nThis is another neat waiting move. If Black were to move the king or the bishop, White would either get the king out of jail or win the f5-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/K1k5/7p/P2p1p2/3P1P2/6P1/2B5/8 b - - 2 21",
+        "parentNodeId": "kF",
+        "san": "Bc2"
+      },
+      "uX": {
+        "adjacentNodeIds": [
+          "oy"
+        ],
+        "comments": [
+          {
+            "text": "Yanofski attacked the h-pawn w/Bd1.\n\nThe pawn cannot be defended!",
+            "arrows": {
+              "threats": [
+                "d1-h5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/K1k5/8/P2p1p1p/3P1P2/6P1/8/3B4 b - - 1 22",
+        "parentNodeId": "lH",
+        "san": "Bd1"
+      },
+      "wA": {
+        "adjacentNodeIds": [
+          "fK"
+        ],
+        "comments": [
+          {
+            "text": "If Black were to capture the bishop...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6b1/K2k4/P7/3p1p1p/3P1P2/6P1/8/8 w - - 0 27",
+        "parentNodeId": "JT",
+        "san": "Kxd7"
+      },
+      "wF": {
+        "adjacentNodeIds": [
+          "iw"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus moved the king back to d6.\n\nThis was necessary to prevent White's king from getting to c5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/3k4/PK1p1p1B/3P1P2/6P1/8/8 w - - 7 15",
+        "parentNodeId": "KX",
+        "san": "Kd6"
+      },
+      "wR": {
+        "adjacentNodeIds": [
+          "5p"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus moved his king over to c6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p6p/2k3p1/3p1p2/PK1P1P1P/6P1/4B3/8 w - - 5 9",
+        "parentNodeId": "Av",
+        "san": "Kc6"
+      },
+      "x": {
+        "adjacentNodeIds": [
+          "qQ"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus exchanged the knights.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p2b3p/3k1pp1/1B1p4/PK1n3P/4P3/5PP1/8 w - - 0 3",
+        "parentNodeId": "7",
+        "san": "Nxd4"
+      },
+      "xC": {
+        "adjacentNodeIds": [
+          "eG"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus moved his king back to c7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p1kb4/K6p/P2p1p2/3P1P2/3B2P1/8/8 w - - 4 20",
+        "parentNodeId": "Kb",
+        "san": "Kc7"
+      },
+      "xW": {
+        "adjacentNodeIds": [
+          "cS"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus proceeded with ...Be6.\n\nThere's not much for Black to do here. He pretty much just has to sit & wait. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p6p/3kb1p1/3p1p2/PK1P1P1P/3B4/6P1/8 w - - 1 6",
+        "parentNodeId": "pt",
+        "san": "Be6"
+      },
+      "yA": {
+        "adjacentNodeIds": [
+          "RZ",
+          "OW"
+        ],
+        "comments": [
+          {
+            "text": "White would then attack the d5-pawn.",
+            "arrows": {
+              "threats": [
+                "f7-d5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2b5/K1k2B2/P7/3p1p1p/3P1P2/6P1/8/8 b - - 2 26",
+        "parentNodeId": "rl",
+        "san": "Bf7"
+      },
+      "zO": {
+        "adjacentNodeIds": [
+          "E5"
+        ],
+        "comments": [
+          {
+            "text": "Pinkus desperately pushed ...h6.\n\nThere just aren't any good moves.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2b5/p7/3k3p/PK1p1p2/3P1P2/6P1/2B5/8 w - - 0 18",
+        "parentNodeId": "nT",
+        "san": "h6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

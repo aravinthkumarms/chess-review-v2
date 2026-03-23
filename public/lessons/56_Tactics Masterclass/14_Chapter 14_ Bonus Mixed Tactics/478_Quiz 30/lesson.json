@@ -1,0 +1,65 @@
+{
+  "id": "e44d5810-7fe4-4c4c-9248-5aaa371084a5",
+  "name": "Quiz 30 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black offers a queen trade. \n\nWhich of the following moves is a blunder?",
+    "answers": [
+      {
+        "text": "Rd6",
+        "feedback": {
+          "text": "Correct! That move is a blunder since it allows ...Nd6+.",
+          "arrows": {
+            "threats": [
+              "e5-d3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c5",
+              "d6",
+              "c1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "defending the bishop and avoiding a queen trade.",
+        "afterMoveFen": "r3k2r/pp2q1bp/2pRBp2/2Q1n1p1/4P3/2N2P2/PP4PP/2K4R b kq - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Qxe7+",
+        "feedback": {
+          "text": "Nothing wrong with that move! It is actually the best one in this position.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "trading the queens.",
+        "afterMoveFen": "r3k2r/pp2Q1bp/2p1Bp2/4n1p1/4P3/2N2P2/PP4PP/2KR3R b kq - 0 2"
+      },
+      {
+        "text": "Qd6",
+        "feedback": {
+          "text": "Not the best move, but not a blunder either!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "Infiltrating the position.",
+        "afterMoveFen": "r3k2r/pp2q1bp/2pQBp2/4n1p1/4P3/2N2P2/PP4PP/2KR3R b kq - 3 2"
+      }
+    ],
+    "positionFen": "r3k2r/ppq3bp/2p1Bp2/2Q1n1p1/4P3/2N2P2/PP4PP/2KR3R b kq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qe7",
+      "afterMoveFen": "r3k2r/pp2q1bp/2p1Bp2/2Q1n1p1/4P3/2N2P2/PP4PP/2KR3R w kq - 2 2"
+    }
+  },
+  "drill": null
+}

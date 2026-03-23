@@ -1,0 +1,73 @@
+{
+  "id": "453fb4f6-1feb-42f0-82f7-55b1e97b2227",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black recaptures on g5.\n\nIs Nd3, going for f4 a good idea?",
+    "answers": [
+      {
+        "text": "No, because Black can capture a pawn and threaten checkmate.",
+        "feedback": {
+          "text": "Correct. Black has ...Bxh3, which spells trouble for us!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c8-h3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h3",
+              "g2"
+            ],
+            "opportunities": [
+              "c8",
+              "g5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, because we want to expand and kick Black's queen away.",
+        "feedback": {
+          "text": "What if Black is faster with their threats?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "This move doesn't blunder anything, but doesn't give us much of an advantage either.",
+        "feedback": {
+          "text": "Incorrect! Black has a tactic.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2bq1rk1/1pp2pnp/n2p2p1/3Pp1B1/BPP1P3/2N4P/5PP1/1Q2NRK1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e1-d3",
+        "f2-f4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Qxg5",
+      "afterMoveFen": "2b2rk1/1pp2pnp/n2p2p1/3Pp1q1/BPP1P3/2N4P/5PP1/1Q2NRK1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

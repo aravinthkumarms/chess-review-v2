@@ -1,0 +1,98 @@
+{
+  "id": "e27a623a-18fa-451b-9b34-f370351f9899",
+  "name": "Quiz 11",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black takes on d4. \n\nIs this a good move, or does it allow White a win?",
+    "answers": [
+      {
+        "text": "Ba5",
+        "feedback": {
+          "text": "Correct! Not only does this attack the queen, it also reveals an attack on the knight on d4, and it supports Nc7+.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d5-c7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "c7"
+            ]
+          }
+        },
+        "comment": "attacking the queen.",
+        "afterMoveFen": "r2qkb1r/3bpppp/p6n/B2N4/2Nn4/8/PPP2PPP/R2QK2R b KQkq - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Bxh6",
+        "feedback": {
+          "text": "After ...Bc6, things aren't so simple as they appear. Sure, you can take the knight, but Black can take your knight on d5 and at the end of everything your bishop on h6 is still hanging.",
+          "arrows": {
+            "threats": [
+              "g7-h6"
+            ],
+            "opportunities": [
+              "d7-c6",
+              "g7-h6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "h6"
+            ]
+          }
+        },
+        "comment": "with a discovered attack on d4.",
+        "afterMoveFen": "r2qkb1r/3bpppp/p6B/3N4/2Nn4/8/PPP2PPP/R2QK2R b KQkq - 0 2"
+      },
+      {
+        "text": "Ndb6",
+        "feedback": {
+          "text": "This is a one move threat that doesn't achieve anything.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "attacking the rook.",
+        "afterMoveFen": "r2qkb1r/3bpppp/pN5n/8/2Nn4/8/PPPB1PPP/R2QK2R b KQkq - 1 2"
+      },
+      {
+        "text": "Be3",
+        "feedback": {
+          "text": "There's a better way to attack the knight.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "attacking the knight on d4.",
+        "afterMoveFen": "r2qkb1r/3bpppp/p6n/3N4/2Nn4/4B3/PPP2PPP/R2QK2R b KQkq - 1 2"
+      }
+    ],
+    "positionFen": "r2qkb1r/3bpppp/p1n4n/3N4/2NP4/8/PPPB1PPP/R2QK2R b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nxd4",
+      "afterMoveFen": "r2qkb1r/3bpppp/p6n/3N4/2Nn4/8/PPPB1PPP/R2QK2R w KQkq - 0 2"
+    }
+  },
+  "drill": null
+}

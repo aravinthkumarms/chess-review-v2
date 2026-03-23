@@ -1,0 +1,86 @@
+{
+  "id": "34c02293-c52b-409b-bff4-54d4c3b5a523",
+  "name": "Quiz 32 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks the queen.\n\nDoes White have a good discovered check with the bishop?",
+    "answers": [
+      {
+        "text": "No, since that would lead to a tactic.",
+        "feedback": {
+          "text": "Exactly, ..Qxg1+ and ...Rxd8 next would win material.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c5-g1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes. There are multiple options for White, a discovered check is one of them.",
+        "feedback": {
+          "text": "Black's queen is eyeing the rook! A discovered check would be answered with ...Qxg1+ and ...Rxd8 is next.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c8-d8",
+              "c5-g1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c5",
+              "g1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, but only Bb7 is winning.",
+        "feedback": {
+          "text": "Not really! Black could play ...Qxg1 and ...Rxd8 comes next.",
+          "arrows": {
+            "threats": [
+              "c5-g1",
+              "c8-d8"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "g2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3Q4/p1r2pk1/4p2p/2q2b2/5P2/1P6/P5BP/6RK b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rc8",
+      "afterMoveFen": "2rQ4/p4pk1/4p2p/2q2b2/5P2/1P6/P5BP/6RK w - - 2 2"
+    }
+  },
+  "drill": null
+}

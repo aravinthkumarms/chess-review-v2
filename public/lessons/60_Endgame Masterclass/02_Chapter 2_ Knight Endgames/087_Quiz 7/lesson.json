@@ -1,0 +1,74 @@
+{
+  "id": "e02069d9-712e-47af-b38d-b991d1344a78",
+  "name": "Quiz 7",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black moves the king out of check.\n\nShould White trade queens w/Qe4+ and is the knight endgame drawable?",
+    "answers": [
+      {
+        "text": "White should trade the queens & is able to use the passed b-pawn to draw the knight endgame.",
+        "feedback": {
+          "text": "That's right! The passed b-pawn is a crucial asset and Black is going to have to give the knight up to stop it.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e8-e4",
+              "d5-e4",
+              "b4-b5",
+              "f2-e4",
+              "b5-b6",
+              "b6-b7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White shouldn't trade queens & has better drawing chances with the queens on the board. Black could win the knight endgame.",
+        "feedback": {
+          "text": "That's not quite right. You ought to reassess the queen trade - White has a strong asset in the knight endgame!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4Q1k1/5pp1/8/3q2p1/1P6/5nP1/5N2/5K2 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e8-e4"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "e4"
+      ]
+    },
+    "contextMove": {
+      "san": "Kh7",
+      "afterMoveFen": "4Q3/5ppk/8/3q2p1/1P6/5nP1/5N2/5K2 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,1689 @@
+{
+  "id": "c6d4b372-8e78-46c0-9d32-6c3bbc96a7a0",
+  "name": "Study 3: The Lucena Position - Carlsen vs Ivanchuk, 2013",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "o"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to this study on rook endgames! We'll analyze an endgame played between Magnus Carlsen and Vassily Ivanchuk at the 2013 Candidates. \n\nOur third theoretical rook ending is the Lucena position. The Lucena Position is a method of queening a pawn in a rook endgame.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1p6/p1k1pr1p/P1P5/2K1R3/7P/8 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "15": {
+        "adjacentNodeIds": [
+          "gq"
+        ],
+        "comments": [
+          {
+            "text": "What if White chooses to wait?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4R3/8/6r1/8/5k2/4p3/7K b - - 9 39",
+        "parentNodeId": "4n",
+        "san": "Kh1"
+      },
+      "3a": {
+        "adjacentNodeIds": [
+          "UK"
+        ],
+        "comments": [
+          {
+            "text": "I personally like this one, because it's a bit fancy.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/4R3/8/8/4p3/8/5k1K/8 w - - 2 30",
+        "parentNodeId": "O9",
+        "san": "Kf2"
+      },
+      "4n": {
+        "adjacentNodeIds": [
+          "vY",
+          "15"
+        ],
+        "comments": [
+          {
+            "text": "We don't lose the defense of the pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4R3/8/6r1/8/5k2/4p2K/8 w - - 8 39",
+        "parentNodeId": "qh",
+        "san": "Kf3"
+      },
+      "4z": {
+        "adjacentNodeIds": [
+          "6Q"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk queened the pawn, attracting the king into the h-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4p1k1/4R3/8/6K1/7q w - - 0 24",
+        "parentNodeId": "6R",
+        "san": "h1=Q+"
+      },
+      "5C": {
+        "adjacentNodeIds": [
+          "gA"
+        ],
+        "comments": [
+          {
+            "text": "The king doesn't block its pawn's next step.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-e2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/3R4/8/8/8/4p3/7K/4k3 w - - 4 34",
+        "parentNodeId": "Sn",
+        "san": "Ke1"
+      },
+      "64": {
+        "adjacentNodeIds": [
+          "f3"
+        ],
+        "comments": [
+          {
+            "text": "The checks can be blocked and the pawn will queen next.\n\nSince we advanced it all the way up and the king was cut off two files away, it won't be able to defend after a trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4R3/8/4r3/4k3/8/4p2K/8 w - - 12 41",
+        "parentNodeId": "TD",
+        "san": "Re5"
+      },
+      "6Q": {
+        "adjacentNodeIds": [
+          "e5"
+        ],
+        "comments": [
+          {
+            "text": "Magnus took.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4p1k1/4R3/8/8/7K b - - 0 24",
+        "parentNodeId": "4z",
+        "san": "Kxh1"
+      },
+      "6R": {
+        "adjacentNodeIds": [
+          "4z"
+        ],
+        "comments": [
+          {
+            "text": "Carlsen went after the h-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4p1k1/4R3/8/6Kp/8 b - - 1 23",
+        "parentNodeId": "j6",
+        "san": "Kg2"
+      },
+      "6p": {
+        "adjacentNodeIds": [
+          "nG"
+        ],
+        "comments": [
+          {
+            "text": "And Ivanchuk attacked the rook.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "7r/8/8/4p1kp/7R/8/4K3/8 w - - 12 19",
+        "parentNodeId": "ud",
+        "san": "Kg5"
+      },
+      "7S": {
+        "adjacentNodeIds": [
+          "TD"
+        ],
+        "comments": [
+          {
+            "text": "We come into the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5R2/8/6r1/4k3/8/4p2K/8 w - - 10 40",
+        "parentNodeId": "vY",
+        "san": "Ke4"
+      },
+      "7X": {
+        "adjacentNodeIds": [
+          "Il"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/4k3/8/8/4p2K/8 w - - 0 42",
+        "parentNodeId": "f3",
+        "san": "Kxe5"
+      },
+      "8F": {
+        "adjacentNodeIds": [
+          "n8"
+        ],
+        "comments": [
+          {
+            "text": "But Ivanchuk would easily win the c-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-c5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c3",
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/R1Pkp2p/2r5/2K5/8/8 w - - 1 12",
+        "parentNodeId": "JA",
+        "san": "Rc4+"
+      },
+      "8G": {
+        "adjacentNodeIds": [
+          "My"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk guarded two of the entry squares first.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1p3k2/p3pr1p/P1P4P/2K3R1/8/8 w - - 5 4",
+        "parentNodeId": "EU",
+        "san": "Kf6"
+      },
+      "96": {
+        "adjacentNodeIds": [
+          "gX"
+        ],
+        "comments": [
+          {
+            "text": "But Ivanchuk just advanced his king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/8/8/4p3/5k2/8/7K/4R3 w - - 5 27",
+        "parentNodeId": "B4",
+        "san": "Kf4"
+      },
+      "9q": {
+        "adjacentNodeIds": [
+          "Hv"
+        ],
+        "comments": [
+          {
+            "text": "So when the rook attacks again...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6r1/4R3/8/8/4p3/8/4k2K/8 b - - 5 31",
+        "parentNodeId": "Fo",
+        "san": "Re7"
+      },
+      "B4": {
+        "adjacentNodeIds": [
+          "96"
+        ],
+        "comments": [
+          {
+            "text": "Magnus tried bringing his king closer to the action somehow.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/8/8/4pk2/8/8/7K/4R3 b - - 4 26",
+        "parentNodeId": "tL",
+        "san": "Kh2"
+      },
+      "CD": {
+        "adjacentNodeIds": [
+          "g9",
+          "hA"
+        ],
+        "comments": [
+          {
+            "text": "And the a4-pawn fell. \n\nNow instead of continuing to use the c-pawn as a distractor, Carlsen chose to go after the h-pawn.\n\nThis was a mistake.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c5-c6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1R6/p1P1pk1p/r7/2K5/8/8 w - - 0 8",
+        "parentNodeId": "IL",
+        "san": "Rxa4"
+      },
+      "Cj": {
+        "adjacentNodeIds": [
+          "R2"
+        ],
+        "comments": [
+          {
+            "text": "And Ivanchuk pushed his h-pawn again. \n\nWe must always be careful when pushing our pawns in the endgame, since they can be lost if we throw them nearer the enemy pieces.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4p1k1/4R3/7p/4K3/8 w - - 0 22",
+        "parentNodeId": "Hj",
+        "san": "h3"
+      },
+      "Ck": {
+        "adjacentNodeIds": [
+          "Kz"
+        ],
+        "comments": [
+          {
+            "text": "But after Ivanchuk simply made a waiting move, either the king or the rook would have to go back.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7r/8/4k3/4p2p/4K2R/8/8/8 w - - 8 17",
+        "parentNodeId": "WP",
+        "san": "Rh8"
+      },
+      "Cr": {
+        "adjacentNodeIds": [
+          "xU"
+        ],
+        "comments": [
+          {
+            "text": "Carlsen took on b6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1R6/p3pk1p/P1P2r1P/2K5/8/8 b - - 0 6",
+        "parentNodeId": "ji",
+        "san": "Rxb6"
+      },
+      "DD": {
+        "adjacentNodeIds": [
+          "is"
+        ],
+        "comments": [
+          {
+            "text": "Magnus rejected it.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/R7/p1P1p2p/3rk3/2K5/8/8 b - - 5 10",
+        "parentNodeId": "Um",
+        "san": "Ra6"
+      },
+      "EU": {
+        "adjacentNodeIds": [
+          "8G"
+        ],
+        "comments": [
+          {
+            "text": "And when Carlsen threatened to enter with his rook...",
+            "arrows": {
+              "threats": [
+                "g3-g6"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e6",
+                "b6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1p2k3/p3pr1p/P1P4P/2K3R1/8/8 b - - 4 3",
+        "parentNodeId": "WS",
+        "san": "Rg3"
+      },
+      "Fg": {
+        "adjacentNodeIds": [
+          "Nb"
+        ],
+        "comments": [
+          {
+            "text": "And if ...Ra4...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-c4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1RP5/p3pk1p/r7/8/1K6/8 w - - 3 10",
+        "parentNodeId": "Vn",
+        "san": "Ra4"
+      },
+      "Fo": {
+        "adjacentNodeIds": [
+          "9q"
+        ],
+        "comments": [
+          {
+            "text": "The king doesn't block its pawn's next step, but stays on a square where it supports it.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-e3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6r1/5R2/8/8/4p3/8/4k2K/8 w - - 4 31",
+        "parentNodeId": "UK",
+        "san": "Ke2"
+      },
+      "G1": {
+        "adjacentNodeIds": [
+          "ga"
+        ],
+        "comments": [
+          {
+            "text": "If checks at this point...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5R2/8/3r4/8/5k2/4p3/7K b - - 11 40",
+        "parentNodeId": "gq",
+        "san": "Rf7+"
+      },
+      "HL": {
+        "adjacentNodeIds": [
+          "ud"
+        ],
+        "comments": [
+          {
+            "text": "And Ivanchuk entered f5.",
+            "arrows": {
+              "threats": [
+                "f5-g5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "7r/8/8/4pk1p/7R/4K3/8/8 w - - 10 18",
+        "parentNodeId": "Kz",
+        "san": "Kf5"
+      },
+      "Hj": {
+        "adjacentNodeIds": [
+          "Cj"
+        ],
+        "comments": [
+          {
+            "text": "Magnus lacked space, so he just moved his king backwards.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4p1k1/4R2p/8/4K3/8 b - - 1 21",
+        "parentNodeId": "LH",
+        "san": "Ke2"
+      },
+      "Hv": {
+        "adjacentNodeIds": [
+          "bb"
+        ],
+        "comments": [
+          {
+            "text": "The pawn is defended by the king and closer to queening.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/4R3/8/8/8/4p3/4k2K/8 w - - 0 32",
+        "parentNodeId": "9q",
+        "san": "e3"
+      },
+      "I1": {
+        "adjacentNodeIds": [
+          "RQ"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk began to circle his king around.\n\nHis idea is to hunt the c-pawn down in exchange for the h-pawn. \n\nA favorable trade since this represents no danger for Ivanchuk for the rest of the game.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-d5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/7R/p1P1p2p/r3k3/2K5/8/8 w - - 2 9",
+        "parentNodeId": "g9",
+        "san": "Ke4"
+      },
+      "IL": {
+        "adjacentNodeIds": [
+          "CD"
+        ],
+        "comments": [
+          {
+            "text": "Magnus went for counterplay, ignoring his a4-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1R6/p1P1pk1p/P6r/2K5/8/8 b - - 0 7",
+        "parentNodeId": "xU",
+        "san": "c5"
+      },
+      "Il": {
+        "adjacentNodeIds": [
+          "kQ"
+        ],
+        "comments": [
+          {
+            "text": "The king tries to approach.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/4k3/8/8/4p1K1/8 b - - 1 42",
+        "parentNodeId": "7X",
+        "san": "Kg2"
+      },
+      "JA": {
+        "adjacentNodeIds": [
+          "8F"
+        ],
+        "comments": [
+          {
+            "text": "Magnus took on a5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/R1Pkp2p/3r4/2K5/8/8 b - - 0 11",
+        "parentNodeId": "is",
+        "san": "Rxa5"
+      },
+      "Kr": {
+        "adjacentNodeIds": [
+          "MI"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk took.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/R1rkp2p/8/3K4/8/8 w - - 0 13",
+        "parentNodeId": "n8",
+        "san": "Rxc5"
+      },
+      "Kz": {
+        "adjacentNodeIds": [
+          "HL"
+        ],
+        "comments": [
+          {
+            "text": "The king moved back to e3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7r/8/4k3/4p2p/7R/4K3/8/8 b - - 9 17",
+        "parentNodeId": "Ck",
+        "san": "Ke3"
+      },
+      "LH": {
+        "adjacentNodeIds": [
+          "Hj"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk was up 2 pawns here, and he pushed one of them. \n\nAt this point, he had come up with a plan to win the game using the Lucena Position.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4p1k1/4R2p/4K3/8/8 w - - 0 21",
+        "parentNodeId": "bo",
+        "san": "h4"
+      },
+      "MI": {
+        "adjacentNodeIds": [
+          "Vg"
+        ],
+        "comments": [
+          {
+            "text": "And Magnus didn't trade rooks, hoping to go attack the h-pawn.",
+            "arrows": {
+              "threats": [
+                "a4-h4"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/2rkp2p/R7/3K4/8/8 b - - 1 13",
+        "parentNodeId": "Kr",
+        "san": "Ra4"
+      },
+      "MJ": {
+        "adjacentNodeIds": [
+          "gs"
+        ],
+        "comments": [
+          {
+            "text": "If we're Black, we're putting our rook on the 5th rank. If we're White, on the 4th.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3R4/8/6r1/8/8/4p2K/4k3 w - - 2 36",
+        "parentNodeId": "Mp",
+        "san": "Rg5"
+      },
+      "Ma": {
+        "adjacentNodeIds": [
+          "Wr"
+        ],
+        "comments": [
+          {
+            "text": "And Ivanchuk defended.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/7r/8/3kp2p/7R/3K4/8/8 w - - 4 15",
+        "parentNodeId": "gt",
+        "san": "Rh7"
+      },
+      "Mp": {
+        "adjacentNodeIds": [
+          "MJ"
+        ],
+        "comments": [
+          {
+            "text": "Let's say Magnus plays a waiting move. \n\nThis is now the Lucena Position 101.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/3R4/8/8/8/8/4p2K/4k3 b - - 1 35",
+        "parentNodeId": "uf",
+        "san": "Rd7"
+      },
+      "My": {
+        "adjacentNodeIds": [
+          "qg"
+        ],
+        "comments": [
+          {
+            "text": "Carlsen went to d3, trying to enter the critical squares and going after one of the pawns.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d3-d6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d6",
+                "b6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1p3k2/p3pr1p/P1P4P/2KR4/8/8 b - - 6 4",
+        "parentNodeId": "8G",
+        "san": "Rd3"
+      },
+      "N": {
+        "adjacentNodeIds": [
+          "WS"
+        ],
+        "comments": [
+          {
+            "text": "Carlsen gave a check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1p1k4/p3pr1p/P1P4P/2KR4/8/8 b - - 2 2",
+        "parentNodeId": "f",
+        "san": "Rd3+"
+      },
+      "Nb": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The king can stop the rook again.\n\nThe rook cannot go around because the c-pawn is already too far up the board. This would be a draw.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-g4",
+                "g4-g8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1RP5/p3pk1p/r7/1K6/8/8 b - - 4 10",
+        "parentNodeId": "Fg",
+        "san": "Kb3"
+      },
+      "O9": {
+        "adjacentNodeIds": [
+          "3a"
+        ],
+        "comments": [
+          {
+            "text": "Magnus could put some pressure on the pawn. \n\nAnd f3, f2 or d3 are all winning, it's just a matter of preference, really.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-f3",
+                "e3-f2",
+                "e3-d3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6r1/4R3/8/8/4p3/4k3/7K/8 b - - 1 29",
+        "parentNodeId": "lP",
+        "san": "Re7"
+      },
+      "R2": {
+        "adjacentNodeIds": [
+          "j6"
+        ],
+        "comments": [
+          {
+            "text": "However, in this case, Ivanchuk is voluntarily using the passed pawn as a decoy!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4p1k1/4R3/7p/5K2/8 b - - 1 22",
+        "parentNodeId": "Cj",
+        "san": "Kf2"
+      },
+      "RQ": {
+        "adjacentNodeIds": [
+          "Um"
+        ],
+        "comments": [
+          {
+            "text": "Carlsen saw he couldn't take on h5 so he tried cutting the king off. \n\nBut if we count, Ivanchuk is up 2 pawns!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/3R4/p1P1p2p/r3k3/2K5/8/8 b - - 3 9",
+        "parentNodeId": "I1",
+        "san": "Rd6"
+      },
+      "Sn": {
+        "adjacentNodeIds": [
+          "5C"
+        ],
+        "comments": [
+          {
+            "text": "This check allows Black the same maneuver seen before.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6r1/3R4/8/8/8/4p3/3k3K/8 b - - 3 33",
+        "parentNodeId": "sX",
+        "san": "Rd7+"
+      },
+      "TD": {
+        "adjacentNodeIds": [
+          "64"
+        ],
+        "comments": [
+          {
+            "text": "And if White checks us again...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4R3/8/6r1/4k3/8/4p2K/8 b - - 11 40",
+        "parentNodeId": "7S",
+        "san": "Re7+"
+      },
+      "UK": {
+        "adjacentNodeIds": [
+          "Fo"
+        ],
+        "comments": [
+          {
+            "text": "If Magnus gives a check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6r1/5R2/8/8/4p3/8/5k1K/8 b - - 3 30",
+        "parentNodeId": "3a",
+        "san": "Rf7+"
+      },
+      "Um": {
+        "adjacentNodeIds": [
+          "DD"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk proposed a trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/3R4/p1P1p2p/3rk3/2K5/8/8 w - - 4 10",
+        "parentNodeId": "RQ",
+        "san": "Rd4"
+      },
+      "Vg": {
+        "adjacentNodeIds": [
+          "gt"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk went for a strategy of placing the rook behind the pawns.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c7-h7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/2r5/8/3kp2p/R7/3K4/8/8 w - - 2 14",
+        "parentNodeId": "MI",
+        "san": "Rc7"
+      },
+      "Vn": {
+        "adjacentNodeIds": [
+          "Fg"
+        ],
+        "comments": [
+          {
+            "text": "The king can cover the rook's squares needed to slow the pawn down.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1RP5/p3pk1p/8/8/1K6/r7 b - - 2 9",
+        "parentNodeId": "gy",
+        "san": "Kb2"
+      },
+      "WP": {
+        "adjacentNodeIds": [
+          "Ck"
+        ],
+        "comments": [
+          {
+            "text": "Carlsen got his king into e4...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/7r/4k3/4p2p/4K2R/8/8/8 b - - 7 16",
+        "parentNodeId": "k5",
+        "san": "Ke4"
+      },
+      "WS": {
+        "adjacentNodeIds": [
+          "EU"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk moved away.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1p2k3/p3pr1p/P1P4P/2KR4/8/8 w - - 3 3",
+        "parentNodeId": "N",
+        "san": "Ke6"
+      },
+      "Wr": {
+        "adjacentNodeIds": [
+          "k5"
+        ],
+        "comments": [
+          {
+            "text": "White moved his king around...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/7r/8/3kp2p/7R/4K3/8/8 b - - 5 15",
+        "parentNodeId": "Ma",
+        "san": "Ke3"
+      },
+      "Xx": {
+        "adjacentNodeIds": [
+          "bo"
+        ],
+        "comments": [
+          {
+            "text": "But Ivanchuk defended.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4p1kp/4R3/8/4K3/8 w - - 14 20",
+        "parentNodeId": "nG",
+        "san": "Re8"
+      },
+      "Yl": {
+        "adjacentNodeIds": [
+          "lP"
+        ],
+        "comments": [
+          {
+            "text": "Suppose that Magnus had tried going behind the pawn with his rook.",
+            "arrows": {
+              "threats": [
+                "f7-e7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6r1/5R2/8/4p3/8/4k3/7K/8 b - - 8 28",
+        "parentNodeId": "g7",
+        "san": "Rf7"
+      },
+      "bb": {
+        "adjacentNodeIds": [
+          "sX"
+        ],
+        "comments": [
+          {
+            "text": "If Magnus cuts the king off on one side...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/5R2/8/8/8/4p3/4k2K/8 b - - 1 32",
+        "parentNodeId": "Hv",
+        "san": "Rf7"
+      },
+      "bo": {
+        "adjacentNodeIds": [
+          "LH"
+        ],
+        "comments": [
+          {
+            "text": "Carlsen got his king closer, defending his rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4p1kp/4R3/4K3/8/8 b - - 15 20",
+        "parentNodeId": "Xx",
+        "san": "Ke3"
+      },
+      "e5": {
+        "adjacentNodeIds": [
+          "x4"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk attacked Magnus' rook, defending the e-pawn with the king and getting ready to use the rook on the g-file to cut the king off on the h-file.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4pk2/4R3/8/8/7K w - - 1 25",
+        "parentNodeId": "6Q",
+        "san": "Kf5"
+      },
+      "f": {
+        "adjacentNodeIds": [
+          "N"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk started moving his king towards the kingside.\n\nAn idea could be simply to defend the e-pawn and freeing the rook to attack h4.",
+            "arrows": {
+              "threats": [
+                "f5-f4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "h4"
+              ],
+              "opportunities": [
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1p1k4/p3pr1p/P1P4P/2K1R3/8/8 w - - 1 2",
+        "parentNodeId": "o",
+        "san": "Kd6"
+      },
+      "f3": {
+        "adjacentNodeIds": [
+          "7X"
+        ],
+        "comments": [
+          {
+            "text": "White trades.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/4R3/4k3/8/4p2K/8 b - - 0 41",
+        "parentNodeId": "64",
+        "san": "Rxe5+"
+      },
+      "fn": {
+        "adjacentNodeIds": [
+          "ji"
+        ],
+        "comments": [
+          {
+            "text": "Carlsen gave a check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6",
+                "b6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1p1R1k2/p3p2p/P1P2r1P/2K5/8/8 b - - 8 5",
+        "parentNodeId": "qg",
+        "san": "Rd6+"
+      },
+      "g7": {
+        "adjacentNodeIds": [
+          "Yl"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk played his king up and Magnus resigned. \n\nWhy did he resign? \n\nBecause Magnus knows the Lucena position too and that's the winning method here.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/8/8/4p3/8/4k3/7K/5R2 w - - 7 28",
+        "parentNodeId": "gX",
+        "san": "Ke3"
+      },
+      "g9": {
+        "adjacentNodeIds": [
+          "I1"
+        ],
+        "comments": [
+          {
+            "text": "Carlsen attacked the h-pawn, missing the opportunity to draw the game using the activity of the c-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/7R/p1P1pk1p/r7/2K5/8/8 b - - 1 8",
+        "parentNodeId": "CD",
+        "san": "Rh6"
+      },
+      "gA": {
+        "adjacentNodeIds": [
+          "uf"
+        ],
+        "comments": [
+          {
+            "text": "Magnus would attack...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6r1/4R3/8/8/8/4p3/7K/4k3 b - - 5 34",
+        "parentNodeId": "5C",
+        "san": "Re7"
+      },
+      "gX": {
+        "adjacentNodeIds": [
+          "g7"
+        ],
+        "comments": [
+          {
+            "text": "Magnus gave a check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6r1/8/8/4p3/5k2/8/7K/5R2 b - - 6 27",
+        "parentNodeId": "96",
+        "san": "Rf1+"
+      },
+      "ga": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "We will build the bridge.",
+            "arrows": {
+              "threats": [
+                "f7-e7"
+              ],
+              "opportunities": [
+                "d5-e5",
+                "e2-e1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5R2/8/3r4/4k3/8/4p3/7K w - - 12 41",
+        "parentNodeId": "G1",
+        "san": "Ke4"
+      },
+      "gq": {
+        "adjacentNodeIds": [
+          "G1"
+        ],
+        "comments": [
+          {
+            "text": "In this particular example you can threaten a check.",
+            "arrows": {
+              "threats": [
+                "d5-d1"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4R3/8/3r4/8/5k2/4p3/7K w - - 10 40",
+        "parentNodeId": "15",
+        "san": "Rd5"
+      },
+      "gs": {
+        "adjacentNodeIds": [
+          "rG"
+        ],
+        "comments": [
+          {
+            "text": "The idea behind this is that when the rook starts giving checks, eventually we'll be able to block them with our rook on the 5th.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5R2/8/6r1/8/8/4p2K/4k3 b - - 3 36",
+        "parentNodeId": "MJ",
+        "san": "Rf7"
+      },
+      "gt": {
+        "adjacentNodeIds": [
+          "Ma"
+        ],
+        "comments": [
+          {
+            "text": "Magnus blocked the pawn and attacked it.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2r5/8/3kp2p/7R/3K4/8/8 b - - 3 14",
+        "parentNodeId": "Vg",
+        "san": "Rh4"
+      },
+      "gy": {
+        "adjacentNodeIds": [
+          "Vn"
+        ],
+        "comments": [
+          {
+            "text": "For example if this were played...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1RP5/p3pk1p/8/2K5/8/r7 w - - 1 9",
+        "parentNodeId": "hA",
+        "san": "Ra1"
+      },
+      "hA": {
+        "adjacentNodeIds": [
+          "gy"
+        ],
+        "comments": [
+          {
+            "text": "c6 was better, going for counterplay.\n\nThe variations are tricky and White has a draw after a natural move like ...Ra1, all thanks to that c-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c6-c7",
+                "c7-c8",
+                "a4-a1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1RP5/p3pk1p/r7/2K5/8/8 b - - 0 8",
+        "parentNodeId": "CD",
+        "san": "c6"
+      },
+      "is": {
+        "adjacentNodeIds": [
+          "JA"
+        ],
+        "comments": [
+          {
+            "text": "And Ivanchuk went after the c-pawn, Magnus' last asset.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/R7/p1Pkp2p/3r4/2K5/8/8 w - - 6 11",
+        "parentNodeId": "DD",
+        "san": "Kd5"
+      },
+      "j6": {
+        "adjacentNodeIds": [
+          "6R"
+        ],
+        "comments": [
+          {
+            "text": "Why is Ivanchuk pushing the pawn if he's going to lose it? \n\nBecause he knows the Lucena position and he knows that if the king walks over to the pawn, he will be able to cut it off and then create the Lucena Position to queen the e-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4p1k1/4R3/8/5K1p/8 w - - 0 23",
+        "parentNodeId": "R2",
+        "san": "h2"
+      },
+      "ji": {
+        "adjacentNodeIds": [
+          "Cr"
+        ],
+        "comments": [
+          {
+            "text": "Ivanchuk moved his king up the board.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1p1R4/p3pk1p/P1P2r1P/2K5/8/8 w - - 9 6",
+        "parentNodeId": "fn",
+        "san": "Kf5"
+      },
+      "k5": {
+        "adjacentNodeIds": [
+          "WP"
+        ],
+        "comments": [
+          {
+            "text": "But the problem is that Magnus will run out of moves soon.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/7r/4k3/4p2p/7R/4K3/8/8 w - - 6 16",
+        "parentNodeId": "Wr",
+        "san": "Ke6"
+      },
+      "kQ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But the pawn was already on the 2nd. \n\nBlack wins. \n\nThese are the basics of the Lucena Position, which is a standard way to convert a pawn up advantage in the rook endgame.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/4k3/8/8/6K1/4q3 w - - 0 43",
+        "parentNodeId": "Il",
+        "san": "e1=Q"
+      },
+      "ky": {
+        "adjacentNodeIds": [
+          "qh"
+        ],
+        "comments": [
+          {
+            "text": "We stay near.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3R4/8/6r1/8/4k3/4p2K/8 w - - 6 38",
+        "parentNodeId": "sN",
+        "san": "Ke3"
+      },
+      "lP": {
+        "adjacentNodeIds": [
+          "O9"
+        ],
+        "comments": [
+          {
+            "text": "That's fine. Ivanchuk can make progress since the king is cut off.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/5R2/8/8/4p3/4k3/7K/8 w - - 0 29",
+        "parentNodeId": "Yl",
+        "san": "e4"
+      },
+      "n8": {
+        "adjacentNodeIds": [
+          "Kr"
+        ],
+        "comments": [
+          {
+            "text": "The king stayed on a relevant central square to try and defend against the e- and h-pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/R1Pkp2p/2r5/3K4/8/8 b - - 2 12",
+        "parentNodeId": "8F",
+        "san": "Kd3"
+      },
+      "nG": {
+        "adjacentNodeIds": [
+          "Xx"
+        ],
+        "comments": [
+          {
+            "text": "Magnus attacked the pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "7r/8/8/4p1kp/4R3/8/4K3/8 b - - 13 19",
+        "parentNodeId": "6p",
+        "san": "Re4"
+      },
+      "o": {
+        "adjacentNodeIds": [
+          "f"
+        ],
+        "comments": [
+          {
+            "text": "Before we get to the Lucena, it's clear that something went wrong for Magnus. \n\nIf you notice, he's a pawn down, but it still isn't Lucena territory. There are too many pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1p6/p1k1pr1p/P1P4P/2K1R3/8/8 b - h3 0 1",
+        "parentNodeId": "0",
+        "san": "h4"
+      },
+      "qg": {
+        "adjacentNodeIds": [
+          "fn"
+        ],
+        "comments": [
+          {
+            "text": "Here, Ivanchuk got a little impatient and chose to go after the h-pawn. \n\nThis continuation is rather drawish, but Magnus still would have to defend against the passed h- and e-pawns.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h4",
+                "b6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/1p3k2/p3p2p/P1P2r1P/2KR4/8/8 w - - 7 5",
+        "parentNodeId": "My",
+        "san": "Rf4"
+      },
+      "qh": {
+        "adjacentNodeIds": [
+          "4n"
+        ],
+        "comments": [
+          {
+            "text": "Another check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4R3/8/6r1/8/4k3/4p2K/8 b - - 7 38",
+        "parentNodeId": "ky",
+        "san": "Re7+"
+      },
+      "rG": {
+        "adjacentNodeIds": [
+          "sN"
+        ],
+        "comments": [
+          {
+            "text": "Black can start bringing the king out.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5R2/8/6r1/8/8/3kp2K/8 w - - 4 37",
+        "parentNodeId": "gs",
+        "san": "Kd2"
+      },
+      "sN": {
+        "adjacentNodeIds": [
+          "ky"
+        ],
+        "comments": [
+          {
+            "text": "White checks.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/3R4/8/6r1/8/8/3kp2K/8 b - - 5 37",
+        "parentNodeId": "rG",
+        "san": "Rd7+"
+      },
+      "sX": {
+        "adjacentNodeIds": [
+          "Sn"
+        ],
+        "comments": [
+          {
+            "text": "Once again, Black can threaten to push the pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-e2",
+                "e2-e1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/5R2/8/8/8/4p3/3k3K/8 w - - 2 33",
+        "parentNodeId": "bb",
+        "san": "Kd2"
+      },
+      "tL": {
+        "adjacentNodeIds": [
+          "B4"
+        ],
+        "comments": [
+          {
+            "text": "And Ivanchuk gained control of the g-file, preventing White's king from joining the action. \n\nThis is the first prerequisite of the Lucena position: cutting the king off.",
+            "arrows": {
+              "threats": [
+                "g8-g1"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/8/8/4pk2/8/8/8/4R2K w - - 3 26",
+        "parentNodeId": "x4",
+        "san": "Rg8"
+      },
+      "ud": {
+        "adjacentNodeIds": [
+          "6p"
+        ],
+        "comments": [
+          {
+            "text": "Magnus moved backwards.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7r/8/8/4pk1p/7R/8/4K3/8 b - - 11 18",
+        "parentNodeId": "HL",
+        "san": "Ke2"
+      },
+      "uf": {
+        "adjacentNodeIds": [
+          "Mp"
+        ],
+        "comments": [
+          {
+            "text": "But Ivanchuk defends and pushes. \n\nBut now Ivanchuk would have a problem: if the king tries coming out, Magnus can give checks.",
+            "arrows": {
+              "threats": [
+                "e7-f7",
+                "e7-d7"
+              ],
+              "opportunities": [
+                "e1-f2",
+                "e1-d2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6r1/4R3/8/8/8/8/4p2K/4k3 w - - 0 35",
+        "parentNodeId": "gA",
+        "san": "e2"
+      },
+      "vY": {
+        "adjacentNodeIds": [
+          "7S"
+        ],
+        "comments": [
+          {
+            "text": "Another check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5R2/8/6r1/8/5k2/4p2K/8 b - - 9 39",
+        "parentNodeId": "4n",
+        "san": "Rf7+"
+      },
+      "x4": {
+        "adjacentNodeIds": [
+          "tL"
+        ],
+        "comments": [
+          {
+            "text": "Magnus went all the way back to the 1st rank.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/8/8/4pk2/8/8/8/4R2K b - - 2 25",
+        "parentNodeId": "e5",
+        "san": "Re1"
+      },
+      "xU": {
+        "adjacentNodeIds": [
+          "IL"
+        ],
+        "comments": [
+          {
+            "text": "And Ivanchuk took on h4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/1R6/p3pk1p/P1P4r/2K5/8/8 w - - 0 7",
+        "parentNodeId": "Cr",
+        "san": "Rxh4"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

@@ -1,0 +1,102 @@
+{
+  "id": "85417974-473a-4f0c-b5bd-7e4f8b79721d",
+  "name": "Quiz 5",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gets their b-pawn involved. \n\nWhat's the only move to hold the pawns at bay?",
+    "answers": [
+      {
+        "text": "Na2",
+        "feedback": {
+          "text": "This defense also locks the b-pawn down.",
+          "arrows": {
+            "threats": [
+              "a2-b4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "b4"
+            ]
+          }
+        },
+        "comment": "blocking the a-pawn.",
+        "afterMoveFen": "6k1/6pp/8/1p6/8/p6P/N5P1/4K3 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kd2",
+        "feedback": {
+          "text": "After ...b4, the pawns are too advanced.",
+          "arrows": {
+            "threats": [
+              "b5-b4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "getting the king closer to the pawns.",
+        "afterMoveFen": "6k1/6pp/8/1p6/8/p1N4P/3K2P1/8 b - - 1 2"
+      },
+      {
+        "text": "Nxb5",
+        "feedback": {
+          "text": "The a-pawn cannot be stopped.",
+          "arrows": {
+            "threats": [
+              "a2-a1",
+              "a3-a2"
+            ],
+            "opportunities": [
+              "b5-c3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "winning one of the pawns.",
+        "afterMoveFen": "6k1/6pp/8/1N6/8/p6P/6P1/4K3 b - - 0 2"
+      },
+      {
+        "text": "Kd1",
+        "feedback": {
+          "text": "It's the same story. ...b4 comes and suddenly the pawn advance cannot be stoppped.",
+          "arrows": {
+            "threats": [
+              "b5-b4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "getting the king closer.",
+        "afterMoveFen": "6k1/6pp/8/1p6/8/p1N4P/6P1/3K4 b - - 1 2"
+      }
+    ],
+    "positionFen": "6k1/6pp/1p6/8/8/p1N4P/6P1/4K3 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "b5",
+      "afterMoveFen": "6k1/6pp/8/1p6/8/p1N4P/6P1/4K3 w - - 0 2"
+    }
+  },
+  "drill": null
+}

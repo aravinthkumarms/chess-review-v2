@@ -1,0 +1,86 @@
+{
+  "id": "a28e9fd4-b809-45f2-baf2-d52cec3d9edd",
+  "name": "Quiz 12",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black moves their king up to c7. \n\nCan the White king ever invade one of the key squares?",
+    "answers": [
+      {
+        "text": "No, because Black can defend against all attempts.",
+        "feedback": {
+          "text": "Exactly. Black would need to prevent White from getting the opposition or invading favorably.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes. Kd5 wins because the white king will enter one of the key squares.",
+        "feedback": {
+          "text": "If Kd5, Black gets the opposition and White will never invade. Remember that pushing the pawn won't help White.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e4-d5",
+              "c7-d7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, Ke5 wins because it gets the diagonal opposition which will give White access to one of the key squares.",
+        "feedback": {
+          "text": "The diagonal opposition is meaningless here because the pawn on c4 can be attacked.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e4-e5",
+              "c7-c6",
+              "c6-c5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1k6/8/8/8/2P1K3/8/8/8 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e4-e5",
+        "e4-d5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Kc7",
+      "afterMoveFen": "8/2k5/8/8/2P1K3/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

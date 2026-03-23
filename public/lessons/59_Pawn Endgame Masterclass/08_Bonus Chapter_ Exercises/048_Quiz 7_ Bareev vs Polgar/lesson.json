@@ -1,0 +1,87 @@
+{
+  "id": "dd8bfbd9-ad90-4fa7-89d0-cd432f69d429",
+  "name": "Quiz 7: Bareev vs Polgar",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White slides back.\n\nHow can you beat Bareev in this position?",
+    "answers": [
+      {
+        "text": "Kd5",
+        "feedback": {
+          "text": "Great!\n\nIt's important to know when to switch up approaches in the endgame.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "going for the e-pawn.",
+        "afterMoveFen": "8/5p2/4p2p/2pkP1pP/8/1P1K3P/8/8 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kb5",
+        "feedback": {
+          "text": "White can play Kc3!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "going for the queenside.",
+        "afterMoveFen": "8/5p2/4p2p/1kp1P1pP/8/1P1K3P/8/8 w - - 3 2"
+      },
+      {
+        "text": "Kc7",
+        "feedback": {
+          "text": "You have something better in this instance!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "going for triangulation.",
+        "afterMoveFen": "8/2k2p2/4p2p/2p1P1pP/8/1P1K3P/8/8 w - - 3 2"
+      },
+      {
+        "text": "f5",
+        "feedback": {
+          "text": "White can take en-passant!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "pushing on the kingside.",
+        "afterMoveFen": "8/8/2k1p2p/2p1PppP/8/1P1K3P/8/8 w - f6 0 2"
+      }
+    ],
+    "positionFen": "8/5p2/2k1p2p/2p1P1pP/2K5/1P5P/8/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kd3",
+      "afterMoveFen": "8/5p2/2k1p2p/2p1P1pP/8/1P1K3P/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

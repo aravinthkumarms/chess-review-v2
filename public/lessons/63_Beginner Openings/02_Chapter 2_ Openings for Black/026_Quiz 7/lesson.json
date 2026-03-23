@@ -1,0 +1,50 @@
+{
+  "id": "70814989-7bec-4306-97ab-2c9abe77d0b7",
+  "name": "Quiz 7",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White castles. \n\nWhat's the move as Black that adds pressure to White's center?",
+    "answers": [
+      {
+        "text": "c5",
+        "feedback": {
+          "text": "Good job! This also allows our knight to reach c6 and further pressure on d4.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c5-d4",
+              "g8-e7",
+              "e7-c6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r2qkbnr/pp1n1ppp/4p3/2ppPb2/3P4/5N2/PPP1BPPP/RNBQ1RK1 w kq - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you put pressure on the d4-pawn?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2qkbnr/pp1n1ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQK2R w KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "O-O",
+      "afterMoveFen": "r2qkbnr/pp1n1ppp/2p1p3/3pPb2/3P4/5N2/PPP1BPPP/RNBQ1RK1 b kq - 2 1"
+    }
+  },
+  "drill": null
+}

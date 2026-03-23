@@ -1,0 +1,81 @@
+{
+  "id": "59fe8c41-c9b2-432c-911d-eac23b8db221",
+  "name": "Quiz 20 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black jumps to b5. \n\nIs the sacrifice Rxh7 possible?",
+    "answers": [
+      {
+        "text": "Yes, this is the best move.",
+        "feedback": {
+          "text": "Good job! That's a strong sacrifice.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h1-h7",
+              "d3-g6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g6",
+              "g8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It’s playable but it isn’t the best move.",
+        "feedback": {
+          "text": "Not exactly. There isn't a better move!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, White doesn’t win after the king takes.",
+        "feedback": {
+          "text": "Most of Black's pieces are on the queenside contributing to the defense. This sacrifice must be winning!",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "c6",
+              "b5",
+              "b8",
+              "c8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1rr3k1/n5bp/2qp2p1/p2p4/3P1N2/PpPQB3/1P3PP1/KR5R b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "h1-h7"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Nb5",
+      "afterMoveFen": "1rr3k1/6bp/2qp2p1/pn1p4/3P1N2/PpPQB3/1P3PP1/KR5R w - - 2 2"
+    }
+  },
+  "drill": null
+}

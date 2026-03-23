@@ -1,0 +1,53 @@
+{
+  "id": "313faf9b-4b2b-49c7-a6a9-4bf90b0ad38b",
+  "name": "Quiz 5: Stalemate",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black moves the king to g3.\n\nWhat can White do?",
+    "answers": [
+      {
+        "text": "This is stalemate. White has no legal moves and is not under attack.",
+        "feedback": {
+          "text": "That's right. White's pawns can't move and the king can't move. However, the king is not attacked at all! So, the game is a draw.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White's king is trapped and under attack. This is checkmate and the game is over.",
+        "feedback": {
+          "text": "In fact, there is nothing attacking the White king! The game is over, but not by checkmate.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White can continue fighting and has some legal moves. The game is not over.",
+        "feedback": {
+          "text": "White's pawns are blocked and the king is surrounded by Black's king. White can't make a move.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/3p4/3P4/p5k1/P7/6p1/6K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kg3",
+      "afterMoveFen": "8/8/3p4/3P4/p7/P5k1/6p1/6K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

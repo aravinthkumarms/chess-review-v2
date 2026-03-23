@@ -1,0 +1,82 @@
+{
+  "id": "10d3fe4a-72b8-48e3-bc5f-3c03a3d019ea",
+  "name": "Quiz 9 - pawn",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Look at the black d4-pawn. \n\nHow many possible moves could you play with it on this turn?",
+    "answers": [
+      {
+        "text": "There are 2 legal moves with the d4-pawn.",
+        "feedback": {
+          "text": "Exactly. You could push the pawn one square (...d3) or you could take the pawn on c3 (...dxc3)",
+          "arrows": {
+            "threats": [
+              "d4-d3",
+              "d4-c3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "There is only 1 legal move.",
+        "feedback": {
+          "text": "Are you sure? How do pawns advance? How do they capture?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "There are 3 legal moves.",
+        "feedback": {
+          "text": "Remember that pawns, after moving from their starting position, can only move forward or capture diagonally.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkbnr/pppp1ppp/8/8/3pP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": []
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "d4"
+      ]
+    },
+    "contextMove": {
+      "san": "c3",
+      "afterMoveFen": "rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bc650158-9cae-4838-8b97-f39af80e6971",
+  "name": "Quiz 5 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White captures the knight on f3.\n\nWhich move wins here?",
+    "answers": [
+      {
+        "text": "Bg4+",
+        "feedback": {
+          "text": "Good job! After king captures the bishop, we'll have ...Qh5#.",
+          "arrows": {
+            "threats": [
+              "f3-g4"
+            ],
+            "opportunities": [
+              "h2-h5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "1r3rk1/5p1p/pp4p1/8/4PPb1/1BP1BKP1/P6q/R1QR4 w - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you lure out White's king so a checkmate can be played on the next move?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1r3rk1/5p1p/pp2b1p1/8/4PP2/1BP1BnP1/P4K1q/R1QR4 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kxf3",
+      "afterMoveFen": "1r3rk1/5p1p/pp2b1p1/8/4PP2/1BP1BKP1/P6q/R1QR4 b - - 0 1"
+    }
+  },
+  "drill": null
+}

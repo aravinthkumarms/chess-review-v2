@@ -1,0 +1,71 @@
+{
+  "id": "2dece51c-b0ce-4adf-8128-6d239c558173",
+  "name": "Quiz 6 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black puts pressure on the g2-pawn, but the e4-pawn is undefended.\n\nCan we capture it with Nxe4?",
+    "answers": [
+      {
+        "text": "Yes! The e4-pawn is more valuable than the g2-pawn.",
+        "feedback": {
+          "text": "Precisely! ...Qxg2 will attack our rook on h1, but we'll retreat with Ng3 next to protect it.",
+          "arrows": {
+            "threats": [
+              "g5-g2"
+            ],
+            "opportunities": [
+              "d2-e4",
+              "e4-g3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "h1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "If we allow Black to capture our pawn on g2, our kingside will collapse quickly.",
+        "feedback": {
+          "text": "Central pawns are often more valuable than pawns on the kingside/queenside. Is there a way to continue playing this position even after Black captures on g2?",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqkbnr/ppp2ppp/2n5/8/2BPp3/4P3/PP1N1PPP/RNBQK2R b KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d2-e4"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "g2"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qg5",
+      "afterMoveFen": "r1b1kbnr/ppp2ppp/2n5/6q1/2BPp3/4P3/PP1N1PPP/RNBQK2R w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

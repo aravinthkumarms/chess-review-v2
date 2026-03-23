@@ -1,0 +1,66 @@
+{
+  "id": "60cba216-b7e6-4a4b-9d10-d94d5c5541c9",
+  "name": "Quiz 4",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has just taken on c6 and attacks your rook. \n\nWhat's your best choice forward?",
+    "answers": [
+      {
+        "text": "Re2",
+        "feedback": {
+          "text": "Invasion of the 2nd rank, attacking a2. \n\nThis is a good move.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "a2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "invading the 2nd rank.",
+        "afterMoveFen": "r5k1/2p2ppb/2N4p/1p3P2/1P6/2Pp2P1/P3r2P/R4R1K w - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rxf5",
+        "feedback": {
+          "text": "This captures a pawn, but it allows a fork.",
+          "arrows": {
+            "threats": [
+              "c6-e7"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "g8",
+              "f5"
+            ],
+            "opportunities": [
+              "e7"
+            ]
+          }
+        },
+        "comment": "taking the free pawn.",
+        "afterMoveFen": "r5k1/2p2ppb/2N4p/1p3r2/1P6/2Pp2P1/P6P/R4R1K w - - 0 2"
+      }
+    ],
+    "positionFen": "r5k1/2p2ppb/2p4p/Np2rP2/1P6/2Pp2P1/P6P/R4R1K w - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "e5"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Nxc6",
+      "afterMoveFen": "r5k1/2p2ppb/2N4p/1p2rP2/1P6/2Pp2P1/P6P/R4R1K b - - 0 1"
+    }
+  },
+  "drill": null
+}

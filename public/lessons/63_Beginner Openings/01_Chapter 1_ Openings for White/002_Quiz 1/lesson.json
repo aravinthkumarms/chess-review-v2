@@ -1,0 +1,78 @@
+{
+  "id": "038a1752-962f-45a7-8b7b-9596a1cc566f",
+  "name": "Quiz 1 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Let's practice developing our pieces like in the 10 Golden Moves.\n\nDo you remember which minor piece you need to develop?",
+    "answers": [
+      {
+        "text": "Nc3",
+        "feedback": {
+          "text": "Knights before bishops! This is what you should play first.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b1-c3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "rnbqk1nr/p1ppppbp/1p4p1/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 1 2"
+      },
+      {
+        "text": "Bc4",
+        "feedback": {
+          "text": "We want to play Nc3 first whenever possible, but this is also okay.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b1-c3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "rnbqk1nr/p1ppppbp/1p4p1/8/2BPP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 2"
+      },
+      {
+        "text": "Bf4",
+        "feedback": {
+          "text": "This is also possible if you found it, but remember you want to play Nc3 first.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b1-c3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "rnbqk1nr/p1ppppbp/1p4p1/8/3PPB2/5N2/PPP2PPP/RN1QKB1R b KQkq - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you develop one of your pieces?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqk1nr/ppppppbp/6p1/8/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "b6",
+      "afterMoveFen": "rnbqk1nr/p1ppppbp/1p4p1/8/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 2"
+    }
+  },
+  "drill": null
+}

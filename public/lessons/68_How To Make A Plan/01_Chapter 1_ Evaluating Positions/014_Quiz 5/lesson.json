@@ -1,0 +1,74 @@
+{
+  "id": "bdb31a9d-8a31-4bf4-a08e-4a0a08709e7c",
+  "name": "Quiz 5",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "You have the Black pieces.\n\nEvaluate space and material. \n\nIn terms of king safety, both sides have defended against a flank pawn attack. \n\nIn terms of activity, who is better?",
+    "answers": [
+      {
+        "text": "Position is equal (-0.1)",
+        "feedback": {
+          "text": "This position is actually entirely balanced in terms of dynamics: White has a pawn on a6, Black has a pawn on h3. \n\nWhite controls the c-file, but Black has a pin on the f3 knight. \n\nWhite has a knight on d6. But Black has a knight on f5 and a bishop on f8 that can trade that knight off and so they can get rid of that active piece. \n\nThis is a beautiful example of dynamic equality.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is winning (+4.5)",
+        "feedback": {
+          "text": "This evaluation implies that White has a break through in the attack, or that White will win material soon. Is that the case? ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black is better (-1.9)",
+        "feedback": {
+          "text": "While Black has a strong pin on the f3 knight, White also has some merits to their position, so we cannot evaluate this as being nearly winning for Black.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "f3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White is slightly better (+0.6)",
+        "feedback": {
+          "text": "While you could make an argument for this, you could also make an argument for Black's activity. Black will get rid of the knight on d6 soon, and they'll contest the c-file in no time. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1k1r1b1r/p1q2pp1/Pp1Np3/3pPn2/3P2b1/4BNPp/1P2QP1P/2R2RK1 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "h3",
+        "a6"
+      ]
+    },
+    "contextMove": {
+      "san": "Qd7",
+      "afterMoveFen": "1k1r1b1r/p2q1pp1/Pp1Np3/3pPn2/3P2b1/4BNPp/1P2QP1P/2R2RK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

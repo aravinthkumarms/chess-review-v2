@@ -1,0 +1,90 @@
+{
+  "id": "4e2b722f-22bb-441a-bfb0-7750af53fc05",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black pushes their pawn. \n\nCan the White king reach the pawn in time?",
+    "answers": [
+      {
+        "text": "Yes. All three king moves into the e-file are good enough to stop the pawn.",
+        "feedback": {
+          "text": "Exactly. All three king moves get inside of the square.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b4-b1",
+              "b1-e1",
+              "e1-e4",
+              "e4-b4",
+              "f2-e3",
+              "f2-e2",
+              "f2-e1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, but only Ke1 can be played to reach the pawn and stop promotion.",
+        "feedback": {
+          "text": "This isn't true. There's more than one move to get inside the square.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b4-b1",
+              "b4-e4",
+              "e4-e1",
+              "e1-b1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, the king cannot reach the pawn in time.",
+        "feedback": {
+          "text": "Are you sure? Look at the square.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b4-b1",
+              "b4-e4",
+              "e4-e1",
+              "e1-b1",
+              "b4-e1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "7k/8/8/1p6/8/8/5K2/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "b4",
+      "afterMoveFen": "7k/8/8/8/1p6/8/5K2/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,63 @@
+{
+  "id": "d048cfdb-4e58-41f3-ac7c-c483874af546",
+  "name": "Quiz 1 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The game has transitioned into an opposite color bishop endgame.\n\nWhat should you play?",
+    "answers": [
+      {
+        "text": "Be4",
+        "feedback": {
+          "text": "Correct! \n\nThis is the best move to activate the bishop and force the pawn forward. \n\nOnce the pawn moves forward, you can block it on the light squares.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "attacking the pawn.",
+        "afterMoveFen": "6k1/5p1p/3p2p1/2pP4/p1P1B3/3p2PP/Pb3P2/6K1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Bd1",
+        "feedback": {
+          "text": "This is a one move threat. It can easily be defended.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a4-a3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": "attacking a4, trying to create a passed pawn.",
+        "afterMoveFen": "6k1/5p1p/3p2p1/2pP4/p1P5/3p2PP/Pb3P2/3B2K1 b - - 1 2"
+      },
+      {
+        "text": "Kf1",
+        "feedback": {
+          "text": "This move fails. ...f5 and Black controls many light squares and it's hard to attack the e4-pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f7-f5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": "activating the king!",
+        "afterMoveFen": "6k1/5p1p/3p2p1/2pP4/p1P5/3p1BPP/Pb3P2/5K2 b - - 1 2"
+      }
+    ],
+    "positionFen": "6k1/5pbp/3p2p1/2pP4/p1P5/3p1BPP/PR3P2/6K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bxb2",
+      "afterMoveFen": "6k1/5p1p/3p2p1/2pP4/p1P5/3p1BPP/Pb3P2/6K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

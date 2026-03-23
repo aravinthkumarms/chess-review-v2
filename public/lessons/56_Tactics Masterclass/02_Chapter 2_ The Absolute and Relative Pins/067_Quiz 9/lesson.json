@@ -1,0 +1,50 @@
+{
+  "id": "e4eeef8e-8478-46e8-9f79-ee2911810c48",
+  "name": "Quiz 9 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black captures on c6. \n\nWhat's the only move to stay in the game?",
+    "answers": [
+      {
+        "text": "Bd4",
+        "feedback": {
+          "text": "Nice job! Now after ...Rd8+, we can go Kd2.",
+          "arrows": {
+            "threats": [
+              "a8-e8"
+            ],
+            "opportunities": [
+              "e2-d2"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r4r1k/pppR2bp/2q3p1/8/3B1p2/2P4Q/PP2KPPP/7R b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you allow the king some retreating squares and save your bishop?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r4r1k/pppR2bp/2B1q1p1/8/5p2/2P1B2Q/PP2KPPP/7R b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qxc6",
+      "afterMoveFen": "r4r1k/pppR2bp/2q3p1/8/5p2/2P1B2Q/PP2KPPP/7R w - - 0 2"
+    }
+  },
+  "drill": null
+}

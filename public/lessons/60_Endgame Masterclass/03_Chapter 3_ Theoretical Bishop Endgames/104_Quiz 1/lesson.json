@@ -1,0 +1,43 @@
+{
+  "id": "b6975d68-e05c-46a1-8623-e4a2e8989d81",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "There is a lot of separation between the pawns in this opposite color bishop endgame. \n\nWhat should the result of this game be?",
+    "answers": [
+      {
+        "text": "A draw.",
+        "feedback": {
+          "text": "Yes. White can sacrifice their bishop for the e-pawn and hide their king in the a1 corner.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "A win for Black.",
+        "feedback": {
+          "text": "Are you sure? Keep in mind that one of the pawns is a rook pawn.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/2b5/4p3/p7/2B2k2/2K5/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "e4",
+      "afterMoveFen": "8/8/2b5/8/p3p3/2B2k2/2K5/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

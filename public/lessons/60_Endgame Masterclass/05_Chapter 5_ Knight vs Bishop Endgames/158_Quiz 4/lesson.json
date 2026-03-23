@@ -1,0 +1,84 @@
+{
+  "id": "12b5a269-aceb-4a43-91ff-a2b504e26b1f",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has captured on a3.\n\nWhat now? We have a passed f-pawn.\n \nShould we push it or do something else?",
+    "answers": [
+      {
+        "text": "We can do both!",
+        "feedback": {
+          "text": "Good job! After f7 Black can sacrifice the bishop (...Bxf7+), but our king runs to capture the h6-pawn and the h-pawn is unstoppable. \n\nNf4, ...Be8, and Ke7 is also a killer.",
+          "arrows": {
+            "threats": [
+              "h5-f7"
+            ],
+            "opportunities": [
+              "f6-f7",
+              "d5-f4",
+              "h2-h8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "We should kick away the bishop first with Nf4.",
+        "feedback": {
+          "text": "This is also a very good move, but can we perhaps also implement another idea?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "We can push the f-pawn immediately.",
+        "feedback": {
+          "text": "We are not afraid of the sacrifice (...Bxf7+). Is there another way to win?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/1p6/p3KP1p/3N3b/kP6/P7/7P/8 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "f6"
+      ]
+    },
+    "contextMove": {
+      "san": "Kxa3",
+      "afterMoveFen": "8/1p6/p3KP1p/3N3b/1P6/k7/7P/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

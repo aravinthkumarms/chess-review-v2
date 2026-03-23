@@ -1,0 +1,65 @@
+{
+  "id": "f284848d-e9c4-4c1f-98c6-07d1d6d8ffd3",
+  "name": "Quiz 6",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White is attacking you with the h-pawn.\n\n Is there something fundamentally wrong with the capture gxh5?",
+    "answers": [
+      {
+        "text": "Yes, there’s something really wrong with ...gxh5!",
+        "feedback": {
+          "text": "Exactly, capturing on h5 leads to checkmate in three starting with Rg3+!",
+          "arrows": {
+            "threats": [
+              "g6-h5"
+            ],
+            "opportunities": [
+              "f3-g3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, ...gxh5 is the best move.",
+        "feedback": {
+          "text": "White has a dangerous check after ...gxh5.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, it’s playable but it isn’t that practical for a human, you have to defend like Stockfish.",
+        "feedback": {
+          "text": "White has actually a simple plan after ...gxh5. It starts with Rg3+ and leads to a checkmate!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "R7/3n1rkp/4p1p1/3pP3/2pq1P1P/5R2/1rB5/2Q1NK2 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g6-h5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "h5",
+      "afterMoveFen": "R7/3n1rkp/4p1p1/3pP2P/2pq1P2/5R2/1rB5/2Q1NK2 b - - 0 1"
+    }
+  },
+  "drill": null
+}

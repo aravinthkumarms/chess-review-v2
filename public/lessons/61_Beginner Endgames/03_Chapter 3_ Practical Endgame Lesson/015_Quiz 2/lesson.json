@@ -1,0 +1,76 @@
+{
+  "id": "54b63a2c-cef8-48c5-a143-72aab8d83588",
+  "name": "Quiz 2 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It is White to move in this endgame. \n\nWhat do you think of Rh3 to attack the knight?",
+    "answers": [
+      {
+        "text": "It's a bad move.",
+        "feedback": {
+          "text": "1.Rh3 Ng1 forks both rooks!",
+          "arrows": {
+            "threats": [
+              "f3-g1"
+            ],
+            "opportunities": [
+              "h1-h3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e2",
+              "h3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It's the best move. The knight is trapped.",
+        "feedback": {
+          "text": "Is it really trapped?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It's a good move to chase the knight away.",
+        "feedback": {
+          "text": "It's a terrible blunder!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r4r2/1p4kp/2p3p1/3p1pP1/pP1P3P/2P1Pn2/P1N1R3/1K5R b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "h1-h3"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "f3"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "b6",
+      "afterMoveFen": "r4r2/6kp/1pp3p1/3p1pP1/pP1P3P/2P1Pn2/P1N1R3/1K5R w - - 0 2"
+    }
+  },
+  "drill": null
+}

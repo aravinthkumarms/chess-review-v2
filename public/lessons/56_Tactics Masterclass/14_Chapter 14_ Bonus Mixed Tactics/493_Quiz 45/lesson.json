@@ -1,0 +1,87 @@
+{
+  "id": "75fc06e4-ad77-4cd9-9eae-bae840907936",
+  "name": "Quiz 45 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks your rook.\n\nWhat's the best way to continue the attack?",
+    "answers": [
+      {
+        "text": "Qxf4",
+        "feedback": {
+          "text": "Good job! Our attack is still ongoing.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "capturing the pawn.",
+        "afterMoveFen": "1r2r1k1/5p2/1q2b1p1/2ppP2P/p4Q2/2P3R1/PP3PP1/R1N3K1 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "hxg6",
+        "feedback": {
+          "text": "This doesn't work. Black's king escapes via f8 or f7.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g8-f7",
+              "f7-f6",
+              "g8-f8"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": "sacrificing the rook.",
+        "afterMoveFen": "1r2r1k1/5p2/1q2b1PQ/2ppP3/p4p2/2P3R1/PP3PP1/R1N3K1 b - - 0 2"
+      },
+      {
+        "text": "Rxg6+",
+        "feedback": {
+          "text": "Black has enough defenders after ...fxg6.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f7-g6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "sacrificing the rook on g6.",
+        "afterMoveFen": "1r2r1k1/5p2/1q2b1RQ/2ppP2P/p4p2/2P5/PP3PP1/R1N3K1 b - - 0 2"
+      },
+      {
+        "text": "Rg5",
+        "feedback": {
+          "text": "Black has a defensive resource with ...Bf5.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e6-f5",
+              "b6-g6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "moving the rook.",
+        "afterMoveFen": "1r2r1k1/5p2/1q2b1pQ/2ppP1RP/p4p2/2P5/PP3PP1/R1N3K1 b - - 1 2"
+      }
+    ],
+    "positionFen": "1r2r1k1/5p2/1q2b1pQ/2ppPp1P/p7/2P3R1/PP3PP1/R1N3K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "f4",
+      "afterMoveFen": "1r2r1k1/5p2/1q2b1pQ/2ppP2P/p4p2/2P3R1/PP3PP1/R1N3K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

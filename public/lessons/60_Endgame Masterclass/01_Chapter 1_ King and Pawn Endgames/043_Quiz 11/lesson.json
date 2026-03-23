@@ -1,0 +1,43 @@
+{
+  "id": "c35f1f1d-001f-4660-8b54-0e64364e1260",
+  "name": "Quiz 11",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "When the pawn is on the 5th rank, there are more key squares. \n\nKey squares are any of those that the attacking king has to occupy in order to have a winning king and pawn endgame. \n\nWhich are the key squares here?",
+    "answers": [
+      {
+        "text": "e6-f6-g6-e7-f7-g7",
+        "feedback": {
+          "text": "Exactly. If the attacker occupies one of these squares, they'll win.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The three squares in front of a pawn are its key squares. However, when the pawn is on the 5th, there are three more squares. If the attacker occupies any one of those squares, the endgame is considered \"winning\" with correct play. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/3k4/8/5P1K/8/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke7",
+      "afterMoveFen": "8/4k3/8/5P1K/8/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

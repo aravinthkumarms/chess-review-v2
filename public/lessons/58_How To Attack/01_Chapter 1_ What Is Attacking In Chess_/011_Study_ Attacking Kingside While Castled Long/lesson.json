@@ -1,0 +1,564 @@
+{
+  "id": "f0dad905-5a5a-4fa2-8734-4dca6a2d477d",
+  "name": "Study: Attacking Kingside While Castled Long",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "o"
+        ],
+        "comments": [
+          {
+            "text": "This is a game I played against a Grandmaster. \n\nI had the White pieces. \n\nJust like Christopher Yoo did in the previous game, before actually castling, I decided to get a head start with the attack:",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/62352627227?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pb3ppp/1pn1pb2/2pp4/3P1P2/2PBPN2/PP1NQ1PP/R3K2R w KQ - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1C": {
+        "adjacentNodeIds": [
+          "W9"
+        ],
+        "comments": [
+          {
+            "text": "The rook went to the g-file...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q2r1/pb2bk2/1p2p2p/2ppPp2/3P3P/2PBP3/PP1NQ3/2KR3R w - - 1 8",
+        "parentNodeId": "Tq",
+        "san": "Rg8"
+      },
+      "2D": {
+        "adjacentNodeIds": [
+          "w1"
+        ],
+        "comments": [
+          {
+            "text": "The bishop retreated, since if my pawn reached the hook with a tempo, lines would've become open.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pb2bpp1/1pn1p2p/2pp4/3P1PPP/2PBPN2/PP1NQ3/R3K2R w KQ - 1 3",
+        "parentNodeId": "td",
+        "san": "Be7"
+      },
+      "3g": {
+        "adjacentNodeIds": [
+          "xe"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1r2/pb2bk2/1pn1p2p/2ppNp2/3P1P1P/2PBP3/PP1NQ3/2KR3R b - - 3 6",
+        "parentNodeId": "ZE",
+        "san": "Ne5+"
+      },
+      "58": {
+        "adjacentNodeIds": [
+          "ix"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1kr1/pb2b3/1p2p2Q/2ppPp2/3P3P/2PBP3/PP1N4/2KR3R b - - 0 9",
+        "parentNodeId": "cM",
+        "san": "Qxh6+"
+      },
+      "5D": {
+        "adjacentNodeIds": [
+          "tN"
+        ],
+        "comments": [
+          {
+            "text": "My other rook enters the g-file.\n\nBlack can't stop checkmate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1k2/pb2b3/1p2p3/2ppPp1Q/3P3P/2PBP3/PP1N4/2K3R1 b - - 0 12",
+        "parentNodeId": "LG",
+        "san": "Rxg1"
+      },
+      "6": {
+        "adjacentNodeIds": [
+          "hV"
+        ],
+        "comments": [
+          {
+            "text": "A normal developing move, not creating any hooks, was probably best.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pbq2ppp/1pn1pb2/2pp4/3P1P1P/2PBPN2/PP1NQ1P1/R3K2R w KQ - 1 2",
+        "parentNodeId": "o",
+        "san": "Qc7"
+      },
+      "Az": {
+        "adjacentNodeIds": [
+          "lB"
+        ],
+        "comments": [
+          {
+            "text": "They recaptured. \n\nNow the king is exposed.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pb2b3/1pn1p2p/2pp1p2/3P1P1P/2PBPN2/PP1NQ3/R3K2R w KQ - 0 5",
+        "parentNodeId": "QM",
+        "san": "gxh6"
+      },
+      "Bv": {
+        "adjacentNodeIds": [
+          "LG"
+        ],
+        "comments": [
+          {
+            "text": "Now I brought my other rook into the attack. \n\nBlack resigned. \n\nThat's the power of connected rooks! \n\nOne of them can be traded and the other one takes its place! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1kr1/pb2b3/1p2p3/2ppPp1Q/3P3P/2PBP3/PP1N4/2KR2R1 b - - 4 11",
+        "parentNodeId": "Pi",
+        "san": "Rhg1"
+      },
+      "Ec": {
+        "adjacentNodeIds": [
+          "Pi"
+        ],
+        "comments": [
+          {
+            "text": "I gave another check to improve the position of my queen...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q2r1/pb2bk2/1p2p3/2ppPp1Q/3P3P/2PBP3/PP1N4/2KR3R b - - 2 10",
+        "parentNodeId": "ix",
+        "san": "Qh5+"
+      },
+      "FW": {
+        "adjacentNodeIds": [
+          "IV"
+        ],
+        "comments": [
+          {
+            "text": "I've got to take with the c-pawn because the e-pawn defends f4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pbq2ppp/1pn1pb2/3p4/3P1PPP/3BPN2/PP1NQ3/R3K2R b KQ - 0 3",
+        "parentNodeId": "s1",
+        "san": "cxd4"
+      },
+      "IV": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And now the knight jumps to b4. \n\nThe c-file is open and it's hard to say how I'm castling and where I'm putting my king. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pbq2ppp/1p2pb2/3p4/1n1P1PPP/3BPN2/PP1NQ3/R3K2R w KQ - 1 4",
+        "parentNodeId": "FW",
+        "san": "Nb4"
+      },
+      "Kk": {
+        "adjacentNodeIds": [
+          "eW"
+        ],
+        "comments": [
+          {
+            "text": "The king moves up.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3q2Q/pb2bk2/1p2p3/2ppPp2/3P3P/2PBP3/PP1N4/2K3R1 w - - 3 14",
+        "parentNodeId": "ax",
+        "san": "Kf7"
+      },
+      "LG": {
+        "adjacentNodeIds": [
+          "5D"
+        ],
+        "comments": [
+          {
+            "text": "If the rook takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1k2/pb2b3/1p2p3/2ppPp1Q/3P3P/2PBP3/PP1N4/2KR2r1 w - - 0 12",
+        "parentNodeId": "Bv",
+        "san": "Rxg1"
+      },
+      "M": {
+        "adjacentNodeIds": [
+          "td"
+        ],
+        "comments": [
+          {
+            "text": "Black played h6, to try and stop the h-pawn marching all the way up.\n\nHowever, this isn't how you defend. \n\nh6 creates a \"hook.\" \n\nA hook is a pawn in the position that can be attacked to generate pawn tension and open lines as a result. So a pawn on g5 for example \"hooks\" onto the h6 pawn and creates tension that can result in open lines for the attacker.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g2-g4",
+                "g4-g5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pb3pp1/1pn1pb1p/2pp4/3P1P1P/2PBPN2/PP1NQ1P1/R3K2R w KQ - 0 2",
+        "parentNodeId": "o",
+        "san": "h6"
+      },
+      "Pi": {
+        "adjacentNodeIds": [
+          "Bv"
+        ],
+        "comments": [
+          {
+            "text": "And when the king went back to f8...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1kr1/pb2b3/1p2p3/2ppPp1Q/3P3P/2PBP3/PP1N4/2KR3R w - - 3 11",
+        "parentNodeId": "Ec",
+        "san": "Kf8"
+      },
+      "QM": {
+        "adjacentNodeIds": [
+          "Az"
+        ],
+        "comments": [
+          {
+            "text": "Black kept my bishop out of the game, but couldn't keep the file closed.\n\nThey couldn't do both! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pb2b1p1/1pn1p2P/2pp1p2/3P1P1P/2PBPN2/PP1NQ3/R3K2R b KQ - 0 4",
+        "parentNodeId": "Wh",
+        "san": "gxh6"
+      },
+      "Tq": {
+        "adjacentNodeIds": [
+          "1C"
+        ],
+        "comments": [
+          {
+            "text": "And I recaptured with the f-pawn.\n\nBb5+ can be played if Ke8, so Black's escape can't be played! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d3-b5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b5",
+                "e8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1r2/pb2bk2/1p2p2p/2ppPp2/3P3P/2PBP3/PP1NQ3/2KR3R b - - 0 7",
+        "parentNodeId": "xe",
+        "san": "fxe5"
+      },
+      "W9": {
+        "adjacentNodeIds": [
+          "cM"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q2r1/pb2bk2/1p2p2p/2ppPp1Q/3P3P/2PBP3/PP1N4/2KR3R b - - 2 8",
+        "parentNodeId": "1C",
+        "san": "Qh5+"
+      },
+      "Wh": {
+        "adjacentNodeIds": [
+          "QM"
+        ],
+        "comments": [
+          {
+            "text": "Black played f5, trying to keep my light-squared bishop out of the game. \n\nThis is a good strategy usually: in stonewall setups, the d3 bishop is one of the strongest attackers. If Black can somehow trade or block this bishop in, they'll have an easier defense.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pb2b1p1/1pn1p2p/2pp1pP1/3P1P1P/2PBPN2/PP1NQ3/R3K2R w KQ f6 0 4",
+        "parentNodeId": "w1",
+        "san": "f5"
+      },
+      "ZE": {
+        "adjacentNodeIds": [
+          "3g"
+        ],
+        "comments": [
+          {
+            "text": "The king tried to escape. \n\nEscaping is a legitimate try in some scenarios. \n\nNot in this one though! \n\nThe king's escape can be stopped! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1r2/pb2bk2/1pn1p2p/2pp1p2/3P1P1P/2PBPN2/PP1NQ3/2KR3R w - - 2 6",
+        "parentNodeId": "lB",
+        "san": "Kf7"
+      },
+      "ax": {
+        "adjacentNodeIds": [
+          "Kk"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3qk1Q/pb2b3/1p2p3/2ppPp2/3P3P/2PBP3/PP1N4/2K3R1 b - - 2 13",
+        "parentNodeId": "tN",
+        "san": "Qh8+"
+      },
+      "cM": {
+        "adjacentNodeIds": [
+          "58"
+        ],
+        "comments": [
+          {
+            "text": "The king went back...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1kr1/pb2b3/1p2p2p/2ppPp1Q/3P3P/2PBP3/PP1N4/2KR3R w - - 3 9",
+        "parentNodeId": "W9",
+        "san": "Kf8"
+      },
+      "eW": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And checkmate. \n\nBlack created a hook for me to attack, and I took full advantage of it! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3q3/pb2bkQ1/1p2p3/2ppPp2/3P3P/2PBP3/PP1N4/2K3R1 b - - 4 14",
+        "parentNodeId": "Kk",
+        "san": "Qg7#"
+      },
+      "hV": {
+        "adjacentNodeIds": [
+          "s1"
+        ],
+        "comments": [
+          {
+            "text": "g4 now doesn't land with the same effect and threat of g5, opening lines...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pbq2ppp/1pn1pb2/2pp4/3P1PPP/2PBPN2/PP1NQ3/R3K2R b KQ g3 0 2",
+        "parentNodeId": "6",
+        "san": "g4"
+      },
+      "ix": {
+        "adjacentNodeIds": [
+          "Ec"
+        ],
+        "comments": [
+          {
+            "text": "The king moved back up...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q2r1/pb2bk2/1p2p2Q/2ppPp2/3P3P/2PBP3/PP1N4/2KR3R w - - 1 10",
+        "parentNodeId": "58",
+        "san": "Kf7"
+      },
+      "lB": {
+        "adjacentNodeIds": [
+          "ZE"
+        ],
+        "comments": [
+          {
+            "text": "I castled queenside, connecting rooks and ready to bring the rooks to the g-file! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pb2b3/1pn1p2p/2pp1p2/3P1P1P/2PBPN2/PP1NQ3/2KR3R b - - 1 5",
+        "parentNodeId": "Az",
+        "san": "O-O-O"
+      },
+      "o": {
+        "adjacentNodeIds": [
+          "M",
+          "6"
+        ],
+        "comments": [
+          {
+            "text": "h4! Here comes the pawn storm! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pb3ppp/1pn1pb2/2pp4/3P1P1P/2PBPN2/PP1NQ1P1/R3K2R b KQ h3 0 1",
+        "parentNodeId": "0",
+        "san": "h4"
+      },
+      "s1": {
+        "adjacentNodeIds": [
+          "FW"
+        ],
+        "comments": [
+          {
+            "text": "Since Black can trade...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pbq2ppp/1pn1pb2/3p4/3p1PPP/2PBPN2/PP1NQ3/R3K2R w KQ - 0 3",
+        "parentNodeId": "hV",
+        "san": "cxd4"
+      },
+      "tN": {
+        "adjacentNodeIds": [
+          "ax"
+        ],
+        "comments": [
+          {
+            "text": "No piece can defend the king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3qk2/pb2b3/1p2p3/2ppPp1Q/3P3P/2PBP3/PP1N4/2K3R1 w - - 1 13",
+        "parentNodeId": "5D",
+        "san": "Qe8"
+      },
+      "td": {
+        "adjacentNodeIds": [
+          "2D"
+        ],
+        "comments": [
+          {
+            "text": "So g4! Let's go for that hook! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-g5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pb3pp1/1pn1pb1p/2pp4/3P1PPP/2PBPN2/PP1NQ3/R3K2R b KQ g3 0 2",
+        "parentNodeId": "M",
+        "san": "g4"
+      },
+      "w1": {
+        "adjacentNodeIds": [
+          "Wh"
+        ],
+        "comments": [
+          {
+            "text": "I went for that hook.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pb2bpp1/1pn1p2p/2pp2P1/3P1P1P/2PBPN2/PP1NQ3/R3K2R b KQ - 0 3",
+        "parentNodeId": "2D",
+        "san": "g5"
+      },
+      "xe": {
+        "adjacentNodeIds": [
+          "Tq"
+        ],
+        "comments": [
+          {
+            "text": "The knight took...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1r2/pb2bk2/1p2p2p/2ppnp2/3P1P1P/2PBP3/PP1NQ3/2KR3R w - - 0 7",
+        "parentNodeId": "3g",
+        "san": "Nxe5"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

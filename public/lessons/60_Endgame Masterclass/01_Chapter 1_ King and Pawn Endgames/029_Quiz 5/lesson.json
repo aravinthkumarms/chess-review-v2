@@ -1,0 +1,112 @@
+{
+  "id": "f0caf963-d977-413e-9dc9-9b32447a522d",
+  "name": "Quiz 5 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black sacrificed a pawn on e3 and White has captured it. \n\nAfter ...g5, who is winning here?",
+    "answers": [
+      {
+        "text": "Black is winning because the white king cannot catch the g-pawn after ...g5.",
+        "feedback": {
+          "text": "Exactly. The king can enter the square, but once the pawn continues, there's an obstacle in the middle that prevents the white king from catching the g-pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g7-g5",
+              "g5-c1",
+              "c1-c5",
+              "c5-g5",
+              "g5-g1",
+              "g1-c1",
+              "b6-c5",
+              "c5-d4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "e3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It's a draw because after ...g5 the white king can enter the pawn's square.",
+        "feedback": {
+          "text": "Are you sure that even though it can enter the pawn's square it can continue to do so? What about when the pawn gets to g3? Will the White king be able to enter that square?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g3-g1",
+              "g1-e1",
+              "e1-e3",
+              "e3-g3"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White wins because the e-pawn will queen with check.",
+        "feedback": {
+          "text": "If e4, Black will also queen with check. But Black queens first.",
+          "arrows": {
+            "threats": [
+              "g1-b6"
+            ],
+            "opportunities": [
+              "e3-e4",
+              "g7-g5",
+              "g5-g4",
+              "g4-g3",
+              "g3-g2",
+              "g2-g1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1k6/6p1/1K6/8/8/4p3/3P4/8 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g7-g5",
+        "g5-g1",
+        "g1-c1",
+        "c1-c5",
+        "c5-g5"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "dxe3",
+      "afterMoveFen": "1k6/6p1/1K6/8/8/4P3/8/8 b - - 0 1"
+    }
+  },
+  "drill": null
+}

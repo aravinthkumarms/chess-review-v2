@@ -1,0 +1,75 @@
+{
+  "id": "9a9f404b-03ee-43c2-9278-b80176e5d15c",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White lands the knight on f6. \n\nWhat's wrong with taking it?",
+    "answers": [
+      {
+        "text": "After ...Bxf6, White has a forced checkmate.",
+        "feedback": {
+          "text": "Exactly. After ...Bxf6, Bc2 and you cannot defend h7.",
+          "arrows": {
+            "threats": [
+              "e7-f6"
+            ],
+            "opportunities": [
+              "b3-c2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "There's nothing wrong. Just accept the sacrifice!",
+        "feedback": {
+          "text": "There's a very dangerous move that could be played.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White has a strong attack that can win more material.",
+        "feedback": {
+          "text": "There's something even worse.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bq1r1k/pp2bp1n/1np4Q/8/3PN3/1B3N1P/PP3PP1/R4RK1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nf6",
+      "afterMoveFen": "r1bq1r1k/pp2bp1n/1np2N1Q/8/3P4/1B3N1P/PP3PP1/R4RK1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

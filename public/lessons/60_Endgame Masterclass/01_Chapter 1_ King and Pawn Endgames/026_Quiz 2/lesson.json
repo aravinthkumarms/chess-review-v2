@@ -1,0 +1,97 @@
+{
+  "id": "5bff6f25-98c6-4598-896e-b354792ed345",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has two pawns. \n\nCan White secure the draw by reaching both pawns in time?",
+    "answers": [
+      {
+        "text": "No, the pawns are too far away and too ahead.",
+        "feedback": {
+          "text": "Exactly. The f-pawn is too close to promotion.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d5-c4",
+              "f5-f4",
+              "c4-b4",
+              "f4-f3",
+              "b4-c3",
+              "f3-f2",
+              "c3-d2",
+              "f2-f1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, but the b-pawn has to be taken first.",
+        "feedback": {
+          "text": "Even if you go after the b-pawn, the problem is White doesn't get into the f3-pawn's square.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d5-c4",
+              "f5-f4",
+              "c4-b4",
+              "f4-f3",
+              "f3-f1",
+              "f1-d1",
+              "d1-d3",
+              "d3-f3",
+              "b4-c3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f3"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, but the f-pawn has to be taken first.",
+        "feedback": {
+          "text": "The b-pawn is farther up the board and so it should be hunted first. At any rate, it's no guarantee that White draws, it all depends on the rule of the square.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d5-e5",
+              "b4-b3",
+              "b3-b2",
+              "b2-b1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "5k2/8/8/1p1K1p2/8/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "b4",
+      "afterMoveFen": "5k2/8/8/3K1p2/1p6/8/8/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

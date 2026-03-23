@@ -1,0 +1,829 @@
+{
+  "id": "ddff3e65-d17f-4e34-b2da-d2585677b792",
+  "name": "Study 5: Bringing Pieces to Defend The King",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "a"
+        ],
+        "comments": [
+          {
+            "text": "This was another game sent by a subscriber. \n\nIn a game, when your opponent sacrifices to destroy the pawns in front of your king, a good defensive strategy is bringing in the rest of your pieces to defend. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/69045807909?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k2r/ppp2ppp/2n2n2/3q4/1b1P2b1/2N2N2/PP2BPPP/R1BQK2R w KQkq - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1p": {
+        "adjacentNodeIds": [
+          "5c"
+        ],
+        "comments": [
+          {
+            "text": "There's a constant threat of ...Qh2# if the knight on f3 moves.\n\nSo a simple idea is ...Nxd4, Nxd4 and Qh2#.",
+            "arrows": {
+              "threats": [
+                "h5-h2",
+                "c6-d4",
+                "f3-d4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h2",
+                "d4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2kr3r/ppp2ppp/2n5/7q/1b1P2n1/2N2N2/PP2BPP1/R1BQ1RK1 w - - 0 4",
+        "parentNodeId": "ag",
+        "san": "Nxg4"
+      },
+      "2g": {
+        "adjacentNodeIds": [
+          "Fy"
+        ],
+        "comments": [
+          {
+            "text": "White attacked the queen.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/ppp3pp/2n4r/3q1p2/2BP2n1/1P3NN1/P4PP1/R2Q1RK1 b - - 1 9",
+        "parentNodeId": "Cu",
+        "san": "Bc4"
+      },
+      "3H": {
+        "adjacentNodeIds": [
+          "rT"
+        ],
+        "comments": [
+          {
+            "text": "Black played ...Rh6, threatening checkmate on h1. ",
+            "arrows": {
+              "threats": [
+                "h5-h1"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/ppp2ppp/2n4r/7q/3PN1n1/5N2/PP2BPP1/R2Q1RK1 w - - 2 7",
+        "parentNodeId": "9G",
+        "san": "Rh6"
+      },
+      "45": {
+        "adjacentNodeIds": [
+          "v2"
+        ],
+        "comments": [
+          {
+            "text": "The knight took the queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5n/pp5p/1q1pB2r/5p2/6n1/1P3NN1/P4PP1/2R1R1K1 w - - 0 18",
+        "parentNodeId": "DQ",
+        "san": "Nxh8"
+      },
+      "5C": {
+        "adjacentNodeIds": [
+          "uV"
+        ],
+        "comments": [
+          {
+            "text": "Black would've been able to take on h3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr3r/ppp2ppp/2n2n2/7q/Qb1P4/2N2N1b/PP2BPP1/R1B2RK1 w - - 0 4",
+        "parentNodeId": "X3",
+        "san": "Bxh3"
+      },
+      "5c": {
+        "adjacentNodeIds": [
+          "ma"
+        ],
+        "comments": [
+          {
+            "text": "That's why, to defend this dangerous idea, White brought another defender to the kingside! \n\nThe bishop guards the h2 square as well! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-h2"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2kr3r/ppp2ppp/2n5/7q/1b1P1Bn1/2N2N2/PP2BPP1/R2Q1RK1 b - - 1 4",
+        "parentNodeId": "1p",
+        "san": "Bf4"
+      },
+      "7I": {
+        "adjacentNodeIds": [
+          "o1"
+        ],
+        "comments": [
+          {
+            "text": "The queen had to leave the h-file, which is already a step in the right direction for White. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/ppp2ppp/2n4r/3q4/3P2n1/5NN1/PP2BPP1/R2Q1RK1 w - - 4 8",
+        "parentNodeId": "rT",
+        "san": "Qd5"
+      },
+      "8K": {
+        "adjacentNodeIds": [
+          "ag",
+          "X3"
+        ],
+        "comments": [
+          {
+            "text": "Black just castled! \n\nThey have scary-looking ideas behind this sacrifice: pressure on the d-pawn and the queen behind it on the d-file, and if hxg4, ...Nxg4, with the constant threat of ...Qh2# if the knight on f3 moves! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2kr3r/ppp2ppp/2n2n2/7q/1b1P2b1/2N2N1P/PP2BPP1/R1BQ1RK1 w - - 1 3",
+        "parentNodeId": "E",
+        "san": "O-O-O"
+      },
+      "9G": {
+        "adjacentNodeIds": [
+          "3H",
+          "A7"
+        ],
+        "comments": [
+          {
+            "text": "And White jumped their knight into the center.\n\nThere was a drawback to this that Black didn't find in the game...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/ppp2ppp/2nr4/7q/3PN1n1/5N2/PP2BPP1/R2Q1RK1 b - - 1 6",
+        "parentNodeId": "to",
+        "san": "Ne4"
+      },
+      "A7": {
+        "adjacentNodeIds": [
+          "lR"
+        ],
+        "comments": [
+          {
+            "text": "...Rxd4 attacks the queen and knight.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d1",
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/ppp2ppp/2n5/7q/3rN1n1/5N2/PP2BPP1/R2Q1RK1 w - - 0 7",
+        "parentNodeId": "9G",
+        "san": "Rxd4"
+      },
+      "Cu": {
+        "adjacentNodeIds": [
+          "2g"
+        ],
+        "comments": [
+          {
+            "text": "But the game isn't over! \n\nBlack tried getting another attacker into the mix, the f-pawn! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-f4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/ppp3pp/2n4r/3q1p2/3P2n1/1P3NN1/P3BPP1/R2Q1RK1 w - f6 0 9",
+        "parentNodeId": "o1",
+        "san": "f5"
+      },
+      "D2": {
+        "adjacentNodeIds": [
+          "c0"
+        ],
+        "comments": [
+          {
+            "text": "White pushed the pawn to attack the knight. \n\nSometimes the best defense is a good offense, counterattacking, not giving Black time to play f4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/pppq2pp/2n4r/3P1p2/2B3n1/1P3NN1/P4PP1/R2Q1RK1 b - - 0 10",
+        "parentNodeId": "Fy",
+        "san": "d5"
+      },
+      "DQ": {
+        "adjacentNodeIds": [
+          "45"
+        ],
+        "comments": [
+          {
+            "text": "Qxh8+ is forced checkmate in two. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5Q/pp5p/1q1pB1nr/5p2/6n1/1P3NN1/P4PP1/2R1R1K1 b - - 0 17",
+        "parentNodeId": "xN",
+        "san": "Qxh8+"
+      },
+      "E": {
+        "adjacentNodeIds": [
+          "8K"
+        ],
+        "comments": [
+          {
+            "text": "White attacked the bishop on g4. \n\nAnd instead of moving the bishop away...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h3-g4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k2r/ppp2ppp/2n2n2/7q/1b1P2b1/2N2N1P/PP2BPP1/R1BQ1RK1 b kq - 0 2",
+        "parentNodeId": "v",
+        "san": "h3"
+      },
+      "FE": {
+        "adjacentNodeIds": [
+          "up"
+        ],
+        "comments": [
+          {
+            "text": "The knight went to g6, forgetting about the a7-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/pppq2pp/6nr/3P1p2/2BQ2n1/1P3NN1/P4PP1/R4RK1 w - - 3 12",
+        "parentNodeId": "ZQ",
+        "san": "Ng6"
+      },
+      "Fy": {
+        "adjacentNodeIds": [
+          "D2"
+        ],
+        "comments": [
+          {
+            "text": "And the queen retreated to d7. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/pppq2pp/2n4r/5p2/2BP2n1/1P3NN1/P4PP1/R2Q1RK1 w - - 2 10",
+        "parentNodeId": "2g",
+        "san": "Qd7"
+      },
+      "OS": {
+        "adjacentNodeIds": [
+          "WE"
+        ],
+        "comments": [
+          {
+            "text": "It seems White not only defended against Black's initiative, but they went on to create an initiative of their own with the extra material. \n\nNotice how they only did this after securing their kingside.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/pp4pp/2qpB1nr/5p2/3Q2n1/1P3NN1/P4PP1/R3R1K1 w - - 2 15",
+        "parentNodeId": "Rz",
+        "san": "Qc6"
+      },
+      "Rz": {
+        "adjacentNodeIds": [
+          "OS"
+        ],
+        "comments": [
+          {
+            "text": "And White attacked the queen and f5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d7",
+                "f5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1k5r/pp1q2pp/3pB1nr/5p2/3Q2n1/1P3NN1/P4PP1/R3R1K1 b - - 1 14",
+        "parentNodeId": "xn",
+        "san": "Be6"
+      },
+      "TO": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The knight is still coming to g4, and now there are two pawns missing on White's kingside⁠—the g- and h-pawns.",
+            "arrows": {
+              "threats": [
+                "f6-g4",
+                "h8-e8"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2kr3r/ppp2ppp/2n2n2/8/Qb1P4/2N2N1q/PP2BP2/R1B2RK1 w - - 0 5",
+        "parentNodeId": "uV",
+        "san": "Qxh3"
+      },
+      "Tl": {
+        "adjacentNodeIds": [
+          "vm"
+        ],
+        "comments": [
+          {
+            "text": "The queen went to a6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/pp4pp/q2pB1nr/5p2/3Q2n1/1P3NN1/P4PP1/2R1R1K1 w - - 4 16",
+        "parentNodeId": "WE",
+        "san": "Qa6"
+      },
+      "WE": {
+        "adjacentNodeIds": [
+          "Tl"
+        ],
+        "comments": [
+          {
+            "text": "White brought the rook to the c-file, attacking the queen. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1k5r/pp4pp/2qpB1nr/5p2/3Q2n1/1P3NN1/P4PP1/2R1R1K1 b - - 3 15",
+        "parentNodeId": "OS",
+        "san": "Rac1"
+      },
+      "X3": {
+        "adjacentNodeIds": [
+          "5C"
+        ],
+        "comments": [
+          {
+            "text": "The cowardly Qa4 would have allowed Black their same attacking ideas but with greater damage of the kingside pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr3r/ppp2ppp/2n2n2/7q/Qb1P2b1/2N2N1P/PP2BPP1/R1B2RK1 b - - 2 3",
+        "parentNodeId": "8K",
+        "san": "Qa4"
+      },
+      "XB": {
+        "adjacentNodeIds": [
+          "rU"
+        ],
+        "comments": [
+          {
+            "text": "The king defended...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/pppq2pp/6nr/3P1p2/2BQ2n1/1P3NN1/P4PP1/R3R1K1 w - - 5 13",
+        "parentNodeId": "up",
+        "san": "Kb8"
+      },
+      "ZQ": {
+        "adjacentNodeIds": [
+          "FE"
+        ],
+        "comments": [
+          {
+            "text": "White centralized their queen. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d4-g7",
+                "d4-a7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g7",
+                "a7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/pppqn1pp/7r/3P1p2/2BQ2n1/1P3NN1/P4PP1/R4RK1 b - - 2 11",
+        "parentNodeId": "c0",
+        "san": "Qd4"
+      },
+      "a": {
+        "adjacentNodeIds": [
+          "v"
+        ],
+        "comments": [
+          {
+            "text": "White castled, unpinning the knight and threatening the queen. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c3-d5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k2r/ppp2ppp/2n2n2/3q4/1b1P2b1/2N2N2/PP2BPPP/R1BQ1RK1 b kq - 2 1",
+        "parentNodeId": "0",
+        "san": "O-O"
+      },
+      "ag": {
+        "adjacentNodeIds": [
+          "1p"
+        ],
+        "comments": [
+          {
+            "text": "White accepted the sacrifice. \n\nNot doing so was worse for White. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr3r/ppp2ppp/2n2n2/7q/1b1P2P1/2N2N2/PP2BPP1/R1BQ1RK1 b - - 0 3",
+        "parentNodeId": "8K",
+        "san": "hxg4"
+      },
+      "c0": {
+        "adjacentNodeIds": [
+          "ZQ"
+        ],
+        "comments": [
+          {
+            "text": "The knight went to e7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/pppqn1pp/7r/3P1p2/2B3n1/1P3NN1/P4PP1/R2Q1RK1 w - - 1 11",
+        "parentNodeId": "D2",
+        "san": "Ne7"
+      },
+      "lR": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The game could have continued like this.\n\nWhite would have still had an advantage, but Black's attacking ideas are dangerous, and White would have had to play good defense to keep the advantage.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/ppp2ppp/2n5/7q/3rN1n1/5N2/PPQ1BPP1/R4RK1 b - - 1 7",
+        "parentNodeId": "A7",
+        "san": "Qc2"
+      },
+      "ma": {
+        "adjacentNodeIds": [
+          "sE"
+        ],
+        "comments": [
+          {
+            "text": "Black tried removing the newly added defender...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr3r/ppp2ppp/2nb4/7q/3P1Bn1/2N2N2/PP2BPP1/R2Q1RK1 w - - 2 5",
+        "parentNodeId": "5c",
+        "san": "Bd6"
+      },
+      "o1": {
+        "adjacentNodeIds": [
+          "Cu"
+        ],
+        "comments": [
+          {
+            "text": "White played b3 to activate their light-squared bishop.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e2-c4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/ppp2ppp/2n4r/3q4/3P2n1/1P3NN1/P3BPP1/R2Q1RK1 b - - 0 8",
+        "parentNodeId": "7I",
+        "san": "b3"
+      },
+      "rT": {
+        "adjacentNodeIds": [
+          "7I"
+        ],
+        "comments": [
+          {
+            "text": "But White brought yet another piece to defend the kingside.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g3-h1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h5"
+              ],
+              "opportunities": [
+                "h1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2k4r/ppp2ppp/2n4r/7q/3P2n1/5NN1/PP2BPP1/R2Q1RK1 b - - 3 7",
+        "parentNodeId": "3H",
+        "san": "Ng3"
+      },
+      "rU": {
+        "adjacentNodeIds": [
+          "xn"
+        ],
+        "comments": [
+          {
+            "text": "And White sacrificed a pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-e6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/pppq2pp/3P2nr/5p2/2BQ2n1/1P3NN1/P4PP1/R3R1K1 b - - 0 13",
+        "parentNodeId": "XB",
+        "san": "d6"
+      },
+      "sE": {
+        "adjacentNodeIds": [
+          "to"
+        ],
+        "comments": [
+          {
+            "text": "So White took.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr3r/ppp2ppp/2nB4/7q/3P2n1/2N2N2/PP2BPP1/R2Q1RK1 b - - 0 5",
+        "parentNodeId": "ma",
+        "san": "Bxd6"
+      },
+      "to": {
+        "adjacentNodeIds": [
+          "9G"
+        ],
+        "comments": [
+          {
+            "text": "The rook recaptured...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d6-h6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/ppp2ppp/2nr4/7q/3P2n1/2N2N2/PP2BPP1/R2Q1RK1 w - - 0 6",
+        "parentNodeId": "sE",
+        "san": "Rxd6"
+      },
+      "uV": {
+        "adjacentNodeIds": [
+          "TO"
+        ],
+        "comments": [
+          {
+            "text": "And if the pawn takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2kr3r/ppp2ppp/2n2n2/7q/Qb1P4/2N2N1P/PP2BP2/R1B2RK1 b - - 0 4",
+        "parentNodeId": "5C",
+        "san": "gxh3"
+      },
+      "up": {
+        "adjacentNodeIds": [
+          "XB"
+        ],
+        "comments": [
+          {
+            "text": "But White missed that the pawn could have been taken. \n\nRfe1 gives the king an extra square in case things ever get unsafe on the kingside once again. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g1-f1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k4r/pppq2pp/6nr/3P1p2/2BQ2n1/1P3NN1/P4PP1/R3R1K1 b - - 4 12",
+        "parentNodeId": "FE",
+        "san": "Rfe1"
+      },
+      "v": {
+        "adjacentNodeIds": [
+          "E"
+        ],
+        "comments": [
+          {
+            "text": "Hence Black got out of the way, and took their queen to the kingside, where it hopes to attack White's king. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k2r/ppp2ppp/2n2n2/7q/1b1P2b1/2N2N2/PP2BPPP/R1BQ1RK1 w kq - 3 2",
+        "parentNodeId": "a",
+        "san": "Qh5"
+      },
+      "v2": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And since the rook was taken off the board, the 8th rank was really weak. \n\nGoing back, we can learn from strong defensive moves like Bf4 to defend h2, and Ne4-g3 to defend the h1 square.\n\nThe sacrifice was accepted to avoid further dangers, but once accepted, proper defense was played to fight off Black's initiative.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b8"
+              ],
+              "opportunities": [
+                "c8",
+                "e6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1kR4n/pp5p/1q1pB2r/5p2/6n1/1P3NN1/P4PP1/4R1K1 b - - 1 18",
+        "parentNodeId": "45",
+        "san": "Rc8#"
+      },
+      "vm": {
+        "adjacentNodeIds": [
+          "xN"
+        ],
+        "comments": [
+          {
+            "text": "And White took a pawn, with pressure on the rook on h8 and threatening a check on c7. ",
+            "arrows": {
+              "threats": [
+                "g7-c7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "h8"
+              ],
+              "opportunities": [
+                "c7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1k5r/pp4Qp/q2pB1nr/5p2/6n1/1P3NN1/P4PP1/2R1R1K1 b - - 0 16",
+        "parentNodeId": "Tl",
+        "san": "Qxg7"
+      },
+      "xN": {
+        "adjacentNodeIds": [
+          "DQ"
+        ],
+        "comments": [
+          {
+            "text": "The queen guarded against the dangers of Qc7+, but White found a brilliant move.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1k5r/pp4Qp/1q1pB1nr/5p2/6n1/1P3NN1/P4PP1/2R1R1K1 w - - 1 17",
+        "parentNodeId": "vm",
+        "san": "Qb6"
+      },
+      "xn": {
+        "adjacentNodeIds": [
+          "Rz"
+        ],
+        "comments": [
+          {
+            "text": "Black took...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1k5r/pp1q2pp/3p2nr/5p2/2BQ2n1/1P3NN1/P4PP1/R3R1K1 w - - 0 14",
+        "parentNodeId": "rU",
+        "san": "cxd6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

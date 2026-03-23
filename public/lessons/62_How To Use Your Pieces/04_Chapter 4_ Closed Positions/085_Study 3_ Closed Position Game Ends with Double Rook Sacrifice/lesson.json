@@ -1,0 +1,1534 @@
+{
+  "id": "b00a961d-0a62-44d3-b5f7-3aaa649952ee",
+  "name": "Study 3: Closed Position Game Ends with Double Rook Sacrifice",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "T"
+        ],
+        "comments": [
+          {
+            "text": "This was a game played between Pentala Harikrishna and Laurent Fressinet. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1382186",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "06": {
+        "adjacentNodeIds": [
+          "A9"
+        ],
+        "comments": [
+          {
+            "text": "And Harikrishna threatened the h4 pawn, because Nxh4 and gxh4 is met by Qh6#. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g2-h4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4brrk/1q2b1n1/p2p1p2/1p1Pn1p1/2p1P1Pp/2P2N1P/PPBQ1RNB/5R1K b - - 5 34",
+        "parentNodeId": "NX",
+        "san": "Ng2"
+      },
+      "0I": {
+        "adjacentNodeIds": [
+          "ML",
+          "7F"
+        ],
+        "comments": [
+          {
+            "text": "Black isn't threatening to win a pawn because the h-file can open to Black's disadvantage.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/2qbb1n1/p2p1p2/1p1Pn1pp/2pNP1P1/2P1N1BP/PPBQ1R2/5R1K b - - 1 31",
+        "parentNodeId": "oZ",
+        "san": "Ne3"
+      },
+      "1U": {
+        "adjacentNodeIds": [
+          "po"
+        ],
+        "comments": [
+          {
+            "text": "And White went for the Ruy Lopez opening. \n\nThis opening can lead to a wide variety of positions, both open and closed.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6",
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+        "parentNodeId": "5U",
+        "san": "Bb5"
+      },
+      "44": {
+        "adjacentNodeIds": [
+          "pY"
+        ],
+        "comments": [
+          {
+            "text": "The knight went back to pressure the rook and pawn...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6",
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rn1rk/1q2b3/p2P1Rb1/1p2p1p1/2p1P1Pp/2P4P/PPBQ2NB/5R1K w - - 1 38",
+        "parentNodeId": "rZ",
+        "san": "Ne8"
+      },
+      "4F": {
+        "adjacentNodeIds": [
+          "Xj"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet began shuffling back and forth, stalling. \n\nPerhaps he realized there wasn't much to do. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/2qbb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P1N2P/PPBQ1R2/5R1K w - - 18 29",
+        "parentNodeId": "XH",
+        "san": "Qc7"
+      },
+      "4L": {
+        "adjacentNodeIds": [
+          "oR"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna castled.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5",
+        "parentNodeId": "AL",
+        "san": "O-O"
+      },
+      "4y": {
+        "adjacentNodeIds": [
+          "5a"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna maneuvered his knight behind the pawn structure.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f1-e3",
+                "f1-g3",
+                "g3-f5",
+                "g2-g4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbbppp/p2p1n2/np1Pp3/2p1P3/2P2N1P/PPB2PP1/R1BQRNK1 b - - 1 14",
+        "parentNodeId": "h5",
+        "san": "Nf1"
+      },
+      "5U": {
+        "adjacentNodeIds": [
+          "1U"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet defended.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+        "parentNodeId": "E",
+        "san": "Nc6"
+      },
+      "5a": {
+        "adjacentNodeIds": [
+          "xW"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet brough the knight back. \n\nIt was irrelevant on a5. \n\nThis is key in closed positions: you must find outposts for your knights. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b7-c5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqbbppp/p2p1n2/1p1Pp3/2p1P3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 2 15",
+        "parentNodeId": "4y",
+        "san": "Nb7"
+      },
+      "5b": {
+        "adjacentNodeIds": [
+          "6h"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna took the knight with check. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r2rk/1q6/p2P1Bb1/1p4p1/2p1P1Pp/2P4P/PPBQ2N1/7K b - - 0 40",
+        "parentNodeId": "GG",
+        "san": "Bxf6+"
+      },
+      "6S": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And the position is about equal.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbbp1p/p2p1np1/1pnPp3/2p1P1P1/2P2NNP/PPB2P2/R1BQR1K1 w - - 2 17",
+        "parentNodeId": "h0",
+        "san": "Nc5"
+      },
+      "6Y": {
+        "adjacentNodeIds": [
+          "NX"
+        ],
+        "comments": [
+          {
+            "text": "And Harikrishna proposed a trade of Black's best piece.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/1q1bb1n1/p2p1p2/1p1Pn1p1/2p1P1Pp/2P1NN1P/PPBQ1R1B/5R1K b - - 3 33",
+        "parentNodeId": "dy",
+        "san": "Nf3"
+      },
+      "6h": {
+        "adjacentNodeIds": [
+          "B4"
+        ],
+        "comments": [
+          {
+            "text": "The king went to h7. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r2r1/1q5k/p2P1Bb1/1p4p1/2p1P1Pp/2P4P/PPBQ2N1/7K w - - 1 41",
+        "parentNodeId": "5b",
+        "san": "Kh7"
+      },
+      "7F": {
+        "adjacentNodeIds": [
+          "IA"
+        ],
+        "comments": [
+          {
+            "text": "This move couldn't be played.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/2qbb1n1/p2p1p2/1p1Pn1p1/2pNP1p1/2P1N1BP/PPBQ1R2/5R1K w - - 0 32",
+        "parentNodeId": "0I",
+        "san": "hxg4"
+      },
+      "7z": {
+        "adjacentNodeIds": [
+          "X1"
+        ],
+        "comments": [
+          {
+            "text": "The knight attacked the b3 bishop.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10",
+        "parentNodeId": "Ke",
+        "san": "Na5"
+      },
+      "8H": {
+        "adjacentNodeIds": [
+          "cl"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna pushed the pawn, keeping the position closed for the time being. \n\nd5 gains space and takes control of the c6 and e6 squares.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/2q1bppp/p2p1n2/nppPp3/4P3/2P2N1P/PPB2PP1/RNBQR1K1 b - - 0 12",
+        "parentNodeId": "Oo",
+        "san": "d5"
+      },
+      "8R": {
+        "adjacentNodeIds": [
+          "yY"
+        ],
+        "comments": [
+          {
+            "text": "And Harikrishna recaptured, with an active bishop. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqbbpnp/p2p2p1/1p1P4/2p1PBP1/2P3NP/PPB4N/R2QR1K1 b - - 0 19",
+        "parentNodeId": "YW",
+        "san": "Bxf4"
+      },
+      "8k": {
+        "adjacentNodeIds": [
+          "Ke"
+        ],
+        "comments": [
+          {
+            "text": "Black castled.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+        "parentNodeId": "SK",
+        "san": "O-O"
+      },
+      "A9": {
+        "adjacentNodeIds": [
+          "Os"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet brought his bishop to defend.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-h7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/1q2b1n1/p2p1pb1/1p1Pn1p1/2p1P1Pp/2P2N1P/PPBQ1RNB/5R1K w - - 6 35",
+        "parentNodeId": "06",
+        "san": "Bg6"
+      },
+      "AL": {
+        "adjacentNodeIds": [
+          "4L"
+        ],
+        "comments": [
+          {
+            "text": "Black attacked the e4 pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5",
+        "parentNodeId": "F1",
+        "san": "Nf6"
+      },
+      "B4": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And after this capture, Fressinet resigned. \n\nThe attack along the dark squares is simply too strong. \n\nThere's no way to defend. \n\nThis game had many maneuvers to learn from, like the doubling of rooks, the pawn breaks (by first moving the knights away) and the search for outposts. ",
+            "arrows": {
+              "threats": [
+                "g5-h4"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r2r1/1q5k/p2P1Bb1/1p4Q1/2p1P1Pp/2P4P/PPB3N1/7K b - - 0 41",
+        "parentNodeId": "6h",
+        "san": "Qxg5"
+      },
+      "BI": {
+        "adjacentNodeIds": [
+          "qF"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/1q2b1n1/p4pb1/1p1Pp1p1/2p1P1Pp/2P4P/PPBQ1RNB/5R1K w - - 0 36",
+        "parentNodeId": "Os",
+        "san": "dxe5"
+      },
+      "Cv": {
+        "adjacentNodeIds": [
+          "VW"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna brought his rook to the f-file, which is the only semiopen file for White. \n\nWhite doesn't have a pawn on this file. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r1k/2qbb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P3NP/PPBQ4/R4R1K b - - 9 24",
+        "parentNodeId": "RY",
+        "san": "Rf1"
+      },
+      "DL": {
+        "adjacentNodeIds": [
+          "Q7"
+        ],
+        "comments": [
+          {
+            "text": "The knight was taken to g7. \n\nThis is obviously not the best square for the knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqbbpnp/p2p2p1/1p1Pp3/2p1P1P1/2P3NP/PPB2P1N/R1BQR1K1 w - - 2 18",
+        "parentNodeId": "vo",
+        "san": "Ng7"
+      },
+      "E": {
+        "adjacentNodeIds": [
+          "5U"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna attacked the e5 pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+        "parentNodeId": "e",
+        "san": "Nf3"
+      },
+      "Ev": {
+        "adjacentNodeIds": [
+          "nc"
+        ],
+        "comments": [
+          {
+            "text": "However, this makes it easier for White. \n\nThis pawn advance weakens the f5 square. \n\nThe bishop is also happy to move back and clear the way for the doubled rooks. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/2qbb1np/p2p1p2/1p1Pn1p1/2pNPBP1/2P4P/PPBQ1RN1/5R1K w - - 0 30",
+        "parentNodeId": "Xj",
+        "san": "g5"
+      },
+      "F1": {
+        "adjacentNodeIds": [
+          "AL"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna brought the bishop back.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4",
+        "parentNodeId": "po",
+        "san": "Ba4"
+      },
+      "FB": {
+        "adjacentNodeIds": [
+          "qi"
+        ],
+        "comments": [
+          {
+            "text": "And the knight arrived on e3, controlling the f5 square further.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/1q1bb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P1N2P/PPBQ1R2/R6K b - - 15 27",
+        "parentNodeId": "o9",
+        "san": "Ne3"
+      },
+      "GA": {
+        "adjacentNodeIds": [
+          "aT"
+        ],
+        "comments": [
+          {
+            "text": "Black brought the rook to the g-file. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5rk/1q1bb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P3NP/PPBQ1R2/R6K w - - 12 26",
+        "parentNodeId": "TV",
+        "san": "Rg8"
+      },
+      "GG": {
+        "adjacentNodeIds": [
+          "5b"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet took the other rook. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r2rk/1q6/p2P1nb1/1p2B1p1/2p1P1Pp/2P4P/PPBQ2N1/7K w - - 0 40",
+        "parentNodeId": "Ym",
+        "san": "Nxf6"
+      },
+      "GQ": {
+        "adjacentNodeIds": [
+          "rZ"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet pinned the pawn, but this removes one of the defenders of the f6 pawn...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r2rk/1q2b1n1/p2P1pb1/1p2p1p1/2p1P1Pp/2P4P/PPBQ1RNB/5R1K w - - 1 37",
+        "parentNodeId": "qF",
+        "san": "Rd8"
+      },
+      "Gs": {
+        "adjacentNodeIds": [
+          "Ps"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna brought the knight to d4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2n1rk1/2qbb1np/p2p1pp1/1p1P4/2pNPBP1/2P3NP/PPB5/R2QR1K1 b - - 3 21",
+        "parentNodeId": "Zn",
+        "san": "Nd4"
+      },
+      "IA": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And there isn't a good way to stop Rh2+. ",
+            "arrows": {
+              "threats": [
+                "f2-h2"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "5rrk/2qbb1n1/p2p1p2/1p1Pn1p1/2pNP1P1/2P1N1B1/PPBQ1R2/5R1K b - - 0 32",
+        "parentNodeId": "7F",
+        "san": "hxg4"
+      },
+      "K5": {
+        "adjacentNodeIds": [
+          "xK"
+        ],
+        "comments": [
+          {
+            "text": "And Fressinet played c5, controlling the d4 square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 w - c6 0 11",
+        "parentNodeId": "X1",
+        "san": "c5"
+      },
+      "Ke": {
+        "adjacentNodeIds": [
+          "7z"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna controlled the g4 square, to prevent Bg4. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+        "parentNodeId": "8k",
+        "san": "h3"
+      },
+      "L6": {
+        "adjacentNodeIds": [
+          "Y8"
+        ],
+        "comments": [
+          {
+            "text": "And after the queen defended...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqb1pnp/p2p2p1/1p1Pp3/2p1PPPb/2P2QNP/PPB4N/R1B1R1K1 b - - 2 19",
+        "parentNodeId": "yv",
+        "san": "Qf3"
+      },
+      "ML": {
+        "adjacentNodeIds": [
+          "e0"
+        ],
+        "comments": [
+          {
+            "text": "Hence Fressinet just pushed.\n\nHis intention is to keep the position closed and his king safe.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/2qbb1n1/p2p1p2/1p1Pn1p1/2pNP1Pp/2P1N1BP/PPBQ1R2/5R1K w - - 0 32",
+        "parentNodeId": "0I",
+        "san": "h4"
+      },
+      "NT": {
+        "adjacentNodeIds": [
+          "ga"
+        ],
+        "comments": [
+          {
+            "text": "And now the knight comes to life! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g3-f5",
+                "g3-h5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3nrk1/1nqbbppp/p2p4/1p1Pp3/2p1P1P1/2P2NNP/PPB2P2/R1BQR1K1 b - - 2 16",
+        "parentNodeId": "r3",
+        "san": "Ng3"
+      },
+      "NX": {
+        "adjacentNodeIds": [
+          "06"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet refused, trying to shuffle his bishop. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4brrk/1q2b1n1/p2p1p2/1p1Pn1p1/2p1P1Pp/2P1NN1P/PPBQ1R1B/5R1K w - - 4 34",
+        "parentNodeId": "6Y",
+        "san": "Be8"
+      },
+      "On": {
+        "adjacentNodeIds": [
+          "zQ"
+        ],
+        "comments": [
+          {
+            "text": "The king went to h1, getting out of any possible problems along the dark-squared diagonal. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbbnnp/p2p1pp1/1p1P4/2pNPBP1/2P3NP/PPB5/R2QR2K b - - 5 22",
+        "parentNodeId": "Ps",
+        "san": "Kh1"
+      },
+      "Oo": {
+        "adjacentNodeIds": [
+          "8H"
+        ],
+        "comments": [
+          {
+            "text": "Instead of releasing the tension right away, Black improved the position of the queen. \n\nDevelopment is key before a position opens up. \n\nIf the position is closed, you shouldn't feel a false sense of security because it could become open at any second! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f8-d8",
+                "c8-b7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/2q1bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 12",
+        "parentNodeId": "xK",
+        "san": "Qc7"
+      },
+      "Os": {
+        "adjacentNodeIds": [
+          "BI"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna traded on e5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/1q2b1n1/p2p1pb1/1p1PN1p1/2p1P1Pp/2P4P/PPBQ1RNB/5R1K b - - 0 35",
+        "parentNodeId": "A9",
+        "san": "Nxe5"
+      },
+      "Ps": {
+        "adjacentNodeIds": [
+          "On"
+        ],
+        "comments": [
+          {
+            "text": "And both players are doing what they're supposed to do in closed positions: maneuvering pieces to the best possible outposts! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-e5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbbnnp/p2p1pp1/1p1P4/2pNPBP1/2P3NP/PPB5/R2QR1K1 w - - 4 22",
+        "parentNodeId": "Gs",
+        "san": "Nf7"
+      },
+      "Q7": {
+        "adjacentNodeIds": [
+          "YW",
+          "yv"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna challenged the e5 pawn with f4! \n\nThis is one of the ideas in closed positions: you must look for pawn breaks that benefit your position! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqbbpnp/p2p2p1/1p1Pp3/2p1PPP1/2P3NP/PPB4N/R1BQR1K1 b - f3 0 18",
+        "parentNodeId": "DL",
+        "san": "f4"
+      },
+      "RY": {
+        "adjacentNodeIds": [
+          "Cv"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet finally brought his knight to e5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r1k/2qbb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P3NP/PPBQ4/R3R2K w - - 8 24",
+        "parentNodeId": "VY",
+        "san": "Ne5"
+      },
+      "SK": {
+        "adjacentNodeIds": [
+          "8k"
+        ],
+        "comments": [
+          {
+            "text": "And Harikrishna played c3, preparing the d4 pawn break. \n\nIt is worth noting that even after the d4 pawn break, the position could still remain closed!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d2-d4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b kq - 0 8",
+        "parentNodeId": "ms",
+        "san": "c3"
+      },
+      "T": {
+        "adjacentNodeIds": [
+          "e"
+        ],
+        "comments": [
+          {
+            "text": "White began with 1. e4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+        "parentNodeId": "0",
+        "san": "e4"
+      },
+      "TV": {
+        "adjacentNodeIds": [
+          "GA"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna played a rook lift. \n\nHis idea is to increase the pressure along the only semiopen file. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a1-f1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r1k/1q1bb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P3NP/PPBQ1R2/R6K b - - 11 25",
+        "parentNodeId": "VW",
+        "san": "Rf2"
+      },
+      "VW": {
+        "adjacentNodeIds": [
+          "TV"
+        ],
+        "comments": [
+          {
+            "text": "The queen went to b7, opposite the white king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r1k/1q1bb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P3NP/PPBQ4/R4R1K w - - 10 25",
+        "parentNodeId": "Cv",
+        "san": "Qb7"
+      },
+      "VY": {
+        "adjacentNodeIds": [
+          "RY"
+        ],
+        "comments": [
+          {
+            "text": "The queen went to d2, forming a battery with the bishop on f4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r1k/2qbbnnp/p2p1pp1/1p1P4/2pNPBP1/2P3NP/PPBQ4/R3R2K b - - 7 23",
+        "parentNodeId": "zQ",
+        "san": "Qd2"
+      },
+      "X1": {
+        "adjacentNodeIds": [
+          "K5"
+        ],
+        "comments": [
+          {
+            "text": "Thus the bishop came back to c2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/2p1bppp/p2p1n2/np2p3/4P3/2P2N1P/PPBP1PP1/RNBQR1K1 b - - 2 10",
+        "parentNodeId": "7z",
+        "san": "Bc2"
+      },
+      "XH": {
+        "adjacentNodeIds": [
+          "4F"
+        ],
+        "comments": [
+          {
+            "text": "And Harikrishna doubled rooks.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q2rrk/3bb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P1N2P/PPBQ1R2/5R1K b - - 17 28",
+        "parentNodeId": "qi",
+        "san": "Raf1"
+      },
+      "Xj": {
+        "adjacentNodeIds": [
+          "Ev"
+        ],
+        "comments": [
+          {
+            "text": "Even though White is better, he still has to find the killer blow! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/2qbb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P4P/PPBQ1RN1/5R1K b - - 19 29",
+        "parentNodeId": "4F",
+        "san": "Ng2"
+      },
+      "Y8": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black should have gone for his own pawn break and counterplay! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqb2np/p2p2p1/1p1Ppp2/2p1PPPb/2P2QNP/PPB4N/R1B1R1K1 w - f6 0 20",
+        "parentNodeId": "L6",
+        "san": "f5"
+      },
+      "YW": {
+        "adjacentNodeIds": [
+          "8R"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet captured.\n\nThis wasn't the best, because it improves Harikrishna's structure and pieces. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqbbpnp/p2p2p1/1p1P4/2p1PpP1/2P3NP/PPB4N/R1BQR1K1 w - - 0 19",
+        "parentNodeId": "Q7",
+        "san": "exf4"
+      },
+      "Ym": {
+        "adjacentNodeIds": [
+          "GG"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna recaptured with the rook, keeping the dangerous bishop alive.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rn1rk/1q6/p2P1Rb1/1p2B1p1/2p1P1Pp/2P4P/PPBQ2N1/7K b - - 0 39",
+        "parentNodeId": "yC",
+        "san": "Rxf6"
+      },
+      "Zn": {
+        "adjacentNodeIds": [
+          "Gs"
+        ],
+        "comments": [
+          {
+            "text": "The knight went to d8. \n\nIt will now be rerouted to e5! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d8-f7",
+                "f7-e5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2n1rk1/2qbb1np/p2p1pp1/1p1P4/2p1PBP1/2P2NNP/PPB5/R2QR1K1 w - - 2 21",
+        "parentNodeId": "bg",
+        "san": "Nd8"
+      },
+      "a5": {
+        "adjacentNodeIds": [
+          "fh"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet kicked the bishop out of the diagonal. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq b6 0 7",
+        "parentNodeId": "zR",
+        "san": "b5"
+      },
+      "aT": {
+        "adjacentNodeIds": [
+          "o9"
+        ],
+        "comments": [
+          {
+            "text": "The knight was rerouted.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5rk/1q1bb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P4P/PPBQ1R2/R4N1K b - - 13 26",
+        "parentNodeId": "GA",
+        "san": "Nf1"
+      },
+      "bg": {
+        "adjacentNodeIds": [
+          "Zn"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna brought his knight back into the game. \n\nThere's no use to having it on h2 anymore.\n\nd4 seems like a better square! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-d4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqbb1np/p2p1pp1/1p1P4/2p1PBP1/2P2NNP/PPB5/R2QR1K1 b - - 1 20",
+        "parentNodeId": "yY",
+        "san": "Nf3"
+      },
+      "cl": {
+        "adjacentNodeIds": [
+          "mG"
+        ],
+        "comments": [
+          {
+            "text": "The bishop was developed to one of its few possible squares.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbbppp/p2p1n2/nppPp3/4P3/2P2N1P/PPB2PP1/RNBQR1K1 w - - 1 13",
+        "parentNodeId": "8H",
+        "san": "Bd7"
+      },
+      "dy": {
+        "adjacentNodeIds": [
+          "6Y"
+        ],
+        "comments": [
+          {
+            "text": "The queen shuffled back and forth...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/1q1bb1n1/p2p1p2/1p1Pn1p1/2pNP1Pp/2P1N2P/PPBQ1R1B/5R1K w - - 2 33",
+        "parentNodeId": "e0",
+        "san": "Qb7"
+      },
+      "e": {
+        "adjacentNodeIds": [
+          "E"
+        ],
+        "comments": [
+          {
+            "text": "Black responded with e5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+        "parentNodeId": "T",
+        "san": "e5"
+      },
+      "e0": {
+        "adjacentNodeIds": [
+          "dy"
+        ],
+        "comments": [
+          {
+            "text": "Even though Fressinet managed to close the position down, it seems only White will have play in the ensuing game. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/2qbb1n1/p2p1p2/1p1Pn1p1/2pNP1Pp/2P1N2P/PPBQ1R1B/5R1K b - - 1 32",
+        "parentNodeId": "ML",
+        "san": "Bh2"
+      },
+      "fh": {
+        "adjacentNodeIds": [
+          "ms"
+        ],
+        "comments": [
+          {
+            "text": "The bishop came to b3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b kq - 1 7",
+        "parentNodeId": "a5",
+        "san": "Bb3"
+      },
+      "ga": {
+        "adjacentNodeIds": [
+          "vo"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet played g6 to control the f5 and h5 squares...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3nrk1/1nqbbp1p/p2p2p1/1p1Pp3/2p1P1P1/2P2NNP/PPB2P2/R1BQR1K1 w - - 0 17",
+        "parentNodeId": "NT",
+        "san": "g6"
+      },
+      "h0": {
+        "adjacentNodeIds": [
+          "6S"
+        ],
+        "comments": [
+          {
+            "text": "The game could continue with each side improving their pieces.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqbbp1p/p2p1np1/1p1Pp3/2p1P1P1/2P2NNP/PPB2P2/R1BQR1K1 b - - 1 16",
+        "parentNodeId": "h3",
+        "san": "Ng3"
+      },
+      "h3": {
+        "adjacentNodeIds": [
+          "h0"
+        ],
+        "comments": [
+          {
+            "text": "g6 was fine. \n\ng5 shouldn't be a concerned because it creates too many weaknesses for White.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqbbp1p/p2p1np1/1p1Pp3/2p1P1P1/2P2N1P/PPB2P2/R1BQRNK1 w - - 0 16",
+        "parentNodeId": "xW",
+        "san": "g6"
+      },
+      "h5": {
+        "adjacentNodeIds": [
+          "4y"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet pushed c4, controlling some squares on the queenside himself. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbbppp/p2p1n2/np1Pp3/2p1P3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 0 14",
+        "parentNodeId": "mG",
+        "san": "c4"
+      },
+      "mG": {
+        "adjacentNodeIds": [
+          "h5"
+        ],
+        "comments": [
+          {
+            "text": "White developed his queenside knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/2qbbppp/p2p1n2/nppPp3/4P3/2P2N1P/PPBN1PP1/R1BQR1K1 b - - 2 13",
+        "parentNodeId": "cl",
+        "san": "Nbd2"
+      },
+      "ms": {
+        "adjacentNodeIds": [
+          "SK"
+        ],
+        "comments": [
+          {
+            "text": "Black consolidated his structure with d6.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e5",
+                "d6",
+                "c7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w kq - 0 8",
+        "parentNodeId": "fh",
+        "san": "d6"
+      },
+      "nc": {
+        "adjacentNodeIds": [
+          "oZ"
+        ],
+        "comments": [
+          {
+            "text": "Hence Harikrishna played the bishop back. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/2qbb1np/p2p1p2/1p1Pn1p1/2pNP1P1/2P3BP/PPBQ1RN1/5R1K b - - 1 30",
+        "parentNodeId": "Ev",
+        "san": "Bg3"
+      },
+      "o9": {
+        "adjacentNodeIds": [
+          "FB"
+        ],
+        "comments": [
+          {
+            "text": "Black's a-rook came into the game.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/1q1bb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P4P/PPBQ1R2/R4N1K w - - 14 27",
+        "parentNodeId": "aT",
+        "san": "Raf8"
+      },
+      "oR": {
+        "adjacentNodeIds": [
+          "zR"
+        ],
+        "comments": [
+          {
+            "text": "And Fressinet developed his bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6",
+        "parentNodeId": "4L",
+        "san": "Be7"
+      },
+      "oZ": {
+        "adjacentNodeIds": [
+          "0I"
+        ],
+        "comments": [
+          {
+            "text": "Black countered with h5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5rrk/2qbb1n1/p2p1p2/1p1Pn1pp/2pNP1P1/2P3BP/PPBQ1RN1/5R1K w - h6 0 31",
+        "parentNodeId": "nc",
+        "san": "h5"
+      },
+      "pY": {
+        "adjacentNodeIds": [
+          "yC"
+        ],
+        "comments": [
+          {
+            "text": "But Harikrishna got another attacker into the mix, this time placing a bishop on the same diagonal as the black king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rn1rk/1q2b3/p2P1Rb1/1p2B1p1/2p1P1Pp/2P4P/PPBQ2N1/5R1K b - - 0 38",
+        "parentNodeId": "44",
+        "san": "Bxe5"
+      },
+      "po": {
+        "adjacentNodeIds": [
+          "F1"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet challenged the bishop.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+        "parentNodeId": "1U",
+        "san": "a6"
+      },
+      "qF": {
+        "adjacentNodeIds": [
+          "GQ"
+        ],
+        "comments": [
+          {
+            "text": "And Harikrishna attacked the e7 bishop...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5rrk/1q2b1n1/p2P1pb1/1p2p1p1/2p1P1Pp/2P4P/PPBQ1RNB/5R1K b - - 0 36",
+        "parentNodeId": "BI",
+        "san": "d6"
+      },
+      "qi": {
+        "adjacentNodeIds": [
+          "XH"
+        ],
+        "comments": [
+          {
+            "text": "The queen added pressure on f5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2q2rrk/3bb1np/p2p1pp1/1p1Pn3/2pNPBP1/2P1N2P/PPBQ1R2/R6K w - - 16 28",
+        "parentNodeId": "FB",
+        "san": "Qc8"
+      },
+      "r3": {
+        "adjacentNodeIds": [
+          "NT"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet went back with his knight.\n\nPerhaps he was afraid of White's play on the kingside.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3nrk1/1nqbbppp/p2p4/1p1Pp3/2p1P1P1/2P2N1P/PPB2P2/R1BQRNK1 w - - 1 16",
+        "parentNodeId": "xW",
+        "san": "Ne8"
+      },
+      "rZ": {
+        "adjacentNodeIds": [
+          "44"
+        ],
+        "comments": [
+          {
+            "text": "And at the right moment, White broke through with a sacrifice! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r2rk/1q2b1n1/p2P1Rb1/1p2p1p1/2p1P1Pp/2P4P/PPBQ2NB/5R1K b - - 0 37",
+        "parentNodeId": "GQ",
+        "san": "Rxf6"
+      },
+      "vo": {
+        "adjacentNodeIds": [
+          "DL"
+        ],
+        "comments": [
+          {
+            "text": "But Black is too passive on the kingside, and Harikrishna knows this! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f2-f4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3nrk1/1nqbbp1p/p2p2p1/1p1Pp3/2p1P1P1/2P3NP/PPB2P1N/R1BQR1K1 b - - 1 17",
+        "parentNodeId": "ga",
+        "san": "Nh2"
+      },
+      "xK": {
+        "adjacentNodeIds": [
+          "Oo"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna went d4 anyway! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4bppp/p2p1n2/npp1p3/3PP3/2P2N1P/PPB2PP1/RNBQR1K1 b - d3 0 11",
+        "parentNodeId": "K5",
+        "san": "d4"
+      },
+      "xW": {
+        "adjacentNodeIds": [
+          "r3",
+          "h3"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna expanded on the kingside.\n\nTransporting the knight to f5 is now an option.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f1-g3",
+                "g3-f5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqbbppp/p2p1n2/1p1Pp3/2p1P1P1/2P2N1P/PPB2P2/R1BQRNK1 b - g3 0 15",
+        "parentNodeId": "5a",
+        "san": "g4"
+      },
+      "yC": {
+        "adjacentNodeIds": [
+          "Ym"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet captured a rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rn1rk/1q6/p2P1bb1/1p2B1p1/2p1P1Pp/2P4P/PPBQ2N1/5R1K w - - 0 39",
+        "parentNodeId": "pY",
+        "san": "Bxf6"
+      },
+      "yY": {
+        "adjacentNodeIds": [
+          "bg"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet played f6. \n\nHis idea is that now he controls the e5 square completely. \n\nAll he needs to do is get a knight there. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqbb1np/p2p1pp1/1p1P4/2p1PBP1/2P3NP/PPB4N/R2QR1K1 w - - 0 20",
+        "parentNodeId": "8R",
+        "san": "f6"
+      },
+      "yv": {
+        "adjacentNodeIds": [
+          "L6"
+        ],
+        "comments": [
+          {
+            "text": "Fressinet should have gained a tempo. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/1nqb1pnp/p2p2p1/1p1Pp3/2p1PPPb/2P3NP/PPB4N/R1BQR1K1 w - - 1 19",
+        "parentNodeId": "Q7",
+        "san": "Bh4"
+      },
+      "zQ": {
+        "adjacentNodeIds": [
+          "VY"
+        ],
+        "comments": [
+          {
+            "text": "The black king also moved to another square, but in this case it wasn't really necessary. \n\nThere wasn't a diagonal by which it could be attacked...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r1k/2qbbnnp/p2p1pp1/1p1P4/2pNPBP1/2P3NP/PPB5/R2QR2K w - - 6 23",
+        "parentNodeId": "On",
+        "san": "Kh8"
+      },
+      "zR": {
+        "adjacentNodeIds": [
+          "a5"
+        ],
+        "comments": [
+          {
+            "text": "Harikrishna brought the rook to support the e4 pawn. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 b kq - 5 6",
+        "parentNodeId": "oR",
+        "san": "Re1"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

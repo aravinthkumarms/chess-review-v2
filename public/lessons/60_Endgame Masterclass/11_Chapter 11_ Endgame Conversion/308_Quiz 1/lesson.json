@@ -1,0 +1,112 @@
+{
+  "id": "0267a56a-66bf-4582-b479-aefb769ef667",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black moves the king to d7. \n\nDoes White have any useful moves?",
+    "answers": [
+      {
+        "text": "No, all moves White can do end up in draws.",
+        "feedback": {
+          "text": "White has three legal moves. g7, ...Nxg7. Kf7, ...Nxd6+. Kg8, ...Nxd6. These are all draws.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g6-g7",
+              "f8-f7",
+              "f8-g8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "g7 is a win.",
+        "feedback": {
+          "text": "The knight can give itself up.",
+          "arrows": {
+            "threats": [
+              "e8-g7"
+            ],
+            "opportunities": [
+              "g6-g7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Kf7 wins for White.",
+        "feedback": {
+          "text": "The pawn falls with check. \n\nWhite doesn't have time to push the g-pawn.",
+          "arrows": {
+            "threats": [
+              "e8-d6"
+            ],
+            "opportunities": [
+              "f8-f7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Kg8 is the only move that wins this endgame.",
+        "feedback": {
+          "text": "This endgame is a complete draw!",
+          "arrows": {
+            "threats": [
+              "d7-d6"
+            ],
+            "opportunities": [
+              "f8-g8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3knK2/8/3P2P1/p7/P7/8/8/8 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g6-g7",
+        "f8-f7",
+        "f8-g8"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Kd7",
+      "afterMoveFen": "4nK2/3k4/3P2P1/p7/P7/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

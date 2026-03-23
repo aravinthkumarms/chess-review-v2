@@ -1,0 +1,1460 @@
+{
+  "id": "339c1748-640b-488d-be4a-9f7d594f2e35",
+  "name": "Study: Gerardo Barbero vs Tobias Werther, 1989",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "G"
+        ],
+        "comments": [
+          {
+            "text": "This game was played between GM Gerardo Barbero and FM Tobias Werther. \n\nThis was an interesting game in which the pieces could have proven an advantage, but White didn't coordinate them correctly.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/2p1ppbp/p1n2np1/1p6/3PP3/1QN2N2/PP2BPPP/R1B1K2R w KQ - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0V": {
+        "adjacentNodeIds": [
+          "he"
+        ],
+        "comments": [
+          {
+            "text": "After Ne4, Black played ...Qd3, trying to prove the queen's worth against the pieces.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/4p3/1p2N3/1P1q1B2/1P3PPP/2B2RK1 w - - 2 10",
+        "parentNodeId": "UM",
+        "san": "Qd3"
+      },
+      "2g": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "There's some nice harmony between the pieces, and White's moves even come with tempi. ",
+            "arrows": {
+              "threats": [
+                "f3-e4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "d3"
+              ],
+              "opportunities": [
+                "a6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/2N5/1p2p3/1P1qBB2/1P3PPP/5RK1 b - - 3 11",
+        "parentNodeId": "xg",
+        "san": "Nc5"
+      },
+      "3q": {
+        "adjacentNodeIds": [
+          "xg"
+        ],
+        "comments": [
+          {
+            "text": "The dark-squared bishop can be developed with a tempo. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/8/Np1qp3/1P2BB2/1P3PPP/5RK1 b - - 1 10",
+        "parentNodeId": "qA",
+        "san": "Be3"
+      },
+      "4L": {
+        "adjacentNodeIds": [
+          "bn"
+        ],
+        "comments": [
+          {
+            "text": "Black was forced to centralize the rook. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/p5p1/1p2p3/3q4/1PN2B2/1P3PPP/R1B2RK1 w - - 2 8",
+        "parentNodeId": "Dg",
+        "san": "Rad8"
+      },
+      "4l": {
+        "adjacentNodeIds": [
+          "jE"
+        ],
+        "comments": [
+          {
+            "text": "The lack of coordination is apparent when moves like these are impossible. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/1N4p1/2R4p/1p6/1q2B1PB/1P5P/3r1RK1 b - - 0 21",
+        "parentNodeId": "6q",
+        "san": "Bxe3"
+      },
+      "56": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Werthered got his rook back into the 1st rank, forcing a trade and checkmate in a few moves. \n\nBarbero resigned.\n\nThe latter half of this game shows how quickly things can go in the queen's favor if the pieces don't work logically together.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/7p/1p3B2/6P1/1P3qBP/4r1RK w - - 7 29",
+        "parentNodeId": "5j",
+        "san": "Re1"
+      },
+      "5Z": {
+        "adjacentNodeIds": [
+          "Hs"
+        ],
+        "comments": [
+          {
+            "text": "And Black took the d-pawn. \n\nWhite's pawn duo is gone, nevertheless, White's king is safer than in other positions we've seen. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1r2/2p1ppkp/p5p1/1p6/3n4/1PN2N2/1P2BPPP/R1B1K2R w KQ - 0 5",
+        "parentNodeId": "YT",
+        "san": "Nxd4"
+      },
+      "5j": {
+        "adjacentNodeIds": [
+          "56"
+        ],
+        "comments": [
+          {
+            "text": "Barbero defended.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/7p/1p3B2/6P1/1P2rqBP/6RK b - - 6 28",
+        "parentNodeId": "DM",
+        "san": "Rg1"
+      },
+      "6D": {
+        "adjacentNodeIds": [
+          "W2"
+        ],
+        "comments": [
+          {
+            "text": "Werther increased the pressure on the f1-rook. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/2R4p/1pN2B2/3q2PB/1P5P/3rrRK1 w - - 4 23",
+        "parentNodeId": "sI",
+        "san": "Qd3"
+      },
+      "6U": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Rb7 wins the b4-pawn, but many things are winning. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b7-b4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2r5/1Rp2pkp/3r2p1/1qN1p3/1p6/1P2BB2/1P3PPP/5RK1 b - - 9 13",
+        "parentNodeId": "YG",
+        "san": "Rb7"
+      },
+      "6m": {
+        "adjacentNodeIds": [
+          "pB"
+        ],
+        "comments": [
+          {
+            "text": "Black centralized the other rook, getting ready perhaps to push some pawns up the board. \n\nThe white pieces on the c-file are still very clumsy. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-f5",
+                "e5-e4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c6",
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rr3/2p2pkp/2R3p1/1qN1p3/1p6/1P3B2/1P3PPP/2B2RK1 w - - 6 12",
+        "parentNodeId": "of",
+        "san": "Rfe8"
+      },
+      "6q": {
+        "adjacentNodeIds": [
+          "qk",
+          "4l"
+        ],
+        "comments": [
+          {
+            "text": "And Werther recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/1N4p1/2R4p/1p6/1q2r1PB/1P5P/2Br1RK1 w - - 0 21",
+        "parentNodeId": "IB",
+        "san": "Rxe3"
+      },
+      "7o": {
+        "adjacentNodeIds": [
+          "tM",
+          "Tg"
+        ],
+        "comments": [
+          {
+            "text": "Barbero had to make his pieces work together! \n\nIf the knight is attacked, bring another piece to defend it! If this had been played, White would have had an advantage.\n\nIt's hard to suggest Black any moves.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/1qN1p3/1p6/1P2BB2/1P3PPP/5RK1 b - - 5 11",
+        "parentNodeId": "7x",
+        "san": "Be3"
+      },
+      "7p": {
+        "adjacentNodeIds": [
+          "jG"
+        ],
+        "comments": [
+          {
+            "text": "After the check...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p3kp/R3N1p1/4pp2/1p6/1P1q1B2/1P3PPP/2B2RK1 b - - 3 11",
+        "parentNodeId": "RH",
+        "san": "Ne6+"
+      },
+      "7x": {
+        "adjacentNodeIds": [
+          "of",
+          "7o"
+        ],
+        "comments": [
+          {
+            "text": "The queen went to b5, putting pressure on the knight, which in turn defends the rook. \n\nSo White's coordination isn't the best. If Werther can attack a piece that defends another piece, this usually is bad news for the side with the pieces.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/1qN1p3/1p6/1P3B2/1P3PPP/2B2RK1 w - - 4 11",
+        "parentNodeId": "he",
+        "san": "Qb5"
+      },
+      "BL": {
+        "adjacentNodeIds": [
+          "M1"
+        ],
+        "comments": [
+          {
+            "text": "And Werther attacked the rook.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c5",
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rr3/2R2pkp/1q4p1/2N1p3/1p6/1P3B2/1P3PPP/2B2RK1 w - - 1 13",
+        "parentNodeId": "pB",
+        "san": "Qb6"
+      },
+      "Bi": {
+        "adjacentNodeIds": [
+          "nK"
+        ],
+        "comments": [
+          {
+            "text": "And after the smoke clears...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/2p1ppkp/p5p1/1p6/3q4/1PN5/1P2BPPP/R1B1K2R w KQ - 0 6",
+        "parentNodeId": "Hs",
+        "san": "Qxd4"
+      },
+      "Ca": {
+        "adjacentNodeIds": [
+          "nt"
+        ],
+        "comments": [
+          {
+            "text": "And Werther began play on the 2nd rank. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/7p/1p3B2/3q2PB/1P2r2P/2R3K1 w - - 1 26",
+        "parentNodeId": "l2",
+        "san": "Re2"
+      },
+      "Cz": {
+        "adjacentNodeIds": [
+          "Tj"
+        ],
+        "comments": [
+          {
+            "text": "Werther took on b3, attacking the knight. \n\nThe problem isn't the knight itself, but rather Black's entry on the position. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d8-d1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rr3/5pk1/6p1/2R4p/Np2p3/1q5B/1P3PPP/2B2RK1 w - - 0 18",
+        "parentNodeId": "h5",
+        "san": "Qxb3"
+      },
+      "DM": {
+        "adjacentNodeIds": [
+          "5j"
+        ],
+        "comments": [
+          {
+            "text": "Werther threatened checkmate in one. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/7p/1p3B2/6P1/1P2rqBP/2R4K w - - 5 28",
+        "parentNodeId": "Ht",
+        "san": "Qf2"
+      },
+      "Dg": {
+        "adjacentNodeIds": [
+          "4L",
+          "Vs"
+        ],
+        "comments": [
+          {
+            "text": "White responded well, by improving their light-squared bishop, attacking the rook. \n\nIf White would have activated his pieces and placed them on logical squares, he would have been fine. Even better in some variations! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4r2/2p2pkp/p5p1/1p2p3/3q4/1PN2B2/1P3PPP/R1B2RK1 b - - 1 7",
+        "parentNodeId": "up",
+        "san": "Bf3"
+      },
+      "EK": {
+        "adjacentNodeIds": [
+          "UM",
+          "vM"
+        ],
+        "comments": [
+          {
+            "text": "Black attacked the knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/4p3/1p1q4/1PN2B2/1P3PPP/2B2RK1 w - - 0 9",
+        "parentNodeId": "bn",
+        "san": "b4"
+      },
+      "Ec": {
+        "adjacentNodeIds": [
+          "h5"
+        ],
+        "comments": [
+          {
+            "text": "And Werther attacked it. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr3/5pk1/6p1/2R4p/Np2p1B1/1P1q4/1P3PPP/2B2RK1 w - h6 0 17",
+        "parentNodeId": "ju",
+        "san": "h5"
+      },
+      "Eq": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And ...e4 will get the bishop. \n\nBut even this is only equal. Black can never be better. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r1rk1/2p4p/4N1p1/5p2/1p2p3/1P1q1B2/1P3PPP/R1B2RK1 w - - 0 13",
+        "parentNodeId": "gM",
+        "san": "e4"
+      },
+      "FU": {
+        "adjacentNodeIds": [
+          "du"
+        ],
+        "comments": [
+          {
+            "text": "White defended his rook, trying to survive.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h3-f1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4r3/5pk1/1N4p1/2R4p/1p2p3/1q4PB/1P3P1P/2Br1RK1 b - - 0 19",
+        "parentNodeId": "XM",
+        "san": "g3"
+      },
+      "G": {
+        "adjacentNodeIds": [
+          "P"
+        ],
+        "comments": [
+          {
+            "text": "White pushed the e5-pawn, attacking the knight. \n\nWhite has a strong pawn duo in the center that can push the black pieces around. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/2p1ppbp/p1n2np1/1p2P3/3P4/1QN2N2/PP2BPPP/R1B1K2R b KQ - 0 1",
+        "parentNodeId": "0",
+        "san": "e5"
+      },
+      "Hs": {
+        "adjacentNodeIds": [
+          "Bi"
+        ],
+        "comments": [
+          {
+            "text": "White went for the trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1r2/2p1ppkp/p5p1/1p6/3N4/1PN5/1P2BPPP/R1B1K2R b KQ - 0 5",
+        "parentNodeId": "5Z",
+        "san": "Nxd4"
+      },
+      "Ht": {
+        "adjacentNodeIds": [
+          "DM"
+        ],
+        "comments": [
+          {
+            "text": "The king went to h1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/7p/1p1q1B2/6P1/1P2r1BP/2R4K b - - 4 27",
+        "parentNodeId": "sB",
+        "san": "Kh1"
+      },
+      "IB": {
+        "adjacentNodeIds": [
+          "6q"
+        ],
+        "comments": [
+          {
+            "text": "Barbero took. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/5pk1/1N4p1/2R4p/1p6/1q2P1PB/1P5P/2Br1RK1 b - - 0 20",
+        "parentNodeId": "du",
+        "san": "fxe3"
+      },
+      "KK": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Because of the bishop's control of the f3-a8 diagonal. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b5",
+                "e8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rr3/2p2pkp/R1B3p1/1qN1p3/1p6/1P2B3/1P3PPP/5RK1 b - - 7 12",
+        "parentNodeId": "tM",
+        "san": "Bc6"
+      },
+      "LS": {
+        "adjacentNodeIds": [
+          "l2"
+        ],
+        "comments": [
+          {
+            "text": "But this simplification was good enough for Werther.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/7p/1p3B2/3qr1PB/1P5P/2r2RK1 w - - 0 25",
+        "parentNodeId": "vy",
+        "san": "Rxc1"
+      },
+      "M1": {
+        "adjacentNodeIds": [
+          "ac"
+        ],
+        "comments": [
+          {
+            "text": "The rook was forced back to its awkward c6 home.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr3/5pkp/1qR3p1/2N1p3/1p6/1P3B2/1P3PPP/2B2RK1 b - - 2 13",
+        "parentNodeId": "BL",
+        "san": "Rc6"
+      },
+      "Mv": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Instead of creating a weakness, Black should have attacked a weakness right away. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b4-b3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4r2/2p1ppkp/p5p1/1p6/1q6/1PN5/1P2BPPP/R1B2RK1 w - - 2 7",
+        "parentNodeId": "nK",
+        "san": "Qb4"
+      },
+      "Oj": {
+        "adjacentNodeIds": [
+          "UH"
+        ],
+        "comments": [
+          {
+            "text": "And Werther found the key move: attacking the rook's defender.\n\nHere, the fact that the pieces aren't on logical squares is exposed: Werther is attacking the undefended pieces.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b5-c6",
+                "e4-f3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f3",
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rr3/5pkp/2R3p1/1q6/Np2p3/1P3B2/1P3PPP/2B2RK1 w - - 0 15",
+        "parentNodeId": "qP",
+        "san": "e4"
+      },
+      "P": {
+        "adjacentNodeIds": [
+          "Z"
+        ],
+        "comments": [
+          {
+            "text": "Instead of retreating, Black attacked the queen. \n\nWhite could have saved the queen with a normal move like Qd1, and there's nothing inherently wrong with that move. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b3-d1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/2p1ppbp/p1n1bnp1/1p2P3/3P4/1QN2N2/PP2BPPP/R1B1K2R w KQ - 1 2",
+        "parentNodeId": "G",
+        "san": "Be6"
+      },
+      "P9": {
+        "adjacentNodeIds": [
+          "vy"
+        ],
+        "comments": [
+          {
+            "text": "But it could just be taken, which Werther did. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/2R4p/1p3B2/3qr1PB/1P5P/3r1RK1 w - - 0 24",
+        "parentNodeId": "W2",
+        "san": "Rxe3"
+      },
+      "PV": {
+        "adjacentNodeIds": [
+          "YG"
+        ],
+        "comments": [
+          {
+            "text": "White can start going after Black's weak pawns.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a7-b7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c7",
+                "b4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5r2/R1p2pkp/3r2p1/1qN1p3/1p6/1P2BB2/1P3PPP/5RK1 b - - 7 12",
+        "parentNodeId": "Tg",
+        "san": "Ra7"
+      },
+      "Qj": {
+        "adjacentNodeIds": [
+          "vS"
+        ],
+        "comments": [
+          {
+            "text": "White took the bishop, which gains a tempo on the rook. So taking the pawn on g7 is forced.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/2p1ppPp/p1n3p1/1p6/3P4/1bN2N2/PP2BPPP/R1B1K2R b KQ - 0 3",
+        "parentNodeId": "at",
+        "san": "fxg7"
+      },
+      "RH": {
+        "adjacentNodeIds": [
+          "7p"
+        ],
+        "comments": [
+          {
+            "text": "Black can generate enough threats.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p3kp/R5p1/4ppN1/1p6/1P1q1B2/1P3PPP/2B2RK1 w - - 2 11",
+        "parentNodeId": "rE",
+        "san": "Qd3"
+      },
+      "TM": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Because the pieces start proving their superiority against the major pieces. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "d4",
+                "a7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5r2/r1p2pkp/p5p1/1p2p3/3q4/1PN1BB2/1P3PPP/R4RK1 b - - 3 8",
+        "parentNodeId": "Vs",
+        "san": "Be3"
+      },
+      "Tg": {
+        "adjacentNodeIds": [
+          "PV"
+        ],
+        "comments": [
+          {
+            "text": "If Black proposes a trade...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r2/2p2pkp/R2r2p1/1qN1p3/1p6/1P2BB2/1P3PPP/5RK1 w - - 6 12",
+        "parentNodeId": "7o",
+        "san": "Rd6"
+      },
+      "Tj": {
+        "adjacentNodeIds": [
+          "XM"
+        ],
+        "comments": [
+          {
+            "text": "Barbero saved his knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr3/5pk1/1N4p1/2R4p/1p2p3/1q5B/1P3PPP/2B2RK1 b - - 1 18",
+        "parentNodeId": "Cz",
+        "san": "Nb6"
+      },
+      "UH": {
+        "adjacentNodeIds": [
+          "m7"
+        ],
+        "comments": [
+          {
+            "text": "Even though Barbero could win a tempo on the queen...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rr3/5pkp/6p1/1qR5/Np2p3/1P3B2/1P3PPP/2B2RK1 b - - 1 15",
+        "parentNodeId": "Oj",
+        "san": "Rc5"
+      },
+      "UM": {
+        "adjacentNodeIds": [
+          "0V",
+          "hD"
+        ],
+        "comments": [
+          {
+            "text": "And the knight went to e4.\n\nThere's only one move against Ne4, which stockfish suggests. But it's too crazy that it was probably discarded by Werther.\n\nIn fact, ...f5 was not even winning. It's only equal. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-f5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/4p3/1p1qN3/1P3B2/1P3PPP/2B2RK1 b - - 1 9",
+        "parentNodeId": "EK",
+        "san": "Ne4"
+      },
+      "Vs": {
+        "adjacentNodeIds": [
+          "TM"
+        ],
+        "comments": [
+          {
+            "text": "Defending the pawn is impossible.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r2/r1p2pkp/p5p1/1p2p3/3q4/1PN2B2/1P3PPP/R1B2RK1 w - - 2 8",
+        "parentNodeId": "Dg",
+        "san": "Ra7"
+      },
+      "W2": {
+        "adjacentNodeIds": [
+          "P9"
+        ],
+        "comments": [
+          {
+            "text": "The knight went back to defend.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/2R4p/1p3B2/3qN1PB/1P5P/3rrRK1 b - - 5 23",
+        "parentNodeId": "6D",
+        "san": "Ne3"
+      },
+      "XM": {
+        "adjacentNodeIds": [
+          "FU"
+        ],
+        "comments": [
+          {
+            "text": "But Black infiltrated the 1st rank with his rook. \n\nIn all of this, the dark-squared bishop was still undeveloped.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/5pk1/1N4p1/2R4p/1p2p3/1q5B/1P3PPP/2Br1RK1 w - - 2 19",
+        "parentNodeId": "Tj",
+        "san": "Rd1"
+      },
+      "YG": {
+        "adjacentNodeIds": [
+          "6U"
+        ],
+        "comments": [
+          {
+            "text": "If Black has to resort to passive defense, this strategy doesn't work against many pieces. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2r5/R1p2pkp/3r2p1/1qN1p3/1p6/1P2BB2/1P3PPP/5RK1 w - - 8 13",
+        "parentNodeId": "PV",
+        "san": "Rc8"
+      },
+      "YT": {
+        "adjacentNodeIds": [
+          "5Z"
+        ],
+        "comments": [
+          {
+            "text": "And White took the bishop. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1r2/2p1ppkp/p1n3p1/1p6/3P4/1PN2N2/1P2BPPP/R1B1K2R b KQ - 0 4",
+        "parentNodeId": "vS",
+        "san": "axb3"
+      },
+      "Z": {
+        "adjacentNodeIds": [
+          "at"
+        ],
+        "comments": [
+          {
+            "text": "But instead, White went for the imbalance. \n\nThis was a good plan from White, because the minor pieces working together can many times overpower the major pieces! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/2p1ppbp/p1n1bPp1/1p6/3P4/1QN2N2/PP2BPPP/R1B1K2R b KQ - 0 2",
+        "parentNodeId": "P",
+        "san": "exf6"
+      },
+      "ac": {
+        "adjacentNodeIds": [
+          "qP"
+        ],
+        "comments": [
+          {
+            "text": "And Werther went back to b5, where it controls two of White's pieces.\n\nThe c-file pieces are still not ideal for White, and there are few moves that don't lose for White here. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr3/5pkp/2R3p1/1qN1p3/1p6/1P3B2/1P3PPP/2B2RK1 w - - 3 14",
+        "parentNodeId": "M1",
+        "san": "Qb5"
+      },
+      "at": {
+        "adjacentNodeIds": [
+          "Qj"
+        ],
+        "comments": [
+          {
+            "text": "Black took the queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/2p1ppbp/p1n2Pp1/1p6/3P4/1bN2N2/PP2BPPP/R1B1K2R w KQ - 0 3",
+        "parentNodeId": "Z",
+        "san": "Bxb3"
+      },
+      "bn": {
+        "adjacentNodeIds": [
+          "EK"
+        ],
+        "comments": [
+          {
+            "text": "And White won a pawn on the queenside. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/1p2p3/3q4/1PN2B2/1P3PPP/2B2RK1 b - - 0 8",
+        "parentNodeId": "4L",
+        "san": "Rxa6"
+      },
+      "du": {
+        "adjacentNodeIds": [
+          "IB"
+        ],
+        "comments": [
+          {
+            "text": "And Werther found ...e3, giving material but it cannot be taken because the white pieces are uncoordinated. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r3/5pk1/1N4p1/2R4p/1p6/1q2p1PB/1P3P1P/2Br1RK1 w - - 0 20",
+        "parentNodeId": "FU",
+        "san": "e3"
+      },
+      "gM": {
+        "adjacentNodeIds": [
+          "Eq"
+        ],
+        "comments": [
+          {
+            "text": "White can save their rook. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1rk1/2p4p/4N1p1/4pp2/1p6/1P1q1B2/1P3PPP/R1B2RK1 b - - 5 12",
+        "parentNodeId": "jG",
+        "san": "Ra1"
+      },
+      "h5": {
+        "adjacentNodeIds": [
+          "Cz"
+        ],
+        "comments": [
+          {
+            "text": "The light-squared bishop is now on h3. \n\nCompare this to its placement on f3 10 moves ago. It's definitely worse on h3. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr3/5pk1/6p1/2R4p/Np2p3/1P1q3B/1P3PPP/2B2RK1 b - - 1 17",
+        "parentNodeId": "Ec",
+        "san": "Bh3"
+      },
+      "hD": {
+        "adjacentNodeIds": [
+          "rE"
+        ],
+        "comments": [
+          {
+            "text": "This is the crazy move against Ne4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p3kp/R5p1/4pp2/1p1qN3/1P3B2/1P3PPP/2B2RK1 w - f6 0 10",
+        "parentNodeId": "UM",
+        "san": "f5"
+      },
+      "he": {
+        "adjacentNodeIds": [
+          "7x"
+        ],
+        "comments": [
+          {
+            "text": "This move allows White an advantage by activating the knight on c5.\n\nThe point is that all the White pieces coming together can overpower Black's queen quite easily. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/2N1p3/1p6/1P1q1B2/1P3PPP/2B2RK1 b - - 3 10",
+        "parentNodeId": "0V",
+        "san": "Nc5"
+      },
+      "jE": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And Black is winning a lot of material. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g1",
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/1N4p1/2R4p/1p6/4q1PB/1P5P/3r1RK1 w - - 0 22",
+        "parentNodeId": "4l",
+        "san": "Qxe3+"
+      },
+      "jG": {
+        "adjacentNodeIds": [
+          "gM"
+        ],
+        "comments": [
+          {
+            "text": "Black can retreat.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1rk1/2p4p/R3N1p1/4pp2/1p6/1P1q1B2/1P3PPP/2B2RK1 w - - 4 12",
+        "parentNodeId": "7p",
+        "san": "Kg8"
+      },
+      "ju": {
+        "adjacentNodeIds": [
+          "Ec"
+        ],
+        "comments": [
+          {
+            "text": "The bishop went to g4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr3/5pkp/6p1/2R5/Np2p1B1/1P1q4/1P3PPP/2B2RK1 b - - 3 16",
+        "parentNodeId": "m7",
+        "san": "Bg4"
+      },
+      "l2": {
+        "adjacentNodeIds": [
+          "Ca"
+        ],
+        "comments": [
+          {
+            "text": "The rook recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/7p/1p3B2/3qr1PB/1P5P/2R3K1 b - - 0 25",
+        "parentNodeId": "LS",
+        "san": "Rxc1"
+      },
+      "m7": {
+        "adjacentNodeIds": [
+          "ju"
+        ],
+        "comments": [
+          {
+            "text": "Werther got out of the attack and in turn attacked the b3 weakness, while also converging on the bishop. \n\nThings started to turn in Black's favor. ",
+            "arrows": {
+              "threats": [
+                "f7-f5"
+              ],
+              "opportunities": [
+                "d3-b3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b3",
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rr3/5pkp/6p1/2R5/Np2p3/1P1q1B2/1P3PPP/2B2RK1 w - - 2 16",
+        "parentNodeId": "UH",
+        "san": "Qd3"
+      },
+      "nK": {
+        "adjacentNodeIds": [
+          "up",
+          "Mv"
+        ],
+        "comments": [
+          {
+            "text": "...White's king is safe.\n\nThe three pieces are all protected, and aside from doubled b-pawns, White doesn't have weaknesses. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/2p1ppkp/p5p1/1p6/3q4/1PN5/1P2BPPP/R1B2RK1 b - - 1 6",
+        "parentNodeId": "Bi",
+        "san": "O-O"
+      },
+      "nt": {
+        "adjacentNodeIds": [
+          "sB"
+        ],
+        "comments": [
+          {
+            "text": "Barbero got his bishop into g2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/7p/1p3B2/3q2P1/1P2r1BP/2R3K1 b - - 2 26",
+        "parentNodeId": "Ca",
+        "san": "Bg2"
+      },
+      "of": {
+        "adjacentNodeIds": [
+          "6m"
+        ],
+        "comments": [
+          {
+            "text": "White should have been better, but Barbero defended the knight by placing his rook on an awkward square. \n\nThings went from better for White to just plain bad. Now those pieces are sort of stuck on the c-file.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c6",
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/2R3p1/1qN1p3/1p6/1P3B2/1P3PPP/2B2RK1 b - - 5 11",
+        "parentNodeId": "7x",
+        "san": "Rc6"
+      },
+      "pB": {
+        "adjacentNodeIds": [
+          "BL"
+        ],
+        "comments": [
+          {
+            "text": "White took on c7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr3/2R2pkp/6p1/1qN1p3/1p6/1P3B2/1P3PPP/2B2RK1 b - - 0 12",
+        "parentNodeId": "6m",
+        "san": "Rxc7"
+      },
+      "qA": {
+        "adjacentNodeIds": [
+          "3q"
+        ],
+        "comments": [
+          {
+            "text": "For example if ...e4...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/8/Np1qp3/1P3B2/1P3PPP/2B2RK1 w - - 0 10",
+        "parentNodeId": "vM",
+        "san": "e4"
+      },
+      "qP": {
+        "adjacentNodeIds": [
+          "Oj"
+        ],
+        "comments": [
+          {
+            "text": "Barbero eventually grew restless and he tried to untangle the knot on the c-file. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr3/5pkp/2R3p1/1q2p3/Np6/1P3B2/1P3PPP/2B2RK1 b - - 4 14",
+        "parentNodeId": "ac",
+        "san": "Na4"
+      },
+      "qk": {
+        "adjacentNodeIds": [
+          "zZ"
+        ],
+        "comments": [
+          {
+            "text": "Barbero attacked the rook on e3.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/2R4p/1pN5/1q2r1PB/1P5P/2Br1RK1 b - - 1 21",
+        "parentNodeId": "6q",
+        "san": "Nc4"
+      },
+      "rE": {
+        "adjacentNodeIds": [
+          "RH"
+        ],
+        "comments": [
+          {
+            "text": "Even though it seems there's a fork coming...",
+            "arrows": {
+              "threats": [
+                "g5-e6"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p3kp/R5p1/4ppN1/1p1q4/1P3B2/1P3PPP/2B2RK1 b - - 1 10",
+        "parentNodeId": "hD",
+        "san": "Ng5"
+      },
+      "sB": {
+        "adjacentNodeIds": [
+          "Ht"
+        ],
+        "comments": [
+          {
+            "text": "But already, checks were available for Werther to invade the position. \n\nThe queen is getting everything it wants.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d4-f2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/7p/1p1q1B2/6P1/1P2r1BP/2R3K1 w - - 3 27",
+        "parentNodeId": "nt",
+        "san": "Qd4+"
+      },
+      "sI": {
+        "adjacentNodeIds": [
+          "6D"
+        ],
+        "comments": [
+          {
+            "text": "The bishop was under attack, so it moved to f4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/2R4p/1pN2B2/1q4PB/1P5P/3rrRK1 b - - 3 22",
+        "parentNodeId": "zZ",
+        "san": "Bf4"
+      },
+      "tM": {
+        "adjacentNodeIds": [
+          "KK"
+        ],
+        "comments": [
+          {
+            "text": "This rook cannot be activated.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr3/2p2pkp/R5p1/1qN1p3/1p6/1P2BB2/1P3PPP/5RK1 w - - 6 12",
+        "parentNodeId": "7o",
+        "san": "Rfe8"
+      },
+      "up": {
+        "adjacentNodeIds": [
+          "Dg"
+        ],
+        "comments": [
+          {
+            "text": "In the game, Werther pushed the pawn. \n\nThis e5-pawn push did not meet the demands of the position. The pawn doesn't control any critical squares right away.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r2/2p2pkp/p5p1/1p2p3/3q4/1PN5/1P2BPPP/R1B2RK1 w - e6 0 7",
+        "parentNodeId": "nK",
+        "san": "e5"
+      },
+      "vM": {
+        "adjacentNodeIds": [
+          "qA"
+        ],
+        "comments": [
+          {
+            "text": "This move, although it places the knight on the rim, was a lot safer for the knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/4p3/Np1q4/1P3B2/1P3PPP/2B2RK1 b - - 1 9",
+        "parentNodeId": "EK",
+        "san": "Na4"
+      },
+      "vS": {
+        "adjacentNodeIds": [
+          "YT"
+        ],
+        "comments": [
+          {
+            "text": "The king took the pawn. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1r2/2p1ppkp/p1n3p1/1p6/3P4/1bN2N2/PP2BPPP/R1B1K2R w KQ - 0 4",
+        "parentNodeId": "Qj",
+        "san": "Kxg7"
+      },
+      "vy": {
+        "adjacentNodeIds": [
+          "LS"
+        ],
+        "comments": [
+          {
+            "text": "Barbero tried desperately to defend his back rank. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/7p/1p3B2/3qr1PB/1P5P/2Rr1RK1 b - - 1 24",
+        "parentNodeId": "P9",
+        "san": "Rc1"
+      },
+      "xg": {
+        "adjacentNodeIds": [
+          "2g"
+        ],
+        "comments": [
+          {
+            "text": "And if the queen attacks the rook...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r1r2/2p2pkp/R5p1/8/Np2p3/1P1qBB2/1P3PPP/5RK1 w - - 2 11",
+        "parentNodeId": "3q",
+        "san": "Qd3"
+      },
+      "zZ": {
+        "adjacentNodeIds": [
+          "sI"
+        ],
+        "comments": [
+          {
+            "text": "And Werther doubled on the 1st rank. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5pk1/6p1/2R4p/1pN5/1q4PB/1P5P/2BrrRK1 w - - 2 22",
+        "parentNodeId": "qk",
+        "san": "Ree1"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

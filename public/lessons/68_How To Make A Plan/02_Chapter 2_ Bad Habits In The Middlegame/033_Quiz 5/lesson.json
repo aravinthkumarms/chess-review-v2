@@ -1,0 +1,63 @@
+{
+  "id": "0da4ac26-36b5-4ea9-9999-81511d88392c",
+  "name": "Quiz 5",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White attacks your queen. \n\nIs there something wrong with dxe4, equally attacking the white queen, or should you do something else?",
+    "answers": [
+      {
+        "text": "Qb7",
+        "feedback": {
+          "text": "After dxe4, the d-file is opened. The queen can give a check, getting itself out of the attack, and taking your free queen next.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "removing the queen from danger.",
+        "afterMoveFen": "6k1/Bq3pb1/4bn1p/3p2p1/4P3/3Q1P1N/3R1KP1/8 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "dxe4",
+        "feedback": {
+          "text": "This opens up the d-file and allows the white queen to escape the attack with check.",
+          "arrows": {
+            "threats": [
+              "d3-d8"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "g8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "attacking the queen with the pawn, intermezzo.",
+        "afterMoveFen": "6k1/B4pb1/4bn1p/6p1/4p3/3Q1P1N/1q1R1KP1/8 w - - 0 2"
+      }
+    ],
+    "positionFen": "6k1/B4pb1/4bn1p/3p2p1/4P3/3Q1P1N/1q3KP1/3R4 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d2-b2"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "b2"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Rd2",
+      "afterMoveFen": "6k1/B4pb1/4bn1p/3p2p1/4P3/3Q1P1N/1q1R1KP1/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

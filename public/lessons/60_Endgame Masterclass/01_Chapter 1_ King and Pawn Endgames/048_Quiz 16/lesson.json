@@ -1,0 +1,43 @@
+{
+  "id": "8fac0fb8-046e-401d-ab1b-c2eb4fb13c04",
+  "name": "Quiz 16",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The pawn is on the 6th rank. \n\nWhat are the key squares here?",
+    "answers": [
+      {
+        "text": "g7-f7-e7-e8-f8-g8",
+        "feedback": {
+          "text": "Great job! While it does seem Black is getting close to block access to the key squares, White may have a tempo here.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Once again, the pawn is too far up! \n\nThere are more key squares than meet the eye. Remember, think of only squares in front of the pawn that the king must access to try and win. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3k4/8/5P2/7K/8/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke8",
+      "afterMoveFen": "4k3/8/5P2/7K/8/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

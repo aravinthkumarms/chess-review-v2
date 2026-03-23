@@ -1,0 +1,66 @@
+{
+  "id": "1b8a0e20-5e6c-44d6-9768-8c27afd87d78",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black brings their bishop to b7. \n\nThe f7-pawn is vulnerable. \n\nDoes the decoy with Ng5 work?",
+    "answers": [
+      {
+        "text": "No, Black's queen just captures.",
+        "feedback": {
+          "text": "Exactly! Black would capture our knight and our queen won't be able to move, since it is pinned to our king.",
+          "arrows": {
+            "threats": [
+              "f3-g5"
+            ],
+            "opportunities": [
+              "e7-g5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c1",
+              "f4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, Black's queen will capture, but we can capture the f7-pawn next.",
+        "feedback": {
+          "text": "After ...Qxg5, can our queen move from f4?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1b1k1r1/p2pqp1R/1pn1p3/4P3/2Bp1Q2/P4N2/1PP2PP1/2KR4 b q - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f3-g5"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "f7"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Bb7",
+      "afterMoveFen": "r3k1r1/pb1pqp1R/1pn1p3/4P3/2Bp1Q2/P4N2/1PP2PP1/2KR4 w q - 2 2"
+    }
+  },
+  "drill": null
+}

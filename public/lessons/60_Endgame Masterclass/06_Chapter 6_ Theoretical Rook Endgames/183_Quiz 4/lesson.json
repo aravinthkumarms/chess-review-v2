@@ -1,0 +1,84 @@
+{
+  "id": "f06a08f3-40f3-4739-a774-3b31a215d017",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White is threatening to give checkmate. \n\nWhich move draws?",
+    "answers": [
+      {
+        "text": "Both ...Kf8 and ...Kd8 draw.",
+        "feedback": {
+          "text": "Yes. When it's a central pawn, both long side vs short side defenses work. \n\nThe long side could be a little bit trickier, so you want to go to the short side as a rule of thumb always.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e8-f8",
+              "e8-d8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Only ...Kf8 (short side defense) draws.",
+        "feedback": {
+          "text": "If it's a central pawn, things are slightly different.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e8-f8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Only ...Kd8 (long side defense) works.",
+        "feedback": {
+          "text": "Are you sure that's the rule here?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4k3/R7/8/4PK2/8/8/8/4r3 w - - 1 1",
+    "arrows": {
+      "threats": [
+        "a7-a8"
+      ],
+      "opportunities": [
+        "e8-f8",
+        "e8-d8"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke6",
+      "afterMoveFen": "4k3/R7/4K3/4P3/8/8/8/4r3 b - - 2 1"
+    }
+  },
+  "drill": null
+}

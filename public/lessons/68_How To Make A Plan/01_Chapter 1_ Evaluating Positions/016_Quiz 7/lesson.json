@@ -1,0 +1,73 @@
+{
+  "id": "c376c8e0-169d-40a4-9b6a-a6268e452755",
+  "name": "Quiz 7",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is down a rook. \n\nHowever, the white king isn't safe and Black has an attack. \n\nWho's better?",
+    "answers": [
+      {
+        "text": "Black is winning (-8.7)",
+        "feedback": {
+          "text": "After Black gets another piece involved, the attack will have dire consequences on White's material. ",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a8-a2"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c2"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Black is better (-2.3)",
+        "feedback": {
+          "text": "This advantage implies that Black may get a rook or a piece out of the attack. But is that all Black can win? ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White is winning (+4.5)",
+        "feedback": {
+          "text": "This evaluation tells me that you think Black's attack isn't enough. But after a move like Ra2+, do you think White is better? ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White is slightly better (+0.6)",
+        "feedback": {
+          "text": "+0.6, when Black is down material, conveys that Black has a way of creating counterplay and maybe of getting some compensation, but they're not going to win. \n\nIn fact, if Black doesn't find the right moves, White will win. Is that the case here?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r5k1/1p3pp1/2p1p2p/4N1bP/2QP4/1R6/4RPP1/qK6 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kc2",
+      "afterMoveFen": "r5k1/1p3pp1/2p1p2p/4N1bP/2QP4/1R6/2K1RPP1/q7 b - - 2 1"
+    }
+  },
+  "drill": null
+}

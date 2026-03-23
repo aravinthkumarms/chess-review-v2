@@ -1,0 +1,43 @@
+{
+  "id": "a8b30e6d-e529-40f6-9161-947d8eeccedf",
+  "name": "Quiz 10",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Rf2.\n\nHow can you trap the b5-knight?",
+    "answers": [
+      {
+        "text": "e5",
+        "feedback": {
+          "text": "Excellent! ...e5 prevents the b5-knight from going back to d4. The knight has no way out & will get trapped w/...a6.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "2r5/p2kn1b1/2n3q1/1N1pp3/1p4P1/1P3QB1/2P1NRK1/8 w - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "There's a way to cut off the knight's only potential escape square - d4.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r5/p2kn1b1/2n1p1q1/1N1p4/1p4P1/1P3QB1/2P1N1K1/5R2 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rf2",
+      "afterMoveFen": "2r5/p2kn1b1/2n1p1q1/1N1p4/1p4P1/1P3QB1/2P1NRK1/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

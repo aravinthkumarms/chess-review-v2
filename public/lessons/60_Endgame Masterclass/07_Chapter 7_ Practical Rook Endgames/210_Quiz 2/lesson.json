@@ -1,0 +1,81 @@
+{
+  "id": "fc124f30-5c7d-481b-adb2-349d7fa7d5f5",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gets their knight into f5. \n\nShould you trade as White?",
+    "answers": [
+      {
+        "text": "Yes, because ...Nh4+ poses problems.",
+        "feedback": {
+          "text": "Exactly! ...Nh4+ and suddenly the king isn't feeling so safe.",
+          "arrows": {
+            "threats": [
+              "f5-h4",
+              "h4-f3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, because bishops are better than knights.",
+        "feedback": {
+          "text": "Are you sure? Bishops aren't always better than knights.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It doesn't matter.",
+        "feedback": {
+          "text": "Are you sure it doesn't matter? What if ...Nh4+ is played next? Can you calculate the implications?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f5-h4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1kb2r2/p3n3/1p2p3/1P1pP1p1/3P4/PN1B4/6K1/7R b - - 1 1",
+    "arrows": {
+      "threats": [
+        "d3-f5"
+      ],
+      "opportunities": []
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nf5",
+      "afterMoveFen": "1kb2r2/p7/1p2p3/1P1pPnp1/3P4/PN1B4/6K1/7R w - - 2 2"
+    }
+  },
+  "drill": null
+}

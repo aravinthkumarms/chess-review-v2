@@ -1,0 +1,1130 @@
+{
+  "id": "c123608c-e386-44bf-abd1-56056158eb11",
+  "name": "Study: Seirawan vs Kasparov",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "Q"
+        ],
+        "comments": [
+          {
+            "text": "This game was played in 1983 between Yasser Seirawan and the legendary Garry Kasparov.\n\nWe had an equal pawn endgame, with Kasparov having a 2 on 1 on the queenside.\n\nHowever, White could hold the position with Kd4, grabbing more space.\n\nThis game featured a very important pawn endgame theme, triangulation.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d3-d4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e5",
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/3k2pp/1p6/8/P2KP1P1/5P1P/8 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1Z": {
+        "adjacentNodeIds": [
+          "gi"
+        ],
+        "comments": [
+          {
+            "text": "The b-pawn is one square away.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4Pp2/p4P1p/P6P/k2K4/1p6/8 w - - 0 17",
+        "parentNodeId": "Hz",
+        "san": "b2"
+      },
+      "2E": {
+        "adjacentNodeIds": [
+          "B6"
+        ],
+        "comments": [
+          {
+            "text": "It's over.\n\nThe king can't get to the pawn now.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/pK3k1p/P6P/1p6/8/8 w - - 0 13",
+        "parentNodeId": "I9",
+        "san": "b3"
+      },
+      "2j": {
+        "adjacentNodeIds": [
+          "Zh"
+        ],
+        "comments": [
+          {
+            "text": "If White goes to c4 now, disallowing ...Kc5...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/3k1p2/p4P1p/PpK1P2P/8/8/8 b - - 6 11",
+        "parentNodeId": "LN",
+        "san": "Kc4"
+      },
+      "4C": {
+        "adjacentNodeIds": [
+          "hF"
+        ],
+        "comments": [
+          {
+            "text": "White can try pushing here...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4P3/p2k3p/Pp5P/3K4/8/8 b - - 0 10",
+        "parentNodeId": "Ud",
+        "san": "e6"
+      },
+      "6m": {
+        "adjacentNodeIds": [
+          "Np"
+        ],
+        "comments": [
+          {
+            "text": "And ...Kc5 by Kasparov.\n\nAs you can see, we have reached the same position from move 8 in the study, but it was now White to move!\n\nThis is all thanks to the tempo loss Black had made two moves prior.\n\nNow he would be able to push the b-pawn.\n\nThis is why triangulation is important!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b4-b3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p1k2P1p/Pp2P2P/3K4/8/8 w - - 9 13",
+        "parentNodeId": "Mi",
+        "san": "Kc5"
+      },
+      "8O": {
+        "adjacentNodeIds": [
+          "BU"
+        ],
+        "comments": [
+          {
+            "text": "They can try to get back into the game...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p4k1p/P1K4P/8/8/8 b - - 1 15",
+        "parentNodeId": "MO",
+        "san": "Kc4"
+      },
+      "8Y": {
+        "adjacentNodeIds": [
+          "Ud"
+        ],
+        "comments": [
+          {
+            "text": "Once White recaptures, Black's king is simply close enough.\n\nPushing f5 instead of capturing leads to the same outcome.",
+            "arrows": {
+              "threats": [
+                "f4-f5"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/p1k1P2p/Pp5P/3K4/8/8 b - - 0 9",
+        "parentNodeId": "gw",
+        "san": "fxe5"
+      },
+      "AR": {
+        "adjacentNodeIds": [
+          "qA"
+        ],
+        "comments": [
+          {
+            "text": "And White recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/3k3p/1p6/4PP2/P2K4/7P/8 b - - 0 3",
+        "parentNodeId": "KK",
+        "san": "gxf4"
+      },
+      "Ae": {
+        "adjacentNodeIds": [
+          "ZQ"
+        ],
+        "comments": [
+          {
+            "text": "Before playing ...b4, Kasparov made a waiting move, probably to restrict White's position even more.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/8/ppk4p/4PP2/P2K4/7P/8 w - - 0 6",
+        "parentNodeId": "VV",
+        "san": "h5"
+      },
+      "B6": {
+        "adjacentNodeIds": [
+          "tr"
+        ],
+        "comments": [
+          {
+            "text": "Capturing.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/K4k1p/P6P/1p6/8/8 b - - 0 13",
+        "parentNodeId": "2E",
+        "san": "Kxa5"
+      },
+      "BU": {
+        "adjacentNodeIds": [
+          "Yh"
+        ],
+        "comments": [
+          {
+            "text": "But Black is quicker.\n\nIf White tries to go for the a-pawn, the f-pawn will promote much faster.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-f5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p6p/P1K3kP/8/8/8 w - - 2 16",
+        "parentNodeId": "8O",
+        "san": "Kg4"
+      },
+      "C0": {
+        "adjacentNodeIds": [
+          "I9"
+        ],
+        "comments": [
+          {
+            "text": "However, Black can always go for the h4-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/p4k1p/PpK4P/8/8/8 w - - 2 12",
+        "parentNodeId": "M0",
+        "san": "Kf5"
+      },
+      "DU": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black simply stops promotion and wins.\n\nWhat a game by Garry Kasparov!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7",
+                "e8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4P3/5p2/p4P1p/P3q2P/8/k2K4/8 w - - 2 20",
+        "parentNodeId": "fO",
+        "san": "Qe4"
+      },
+      "Fc": {
+        "adjacentNodeIds": [
+          "VV"
+        ],
+        "comments": [
+          {
+            "text": "He pushed on the queenside!\n\nObviously, ...b4 was the idea, to get a passed pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b5-b4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/7p/ppk5/4PP2/P1K5/7P/8 w - a6 0 5",
+        "parentNodeId": "Mm",
+        "san": "a5"
+      },
+      "Hz": {
+        "adjacentNodeIds": [
+          "1Z"
+        ],
+        "comments": [
+          {
+            "text": "If White tries to push here...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4Pp2/p4P1p/P6P/kp1K4/8/8 b - - 0 16",
+        "parentNodeId": "ej",
+        "san": "e6"
+      },
+      "I9": {
+        "adjacentNodeIds": [
+          "2E"
+        ],
+        "comments": [
+          {
+            "text": "If White ever tries to get a5...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/pK3k1p/Pp5P/8/8/8 b - - 3 12",
+        "parentNodeId": "C0",
+        "san": "Kb5"
+      },
+      "KK": {
+        "adjacentNodeIds": [
+          "AR"
+        ],
+        "comments": [
+          {
+            "text": "First, Garry traded...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/3k3p/1p6/4Pp2/P2K2P1/7P/8 w - - 0 3",
+        "parentNodeId": "h",
+        "san": "gxf4"
+      },
+      "KU": {
+        "adjacentNodeIds": [
+          "fO"
+        ],
+        "comments": [
+          {
+            "text": "But Black promotes first and with check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4P3/5p2/p4P1p/P6P/8/k1K5/1q6 w - - 0 19",
+        "parentNodeId": "L0",
+        "san": "b1=Q+"
+      },
+      "KZ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black's got two passed pawns on the kingside.\n\nCould you win this position with Black?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p6p/P6k/3K4/8/8 w - - 0 17",
+        "parentNodeId": "Yh",
+        "san": "Kxh4"
+      },
+      "Kl": {
+        "adjacentNodeIds": [
+          "m3"
+        ],
+        "comments": [
+          {
+            "text": "Instead of going back to the sixth rank, Kasparov slid the king to d7.\n\nThis way, he would spend one more move when going back to the sixth rank and thus lose a tempo.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d6",
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/3k4/5p2/p4P1p/Pp2P2P/3K4/8/8 w - - 5 11",
+        "parentNodeId": "jH",
+        "san": "Kd7"
+      },
+      "L0": {
+        "adjacentNodeIds": [
+          "KU"
+        ],
+        "comments": [
+          {
+            "text": "White can try to push...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4P3/5p2/p4P1p/P6P/8/kpK5/8 b - - 0 18",
+        "parentNodeId": "lQ",
+        "san": "e7"
+      },
+      "LN": {
+        "adjacentNodeIds": [
+          "2j"
+        ],
+        "comments": [
+          {
+            "text": "Now Black has the upper hand.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/3k1p2/p4P1p/Pp1KP2P/8/8/8 w - - 5 11",
+        "parentNodeId": "vp",
+        "san": "Kd6"
+      },
+      "Lb": {
+        "adjacentNodeIds": [
+          "ie"
+        ],
+        "comments": [
+          {
+            "text": "But Garry infiltrated.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p4P1p/Pk2P2P/1p1K4/8/8 w - - 2 15",
+        "parentNodeId": "VU",
+        "san": "Kb4"
+      },
+      "M0": {
+        "adjacentNodeIds": [
+          "C0"
+        ],
+        "comments": [
+          {
+            "text": "They can try to keep it restricted.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4k3/p6p/PpK4P/8/8/8 b - - 1 11",
+        "parentNodeId": "hF",
+        "san": "Kc4"
+      },
+      "MO": {
+        "adjacentNodeIds": [
+          "8O"
+        ],
+        "comments": [
+          {
+            "text": "And now everything falls for White.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p4k1p/P6P/1K6/8/8 w - - 0 15",
+        "parentNodeId": "iS",
+        "san": "Kxf5"
+      },
+      "Mb": {
+        "adjacentNodeIds": [
+          "gw"
+        ],
+        "comments": [
+          {
+            "text": "Pushing e5 here doesn't do anything.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p1k1P2p/Pp3P1P/3K4/8/8 b - - 0 8",
+        "parentNodeId": "fQ",
+        "san": "e5"
+      },
+      "Mi": {
+        "adjacentNodeIds": [
+          "6m"
+        ],
+        "comments": [
+          {
+            "text": "Back to d3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2k2p2/p4P1p/Pp2P2P/3K4/8/8 b - - 8 12",
+        "parentNodeId": "xs",
+        "san": "Kd3"
+      },
+      "Mm": {
+        "adjacentNodeIds": [
+          "Fc"
+        ],
+        "comments": [
+          {
+            "text": "Seirawan restricted it with Kc3, getting the opposition.\n\nBut was that enough to stop Kasparov?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/7p/1pk5/4PP2/P1K5/7P/8 b - - 2 4",
+        "parentNodeId": "qA",
+        "san": "Kc3"
+      },
+      "NZ": {
+        "adjacentNodeIds": [
+          "jH",
+          "vp"
+        ],
+        "comments": [
+          {
+            "text": "One more step back.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2k5/5p2/p4P1p/PpK1P2P/8/8/8 w - - 3 10",
+        "parentNodeId": "jB",
+        "san": "Kc7"
+      },
+      "Np": {
+        "adjacentNodeIds": [
+          "d2"
+        ],
+        "comments": [
+          {
+            "text": "White had to step away and allow it.\n\nThere was nothing he could do.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p1k2P1p/Pp2P2P/4K3/8/8 b - - 10 13",
+        "parentNodeId": "6m",
+        "san": "Ke3"
+      },
+      "Q": {
+        "adjacentNodeIds": [
+          "z"
+        ],
+        "comments": [
+          {
+            "text": "Seirawan made a mistake, though, and played e4!\n\nHis idea was probably to start pushing on the kingside, where he had the majority.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f2-f4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/3k2pp/1p6/4P3/P2K2P1/5P1P/8 b - - 0 1",
+        "parentNodeId": "0",
+        "san": "e4"
+      },
+      "R4": {
+        "adjacentNodeIds": [
+          "sS"
+        ],
+        "comments": [
+          {
+            "text": "Of course, the ...b4-push arrived.\n\nSince White hadn't played Kd4 on the first move of the study and restricted Black from getting to c5, this was all made possible.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/8/p1k4p/1p2PP1P/P2K4/8/8 w - - 0 7",
+        "parentNodeId": "ZQ",
+        "san": "b4"
+      },
+      "SQ": {
+        "adjacentNodeIds": [
+          "ho"
+        ],
+        "comments": [
+          {
+            "text": "Whatever White does...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/5k1p/PK5P/8/1p6/8 b - - 1 14",
+        "parentNodeId": "tr",
+        "san": "Kb4"
+      },
+      "Ud": {
+        "adjacentNodeIds": [
+          "4C"
+        ],
+        "comments": [
+          {
+            "text": "The e-pawn will fall.\n\nOn the other hand, White can never win the pawns on the queenside, as capturing on a5 would allow Black to promote the b-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/p2kP2p/Pp5P/3K4/8/8 w - - 1 10",
+        "parentNodeId": "8Y",
+        "san": "Kd5"
+      },
+      "VU": {
+        "adjacentNodeIds": [
+          "Lb"
+        ],
+        "comments": [
+          {
+            "text": "Back to d3, trying to stop it.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p1k2P1p/P3P2P/1p1K4/8/8 b - - 1 14",
+        "parentNodeId": "d2",
+        "san": "Kd3"
+      },
+      "VV": {
+        "adjacentNodeIds": [
+          "Ae"
+        ],
+        "comments": [
+          {
+            "text": "There wasn't much for White to do except for push in the center, which he felt was too committal.\n\nSo he went back with the king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/7p/ppk5/4PP2/P2K4/7P/8 b - - 1 5",
+        "parentNodeId": "Fc",
+        "san": "Kd3"
+      },
+      "Yd": {
+        "adjacentNodeIds": [
+          "jB"
+        ],
+        "comments": [
+          {
+            "text": "First, he brought the king back.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2k2p2/p4P1p/Pp2P2P/3K4/8/8 w - - 1 9",
+        "parentNodeId": "zd",
+        "san": "Kc6"
+      },
+      "Yh": {
+        "adjacentNodeIds": [
+          "KZ"
+        ],
+        "comments": [
+          {
+            "text": "If White tries to defend...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p6p/P5kP/3K4/8/8 b - - 3 16",
+        "parentNodeId": "BU",
+        "san": "Kd3"
+      },
+      "ZQ": {
+        "adjacentNodeIds": [
+          "R4"
+        ],
+        "comments": [
+          {
+            "text": "Yasser mirrored him.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/8/ppk4p/4PP1P/P2K4/8/8 b - h3 0 6",
+        "parentNodeId": "Ae",
+        "san": "h4"
+      },
+      "Zh": {
+        "adjacentNodeIds": [
+          "ye"
+        ],
+        "comments": [
+          {
+            "text": "Black can get their king to the center.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p3kP1p/PpK1P2P/8/8/8 w - - 7 12",
+        "parentNodeId": "2j",
+        "san": "Ke5"
+      },
+      "d2": {
+        "adjacentNodeIds": [
+          "VU"
+        ],
+        "comments": [
+          {
+            "text": "Now the b-pawn was rolling down the board.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p1k2P1p/P3P2P/1p2K3/8/8 w - - 0 14",
+        "parentNodeId": "Np",
+        "san": "b3"
+      },
+      "ej": {
+        "adjacentNodeIds": [
+          "Hz"
+        ],
+        "comments": [
+          {
+            "text": "Instead of capturing on a4 and losing a tempo, he went straight to a3!\n\nHe was going to promote the b-pawn before White could promote their.\n\nIn this position, White resigned.\n\nBut let's take a look at how the game would have ended.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p3PP1p/P6P/kp1K4/8/8 w - - 1 16",
+        "parentNodeId": "ie",
+        "san": "Ka3"
+      },
+      "fO": {
+        "adjacentNodeIds": [
+          "DU"
+        ],
+        "comments": [
+          {
+            "text": "Once White moves...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/4P3/5p2/p4P1p/P6P/8/k2K4/1q6 b - - 1 19",
+        "parentNodeId": "KU",
+        "san": "Kd2"
+      },
+      "fQ": {
+        "adjacentNodeIds": [
+          "zd",
+          "Mb"
+        ],
+        "comments": [
+          {
+            "text": "He didn't rush.\n\nKasparov simply played ...f6 to disallow e5 from White.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p1k4p/Pp2PP1P/3K4/8/8 w - - 0 8",
+        "parentNodeId": "sS",
+        "san": "f6"
+      },
+      "gi": {
+        "adjacentNodeIds": [
+          "lQ"
+        ],
+        "comments": [
+          {
+            "text": "If the king tries to stop it...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4Pp2/p4P1p/P6P/k7/1pK5/8 b - - 1 17",
+        "parentNodeId": "1Z",
+        "san": "Kc2"
+      },
+      "gw": {
+        "adjacentNodeIds": [
+          "8Y"
+        ],
+        "comments": [
+          {
+            "text": "Black simply captures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/p1k1p2p/Pp3P1P/3K4/8/8 w - - 0 9",
+        "parentNodeId": "Mb",
+        "san": "fxe5"
+      },
+      "h": {
+        "adjacentNodeIds": [
+          "KK"
+        ],
+        "comments": [
+          {
+            "text": "White still went for f4, which was a big mistake.\n\nIt allowed Black to get the king further into White's position.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/p4p2/3k3p/1p4p1/4PP2/P2K2P1/7P/8 b - f3 0 2",
+        "parentNodeId": "z",
+        "san": "f4"
+      },
+      "hF": {
+        "adjacentNodeIds": [
+          "M0"
+        ],
+        "comments": [
+          {
+            "text": "But Black simply captures.\n\nWhite can't wander away from the b-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/4k3/p6p/Pp5P/3K4/8/8 w - - 0 11",
+        "parentNodeId": "4C",
+        "san": "Kxe6"
+      },
+      "ho": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black gets a queen and wins.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/8/5k1p/PK5P/8/8/1q6 w - - 0 15",
+        "parentNodeId": "SQ",
+        "san": "b1=Q+"
+      },
+      "iS": {
+        "adjacentNodeIds": [
+          "MO"
+        ],
+        "comments": [
+          {
+            "text": "White captures...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p4P1p/P3k2P/1K6/8/8 b - - 0 14",
+        "parentNodeId": "kO",
+        "san": "Kxb3"
+      },
+      "ie": {
+        "adjacentNodeIds": [
+          "ej"
+        ],
+        "comments": [
+          {
+            "text": "This might have looked scary for a moment, but Kasparov had calculated everything.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p3PP1p/Pk5P/1p1K4/8/8 b - - 0 15",
+        "parentNodeId": "Lb",
+        "san": "e5"
+      },
+      "jB": {
+        "adjacentNodeIds": [
+          "NZ"
+        ],
+        "comments": [
+          {
+            "text": "White followed him.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2k2p2/p4P1p/PpK1P2P/8/8/8 b - - 2 9",
+        "parentNodeId": "Yd",
+        "san": "Kc4"
+      },
+      "jH": {
+        "adjacentNodeIds": [
+          "Kl"
+        ],
+        "comments": [
+          {
+            "text": "White went to d3.\n\nAnd here came the process of triangulation.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2k5/5p2/p4P1p/Pp2P2P/3K4/8/8 b - - 4 10",
+        "parentNodeId": "NZ",
+        "san": "Kd3"
+      },
+      "kO": {
+        "adjacentNodeIds": [
+          "iS"
+        ],
+        "comments": [
+          {
+            "text": "And now the central pawns fall.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p4P1p/P3k2P/1pK5/8/8 w - - 0 14",
+        "parentNodeId": "y1",
+        "san": "Kxe4"
+      },
+      "lQ": {
+        "adjacentNodeIds": [
+          "L0"
+        ],
+        "comments": [
+          {
+            "text": "Black ensures promotion.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b2-b1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/4Pp2/p4P1p/P6P/8/kpK5/8 w - - 2 18",
+        "parentNodeId": "gi",
+        "san": "Ka2"
+      },
+      "m3": {
+        "adjacentNodeIds": [
+          "xs"
+        ],
+        "comments": [
+          {
+            "text": "White went back to e3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k4/5p2/p4P1p/Pp2P2P/4K3/8/8 b - - 6 11",
+        "parentNodeId": "Kl",
+        "san": "Ke3"
+      },
+      "n2": {
+        "adjacentNodeIds": [
+          "y1"
+        ],
+        "comments": [
+          {
+            "text": "Using the passed pawn as a decoy!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p3kP1p/P3P2P/1p1K4/8/8 w - - 0 13",
+        "parentNodeId": "ye",
+        "san": "b3"
+      },
+      "qA": {
+        "adjacentNodeIds": [
+          "Mm"
+        ],
+        "comments": [
+          {
+            "text": "Now Kasparov got his king to c5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/7p/1pk5/4PP2/P2K4/7P/8 w - - 1 4",
+        "parentNodeId": "AR",
+        "san": "Kc5"
+      },
+      "sS": {
+        "adjacentNodeIds": [
+          "fQ"
+        ],
+        "comments": [
+          {
+            "text": "White decided not to trade and push a5.\n\nBlack did get the passer on the b4-square, nevertheless.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5p2/8/p1k4p/Pp2PP1P/3K4/8/8 b - - 0 7",
+        "parentNodeId": "R4",
+        "san": "a4"
+      },
+      "tr": {
+        "adjacentNodeIds": [
+          "SQ"
+        ],
+        "comments": [
+          {
+            "text": "Pushing ...b2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/8/K4k1p/P6P/8/1p6/8 w - - 0 14",
+        "parentNodeId": "B6",
+        "san": "b2"
+      },
+      "vp": {
+        "adjacentNodeIds": [
+          "LN"
+        ],
+        "comments": [
+          {
+            "text": "Going to d4 here would only allow Black to get the opposition.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2k5/5p2/p4P1p/Pp1KP2P/8/8/8 b - - 4 10",
+        "parentNodeId": "NZ",
+        "san": "Kd4"
+      },
+      "xs": {
+        "adjacentNodeIds": [
+          "Mi"
+        ],
+        "comments": [
+          {
+            "text": "Now Garry moved the king forward.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/2k2p2/p4P1p/Pp2P2P/4K3/8/8 w - - 7 12",
+        "parentNodeId": "m3",
+        "san": "Kc6"
+      },
+      "y1": {
+        "adjacentNodeIds": [
+          "kO"
+        ],
+        "comments": [
+          {
+            "text": "White needs to go after it.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p3kP1p/P3P2P/1pK5/8/8 b - - 1 13",
+        "parentNodeId": "n2",
+        "san": "Kc3"
+      },
+      "ye": {
+        "adjacentNodeIds": [
+          "n2"
+        ],
+        "comments": [
+          {
+            "text": "If the pawn is defended, there is a nice strategy to win for Black.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p3kP1p/Pp2P2P/3K4/8/8 b - - 8 12",
+        "parentNodeId": "Zh",
+        "san": "Kd3"
+      },
+      "z": {
+        "adjacentNodeIds": [
+          "h"
+        ],
+        "comments": [
+          {
+            "text": "Kasparov immediately restricted him with ...g5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h4",
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/p4p2/3k3p/1p4p1/4P3/P2K2P1/5P1P/8 w - - 0 2",
+        "parentNodeId": "Q",
+        "san": "g5"
+      },
+      "zd": {
+        "adjacentNodeIds": [
+          "Yd"
+        ],
+        "comments": [
+          {
+            "text": "White played f5 which gave up any chances of counterplay, although his position was already lost.\n\nBlack wants to be able to push his pawn with White's king being further away from the center.\n\nMeaning, he wants this exact position but with White to move.\n\nHow could he do that?",
+            "arrows": {
+              "threats": [
+                "b4-b3"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/8/5p2/p1k2P1p/Pp2P2P/3K4/8/8 b - - 0 8",
+        "parentNodeId": "fQ",
+        "san": "f5"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

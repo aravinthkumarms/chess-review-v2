@@ -1,0 +1,75 @@
+{
+  "id": "07ec00b3-5c94-41f2-a84d-d1bdda5c4135",
+  "name": "Quiz 3 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White's queen and bishop have a battery aiming at the h6-pawn. \n\nIs Bxh6 a good sacrifice?",
+    "answers": [
+      {
+        "text": "No, in this particular scenario it achieves nothing.",
+        "feedback": {
+          "text": "After Bxh6, Black does not have to recapture. ...Bxb4 is a fork from Black. White does not have an attack.",
+          "arrows": {
+            "threats": [
+              "f4-h6",
+              "e7-b4"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "h6",
+              "b4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes! All conditions are met for the sacrifice!",
+        "feedback": {
+          "text": "Are you sure? You can't get more pieces into the attack quickly, and you have other problems.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It is good, but not all conditions are met for the sacrifice (like getting more pieces into the attack).",
+        "feedback": {
+          "text": "Not all conditions are met for the sacrifice, this is true, but it isn't good because Black has another response.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1qr2rk1/1p2b1p1/p3p2p/3pPp1P/bP1P1B2/R2BQ3/5PP1/4R1K1 b - - 1 1",
+    "arrows": {
+      "threats": [
+        "f4-h6"
+      ],
+      "opportunities": []
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "h6"
+      ]
+    },
+    "contextMove": {
+      "san": "Be8",
+      "afterMoveFen": "1qr1brk1/1p2b1p1/p3p2p/3pPp1P/1P1P1B2/R2BQ3/5PP1/4R1K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

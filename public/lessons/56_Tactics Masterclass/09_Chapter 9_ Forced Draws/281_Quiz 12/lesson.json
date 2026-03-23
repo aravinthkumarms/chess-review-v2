@@ -1,0 +1,43 @@
+{
+  "id": "abeb84f9-2596-4e4c-a135-5f157fb1ada5",
+  "name": "Quiz 12",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Let's find the stalemate! (This is the sort of thing you want to avoid if you're winning). \n\nIt's White to move and stalemate in one. Can you spot it?",
+    "answers": [
+      {
+        "text": "Kh3",
+        "feedback": {
+          "text": "Great job! With this, you block Black's only legal move!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "4k3/8/4P3/2B5/7p/7K/8/3R4 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The king is already 100% restricted. What other legal move can you prevent?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "5k2/8/4P3/2B5/7p/8/6K1/3R4 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke8",
+      "afterMoveFen": "4k3/8/4P3/2B5/7p/8/6K1/3R4 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": "94e978cd-cfa1-4468-8441-0865e572ad45",
+  "name": "Quiz 14 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks your bishop.\n\nWhat's the best move?",
+    "answers": [
+      {
+        "text": "Bc5",
+        "feedback": {
+          "text": "Nice one! The point is that after ...b5 White has Ra1 or Ra2.",
+          "arrows": {
+            "threats": [
+              "b6-b5"
+            ],
+            "opportunities": [
+              "c2-a2",
+              "b1-a1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "b7"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "2rr2n1/1k2npb1/1pp1p1p1/2Bp2Np/3PP2P/3P1P2/2R1NKP1/1R6 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you save the bishop and create a threat at the same time?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r2rn1/1k2npb1/1ppBp1p1/3p2Np/3PP2P/3P1P2/2R1NKP1/1R6 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "d6"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Rfd8",
+      "afterMoveFen": "2rr2n1/1k2npb1/1ppBp1p1/3p2Np/3PP2P/3P1P2/2R1NKP1/1R6 w - - 2 2"
+    }
+  },
+  "drill": null
+}

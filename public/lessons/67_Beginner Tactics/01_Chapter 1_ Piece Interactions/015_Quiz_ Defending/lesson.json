@@ -1,0 +1,74 @@
+{
+  "id": "b3087ee7-12b0-48db-8723-51108f4c6c28",
+  "name": "Quiz: Defending",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The rook attacks your queen. \n\nConsidering the ways you've learned so far of defending, protecting, moving away and interposing: \n\nHow many ways do you have to escape?",
+    "answers": [
+      {
+        "text": "There are 2 ways to escape. ",
+        "feedback": {
+          "text": "Correct! You can interpose with Rh6, or move the queen away with Qg7, Qf6, etc. ",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h8-d4",
+              "a6-h6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "There's 1 way to escape.",
+        "feedback": {
+          "text": "Are you sure? \n\nConsider the ways you've learned so far: interposing, moving away and protecting.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "There's no way to escape.",
+        "feedback": {
+          "text": "Are you sure? Can the queen move away? Can the rook help somehow? ",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "6kq/1p3p2/r7/6p1/8/P1N2BP1/1P3PK1/2R5 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rh1",
+      "afterMoveFen": "6kq/1p3p2/r7/6p1/8/P1N2BP1/1P3PK1/7R b - - 2 1"
+    }
+  },
+  "drill": null
+}

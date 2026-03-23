@@ -1,0 +1,69 @@
+{
+  "id": "0e58d5a4-ceb2-439c-bfbb-c505ebeab88c",
+  "name": "Quiz 9 London/QG Quiz",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays 1...d5. \n\n\nWhat opening starts after 2.c4?",
+    "answers": [
+      {
+        "text": "The Queen's Gambit.",
+        "feedback": {
+          "text": "Exactly! This is the Queen's Gambit!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c2-c4",
+              "d5-c4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The London.",
+        "feedback": {
+          "text": "The London is with Bf4!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c1-f4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "The Vienna.",
+        "feedback": {
+          "text": "The Vienna is an e4 opening! Not d4!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c2-c4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "d5",
+      "afterMoveFen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq d6 0 2"
+    }
+  },
+  "drill": null
+}

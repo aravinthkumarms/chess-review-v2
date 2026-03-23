@@ -1,0 +1,103 @@
+{
+  "id": "c1f065cd-fe55-44c3-a254-bdc6b751d335",
+  "name": "Quiz 4: Jan Timman vs Jaap Vogel, 1974",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black wants to take on d2 to advance their c-pawn. \n\nWhat's the only way to win for White?",
+    "answers": [
+      {
+        "text": "g4",
+        "feedback": {
+          "text": "Great move! You'll create a passed h-pawn after this. If ...hxg4, Kxg4 and your pawn will queen.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "h5-g4",
+              "f5-g4",
+              "h4-h5",
+              "h5-h6",
+              "h6-h7",
+              "h7-h8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "pushing the g-pawn.",
+        "afterMoveFen": "8/8/1p3p2/1Pp2K1p/3k2PP/8/3P4/8 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kxf6",
+        "feedback": {
+          "text": "Sadly, this move is too slow and allows Black counterplay. Best case scenario, this is a draw, but Black will be better.",
+          "arrows": {
+            "threats": [
+              "d4-d3",
+              "d3-d2",
+              "c5-c4",
+              "c4-c3",
+              "c3-c2",
+              "c2-c1"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "winning the f-pawn.",
+        "afterMoveFen": "8/8/1p3K2/1Pp4p/3k3P/6P1/3P4/8 b - - 0 2"
+      },
+      {
+        "text": "Kf4",
+        "feedback": {
+          "text": "This move doesn't achieve anything. Having the kings face each other is only useful when you want to defend entry squares or invade them.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "facing the enemy king.",
+        "afterMoveFen": "8/8/1p3p2/1Pp4p/3k1K1P/6P1/3P4/8 b - - 3 2"
+      },
+      {
+        "text": "Kg6",
+        "feedback": {
+          "text": "There's a quicker way to create a passed pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "going for the h-pawn.",
+        "afterMoveFen": "8/8/1p3pK1/1Pp4p/3k3P/6P1/3P4/8 b - - 3 2"
+      }
+    ],
+    "positionFen": "8/8/1p3p2/1Ppk1K1p/7P/6P1/3P4/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kd4",
+      "afterMoveFen": "8/8/1p3p2/1Pp2K1p/3k3P/6P1/3P4/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

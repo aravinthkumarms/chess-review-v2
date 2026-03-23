@@ -1,0 +1,75 @@
+{
+  "id": "188b8522-031e-484f-89f4-4a31c8082123",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...Qb7.\n\nCan you take the hanging rook on e6?",
+    "answers": [
+      {
+        "text": "No, because Black has checkmate.",
+        "feedback": {
+          "text": "True. ...c5+ followed by ...Rf1# is mate.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c6-c5",
+              "g1-g2",
+              "f4-f1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes. Black has no compensation.",
+        "feedback": {
+          "text": "Wrong! Black has the strongest of compensations.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, because we are faster to checkmate than Black with an attack down the g-file.",
+        "feedback": {
+          "text": "Calculate again!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "6k1/p4q2/2p1r1nQ/6N1/2P2r2/3P4/P6P/6RK b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g5-e6"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "e6"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qb7",
+      "afterMoveFen": "6k1/pq6/2p1r1nQ/6N1/2P2r2/3P4/P6P/6RK w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,56 @@
+{
+  "id": "43b696e6-5191-4d0d-922c-0acc0b019999",
+  "name": "Quiz 5",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "We have a rook, but Black \nhas a dark-squared bishop and a pawn ready to promote on a1. \n\nWhat’s the evaluation \nhere?",
+    "answers": [
+      {
+        "text": "Answer: We have a win since we can put Black in “zugzwang”.",
+        "feedback": {
+          "text": "Exactly! Our king's position is much superior.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "a6"
+            ],
+            "opportunities": [
+              "c6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "We are happy to draw with Ra1 stalemate.",
+        "feedback": {
+          "text": "Does this position offer something more?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3b4/p7/k1K5/8/R7/8/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "a7",
+        "a1"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Ba5",
+      "afterMoveFen": "8/p7/k1K5/b7/R7/8/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1b897379-4ed2-409e-98f8-3b3e4d06ed96",
+  "name": "Quiz 8 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White is considering taking on d2 with Nxd2.\n\nIs there something wrong with this capture?",
+    "answers": [
+      {
+        "text": "No, there’s nothing wrong with Nxd2.",
+        "feedback": {
+          "text": "Good job! The knight on f3 is also pinned, so White can get away with this capture.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f2-f4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f3"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, you enter a pin and will lose material!",
+        "feedback": {
+          "text": "There is a way to escape the pin!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, but you won’t be able to get out of the pin ever.",
+        "feedback": {
+          "text": "Try to pay attention to Black's king position. Is escaping the pin really impossible?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2k5/pp6/8/3r4/P1N2r2/1P3n2/3p1R1P/3R3K b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c4-d2"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Rd3",
+      "afterMoveFen": "2k5/pp6/8/8/P1N2r2/1P1r1n2/3p1R1P/3R3K w - - 2 2"
+    }
+  },
+  "drill": null
+}

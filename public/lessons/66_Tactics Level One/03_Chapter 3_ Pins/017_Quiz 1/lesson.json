@@ -1,0 +1,74 @@
+{
+  "id": "07e79867-a775-491d-8a57-b80e5d4dc9e7",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...b6. \n\nDoes c4 work because of the pin?",
+    "answers": [
+      {
+        "text": "Trick question! There is no pin!",
+        "feedback": {
+          "text": "The knight defends the queen on d7, therefore, the move c4 loses a pawn.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f6",
+              "d7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, it works because Black cannot take the c4-pawn without losing their queen.",
+        "feedback": {
+          "text": "Are you sure this move doesn't lose a pawn?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c3-c4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "c4 does not work because Black does not have to take the pawn.",
+        "feedback": {
+          "text": "The second part of this statement is false. It doesn't matter if Black takes the pawn or not.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r4rk1/pp1q1pbp/4pnp1/3p4/4nB2/1NP1PN1P/PP3PP1/R2Q1RK1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c3-c4"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "d7"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "b6",
+      "afterMoveFen": "r4rk1/p2q1pbp/1p2pnp1/3p4/4nB2/1NP1PN1P/PP3PP1/R2Q1RK1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

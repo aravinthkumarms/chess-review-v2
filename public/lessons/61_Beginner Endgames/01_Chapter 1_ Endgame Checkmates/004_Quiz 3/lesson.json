@@ -1,0 +1,63 @@
+{
+  "id": "e6fc0225-70da-4914-821a-ef9e86e60a80",
+  "name": "Quiz 3",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It is White to move. \n\nHow many ladder checkmates can you find?",
+    "answers": [
+      {
+        "text": "Qh4#",
+        "feedback": {
+          "text": "Awesome! The queen has another checkmate, too.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/8/7k/6RQ/4K3/8/8 b - - 3 2"
+      },
+      {
+        "text": "Qh3#",
+        "feedback": {
+          "text": "Great job! Can you find the other checkmates?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/8/7k/6R1/4K2Q/8/8 b - - 3 2"
+      },
+      {
+        "text": "Rh4#",
+        "feedback": {
+          "text": "The rook can also play this checkmate! Great!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/8/7k/7R/4K1Q1/8/8 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you give a checkmate with the rook and another with the queen?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/7k/8/6R1/4K1Q1/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kh5",
+      "afterMoveFen": "8/8/8/7k/6R1/4K1Q1/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

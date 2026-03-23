@@ -1,0 +1,97 @@
+{
+  "id": "517d646a-2f18-4ecd-a41a-53f54abbb1ec",
+  "name": "Quiz: Random get out of check multiple options 2",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gives a check on f6.\n\nCan you find some moves that block this check?",
+    "answers": [
+      {
+        "text": "d4",
+        "feedback": {
+          "text": "The pawn can come up two squares and block the check!",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d4",
+              "a1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "1rk5/B1pp2pp/5bn1/8/3P4/8/P3N1PP/K6R b - d3 0 2"
+      },
+      {
+        "text": "Nd4",
+        "feedback": {
+          "text": "The knight can block the check on d4. Nice!",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d4",
+              "a1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "1rk5/B1pp2pp/5bn1/8/3N4/8/P2P2PP/K6R b - - 3 2"
+      },
+      {
+        "text": "Bd4",
+        "feedback": {
+          "text": "Well done. A bishop can slide to d4 and White gets out of check.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d4",
+              "a1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "1rk5/2pp2pp/5bn1/8/3B4/8/P2PN1PP/K6R b - - 3 2"
+      },
+      {
+        "text": "Nc3",
+        "feedback": {
+          "text": "The knight can move in an L-shape, and it can block the check on c3. Well played!",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "c3",
+              "a1"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "1rk5/B1pp2pp/5bn1/8/8/2N5/P2P2PP/K6R b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "There's 4 moves in total. Think about the d4-square.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1rk5/B1pp2pp/6n1/6b1/8/8/P2PN1PP/K6R b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bf6+",
+      "afterMoveFen": "1rk5/B1pp2pp/5bn1/8/8/8/P2PN1PP/K6R w - - 2 2"
+    }
+  },
+  "drill": null
+}

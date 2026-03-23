@@ -1,0 +1,72 @@
+{
+  "id": "b1544730-3feb-4cb9-980e-8f3d2dbbdbb2",
+  "name": "Quiz 14 ",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black proposes a rook trade. \n\nWhat’s the best move?",
+    "answers": [
+      {
+        "text": "Rbb3",
+        "feedback": {
+          "text": "Good job! We keep the rook combo intact and still cover the third rank.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "retreating the b-rook to b3.",
+        "afterMoveFen": "1r3rk1/p5pp/3p4/2pPpq2/2P2n2/1R2RP2/P4N1P/Q4B1K b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Rxa7",
+        "feedback": {
+          "text": "This is a serious mistake! \n\nIt allows ...Rb1.",
+          "arrows": {
+            "threats": [
+              "b8-b1"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "h1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "capturing the pawn.",
+        "afterMoveFen": "1r3rk1/R5pp/3p4/2pPpq2/2P2n2/4RP2/P4N1P/Q4B1K b - - 0 2"
+      },
+      {
+        "text": "Reb3",
+        "feedback": {
+          "text": "Black can now trade on b7 (...Rxb7) and invade with ...Nd3 next.",
+          "arrows": {
+            "threats": [
+              "b8-b7",
+              "f4-d3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "supporting with the e-rook.",
+        "afterMoveFen": "1r3rk1/pR4pp/3p4/2pPpq2/2P2n2/1R3P2/P4N1P/Q4B1K b - - 3 2"
+      }
+    ],
+    "positionFen": "r4rk1/pR4pp/3p4/2pPpq2/2P2n2/4RP2/P4N1P/Q4B1K b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rab8",
+      "afterMoveFen": "1r3rk1/pR4pp/3p4/2pPpq2/2P2n2/4RP2/P4N1P/Q4B1K w - - 2 2"
+    }
+  },
+  "drill": null
+}

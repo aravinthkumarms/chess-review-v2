@@ -1,0 +1,70 @@
+{
+  "id": "02635959-d5a9-4784-b452-c358f362d0cd",
+  "name": "Quiz 4 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White threatens a check on the back rank. \n\nIs ...h6 a good move to create some luft and overprotect the knight?",
+    "answers": [
+      {
+        "text": "No, it isn't. White has a tactic.",
+        "feedback": {
+          "text": "Correct! White can remove the defender of the e5-rook with Rxh6+.",
+          "arrows": {
+            "threats": [
+              "d6-h6"
+            ],
+            "opportunities": [
+              "h7-h6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "h6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, h6 is perfectly fine. There are no dangers.",
+        "feedback": {
+          "text": "Are you sure?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "...h6 is an average move. But there's a better move for Black to win material.",
+        "feedback": {
+          "text": "...h6 is not average and there isn't any tactic for Black.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "7k/p4pqp/1p5R/2ppr1n1/5Q2/1P2P1P1/P3NPK1/8 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "h7-h6"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Rd6",
+      "afterMoveFen": "7k/p4pqp/1p1R4/2ppr1n1/5Q2/1P2P1P1/P3NPK1/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

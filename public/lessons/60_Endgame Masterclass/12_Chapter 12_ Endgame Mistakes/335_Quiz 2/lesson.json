@@ -1,0 +1,63 @@
+{
+  "id": "8c2545c4-0d4e-47b3-8bfe-4dfa9cd57994",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has just pushed their pawn to c6.\n\nShould we trade on c6 now? (dxc6) \n\nOr should we simply improve the rooks first and keep the pawn on d5?",
+    "answers": [
+      {
+        "text": "Capturing on c6 allows the d-file to be open. So after ...Ne5+ Black would generate counterplay. \n\nWe should simply recapture on e2 instead and double up the rooks.",
+        "feedback": {
+          "text": "Good job! Let's not unnecessarily give Black chances to create counterplay by capturing on c6.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "We're up a pawn, so trading only benefits us. Black's counterplay isn't sufficient enough, and with the open d and e-files we'll be able to activate our rooks next.",
+        "feedback": {
+          "text": "By trading on c6, we allow Black to gain activity with ...Ne5+.",
+          "arrows": {
+            "threats": [
+              "d5-c6"
+            ],
+            "opportunities": [
+              "d7-e5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d2"
+            ],
+            "opportunities": [
+              "d8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2kr3r/pppn1ppp/8/3P2P1/2P5/2N5/PP1Kp1PP/4R2R b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "c6",
+      "afterMoveFen": "2kr3r/pp1n1ppp/2p5/3P2P1/2P5/2N5/PP1Kp1PP/4R2R w - - 0 2"
+    }
+  },
+  "drill": null
+}

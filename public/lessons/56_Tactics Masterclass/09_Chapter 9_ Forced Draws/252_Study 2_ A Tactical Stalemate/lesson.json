@@ -1,0 +1,622 @@
+{
+  "id": "f41de092-654b-4ae7-afef-6cdce535f27e",
+  "name": "Study 2: A Tactical Stalemate",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "3"
+        ],
+        "comments": [
+          {
+            "text": "In this study, we'll look at stalemates. Sometimes, a draw can come out of nowhere. \n\nLet's look at a game played in 1963 between GM Larry Evans and GM Samuel Reshevsky. \n\nIn the ninth round of the US Championship, Larry Evans with the White pieces faced a dangerous attack from Reshevsky. \n\nWith a pawn down and what looks to be a losing position, Evans managed to turn this game around. \n\nLet's get right into it!",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1252040",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/R2n1ppk/p2r1q2/1p2p2p/1P2Pn2/4BP1P/2Q3PK/5B2 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "15": {
+        "adjacentNodeIds": [
+          "EC"
+        ],
+        "comments": [
+          {
+            "text": "So the checks could continue endlessly.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5k2/5R2/8/1p2p2p/1P2Pn1P/5Pq1/4r3/7K b - - 2 10",
+        "parentNodeId": "ux",
+        "san": "Rf7+"
+      },
+      "1R": {
+        "adjacentNodeIds": [
+          "tP"
+        ],
+        "comments": [
+          {
+            "text": "Instead of retreating, Black went for the rook check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2Q5/5Rpk/8/1p2p1qp/1P2Pn1P/5PP1/4r2K/8 w - - 1 7",
+        "parentNodeId": "35",
+        "san": "Re2+"
+      },
+      "2y": {
+        "adjacentNodeIds": [
+          "fi"
+        ],
+        "comments": [
+          {
+            "text": "Trying to save the bishop results in a quicker checkmate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/3R1ppk/1B6/1p2p1qp/1P2Pn2/5PPP/7K/4r3 b - - 2 5",
+        "parentNodeId": "e1",
+        "san": "Bb6"
+      },
+      "3": {
+        "adjacentNodeIds": [
+          "D"
+        ],
+        "comments": [
+          {
+            "text": "Evans, down a pawn, brought his queen to c8 and also attacked Reshevsky's knight on d7.\n\nHe wanted to get counterplay. The problem is he stopped defending the d1-square.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d6-d1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d7",
+                "d1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2Q5/R2n1ppk/p2r1q2/1p2p2p/1P2Pn2/4BP1P/6PK/5B2 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Qc8"
+      },
+      "35": {
+        "adjacentNodeIds": [
+          "1R"
+        ],
+        "comments": [
+          {
+            "text": "White attacked Black's queen.\n\nThe nice thing about this move is that it locks White's h-pawn, meaning it's one less legal move to think about...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2Q5/5Rpk/8/1p2p1qp/1P2Pn1P/4rPP1/7K/8 b - - 0 6",
+        "parentNodeId": "lz",
+        "san": "h4"
+      },
+      "38": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And this would become a win for White. \n\nThe stalemate, therefore, cannot be avoided.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/5RQ1/6k1/1p2p2p/1P2Pn1P/5Pq1/4r3/7K b - - 0 10",
+        "parentNodeId": "Uz",
+        "san": "Qxg7#"
+      },
+      "5e": {
+        "adjacentNodeIds": [
+          "fL"
+        ],
+        "comments": [
+          {
+            "text": "Black had to capture, otherwise, the game would turn in White's favor pretty quickly.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/5Rp1/8/1p2p2p/1P2Pn1P/5Pq1/4r3/7K w - - 0 9",
+        "parentNodeId": "b5",
+        "san": "Kxg8"
+      },
+      "5q": {
+        "adjacentNodeIds": [
+          "lk"
+        ],
+        "comments": [
+          {
+            "text": "If Qc2...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/R2n1ppk/p7/1B2p1qp/1P2Pn2/4BP1P/2Q3PK/3r4 b - - 2 3",
+        "parentNodeId": "nK",
+        "san": "Qc2"
+      },
+      "An": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And we're back to the checkmates chapter!",
+            "arrows": {
+              "threats": [
+                "g5-g2"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2Q5/3R1ppk/8/1p2p1qp/1P2PP2/4BP1P/4r2K/8 w - - 1 6",
+        "parentNodeId": "Iw",
+        "san": "Re2+"
+      },
+      "D": {
+        "adjacentNodeIds": [
+          "K",
+          "Uu"
+        ],
+        "comments": [
+          {
+            "text": "A very nice move from Reshevsky! \n\nLeaving the knight hanging, but counter-attacking the bishop on f1.\n\nThis is lost for White according to the engine.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/R2n1ppk/p4q2/1p2p2p/1P2Pn2/4BP1P/6PK/3r1B2 w - - 3 2",
+        "parentNodeId": "3",
+        "san": "Rd1"
+      },
+      "EC": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The king moves away. I would just give checks back and forth on the 7th, even though tossing checks in on the 8th rank isn't losing. \n\nI like not having to calculate extra with Black's king moving around the board.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-e7",
+                "e7-d7",
+                "d7-c7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4k3/5R2/8/1p2p2p/1P2Pn1P/5Pq1/4r3/7K w - - 3 11",
+        "parentNodeId": "15",
+        "san": "Ke8"
+      },
+      "Gm": {
+        "adjacentNodeIds": [
+          "e1"
+        ],
+        "comments": [
+          {
+            "text": "Evans got the knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/3R1ppk/8/1p2p1qp/1P2Pn2/4BPPP/7K/3r4 b - - 0 4",
+        "parentNodeId": "R4",
+        "san": "Rxd7"
+      },
+      "Iw": {
+        "adjacentNodeIds": [
+          "An"
+        ],
+        "comments": [
+          {
+            "text": "This leads to checkmate, so White cannot capture.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/3R1ppk/8/1p2p1qp/1P2PP2/4BP1P/7K/4r3 b - - 0 5",
+        "parentNodeId": "e1",
+        "san": "gxf4"
+      },
+      "K": {
+        "adjacentNodeIds": [
+          "nK"
+        ],
+        "comments": [
+          {
+            "text": "But now this is losing even more! Evans felt this was working since he was getting a pawn out of the transaction.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/R2n1ppk/p4q2/1B2p2p/1P2Pn2/4BP1P/6PK/3r4 b - - 0 2",
+        "parentNodeId": "D",
+        "san": "Bxb5"
+      },
+      "LY": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "This is stalemate.\n\nThe pawns are locked in place and the king does not have a legal move.\n\nPure brilliance from Larry Evans.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/6q1/8/1p2p2p/1P2Pn1P/5P2/4r3/7K w - - 0 10",
+        "parentNodeId": "fL",
+        "san": "Qxg7"
+      },
+      "Q8": {
+        "adjacentNodeIds": [
+          "dX"
+        ],
+        "comments": [
+          {
+            "text": "Not taking is not an option for Black.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6Q1/5Rp1/7k/1p2p2p/1P2Pn1P/5Pq1/4r3/7K w - - 2 9",
+        "parentNodeId": "b5",
+        "san": "Kh6"
+      },
+      "R4": {
+        "adjacentNodeIds": [
+          "Gm"
+        ],
+        "comments": [
+          {
+            "text": "Reshevsky finally captured the bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/R2n1ppk/8/1p2p1qp/1P2Pn2/4BPPP/7K/3r4 w - - 0 4",
+        "parentNodeId": "wQ",
+        "san": "axb5"
+      },
+      "R5": {
+        "adjacentNodeIds": [
+          "b5"
+        ],
+        "comments": [
+          {
+            "text": "Black captured the g3-pawn and checkmate is unavoidable, right?",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "Notice how White's king had no legal moves, and only the queen and rook could move.\n\nIn fact, even if the queen were not on g3, the king would still not have legal moves!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h1",
+                "f3",
+                "e4",
+                "h4",
+                "b4"
+              ],
+              "opportunities": [
+                "f7",
+                "c8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2Q5/5Rpk/8/1p2p2p/1P2Pn1P/5Pq1/4r3/7K w - - 0 8",
+        "parentNodeId": "tP",
+        "san": "Qxg3"
+      },
+      "Uu": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The better defensive try was to capture the knight immediately with the rook so that Black's queen could be challenged with Qd8 next. \n\nWhile on the defending side, trading off our opponent's most dangerous piece is a good idea!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c8-d8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/3R1ppk/p4q2/1p2p2p/1P2Pn2/4BP1P/6PK/3r1B2 b - - 0 2",
+        "parentNodeId": "D",
+        "san": "Rxd7"
+      },
+      "Uz": {
+        "adjacentNodeIds": [
+          "38"
+        ],
+        "comments": [
+          {
+            "text": "The king blocks the queen's view of g7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7Q/5Rp1/6k1/1p2p2p/1P2Pn1P/5Pq1/4r3/7K w - - 4 10",
+        "parentNodeId": "dX",
+        "san": "Kg6"
+      },
+      "b5": {
+        "adjacentNodeIds": [
+          "5e",
+          "Q8"
+        ],
+        "comments": [
+          {
+            "text": "Check! \n\nA cold shower for Reshevsky, costing him half a point in the tournament.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6Q1/5Rpk/8/1p2p2p/1P2Pn1P/5Pq1/4r3/7K b - - 1 8",
+        "parentNodeId": "R5",
+        "san": "Qg8+"
+      },
+      "dX": {
+        "adjacentNodeIds": [
+          "Uz"
+        ],
+        "comments": [
+          {
+            "text": "White is winning.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h6-g6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7Q/5Rp1/7k/1p2p2p/1P2Pn1P/5Pq1/4r3/7K b - - 3 9",
+        "parentNodeId": "Q8",
+        "san": "Qh8+"
+      },
+      "e1": {
+        "adjacentNodeIds": [
+          "rM",
+          "Iw",
+          "2y"
+        ],
+        "comments": [
+          {
+            "text": "Black now attacked the bishop on e3.\n\nWhite's position is just hopeless, due to the very weak king.\n\nHave you ever found yourself in a lost position? Well, don't resign! Try to engineer a stalemate!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/3R1ppk/8/1p2p1qp/1P2Pn2/4BPPP/7K/4r3 w - - 1 5",
+        "parentNodeId": "Gm",
+        "san": "Re1"
+      },
+      "fL": {
+        "adjacentNodeIds": [
+          "LY",
+          "ux"
+        ],
+        "comments": [
+          {
+            "text": "Another brilliant move followed! Black didn't have a choice, but to capture the rook. \n\nThe players agreed to a draw here.\n\nThis game is a nice example that when the king has no legal moves, checking for stalemate possibilities is essential since there could be some very nice swindles, just like in this match between two legends.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/6R1/8/1p2p2p/1P2Pn1P/5Pq1/4r3/7K b - - 0 9",
+        "parentNodeId": "5e",
+        "san": "Rxg7+"
+      },
+      "fi": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "This is an easy win for Black.",
+            "arrows": {
+              "threats": [
+                "g5-g3"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "h2"
+              ],
+              "opportunities": [
+                "g3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2Q5/3R1ppk/1B6/1p2p1qp/1P2Pn2/5PPP/4r2K/8 w - - 3 6",
+        "parentNodeId": "2y",
+        "san": "Re2+"
+      },
+      "lk": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...Black invades the dark squares around White's king and the attack is deadly.",
+            "arrows": {
+              "threats": [
+                "g5-g3"
+              ],
+              "opportunities": [
+                "d7-f6",
+                "f6-h5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/R2n1ppk/p7/1B2p1q1/1P2Pn1p/4BP1P/2Q3PK/3r4 w - - 0 4",
+        "parentNodeId": "5q",
+        "san": "h4"
+      },
+      "lz": {
+        "adjacentNodeIds": [
+          "35"
+        ],
+        "comments": [
+          {
+            "text": "Reshevsky captured the bishop.\n\nThis game should be over pretty soon.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/5Rpk/8/1p2p1qp/1P2Pn2/4rPPP/7K/8 w - - 0 6",
+        "parentNodeId": "rM",
+        "san": "Rxe3"
+      },
+      "nK": {
+        "adjacentNodeIds": [
+          "wQ",
+          "5q"
+        ],
+        "comments": [
+          {
+            "text": "Reshevsky threatened checkmate on g2 instead! \n\nVery difficult to defend this.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2Q5/R2n1ppk/p7/1B2p1qp/1P2Pn2/4BP1P/6PK/3r4 w - - 1 3",
+        "parentNodeId": "K",
+        "san": "Qg5"
+      },
+      "rM": {
+        "adjacentNodeIds": [
+          "lz"
+        ],
+        "comments": [
+          {
+            "text": "Evans went for the attack.\n\nHe knew that any shot at survival meant getting at the king somehow.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/5Rpk/8/1p2p1qp/1P2Pn2/4BPPP/7K/4r3 b - - 0 5",
+        "parentNodeId": "e1",
+        "san": "Rxf7"
+      },
+      "tP": {
+        "adjacentNodeIds": [
+          "R5"
+        ],
+        "comments": [
+          {
+            "text": "White retreated to h1 to avoid ...Qxg3+.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2Q5/5Rpk/8/1p2p1qp/1P2Pn1P/5PP1/4r3/7K b - - 2 7",
+        "parentNodeId": "1R",
+        "san": "Kh1"
+      },
+      "ux": {
+        "adjacentNodeIds": [
+          "15"
+        ],
+        "comments": [
+          {
+            "text": "The king cannot escape. \n\nThey key is to notice that the queen cannot take the rook (because stalemate persists), and the king cannot capture the rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5k2/6R1/8/1p2p2p/1P2Pn1P/5Pq1/4r3/7K w - - 1 10",
+        "parentNodeId": "fL",
+        "san": "Kf8"
+      },
+      "wQ": {
+        "adjacentNodeIds": [
+          "R4"
+        ],
+        "comments": [
+          {
+            "text": "The only move that doesn't lose on the spot.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2Q5/R2n1ppk/p7/1B2p1qp/1P2Pn2/4BPPP/7K/3r4 b - - 0 3",
+        "parentNodeId": "nK",
+        "san": "g3"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

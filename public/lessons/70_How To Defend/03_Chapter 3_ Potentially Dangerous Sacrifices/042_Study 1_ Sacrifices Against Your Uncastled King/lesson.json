@@ -1,0 +1,731 @@
+{
+  "id": "f3e40589-c046-42c8-897d-a0b81e810c59",
+  "name": "Study 1: Sacrifices Against Your Uncastled King",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "f"
+        ],
+        "comments": [
+          {
+            "text": "This position is from a game sent by one of my subscribers, and it arose out of a Smith-Morra Gambit Accepted. \n\nWhite has a semi-open d-file and open c-file. In this opening, the Nd5 sacrifice to open up the e-file is very common. \n\nHowever, Black has the option of not taking in many scenarios. And that's what you should do: evaluate whether to take or not. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/68324616243?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k1nr/1pq1bppp/p1npp3/8/2B1P3/2N2N2/PP2QPPP/R1BR2K1 w kq - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "3P": {
+        "adjacentNodeIds": [
+          "MT"
+        ],
+        "comments": [
+          {
+            "text": "The good thing about this for Black is that, since it's the wrong sacrifice, there's a chance to defend against it and not get completely whipped off the board. \n\nBlack can take on d5 without drastic repercussions: Nc7+ won't be in the horizon. \n\nStill, though, Black had to defend against the bishops and the open and semi-open e- and d-files respectively. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pqbbppp/p1n5/3pP3/2B2B2/5N2/PP2QPPP/R2R2K1 w kq - 0 4",
+        "parentNodeId": "TP",
+        "san": "exd5"
+      },
+      "3R": {
+        "adjacentNodeIds": [
+          "Qy"
+        ],
+        "comments": [
+          {
+            "text": "But the most natural continuation is just coming back and hiding the king. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1p2bppp/p1n5/3B4/5q2/5N2/PP2QPPP/R2R2K1 w - - 1 7",
+        "parentNodeId": "xF",
+        "san": "Ke8"
+      },
+      "3j": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "e6 attacks the bishop and also threatens Nc7+. White is winning. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e6-d7",
+                "d5-c7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d7",
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1p1bbppp/p1n1P3/q2N4/5B2/5N2/PP2QPPP/R2R2K1 b kq - 0 5",
+        "parentNodeId": "Id",
+        "san": "e6"
+      },
+      "9z": {
+        "adjacentNodeIds": [
+          "nR"
+        ],
+        "comments": [
+          {
+            "text": "Black can just recapture...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/4bppp/p1p5/8/5q2/5N2/PP2QPPP/R2R2K1 w - - 0 8",
+        "parentNodeId": "Qy",
+        "san": "bxc6"
+      },
+      "C": {
+        "adjacentNodeIds": [
+          "Fc"
+        ],
+        "comments": [
+          {
+            "text": "White pushed with e5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pqbbppp/p1npp3/4P3/2B2B2/2N2N2/PP2QPPP/R2R2K1 b kq - 0 2",
+        "parentNodeId": "W",
+        "san": "e5"
+      },
+      "C3": {
+        "adjacentNodeIds": [
+          "Id"
+        ],
+        "comments": [
+          {
+            "text": "The knight is powerful here, and e6 is coming for Nc7+. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-e6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c7",
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pqbbppp/p1n5/3NP3/5B2/5N2/PP2QPPP/R2R2K1 b kq - 0 4",
+        "parentNodeId": "M0",
+        "san": "Nxd5"
+      },
+      "CM": {
+        "adjacentNodeIds": [
+          "cE"
+        ],
+        "comments": [
+          {
+            "text": "Black developed the knight...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2k3r/1p1Pbppp/p1n2n2/3B4/5q2/5N2/PP2QPPP/R2R2K1 w - - 1 7",
+        "parentNodeId": "s0",
+        "san": "Nf6"
+      },
+      "Dp": {
+        "adjacentNodeIds": [
+          "La"
+        ],
+        "comments": [
+          {
+            "text": "Now if e5...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/1pq1bppp/p1nppn2/4P3/2B2B2/2N2N2/PP2QPPP/R2R2K1 b kq - 0 2",
+        "parentNodeId": "kg",
+        "san": "e5"
+      },
+      "Fc": {
+        "adjacentNodeIds": [
+          "TP",
+          "Lg"
+        ],
+        "comments": [
+          {
+            "text": "And Black tried defending with 2...d5. \n\nNow, I mentioned Nd5 was a standard sacrifice in the Smith-Morra. But in this position, the e-file won't open up if Nxd5. That's why Bxd5 was the correct sacrifice, so that after ...exd5, Nxd5 comes with a tempo on the queen. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pqbbppp/p1n1p3/3pP3/2B2B2/2N2N2/PP2QPPP/R2R2K1 w kq - 0 3",
+        "parentNodeId": "C",
+        "san": "d5"
+      },
+      "IJ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The rook comes to defend.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h6-e6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1n1/4bpp1/p1N4r/7p/5q2/8/PP2QPPP/R2R2K1 w - - 1 10",
+        "parentNodeId": "wj",
+        "san": "Rh6"
+      },
+      "Id": {
+        "adjacentNodeIds": [
+          "3j"
+        ],
+        "comments": [
+          {
+            "text": "If the queen moves out of the way...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1p1bbppp/p1n5/q2NP3/5B2/5N2/PP2QPPP/R2R2K1 w kq - 1 5",
+        "parentNodeId": "C3",
+        "san": "Qa5"
+      },
+      "KW": {
+        "adjacentNodeIds": [
+          "T4"
+        ],
+        "comments": [
+          {
+            "text": "By taking the bishop that attacks your queen, of course! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1p1bbppp/p1n1P3/3p4/2B2q2/5N2/PP2QPPP/R2R2K1 w kq - 0 5",
+        "parentNodeId": "MT",
+        "san": "Qxf4"
+      },
+      "La": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...Nh5 attacks the bishop. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d6-e5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f4",
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/1pq1bppp/p1npp3/4P2n/2B2B2/2N2N2/PP2QPPP/R2R2K1 w kq - 1 3",
+        "parentNodeId": "Dp",
+        "san": "Nh5"
+      },
+      "Lg": {
+        "adjacentNodeIds": [
+          "M0"
+        ],
+        "comments": [
+          {
+            "text": "Bxd5 was the correct sacrifice. \n\nTaking this isn't wise.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pqbbppp/p1n1p3/3BP3/5B2/2N2N2/PP2QPPP/R2R2K1 b kq - 0 3",
+        "parentNodeId": "Fc",
+        "san": "Bxd5"
+      },
+      "M0": {
+        "adjacentNodeIds": [
+          "C3"
+        ],
+        "comments": [
+          {
+            "text": "The reason you shouldn't take is that Nxd5 activates the knight. ",
+            "arrows": {
+              "threats": [
+                "c3-d5"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pqbbppp/p1n5/3pP3/5B2/2N2N2/PP2QPPP/R2R2K1 w kq - 0 4",
+        "parentNodeId": "Lg",
+        "san": "exd5"
+      },
+      "MT": {
+        "adjacentNodeIds": [
+          "KW"
+        ],
+        "comments": [
+          {
+            "text": "e6 attacked both the queen and the bishop on d7. \n\nHow would you maintain material equality? ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-c7",
+                "e6-d7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d7",
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pqbbppp/p1n1P3/3p4/2B2B2/5N2/PP2QPPP/R2R2K1 b kq - 0 4",
+        "parentNodeId": "3P",
+        "san": "e6"
+      },
+      "QX": {
+        "adjacentNodeIds": [
+          "wj"
+        ],
+        "comments": [
+          {
+            "text": "And here I like this cool resource to get the rook into the game! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h8-h6",
+                "h6-e6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/4bpp1/p1p5/4N2p/5q2/8/PP2QPPP/R2R2K1 w - h6 0 9",
+        "parentNodeId": "nR",
+        "san": "h5"
+      },
+      "Qy": {
+        "adjacentNodeIds": [
+          "9z"
+        ],
+        "comments": [
+          {
+            "text": "If White takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1p2bppp/p1B5/8/5q2/5N2/PP2QPPP/R2R2K1 b - - 0 7",
+        "parentNodeId": "3R",
+        "san": "Bxc6+"
+      },
+      "Rg": {
+        "adjacentNodeIds": [
+          "xF"
+        ],
+        "comments": [
+          {
+            "text": "Let's explore this defense. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5nr/1p1kbppp/p1n5/3p4/2B2q2/5N2/PP2QPPP/R2R2K1 w - - 0 6",
+        "parentNodeId": "T4",
+        "san": "Kxd7"
+      },
+      "T4": {
+        "adjacentNodeIds": [
+          "bb",
+          "Rg",
+          "Tx"
+        ],
+        "comments": [
+          {
+            "text": "This put the Black king in some peril.\n\nKf8 and Kxd7 were two legitimate options. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e8-f8",
+                "e8-d7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1p1Pbppp/p1n5/3p4/2B2q2/5N2/PP2QPPP/R2R2K1 b kq - 0 5",
+        "parentNodeId": "KW",
+        "san": "exd7+"
+      },
+      "TP": {
+        "adjacentNodeIds": [
+          "3P"
+        ],
+        "comments": [
+          {
+            "text": "Instead, White took on d5 with the knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pqbbppp/p1n1p3/3NP3/2B2B2/5N2/PP2QPPP/R2R2K1 b kq - 0 3",
+        "parentNodeId": "Fc",
+        "san": "Nxd5"
+      },
+      "Tx": {
+        "adjacentNodeIds": [
+          "gE"
+        ],
+        "comments": [
+          {
+            "text": "If you're just trying to be practical, f8 seems like a cozy square for the king. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4knr/1p1Pbppp/p1n5/3p4/2B2q2/5N2/PP2QPPP/R2R2K1 w - - 1 6",
+        "parentNodeId": "T4",
+        "san": "Kf8"
+      },
+      "W": {
+        "adjacentNodeIds": [
+          "C"
+        ],
+        "comments": [
+          {
+            "text": "Black played ...Bd7, but this is too slow and already runs into e5. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k1nr/1pqbbppp/p1npp3/8/2B1PB2/2N2N2/PP2QPPP/R2R2K1 w kq - 3 2",
+        "parentNodeId": "f",
+        "san": "Bd7"
+      },
+      "bb": {
+        "adjacentNodeIds": [
+          "s0"
+        ],
+        "comments": [
+          {
+            "text": "Unfortunately, Black chose the worst option: stepping into the d-file, in front of a dangerous d-pawn.\n\nThere were two safer options: taking the dangerous d-pawn, or stepping away from the pawn and the d-file (...Kf8). ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2k2nr/1p1Pbppp/p1n5/3p4/2B2q2/5N2/PP2QPPP/R2R2K1 w - - 1 6",
+        "parentNodeId": "T4",
+        "san": "Kd8"
+      },
+      "cE": {
+        "adjacentNodeIds": [
+          "nN"
+        ],
+        "comments": [
+          {
+            "text": "White took on c6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2k3r/1p1Pbppp/p1B2n2/8/5q2/5N2/PP2QPPP/R2R2K1 b - - 0 7",
+        "parentNodeId": "CM",
+        "san": "Bxc6"
+      },
+      "ca": {
+        "adjacentNodeIds": [
+          "sU"
+        ],
+        "comments": [
+          {
+            "text": "Which White was keen to attack quickly. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c1-c6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2k3r/3Pbppp/p1p2n2/8/5q2/5N2/PP2QPPP/2RR2K1 b - - 1 8",
+        "parentNodeId": "nN",
+        "san": "Rac1"
+      },
+      "f": {
+        "adjacentNodeIds": [
+          "W",
+          "kg"
+        ],
+        "comments": [
+          {
+            "text": "White put pressure on d6. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1k1nr/1pq1bppp/p1npp3/8/2B1PB2/2N2N2/PP2QPPP/R2R2K1 b kq - 2 1",
+        "parentNodeId": "0",
+        "san": "Bf4"
+      },
+      "gE": {
+        "adjacentNodeIds": [
+          "sq"
+        ],
+        "comments": [
+          {
+            "text": "And once the bishop takes...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4knr/1p1Pbppp/p1n5/3B4/5q2/5N2/PP2QPPP/R2R2K1 b - - 0 6",
+        "parentNodeId": "Tx",
+        "san": "Bxd5"
+      },
+      "js": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But the weak c6-square. White went on to win this game easily. \n\nWhite didn't find the right sacrifice, they played Nxd5. However, Black didn't play the right defense. One must calculate well when defending, and come to the realization that a king cannot blockade a pawn in the middlegame.",
+            "arrows": {
+              "threats": [
+                "e5-c6"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2k3r/3Pbppp/p4n2/2p1N3/5q2/8/PP2QPPP/2RR2K1 b - - 1 9",
+        "parentNodeId": "sU",
+        "san": "Ne5"
+      },
+      "kg": {
+        "adjacentNodeIds": [
+          "Dp"
+        ],
+        "comments": [
+          {
+            "text": "Black should have just developed normally.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/1pq1bppp/p1nppn2/8/2B1PB2/2N2N2/PP2QPPP/R2R2K1 w kq - 3 2",
+        "parentNodeId": "f",
+        "san": "Nf6"
+      },
+      "nN": {
+        "adjacentNodeIds": [
+          "ca"
+        ],
+        "comments": [
+          {
+            "text": "The capture on c6 created a weakness...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2k3r/3Pbppp/p1p2n2/8/5q2/5N2/PP2QPPP/R2R2K1 w - - 0 8",
+        "parentNodeId": "cE",
+        "san": "bxc6"
+      },
+      "nR": {
+        "adjacentNodeIds": [
+          "QX"
+        ],
+        "comments": [
+          {
+            "text": "Ne5 would surely be played...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-c6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k1nr/4bppp/p1p5/4N3/5q2/8/PP2QPPP/R2R2K1 b - - 1 8",
+        "parentNodeId": "9z",
+        "san": "Ne5"
+      },
+      "s0": {
+        "adjacentNodeIds": [
+          "CM"
+        ],
+        "comments": [
+          {
+            "text": "The bishop took on d5. \n\nOne of the problems with ...Kd8 is that the king is stuck on that square and the king isn't a good blockader of the passed pawn, specially in a middle game. \n\nIn addition, the rook on a8 won't be able to participate. c8 is covered by the d-pawn, and b8 would be a stupid square to go to. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6",
+                "a8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2k2nr/1p1Pbppp/p1n5/3B4/5q2/5N2/PP2QPPP/R2R2K1 b - - 0 6",
+        "parentNodeId": "bb",
+        "san": "Bxd5"
+      },
+      "sU": {
+        "adjacentNodeIds": [
+          "js"
+        ],
+        "comments": [
+          {
+            "text": "The problem is not the pawn itself...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2k3r/3Pbppp/p4n2/2p5/5q2/5N2/PP2QPPP/2RR2K1 w - - 0 9",
+        "parentNodeId": "ca",
+        "san": "c5"
+      },
+      "sq": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...Rd8 blockades the pawn and Black is safe. \n\nEven though the king isn't ideally placed and the rooks aren't connected, there are still ...h5 ideas to activate the rook. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r1knr/1p1Pbppp/p1n5/3B4/5q2/5N2/PP2QPPP/R2R2K1 w - - 1 7",
+        "parentNodeId": "gE",
+        "san": "Rd8"
+      },
+      "wj": {
+        "adjacentNodeIds": [
+          "IJ"
+        ],
+        "comments": [
+          {
+            "text": "If Nxc6...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3k1nr/4bpp1/p1N5/7p/5q2/8/PP2QPPP/R2R2K1 b - - 0 9",
+        "parentNodeId": "QX",
+        "san": "Nxc6"
+      },
+      "xF": {
+        "adjacentNodeIds": [
+          "3R"
+        ],
+        "comments": [
+          {
+            "text": "It is quite dangerous. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d5-c6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5nr/1p1kbppp/p1n5/3B4/5q2/5N2/PP2QPPP/R2R2K1 b - - 0 6",
+        "parentNodeId": "Rg",
+        "san": "Bxd5"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

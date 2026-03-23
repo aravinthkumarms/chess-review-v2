@@ -1,0 +1,71 @@
+{
+  "id": "a32d499e-33de-46b5-879e-9e75cb9fdfc1",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays Qc4.\n\nWhat happens if Qa8 is played now?",
+    "answers": [
+      {
+        "text": "White has blundered; Black is winning.",
+        "feedback": {
+          "text": "Correct! Black can capture on f1, and then play ...Rc1# (or play ...Qg2# if our king doesn't recapture).",
+          "arrows": {
+            "threats": [
+              "d5-a8"
+            ],
+            "opportunities": [
+              "c4-f1",
+              "c7-c1"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "White is winning with the queen infiltration!",
+        "feedback": {
+          "text": "Black has a tactic instead.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White defends the knight and holds the game.",
+        "feedback": {
+          "text": "Black has a checkmate!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/2r1k3/p2p4/3Qb2p/4N1pP/P3PpP1/2q2P2/5RK1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d5-a8"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Qc4",
+      "afterMoveFen": "8/2r1k3/p2p4/3Qb2p/2q1N1pP/P3PpP1/5P2/5RK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

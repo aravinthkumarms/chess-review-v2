@@ -1,0 +1,43 @@
+{
+  "id": "63439d8b-75be-4af8-8beb-28cf9aaa9b9e",
+  "name": "Quiz 5 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White gives a check, blocking a check on their own king. \n\nCan you find a way to defend this, taking stalemate into account?",
+    "answers": [
+      {
+        "text": "Ka8",
+        "feedback": {
+          "text": "A great move! \n\nThe queen cannot move since it's pinned, and if Qxc7 Black doesn't have any legal moves.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "k7/2q2p2/1Q3p2/KP3P1p/P6P/8/8/8 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Is there a way to force White to play into a stalemate? Their queen is pinned and they don't have many legal moves left.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1k6/2q2p2/5p2/KP3P1p/P2Q3P/8/8/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qb6+",
+      "afterMoveFen": "1k6/2q2p2/1Q3p2/KP3P1p/P6P/8/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

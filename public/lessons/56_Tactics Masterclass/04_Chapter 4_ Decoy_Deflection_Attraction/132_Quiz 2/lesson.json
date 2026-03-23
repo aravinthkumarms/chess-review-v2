@@ -1,0 +1,43 @@
+{
+  "id": "6bad8c6e-2f58-4789-bf46-06a1eb1e8dd0",
+  "name": "Quiz 2",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black's king moves forward. \n\nDo you have a creative way of removing the defender?",
+    "answers": [
+      {
+        "text": "f5+",
+        "feedback": {
+          "text": "Great move! Now if the king takes (...Kxf5), then Bd3 is checkmate!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "1r6/8/4p1kp/2rnPPp1/2BR4/1P4P1/6P1/4R1K1 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you remove a defender of the knight on d5?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1r6/5k2/4p2p/2rnP1p1/2BR1P2/1P4P1/6P1/4R1K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kg6",
+      "afterMoveFen": "1r6/8/4p1kp/2rnP1p1/2BR1P2/1P4P1/6P1/4R1K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

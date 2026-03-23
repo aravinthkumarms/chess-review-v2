@@ -1,0 +1,43 @@
+{
+  "id": "b730cf61-8f2b-46a9-90d9-3a0a173d5f2e",
+  "name": "Quiz 4",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...Rb7.\n\nThey want to stop our e-pawn.\n\nWhat's the winning move here?",
+    "answers": [
+      {
+        "text": "Bc7",
+        "feedback": {
+          "text": "Correct! Re8+ is coming, and Black can neither capture the bishop on c7 nor the pawn on d7.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "3q2k1/1rBP1pp1/8/1p4p1/2pQ2P1/3nR2P/1P3PK1/8 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Your rook is great on the e-file. Think about how you can create a threat with it while cutting Black's circulation.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3q2k1/3P1pp1/1r6/1p2B1p1/2pQ2P1/3nR2P/1P3PK1/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rb7",
+      "afterMoveFen": "3q2k1/1r1P1pp1/8/1p2B1p1/2pQ2P1/3nR2P/1P3PK1/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

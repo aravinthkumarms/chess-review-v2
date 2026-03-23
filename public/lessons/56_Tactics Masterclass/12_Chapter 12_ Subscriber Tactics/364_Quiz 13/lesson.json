@@ -1,0 +1,57 @@
+{
+  "id": "7dc1dd16-2e8b-4786-a5fa-36ee48ae577f",
+  "name": "Quiz 13 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White centralizes the bishop. \n\nIs ...Ne7 to attack the bishop a good idea?",
+    "answers": [
+      {
+        "text": "No, it loses to a tacitc.",
+        "feedback": {
+          "text": "Exactly! Bxf7+ comes and our rook on d8 is lost on the next move.",
+          "arrows": {
+            "threats": [
+              "c6-e7"
+            ],
+            "opportunities": [
+              "d5-f7",
+              "d1-d8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "g8",
+              "d8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, we'll threaten ...c6 winning the bishop.",
+        "feedback": {
+          "text": "Does White have any captures after we move the knight?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3r2k1/ppp2p2/2n2b1p/4p1p1/1PB1P3/2P2PBP/P4PK1/3R4 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bd5",
+      "afterMoveFen": "3r2k1/ppp2p2/2n2b1p/3Bp1p1/1P2P3/2P2PBP/P4PK1/3R4 b - - 2 1"
+    }
+  },
+  "drill": null
+}

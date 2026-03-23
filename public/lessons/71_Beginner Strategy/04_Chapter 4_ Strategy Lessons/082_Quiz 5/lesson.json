@@ -1,0 +1,63 @@
+{
+  "id": "79f3863c-f3dd-45fe-92e2-046b3546ab25",
+  "name": "Quiz 5",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The position is wide open, there are no central pawns. \n\nWhat should you play, considering the position is open?",
+    "answers": [
+      {
+        "text": "Rad1",
+        "feedback": {
+          "text": "Great move!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "attacking the queen, placing the rook on the open d-file.",
+        "afterMoveFen": "r2qr1k1/ppp1bppp/2n2n2/8/8/1PN2Q2/PBP2PPP/3RRBK1 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Red1",
+        "feedback": {
+          "text": "How is it useful?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "attacking the queen, but leaving the other rook on the queenside because it's useful there.",
+        "afterMoveFen": "r2qr1k1/ppp1bppp/2n2n2/8/8/1PN2Q2/PBP2PPP/R2R1BK1 b - - 3 2"
+      },
+      {
+        "text": "Qg3",
+        "feedback": {
+          "text": "The queen can't attack by itself.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "staying opposite the king, putting pressure on the kingside.",
+        "afterMoveFen": "r2qr1k1/ppp1bppp/2n2n2/8/8/1PN3Q1/PBP2PPP/R3RBK1 b - - 3 2"
+      },
+      {
+        "text": "a4",
+        "feedback": {
+          "text": "The queenside isn't relevant right now.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "expanding on the queenside.",
+        "afterMoveFen": "r2qr1k1/ppp1bppp/2n2n2/8/P7/1PN2Q2/1BP2PPP/R3RBK1 b - a3 0 2"
+      }
+    ],
+    "positionFen": "r2q1rk1/ppp1bppp/2n2n2/8/8/1PN2Q2/PBP2PPP/R3RBK1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Re8",
+      "afterMoveFen": "r2qr1k1/ppp1bppp/2n2n2/8/8/1PN2Q2/PBP2PPP/R3RBK1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

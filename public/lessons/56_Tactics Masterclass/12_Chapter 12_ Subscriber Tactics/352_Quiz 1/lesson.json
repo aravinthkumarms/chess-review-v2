@@ -1,0 +1,71 @@
+{
+  "id": "841f9164-5480-48b5-b286-168cac01bfa7",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...a5.\n\nImproving your pieces is always a good thing.\n\nIs Ne5, centralizing the knight, a good move here?",
+    "answers": [
+      {
+        "text": "No, because Black has a tactic that wins one of our major pieces.",
+        "feedback": {
+          "text": "Correct! Black is threatening ...Bb4, a skewer that attacks our queen and our rook.",
+          "arrows": {
+            "threats": [
+              "f3-e5"
+            ],
+            "opportunities": [
+              "e7-b4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c3",
+              "e1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, because Black can trade bishops on g2, which we don't want.",
+        "feedback": {
+          "text": "There's a tactic Black has instead!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, because we improve the position of the knight and offer a bishop trade.",
+        "feedback": {
+          "text": "Black has a tactic that wins material for them, however!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rn1qk2r/p1ppb1pp/1p2p3/5p2/2PPb3/2Q2NP1/PP2PPBP/R1B1R1K1 b kq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f3-e5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "a5",
+      "afterMoveFen": "rn1qk2r/2ppb1pp/1p2p3/p4p2/2PPb3/2Q2NP1/PP2PPBP/R1B1R1K1 w kq a6 0 2"
+    }
+  },
+  "drill": null
+}

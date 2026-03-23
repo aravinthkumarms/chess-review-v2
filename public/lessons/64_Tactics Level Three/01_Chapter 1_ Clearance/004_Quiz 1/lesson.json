@@ -1,0 +1,72 @@
+{
+  "id": "635451d8-d558-4467-8d03-4351d47a255d",
+  "name": "Quiz 1 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "You have the black pieces, and White has a strong battery on the diagonal. \n\nCan you take a pawn with ...Nxf4?",
+    "answers": [
+      {
+        "text": "Yes! It's a free pawn with a tempo.",
+        "feedback": {
+          "text": "The key is that White does not have a strong clearance sacrifice because your king is on h8. Nf6+ is not possible.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d5-f4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f4",
+              "d3",
+              "d1"
+            ],
+            "opportunities": [
+              "h8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, because White can play a clearance check and give checkmate on h7.",
+        "feedback": {
+          "text": "The king is on h8! It's safe!",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "h8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3r1r1k/pp2bpp1/1qp1p2p/3n4/1P2NP2/P4Q1P/5PP1/1BRR2K1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d5-f4"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "f4"
+      ]
+    },
+    "contextMove": {
+      "san": "Qd3",
+      "afterMoveFen": "3r1r1k/pp2bpp1/1qp1p2p/3n4/1P2NP2/P2Q3P/5PP1/1BRR2K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

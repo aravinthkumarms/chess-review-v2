@@ -1,0 +1,90 @@
+{
+  "id": "44e0da77-c545-4d21-b7ff-fb750da0e668",
+  "name": "Quiz 2",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black stops the h-pawn. What's the correct move now?",
+    "answers": [
+      {
+        "text": "Kg6",
+        "feedback": {
+          "text": "Excellent!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g6-f5",
+              "g4-h4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "recreating the threat of h5.",
+        "afterMoveFen": "8/8/6K1/ppp5/6kP/1P6/1P6/8 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kf6",
+        "feedback": {
+          "text": "Remember, the c-pawn will block your king!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "going to the queenside.",
+        "afterMoveFen": "8/8/5K2/ppp5/6kP/1P6/1P6/8 b - - 3 2"
+      },
+      {
+        "text": "h5",
+        "feedback": {
+          "text": "We need to get our king closer!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "sacrificing the pawn.",
+        "afterMoveFen": "8/6K1/8/ppp4P/6k1/1P6/1P6/8 b - - 0 2"
+      },
+      {
+        "text": "Kf7",
+        "feedback": {
+          "text": "You can get closer!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "going for the queenside.",
+        "afterMoveFen": "8/5K2/8/ppp5/6kP/1P6/1P6/8 b - - 3 2"
+      }
+    ],
+    "positionFen": "8/6K1/8/ppp2k2/7P/1P6/1P6/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kg4",
+      "afterMoveFen": "8/6K1/8/ppp5/6kP/1P6/1P6/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,51 @@
+{
+  "id": "6998ad00-a0fe-404d-a1ec-6be556050673",
+  "name": "Quiz 2 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White tries to get closer to defend. \n\nWhat should you play as Black?",
+    "answers": [
+      {
+        "text": "Kg4",
+        "feedback": {
+          "text": "The best move! Your king will support the pawn forward!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f6-f5",
+              "f5-f4",
+              "g4-g3",
+              "f4-f3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/5p2/8/6k1/4K3/8/8 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Can you go up the board to support your pawn?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/5p2/6k1/8/8/3K4/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke3",
+      "afterMoveFen": "8/8/5p2/6k1/8/4K3/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

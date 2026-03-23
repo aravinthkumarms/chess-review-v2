@@ -1,0 +1,80 @@
+{
+  "id": "3e8aa935-06f6-4251-a735-d63177b7ce6e",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "In this endgame, White is an exchange up. \n\nBut many times you can hold this if you play a good defense. \n\nIt's Black to move. How do you evaluate the move ...f5?",
+    "answers": [
+      {
+        "text": "It's a bad move.",
+        "feedback": {
+          "text": "In short, ...f5 attacks the rook but it's only a one move threat. The rook can go to h4 and after that, the pawns are too far ahead and the king is exposed.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f7-f5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It's a strong move, attacking the rook.",
+        "feedback": {
+          "text": "After ...f5 and Rh4, what's the follow-up?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f7-f5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It's equal; White cannot win this.",
+        "feedback": {
+          "text": "Even though it isn't easy for White to pull this off, if you play bad moves like ...f5 you create weaknesses.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4r3/3Rnp2/4k3/4p3/6R1/6P1/5P2/6K1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f7-f5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Ra7",
+      "afterMoveFen": "4r3/R3np2/4k3/4p3/6R1/6P1/5P2/6K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

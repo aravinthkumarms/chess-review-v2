@@ -1,0 +1,63 @@
+{
+  "id": "d78306b7-6e4b-4fba-b0bb-c6fa6de6c9b6",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black develops their knight, putting some pressure on e4. \n\nWhat's the best move to target a weakness?",
+    "answers": [
+      {
+        "text": "Qb3",
+        "feedback": {
+          "text": "Great! This move attacks b7 and f7.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "forming a bishop and queen battery.",
+        "afterMoveFen": "rn1qkb1r/ppp2ppp/5n2/4p3/2B1P3/1Q6/PPP2PPP/RNB1K2R b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Bg5",
+        "feedback": {
+          "text": "Are there pawn weaknesses you could attack? ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "pinning the knight.",
+        "afterMoveFen": "rn1qkb1r/ppp2ppp/5n2/4p1B1/2B1P3/5Q2/PPP2PPP/RN2K2R b - - 3 2"
+      },
+      {
+        "text": "O-O",
+        "feedback": {
+          "text": "There's something else you could attack. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "getting ready to play Rd1, attacking the queen. ",
+        "afterMoveFen": "rn1qkb1r/ppp2ppp/5n2/4p3/2B1P3/5Q2/PPP2PPP/RNB2RK1 b - - 3 2"
+      },
+      {
+        "text": "Nc3",
+        "feedback": {
+          "text": "Does this attack any weakness? ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "developing a piece.",
+        "afterMoveFen": "rn1qkb1r/ppp2ppp/5n2/4p3/2B1P3/2N2Q2/PPP2PPP/R1B1K2R b K - 3 2"
+      }
+    ],
+    "positionFen": "rn1qkbnr/ppp2ppp/8/4p3/2B1P3/5Q2/PPP2PPP/RNB1K2R b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nf6",
+      "afterMoveFen": "rn1qkb1r/ppp2ppp/5n2/4p3/2B1P3/5Q2/PPP2PPP/RNB1K2R w K - 2 2"
+    }
+  },
+  "drill": null
+}

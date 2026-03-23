@@ -1,0 +1,56 @@
+{
+  "id": "653ba566-8687-4ac1-aa29-fee372804c44",
+  "name": "Quiz 8",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has a dangerous passed g-pawn. \n\nWhich move ensures the draw?",
+    "answers": [
+      {
+        "text": "Qd3+",
+        "feedback": {
+          "text": "Great one! White must recapture, and the b5-square will be covered by their queen, so it is a stalemate!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "b5"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/6P1/p4K2/k7/P1Qq4/8/8 w - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can we force White to cover the b5-square, so a stalemate will be on the board?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3q4/8/8/p4KP1/k7/P1Q5/8/8 w - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "g6"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "g6",
+      "afterMoveFen": "3q4/8/6P1/p4K2/k7/P1Q5/8/8 b - - 0 1"
+    }
+  },
+  "drill": null
+}

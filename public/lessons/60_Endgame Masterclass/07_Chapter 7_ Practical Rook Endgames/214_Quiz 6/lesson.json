@@ -1,0 +1,60 @@
+{
+  "id": "d55d69dc-701e-4ca5-bb40-cae93856766a",
+  "name": "Quiz 6 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White gives a check on a2. Their idea is to keep checking our king since our e-pawn is dangerously close to promotion.\n\nShould we take the draw or continue fighting by running the king to d4/e4?",
+    "answers": [
+      {
+        "text": "We should take the draw. Running the king will allow White to stop the e-pawn.",
+        "feedback": {
+          "text": "That's right, we have to keep in mind that  White has some dangerous pawns on their own!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "c4",
+              "a6"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "We should continue fighting. White will have a hard time stopping the e-pawn.",
+        "feedback": {
+          "text": "If our king gets too far away, White simply puts their king on f2. Their pawns are stronger in the endgame.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g2-f2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/r6p/P7/4p3/2P5/R5P1/3kp1KP/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ra2+",
+      "afterMoveFen": "8/r6p/P7/4p3/2P5/6P1/R2kp1KP/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

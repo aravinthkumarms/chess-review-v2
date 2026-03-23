@@ -1,0 +1,469 @@
+{
+  "id": "ec88796a-9cf7-4977-a029-292ad2723b47",
+  "name": "Study 1: Declining a Sacrifice for King Safety",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "s"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to Chapter 3! This was yet another game sent by a subscriber.\n\nWhite has a potential dangerous attack, and it would be wise to counterattack on the queenside (with moves like ...a4)\n\nSometimes, as you'll see in this study, you have to decline a sacrifice because accepting it can be too dangerous. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h4-h5",
+                "a5-a4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h1",
+                "h4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/4ppbp/bp1p1np1/p1pPn1B1/2P1P2P/1PN5/P2QBPP1/2KRN2R b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "2p": {
+        "adjacentNodeIds": [
+          "vd"
+        ],
+        "comments": [
+          {
+            "text": "White would've played this in-between move...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4ppbP/1p1p1n2/p1pP2B1/2P1P3/1PN5/P2QBnP1/2KRN2R b - - 0 4",
+        "parentNodeId": "A7",
+        "san": "gxh7+"
+      },
+      "3E": {
+        "adjacentNodeIds": [
+          "c9"
+        ],
+        "comments": [
+          {
+            "text": "White took on h6...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4p1b1/1p1p1npB/p1pP4/2P1P1n1/1PNN4/P2QBPP1/2KR3R b - - 0 5",
+        "parentNodeId": "WQ",
+        "san": "Bxh6"
+      },
+      "6": {
+        "adjacentNodeIds": [
+          "m"
+        ],
+        "comments": [
+          {
+            "text": "White pushed the h-pawn, trying to get an open h-file. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-g6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4ppbp/1p1p1np1/p1pPn1BP/2P1P3/1PN5/P2QBPP1/2KRN2R b - - 0 2",
+        "parentNodeId": "s",
+        "san": "h5"
+      },
+      "8u": {
+        "adjacentNodeIds": [
+          "DK"
+        ],
+        "comments": [
+          {
+            "text": "White would've now kept the rook on the board...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1r1k/4ppbP/1p1p1n2/p1pP2B1/2P1P2R/1PN5/P2QBnP1/2KRN3 b - - 2 5",
+        "parentNodeId": "vd",
+        "san": "Rh4"
+      },
+      "A7": {
+        "adjacentNodeIds": [
+          "2p"
+        ],
+        "comments": [
+          {
+            "text": "Black could have taken this pawn. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h1",
+                "d1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4ppbp/1p1p1nP1/p1pP2B1/2P1P3/1PN5/P2QBnP1/2KRN2R w - - 0 4",
+        "parentNodeId": "t5",
+        "san": "Nxf2"
+      },
+      "DK": {
+        "adjacentNodeIds": [
+          "xl"
+        ],
+        "comments": [
+          {
+            "text": "And after Black takes the exchange...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1r1k/4ppbP/1p1p1n2/p1pP2B1/2P1P2R/1PN5/P2QB1P1/2KnN3 w - - 0 6",
+        "parentNodeId": "8u",
+        "san": "Nxd1"
+      },
+      "Lc": {
+        "adjacentNodeIds": [
+          "aT"
+        ],
+        "comments": [
+          {
+            "text": "White took with the rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4p3/1p1p1npR/p1pP4/2P1P1n1/1PNN4/P2QBPP1/2KR4 b - - 0 6",
+        "parentNodeId": "c9",
+        "san": "Rxh6"
+      },
+      "R8": {
+        "adjacentNodeIds": [
+          "fL"
+        ],
+        "comments": [
+          {
+            "text": "And White captured on h6, attacking g6, and the game is completely lost for Black. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4p3/1p1p1npQ/p1pP4/2P1P3/1PNN4/P3BPP1/2KR4 b - - 0 7",
+        "parentNodeId": "aT",
+        "san": "Qxh6"
+      },
+      "Tb": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "In the game, Black managed to defend this position and emerged material up into a winning endgame. \n\nThe point, however, is that Black made the right choice with 3...fxg6, not accepting the sacrifice on f2 and the exchange afterwards. \n\nWe should decline sacrifices if it means our king will be safer for it. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2qr1/4pk2/1p1p1npQ/p1pP4/2P1PN2/1PN5/P3BPP1/2K4R w - - 5 10",
+        "parentNodeId": "mS",
+        "san": "Qf8"
+      },
+      "V8": {
+        "adjacentNodeIds": [
+          "mS"
+        ],
+        "comments": [
+          {
+            "text": "And Black defended. \n\nIn order to win, White needed to play Ne6. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-e6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq2r1/4pk2/1p1p1npQ/p1pP4/2P1PN2/1PN5/P3BPP1/2KR4 w - - 3 9",
+        "parentNodeId": "f2",
+        "san": "Rg8"
+      },
+      "WQ": {
+        "adjacentNodeIds": [
+          "3E"
+        ],
+        "comments": [
+          {
+            "text": "And Black walked right into a blunder: ...h6 allows an exchange sacrifice⁠—White giving up a rook for a minor piece.\n\nWe are presented with the same problems as in the 3...Nxf2 variation, but it's even worse now because the rooks are connected and White even gets to take a kingside pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d1",
+                "h1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4p1b1/1p1p1npp/p1pP2B1/2P1P1n1/1PNN4/P2QBPP1/2KR3R w - - 0 5",
+        "parentNodeId": "qC",
+        "san": "h6"
+      },
+      "aT": {
+        "adjacentNodeIds": [
+          "R8"
+        ],
+        "comments": [
+          {
+            "text": "The knight took...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4p3/1p1p1npn/p1pP4/2P1P3/1PNN4/P2QBPP1/2KR4 w - - 0 7",
+        "parentNodeId": "Lc",
+        "san": "Nxh6"
+      },
+      "bA": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "For example, how could the queen on d8 ever help out on the kingside? \n\nThe rook on f8 or the one on a8? \n\nWhat about the bishop on c8? \n\nThese pieces are not able to go to the kingside and so defending against the sacrifice in this game would've been a hard task! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d8",
+                "f8",
+                "c8",
+                "a8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1r1k/3nppbP/1p1p4/p1pP2B1/2P1P2R/1PN5/P2Q2P1/2KBN3 w - - 1 7",
+        "parentNodeId": "xl",
+        "san": "Nd7"
+      },
+      "c9": {
+        "adjacentNodeIds": [
+          "Lc"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4p3/1p1p1npb/p1pP4/2P1P1n1/1PNN4/P2QBPP1/2KR3R w - - 0 6",
+        "parentNodeId": "3E",
+        "san": "Bxh6"
+      },
+      "e5": {
+        "adjacentNodeIds": [
+          "qC"
+        ],
+        "comments": [
+          {
+            "text": "Black declined the sacrifice, and just recaptured the pawn. \n\nAs you can see from 3...Nxf2, defending gxh7+ would have been complicated.\n\nWe should strive to play practical chess, instead of accepting sacrifices and trying to defend like computers afterwards. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4p1bp/1p1p1np1/p1pP2B1/2P1P1n1/1PN5/P2QBPP1/2KRN2R w - - 0 4",
+        "parentNodeId": "t5",
+        "san": "fxg6"
+      },
+      "f2": {
+        "adjacentNodeIds": [
+          "V8"
+        ],
+        "comments": [
+          {
+            "text": "White put pressure on g6...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1r2/4pk2/1p1p1npQ/p1pP4/2P1PN2/1PN5/P3BPP1/2KR4 b - - 2 8",
+        "parentNodeId": "fL",
+        "san": "Nf4"
+      },
+      "fL": {
+        "adjacentNodeIds": [
+          "f2"
+        ],
+        "comments": [
+          {
+            "text": "Black started trying to escape with the king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1r2/4pk2/1p1p1npQ/p1pP4/2P1P3/1PNN4/P3BPP1/2KR4 w - - 1 8",
+        "parentNodeId": "R8",
+        "san": "Kf7"
+      },
+      "m": {
+        "adjacentNodeIds": [
+          "t5"
+        ],
+        "comments": [
+          {
+            "text": "And Black took their knight to g4, attacking f2. \n\nNot only is the f2-pawn under fire, but if the knight lands on f2, it will be a fork on White's both rooks.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-f2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f2",
+                "h1",
+                "d1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4ppbp/1p1p1np1/p1pP2BP/2P1P1n1/1PN5/P2QBPP1/2KRN2R w - - 1 3",
+        "parentNodeId": "6",
+        "san": "Neg4"
+      },
+      "mS": {
+        "adjacentNodeIds": [
+          "Tb"
+        ],
+        "comments": [
+          {
+            "text": "But White went Rh1, which wasn't the strongest way to convert.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq2r1/4pk2/1p1p1npQ/p1pP4/2P1PN2/1PN5/P3BPP1/2K4R b - - 4 9",
+        "parentNodeId": "V8",
+        "san": "Rh1"
+      },
+      "qC": {
+        "adjacentNodeIds": [
+          "WQ"
+        ],
+        "comments": [
+          {
+            "text": "White played their knight to d3, defending f2. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4p1bp/1p1p1np1/p1pP2B1/2P1P1n1/1PNN4/P2QBPP1/2KR3R b - - 1 4",
+        "parentNodeId": "e5",
+        "san": "Nd3"
+      },
+      "s": {
+        "adjacentNodeIds": [
+          "6"
+        ],
+        "comments": [
+          {
+            "text": "But Black went passive, and instead went for a more defensive approach. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4ppbp/1p1p1np1/p1pPn1B1/2P1P2P/1PN5/P2QBPP1/2KRN2R w - - 2 2",
+        "parentNodeId": "0",
+        "san": "Bc8"
+      },
+      "t5": {
+        "adjacentNodeIds": [
+          "e5",
+          "A7"
+        ],
+        "comments": [
+          {
+            "text": "But White ignored the attack, and played hxg6, giving up the f2-pawn and the exchange with it because the pawn comes with a fork! \n\nBlack, however, did not accept the sacrifice. This was wise, because of ...gxh7+.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/4ppbp/1p1p1nP1/p1pP2B1/2P1P1n1/1PN5/P2QBPP1/2KRN2R b - - 0 3",
+        "parentNodeId": "m",
+        "san": "hxg6"
+      },
+      "vd": {
+        "adjacentNodeIds": [
+          "8u"
+        ],
+        "comments": [
+          {
+            "text": "And the best move for Black here would've been to hide the king behind the pawn, because ...Nxh7 would be a pin on the knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1r1k/4ppbP/1p1p1n2/p1pP2B1/2P1P3/1PN5/P2QBnP1/2KRN2R w - - 1 5",
+        "parentNodeId": "2p",
+        "san": "Kh8"
+      },
+      "xl": {
+        "adjacentNodeIds": [
+          "bA"
+        ],
+        "comments": [
+          {
+            "text": "White would've recaptured, and it's not so easy to defend the kingside. \n\nIf you remember Chapter 2, Study 5, White defended the king by bringing in pieces to their kingside. \n\nBut because of the locked pawns, and White's kingside piece control, it's very difficult to bring defenders to the kingside here! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1r1k/4ppbP/1p1p1n2/p1pP2B1/2P1P2R/1PN5/P2Q2P1/2KBN3 b - - 0 6",
+        "parentNodeId": "DK",
+        "san": "Bxd1"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

@@ -1,0 +1,619 @@
+{
+  "id": "61bde839-0d7a-46c0-9884-928483c57f4e",
+  "name": "Study 4: An Unusual Greek Gift",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "h"
+        ],
+        "comments": [
+          {
+            "text": "For this last study, I wanted to show you an unusual Greek Gift. I played this game online against IM Lennis Martinez from Cuba. His rating is 2647.\n\nThe Greek Gift features a trapped piece motif as well. \n\nSometimes you can modify known tactics so that they work in your own games!",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/78435049303",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qkb1r/pp1n1pp1/2p1bn1p/3p4/3P3B/2NBP3/PPQ2PPP/R3K1NR b KQkq - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0P": {
+        "adjacentNodeIds": [
+          "mx"
+        ],
+        "comments": [
+          {
+            "text": "I just give a check with the knight on g4 and White had to move to g3.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1pp1/2p1b2p/3p4/3P2nB/2NBP3/PPQ1NPPK/R4R2 w - - 1 5",
+        "parentNodeId": "fW",
+        "san": "Ng4+"
+      },
+      "6R": {
+        "adjacentNodeIds": [
+          "kd"
+        ],
+        "comments": [
+          {
+            "text": "In fact, capturing the bishop on f5 would lead to a checkmate in two!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp1n1pq1/2p4p/3p1B2/3P2nR/2N1PK2/PPQ1N1P1/R7 b - - 0 11",
+        "parentNodeId": "Lv",
+        "san": "Bxf5"
+      },
+      "Ju": {
+        "adjacentNodeIds": [
+          "SE"
+        ],
+        "comments": [
+          {
+            "text": "So I did.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp1n1pq1/2p1b2p/3p4/3P1PnR/2NBPK2/PPQ1N1P1/R7 w - - 3 10",
+        "parentNodeId": "h3",
+        "san": "Rae8"
+      },
+      "K2": {
+        "adjacentNodeIds": [
+          "h3"
+        ],
+        "comments": [
+          {
+            "text": "The queen had to stay on the g-file so that the threats with a discovered attack remain.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g3"
+              ],
+              "opportunities": [
+                "g4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp1n1pq1/2p1b2p/3p4/3P1PnR/2NBP1K1/PPQ1N1P1/R7 w - - 1 9",
+        "parentNodeId": "xd",
+        "san": "Qg7"
+      },
+      "L5": {
+        "adjacentNodeIds": [
+          "fW"
+        ],
+        "comments": [
+          {
+            "text": "I sacrificed my bishop on h2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1pp1/2p1bn1p/3p4/3P3B/2NBP3/PPQ1NPPb/R4RK1 w - - 0 4",
+        "parentNodeId": "iy",
+        "san": "Bxh2+"
+      },
+      "LS": {
+        "adjacentNodeIds": [
+          "yz"
+        ],
+        "comments": [
+          {
+            "text": "If the knight is captured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1p2/2p1b2p/3p4/3P3R/2NBP1K1/PPQ1N1P1/R7 b - - 0 8",
+        "parentNodeId": "Le",
+        "san": "fxe3"
+      },
+      "Le": {
+        "adjacentNodeIds": [
+          "LS"
+        ],
+        "comments": [
+          {
+            "text": "The correct move here was to sacrifice the knight on e3!\n\nThe queen is under attack.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1p2/2p1b2p/3p4/3P3R/2NBn1K1/PPQ1NPP1/R7 w - - 0 8",
+        "parentNodeId": "T0",
+        "san": "Nxe3"
+      },
+      "Lp": {
+        "adjacentNodeIds": [
+          "xd",
+          "ZG"
+        ],
+        "comments": [
+          {
+            "text": "In the game, I played ...Qg5, which was a mistake!\n\nDo you see a good defensive resource for White?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp1n1p2/2p1b2p/3p2q1/3P2nR/2NBP1K1/PPQ1NPP1/R7 w - - 1 8",
+        "parentNodeId": "T0",
+        "san": "Qg5"
+      },
+      "Lv": {
+        "adjacentNodeIds": [
+          "f7",
+          "6R"
+        ],
+        "comments": [
+          {
+            "text": "I captured on f5, completely giving my bishop away but attacking the e3-pawn, which was more important.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e8-e3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f5",
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp1n1pq1/2p4p/3p1b2/3P2nR/2NBPK2/PPQ1N1P1/R7 w - - 0 11",
+        "parentNodeId": "SE",
+        "san": "Bxf5"
+      },
+      "Ox": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And that's checkmate.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5rk1/pp1n1p2/2p4p/3p1Bq1/3P1KnR/2N1r3/PPQ1N1P1/R7 w - - 2 13",
+        "parentNodeId": "ZX",
+        "san": "Qg5#"
+      },
+      "SE": {
+        "adjacentNodeIds": [
+          "Lv"
+        ],
+        "comments": [
+          {
+            "text": "And this is where White made a fatal mistake.\n\nMy whole plan was to somehow move the bishop away and threaten the e3-pawn.\n\nWhich is exactly what they offered!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp1n1pq1/2p1b2p/3p1P2/3P2nR/2NBPK2/PPQ1N1P1/R7 b - - 0 10",
+        "parentNodeId": "Ju",
+        "san": "f5"
+      },
+      "T0": {
+        "adjacentNodeIds": [
+          "Lp",
+          "Le"
+        ],
+        "comments": [
+          {
+            "text": "And they took back.\n\nNow I was winning, but I had to find the correct move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1p2/2p1b2p/3p4/3P2nR/2NBP1K1/PPQ1NPP1/R7 b - - 0 7",
+        "parentNodeId": "kz",
+        "san": "Rxh4"
+      },
+      "Yk": {
+        "adjacentNodeIds": [
+          "gt"
+        ],
+        "comments": [
+          {
+            "text": "However, White is suddenly completely safe after Kh2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp1n1p2/2p1b2p/3p4/3P2q1/2NBP1K1/PPQ1NPP1/R7 w - - 0 9",
+        "parentNodeId": "ZG",
+        "san": "Qxg4+"
+      },
+      "ZG": {
+        "adjacentNodeIds": [
+          "Yk"
+        ],
+        "comments": [
+          {
+            "text": "White should have actually captured on g4!\n\nThis move does give me the exchange.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp1n1p2/2p1b2p/3p2q1/3P2R1/2NBP1K1/PPQ1NPP1/R7 b - - 0 8",
+        "parentNodeId": "Lp",
+        "san": "Rxg4"
+      },
+      "ZX": {
+        "adjacentNodeIds": [
+          "Ox"
+        ],
+        "comments": [
+          {
+            "text": "White's only move is Kf4 here.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/pp1n1pq1/2p4p/3p1B2/3P1KnR/2N1r3/PPQ1N1P1/R7 b - - 1 12",
+        "parentNodeId": "kd",
+        "san": "Kf4"
+      },
+      "f7": {
+        "adjacentNodeIds": [
+          "mZ"
+        ],
+        "comments": [
+          {
+            "text": "Realizing how strong the threat was, White played Nd1 here, protecting the e3-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp1n1pq1/2p4p/3p1b2/3P2nR/3BPK2/PPQ1N1P1/R2N4 b - - 1 11",
+        "parentNodeId": "Lv",
+        "san": "Nd1"
+      },
+      "fW": {
+        "adjacentNodeIds": [
+          "0P"
+        ],
+        "comments": [
+          {
+            "text": "White captured, and you may ask what's different in this Greek Gift than in the most other ones?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1pp1/2p1bn1p/3p4/3P3B/2NBP3/PPQ1NPPK/R4R2 b - - 0 4",
+        "parentNodeId": "L5",
+        "san": "Kxh2"
+      },
+      "gt": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "I would be up an exchange here, but my king would be out in the open.\n\nActually, this position is equal according to the computer.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp1n1p2/2p1b2p/3p4/3P2q1/2NBP3/PPQ1NPPK/R7 b - - 1 9",
+        "parentNodeId": "Yk",
+        "san": "Kh2"
+      },
+      "h": {
+        "adjacentNodeIds": [
+          "l"
+        ],
+        "comments": [
+          {
+            "text": "In this position, I played ...Bd6 and already put pressure on the h2-pawn.\n\nIf White castles, there will be some Greek Gift opportunities.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2qk2r/pp1n1pp1/2pbbn1p/3p4/3P3B/2NBP3/PPQ2PPP/R3K1NR w KQkq - 2 2",
+        "parentNodeId": "0",
+        "san": "Bd6"
+      },
+      "h3": {
+        "adjacentNodeIds": [
+          "Ju"
+        ],
+        "comments": [
+          {
+            "text": "White played Kf3, and it was important to find a way to continue the attack now.\n\nAnd I realized that the pawn on e3 was a huge weakness that I could go after.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp1n1pq1/2p1b2p/3p4/3P1PnR/2NBPK2/PPQ1N1P1/R7 b - - 2 9",
+        "parentNodeId": "K2",
+        "san": "Kf3"
+      },
+      "iy": {
+        "adjacentNodeIds": [
+          "L5"
+        ],
+        "comments": [
+          {
+            "text": "And so did my opponent.\n\nThis meant only one thing; A Greek Gift was in the cards!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1pp1/2pbbn1p/3p4/3P3B/2NBP3/PPQ1NPPP/R4RK1 b - - 5 3",
+        "parentNodeId": "r",
+        "san": "O-O"
+      },
+      "kd": {
+        "adjacentNodeIds": [
+          "ZX"
+        ],
+        "comments": [
+          {
+            "text": "After ...Rxe3, for starters.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5rk1/pp1n1pq1/2p4p/3p1B2/3P2nR/2N1rK2/PPQ1N1P1/R7 w - - 0 12",
+        "parentNodeId": "6R",
+        "san": "Rxe3+"
+      },
+      "ke": {
+        "adjacentNodeIds": [
+          "w1"
+        ],
+        "comments": [
+          {
+            "text": "And that's ...g5 to trap the bishop on h4.\n\nWhite couldn't save it now and I was going to get my piece back!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1p2/2p1b2p/3p2p1/3P2nB/2NBP1K1/PPQ1NPP1/R4R2 w - g6 0 6",
+        "parentNodeId": "mx",
+        "san": "g5"
+      },
+      "kz": {
+        "adjacentNodeIds": [
+          "T0"
+        ],
+        "comments": [
+          {
+            "text": "I captured on h4...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1p2/2p1b2p/3p4/3P2np/2NBP1K1/PPQ1NPP1/R6R w - - 0 7",
+        "parentNodeId": "w1",
+        "san": "gxh4+"
+      },
+      "l": {
+        "adjacentNodeIds": [
+          "r"
+        ],
+        "comments": [
+          {
+            "text": "And White did play according to my plan.\n\nInstead of Nf3 which defends h2 he played Nge2, activating the knight to e2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qk2r/pp1n1pp1/2pbbn1p/3p4/3P3B/2NBP3/PPQ1NPPP/R3K2R b KQkq - 3 2",
+        "parentNodeId": "h",
+        "san": "Nge2"
+      },
+      "mZ": {
+        "adjacentNodeIds": [
+          "r0"
+        ],
+        "comments": [
+          {
+            "text": "I saw a forced combination now.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp1n1pq1/2p4p/3p4/3P2nR/3bPK2/PPQ1N1P1/R2N4 w - - 0 12",
+        "parentNodeId": "f7",
+        "san": "Bxd3"
+      },
+      "mx": {
+        "adjacentNodeIds": [
+          "ke"
+        ],
+        "comments": [
+          {
+            "text": "Which he did.\n\nBut the difference is, there was a bishop on h4!\n\nThat bishop was defended now, which meant I only had one move to continue the game.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1pp1/2p1b2p/3p4/3P2nB/2NBP1K1/PPQ1NPP1/R4R2 b - - 2 5",
+        "parentNodeId": "0P",
+        "san": "Kg3"
+      },
+      "r": {
+        "adjacentNodeIds": [
+          "iy"
+        ],
+        "comments": [
+          {
+            "text": "I castled...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1pp1/2pbbn1p/3p4/3P3B/2NBP3/PPQ1NPPP/R3K2R w KQ - 4 3",
+        "parentNodeId": "l",
+        "san": "O-O"
+      },
+      "r0": {
+        "adjacentNodeIds": [
+          "zU"
+        ],
+        "comments": [
+          {
+            "text": "White recaptured.\n\nDo you see a move that wins on the spot?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp1n1pq1/2p4p/3p4/3P2nR/3QPK2/PP2N1P1/R2N4 b - - 0 12",
+        "parentNodeId": "mZ",
+        "san": "Qxd3"
+      },
+      "w1": {
+        "adjacentNodeIds": [
+          "kz"
+        ],
+        "comments": [
+          {
+            "text": "Here, White should have probably gone for Bf5 to try and trade as many pieces as possible and neutralize my attack.\n\nHowever, they opted to place a rook on the h-file.",
+            "arrows": {
+              "threats": [
+                "d3-f5"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/pp1n1p2/2p1b2p/3p2p1/3P2nB/2NBP1K1/PPQ1NPP1/R6R b - - 1 6",
+        "parentNodeId": "ke",
+        "san": "Rh1"
+      },
+      "xd": {
+        "adjacentNodeIds": [
+          "K2"
+        ],
+        "comments": [
+          {
+            "text": "In the game, Martinez played f4 and attacked my queen.\n\nLuckily, I still had a square left for it.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp1n1p2/2p1b2p/3p2q1/3P1PnR/2NBP1K1/PPQ1N1P1/R7 b - f3 0 8",
+        "parentNodeId": "Lp",
+        "san": "f4"
+      },
+      "yz": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Now I've got ...Qg5+, and White is going to lose the rook on h4.\n\nWherever the king goes, the next move is ...Qxh4.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-h4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g3",
+                "h4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp1n1p2/2p1b2p/3p2q1/3P3R/2NBP1K1/PPQ1N1P1/R7 w - - 1 9",
+        "parentNodeId": "LS",
+        "san": "Qg5+"
+      },
+      "zU": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "It's any of the knights to the center, forking the king and the queen!\n\nIf the first knight is captured, the second one takes its place right away with the same fork.\n\nRealizing he would lose the queen, my opponent resigned here.\n\nA successful unusual Greek Gift!",
+            "arrows": {
+              "threats": [
+                "d4-e5"
+              ],
+              "opportunities": [
+                "g4-e5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f3",
+                "d3"
+              ],
+              "opportunities": [
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4rrk1/pp3pq1/2p4p/3pn3/3P2nR/3QPK2/PP2N1P1/R2N4 w - - 1 13",
+        "parentNodeId": "r0",
+        "san": "Nde5+"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

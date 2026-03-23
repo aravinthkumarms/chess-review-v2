@@ -1,0 +1,84 @@
+{
+  "id": "0d37e4e5-5a86-4580-bf28-44a1287f37cf",
+  "name": "Quiz 23",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White offers a queen trade.\n\nCan Black trade the queens and why or why not? What’s the evaluation?",
+    "answers": [
+      {
+        "text": "Black can trade. The position is a draw because Black's queenside pawns can quickly advance.",
+        "feedback": {
+          "text": "Excellent! After the queen trade, Black can advance the b-pawn and use the king to monitor White's pawns.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b7-b5",
+              "b5-b4",
+              "a2-f2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f2"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Black can't trade. White's pawns are simply way too dangerous.",
+        "feedback": {
+          "text": "That's not quite right. You should try to assess the queen trade once more.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Black can't trade. The position is only a draw because Black can keep checking the white king.",
+        "feedback": {
+          "text": "Your evaluation is correct & Black can go for a perpetual, but you ought to assess the queen trade once more.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "a2-d5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/1p6/2pk1P2/5QP1/p7/P7/q5K1/8 w - - 1 1",
+    "arrows": {
+      "threats": [
+        "a2-f2"
+      ],
+      "opportunities": []
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Qf2",
+      "afterMoveFen": "8/1p6/2pk1P2/6P1/p7/P7/q4QK1/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,73 @@
+{
+  "id": "7eacc162-5d12-4a62-9c7d-eef5d66d0bef",
+  "name": "Quiz: Find Checkmate",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The position on the kingside is open. In practical games, you'll have positions like this. Checkmate will be nearly there, but not quite. \n\nYou have to find the right moves to set up checkmate.\n\nYou have to make sure the king doesn't escape. If you give the wrong check, Black's king could go for a run that makes it harder to checkmate.\n\nWhat move sets up checkmate in one afterwards?",
+    "answers": [
+      {
+        "text": "Be5+",
+        "feedback": {
+          "text": "This move forces f6, after which Qh7 is checkmate. \n\nIf Nf6, Qh7#\n\nIf Kg8, Qh7#",
+          "arrows": {
+            "threats": [
+              "f5-h7"
+            ],
+            "opportunities": [
+              "f7-f6"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": "bringing another piece into the attack.",
+        "afterMoveFen": "2r1nr2/1b3pk1/p6p/qp1PBQ2/2p1B2P/4P3/P4PP1/2RR2K1 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Qh7+",
+        "feedback": {
+          "text": "After the king goes to f6, it can actually go on a little run and escape for a while. This isn't the most efficient way to end the game.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g7-f6",
+              "h7-f5",
+              "f6-e7"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": "checking with the queen and forcing Kf6.",
+        "afterMoveFen": "2r1nr2/1b3pkQ/p6p/qp1P4/2p1B2P/4P1B1/P4PP1/2RR2K1 b - - 3 2"
+      },
+      {
+        "text": "Qg4+",
+        "feedback": {
+          "text": "The king has an easy escape after Kf6. You must make sure it cannot escape through f6. ",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g7-f6",
+              "f6-e7"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": "using the g-file to check the king.",
+        "afterMoveFen": "2r1nr2/1b3pk1/p6p/qp1P4/2p1B1QP/4P1B1/P4PP1/2RR2K1 b - - 3 2"
+      }
+    ],
+    "positionFen": "2r1nr1k/1b3p2/p6p/qp1P1Q2/2p1B2P/4P1B1/P4PP1/2RR2K1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kg7",
+      "afterMoveFen": "2r1nr2/1b3pk1/p6p/qp1P1Q2/2p1B2P/4P1B1/P4PP1/2RR2K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

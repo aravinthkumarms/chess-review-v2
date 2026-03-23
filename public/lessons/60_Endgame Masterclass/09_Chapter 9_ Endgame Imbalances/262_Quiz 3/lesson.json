@@ -1,0 +1,60 @@
+{
+  "id": "983681d1-46b8-4205-96eb-01269325ca35",
+  "name": "Quiz 3 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White plays Ra1, controlling the 1st rank. \n\nWho is better and why?",
+    "answers": [
+      {
+        "text": "White is better because the rooks can win the c-pawn.",
+        "feedback": {
+          "text": "In short, yes. It's going to be hard to defend the c-pawn, and even if Black loses it and gives the queen for both rooks, White has 2 more pawns on the kingside.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Black is winning because the c-pawn is dangerous and will threaten to queen.",
+        "feedback": {
+          "text": "The c-pawn cannot be supported sufficiently against both rooks. Imagine this plan: Rd2, Rc2 and then Rac1.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d8-d2",
+              "d2-c2",
+              "a1-c1"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "This should be a draw. The queen can attack the rooks and check the king for the draw.",
+        "feedback": {
+          "text": "The king is really safe and the rooks can help each other out.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3R4/R4p2/2k5/8/2p3q1/6P1/5P1P/6K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ra1",
+      "afterMoveFen": "3R4/5p2/2k5/8/2p3q1/6P1/5P1P/R5K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

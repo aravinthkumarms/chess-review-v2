@@ -1,0 +1,88 @@
+{
+  "id": "874b3cc3-99f0-41e5-b1fd-14bf97ada275",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has taken a pawn on d5. \n\nWhat's the best move against this?",
+    "answers": [
+      {
+        "text": "Bb4+",
+        "feedback": {
+          "text": "Yes! Bb4+ is a discovered attack on the queen. White must deal with the check, after which you'll take on d5.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d8-d5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d5",
+              "e1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "checking the king.",
+        "afterMoveFen": "rn1qk1nr/p4pp1/1p6/3Q1b1p/1b1P4/4P1B1/PP3PPP/R3KBNR w KQkq - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Bxg3",
+        "feedback": {
+          "text": "This drops the rook in the corner and it isn't the best move.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "d5-a8"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "a8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "taking the strong bishop.",
+        "afterMoveFen": "rn1qk1nr/p4pp1/1p6/3Q1b1p/3P4/4P1b1/PP3PPP/R3KBNR w KQkq - 0 2"
+      },
+      {
+        "text": "Nf6",
+        "feedback": {
+          "text": "Sadly White now has a pleasant choice of which piece to take.",
+          "arrows": {
+            "threats": [
+              "d5-f5",
+              "d5-d6",
+              "d5-a8"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d6",
+              "f5",
+              "a8"
+            ]
+          }
+        },
+        "comment": "attacking the queen.",
+        "afterMoveFen": "rn1qk2r/p4pp1/1p1b1n2/3Q1b1p/3P4/4P1B1/PP3PPP/R3KBNR w KQkq - 1 2"
+      }
+    ],
+    "positionFen": "rn1qk1nr/p4pp1/1p1b4/3p1b1p/3P4/1Q2P1B1/PP3PPP/R3KBNR w KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qxd5",
+      "afterMoveFen": "rn1qk1nr/p4pp1/1p1b4/3Q1b1p/3P4/4P1B1/PP3PPP/R3KBNR b KQkq - 0 1"
+    }
+  },
+  "drill": null
+}

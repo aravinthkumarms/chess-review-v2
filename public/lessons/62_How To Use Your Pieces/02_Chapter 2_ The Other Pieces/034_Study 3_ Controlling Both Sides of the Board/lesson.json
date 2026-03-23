@@ -1,0 +1,1205 @@
+{
+  "id": "177bd223-9d31-4a88-a8a6-dd4cde6b9c5c",
+  "name": "Study 3: Controlling Both Sides of the Board",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "Y"
+        ],
+        "comments": [
+          {
+            "text": "This game was played between Jan-Krzysztof Duda and Haik Martirosyan. \n\nYou'll see how a minor piece can be more valuable than a rook, and how when all your pieces reach peak activity, you can begin to sacrifice material. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1p": {
+        "adjacentNodeIds": [
+          "DB"
+        ],
+        "comments": [
+          {
+            "text": "Black supported his center.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/pp1n1ppp/2p2n2/3p4/3P1B2/2N2N2/PP2PPPP/R2QKB1R w KQkq - 0 7",
+        "parentNodeId": "ZY",
+        "san": "c6"
+      },
+      "3l": {
+        "adjacentNodeIds": [
+          "zR"
+        ],
+        "comments": [
+          {
+            "text": "White brought the other rook to the b-file! \n\nNow both rooks are active! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2qppp/1n2bn2/3pN3/2pP1BP1/2P1P2P/2Q2PB1/RR4K1 b - - 7 19",
+        "parentNodeId": "OH",
+        "san": "Rfb1"
+      },
+      "49": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Qxf6 was the correct recapture. \n\nIt would have kept things nice and closed for Martirosyan. \n\nInstead of an open g-file, which proved to be useless in the game, he would have had a semi-open f-file. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp4pp/1n1nbq2/3pN3/2pP1B2/2P1PP1P/2Q3B1/RR4K1 w - - 0 23",
+        "parentNodeId": "Bh",
+        "san": "Qxf6"
+      },
+      "4T": {
+        "adjacentNodeIds": [
+          "9P"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan recaptured. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2q2p/1n1nbp2/3pN3/2pP1B2/2P1PP1P/2Q3B1/RR4K1 w - - 0 23",
+        "parentNodeId": "Bh",
+        "san": "gxf6"
+      },
+      "8t": {
+        "adjacentNodeIds": [
+          "uw"
+        ],
+        "comments": [
+          {
+            "text": "Duda castled. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k2r/pp3ppp/1n2bn2/3pN3/2pP1BP1/q1P1P2P/2Q2PB1/2R2RK1 b kq - 3 17",
+        "parentNodeId": "BI",
+        "san": "O-O"
+      },
+      "9P": {
+        "adjacentNodeIds": [
+          "FQ"
+        ],
+        "comments": [
+          {
+            "text": "And the knight went to the nice g4 square. \n\nThe move g5 was very instructive, clearing the g4 square for the knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2q2p/1n1nbp2/3p4/2pP1BN1/2P1PP1P/2Q3B1/RR4K1 b - - 1 23",
+        "parentNodeId": "4T",
+        "san": "Ng4"
+      },
+      "9a": {
+        "adjacentNodeIds": [
+          "AH"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan took the exchange. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/Rp2q2p/1n6/3pn3/2pP1BP1/2P4P/2Q3B1/6K1 w - - 0 32",
+        "parentNodeId": "Kj",
+        "san": "Nxe5"
+      },
+      "AH": {
+        "adjacentNodeIds": [
+          "na"
+        ],
+        "comments": [
+          {
+            "text": "Duda took the knight with check. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/Rp2q2p/1n6/3pB3/2pP2P1/2P4P/2Q3B1/6K1 b - - 0 32",
+        "parentNodeId": "9a",
+        "san": "Bxe5+"
+      },
+      "Az": {
+        "adjacentNodeIds": [
+          "w4"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan challenged the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq d6 0 4",
+        "parentNodeId": "b5",
+        "san": "d5"
+      },
+      "BI": {
+        "adjacentNodeIds": [
+          "8t"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan defended that weakness. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3k2r/pp3ppp/1n2bn2/3pN3/2pP1BP1/q1P1P2P/2Q2PB1/2R1K2R w Kkq - 2 17",
+        "parentNodeId": "Nv",
+        "san": "Be6"
+      },
+      "BX": {
+        "adjacentNodeIds": [
+          "l7"
+        ],
+        "comments": [
+          {
+            "text": "The queen went to b1, attacking the knight. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b1-b6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5r1k/Rp2q1rp/1n6/3pB3/2pP2P1/2P4P/6B1/1Q4K1 b - - 2 33",
+        "parentNodeId": "na",
+        "san": "Qb1"
+      },
+      "Bh": {
+        "adjacentNodeIds": [
+          "4T",
+          "49"
+        ],
+        "comments": [
+          {
+            "text": "Duda traded pawns. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2q1pp/1n1nbP2/3pN3/2pP1B2/2P1PP1P/2Q3B1/RR4K1 b - - 0 22",
+        "parentNodeId": "kD",
+        "san": "gxf6"
+      },
+      "C4": {
+        "adjacentNodeIds": [
+          "Gp"
+        ],
+        "comments": [
+          {
+            "text": "Black traded bishop for knight. \n\nThis temporarily pins the e-pawn because the e1 rook is undefended.\n\nBut sadly it also closes the g-file for Black. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5rk/pp2qn1p/1n3p2/R2p4/2pPPBb1/2P2P1P/2Q3B1/4R1K1 w - - 0 27",
+        "parentNodeId": "gL",
+        "san": "Bxg4"
+      },
+      "Cn": {
+        "adjacentNodeIds": [
+          "Vd"
+        ],
+        "comments": [
+          {
+            "text": "The queen came out and pinned the knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/pp1n1ppp/2p5/q2p4/3PnB2/2N1PN1P/PP3PP1/R2QKB1R w KQkq - 1 9",
+        "parentNodeId": "od",
+        "san": "Qa5"
+      },
+      "DB": {
+        "adjacentNodeIds": [
+          "OS"
+        ],
+        "comments": [
+          {
+            "text": "White created a flight square for the bishop. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-h2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/pp1n1ppp/2p2n2/3p4/3P1B2/2N2N1P/PP2PPP1/R2QKB1R b KQkq - 0 7",
+        "parentNodeId": "1p",
+        "san": "h3"
+      },
+      "DC": {
+        "adjacentNodeIds": [
+          "rz"
+        ],
+        "comments": [
+          {
+            "text": "Black developed the other knight as well. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/pppn1ppp/4pn2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 2 5",
+        "parentNodeId": "w4",
+        "san": "Nbd7"
+      },
+      "DN": {
+        "adjacentNodeIds": [
+          "QM"
+        ],
+        "comments": [
+          {
+            "text": "Duda captured on a7. \n\nWhen your pieces are all on the right squares, then it's fine to grab material. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/Rp2qn1p/1n3p2/3pP3/2pP1BP1/2P1R2P/2Q3B1/6K1 b - - 0 30",
+        "parentNodeId": "PA",
+        "san": "Rxa7"
+      },
+      "Ek": {
+        "adjacentNodeIds": [
+          "yn"
+        ],
+        "comments": [
+          {
+            "text": "The knight went back to f6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp3ppp/1n3n2/q2pN3/2pP1B2/P1P1P2P/2Q2PP1/2R1KB1R w Kkq - 4 15",
+        "parentNodeId": "Va",
+        "san": "Nf6"
+      },
+      "F": {
+        "adjacentNodeIds": [
+          "M"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan played the knight out. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppppppp/5n2/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 1 2",
+        "parentNodeId": "Y",
+        "san": "Nf6"
+      },
+      "FQ": {
+        "adjacentNodeIds": [
+          "IM"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan maneuvered to f7. \n\nThe only problem with this is that the knight doesn't have too many squares. \n\ne5 is covered by White, and g5 isn't really that good. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2qn1p/1n2bp2/3p4/2pP1BN1/2P1PP1P/2Q3B1/RR4K1 w - - 2 24",
+        "parentNodeId": "9P",
+        "san": "Nf7"
+      },
+      "GF": {
+        "adjacentNodeIds": [
+          "ZY"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/pppn1ppp/5n2/3p4/3P4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 6",
+        "parentNodeId": "rz",
+        "san": "exd5"
+      },
+      "GH": {
+        "adjacentNodeIds": [
+          "b5"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan played e6, opening up his bishop. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+        "parentNodeId": "M",
+        "san": "e6"
+      },
+      "Gp": {
+        "adjacentNodeIds": [
+          "Ou"
+        ],
+        "comments": [
+          {
+            "text": "White recaptured and closed the g-file. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5rk/pp2qn1p/1n3p2/R2p4/2pPPBP1/2P4P/2Q3B1/4R1K1 b - - 0 27",
+        "parentNodeId": "C4",
+        "san": "fxg4"
+      },
+      "IM": {
+        "adjacentNodeIds": [
+          "M3"
+        ],
+        "comments": [
+          {
+            "text": "Duda played the really active Ra5, making sure the rook remains relevant. \n\nHere, it also puts pressure along the 5th rank. This is an example of the rook's beautiful horizontal pressure! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a5-h5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2qn1p/1n2bp2/R2p4/2pP1BN1/2P1PP1P/2Q3B1/1R4K1 b - - 3 24",
+        "parentNodeId": "FQ",
+        "san": "Ra5"
+      },
+      "J0": {
+        "adjacentNodeIds": [
+          "gL"
+        ],
+        "comments": [
+          {
+            "text": "The rook came into the g-file. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5rk/pp2qn1p/1n2bp2/R2p4/2pPPBN1/2P2P1P/2Q3B1/1R4K1 w - - 1 26",
+        "parentNodeId": "dX",
+        "san": "Rg8"
+      },
+      "Kj": {
+        "adjacentNodeIds": [
+          "9a"
+        ],
+        "comments": [
+          {
+            "text": "And instead of playing a recapture thinking of equal material, Duda gave up the exchange with this recapture! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/Rp2qn1p/1n6/3pR3/2pP1BP1/2P4P/2Q3B1/6K1 b - - 0 31",
+        "parentNodeId": "QM",
+        "san": "Rxe5"
+      },
+      "Ku": {
+        "adjacentNodeIds": [
+          "LS"
+        ],
+        "comments": [
+          {
+            "text": "Black challenged the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp1n1ppp/8/q1pp4/1b1PnB2/1QN1PN1P/PP3PP1/2R1KB1R w Kkq - 0 11",
+        "parentNodeId": "Nx",
+        "san": "c5"
+      },
+      "LS": {
+        "adjacentNodeIds": [
+          "n7"
+        ],
+        "comments": [
+          {
+            "text": "White decided to force trades. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp1n1ppp/8/q1pp4/1b1PnB2/PQN1PN1P/1P3PP1/2R1KB1R b Kkq - 0 11",
+        "parentNodeId": "Ku",
+        "san": "a3"
+      },
+      "M": {
+        "adjacentNodeIds": [
+          "GH"
+        ],
+        "comments": [
+          {
+            "text": "Duda put another pawn in control of the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppppppp/5n2/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+        "parentNodeId": "F",
+        "san": "c4"
+      },
+      "M3": {
+        "adjacentNodeIds": [
+          "dX"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan got the king out of potential dangers. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r1k/pp2qn1p/1n2bp2/R2p4/2pP1BN1/2P1PP1P/2Q3B1/1R4K1 w - - 4 25",
+        "parentNodeId": "IM",
+        "san": "Kh8"
+      },
+      "MF": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "There is forced checkmate. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "R6k/1p2q1rp/1r6/3pB3/2pP2P1/2P4P/6B1/6K1 b - - 1 35",
+        "parentNodeId": "QC",
+        "san": "Ra8+"
+      },
+      "Nv": {
+        "adjacentNodeIds": [
+          "BI"
+        ],
+        "comments": [
+          {
+            "text": "The bishop went to g2, adding pressure to the d5 weakness. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp3ppp/1n3n2/3pN3/2pP1BP1/q1P1P2P/2Q2PB1/2R1K2R b Kkq - 1 16",
+        "parentNodeId": "e2",
+        "san": "Bg2"
+      },
+      "Nx": {
+        "adjacentNodeIds": [
+          "Ku"
+        ],
+        "comments": [
+          {
+            "text": "The rook was brought in to defend the knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp1n1ppp/2p5/q2p4/1b1PnB2/1QN1PN1P/PP3PP1/2R1KB1R b Kkq - 4 10",
+        "parentNodeId": "no",
+        "san": "Rc1"
+      },
+      "OH": {
+        "adjacentNodeIds": [
+          "3l"
+        ],
+        "comments": [
+          {
+            "text": "The queen went all the way back to e7. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2qppp/1n2bn2/3pN3/2pP1BP1/2P1P2P/2Q2PB1/R4RK1 w - - 6 19",
+        "parentNodeId": "ZU",
+        "san": "Qe7"
+      },
+      "OL": {
+        "adjacentNodeIds": [
+          "Va"
+        ],
+        "comments": [
+          {
+            "text": "The knight came to b6, perhaps to some day add pressure to c3. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b6-a4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp3ppp/1n6/q2p4/2pPnB2/P1P1PN1P/2Q2PP1/2R1KB1R w Kkq - 2 14",
+        "parentNodeId": "bb",
+        "san": "Nb6"
+      },
+      "OS": {
+        "adjacentNodeIds": [
+          "od"
+        ],
+        "comments": [
+          {
+            "text": "Black centralized his knight. \n\nEven though it's a nice square for the knight, it currently doesn't do anything important here. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/pp1n1ppp/2p5/3p4/3PnB2/2N2N1P/PP2PPP1/R2QKB1R w KQkq - 1 8",
+        "parentNodeId": "DB",
+        "san": "Ne4"
+      },
+      "Ou": {
+        "adjacentNodeIds": [
+          "Ri"
+        ],
+        "comments": [
+          {
+            "text": "The knight jumped into g5, putting some pressure on e4. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5rk/pp2q2p/1n3p2/R2p2n1/2pPPBP1/2P4P/2Q3B1/4R1K1 w - - 1 28",
+        "parentNodeId": "Gp",
+        "san": "Ng5"
+      },
+      "P3": {
+        "adjacentNodeIds": [
+          "bb",
+          "ow"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan attacked the queen. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp1n1ppp/8/q2p4/2pPnB2/PQP1PN1P/5PP1/2R1KB1R w Kkq - 0 13",
+        "parentNodeId": "Uj",
+        "san": "c4"
+      },
+      "PA": {
+        "adjacentNodeIds": [
+          "DN"
+        ],
+        "comments": [
+          {
+            "text": "The knight went back to f7. \n\nThe point is to cover the e5 square. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/pp2qn1p/1n3p2/R2pP3/2pP1BP1/2P1R2P/2Q3B1/6K1 w - - 3 30",
+        "parentNodeId": "fX",
+        "san": "Nf7"
+      },
+      "QC": {
+        "adjacentNodeIds": [
+          "MF"
+        ],
+        "comments": [
+          {
+            "text": "If the queen is taken...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/Rp2q1rp/1r6/3pB3/2pP2P1/2P4P/6B1/6K1 w - - 0 35",
+        "parentNodeId": "UD",
+        "san": "Rxb6"
+      },
+      "QM": {
+        "adjacentNodeIds": [
+          "Kj"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan captured on e5. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/Rp2qn1p/1n6/3pp3/2pP1BP1/2P1R2P/2Q3B1/6K1 w - - 0 31",
+        "parentNodeId": "DN",
+        "san": "fxe5"
+      },
+      "Ri": {
+        "adjacentNodeIds": [
+          "wA"
+        ],
+        "comments": [
+          {
+            "text": "Hence White pushed in the center. \n\nThe idea here is that White will get rid of the f-pawn, which is the only defender of the dark squares near the king. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5rk/pp2q2p/1n3p2/R2pP1n1/2pP1BP1/2P4P/2Q3B1/4R1K1 b - - 0 28",
+        "parentNodeId": "Ou",
+        "san": "e5"
+      },
+      "UD": {
+        "adjacentNodeIds": [
+          "QC"
+        ],
+        "comments": [
+          {
+            "text": "Because Duda sacrificed the queen! \n\nMartirosyan resigned. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "7k/Rp2q1rp/1Q3r2/3pB3/2pP2P1/2P4P/6B1/6K1 b - - 0 34",
+        "parentNodeId": "l7",
+        "san": "Qxb6"
+      },
+      "Uj": {
+        "adjacentNodeIds": [
+          "P3"
+        ],
+        "comments": [
+          {
+            "text": "And White recaptured with the pawn to avoid further trades. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp1n1ppp/8/q1pp4/3PnB2/PQP1PN1P/5PP1/2R1KB1R b Kkq - 0 12",
+        "parentNodeId": "n7",
+        "san": "bxc3"
+      },
+      "Va": {
+        "adjacentNodeIds": [
+          "Ek"
+        ],
+        "comments": [
+          {
+            "text": "Ne5 stops Na4. \n\nIf Na4, Nxc4. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b6-a4",
+                "e5-c4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp3ppp/1n6/q2pN3/2pPnB2/P1P1P2P/2Q2PP1/2R1KB1R b Kkq - 3 14",
+        "parentNodeId": "OL",
+        "san": "Ne5"
+      },
+      "Vd": {
+        "adjacentNodeIds": [
+          "no"
+        ],
+        "comments": [
+          {
+            "text": "That's why the queen was developed while defending the knight.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1kb1r/pp1n1ppp/2p5/q2p4/3PnB2/1QN1PN1P/PP3PP1/R3KB1R b KQkq - 2 9",
+        "parentNodeId": "Cn",
+        "san": "Qb3"
+      },
+      "Y": {
+        "adjacentNodeIds": [
+          "F"
+        ],
+        "comments": [
+          {
+            "text": "Duda began with d4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1",
+        "parentNodeId": "0",
+        "san": "d4"
+      },
+      "ZU": {
+        "adjacentNodeIds": [
+          "OH"
+        ],
+        "comments": [
+          {
+            "text": "And if Duda is going to get some compensation, it's going to be in the form of rook activity along the a and b-files! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/1n2bn2/3pN3/2pP1BP1/q1P1P2P/2Q2PB1/R4RK1 b - - 5 18",
+        "parentNodeId": "uw",
+        "san": "Ra1"
+      },
+      "ZY": {
+        "adjacentNodeIds": [
+          "1p"
+        ],
+        "comments": [
+          {
+            "text": "The bishop was developed outside of the pawn chain before e3, connecting pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/pppn1ppp/5n2/3p4/3P1B2/2N2N2/PP2PPPP/R2QKB1R b KQkq - 1 6",
+        "parentNodeId": "GF",
+        "san": "Bf4"
+      },
+      "b5": {
+        "adjacentNodeIds": [
+          "Az"
+        ],
+        "comments": [
+          {
+            "text": "Duda developed his knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3",
+        "parentNodeId": "GH",
+        "san": "Nf3"
+      },
+      "bb": {
+        "adjacentNodeIds": [
+          "OL"
+        ],
+        "comments": [
+          {
+            "text": "Duda went back, avoiding more trades. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp1n1ppp/8/q2p4/2pPnB2/P1P1PN1P/2Q2PP1/2R1KB1R b Kkq - 1 13",
+        "parentNodeId": "P3",
+        "san": "Qc2"
+      },
+      "dX": {
+        "adjacentNodeIds": [
+          "J0"
+        ],
+        "comments": [
+          {
+            "text": "With superior piece potential, it is advantageous to open the position up. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4r1k/pp2qn1p/1n2bp2/R2p4/2pPPBN1/2P2P1P/2Q3B1/1R4K1 b - - 0 25",
+        "parentNodeId": "M3",
+        "san": "e4"
+      },
+      "e2": {
+        "adjacentNodeIds": [
+          "Nv"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan captured the a-pawn. \n\nThis isn't ideal for piece activity. \n\nMaybe now White can get a lead in development and in the attack. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp3ppp/1n3n2/3pN3/2pP1BP1/q1P1P2P/2Q2P2/2R1KB1R w Kkq - 0 16",
+        "parentNodeId": "yn",
+        "san": "Qxa3"
+      },
+      "f8": {
+        "adjacentNodeIds": [
+          "yI"
+        ],
+        "comments": [
+          {
+            "text": "Duda just kicked the knight out. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2qppp/1n2b3/3pN3/2pPnBP1/2P1PP1P/2Q3B1/RR4K1 b - - 0 20",
+        "parentNodeId": "zR",
+        "san": "f3"
+      },
+      "fX": {
+        "adjacentNodeIds": [
+          "PA"
+        ],
+        "comments": [
+          {
+            "text": "Duda played a defensive rook lift, bringing his rook to the defense of the bishop. \n\nexf6 is now a threat! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-f6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "5rrk/pp2q2p/1n3p2/R2pP1n1/2pP1BP1/2P1R2P/2Q3B1/6K1 b - - 2 29",
+        "parentNodeId": "wA",
+        "san": "Re3"
+      },
+      "gL": {
+        "adjacentNodeIds": [
+          "C4"
+        ],
+        "comments": [
+          {
+            "text": "White's e-file activity is superior to the g-file counterplay, though. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5rk/pp2qn1p/1n2bp2/R2p4/2pPPBN1/2P2P1P/2Q3B1/4R1K1 b - - 2 26",
+        "parentNodeId": "J0",
+        "san": "Re1"
+      },
+      "kD": {
+        "adjacentNodeIds": [
+          "Bh"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan attacked the knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2q1pp/1n1nbp2/3pN1P1/2pP1B2/2P1PP1P/2Q3B1/RR4K1 w - - 0 22",
+        "parentNodeId": "oc",
+        "san": "f6"
+      },
+      "l7": {
+        "adjacentNodeIds": [
+          "UD"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan defended the knight, or so he thought...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "7k/Rp2q1rp/1n3r2/3pB3/2pP2P1/2P4P/6B1/1Q4K1 w - - 3 34",
+        "parentNodeId": "BX",
+        "san": "Rf6"
+      },
+      "n7": {
+        "adjacentNodeIds": [
+          "Uj"
+        ],
+        "comments": [
+          {
+            "text": "Black captured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp1n1ppp/8/q1pp4/3PnB2/PQb1PN1P/1P3PP1/2R1KB1R w Kkq - 0 12",
+        "parentNodeId": "LS",
+        "san": "Bxc3+"
+      },
+      "na": {
+        "adjacentNodeIds": [
+          "BX"
+        ],
+        "comments": [
+          {
+            "text": "Black was forced to give the exchange back. \n\nBut Duda has no interest in that exchange! \n\nThe powerful bishop on e5 is worth more than a rook here! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5r1k/Rp2q1rp/1n6/3pB3/2pP2P1/2P4P/2Q3B1/6K1 w - - 1 33",
+        "parentNodeId": "AH",
+        "san": "Rg7"
+      },
+      "no": {
+        "adjacentNodeIds": [
+          "Nx"
+        ],
+        "comments": [
+          {
+            "text": "Black added pressure on the pin.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp1n1ppp/2p5/q2p4/1b1PnB2/1QN1PN1P/PP3PP1/R3KB1R w KQkq - 3 10",
+        "parentNodeId": "Vd",
+        "san": "Bb4"
+      },
+      "oc": {
+        "adjacentNodeIds": [
+          "kD"
+        ],
+        "comments": [
+          {
+            "text": "White gained space on the kingside and created a square for the knight. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-g4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2qppp/1n1nb3/3pN1P1/2pP1B2/2P1PP1P/2Q3B1/RR4K1 b - - 0 21",
+        "parentNodeId": "yI",
+        "san": "g5"
+      },
+      "od": {
+        "adjacentNodeIds": [
+          "Cn"
+        ],
+        "comments": [
+          {
+            "text": "Hence White just played e3, connecting pawns. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/pp1n1ppp/2p5/3p4/3PnB2/2N1PN1P/PP3PP1/R2QKB1R b KQkq - 0 8",
+        "parentNodeId": "OS",
+        "san": "e3"
+      },
+      "ow": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The computer actually wanted White to trade here. \n\nPerhaps considering the pressure the Black queen may exert. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp1n1ppp/8/q2p4/1QpPnB2/P1P1PN1P/5PP1/2R1KB1R b Kkq - 1 13",
+        "parentNodeId": "P3",
+        "san": "Qb4"
+      },
+      "rz": {
+        "adjacentNodeIds": [
+          "GF"
+        ],
+        "comments": [
+          {
+            "text": "White captured in the center.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/pppn1ppp/4pn2/3P4/3P4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 0 5",
+        "parentNodeId": "DC",
+        "san": "cxd5"
+      },
+      "uw": {
+        "adjacentNodeIds": [
+          "ZU"
+        ],
+        "comments": [
+          {
+            "text": "Martirosyan castled as well. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp3ppp/1n2bn2/3pN3/2pP1BP1/q1P1P2P/2Q2PB1/2R2RK1 w - - 4 18",
+        "parentNodeId": "8t",
+        "san": "O-O"
+      },
+      "w4": {
+        "adjacentNodeIds": [
+          "DC"
+        ],
+        "comments": [
+          {
+            "text": "Duda just developed the other knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R b KQkq - 1 4",
+        "parentNodeId": "Az",
+        "san": "Nc3"
+      },
+      "wA": {
+        "adjacentNodeIds": [
+          "fX"
+        ],
+        "comments": [
+          {
+            "text": "The rook came to defend f6. \n\nThe rook is still undefended, so...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rrk/pp2q2p/1n3p2/R2pP1n1/2pP1BP1/2P4P/2Q3B1/4R1K1 w - - 1 29",
+        "parentNodeId": "Ri",
+        "san": "Raf8"
+      },
+      "yI": {
+        "adjacentNodeIds": [
+          "oc"
+        ],
+        "comments": [
+          {
+            "text": "The knight went to d6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2qppp/1n1nb3/3pN3/2pP1BP1/2P1PP1P/2Q3B1/RR4K1 w - - 1 21",
+        "parentNodeId": "f8",
+        "san": "Nd6"
+      },
+      "yn": {
+        "adjacentNodeIds": [
+          "e2"
+        ],
+        "comments": [
+          {
+            "text": "Duda pushed on the kingside. \n\nA very aggressive move! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1k2r/pp3ppp/1n3n2/q2pN3/2pP1BP1/P1P1P2P/2Q2P2/2R1KB1R b Kkq g3 0 15",
+        "parentNodeId": "Ek",
+        "san": "g4"
+      },
+      "zR": {
+        "adjacentNodeIds": [
+          "f8"
+        ],
+        "comments": [
+          {
+            "text": "The black knight returned to e4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/pp2qppp/1n2b3/3pN3/2pPnBP1/2P1P2P/2Q2PB1/RR4K1 w - - 8 20",
+        "parentNodeId": "3l",
+        "san": "Ne4"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

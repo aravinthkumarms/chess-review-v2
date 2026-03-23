@@ -1,0 +1,69 @@
+{
+  "id": "97891eda-7e32-4391-b122-5a61e368a7ec",
+  "name": "Quiz 3",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White brought their king closer to the center with Ke3.\n\nOur general plan is to also activate our king, perhaps to f6. \n\nHow should we execute this plan?",
+    "answers": [
+      {
+        "text": "Since we are up a healthy pawn, we'll offer a rook trade with ...Rd7. If White doesn't trade, ...Kg7 and ...Kf6 is next.",
+        "feedback": {
+          "text": "Good job! That's the best plan here.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It is important to keep the rooks on the board, and we can play ...Kg7 to f6 immediately. With more pieces on the board and a pawn up our chances to win are higher.",
+        "feedback": {
+          "text": "...Kg7 immediately looses to Nxe6+ fork! The f7-pawn is pinned.",
+          "arrows": {
+            "threats": [
+              "g8-g7",
+              "e6-g7",
+              "e6-d8"
+            ],
+            "opportunities": [
+              "g5-e6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "a7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3r2k1/R4p2/4p1p1/4n1N1/7P/6P1/4K3/8 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g8-g7",
+        "d8-d7"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Ke3",
+      "afterMoveFen": "3r2k1/R4p2/4p1p1/4n1N1/7P/4K1P1/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

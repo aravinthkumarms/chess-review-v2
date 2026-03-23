@@ -1,0 +1,51 @@
+{
+  "id": "e3033ab8-1c42-4970-bd0e-b6f3ce110ddd",
+  "name": "Quiz 5 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Looks like we have to defend as Black. \n\n...Ne7 comes to mind, to improve the knight.\n\nShould we go for it?",
+    "answers": [
+      {
+        "text": "No, this loses to a tactical shot.",
+        "feedback": {
+          "text": "Exactly, the move ...Ne7 loses to Rxe6 and Rxe7+ next.",
+          "arrows": {
+            "threats": [
+              "c6-e7"
+            ],
+            "opportunities": [
+              "d6-e6",
+              "g7-e7"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, we can go for ...Ng6 next, to trap the rook.",
+        "feedback": {
+          "text": "Are there any tactics for White after ...Ne7?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r1k2r/1p3pRp/p1nRb3/4p3/4P3/2P1B3/4N2P/1K3B2 w k - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bg5",
+      "afterMoveFen": "2r1k2r/1p3pRp/p1nRb3/4p1B1/4P3/2P5/4N2P/1K3B2 b k - 2 1"
+    }
+  },
+  "drill": null
+}

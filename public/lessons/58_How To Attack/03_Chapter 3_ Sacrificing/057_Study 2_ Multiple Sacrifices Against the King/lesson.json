@@ -1,0 +1,607 @@
+{
+  "id": "7b50aee6-e4fe-41dd-a1f4-a95c156b6b5a",
+  "name": "Study 2: Multiple Sacrifices Against the King",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "o"
+        ],
+        "comments": [
+          {
+            "text": "This was a game one of my subscribers sent me. \n\nHe had the White pieces. Currently, he's in control of the d-file, but Black has proposed a trade.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/38967618507?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1nrr2k1/2q1p1bp/pp3pp1/3Rp3/2P5/1PB1PN2/P1Q2PPP/3R2K1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1m": {
+        "adjacentNodeIds": [
+          "jP"
+        ],
+        "comments": [
+          {
+            "text": "And White decided to stay on the d-file. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rr2k1/2q3bp/ppn1ppp1/4p3/2P1Q3/1PB1PN1P/P2R1PP1/3R2K1 b - - 1 3",
+        "parentNodeId": "yy",
+        "san": "R5d2"
+      },
+      "5v": {
+        "adjacentNodeIds": [
+          "SR"
+        ],
+        "comments": [
+          {
+            "text": "The king went to g8...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r2k1/2q4p/pp2p1pQ/4NpP1/1nP5/1P2P2P/P2R1P2/6K1 w - - 3 11",
+        "parentNodeId": "Pz",
+        "san": "Kg8"
+      },
+      "A5": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "What happens if hxg6? ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r2k1/2q5/pp2p1pQ/5pP1/1nP5/1P2P2P/P2R1P2/6K1 w - - 0 12",
+        "parentNodeId": "SR",
+        "san": "hxg6"
+      },
+      "An": {
+        "adjacentNodeIds": [
+          "kc"
+        ],
+        "comments": [
+          {
+            "text": "The king defended...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2rr1b2/2q3kp/ppn1ppp1/4p3/2P4Q/1PB1PN1P/P2R1PP1/3R2K1 w - - 4 5",
+        "parentNodeId": "u9",
+        "san": "Kg7"
+      },
+      "Bd": {
+        "adjacentNodeIds": [
+          "yv"
+        ],
+        "comments": [
+          {
+            "text": "Black traded a pair of rooks...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/2q3kp/pp2p1p1/4NpP1/1nP4Q/1P2P2P/P2r1P2/3R2K1 w - - 0 9",
+        "parentNodeId": "xj",
+        "san": "Rxd2"
+      },
+      "C8": {
+        "adjacentNodeIds": [
+          "Dh"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rr4/2q3kp/pp2ppp1/4p3/1nP3PQ/1P2PN1P/P2R1P2/3R2K1 w - - 0 7",
+        "parentNodeId": "aD",
+        "san": "Nxb4"
+      },
+      "Dh": {
+        "adjacentNodeIds": [
+          "nf",
+          "JQ"
+        ],
+        "comments": [
+          {
+            "text": "White played g4.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-f6",
+                "h4-h6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f6",
+                "h6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rr4/2q3kp/pp2ppp1/4p1P1/1nP4Q/1P2PN1P/P2R1P2/3R2K1 b - - 0 7",
+        "parentNodeId": "C8",
+        "san": "g5"
+      },
+      "HX": {
+        "adjacentNodeIds": [
+          "Pz"
+        ],
+        "comments": [
+          {
+            "text": "Black came into the d-file and proposed a trade.\n\nAlso, they're defending the d7 entry square...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r4/2q3kp/pp2p1p1/4NpP1/1nP4Q/1P2P2P/P2R1P2/6K1 w - - 1 10",
+        "parentNodeId": "yv",
+        "san": "Rd8"
+      },
+      "JQ": {
+        "adjacentNodeIds": [
+          "Ve"
+        ],
+        "comments": [
+          {
+            "text": "This is also losing...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rr4/2q3kp/pp2p1p1/4p1p1/1nP4Q/1P2PN1P/P2R1P2/3R2K1 w - - 0 8",
+        "parentNodeId": "Dh",
+        "san": "fxg5"
+      },
+      "Ph": {
+        "adjacentNodeIds": [
+          "sK"
+        ],
+        "comments": [
+          {
+            "text": "When the king moves away...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rr1k2/3R3p/pp2p1p1/4qpP1/1nP4Q/1P2P2P/P4P2/3R2K1 w - - 2 10",
+        "parentNodeId": "iY",
+        "san": "Kf8"
+      },
+      "Pz": {
+        "adjacentNodeIds": [
+          "5v"
+        ],
+        "comments": [
+          {
+            "text": "White entered h6 with check! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r4/2q3kp/pp2p1pQ/4NpP1/1nP5/1P2P2P/P2R1P2/6K1 b - - 2 10",
+        "parentNodeId": "HX",
+        "san": "Qh6+"
+      },
+      "Rd": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And this is checkmate. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5Qk1/2q4p/pp2p1N1/5pP1/1nP5/1P2P2P/P2r1P2/6K1 b - - 1 12",
+        "parentNodeId": "rc",
+        "san": "Qf8#"
+      },
+      "SR": {
+        "adjacentNodeIds": [
+          "rc",
+          "A5"
+        ],
+        "comments": [
+          {
+            "text": "And now another sacrifice! \n\nBoth the rook and the knight are hanging! \n\nIn the game, Black demonstrated what happens if the rook is taken because that's what they did. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d8-d2",
+                "h7-g6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d2",
+                "g6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3r2k1/2q4p/pp2p1NQ/5pP1/1nP5/1P2P2P/P2R1P2/6K1 b - - 0 11",
+        "parentNodeId": "5v",
+        "san": "Nxg6"
+      },
+      "Ve": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And that's a double attack! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h4-h7",
+                "g5-e6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e6",
+                "h7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rr4/2q3kp/pp2p1p1/4p1N1/1nP4Q/1P2P2P/P2R1P2/3R2K1 b - - 0 8",
+        "parentNodeId": "JQ",
+        "san": "Nxg5"
+      },
+      "Y": {
+        "adjacentNodeIds": [
+          "yy"
+        ],
+        "comments": [
+          {
+            "text": "White created some luft (some space for the king to avoid getting back-ranked mated). ",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rr2k1/2q1p1bp/ppn2pp1/3Rp3/2P1Q3/1PB1PN1P/P4PP1/3R2K1 b - - 0 2",
+        "parentNodeId": "q",
+        "san": "h3"
+      },
+      "aD": {
+        "adjacentNodeIds": [
+          "C8"
+        ],
+        "comments": [
+          {
+            "text": "White accepted the attack because there's a strong tactic in the position.\n\nInitiating the capture on b4 will make Black recapture, thus giving White time to play g4. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-g5",
+                "c6-b4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rr4/2q3kp/ppn1ppp1/4p3/1BP3PQ/1P2PN1P/P2R1P2/3R2K1 b - - 0 6",
+        "parentNodeId": "b0",
+        "san": "Bxb4"
+      },
+      "b0": {
+        "adjacentNodeIds": [
+          "aD"
+        ],
+        "comments": [
+          {
+            "text": "Black's idea is quite simple: exchange their worst piece for one of White's dangerous attackers...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b4-c3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rr4/2q3kp/ppn1ppp1/4p3/1bP3PQ/1PB1PN1P/P2R1P2/3R2K1 w - - 1 6",
+        "parentNodeId": "kc",
+        "san": "Bb4"
+      },
+      "iY": {
+        "adjacentNodeIds": [
+          "Ph"
+        ],
+        "comments": [
+          {
+            "text": "Check! \n\nYou don't even have to take the rook! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rr4/3R2kp/pp2p1p1/4qpP1/1nP4Q/1P2P2P/P4P2/3R2K1 b - - 1 9",
+        "parentNodeId": "ja",
+        "san": "Rd7+"
+      },
+      "jP": {
+        "adjacentNodeIds": [
+          "u9"
+        ],
+        "comments": [
+          {
+            "text": "Black moved their bishop to f8. \n\nMaybe their idea was to get to a better diagonal...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rr1bk1/2q4p/ppn1ppp1/4p3/2P1Q3/1PB1PN1P/P2R1PP1/3R2K1 w - - 2 4",
+        "parentNodeId": "1m",
+        "san": "Bf8"
+      },
+      "ja": {
+        "adjacentNodeIds": [
+          "iY"
+        ],
+        "comments": [
+          {
+            "text": "If Qxe5... ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rr4/6kp/pp2p1p1/4qpP1/1nP4Q/1P2P2P/P2R1P2/3R2K1 w - - 0 9",
+        "parentNodeId": "xj",
+        "san": "Qxe5"
+      },
+      "kc": {
+        "adjacentNodeIds": [
+          "b0"
+        ],
+        "comments": [
+          {
+            "text": "And now g4! \n\nVery interesting! \n\nWhite's idea is to play g4, undermine the defender of e5, and then converge on the e5 pawn and the diagonal!\n\nThe dark-squared bishop will be key for the attack!  ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-g5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": [
+                "c3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2rr1b2/2q3kp/ppn1ppp1/4p3/2P3PQ/1PB1PN1P/P2R1P2/3R2K1 b - g3 0 5",
+        "parentNodeId": "An",
+        "san": "g4"
+      },
+      "nf": {
+        "adjacentNodeIds": [
+          "xj"
+        ],
+        "comments": [
+          {
+            "text": "Black tried keeping things closed, but now White found the first sacrifice:",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rr4/2q3kp/pp2p1p1/4ppP1/1nP4Q/1P2PN1P/P2R1P2/3R2K1 w - - 0 8",
+        "parentNodeId": "Dh",
+        "san": "f5"
+      },
+      "o": {
+        "adjacentNodeIds": [
+          "q"
+        ],
+        "comments": [
+          {
+            "text": "If Rxd5, White may play Qxd5+ and he'll be in control of the d-file still.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-d5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "1nrr2k1/2q1p1bp/pp3pp1/3Rp3/2P1Q3/1PB1PN2/P4PPP/3R2K1 b - - 2 1",
+        "parentNodeId": "0",
+        "san": "Qe4"
+      },
+      "q": {
+        "adjacentNodeIds": [
+          "Y"
+        ],
+        "comments": [
+          {
+            "text": "Black brought their knight back into the game...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rr2k1/2q1p1bp/ppn2pp1/3Rp3/2P1Q3/1PB1PN2/P4PPP/3R2K1 w - - 3 2",
+        "parentNodeId": "o",
+        "san": "Nc6"
+      },
+      "rc": {
+        "adjacentNodeIds": [
+          "Rd"
+        ],
+        "comments": [
+          {
+            "text": "Black captured on d2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/2q4p/pp2p1NQ/5pP1/1nP5/1P2P2P/P2r1P2/6K1 w - - 0 12",
+        "parentNodeId": "SR",
+        "san": "Rxd2"
+      },
+      "sK": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black cannot avoid checkmate.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h7-f7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2rr1k2/3R3Q/pp2p1p1/4qpP1/1nP5/1P2P2P/P4P2/3R2K1 b - - 0 10",
+        "parentNodeId": "Ph",
+        "san": "Qxh7"
+      },
+      "u9": {
+        "adjacentNodeIds": [
+          "An"
+        ],
+        "comments": [
+          {
+            "text": "White brought the queen into the kingside, applying some pressure! \n\nThese are the first steps before sacrificing: you get your pieces set up in an aggressive way against the king! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rr1bk1/2q4p/ppn1ppp1/4p3/2P4Q/1PB1PN1P/P2R1PP1/3R2K1 b - - 3 4",
+        "parentNodeId": "jP",
+        "san": "Qh4"
+      },
+      "xj": {
+        "adjacentNodeIds": [
+          "Bd",
+          "ja"
+        ],
+        "comments": [
+          {
+            "text": "Nxe5! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2rr4/2q3kp/pp2p1p1/4NpP1/1nP4Q/1P2P2P/P2R1P2/3R2K1 b - - 0 8",
+        "parentNodeId": "nf",
+        "san": "Nxe5"
+      },
+      "yv": {
+        "adjacentNodeIds": [
+          "HX"
+        ],
+        "comments": [
+          {
+            "text": "And White recaptured.\n\nWhite contemplated this before the sacrifice. The knight still can't be taken.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2r5/2q3kp/pp2p1p1/4NpP1/1nP4Q/1P2P2P/P2R1P2/6K1 b - - 0 9",
+        "parentNodeId": "Bd",
+        "san": "Rxd2"
+      },
+      "yy": {
+        "adjacentNodeIds": [
+          "1m"
+        ],
+        "comments": [
+          {
+            "text": "Black tried to dislodge the rook from its good square. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e6-d5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2rr2k1/2q3bp/ppn1ppp1/3Rp3/2P1Q3/1PB1PN1P/P4PP1/3R2K1 w - - 0 3",
+        "parentNodeId": "Y",
+        "san": "e6"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

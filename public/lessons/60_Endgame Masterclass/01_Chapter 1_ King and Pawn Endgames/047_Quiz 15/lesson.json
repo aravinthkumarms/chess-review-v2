@@ -1,0 +1,43 @@
+{
+  "id": "4d6c03e9-249d-4024-b40a-b75396212a40",
+  "name": "Quiz 15",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The pawn is currently on the third rank. \n\nWhat are the key squares for the attacker's king in this scenario?",
+    "answers": [
+      {
+        "text": "b5-c5-d5",
+        "feedback": {
+          "text": "The key squares for pawns in the 3rd rank are those two ranks above it, so in the 5th. If the king gets there, promotion is inevitable.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The rule of thumb is that the 3 squares directly in front of the pawn are its key squares. \n\nIf the pawn is far more advanced, this changes. More squares can be used by the attacker to win. But here, the pawn is on the 3rd, so there are only 3 key squares. ",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/4k3/8/8/8/1KP5/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kd6",
+      "afterMoveFen": "8/8/3k4/8/8/1KP5/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

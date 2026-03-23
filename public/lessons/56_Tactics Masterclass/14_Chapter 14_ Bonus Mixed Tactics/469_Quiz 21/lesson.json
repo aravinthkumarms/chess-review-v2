@@ -1,0 +1,96 @@
+{
+  "id": "b87d1a04-d5e3-44db-b327-451d10e805d2",
+  "name": "Quiz 21 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black pushes in the center. \n\nPlaying e4 comes to mind, to stop Black's marching pawns. \n\nIs that a good idea here?",
+    "answers": [
+      {
+        "text": "No, because that allows tactics.",
+        "feedback": {
+          "text": "Right, it allows Black to open up the f-file against White's queen. ...Ng4 and ...Qd5+ will come.",
+          "arrows": {
+            "threats": [
+              "e3-e4"
+            ],
+            "opportunities": [
+              "f5-e4",
+              "f6-g4",
+              "d8-d4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f8"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, it blocks Black’s expansion and controls the center.",
+        "feedback": {
+          "text": "After we push e4, Black could trade (...fxe4) and the f-file opens, which would lead to some dangerous tactics!",
+          "arrows": {
+            "threats": [
+              "e3-e4"
+            ],
+            "opportunities": [
+              "f5-e4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "This move is fine, but White should focus on development.",
+        "feedback": {
+          "text": "Pushing e4 isn't a good idea! We don't want to open up Black's rook on f8.",
+          "arrows": {
+            "threats": [
+              "e3-e4"
+            ],
+            "opportunities": [
+              "f5-e4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rn1q1rk1/1b4pp/1p2pn2/5p2/N1P5/pP1pPPP1/P4QBP/RN2R1K1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e3-e4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "e5",
+      "afterMoveFen": "rn1q1rk1/1b4pp/1p3n2/4pp2/N1P5/pP1pPPP1/P4QBP/RN2R1K1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

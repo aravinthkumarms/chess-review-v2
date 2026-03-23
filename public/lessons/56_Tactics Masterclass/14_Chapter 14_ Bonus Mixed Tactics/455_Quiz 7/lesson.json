@@ -1,0 +1,43 @@
+{
+  "id": "ded91e35-a3be-4935-bade-4f6ac03f0a97",
+  "name": "Quiz 7 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Which move enables us to immediately win some material?",
+    "answers": [
+      {
+        "text": "d4",
+        "feedback": {
+          "text": "Nice move! Nxe7+ is innevitable.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "rnb1kbnr/1pp1pppp/p7/1N2q3/3P4/8/PPP1BPPP/R1BQK1NR b KQkq d3 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How can you distract Black's queen?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnb1kbnr/ppp1pppp/8/1N2q3/8/8/PPPPBPPP/R1BQK1NR b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "a6",
+      "afterMoveFen": "rnb1kbnr/1pp1pppp/p7/1N2q3/8/8/PPPPBPPP/R1BQK1NR w KQkq - 0 2"
+    }
+  },
+  "drill": null
+}

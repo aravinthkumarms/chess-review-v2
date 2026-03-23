@@ -1,0 +1,82 @@
+{
+  "id": "0978060e-e5db-4651-8044-082de5ba6934",
+  "name": "Quiz 5",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is on the 3rd rank, preventing the Philidor.\n\nDo you have a plan to defend this?",
+    "answers": [
+      {
+        "text": "Re8 for long distance checks with the rook from the back.",
+        "feedback": {
+          "text": "Yes! This is the only move to draw. And then going for a short side defense.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e4-e8",
+              "e8-b8",
+              "b8-c8",
+              "c2-c1",
+              "c1-b1",
+              "b1-a2"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Re1 for 1st rank defense.",
+        "feedback": {
+          "text": "1st rank defense doesn't work against c-, d-, e- and f-pawns.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Rh4 to defend on the 4th rank.",
+        "feedback": {
+          "text": "Black can make progress and win this.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g3-g2",
+              "c2-c1",
+              "b4-b3"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/1k6/2p1R3/6r1/2K5/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kb4",
+      "afterMoveFen": "8/8/8/8/1kp1R3/6r1/2K5/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

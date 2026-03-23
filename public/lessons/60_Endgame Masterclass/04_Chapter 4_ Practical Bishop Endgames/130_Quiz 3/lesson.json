@@ -1,0 +1,63 @@
+{
+  "id": "549a8ed5-ecfa-4118-85c1-5222886233ef",
+  "name": "Quiz 3 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black is two pawns up. \n\nBut one of the pawns is backwards on h6, and the other pawn (c3) is blockaded by White. \n\nIs this winning for Black?",
+    "answers": [
+      {
+        "text": "Yes; Black can create a passed pawn easily. h5 is a threat to do this and this is completely winning for Black.",
+        "feedback": {
+          "text": "Exactly! \n\nWhite has some weaknesses and the bishop cannot defend both of them.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c4-b4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "a4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "This is a draw because the pawn on c3 is sufficiently blockaded. Black doesn't have any practical chances.",
+        "feedback": {
+          "text": "Are you sure? White has many weaknesses.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "This is objectively a draw, but Black has practical winning chances by trying to create complications.",
+        "feedback": {
+          "text": "Are you sure the chances are only practical?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/5bBp/p5p1/P2k2P1/2p5/2K5/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kc4",
+      "afterMoveFen": "8/8/5bBp/p5p1/P1k3P1/2p5/2K5/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

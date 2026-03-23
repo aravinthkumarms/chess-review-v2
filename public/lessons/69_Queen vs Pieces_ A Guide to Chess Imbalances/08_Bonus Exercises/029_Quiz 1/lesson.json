@@ -1,0 +1,77 @@
+{
+  "id": "79910472-d80d-47a1-a33d-4a3b43a221bd",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White is dangerously close to your king. \n\nDo you have a trick to draw the position here?",
+    "answers": [
+      {
+        "text": "Qf7+",
+        "feedback": {
+          "text": "Yes! \n\nAfter Kxf7, this is stalemate. Black has no legal moves.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g6-f7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "sacrificing the queen for a stalemate.",
+        "afterMoveFen": "7k/5q2/6KP/5BP1/4R3/8/8/8 w - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Qxf5+",
+        "feedback": {
+          "text": "After the king takes, Black has two legal moves. This isn't stalemate!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g6-f5",
+              "h8-g8",
+              "h8-h7"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "going for stalemate.",
+        "afterMoveFen": "7k/8/6KP/5qP1/4R3/8/8/8 w - - 0 2"
+      },
+      {
+        "text": "Qe6+",
+        "feedback": {
+          "text": "If bishop takes queen, it's stalemate. \n\nHowever, if rook takes queen this isn't stalemate!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "sacrificing the queen for a stalemate trick.",
+        "afterMoveFen": "7k/8/4q1KP/5BP1/4R3/8/8/8 w - - 3 2"
+      }
+    ],
+    "positionFen": "7k/3q4/4R1KP/5BP1/8/8/8/8 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Re4",
+      "afterMoveFen": "7k/3q4/6KP/5BP1/4R3/8/8/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

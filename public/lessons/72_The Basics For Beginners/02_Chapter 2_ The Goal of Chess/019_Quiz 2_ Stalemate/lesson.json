@@ -1,0 +1,53 @@
+{
+  "id": "f9c117c3-4d90-476c-a523-16900683aefa",
+  "name": "Quiz 2: Stalemate ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black puts the rook on g2. \n\nHow many legal moves does the White king have?",
+    "answers": [
+      {
+        "text": "Zero. This is a stalemate.",
+        "feedback": {
+          "text": "Exactly! The king cannot move! The rook on g2 is defended, so it cannot be taken, and all the other squares on the board are controlled by Black.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "One legal move. The game is not over.",
+        "feedback": {
+          "text": "The game is over. This is a draw because it's White's turn and White does not have legal moves!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Zero. This is checkmate. White lost.",
+        "feedback": {
+          "text": "The king on h1 is not checkmated because nothing attacks it. It is simply restricted without legal moves, this means it's stalemate.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/5r2/8/7k/4r3/7K b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Rg2",
+      "afterMoveFen": "8/8/8/5r2/8/7k/6r1/7K w - - 2 2"
+    }
+  },
+  "drill": null
+}

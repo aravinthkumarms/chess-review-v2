@@ -1,0 +1,617 @@
+{
+  "id": "65c44962-2e8e-4097-8279-da593c79da40",
+  "name": "Study 1: Same Color Bishop Endgame - Win",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "m"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to the first study on this chapter on bishop endgames. \n\nWhen the bishops are of the same color and the attacker is a pawn up, there's a technique to win. \n\nIf Black's king were on f7, for example, this position would be a draw.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/8/4K3/5PB1/8/2b5/8/8 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1s": {
+        "adjacentNodeIds": [
+          "Fu"
+        ],
+        "comments": [
+          {
+            "text": "The trade is proposed.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6K1/5PB1/7b/5k2/8/8/8/8 b - - 14 14",
+        "parentNodeId": "WT",
+        "san": "Bg7"
+      },
+      "3": {
+        "adjacentNodeIds": [
+          "U"
+        ],
+        "comments": [
+          {
+            "text": "On the other hand, White's plan has to do with controlling the key squares in front of the pawn and using their own bishop to propose trades and clear the diagonal for the pawn to move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/5K2/8/5PB1/8/8/1b6/8 b - - 3 2",
+        "parentNodeId": "m",
+        "san": "Kf7"
+      },
+      "4t": {
+        "adjacentNodeIds": [
+          "YL",
+          "SE"
+        ],
+        "comments": [
+          {
+            "text": "Another one of Black's ideas could be to get their king in front of the pawn, but these key squares are controlled already by White.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k1K2/7B/5P2/8/2b5/8/8 w - - 6 4",
+        "parentNodeId": "Sc",
+        "san": "Kd7"
+      },
+      "6v": {
+        "adjacentNodeIds": [
+          "zH"
+        ],
+        "comments": [
+          {
+            "text": "And the king is making its way to g8.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g7-g8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5PK1/4k2B/2b5/8/8/8/8 b - - 4 9",
+        "parentNodeId": "vV",
+        "san": "Kg7"
+      },
+      "AM": {
+        "adjacentNodeIds": [
+          "yW"
+        ],
+        "comments": [
+          {
+            "text": "And the king makes it in. \n\nThe winning idea is to get on the long diagonal towards f8.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h6-f8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6K1/5P2/4k2B/8/1b6/8/8/8 b - - 6 10",
+        "parentNodeId": "zH",
+        "san": "Kg8"
+      },
+      "Ah": {
+        "adjacentNodeIds": [
+          "Tm"
+        ],
+        "comments": [
+          {
+            "text": "If it is rejected...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f4-h6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5BK1/5P2/4k3/8/5b2/8/8/8 w - - 9 12",
+        "parentNodeId": "ZT",
+        "san": "Bf4"
+      },
+      "Al": {
+        "adjacentNodeIds": [
+          "YV",
+          "Zy"
+        ],
+        "comments": [
+          {
+            "text": "When Black covers the queening square on the short diagonal...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "6K1/5P2/4k2b/8/1B6/8/8/8 w - - 11 13",
+        "parentNodeId": "Tm",
+        "san": "Bh6"
+      },
+      "Da": {
+        "adjacentNodeIds": [
+          "HK"
+        ],
+        "comments": [
+          {
+            "text": "If it moves away...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k2B1/5PK1/8/8/2b5/8/8 b - - 2 6",
+        "parentNodeId": "Xn",
+        "san": "Kg6"
+      },
+      "EN": {
+        "adjacentNodeIds": [
+          "gT"
+        ],
+        "comments": [
+          {
+            "text": "So they have to move away to cover the other important square",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/3k2B1/6K1/5P2/8/b7/8/8 w - - 10 6",
+        "parentNodeId": "Qu",
+        "san": "Ba3"
+      },
+      "Fa": {
+        "adjacentNodeIds": [
+          "Xn"
+        ],
+        "comments": [
+          {
+            "text": "This cannot be played...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k1KB1/5P2/8/8/8/3b4/8 b - - 0 5",
+        "parentNodeId": "KD",
+        "san": "f6"
+      },
+      "Fi": {
+        "adjacentNodeIds": [
+          "kp"
+        ],
+        "comments": [
+          {
+            "text": "But approaching isn't effective in this case.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5PB1/4k1K1/8/8/b7/8/8 b - - 0 7",
+        "parentNodeId": "z3",
+        "san": "f7"
+      },
+      "Fu": {
+        "adjacentNodeIds": [
+          "gR"
+        ],
+        "comments": [
+          {
+            "text": "Black takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6K1/5Pb1/8/5k2/8/8/8/8 w - - 0 15",
+        "parentNodeId": "1s",
+        "san": "Bxg7"
+      },
+      "HK": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Draw.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k2B1/5bK1/8/8/8/8/8 w - - 0 7",
+        "parentNodeId": "Da",
+        "san": "Bxf6"
+      },
+      "KD": {
+        "adjacentNodeIds": [
+          "Fa"
+        ],
+        "comments": [
+          {
+            "text": "Supposing the bishop moves away...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k1KB1/8/5P2/8/8/3b4/8 w - - 8 5",
+        "parentNodeId": "SE",
+        "san": "Bd2"
+      },
+      "Qu": {
+        "adjacentNodeIds": [
+          "EN"
+        ],
+        "comments": [
+          {
+            "text": "Bg7 proposes a trade that Black cannot accept.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k2B1/6K1/5P2/8/8/1b6/8 b - - 9 5",
+        "parentNodeId": "eI",
+        "san": "Bg7"
+      },
+      "SE": {
+        "adjacentNodeIds": [
+          "KD"
+        ],
+        "comments": [
+          {
+            "text": "Notice how this trade isn't proposed now because progress isn't so easy. The king on f7 still has to move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k1KB1/8/5P2/8/2b5/8/8 b - - 7 4",
+        "parentNodeId": "4t",
+        "san": "Bg7"
+      },
+      "Sc": {
+        "adjacentNodeIds": [
+          "4t"
+        ],
+        "comments": [
+          {
+            "text": "The best trade proposal is one that isn't directly in front of the pawn and that allows the pawn to be later pushed.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h6-g7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/5K2/7B/5P2/8/2b5/8/8 b - - 5 3",
+        "parentNodeId": "U",
+        "san": "Bh6"
+      },
+      "Tm": {
+        "adjacentNodeIds": [
+          "Al"
+        ],
+        "comments": [
+          {
+            "text": "White has two ideas to win.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b4-c3",
+                "c3-d2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6K1/5P2/4k3/8/1B3b2/8/8/8 b - - 10 12",
+        "parentNodeId": "Ah",
+        "san": "Bb4"
+      },
+      "U": {
+        "adjacentNodeIds": [
+          "Sc"
+        ],
+        "comments": [],
+        "afterMoveFen": "2k5/5K2/8/5PB1/8/2b5/8/8 w - - 4 3",
+        "parentNodeId": "3",
+        "san": "Bc3"
+      },
+      "WT": {
+        "adjacentNodeIds": [
+          "1s"
+        ],
+        "comments": [
+          {
+            "text": "In this example, the king is too late to help.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-g6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6K1/5P2/7b/5k2/8/2B5/8/8 w - - 13 14",
+        "parentNodeId": "YV",
+        "san": "Kf5"
+      },
+      "Xn": {
+        "adjacentNodeIds": [
+          "Da"
+        ],
+        "comments": [
+          {
+            "text": "Because it's a draw. The king on f7 blocks the pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/3k1KB1/5P2/8/8/2b5/8/8 w - - 1 6",
+        "parentNodeId": "Fa",
+        "san": "Bc3"
+      },
+      "YL": {
+        "adjacentNodeIds": [
+          "eI"
+        ],
+        "comments": [
+          {
+            "text": "That's why White can afford to go to g6 and not lose their advantage.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/3k4/6KB/5P2/8/2b5/8/8 b - - 7 4",
+        "parentNodeId": "4t",
+        "san": "Kg6"
+      },
+      "YV": {
+        "adjacentNodeIds": [
+          "WT"
+        ],
+        "comments": [
+          {
+            "text": "Bc3 for Bg7 can be played.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c3-g7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6K1/5P2/4k2b/8/8/2B5/8/8 b - - 12 13",
+        "parentNodeId": "Al",
+        "san": "Bc3"
+      },
+      "ZT": {
+        "adjacentNodeIds": [
+          "Ah"
+        ],
+        "comments": [
+          {
+            "text": "White proposes a trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5BK1/5P2/3bk3/8/8/8/8/8 b - - 8 11",
+        "parentNodeId": "yW",
+        "san": "Bf8"
+      },
+      "Zy": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "You could also play this one but you'll probably have to be careful on the dark squares until you can win bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6K1/5P2/4k2b/8/8/8/3B4/8 b - - 12 13",
+        "parentNodeId": "Al",
+        "san": "Bd2"
+      },
+      "cP": {
+        "adjacentNodeIds": [
+          "vV"
+        ],
+        "comments": [
+          {
+            "text": "The king has to go to g8.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-g7",
+                "g7-g8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5P2/4k1KB/8/1b6/8/8/8 b - - 2 8",
+        "parentNodeId": "kp",
+        "san": "Bh6"
+      },
+      "eI": {
+        "adjacentNodeIds": [
+          "Qu"
+        ],
+        "comments": [
+          {
+            "text": "Black's best attempts are to stay on the relevant diagonal until evicted.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k4/6KB/5P2/8/8/1b6/8 w - - 8 5",
+        "parentNodeId": "YL",
+        "san": "Bb2"
+      },
+      "gR": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White recaptures and the promotion cannot be stopped.\n\nThis endgame is winning if White's pawn and king are ideally placed. \n\nIt's a draw if the king is in front of the pawn, specially on a color square that the enemy bishop doesn't control.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-f8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5PK1/8/5k2/8/8/8/8 b - - 0 15",
+        "parentNodeId": "Fu",
+        "san": "Kxg7"
+      },
+      "gT": {
+        "adjacentNodeIds": [
+          "z3"
+        ],
+        "comments": [
+          {
+            "text": "And now pushing is fine since the f7-square isn't blocked.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-f7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/3k2B1/5PK1/8/8/b7/8/8 b - - 0 6",
+        "parentNodeId": "EN",
+        "san": "f6"
+      },
+      "kp": {
+        "adjacentNodeIds": [
+          "cP"
+        ],
+        "comments": [
+          {
+            "text": "Still, with the king close to the pawn, it begs the question: how does White win?",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5PB1/4k1K1/8/1b6/8/8/8 w - - 1 8",
+        "parentNodeId": "Fi",
+        "san": "Bb4"
+      },
+      "m": {
+        "adjacentNodeIds": [
+          "3"
+        ],
+        "comments": [
+          {
+            "text": "Black's defensive resource consists of covering the dark squares so that if the pawn advances they can sacrifice their bishop for it.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2k5/8/4K3/5PB1/8/8/1b6/8 w - - 2 2",
+        "parentNodeId": "0",
+        "san": "Bb2"
+      },
+      "vV": {
+        "adjacentNodeIds": [
+          "6v"
+        ],
+        "comments": [
+          {
+            "text": "Black can now only shuffle back and forth.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5P2/4k1KB/2b5/8/8/8/8 w - - 3 9",
+        "parentNodeId": "cP",
+        "san": "Bc5"
+      },
+      "yW": {
+        "adjacentNodeIds": [
+          "ZT"
+        ],
+        "comments": [
+          {
+            "text": "Black moves back to d6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6K1/5P2/3bk2B/8/8/8/8/8 w - - 7 11",
+        "parentNodeId": "AM",
+        "san": "Bd6"
+      },
+      "z3": {
+        "adjacentNodeIds": [
+          "Fi"
+        ],
+        "comments": [
+          {
+            "text": "Black can try getting close.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/6B1/4kPK1/8/8/b7/8/8 w - - 1 7",
+        "parentNodeId": "gT",
+        "san": "Ke6"
+      },
+      "zH": {
+        "adjacentNodeIds": [
+          "AM"
+        ],
+        "comments": [
+          {
+            "text": "More shuffling.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/5PK1/4k2B/8/1b6/8/8/8 w - - 5 10",
+        "parentNodeId": "6v",
+        "san": "Bb4"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

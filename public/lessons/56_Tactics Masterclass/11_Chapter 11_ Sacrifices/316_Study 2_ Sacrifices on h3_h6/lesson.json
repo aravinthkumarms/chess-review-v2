@@ -1,0 +1,702 @@
+{
+  "id": "661661e5-3666-49d2-8d6e-bd7b760c5d7a",
+  "name": "Study 2: Sacrifices on h3/h6",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "W"
+        ],
+        "comments": [
+          {
+            "text": "In study 2, we will learn about sacrifices on a pawn on h3. This also applies for a pawn on h6. \n\nI played this game at the Washington International 2012.\n\nI had the White pieces here, and my opponent with Black was FM James Schuyler.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/ppp2pbp/2n2np1/4p1B1/3PB3/N1P2N1P/PP3PP1/R2Q1RK1 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "4p": {
+        "adjacentNodeIds": [
+          "6Z"
+        ],
+        "comments": [
+          {
+            "text": "Maybe I should have gone for this.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/ppp2pbp/5np1/1B4B1/8/N1p2N1P/PP3PP1/R2Q1RK1 b - - 1 3",
+        "parentNodeId": "7",
+        "san": "Bb5"
+      },
+      "4v": {
+        "adjacentNodeIds": [
+          "Eo"
+        ],
+        "comments": [
+          {
+            "text": "The main idea is to play something like Ne4 to c3, but it does require some preparation.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-e4",
+                "e4-c3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/ppp2pbp/5np1/1B4B1/8/N4N1P/Pp3PP1/1R1R2K1 b - - 1 5",
+        "parentNodeId": "Ag",
+        "san": "Rab1"
+      },
+      "6Z": {
+        "adjacentNodeIds": [
+          "PX"
+        ],
+        "comments": [
+          {
+            "text": "The problem is that Black will have their counterplay.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/ppp2pbp/5np1/1B4B1/8/N1p2N1P/PP3PP1/R2q1RK1 w - - 0 4",
+        "parentNodeId": "4p",
+        "san": "Qxd1"
+      },
+      "7": {
+        "adjacentNodeIds": [
+          "TE",
+          "4p"
+        ],
+        "comments": [
+          {
+            "text": "But James played a strong Zwischenzug sacrifice. \n\nIf I move my bishop away, James will have enough counterplay when he takes on b2.",
+            "arrows": {
+              "threats": [
+                "c3-b2"
+              ],
+              "opportunities": [
+                "c6-b5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a1"
+              ],
+              "opportunities": [
+                "b2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/ppp2pbp/2B2np1/6B1/8/N1p2N1P/PP3PP1/R2Q1RK1 w - - 0 3",
+        "parentNodeId": "O",
+        "san": "dxc3"
+      },
+      "Ag": {
+        "adjacentNodeIds": [
+          "4v"
+        ],
+        "comments": [
+          {
+            "text": "And he would take the pawn on b2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/ppp2pbp/5np1/1B4B1/8/N4N1P/Pp3PP1/R2R2K1 w - - 0 5",
+        "parentNodeId": "PX",
+        "san": "cxb2"
+      },
+      "As": {
+        "adjacentNodeIds": [
+          "bz"
+        ],
+        "comments": [
+          {
+            "text": "I went back to g1 with my king.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1q1r1k1/p1pb1p1p/3b2p1/Q5B1/4n3/N4N1P/P4PP1/3R1RK1 b - - 8 11",
+        "parentNodeId": "XB",
+        "san": "Kg1"
+      },
+      "BD": {
+        "adjacentNodeIds": [
+          "vN"
+        ],
+        "comments": [
+          {
+            "text": "James found this beautiful sacrifice which leads to checkmate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/p1p2p1p/3b2p1/Q5B1/8/N2R1Nnq/P4P2/5RK1 w - - 2 14",
+        "parentNodeId": "QW",
+        "san": "Ng3"
+      },
+      "Bj": {
+        "adjacentNodeIds": [
+          "sj"
+        ],
+        "comments": [
+          {
+            "text": "Black took.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/p1p2pbp/2p2np1/6B1/Q7/N1p2N1P/PP3PP1/R4RK1 w - - 0 4",
+        "parentNodeId": "TE",
+        "san": "bxc6"
+      },
+      "Eo": {
+        "adjacentNodeIds": [
+          "Sj"
+        ],
+        "comments": [
+          {
+            "text": "The engine wants Black to kick the bishop out of this diagonal where it controls the e8-square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp2pbp/p4np1/1B4B1/8/N4N1P/Pp3PP1/1R1R2K1 w - - 0 6",
+        "parentNodeId": "4v",
+        "san": "a6"
+      },
+      "FX": {
+        "adjacentNodeIds": [
+          "za"
+        ],
+        "comments": [
+          {
+            "text": "The king went to h1. Only move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/p1p2p1p/3b2p1/Q5B1/8/N2R1Nq1/P7/5R1K b - - 1 15",
+        "parentNodeId": "sA",
+        "san": "Kh1"
+      },
+      "Lw": {
+        "adjacentNodeIds": [
+          "hp"
+        ],
+        "comments": [
+          {
+            "text": "And James finally achieved the queen and bishop battery aiming at h3. \n\nThis is the first prerequisite to the sacrifice on h3. \n\nThe other requirement is basically just having enough pieces to attack the king with and to ensure that White cannot defend with more pieces.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1q2rk1/p1pb1pbp/5np1/6B1/8/N4N1P/PpQ2PP1/3R1RK1 w - - 4 7",
+        "parentNodeId": "aW",
+        "san": "Qc8"
+      },
+      "Nx": {
+        "adjacentNodeIds": [
+          "sn"
+        ],
+        "comments": [
+          {
+            "text": "I moved away from the attack and attacked his queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/p1p2pbp/2Q2np1/6B1/8/N4N1P/Pp3PP1/3R1RK1 b - - 1 5",
+        "parentNodeId": "vb",
+        "san": "Rad1"
+      },
+      "O": {
+        "adjacentNodeIds": [
+          "7"
+        ],
+        "comments": [
+          {
+            "text": "I chose to take James' knight to have more control over d4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/ppp2pbp/2B2np1/6B1/3p4/N1P2N1P/PP3PP1/R2Q1RK1 b - - 0 2",
+        "parentNodeId": "W",
+        "san": "Bxc6"
+      },
+      "PX": {
+        "adjacentNodeIds": [
+          "Ag"
+        ],
+        "comments": [
+          {
+            "text": "I would recapture.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/ppp2pbp/5np1/1B4B1/8/N1p2N1P/PP3PP1/R2R2K1 b - - 0 4",
+        "parentNodeId": "6Z",
+        "san": "Rfxd1"
+      },
+      "QW": {
+        "adjacentNodeIds": [
+          "BD"
+        ],
+        "comments": [
+          {
+            "text": "I defended my knight, but James had forced checkmate already.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3r1k1/p1p2p1p/3b2p1/Q5B1/4n3/N2R1N1q/P4P2/5RK1 b - - 1 13",
+        "parentNodeId": "uO",
+        "san": "Rd3"
+      },
+      "Sj": {
+        "adjacentNodeIds": [
+          "fZ"
+        ],
+        "comments": [
+          {
+            "text": "And after it moves, now Black can go for Nc3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp2pbp/p4np1/6B1/8/N2B1N1P/Pp3PP1/1R1R2K1 b - - 1 6",
+        "parentNodeId": "Eo",
+        "san": "Bd3"
+      },
+      "TE": {
+        "adjacentNodeIds": [
+          "Bj"
+        ],
+        "comments": [
+          {
+            "text": "That's why I chose to defend my bishop.\n\nIf ...bxc6, Qxc6 attacks the rook and the c-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/ppp2pbp/2B2np1/6B1/Q7/N1p2N1P/PP3PP1/R4RK1 b - - 1 3",
+        "parentNodeId": "7",
+        "san": "Qa4"
+      },
+      "Tu": {
+        "adjacentNodeIds": [
+          "pH"
+        ],
+        "comments": [
+          {
+            "text": "James simply defended his knight. \n\nThings were starting to look dangerous for me!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d7-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h3"
+              ],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1q1r1k1/p1pb1pbp/6p1/6B1/1Q2n3/N4N1P/P4PP1/3R1RK1 w - - 3 9",
+        "parentNodeId": "eR",
+        "san": "Re8"
+      },
+      "W": {
+        "adjacentNodeIds": [
+          "O"
+        ],
+        "comments": [
+          {
+            "text": "James traded pawns on d4. \n\nA sacrifice on h3/h6 is usually preceded by a bishop and queen battery that aims at the h-pawn, but we're not there yet.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/ppp2pbp/2n2np1/6B1/3pB3/N1P2N1P/PP3PP1/R2Q1RK1 w - - 0 2",
+        "parentNodeId": "0",
+        "san": "exd4"
+      },
+      "Wl": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The computer recommends this as the best way to prolong the game. \n\nBut this isn't good news. White is lost.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1q1r1k1/p1pb1p1p/3R2p1/Q5B1/4n3/N4N1P/P4PPK/5R2 b - - 0 11",
+        "parentNodeId": "XB",
+        "san": "Rxd6"
+      },
+      "XB": {
+        "adjacentNodeIds": [
+          "As",
+          "Wl"
+        ],
+        "comments": [
+          {
+            "text": "James gave a check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1q1r1k1/p1pb1p1p/3b2p1/Q5B1/4n3/N4N1P/P4PPK/3R1R2 w - - 7 11",
+        "parentNodeId": "w4",
+        "san": "Bd6+"
+      },
+      "Xu": {
+        "adjacentNodeIds": [
+          "uO"
+        ],
+        "comments": [
+          {
+            "text": "I captured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1q1r1k1/p1p2p1p/3b2p1/Q5B1/4n3/N4N1P/P4P2/3R1RK1 b - - 0 12",
+        "parentNodeId": "bz",
+        "san": "gxh3"
+      },
+      "aW": {
+        "adjacentNodeIds": [
+          "Lw"
+        ],
+        "comments": [
+          {
+            "text": "I went all the way back to c2. \n\nI thought I'd have no trouble picking up the b2-pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/p1pb1pbp/5np1/6B1/8/N4N1P/PpQ2PP1/3R1RK1 b - - 3 6",
+        "parentNodeId": "sn",
+        "san": "Qc2"
+      },
+      "bz": {
+        "adjacentNodeIds": [
+          "Xu"
+        ],
+        "comments": [
+          {
+            "text": "And finally, with a strong bishop on d6 that would help him in the attack, James sacrificed on h3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1q1r1k1/p1p2p1p/3b2p1/Q5B1/4n3/N4N1b/P4PP1/3R1RK1 w - - 0 12",
+        "parentNodeId": "As",
+        "san": "Bxh3"
+      },
+      "eR": {
+        "adjacentNodeIds": [
+          "Tu"
+        ],
+        "comments": [
+          {
+            "text": "I went to the b4-square, with pressure on the knight. \n\nThis wasn't the best move in the long run because of a powerful maneuver Black would achieve. Qc1 was safer, though White is still lost.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1q2rk1/p1pb1pbp/6p1/6B1/1Q2n3/N4N1P/P4PP1/3R1RK1 b - - 2 8",
+        "parentNodeId": "nw",
+        "san": "Qb4"
+      },
+      "fZ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White certainly has ways to defend, but it isn't easy to do so. \n\nOne also gets the feeling things could go wrong at any moment.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d5-c3",
+                "g5-d2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/1pp2pbp/p5p1/3n2B1/8/N2B1N1P/Pp3PP1/1R1R2K1 w - - 2 7",
+        "parentNodeId": "Sj",
+        "san": "Nd5"
+      },
+      "hp": {
+        "adjacentNodeIds": [
+          "nw"
+        ],
+        "comments": [
+          {
+            "text": "I finally took on b2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1q2rk1/p1pb1pbp/5np1/6B1/8/N4N1P/PQ3PP1/3R1RK1 b - - 0 7",
+        "parentNodeId": "Lw",
+        "san": "Qxb2"
+      },
+      "hs": {
+        "adjacentNodeIds": [
+          "w4"
+        ],
+        "comments": [
+          {
+            "text": "But James found this timely maneuver. \n\nHe attacked my queen. \n\nBut it's not just a simple attack. The bishop is going to d6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f8-d6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1q1rbk1/p1pb1p1p/6p1/6B1/1Q2n3/N4N1P/P4PPK/3R1R2 w - - 5 10",
+        "parentNodeId": "pH",
+        "san": "Bf8"
+      },
+      "nw": {
+        "adjacentNodeIds": [
+          "eR"
+        ],
+        "comments": [
+          {
+            "text": "But James centralized his knight, attacking my queen in the process.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b2",
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1q2rk1/p1pb1pbp/6p1/6B1/4n3/N4N1P/PQ3PP1/3R1RK1 w - - 1 8",
+        "parentNodeId": "hp",
+        "san": "Ne4"
+      },
+      "pH": {
+        "adjacentNodeIds": [
+          "hs"
+        ],
+        "comments": [
+          {
+            "text": "I put my king on h2 to defend h3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1q1r1k1/p1pb1pbp/6p1/6B1/1Q2n3/N4N1P/P4PPK/3R1R2 b - - 4 9",
+        "parentNodeId": "Tu",
+        "san": "Kh2"
+      },
+      "sA": {
+        "adjacentNodeIds": [
+          "FX"
+        ],
+        "comments": [
+          {
+            "text": "He recaptured with check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/p1p2p1p/3b2p1/Q5B1/8/N2R1Nq1/P7/5RK1 w - - 0 15",
+        "parentNodeId": "vN",
+        "san": "Qxg3+"
+      },
+      "sj": {
+        "adjacentNodeIds": [
+          "vb"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/p1p2pbp/2Q2np1/6B1/8/N1p2N1P/PP3PP1/R4RK1 b - - 0 4",
+        "parentNodeId": "Bj",
+        "san": "Qxc6"
+      },
+      "sn": {
+        "adjacentNodeIds": [
+          "aW"
+        ],
+        "comments": [
+          {
+            "text": "James blocked and attacked my queen. \n\nHe also defended his a8-rook.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": [
+                "a8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/p1pb1pbp/2Q2np1/6B1/8/N4N1P/Pp3PP1/3R1RK1 w - - 2 6",
+        "parentNodeId": "Nx",
+        "san": "Bd7"
+      },
+      "uO": {
+        "adjacentNodeIds": [
+          "QW"
+        ],
+        "comments": [
+          {
+            "text": "He recaptured. This is a tempo on the knight (which cannot move because of checkmate threats).",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3r1k1/p1p2p1p/3b2p1/Q5B1/4n3/N4N1q/P4P2/3R1RK1 w - - 0 13",
+        "parentNodeId": "Xu",
+        "san": "Qxh3"
+      },
+      "vN": {
+        "adjacentNodeIds": [
+          "sA"
+        ],
+        "comments": [
+          {
+            "text": "I took.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/p1p2p1p/3b2p1/Q5B1/8/N2R1NPq/P7/5RK1 b - - 0 14",
+        "parentNodeId": "BD",
+        "san": "fxg3"
+      },
+      "vb": {
+        "adjacentNodeIds": [
+          "Nx"
+        ],
+        "comments": [
+          {
+            "text": "Before defending his rook, James attacked my rook.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/p1p2pbp/2Q2np1/6B1/8/N4N1P/Pp3PP1/R4RK1 w - - 0 5",
+        "parentNodeId": "sj",
+        "san": "cxb2"
+      },
+      "w4": {
+        "adjacentNodeIds": [
+          "XB"
+        ],
+        "comments": [
+          {
+            "text": "I went to a5 with my queen.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1q1rbk1/p1pb1p1p/6p1/Q5B1/4n3/N4N1P/P4PPK/3R1R2 b - - 6 10",
+        "parentNodeId": "hs",
+        "san": "Qa5"
+      },
+      "za": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And after ...Re2 I resigned. Checkmate could not be stopped. \n\nA bishop and queen battery aiming at a pawn on h3 is very dangerous. A sacrifice can ensue. \n\nTo make sure it works, you have to bring more pieces into the attack like my opponent did in this game, and you have to make sure they cannot defend with their queen or block your checks with some other piece.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/p1p2p1p/3b2p1/Q5B1/8/N2R1Nq1/P3r3/5R1K w - - 2 16",
+        "parentNodeId": "FX",
+        "san": "Re2"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

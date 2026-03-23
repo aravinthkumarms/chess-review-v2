@@ -1,0 +1,82 @@
+{
+  "id": "e1f1c9b9-50b0-40ce-a9bb-5df618edb413",
+  "name": "Quiz 19 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White moves their queen.\n\nCan you describe why ...Nd6 is a mistake?",
+    "answers": [
+      {
+        "text": "It allows a tactic.",
+        "feedback": {
+          "text": "Yes! Bg6 is a double attack.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c2-g6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h5",
+              "e8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It weakens g7.",
+        "feedback": {
+          "text": "Not exactly, since White's strongest response after ...Nd6 isn't to capture on g7 with their rook.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It isn’t a mistake, it’s the best move to reroute the knight to e4.",
+        "feedback": {
+          "text": "After ...Nd6 White has a strong double attack with Bg6!",
+          "arrows": {
+            "threats": [
+              "f5-d6"
+            ],
+            "opportunities": [
+              "c2-g6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h5",
+              "e8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "4rrk1/pb4p1/1p2pb1p/3p1n1q/2pP1P2/2P1PN2/PPBNQ1RP/6RK w - - 1 1",
+    "arrows": {
+      "threats": [
+        "f5-d6"
+      ],
+      "opportunities": []
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Qf2",
+      "afterMoveFen": "4rrk1/pb4p1/1p2pb1p/3p1n1q/2pP1P2/2P1PN2/PPBN1QRP/6RK b - - 2 1"
+    }
+  },
+  "drill": null
+}

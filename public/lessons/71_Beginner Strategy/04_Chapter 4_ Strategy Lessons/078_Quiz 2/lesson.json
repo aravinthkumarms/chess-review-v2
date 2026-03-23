@@ -1,0 +1,76 @@
+{
+  "id": "78928f2c-367f-489b-96f5-76eb2c989121",
+  "name": "Quiz 2",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "There are some weaknesses in Black's position: c7, h7, the e6 square, among others.\n\nWhat's the best move to target one of Black's weaknesses?",
+    "answers": [
+      {
+        "text": "Ng5",
+        "feedback": {
+          "text": "The most powerful move.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g5-e6"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "h7",
+              "e6",
+              "c7",
+              "f8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "attacking h7 and looking at the e6 square.",
+        "afterMoveFen": "r3qrk1/pbpnn1bp/1p4p1/4p1N1/4P3/3B2B1/PPPNQPP1/2KR3R b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Nc4",
+        "feedback": {
+          "text": "e5 is only one pawn. Black can defend.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "attacking the e5 pawn.",
+        "afterMoveFen": "r3qrk1/pbpnn1bp/1p4p1/4p3/2N1P3/3B1NB1/PPP1QPP1/2KR3R b - - 3 2"
+      },
+      {
+        "text": "Bb5",
+        "feedback": {
+          "text": "This is only one attack. It's not enough.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "attacking the d7 knight because it's only defended by the queen.",
+        "afterMoveFen": "r3qrk1/pbpnn1bp/1p4p1/1B2p3/4P3/5NB1/PPPNQPP1/2KR3R b - - 3 2"
+      },
+      {
+        "text": "Rh3",
+        "feedback": {
+          "text": "A good idea generally, but there's something better.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "getting ready to double rooks!",
+        "afterMoveFen": "r3qrk1/pbpnn1bp/1p4p1/4p3/4P3/3B1NBR/PPPNQPP1/2KR4 b - - 3 2"
+      }
+    ],
+    "positionFen": "r2q1rk1/pbpnn1bp/1p4p1/4p3/4P3/3B1NB1/PPPNQPP1/2KR3R b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qe8",
+      "afterMoveFen": "r3qrk1/pbpnn1bp/1p4p1/4p3/4P3/3B1NB1/PPPNQPP1/2KR3R w - - 2 2"
+    }
+  },
+  "drill": null
+}

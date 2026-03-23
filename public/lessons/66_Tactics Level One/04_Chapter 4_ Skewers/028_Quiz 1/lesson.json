@@ -1,0 +1,66 @@
+{
+  "id": "af0a0300-7462-41be-8698-21ed3d55f1ec",
+  "name": "Quiz 1",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black gives a check.\n\nWhat's the only move that loses the game for White?",
+    "answers": [
+      {
+        "text": "Kc5",
+        "feedback": {
+          "text": "Correct! The only losing move is Kc5 because it runs into a skewer. Black wins a queen after ...Qa3+.",
+          "arrows": {
+            "threats": [
+              "d3-a3"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [
+              "f8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": "moving to the left.",
+        "afterMoveFen": "5Q2/8/8/2K5/8/3q4/7k/8 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Ke6",
+        "feedback": {
+          "text": "Ke6 is a good move. Black has no way to win material in this position.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "going backwards.",
+        "afterMoveFen": "5Q2/8/4K3/8/8/3q4/7k/8 b - - 3 2"
+      },
+      {
+        "text": "Ke5",
+        "feedback": {
+          "text": "Ke5 is a good move. Black has no way to win material in this position.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "moving to the right.",
+        "afterMoveFen": "5Q2/8/8/4K3/8/3q4/7k/8 b - - 3 2"
+      }
+    ],
+    "positionFen": "5Q2/8/8/3K4/8/8/4q2k/8 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Qd3+",
+      "afterMoveFen": "5Q2/8/8/3K4/8/3q4/7k/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

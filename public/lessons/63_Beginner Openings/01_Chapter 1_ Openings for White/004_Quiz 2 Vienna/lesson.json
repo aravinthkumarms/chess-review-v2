@@ -1,0 +1,66 @@
+{
+  "id": "38a1f592-7cc3-425d-bda3-97bb06cb997d",
+  "name": "Quiz 2 Vienna ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White played e4 and Nc3. \n\nDo you know the name of this opening?",
+    "answers": [
+      {
+        "text": "The Vienna.",
+        "feedback": {
+          "text": "Correct! Nc3 here is the Vienna.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b1-c3"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "The Scotch.",
+        "feedback": {
+          "text": "The Scotch is 1.e4 e5 2.Nf3 Nc6 3.d4!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "The 10 Golden Moves",
+        "feedback": {
+          "text": "The 10 Golden Moves are basic principles shown in moves, but we cannot play them here because Black played ...e5.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e5"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Nf6",
+      "afterMoveFen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

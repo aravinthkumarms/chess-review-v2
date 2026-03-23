@@ -1,0 +1,79 @@
+{
+  "id": "270e391c-3db0-480f-a13a-0c980f76e57e",
+  "name": "Quiz 6",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black centralizes their knight. \n\nYou have the White pieces. Should you accept this trade?",
+    "answers": [
+      {
+        "text": "Yes. Nxe4 wins for White.",
+        "feedback": {
+          "text": "The reason this wins is that after ...dxe4, White gets a passed d-pawn. This is a winning king and pawn endgame.",
+          "arrows": {
+            "threats": [
+              "d5-e4"
+            ],
+            "opportunities": [
+              "g5-e4",
+              "d4-d5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "e4",
+              "d4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, Nxe4 is a losing king and pawn endgame.",
+        "feedback": {
+          "text": "Are you sure this is the case? Don't you get a passed d-pawn?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It doesn't matter, it's a draw either way.",
+        "feedback": {
+          "text": "I think it does matter. You could be winning! Calculate!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/1p6/1P4p1/3p1kN1/2pP1P2/2P1K3/3n4/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ne4",
+      "afterMoveFen": "8/1p6/1P4p1/3p1kN1/2pPnP2/2P1K3/8/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

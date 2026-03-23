@@ -1,0 +1,74 @@
+{
+  "id": "13f67fd7-32b2-4d8d-8d7e-44b7bec5661f",
+  "name": "Quiz 15 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White is developing. \n\nWould you say that playing ...Nc5 is a mistake here?",
+    "answers": [
+      {
+        "text": "Yes, there is a tactic for White.",
+        "feedback": {
+          "text": "Yes! Bxc5 and we'll lose the pawn on e5 next!",
+          "arrows": {
+            "threats": [
+              "d7-c5"
+            ],
+            "opportunities": [
+              "e3-c5",
+              "f3-e5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, the c5-square is a nice outpost for the knight.",
+        "feedback": {
+          "text": "What happens if White trades (Bxc5)?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "It isn’t a mistake, but there’s a better move.",
+        "feedback": {
+          "text": "Playing ...Nc5 loses the pawn on e5 after White trades (Bxc5)!",
+          "arrows": {
+            "threats": [
+              "d7-c5",
+              "f3-e5"
+            ],
+            "opportunities": [
+              "e3-c5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqk2r/pppnbppp/3p1n2/3Pp3/4P3/2PB1N1P/PP3PP1/RNBQK2R w KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d7-c5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Be3",
+      "afterMoveFen": "r1bqk2r/pppnbppp/3p1n2/3Pp3/4P3/2PBBN1P/PP3PP1/RN1QK2R b KQkq - 2 1"
+    }
+  },
+  "drill": null
+}

@@ -1,0 +1,92 @@
+{
+  "id": "a5bc63a4-c7cf-4386-9503-b54ca6c7e115",
+  "name": "Quiz 5: Korchnoi vs Petrosian, 1974",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "This is a very instructive position.\n\nWhat's the winning move for White?",
+    "answers": [
+      {
+        "text": "Kb5",
+        "feedback": {
+          "text": "Excellent! \n\nAny capture would have resulted in a draw.\n\nNow wherever Black goes, we follow them by capturing the correct pawn.\n\nIt's important not to rush and to calculate everything until the end.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "b3-a3",
+              "b5-a5",
+              "b3-c3",
+              "b5-c5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "not capturing immediately.",
+        "afterMoveFen": "8/8/8/pKp5/P1P5/1k6/8/8 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kxa5",
+        "feedback": {
+          "text": "Black can capture on c4! It's a draw.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "capturing the a-pawn.",
+        "afterMoveFen": "8/8/8/K1p5/P1P5/1k6/8/8 b - - 0 2"
+      },
+      {
+        "text": "Kxc5",
+        "feedback": {
+          "text": "Black can capture on a4! It's a draw.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "capturing the c-pawn.",
+        "afterMoveFen": "8/8/8/p1K5/P1P5/1k6/8/8 b - - 0 2"
+      },
+      {
+        "text": "Ka6",
+        "feedback": {
+          "text": "Don't let Black capture your pawns first!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "making a waiting move.",
+        "afterMoveFen": "8/8/K7/p1p5/P1P5/1k6/8/8 b - - 1 2"
+      }
+    ],
+    "positionFen": "8/8/1K6/p1p5/P1P5/1Pk5/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Kxb3",
+      "afterMoveFen": "8/8/1K6/p1p5/P1P5/1k6/8/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

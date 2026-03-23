@@ -1,0 +1,43 @@
+{
+  "id": "099e80cd-215e-4fae-8be8-985d156d1689",
+  "name": "Quiz 3 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The knight goes back to defend. \n\nNo hints and one move only. How can you win?",
+    "answers": [
+      {
+        "text": "Rf8",
+        "feedback": {
+          "text": "Great move! You attack the defender on the queening square. ...Ne7 and Re8, Nf5 or Nc8 should be game.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "5Rn1/pp4P1/2pNk3/P2p4/3P4/2P3K1/1r6/8 b - - 3 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Black's rook is pretty much out of bounds.Think about how you can pressure the only defender Black is using right now.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/pp4P1/2pNkn2/P2p1R2/3P4/2P3K1/1r6/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ng8",
+      "afterMoveFen": "6n1/pp4P1/2pNk3/P2p1R2/3P4/2P3K1/1r6/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

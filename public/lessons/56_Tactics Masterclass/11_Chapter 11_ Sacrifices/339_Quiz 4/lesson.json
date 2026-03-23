@@ -1,0 +1,63 @@
+{
+  "id": "cec17242-6946-40ef-9ddb-58d83fef4680",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The king goes to f8 after the check. \n\nDoes the sacrifice Nxf6 work?",
+    "answers": [
+      {
+        "text": "Yes! It's a nice decoy.",
+        "feedback": {
+          "text": "You're correct. Black does not have an easy way to counter it. Rb2 fails due to many reasons.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "No, Black has a strong Zwischenzug.",
+        "feedback": {
+          "text": "You'd think so, but if you analyze it with some more depth, Black's Zwischenzugs don't work.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No it doesn't, White’s knight won’t be stable on f6.",
+        "feedback": {
+          "text": "The queen can never take it because the rook hangs.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1r6/Q5k1/3q1pp1/3P4/6N1/6PP/5P1K/8 b - - 1 1",
+    "arrows": {
+      "threats": [
+        "g4-f6"
+      ],
+      "opportunities": []
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "f6"
+      ]
+    },
+    "contextMove": {
+      "san": "Kf8",
+      "afterMoveFen": "1r3k2/Q7/3q1pp1/3P4/6N1/6PP/5P1K/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

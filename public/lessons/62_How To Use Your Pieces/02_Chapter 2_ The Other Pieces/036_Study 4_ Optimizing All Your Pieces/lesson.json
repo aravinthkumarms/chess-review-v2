@@ -1,0 +1,1327 @@
+{
+  "id": "053bba71-3667-4554-a52d-bb3ed8c50468",
+  "name": "Study 4: Optimizing All Your Pieces",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "L"
+        ],
+        "comments": [
+          {
+            "text": "This game was played between GM Fabiano Caruana and GM Vladislav Artemiev at the Fide World Rapid 2022. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "07": {
+        "adjacentNodeIds": [
+          "hJ",
+          "z2"
+        ],
+        "comments": [
+          {
+            "text": "Caruana captured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "br1qrbk1/5pp1/p6p/P1pPp2Q/1nB5/2BP3P/1P3PPN/2R1R1K1 b - - 0 22",
+        "parentNodeId": "4M",
+        "san": "exd5"
+      },
+      "1S": {
+        "adjacentNodeIds": [
+          "7q"
+        ],
+        "comments": [
+          {
+            "text": "Caruana went to a4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4",
+        "parentNodeId": "dK",
+        "san": "Ba4"
+      },
+      "2A": {
+        "adjacentNodeIds": [
+          "iS",
+          "rR"
+        ],
+        "comments": [
+          {
+            "text": "And now Caruana uses his rook on e8 to pin the f8 bishop! \n\nMeanwhile, the rest of White's pieces target the Black queenside. \n\nThis is piece utilization to its highest degree! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c3-g7",
+                "g4-h6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f8",
+                "g7",
+                "h6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4Rbk1/3r1pp1/pq5p/2p4Q/1nP3N1/2B4P/1P3PP1/6K1 b - - 0 28",
+        "parentNodeId": "Zu",
+        "san": "Rxe8"
+      },
+      "43": {
+        "adjacentNodeIds": [
+          "FM"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev removed the dangerous bishop off the board. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qrbk1/5pp1/p6p/P1p1R2Q/1nb5/2BP3P/1P3PPN/2R3K1 w - - 0 24",
+        "parentNodeId": "UD",
+        "san": "Bxc4"
+      },
+      "4M": {
+        "adjacentNodeIds": [
+          "07"
+        ],
+        "comments": [
+          {
+            "text": "Black had to play d5 to block the diagonal and also to get some counterplay. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "br1qrbk1/5pp1/p6p/P1ppp2Q/1nB1P3/2BP3P/1P3PPN/2R1R1K1 w - - 0 22",
+        "parentNodeId": "Zv",
+        "san": "d5"
+      },
+      "63": {
+        "adjacentNodeIds": [
+          "Jx"
+        ],
+        "comments": [
+          {
+            "text": "The knight came into d7. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d7-f6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f8",
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rRb2/3N1Qpk/pq3p1p/2p5/1nP5/2B4P/1P3PP1/6K1 b - - 3 31",
+        "parentNodeId": "fi",
+        "san": "Nd7"
+      },
+      "6u": {
+        "adjacentNodeIds": [
+          "E1"
+        ],
+        "comments": [
+          {
+            "text": "The bishop came out to d6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4R3/3Q2pk/pq1b1p1p/2p5/1nP5/2B4P/1P3PP1/6K1 w - - 1 33",
+        "parentNodeId": "r5",
+        "san": "Bd6"
+      },
+      "7H": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "There is another fork! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g4-d7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d7",
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4Rbk1/3r1p2/1q3p1p/p1p5/1nP3Q1/2B4P/1P3PP1/6K1 b - - 1 30",
+        "parentNodeId": "PA",
+        "san": "Qg4+"
+      },
+      "7q": {
+        "adjacentNodeIds": [
+          "i7"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev developed the knight and attacked e4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5",
+        "parentNodeId": "1S",
+        "san": "Nf6"
+      },
+      "9t": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White can just push d4, threatening d5. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d4-d5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1bppbppp/2n2n2/p3p3/Pp1PP3/1BP2N2/1P1B1PPP/RN1QR1K1 b - - 0 12",
+        "parentNodeId": "La",
+        "san": "d4"
+      },
+      "BG": {
+        "adjacentNodeIds": [
+          "dK"
+        ],
+        "comments": [
+          {
+            "text": "Caruana went for a Spanish.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+        "parentNodeId": "Py",
+        "san": "Bb5"
+      },
+      "BX": {
+        "adjacentNodeIds": [
+          "yc"
+        ],
+        "comments": [
+          {
+            "text": "Caruana improved the position of his knight, placing it in the center. \n\nFreeing up the c3 square also allows Bc3 at some point. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d2-c3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qr1k1/1bppbpp1/p1n2n1p/3Np3/P3P3/1B1P1N2/1P1B1PPP/2RQR1K1 b - - 1 14",
+        "parentNodeId": "yF",
+        "san": "Nd5"
+      },
+      "DS": {
+        "adjacentNodeIds": [
+          "ap"
+        ],
+        "comments": [
+          {
+            "text": "White recaptured and developed the knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1bppbppp/p1n2n2/4p3/P3P3/1BNP1N2/1P1B1PPP/R2QR1K1 b - - 0 12",
+        "parentNodeId": "mP",
+        "san": "Nxc3"
+      },
+      "Dl": {
+        "adjacentNodeIds": [
+          "fi"
+        ],
+        "comments": [
+          {
+            "text": "This allowed Caruana to infiltrate with a check. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rRbk1/5Qp1/pq3p1p/2p1N3/1nP5/2B4P/1P3PP1/6K1 b - - 1 30",
+        "parentNodeId": "OK",
+        "san": "Qf7+"
+      },
+      "E1": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Caruana gave a check and Artemiev resigned. \n\nCheckmate in 3 cannot be stopped. \n\nWith this game, Caruana has given us a masterclass in piece utilization, with maneuvers like Nf3-h2-g4-e5 and rook activation along the open files. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g7-g6",
+                "f5-d7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4R3/6pk/pq1b1p1p/2p2Q2/1nP5/2B4P/1P3PP1/6K1 b - - 2 33",
+        "parentNodeId": "6u",
+        "san": "Qf5+"
+      },
+      "FM": {
+        "adjacentNodeIds": [
+          "IX"
+        ],
+        "comments": [
+          {
+            "text": "Caruana recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qrbk1/5pp1/p6p/P1p1R2Q/1nP5/2B4P/1P3PPN/2R3K1 b - - 0 24",
+        "parentNodeId": "43",
+        "san": "dxc4"
+      },
+      "Fg": {
+        "adjacentNodeIds": [
+          "yX"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev fianchettoed. \n\nNow if 9. axb5, Black can recapture 9...axb5 and the rook on a8 is protected.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a6-b5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/1bppbppp/p1n2n2/1p2p3/P3P3/1B3N2/1PPP1PPP/RNBQR1K1 w - - 1 9",
+        "parentNodeId": "rg",
+        "san": "Bb7"
+      },
+      "G": {
+        "adjacentNodeIds": [
+          "Py"
+        ],
+        "comments": [
+          {
+            "text": "Fabiano put pressure on e5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+        "parentNodeId": "h",
+        "san": "Nf3"
+      },
+      "Hd": {
+        "adjacentNodeIds": [
+          "Zq"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev recaptured. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "br2rbk1/2p2pp1/p1np1q1p/4p3/P3P3/1BBP1N1P/1P3PP1/2RQR1K1 w - - 0 18",
+        "parentNodeId": "Kt",
+        "san": "Qxf6"
+      },
+      "IX": {
+        "adjacentNodeIds": [
+          "QJ"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev developed his queen. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "1r2rbk1/5pp1/p6p/q1p1R2Q/1nP5/2B4P/1P3PPN/2R3K1 w - - 0 25",
+        "parentNodeId": "FM",
+        "san": "Qxa5"
+      },
+      "Ji": {
+        "adjacentNodeIds": [
+          "MG"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev played Nb4, defending a6. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b4-a6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "br2rbk1/2p2pp1/p2p1q1p/4p3/PnB1P3/2BP1N1P/1P3PP1/2RQR1K1 w - - 2 19",
+        "parentNodeId": "Zq",
+        "san": "Nb4"
+      },
+      "Jx": {
+        "adjacentNodeIds": [
+          "r5"
+        ],
+        "comments": [
+          {
+            "text": "Black was forced to take the knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4Rb2/3r1Qpk/pq3p1p/2p5/1nP5/2B4P/1P3PP1/6K1 w - - 0 32",
+        "parentNodeId": "63",
+        "san": "Rxd7"
+      },
+      "Kt": {
+        "adjacentNodeIds": [
+          "Hd"
+        ],
+        "comments": [
+          {
+            "text": "Caruana traded.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "br1qrbk1/2p2pp1/p1np1N1p/4p3/P3P3/1BBP1N1P/1P3PP1/2RQR1K1 b - - 0 17",
+        "parentNodeId": "ow",
+        "san": "Nxf6+"
+      },
+      "L": {
+        "adjacentNodeIds": [
+          "h"
+        ],
+        "comments": [
+          {
+            "text": "Fabiano began with 1. e4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+        "parentNodeId": "0",
+        "san": "e4"
+      },
+      "La": {
+        "adjacentNodeIds": [
+          "9t"
+        ],
+        "comments": [
+          {
+            "text": "Trying to protect this pawn just creates long term weaknesses. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1bppbppp/2n2n2/p3p3/Pp2P3/1BPP1N2/1P1B1PPP/RN1QR1K1 w - - 0 12",
+        "parentNodeId": "Vy",
+        "san": "a5"
+      },
+      "Ll": {
+        "adjacentNodeIds": [
+          "Vy"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev pushed b4, covering the c3 square. \n\nThis move is specifically designed to make Bd2 look silly because now White cannot develop the b1 knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1bppbppp/p1n2n2/4p3/Pp2P3/1B1P1N2/1PPB1PPP/RN1QR1K1 w - - 0 11",
+        "parentNodeId": "ME",
+        "san": "b4"
+      },
+      "ME": {
+        "adjacentNodeIds": [
+          "Ll"
+        ],
+        "comments": [
+          {
+            "text": "The bishop was developed to d2.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d2-c3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1bppbppp/p1n2n2/1p2p3/P3P3/1B1P1N2/1PPB1PPP/RN1QR1K1 b - - 2 10",
+        "parentNodeId": "cn",
+        "san": "Bd2"
+      },
+      "MG": {
+        "adjacentNodeIds": [
+          "NR"
+        ],
+        "comments": [
+          {
+            "text": "Caruana played a5. \n\nThe idea is to fix the weakness on a6. \n\nFixing a6 also prevents Black from playing a5, defending the b4 knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "br2rbk1/2p2pp1/p2p1q1p/P3p3/1nB1P3/2BP1N1P/1P3PP1/2RQR1K1 b - - 0 19",
+        "parentNodeId": "Ji",
+        "san": "a5"
+      },
+      "MN": {
+        "adjacentNodeIds": [
+          "bC"
+        ],
+        "comments": [
+          {
+            "text": "Caruana brought his other rook into the game. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2rbk1/5pp1/pq5p/2p1R2Q/1nP3N1/2B4P/1P3PP1/3R2K1 b - - 3 26",
+        "parentNodeId": "Rv",
+        "san": "Rd1"
+      },
+      "MO": {
+        "adjacentNodeIds": [
+          "Zu"
+        ],
+        "comments": [
+          {
+            "text": "And instead of simply accepting the trade, Caruana attacked f7! \n\nHis idea is that if Rxd7, Rxe8 and there will be a pin on the f8 bishop! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-f7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rrbk1/3R1pp1/pq5p/2p1R2Q/1nP3N1/2B4P/1P3PP1/6K1 b - - 5 27",
+        "parentNodeId": "bC",
+        "san": "Rd7"
+      },
+      "NR": {
+        "adjacentNodeIds": [
+          "mL"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev played c5, which defends the knight further.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "br2rbk1/5pp1/p2p1q1p/P1p1p3/1nB1P3/2BP1N1P/1P3PP1/2RQR1K1 w - c6 0 20",
+        "parentNodeId": "MG",
+        "san": "c5"
+      },
+      "OK": {
+        "adjacentNodeIds": [
+          "Dl"
+        ],
+        "comments": [
+          {
+            "text": "Under extreme pressure, Black pushed f6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rRbk1/6p1/pq3p1p/2p1N2Q/1nP5/2B4P/1P3PP1/6K1 w - - 0 30",
+        "parentNodeId": "d3",
+        "san": "f6"
+      },
+      "PA": {
+        "adjacentNodeIds": [
+          "7H"
+        ],
+        "comments": [
+          {
+            "text": "When the knight is taken...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4Rbk1/3r1p2/1q3p1p/p1p4Q/1nP5/2B4P/1P3PP1/6K1 w - - 0 30",
+        "parentNodeId": "Qc",
+        "san": "gxf6"
+      },
+      "Pf": {
+        "adjacentNodeIds": [
+          "ow"
+        ],
+        "comments": [
+          {
+            "text": "The bishop on c3 not only puts pressure on the diagonal but also defends the b2 pawn. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "br1qrbk1/2pp1pp1/p1n2n1p/3Np3/P3P3/1BBP1N1P/1P3PP1/2RQR1K1 b - - 2 16",
+        "parentNodeId": "tS",
+        "san": "Bc3"
+      },
+      "Py": {
+        "adjacentNodeIds": [
+          "BG"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev defended.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+        "parentNodeId": "G",
+        "san": "Nc6"
+      },
+      "QJ": {
+        "adjacentNodeIds": [
+          "Rv"
+        ],
+        "comments": [
+          {
+            "text": "Caruana completed the knight's maneuver.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2rbk1/5pp1/p6p/q1p1R2Q/1nP3N1/2B4P/1P3PP1/2R3K1 b - - 1 25",
+        "parentNodeId": "IX",
+        "san": "Ng4"
+      },
+      "QX": {
+        "adjacentNodeIds": [
+          "zw"
+        ],
+        "comments": [
+          {
+            "text": "Caruana went to b3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b kq - 1 7",
+        "parentNodeId": "T8",
+        "san": "Bb3"
+      },
+      "Qc": {
+        "adjacentNodeIds": [
+          "PA"
+        ],
+        "comments": [
+          {
+            "text": "White can fork king and rook.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-d7",
+                "f6-g8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d7",
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4Rbk1/3r1pp1/1q3N1p/p1p4Q/1nP5/2B4P/1P3PP1/6K1 b - - 1 29",
+        "parentNodeId": "rR",
+        "san": "Nf6+"
+      },
+      "Rv": {
+        "adjacentNodeIds": [
+          "MN"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev brought the queen to the 6th rank. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r2rbk1/5pp1/pq5p/2p1R2Q/1nP3N1/2B4P/1P3PP1/2R3K1 w - - 2 26",
+        "parentNodeId": "QJ",
+        "san": "Qb6"
+      },
+      "SD": {
+        "adjacentNodeIds": [
+          "T8"
+        ],
+        "comments": [
+          {
+            "text": "Caruana defended e4. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 b kq - 5 6",
+        "parentNodeId": "nN",
+        "san": "Re1"
+      },
+      "T8": {
+        "adjacentNodeIds": [
+          "QX"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev pushed b5. \n\nThe idea behind this move in the Spanish is often to develop the light-squared bishop to b7. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c8-b7"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq b6 0 7",
+        "parentNodeId": "SD",
+        "san": "b5"
+      },
+      "TL": {
+        "adjacentNodeIds": [
+          "Zv"
+        ],
+        "comments": [
+          {
+            "text": "The queen got out of the potential knight attack.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "br1qrbk1/5pp1/p2p3p/P1p1p3/1nB1P3/2BP3P/1P3PPN/2RQR1K1 w - - 2 21",
+        "parentNodeId": "mL",
+        "san": "Qd8"
+      },
+      "UD": {
+        "adjacentNodeIds": [
+          "43"
+        ],
+        "comments": [
+          {
+            "text": "But this allowed Caruana to win a pawn on e5. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qrbk1/5pp1/p6p/P1pbR2Q/1nB5/2BP3P/1P3PPN/2R3K1 b - - 0 23",
+        "parentNodeId": "hJ",
+        "san": "Rxe5"
+      },
+      "Vy": {
+        "adjacentNodeIds": [
+          "mP",
+          "La"
+        ],
+        "comments": [
+          {
+            "text": "That's why Caruana immediately challenged the b4 pawn. \n\nHis goal is to give his b1 knight a square. \n\nWhen it comes to piece utilization, step #1 is to develop! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1bppbppp/p1n2n2/4p3/Pp2P3/1BPP1N2/1P1B1PPP/RN1QR1K1 b - - 0 11",
+        "parentNodeId": "Ll",
+        "san": "c3"
+      },
+      "Xb": {
+        "adjacentNodeIds": [
+          "yF"
+        ],
+        "comments": [
+          {
+            "text": "The rook came to c1. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qr1k1/1bppbppp/p1n2n2/4p3/P3P3/1BNP1N2/1P1B1PPP/2RQR1K1 b - - 2 13",
+        "parentNodeId": "ap",
+        "san": "Rc1"
+      },
+      "Zq": {
+        "adjacentNodeIds": [
+          "Ji"
+        ],
+        "comments": [
+          {
+            "text": "The bishop came to c4, attacking a6. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-a6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "br2rbk1/2p2pp1/p1np1q1p/4p3/P1B1P3/2BP1N1P/1P3PP1/2RQR1K1 b - - 1 18",
+        "parentNodeId": "Hd",
+        "san": "Bc4"
+      },
+      "Zu": {
+        "adjacentNodeIds": [
+          "2A"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev captured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rbk1/3r1pp1/pq5p/2p1R2Q/1nP3N1/2B4P/1P3PP1/6K1 w - - 0 28",
+        "parentNodeId": "MO",
+        "san": "Rxd7"
+      },
+      "Zv": {
+        "adjacentNodeIds": [
+          "4M"
+        ],
+        "comments": [
+          {
+            "text": "And White got the queen out to h5 with a tempo. \n\nEven though White isn't going to win f7, often simply improving a piece with a tempo is a win-win. \n\nWhite now has ideas of bringing more pieces into the kingside with stuff like Ng4, Re3-g3.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-f7",
+                "h2-g4",
+                "e1-e3",
+                "e3-g3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "br1qrbk1/5pp1/p2p3p/P1p1p2Q/1nB1P3/2BP3P/1P3PPN/2R1R1K1 b - - 3 21",
+        "parentNodeId": "TL",
+        "san": "Qh5"
+      },
+      "ap": {
+        "adjacentNodeIds": [
+          "Xb"
+        ],
+        "comments": [
+          {
+            "text": "And the rook came to b8, opposite the light-squared bishop on b3. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qr1k1/1bppbppp/p1n2n2/4p3/P3P3/1BNP1N2/1P1B1PPP/R2QR1K1 w - - 1 13",
+        "parentNodeId": "DS",
+        "san": "Rb8"
+      },
+      "bC": {
+        "adjacentNodeIds": [
+          "MO"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev proposed a rook trade. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rrbk1/5pp1/pq5p/2p1R2Q/1nP3N1/2B4P/1P3PP1/3R2K1 w - - 4 27",
+        "parentNodeId": "MN",
+        "san": "Rbd8"
+      },
+      "cn": {
+        "adjacentNodeIds": [
+          "ME"
+        ],
+        "comments": [
+          {
+            "text": "The black rook came into e8. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1bppbppp/p1n2n2/1p2p3/P3P3/1B1P1N2/1PP2PPP/RNBQR1K1 w - - 1 10",
+        "parentNodeId": "yX",
+        "san": "Re8"
+      },
+      "d3": {
+        "adjacentNodeIds": [
+          "OK"
+        ],
+        "comments": [
+          {
+            "text": "Fabiano improved his knight a bit more and this time converged on f7. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-f7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rRbk1/5pp1/pq5p/2p1N2Q/1nP5/2B4P/1P3PP1/6K1 b - - 2 29",
+        "parentNodeId": "iS",
+        "san": "Ne5"
+      },
+      "dK": {
+        "adjacentNodeIds": [
+          "1S"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev attacked the bishop. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+        "parentNodeId": "BG",
+        "san": "a6"
+      },
+      "fi": {
+        "adjacentNodeIds": [
+          "63"
+        ],
+        "comments": [
+          {
+            "text": "The king went to h7. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rRb2/5Qpk/pq3p1p/2p1N3/1nP5/2B4P/1P3PP1/6K1 w - - 2 31",
+        "parentNodeId": "Dl",
+        "san": "Kh7"
+      },
+      "g5": {
+        "adjacentNodeIds": [
+          "tS"
+        ],
+        "comments": [
+          {
+            "text": "h3 gives the king some air and covers the g4 square. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qrbk1/1bpp1pp1/p1n2n1p/3Np3/P3P3/1B1P1N1P/1P1B1PP1/2RQR1K1 b - - 0 15",
+        "parentNodeId": "yc",
+        "san": "h3"
+      },
+      "h": {
+        "adjacentNodeIds": [
+          "G"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev responded with e5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2",
+        "parentNodeId": "L",
+        "san": "e5"
+      },
+      "hJ": {
+        "adjacentNodeIds": [
+          "UD"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev recaptured with the bishop and proposed a trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qrbk1/5pp1/p6p/P1pbp2Q/1nB5/2BP3P/1P3PPN/2R1R1K1 w - - 0 23",
+        "parentNodeId": "07",
+        "san": "Bxd5"
+      },
+      "i7": {
+        "adjacentNodeIds": [
+          "nN"
+        ],
+        "comments": [
+          {
+            "text": "Caruana just castled.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5",
+        "parentNodeId": "7q",
+        "san": "O-O"
+      },
+      "iS": {
+        "adjacentNodeIds": [
+          "d3"
+        ],
+        "comments": [
+          {
+            "text": "The rook went to d8, trying to trade the powerful e8 rook. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rRbk1/5pp1/pq5p/2p4Q/1nP3N1/2B4P/1P3PP1/6K1 w - - 1 29",
+        "parentNodeId": "2A",
+        "san": "Rd8"
+      },
+      "mL": {
+        "adjacentNodeIds": [
+          "TL"
+        ],
+        "comments": [
+          {
+            "text": "Caruana now maneuvered the f3 knight. \n\nAfter a piece is developed, it's time to find a better square for it! \n\nSometimes the squares they develop to are fine, but other times pieces can be improved! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-g4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "br2rbk1/5pp1/p2p1q1p/P1p1p3/1nB1P3/2BP3P/1P3PPN/2RQR1K1 b - - 1 20",
+        "parentNodeId": "NR",
+        "san": "Nh2"
+      },
+      "mP": {
+        "adjacentNodeIds": [
+          "DS"
+        ],
+        "comments": [
+          {
+            "text": "Black took on c3. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qr1k1/1bppbppp/p1n2n2/4p3/P3P3/1BpP1N2/1P1B1PPP/RN1QR1K1 w - - 0 12",
+        "parentNodeId": "Vy",
+        "san": "bxc3"
+      },
+      "nN": {
+        "adjacentNodeIds": [
+          "SD"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev went for development.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6",
+        "parentNodeId": "i7",
+        "san": "Be7"
+      },
+      "ow": {
+        "adjacentNodeIds": [
+          "Kt"
+        ],
+        "comments": [
+          {
+            "text": "Black added another defender to the e5 pawn. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "br1qrbk1/2p2pp1/p1np1n1p/3Np3/P3P3/1BBP1N1P/1P3PP1/2RQR1K1 w - - 0 17",
+        "parentNodeId": "Pf",
+        "san": "d6"
+      },
+      "r5": {
+        "adjacentNodeIds": [
+          "6u"
+        ],
+        "comments": [
+          {
+            "text": "White just recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4Rb2/3Q2pk/pq3p1p/2p5/1nP5/2B4P/1P3PP1/6K1 b - - 0 32",
+        "parentNodeId": "Jx",
+        "san": "Qxd7"
+      },
+      "rR": {
+        "adjacentNodeIds": [
+          "Qc"
+        ],
+        "comments": [
+          {
+            "text": "Just to demonstrate the threats White has in the position...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4Rbk1/3r1pp1/1q5p/p1p4Q/1nP3N1/2B4P/1P3PP1/6K1 w - - 0 29",
+        "parentNodeId": "2A",
+        "san": "a5"
+      },
+      "rg": {
+        "adjacentNodeIds": [
+          "Fg"
+        ],
+        "comments": [
+          {
+            "text": "Caruana undermined the queenside structure. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/2ppbppp/p1n2n2/1p2p3/P3P3/1B3N2/1PPP1PPP/RNBQR1K1 b - a3 0 8",
+        "parentNodeId": "zw",
+        "san": "a4"
+      },
+      "tS": {
+        "adjacentNodeIds": [
+          "Pf"
+        ],
+        "comments": [
+          {
+            "text": "Ba8 clears the file for the b8 rook. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b3",
+                "b2"
+              ],
+              "opportunities": [
+                "b8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "br1qrbk1/2pp1pp1/p1n2n1p/3Np3/P3P3/1B1P1N1P/1P1B1PP1/2RQR1K1 w - - 1 16",
+        "parentNodeId": "g5",
+        "san": "Ba8"
+      },
+      "yF": {
+        "adjacentNodeIds": [
+          "BX"
+        ],
+        "comments": [
+          {
+            "text": "Black played h6 to deny the d2 bishop or the f3 knight the g5 square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qr1k1/1bppbpp1/p1n2n1p/4p3/P3P3/1BNP1N2/1P1B1PPP/2RQR1K1 w - - 0 14",
+        "parentNodeId": "Xb",
+        "san": "h6"
+      },
+      "yX": {
+        "adjacentNodeIds": [
+          "cn"
+        ],
+        "comments": [
+          {
+            "text": "Caruana supported the e4 pawn further and opened up his dark-squared bishop. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/1bppbppp/p1n2n2/1p2p3/P3P3/1B1P1N2/1PP2PPP/RNBQR1K1 b - - 0 9",
+        "parentNodeId": "Fg",
+        "san": "d3"
+      },
+      "yc": {
+        "adjacentNodeIds": [
+          "g5"
+        ],
+        "comments": [
+          {
+            "text": "The bishop avoided the trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "1r1qrbk1/1bpp1pp1/p1n2n1p/3Np3/P3P3/1B1P1N2/1P1B1PPP/2RQR1K1 w - - 2 15",
+        "parentNodeId": "BX",
+        "san": "Bf8"
+      },
+      "z2": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "g6 was useful to attack the queen. \n\nThis way, the queen moves and e5 is no longer under attack. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "br1qrbk1/5p2/p5pp/P1pPp2Q/1nB5/2BP3P/1P3PPN/2R1R1K1 w - - 0 23",
+        "parentNodeId": "07",
+        "san": "g6"
+      },
+      "zw": {
+        "adjacentNodeIds": [
+          "rg"
+        ],
+        "comments": [
+          {
+            "text": "Artemiev castled.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/2ppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w - - 2 8",
+        "parentNodeId": "QX",
+        "san": "O-O"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

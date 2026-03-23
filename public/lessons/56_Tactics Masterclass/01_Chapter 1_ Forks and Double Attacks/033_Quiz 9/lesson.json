@@ -1,0 +1,77 @@
+{
+  "id": "8f88ef7d-8df1-4df8-bd88-2240d83421bd",
+  "name": "Quiz 9",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White just played Bd4.\n\nCan you play ...e5 to fork their pieces here or is there something to worry about?",
+    "answers": [
+      {
+        "text": "There's something big to worry about.",
+        "feedback": {
+          "text": "If we play ...e5, White has Qf5, forking both our rooks!\n\nWe can't save both here.",
+          "arrows": {
+            "threats": [
+              "e6-e5"
+            ],
+            "opportunities": [
+              "f4-f5"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "d3",
+              "c8"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "…e5 allows Bc5, so Black doesn’t win material. Still, it’s a good try and there’s no major issues.",
+        "feedback": {
+          "text": "White has something far stronger than Bc5!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "...e5 is the best move. Black wins material.",
+        "feedback": {
+          "text": "White has something poisonous!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2r4k/1p2q1pp/p1b1pp2/P7/1PP2Q2/2Br4/5PPP/1RR3K1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "e6-e5"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "f4",
+        "d4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Bd4",
+      "afterMoveFen": "2r4k/1p2q1pp/p1b1pp2/P7/1PPB1Q2/3r4/5PPP/1RR3K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

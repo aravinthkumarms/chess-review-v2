@@ -1,0 +1,79 @@
+{
+  "id": "d534b895-3324-469a-9583-29872abb1ed2",
+  "name": "Quiz 5 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It is Black to move. \n\nIs ...g4 to attack the rook a good move?",
+    "answers": [
+      {
+        "text": "No, it's a tactical blunder.",
+        "feedback": {
+          "text": "...g4 loses the defense of the knight!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g5-g4",
+              "f3-f4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "This move chases the rook away. It's a good move!",
+        "feedback": {
+          "text": "Does ...g4 overlook something?",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g5-g4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, it's a strategic mistake.",
+        "feedback": {
+          "text": "Are you sure?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2k5/p7/1pp5/2p2rp1/2P2n2/5R2/PP3B2/6K1 w - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "g5-g4"
+      ]
+    },
+    "highlights": {
+      "threats": [
+        "f3"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Be3",
+      "afterMoveFen": "2k5/p7/1pp5/2p2rp1/2P2n2/4BR2/PP6/6K1 b - - 2 1"
+    }
+  },
+  "drill": null
+}

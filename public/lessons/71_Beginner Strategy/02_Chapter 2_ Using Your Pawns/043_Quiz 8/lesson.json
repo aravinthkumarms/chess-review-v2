@@ -1,0 +1,68 @@
+{
+  "id": "57004297-a3a8-4261-a07f-6023e9496899",
+  "name": "Quiz 8",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The bishop goes to c4. \n\nConsidering pawn breaks, what's the best move?",
+    "answers": [
+      {
+        "text": "d5",
+        "feedback": {
+          "text": "Great move! This opens up your bishop on c8 and challenges White's central control.",
+          "arrows": null,
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "c8"
+            ]
+          }
+        },
+        "comment": "undermining the e4-pawn and attacking the bishop.",
+        "afterMoveFen": "r1bqk2r/pp2npbp/2p3p1/3p4/2BpPP2/3P4/PPPN2PP/R1BQ1RK1 w - d6 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "O-O",
+        "feedback": {
+          "text": "This is generally a good idea but I think we're ready to go for pawn breaks.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "not going for any pawn breaks yet.",
+        "afterMoveFen": "r1bq1rk1/pp1pnpbp/2p3p1/8/2BpPP2/3P4/PPPN2PP/R1BQ1RK1 w - - 3 2"
+      },
+      {
+        "text": "b5",
+        "feedback": {
+          "text": "There's a better move that accomplishes the same thing. This pawn push doesn't control the center or fight for the center.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "attacking the bishop on c4.",
+        "afterMoveFen": "r1bqk2r/p2pnpbp/2p3p1/1p6/2BpPP2/3P4/PPPN2PP/R1BQ1RK1 w k b6 0 2"
+      },
+      {
+        "text": "c5",
+        "feedback": {
+          "text": "This weakens the d5-square forever. There's something better.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": "adding support to the d4 pawn.",
+        "afterMoveFen": "r1bqk2r/pp1pnpbp/6p1/2p5/2BpPP2/3P4/PPPN2PP/R1BQ1RK1 w k - 0 2"
+      }
+    ],
+    "positionFen": "r1bqk2r/pp1pnpbp/2p3p1/1B6/3pPP2/3P4/PPPN2PP/R1BQ1RK1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Bc4",
+      "afterMoveFen": "r1bqk2r/pp1pnpbp/2p3p1/8/2BpPP2/3P4/PPPN2PP/R1BQ1RK1 b k - 2 1"
+    }
+  },
+  "drill": null
+}

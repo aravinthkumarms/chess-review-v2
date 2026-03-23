@@ -1,0 +1,1374 @@
+{
+  "id": "9a6692c5-d0d2-4e62-b063-a5f0671eb98b",
+  "name": "Study 2: Amazing Tal Deflections",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "S"
+        ],
+        "comments": [
+          {
+            "text": "This game was played between the Magician from Riga, GM Mikhail Tal, and Walter Chandler at a Simul in 1974.\n\nLet's see how one of the best tacticians in chess of all time implemented a variety of deflections to achieve a brilliant victory.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chessgames.com/perl/chessgame?gid=1140189",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0U": {
+        "adjacentNodeIds": [
+          "a1"
+        ],
+        "comments": [
+          {
+            "text": "Tal simply continued developing, ready to castle.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e1-g1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp2ppp/4pn2/8/2BP4/2N2N2/PPP2PPP/R1BQK2R b KQkq - 1 6",
+        "parentNodeId": "Oi",
+        "san": "Nf3"
+      },
+      "1D": {
+        "adjacentNodeIds": [
+          "VX"
+        ],
+        "comments": [
+          {
+            "text": "Tal got a pawn in the center and a developed knight, while Black's pieces were still on the home squares.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pppp/8/8/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq d3 0 4",
+        "parentNodeId": "Y1",
+        "san": "d4"
+      },
+      "2N": {
+        "adjacentNodeIds": [
+          "lz"
+        ],
+        "comments": [
+          {
+            "text": "Once they do...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r2k1/pp1b2pp/4n3/2q1Q1B1/2B5/2n5/P1P3PP/5R1K w - - 0 23",
+        "parentNodeId": "73",
+        "san": "Rxd8"
+      },
+      "2h": {
+        "adjacentNodeIds": [
+          "u0"
+        ],
+        "comments": [
+          {
+            "text": "Tal captured on f7 and gave up the knight! \n\nThe best move for Black is actually to reject this sacrifice and slide the queen to a square like c7.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d6-c7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f7",
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1rnk1/pp3Npp/3qp3/2pn1PB1/2BP4/2P5/P1P1Q1PP/3R1RK1 b - - 0 15",
+        "parentNodeId": "oz",
+        "san": "Nxf7"
+      },
+      "2u": {
+        "adjacentNodeIds": [
+          "ag"
+        ],
+        "comments": [
+          {
+            "text": "That allowed Tal to get his own knight to the center and in Black's part of the board.\n\nThe knight couldn't be captured, as dxe5 would attack the already pinned knight on f6.\n\nHere, it wasn't too late for Black's ...h6 and ...c5 plan.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h7-h6",
+                "c7-c5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqr1k1/pppn1ppp/4pn2/4N1B1/2BP4/2P5/P1P1QPPP/R4RK1 b - - 4 11",
+        "parentNodeId": "4D",
+        "san": "Ne5"
+      },
+      "2x": {
+        "adjacentNodeIds": [
+          "oj"
+        ],
+        "comments": [
+          {
+            "text": "For example, if the queen is captured here...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bRr1k1/pp2P1pp/4n3/2q3B1/2B5/8/P1P1n1PP/5R1K w - - 0 21",
+        "parentNodeId": "kU",
+        "san": "Nxe2"
+      },
+      "4D": {
+        "adjacentNodeIds": [
+          "2u"
+        ],
+        "comments": [
+          {
+            "text": "However, Black went for the more passive route and calmly slid the rook to e8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqr1k1/pppn1ppp/4pn2/6B1/2BP4/2P2N2/P1P1QPPP/R4RK1 w - - 3 11",
+        "parentNodeId": "Zw",
+        "san": "Re8"
+      },
+      "52": {
+        "adjacentNodeIds": [
+          "Oi"
+        ],
+        "comments": [
+          {
+            "text": "One of the most common developing squares for the light-squared bishop is the c4-square.\n\nFrom there it targets Black's vulnerable f7-pawn.\n\nAnd, as you'll see, that bishop will play an immensely important role in this game.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": [
+                "c4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pppp/5n2/8/2BP4/2N5/PPP2PPP/R1BQK1NR b KQkq - 2 5",
+        "parentNodeId": "VX",
+        "san": "Bc4"
+      },
+      "6q": {
+        "adjacentNodeIds": [
+          "rx"
+        ],
+        "comments": [
+          {
+            "text": "Maybe an even stronger move here would have been Qh5+.\n\nThe idea is that Black can't really block with ...g6.",
+            "arrows": {
+              "threats": [
+                "g7-g6"
+              ],
+              "opportunities": [
+                "f5-g6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1rn2/pp3kpp/3qp3/2pn1PBQ/2BP4/2P5/P1P3PP/3R1RK1 b - - 1 16",
+        "parentNodeId": "u0",
+        "san": "Qh5+"
+      },
+      "7": {
+        "adjacentNodeIds": [
+          "u"
+        ],
+        "comments": [
+          {
+            "text": "The Scandinavian Defense!\n\nDefinitely an aggressive response by Black here.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq d6 0 2",
+        "parentNodeId": "S",
+        "san": "d5"
+      },
+      "73": {
+        "adjacentNodeIds": [
+          "2N"
+        ],
+        "comments": [
+          {
+            "text": "The best move is to take back and make a queen, forcing Black to react.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2Q2k1/pp1b2pp/4n3/2q1Q1B1/2B5/2n5/P1P3PP/5R1K b - - 0 22",
+        "parentNodeId": "gj",
+        "san": "exd8=Q+"
+      },
+      "9W": {
+        "adjacentNodeIds": [
+          "G5"
+        ],
+        "comments": [
+          {
+            "text": "Capturing the bishop doesn't work.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1r1k1/pp2P1pp/8/2qn2n1/2B5/2P5/P1P1Q1PP/3R1R1K w - - 0 20",
+        "parentNodeId": "Kq",
+        "san": "Nxg5"
+      },
+      "Aa": {
+        "adjacentNodeIds": [
+          "CB"
+        ],
+        "comments": [
+          {
+            "text": "If Black makes a random move that simply avoids the capture...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2Rr1k1/pp1bP1pp/4n3/4Q1B1/2B5/q1n5/P1P3PP/5R1K w - - 4 22",
+        "parentNodeId": "Ck",
+        "san": "Qa3"
+      },
+      "As": {
+        "adjacentNodeIds": [
+          "Bl"
+        ],
+        "comments": [
+          {
+            "text": "This was Tal's idea.\n\nHe pushed e7 and opened up the diagonal for his bishop.\n\nThe only piece on the way was the d5-knight.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f8",
+                "d5"
+              ],
+              "opportunities": [
+                "c4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1rnk1/pp2P1pp/3q4/2pn2B1/2BP4/2P5/P1P1Q1PP/3R1RK1 b - - 0 17",
+        "parentNodeId": "nO",
+        "san": "e7"
+      },
+      "BY": {
+        "adjacentNodeIds": [
+          "p8"
+        ],
+        "comments": [
+          {
+            "text": "Yes, White can get a piece back...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1r1k1/pp2n1pp/4B3/2q3B1/8/2P5/P1P1Q1PP/3R1R1K b - - 0 20",
+        "parentNodeId": "UM",
+        "san": "Bxe6+"
+      },
+      "Bl": {
+        "adjacentNodeIds": [
+          "yH"
+        ],
+        "comments": [
+          {
+            "text": "Black played the best move here and placed another piece on that diagonal, attacking the bishop on g5.\n\nTal should simply have retreated to h4 here and kept all the pressure, being much better.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-h4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1r1k1/pp2P1pp/3qn3/2pn2B1/2BP4/2P5/P1P1Q1PP/3R1RK1 w - - 1 18",
+        "parentNodeId": "As",
+        "san": "Ne6"
+      },
+      "CB": {
+        "adjacentNodeIds": [
+          "uN"
+        ],
+        "comments": [
+          {
+            "text": "There's forced mate again.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2Rr1k1/pp1bP1pp/4B3/4Q1B1/8/q1n5/P1P3PP/5R1K b - - 0 22",
+        "parentNodeId": "Aa",
+        "san": "Bxe6+"
+      },
+      "Ck": {
+        "adjacentNodeIds": [
+          "w2",
+          "Aa",
+          "gj"
+        ],
+        "comments": [
+          {
+            "text": "What a move!\n\nTal placed his queen in the center of the board, completely giving it up.\n\nBlack has no moves here. This was in a way a deflection, but mostly a distraction. It doesn't seem like a forcing move, but it really works out that way. The queen is under attack.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2Rr1k1/pp1bP1pp/4n3/2q1Q1B1/2B5/2n5/P1P3PP/5R1K b - - 3 21",
+        "parentNodeId": "NL",
+        "san": "Qe5"
+      },
+      "E1": {
+        "adjacentNodeIds": [
+          "kU"
+        ],
+        "comments": [
+          {
+            "text": "Walter blundered and captured on c3.\n\nHe probably thought he could turn the game around in an instant, with pressure on both bishops and the queen now.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c4",
+                "e2",
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1r1k1/pp2P1pp/4n3/2q3B1/2B5/2n5/P1P1Q1PP/3R1R1K w - - 0 20",
+        "parentNodeId": "Kq",
+        "san": "Nxc3"
+      },
+      "Fk": {
+        "adjacentNodeIds": [
+          "RE"
+        ],
+        "comments": [
+          {
+            "text": "So let's say they do.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r6k/pp2P1pp/4Q3/6B1/8/q1n5/P1P3PP/5R1K w - - 0 25",
+        "parentNodeId": "UE",
+        "san": "Rxa8"
+      },
+      "G5": {
+        "adjacentNodeIds": [
+          "wq"
+        ],
+        "comments": [
+          {
+            "text": "White can take with the rook in the center and fork the two pieces on the fifth rank.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c5",
+                "g5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1r1k1/pp2P1pp/8/2qR2n1/2B5/2P5/P1P1Q1PP/5R1K b - - 0 20",
+        "parentNodeId": "9W",
+        "san": "Rxd5"
+      },
+      "IW": {
+        "adjacentNodeIds": [
+          "mq"
+        ],
+        "comments": [
+          {
+            "text": "Although the c-pawns were doubled, this bishop for knight trade was completely fine for Tal.\n\nHe traded his knight for Black's active bishop that had both defending and attacking potential.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c3",
+                "c2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/pppn1ppp/4pn2/8/2BP4/2P2N2/P1P1QPPP/R1B2RK1 b kq - 0 9",
+        "parentNodeId": "x0",
+        "san": "bxc3"
+      },
+      "JJ": {
+        "adjacentNodeIds": [
+          "Tl"
+        ],
+        "comments": [
+          {
+            "text": "Well, pretty simply, as there is only one legal move for Black.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2R1rk1/pp1bP1pp/4n3/4q1B1/2B5/2n5/P1P3PP/7K w - - 0 23",
+        "parentNodeId": "OS",
+        "san": "Rxf8"
+      },
+      "Kn": {
+        "adjacentNodeIds": [
+          "Kq"
+        ],
+        "comments": [
+          {
+            "text": "And forcing it to capture back, with check.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1r1k1/pp2P1pp/4n3/2qn2B1/2B5/2P5/P1P1Q1PP/3R1RK1 w - - 0 19",
+        "parentNodeId": "yH",
+        "san": "Qxc5+"
+      },
+      "Kq": {
+        "adjacentNodeIds": [
+          "E1",
+          "9W",
+          "UM"
+        ],
+        "comments": [
+          {
+            "text": "Tal had to slide the king to h1 and had lost momentum.\n\nHowever, Black had to be extremely careful here.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1r1k1/pp2P1pp/4n3/2qn2B1/2B5/2P5/P1P1Q1PP/3R1R1K b - - 1 19",
+        "parentNodeId": "Kn",
+        "san": "Kh1"
+      },
+      "MK": {
+        "adjacentNodeIds": [
+          "x0"
+        ],
+        "comments": [
+          {
+            "text": "Tal got his queen into the game as well, eyeing the e6-pawn.\n\nA sacrifice right now wouldn't work, but, in the future, this pressure could definitely pay off!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e6"
+              ],
+              "opportunities": [
+                "e2",
+                "c4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/pppn1ppp/4pn2/8/1bBP4/2N2N2/PPP1QPPP/R1B2RK1 b kq - 5 8",
+        "parentNodeId": "N7",
+        "san": "Qe2"
+      },
+      "N7": {
+        "adjacentNodeIds": [
+          "MK"
+        ],
+        "comments": [
+          {
+            "text": "Before getting rid of the c3-knight, Black continued activating their pieces.\n\nWe were slowly entering the middlegame.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/pppn1ppp/4pn2/8/1bBP4/2N2N2/PPP2PPP/R1BQ1RK1 w kq - 4 8",
+        "parentNodeId": "kA",
+        "san": "Nbd7"
+      },
+      "NL": {
+        "adjacentNodeIds": [
+          "Ck"
+        ],
+        "comments": [
+          {
+            "text": "Black, being completely lost, still played the best move here.\n\nAnd was completely beaten by an amazing queen sacrifice.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2Rr1k1/pp1bP1pp/4n3/2q3B1/2B5/2n5/P1P1Q1PP/5R1K w - - 2 21",
+        "parentNodeId": "kU",
+        "san": "Bd7"
+      },
+      "OS": {
+        "adjacentNodeIds": [
+          "JJ"
+        ],
+        "comments": [
+          {
+            "text": "Now there's the Rf8+ idea, and Walter Chandler immediately resigned.\n\nBut let's see how the game would have played out.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2RrRk1/pp1bP1pp/4n3/4q1B1/2B5/2n5/P1P3PP/7K b - - 1 22",
+        "parentNodeId": "w2",
+        "san": "Rf8+"
+      },
+      "Oc": {
+        "adjacentNodeIds": [
+          "sJ"
+        ],
+        "comments": [
+          {
+            "text": "But checkmate in 3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1rRk1/ppq1P1pp/8/3R2n1/2B5/2P5/P1P1Q1PP/7K b - - 2 21",
+        "parentNodeId": "wq",
+        "san": "Rf8+"
+      },
+      "Oi": {
+        "adjacentNodeIds": [
+          "0U"
+        ],
+        "comments": [
+          {
+            "text": "Black continued developing with e6 and opened up their dark-squared bishop.\n\nAlthough blocking the bishop on c8, this move is fine.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c8"
+              ],
+              "opportunities": [
+                "f8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp2ppp/4pn2/8/2BP4/2N5/PPP2PPP/R1BQK1NR w KQkq - 0 6",
+        "parentNodeId": "52",
+        "san": "e6"
+      },
+      "RE": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Now you can see where this is going.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a8-e8",
+                "e6-e8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h8",
+                "e8",
+                "a8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3Q2k/pp4pp/4Q3/6B1/8/q1n5/P1P3PP/5R1K b - - 0 25",
+        "parentNodeId": "Fk",
+        "san": "e8=Q+"
+      },
+      "S": {
+        "adjacentNodeIds": [
+          "7"
+        ],
+        "comments": [
+          {
+            "text": "Tal began with e4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+        "parentNodeId": "0",
+        "san": "e4"
+      },
+      "T1": {
+        "adjacentNodeIds": [
+          "pv"
+        ],
+        "comments": [
+          {
+            "text": "Black finally attacked the center with ...c5.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqrnk1/pp3ppp/4pn2/2p1N1B1/2BP1P2/2P5/P1P1Q1PP/R4RK1 w - c6 0 13",
+        "parentNodeId": "V4",
+        "san": "c5"
+      },
+      "Tl": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Checkmate.\n\nWhat a game by Mikhail Tal!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2R1Qk1/pp1b2pp/4n3/4q1B1/2B5/2n5/P1P3PP/7K b - - 0 23",
+        "parentNodeId": "JJ",
+        "san": "exf8=Q#"
+      },
+      "UE": {
+        "adjacentNodeIds": [
+          "Fk"
+        ],
+        "comments": [
+          {
+            "text": "First, Tal would have taken the rook in the corner.\n\nThere isn't much Black can do besides take back...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "R3r2k/pp2P1pp/4Q3/6B1/8/q1n5/P1P3PP/5R1K b - - 0 24",
+        "parentNodeId": "qz",
+        "san": "Rxa8"
+      },
+      "UM": {
+        "adjacentNodeIds": [
+          "BY"
+        ],
+        "comments": [
+          {
+            "text": "This is the only drawing move.\n\nRemoving the dangerous e7-pawn is key.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1r1k1/pp2n1pp/4n3/2q3B1/2B5/2P5/P1P1Q1PP/3R1R1K w - - 0 20",
+        "parentNodeId": "Kq",
+        "san": "Nxe7"
+      },
+      "V4": {
+        "adjacentNodeIds": [
+          "T1"
+        ],
+        "comments": [
+          {
+            "text": "Tal solidified his position with f4 first.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f4",
+                "d4",
+                "e5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1bqrnk1/ppp2ppp/4pn2/4N1B1/2BP1P2/2P5/P1P1Q1PP/R4RK1 b - f3 0 12",
+        "parentNodeId": "ag",
+        "san": "f4"
+      },
+      "VX": {
+        "adjacentNodeIds": [
+          "52"
+        ],
+        "comments": [
+          {
+            "text": "However, that's how the Scandinavian is often played.\n\nNow, Black started developing as well.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkb1r/ppp1pppp/5n2/8/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+        "parentNodeId": "1D",
+        "san": "Nf6"
+      },
+      "Wg": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White has regained a piece here and is up a pawn with some pressure.\n\nHowever, this position is a draw according to the computer.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e7"
+              ],
+              "opportunities": [
+                "g5",
+                "e6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3r2k/pp2n1pp/4Q3/2q3B1/8/2P5/P1P3PP/3R1R1K w - - 1 22",
+        "parentNodeId": "t7",
+        "san": "Kh8"
+      },
+      "Wq": {
+        "adjacentNodeIds": [
+          "ff"
+        ],
+        "comments": [
+          {
+            "text": "And lure Black's queen to the center of the board.\n\nThere, it's an easy target.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+        "parentNodeId": "u",
+        "san": "Qxd5"
+      },
+      "Y1": {
+        "adjacentNodeIds": [
+          "1D"
+        ],
+        "comments": [
+          {
+            "text": "Chandler retreated to the home square, d8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pppp/8/8/8/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 4",
+        "parentNodeId": "ff",
+        "san": "Qd8"
+      },
+      "Yg": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The rook on e8 can simply be captured.\n\nWith all the ongoing pressure and now the material advantage as well, this position would have been convincingly winning for White.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1Qnk1/pp4pp/3qp3/2pn1PB1/2BP4/2P5/P1P3PP/3R1RK1 b - - 0 17",
+        "parentNodeId": "rx",
+        "san": "Qxe8"
+      },
+      "ZM": {
+        "adjacentNodeIds": [
+          "u3"
+        ],
+        "comments": [
+          {
+            "text": "Black wanted to unpin the knight, so they played ...Qd6.\n\nBut this was a big mistake, as it allowed Tal's idea from the start.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1rnk1/pp3ppp/3qpn2/2p1N1B1/2BP1P2/2P5/P1P1Q1PP/3R1RK1 w - - 2 14",
+        "parentNodeId": "pv",
+        "san": "Qd6"
+      },
+      "Zw": {
+        "adjacentNodeIds": [
+          "4D"
+        ],
+        "comments": [
+          {
+            "text": "And Tal pinned his knight on f6 immediately.\n\nGenerally, a good plan for Black here would be something like ...h6 followed by ...c5, to attack the bishop and strike in the center.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h7-h6",
+                "c7-c5"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f6",
+                "d8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/pppn1ppp/4pn2/6B1/2BP4/2P2N2/P1P1QPPP/R4RK1 b - - 2 10",
+        "parentNodeId": "mq",
+        "san": "Bg5"
+      },
+      "a1": {
+        "adjacentNodeIds": [
+          "kA"
+        ],
+        "comments": [
+          {
+            "text": "Black did the same, pinning the knight on c3.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp2ppp/4pn2/8/1bBP4/2N2N2/PPP2PPP/R1BQK2R w KQkq - 2 7",
+        "parentNodeId": "0U",
+        "san": "Bb4"
+      },
+      "ag": {
+        "adjacentNodeIds": [
+          "V4"
+        ],
+        "comments": [
+          {
+            "text": "However, Chandler again opted for the more passive approach, and this is where things started to go wrong for him.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqrnk1/ppp2ppp/4pn2/4N1B1/2BP4/2P5/P1P1QPPP/R4RK1 w - - 5 12",
+        "parentNodeId": "2u",
+        "san": "Nf8"
+      },
+      "bg": {
+        "adjacentNodeIds": [
+          "nO"
+        ],
+        "comments": [
+          {
+            "text": "Now a logical double check followed.\n\nBlack had two legal moves here.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-g8",
+                "f7-g6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1rn2/pp3kpp/3qP3/2pn2B1/2BP4/2P5/P1P1Q1PP/3R1RK1 b - - 0 16",
+        "parentNodeId": "u0",
+        "san": "fxe6+"
+      },
+      "dm": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Then there's this checkmate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2R1Qk1/ppq3pp/4b3/6n1/2B5/2P5/P1P1Q1PP/7K b - - 0 23",
+        "parentNodeId": "fd",
+        "san": "exf8=Q#"
+      },
+      "fd": {
+        "adjacentNodeIds": [
+          "dm"
+        ],
+        "comments": [
+          {
+            "text": "And if the bishop blocks...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2R1rk1/ppq1P1pp/4b3/6n1/2B5/2P5/P1P1Q1PP/7K w - - 2 23",
+        "parentNodeId": "hf",
+        "san": "Be6"
+      },
+      "ff": {
+        "adjacentNodeIds": [
+          "Y1"
+        ],
+        "comments": [
+          {
+            "text": "The knight attacks it by going to c3. \n\nDeveloping with tempo.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3",
+        "parentNodeId": "Wq",
+        "san": "Nc3"
+      },
+      "gj": {
+        "adjacentNodeIds": [
+          "73"
+        ],
+        "comments": [
+          {
+            "text": "Black could try and take the rook here.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/pp1bP1pp/4n3/2q1Q1B1/2B5/2n5/P1P3PP/5R1K w - - 0 22",
+        "parentNodeId": "Ck",
+        "san": "Rexd8"
+      },
+      "hf": {
+        "adjacentNodeIds": [
+          "fd"
+        ],
+        "comments": [
+          {
+            "text": "And an amazing discovered check, preparing to recapture on f8.\n\nIf the king moves or the knight blocks, there's Rxf8#.",
+            "arrows": {
+              "threats": [
+                "g5-e6",
+                "g5-f7",
+                "g8-h8"
+              ],
+              "opportunities": [
+                "d8-f8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bR1rk1/ppq1P1pp/8/6n1/2B5/2P5/P1P1Q1PP/7K b - - 1 22",
+        "parentNodeId": "sJ",
+        "san": "Rd8+"
+      },
+      "kA": {
+        "adjacentNodeIds": [
+          "N7"
+        ],
+        "comments": [
+          {
+            "text": "Tal immediately unpinned by castling.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp2ppp/4pn2/8/1bBP4/2N2N2/PPP2PPP/R1BQ1RK1 b kq - 3 7",
+        "parentNodeId": "a1",
+        "san": "O-O"
+      },
+      "kU": {
+        "adjacentNodeIds": [
+          "NL",
+          "2x"
+        ],
+        "comments": [
+          {
+            "text": "However, Tal didn't care about any of these pieces!\n\nHe threatened to capture the rook on e8 with checkmate.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bRr1k1/pp2P1pp/4n3/2q3B1/2B5/2n5/P1P1Q1PP/5R1K b - - 1 20",
+        "parentNodeId": "E1",
+        "san": "Rd8"
+      },
+      "lz": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Tal would have just taken the queen, being completely winning.\n\nRemember that the e6-knight being pinned is key here.",
+            "arrows": {
+              "threats": [
+                "e6-c5"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r2k1/pp1b2pp/4n3/2Q3B1/2B5/2n5/P1P3PP/5R1K b - - 0 23",
+        "parentNodeId": "2N",
+        "san": "Qxc5"
+      },
+      "mq": {
+        "adjacentNodeIds": [
+          "Zw"
+        ],
+        "comments": [
+          {
+            "text": "Walter castled.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bq1rk1/pppn1ppp/4pn2/8/2BP4/2P2N2/P1P1QPPP/R1B2RK1 w - - 1 10",
+        "parentNodeId": "IW",
+        "san": "O-O"
+      },
+      "nO": {
+        "adjacentNodeIds": [
+          "As"
+        ],
+        "comments": [
+          {
+            "text": "Black chose the more logical move. \n\nGoing to g6 wasn't safe.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1rnk1/pp4pp/3qP3/2pn2B1/2BP4/2P5/P1P1Q1PP/3R1RK1 w - - 1 17",
+        "parentNodeId": "bg",
+        "san": "Kg8"
+      },
+      "oj": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "There's just mate in one.\n\nThis is why Black had to react to Tal's last move!",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1R1k1/pp2P1pp/4n3/2q3B1/2B5/8/P1P1n1PP/5R1K b - - 0 21",
+        "parentNodeId": "2x",
+        "san": "Rxe8#"
+      },
+      "oz": {
+        "adjacentNodeIds": [
+          "2h"
+        ],
+        "comments": [
+          {
+            "text": "Instead, Black tried blocking the bishop with ...Nd5.\n\nAnd missed the first amazing sacrifice.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1rnk1/pp3ppp/3qp3/2pnNPB1/2BP4/2P5/P1P1Q1PP/3R1RK1 w - - 1 15",
+        "parentNodeId": "u3",
+        "san": "Nd5"
+      },
+      "p8": {
+        "adjacentNodeIds": [
+          "t7"
+        ],
+        "comments": [
+          {
+            "text": "Takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pp2n1pp/4b3/2q3B1/8/2P5/P1P1Q1PP/3R1R1K w - - 0 21",
+        "parentNodeId": "BY",
+        "san": "Bxe6"
+      },
+      "pv": {
+        "adjacentNodeIds": [
+          "ZM"
+        ],
+        "comments": [
+          {
+            "text": "Tal occupied the d-file with the rook, mirroring it with Black's queen.\n\nA move like f5, getting aggressive immediately, was probably better.\n\nBut Tal implemented the same idea a move later anyway, which you are about to see.",
+            "arrows": {
+              "threats": [
+                "f4-f5"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqrnk1/pp3ppp/4pn2/2p1N1B1/2BP1P2/2P5/P1P1Q1PP/3R1RK1 b - - 1 13",
+        "parentNodeId": "T1",
+        "san": "Rad1"
+      },
+      "qz": {
+        "adjacentNodeIds": [
+          "UE"
+        ],
+        "comments": [
+          {
+            "text": "And now a short but deathly combination.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2Rr2k/pp2P1pp/4Q3/6B1/8/q1n5/P1P3PP/5R1K w - - 1 24",
+        "parentNodeId": "sG",
+        "san": "Kh8"
+      },
+      "rx": {
+        "adjacentNodeIds": [
+          "Yg"
+        ],
+        "comments": [
+          {
+            "text": "And if Black goes back to g8...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1rnk1/pp4pp/3qp3/2pn1PBQ/2BP4/2P5/P1P3PP/3R1RK1 w - - 2 17",
+        "parentNodeId": "6q",
+        "san": "Kg8"
+      },
+      "sG": {
+        "adjacentNodeIds": [
+          "qz"
+        ],
+        "comments": [
+          {
+            "text": "Black is forced to go to h8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2Rr1k1/pp2P1pp/4Q3/6B1/8/q1n5/P1P3PP/5R1K b - - 0 23",
+        "parentNodeId": "uN",
+        "san": "Qxe6+"
+      },
+      "sJ": {
+        "adjacentNodeIds": [
+          "hf"
+        ],
+        "comments": [
+          {
+            "text": "The only move.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b2rk1/ppq1P1pp/8/3R2n1/2B5/2P5/P1P1Q1PP/7K w - - 0 22",
+        "parentNodeId": "Oc",
+        "san": "Rxf8"
+      },
+      "t7": {
+        "adjacentNodeIds": [
+          "Wg"
+        ],
+        "comments": [
+          {
+            "text": "Takes with check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pp2n1pp/4Q3/2q3B1/8/2P5/P1P3PP/3R1R1K b - - 0 21",
+        "parentNodeId": "p8",
+        "san": "Qxe6+"
+      },
+      "u": {
+        "adjacentNodeIds": [
+          "Wq"
+        ],
+        "comments": [
+          {
+            "text": "One of the most common moves is to simply capture...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pppp/8/3P4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2",
+        "parentNodeId": "7",
+        "san": "exd5"
+      },
+      "u0": {
+        "adjacentNodeIds": [
+          "bg",
+          "6q"
+        ],
+        "comments": [
+          {
+            "text": "However, Black captured the knight. \n\nThis was Tal's idea: an attraction of the king to the f7-square.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1rn2/pp3kpp/3qp3/2pn1PB1/2BP4/2P5/P1P1Q1PP/3R1RK1 w - - 0 16",
+        "parentNodeId": "2h",
+        "san": "Kxf7"
+      },
+      "u3": {
+        "adjacentNodeIds": [
+          "oz"
+        ],
+        "comments": [
+          {
+            "text": "He shoved the f-pawn forward.\n\nIt couldn't really be captured because of the pressure on f7.",
+            "arrows": {
+              "threats": [
+                "e6-f5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e6",
+                "f7"
+              ],
+              "opportunities": [
+                "e5",
+                "c4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1rnk1/pp3ppp/3qpn2/2p1NPB1/2BP4/2P5/P1P1Q1PP/3R1RK1 b - - 0 14",
+        "parentNodeId": "ZM",
+        "san": "f5"
+      },
+      "uN": {
+        "adjacentNodeIds": [
+          "sG"
+        ],
+        "comments": [
+          {
+            "text": "Takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2Rr1k1/pp2P1pp/4b3/4Q1B1/8/q1n5/P1P3PP/5R1K w - - 0 23",
+        "parentNodeId": "CB",
+        "san": "Bxe6"
+      },
+      "w2": {
+        "adjacentNodeIds": [
+          "OS"
+        ],
+        "comments": [
+          {
+            "text": "In the game, Black captured the queen.\n\nThe point of this sacrifice was deflection off the f8-square.",
+            "arrows": {
+              "threats": [
+                "c5-f8"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2Rr1k1/pp1bP1pp/4n3/4q1B1/2B5/2n5/P1P3PP/5R1K w - - 0 22",
+        "parentNodeId": "Ck",
+        "san": "Qxe5"
+      },
+      "wq": {
+        "adjacentNodeIds": [
+          "Oc"
+        ],
+        "comments": [
+          {
+            "text": "If Black retreats to a square like c7, White wouldn't even take the knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1b1r1k1/ppq1P1pp/8/3R2n1/2B5/2P5/P1P1Q1PP/5R1K w - - 1 21",
+        "parentNodeId": "G5",
+        "san": "Qc7"
+      },
+      "x0": {
+        "adjacentNodeIds": [
+          "IW"
+        ],
+        "comments": [
+          {
+            "text": "Black decided to take on c3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1bqk2r/pppn1ppp/4pn2/8/2BP4/2b2N2/PPP1QPPP/R1B2RK1 w kq - 0 9",
+        "parentNodeId": "MK",
+        "san": "Bxc3"
+      },
+      "yH": {
+        "adjacentNodeIds": [
+          "Kn"
+        ],
+        "comments": [
+          {
+            "text": "However, he rushed a bit and took on c5, attacking the queen...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r1b1r1k1/pp2P1pp/3qn3/2Pn2B1/2B5/2P5/P1P1Q1PP/3R1RK1 b - - 0 18",
+        "parentNodeId": "Bl",
+        "san": "dxc5"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

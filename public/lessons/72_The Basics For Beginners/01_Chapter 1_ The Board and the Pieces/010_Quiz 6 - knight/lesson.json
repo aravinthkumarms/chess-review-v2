@@ -1,0 +1,43 @@
+{
+  "id": "040297ab-7bbd-42db-a8e9-92f752f64082",
+  "name": "Quiz 6 - knight",
+  "type": "SPOTTER_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "How many squares can your knight jump to in this position?",
+    "answers": [
+      {
+        "text": "c7-b6",
+        "feedback": {
+          "text": "From the corner, the knight can only reach two squares. Good job!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "The knight moves in an L shape.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "n7/1k6/p7/8/8/8/1P6/K7 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Ka2",
+      "afterMoveFen": "n7/1k6/p7/8/8/8/KP6/8 b - - 2 1"
+    }
+  },
+  "drill": null
+}

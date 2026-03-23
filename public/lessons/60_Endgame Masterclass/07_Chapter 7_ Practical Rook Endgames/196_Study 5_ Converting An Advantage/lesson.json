@@ -1,0 +1,1806 @@
+{
+  "id": "e160f17f-cc8c-4d3a-b99b-7db1ebf13328",
+  "name": "Study 5: Converting An Advantage",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "h"
+        ],
+        "comments": [
+          {
+            "text": "This was a game I played online against an anonymous 2500.\n\nI had the Black pieces. I am up one pawn for the moment and looking to convert this advantage. We will see how I managed to do this and reflect on how I could've done things better.",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/game/live/16748739625",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/pp3pbp/3pp1p1/8/2r1qPP1/2PQB3/PP5P/R4RK1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "1X": {
+        "adjacentNodeIds": [
+          "9c"
+        ],
+        "comments": [
+          {
+            "text": "I defended the f7-pawn with ...Kg6.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-f7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p1R1pb1/4p1k1/7p/2P2P2/8/r4B1P/6K1 w - - 4 13",
+        "parentNodeId": "Qw",
+        "san": "Kg6"
+      },
+      "1c": {
+        "adjacentNodeIds": [
+          "Od"
+        ],
+        "comments": [
+          {
+            "text": "White would give a check with Rd8.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3R2k1/1p3pbp/1B2p1p1/8/2p1rPP1/1P6/r6P/5RK1 b - - 1 7",
+        "parentNodeId": "ma",
+        "san": "Rd8+"
+      },
+      "2U": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black could advance the h-pawn.\n\nPromotion is simply unstoppable.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-h1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/1B6/4b3/8/8/2r4p/5K2 w - - 0 24",
+        "parentNodeId": "gC",
+        "san": "h2"
+      },
+      "41": {
+        "adjacentNodeIds": [
+          "dH"
+        ],
+        "comments": [
+          {
+            "text": "Black advances the f-pawn!\n\nThe b-pawn is ready to advance.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b3-b2",
+                "b2-b1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "5R2/1p4k1/4ppP1/2B5/5P2/1p6/r6P/6K1 w - - 0 14",
+        "parentNodeId": "Xu",
+        "san": "f6"
+      },
+      "48": {
+        "adjacentNodeIds": [
+          "hT",
+          "WT"
+        ],
+        "comments": [
+          {
+            "text": "And I decided to capture the c4-pawn.\n\nThis move is important - I don't want to let White win a pawn with cxd5.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pb1/4p1p1/7P/2p2P2/1P6/r4B1P/3R2K1 w - - 0 10",
+        "parentNodeId": "x9",
+        "san": "dxc4"
+      },
+      "5C": {
+        "adjacentNodeIds": [
+          "GP"
+        ],
+        "comments": [
+          {
+            "text": "I captured the hanging bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/2b2pk1/8/8/8/7p/4K3/6r1 w - - 0 27",
+        "parentNodeId": "6M",
+        "san": "Rxg1"
+      },
+      "6M": {
+        "adjacentNodeIds": [
+          "5C"
+        ],
+        "comments": [
+          {
+            "text": "My opponent moved the king to e2.\n\nKf2 would've simply lost to ...Bb6+.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/2b2pk1/8/8/8/7p/4K3/2r3B1 b - - 5 26",
+        "parentNodeId": "Sy",
+        "san": "Ke2"
+      },
+      "6N": {
+        "adjacentNodeIds": [
+          "OD"
+        ],
+        "comments": [
+          {
+            "text": "The most resilient defense is Bg1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/2P1pbk1/8/5P2/7p/4r2P/6BK b - - 5 19",
+        "parentNodeId": "Cn",
+        "san": "Bg1"
+      },
+      "6t": {
+        "adjacentNodeIds": [
+          "hF"
+        ],
+        "comments": [
+          {
+            "text": "White would then give a check w/Rd8.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3R2k1/1p3pb1/4p1P1/8/5P2/1p6/r4B1P/6K1 b - - 1 11",
+        "parentNodeId": "nQ",
+        "san": "Rd8+"
+      },
+      "7F": {
+        "adjacentNodeIds": [
+          "bO"
+        ],
+        "comments": [
+          {
+            "text": "My opponent attacked my bishop.",
+            "arrows": {
+              "threats": [
+                "e8-e5"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4R3/2P2p1k/8/4b3/8/7p/2r5/5KB1 b - - 1 23",
+        "parentNodeId": "WM",
+        "san": "Re8"
+      },
+      "9F": {
+        "adjacentNodeIds": [
+          "Kw"
+        ],
+        "comments": [
+          {
+            "text": "And when White gives a check with the rook & frees up the c8-square...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6R1/2P2p2/4pbk1/8/5P2/4B3/2r4p/5K2 b - - 1 21",
+        "parentNodeId": "xn",
+        "san": "Rg8+"
+      },
+      "9b": {
+        "adjacentNodeIds": [
+          "cG"
+        ],
+        "comments": [
+          {
+            "text": "I went ...Ra8, attacking the bishop.",
+            "arrows": {
+              "threats": [
+                "a8-a7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r5k1/Bp3pbp/3pp1p1/8/4rPP1/2P5/PP5P/R4RK1 w - - 1 3",
+        "parentNodeId": "a",
+        "san": "Ra8"
+      },
+      "9c": {
+        "adjacentNodeIds": [
+          "oM"
+        ],
+        "comments": [
+          {
+            "text": "My opponent took the b7-pawn.\n\nThe material is now equal, but I still have an advantage - my rook is very active, the white king is stuck on the back rank & White's pawns are weak.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1R3pb1/4p1k1/7p/2P2P2/8/r4B1P/6K1 b - - 0 13",
+        "parentNodeId": "1X",
+        "san": "Rxb7"
+      },
+      "AA": {
+        "adjacentNodeIds": [
+          "lV"
+        ],
+        "comments": [
+          {
+            "text": "Ke2 would lose contact with the bishop so White opts for Kf2...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/4pb2/8/5P2/7p/5K2/2r3B1 b - - 4 22",
+        "parentNodeId": "Nz",
+        "san": "Kf2"
+      },
+      "Ch": {
+        "adjacentNodeIds": [
+          "zR",
+          "PU"
+        ],
+        "comments": [
+          {
+            "text": "I punished White's move with ...Rg2+.\n\nWhite has a tough decision to make...",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/2P1pbk1/8/5P2/4B2p/6rP/6K1 w - - 2 18",
+        "parentNodeId": "Jp",
+        "san": "Rg2+"
+      },
+      "Cn": {
+        "adjacentNodeIds": [
+          "6N"
+        ],
+        "comments": [
+          {
+            "text": "I would then proceed with ...Re2.\n\nThe e3-bishop is under attack and ...Re1+ is a pretty serious threat.",
+            "arrows": {
+              "threats": [
+                "e2-e3"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/2P1pbk1/8/5P2/4B2p/4r2P/7K w - - 4 19",
+        "parentNodeId": "PU",
+        "san": "Re2"
+      },
+      "DR": {
+        "adjacentNodeIds": [
+          "oz",
+          "Nz"
+        ],
+        "comments": [
+          {
+            "text": "But my opponent luckily missed the defensive resource & went for Bg1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/4pb2/8/5P2/7p/2r5/5KB1 b - - 2 21",
+        "parentNodeId": "zM",
+        "san": "Bg1"
+      },
+      "Du": {
+        "adjacentNodeIds": [
+          "ni"
+        ],
+        "comments": [
+          {
+            "text": "My opponent attacked my rook w/b3.",
+            "arrows": {
+              "threats": [
+                "b3-a4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pbp/1B2p1p1/3p4/r3rPP1/1PP5/P6P/3R1RK1 b - - 0 5",
+        "parentNodeId": "Ks",
+        "san": "b3"
+      },
+      "EW": {
+        "adjacentNodeIds": [
+          "Vd"
+        ],
+        "comments": [
+          {
+            "text": "My opponent decided to trade pawns.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pb1/1B2p1p1/3p3P/2P2P2/1P6/r3rR1P/3R2K1 b - - 0 8",
+        "parentNodeId": "HZ",
+        "san": "gxh5"
+      },
+      "GP": {
+        "adjacentNodeIds": [
+          "l0"
+        ],
+        "comments": [
+          {
+            "text": "And when my opponent took on c7...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R2pk1/8/8/8/7p/4K3/6r1 b - - 0 27",
+        "parentNodeId": "5C",
+        "san": "Rxc7"
+      },
+      "H4": {
+        "adjacentNodeIds": [
+          "uz"
+        ],
+        "comments": [
+          {
+            "text": "My opponent advanced the c-pawn.\n\nThis pawn isn't all that scary as long White's rook is stuck on the c-file.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/4pbk1/2P4p/5P2/8/2r2B1P/6K1 b - - 0 15",
+        "parentNodeId": "PI",
+        "san": "c5"
+      },
+      "HZ": {
+        "adjacentNodeIds": [
+          "EW"
+        ],
+        "comments": [
+          {
+            "text": "I proceeded with ...h5, creating some tension on the kingside and potentially looking to advance the h-pawn to h3 to further cramp White in the future.\n\nThis was inaccurate. It would've been better for me to trade the rooks and force a same color bishop endgame by trading the other rook with ...Ra1.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h7-h5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pb1/1B2p1p1/3p3p/2P2PP1/1P6/r3rR1P/3R2K1 w - h6 0 8",
+        "parentNodeId": "th",
+        "san": "h5"
+      },
+      "IR": {
+        "adjacentNodeIds": [
+          "N8"
+        ],
+        "comments": [
+          {
+            "text": "White would win the f8-bishop w/Bc5.\n\nBut this is not the end of the story...",
+            "arrows": {
+              "threats": [
+                "d8-f8"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3R1bk1/1p3p2/4p1P1/2B5/5P2/1p6/r6P/6K1 b - - 3 12",
+        "parentNodeId": "hF",
+        "san": "Bc5"
+      },
+      "JW": {
+        "adjacentNodeIds": [
+          "Qw"
+        ],
+        "comments": [
+          {
+            "text": "I moved my king out of check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3R4/1p3pbk/4p3/7p/2P2P2/8/r4B1P/6K1 w - - 2 12",
+        "parentNodeId": "Q5",
+        "san": "Kh7"
+      },
+      "Jp": {
+        "adjacentNodeIds": [
+          "Ch"
+        ],
+        "comments": [
+          {
+            "text": "My opponent went Be3, covering c1.\n\nThis was a mistake - better was Kf1!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-c1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/2P1pbk1/8/5P2/4B2p/2r4P/6K1 b - - 1 17",
+        "parentNodeId": "nR",
+        "san": "Be3"
+      },
+      "Ks": {
+        "adjacentNodeIds": [
+          "Du"
+        ],
+        "comments": [
+          {
+            "text": "I calmly advanced the d-pawn.\n\nWhite now has two hanging pawns.",
+            "arrows": {
+              "threats": [
+                "a4-a2",
+                "e4-f4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "a2",
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pbp/1B2p1p1/3p4/r3rPP1/2P5/PP5P/3R1RK1 w - - 0 5",
+        "parentNodeId": "OF",
+        "san": "d5"
+      },
+      "Kw": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "I simply block the check with ...Bg7.\n\nBlack promotes on the next move and wins - the engine gives mate in five!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-h1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "6R1/2P2pb1/4p1k1/8/5P2/4B3/2r4p/5K2 w - - 2 22",
+        "parentNodeId": "9F",
+        "san": "Bg7"
+      },
+      "LG": {
+        "adjacentNodeIds": [
+          "pR"
+        ],
+        "comments": [
+          {
+            "text": "I slid my rook back to c2, monitoring the c-pawn & preparing to push h2.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h3-h2"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/5p2/2P1pbk1/8/5P2/4B2p/2r5/5K2 w - - 2 20",
+        "parentNodeId": "hU",
+        "san": "Rc2"
+      },
+      "LQ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But now White could defend their pawn and I still cannot take the bishop! \n\nWhite missed this clever defense.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-c7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/5b2/5P2/4p3/7p/2r4B/5K2 b - - 0 23",
+        "parentNodeId": "w2",
+        "san": "f5"
+      },
+      "N8": {
+        "adjacentNodeIds": [
+          "Xu"
+        ],
+        "comments": [
+          {
+            "text": "Black could respond with ...Kg7!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3R1b2/1p3pk1/4p1P1/2B5/5P2/1p6/r6P/6K1 w - - 4 13",
+        "parentNodeId": "IR",
+        "san": "Kg7"
+      },
+      "Nz": {
+        "adjacentNodeIds": [
+          "AA"
+        ],
+        "comments": [
+          {
+            "text": "I missed a simple win with ...Rc1+.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/4pb2/8/5P2/7p/8/2r2KB1 w - - 3 22",
+        "parentNodeId": "DR",
+        "san": "Rc1+"
+      },
+      "OD": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "And I would continue ...Re1, pinning the bishop and threatening ...Bd4.\n\nWhite's position is incredibly passive and uncomfortable. Black should win.",
+            "arrows": {
+              "threats": [
+                "f6-d4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/2P1pbk1/8/5P2/7p/7P/4r1BK w - - 6 20",
+        "parentNodeId": "6N",
+        "san": "Re1"
+      },
+      "OF": {
+        "adjacentNodeIds": [
+          "Ks"
+        ],
+        "comments": [
+          {
+            "text": "My opponent tried to fight back with Rad1, counterattacking the d6-pawn.\n\nIt's important not to rush here!",
+            "arrows": {
+              "threats": [
+                "d1-d6"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pbp/1B1pp1p1/8/r3rPP1/2P5/PP5P/3R1RK1 b - - 4 4",
+        "parentNodeId": "tK",
+        "san": "Rad1"
+      },
+      "Od": {
+        "adjacentNodeIds": [
+          "vQ"
+        ],
+        "comments": [
+          {
+            "text": "And after I play the only move...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3R1bk1/1p3p1p/1B2p1p1/8/2p1rPP1/1P6/r6P/5RK1 w - - 2 8",
+        "parentNodeId": "1c",
+        "san": "Bf8"
+      },
+      "Op": {
+        "adjacentNodeIds": [
+          "th"
+        ],
+        "comments": [
+          {
+            "text": "I doubled my rooks on the 2nd rank.\n\nThere is now a threat of checkmate with ...Rg2+ Kh1 Rxh2+ Kg1 Rag2#.",
+            "arrows": {
+              "threats": [
+                "e2-g2"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "g2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pbp/1B2p1p1/3p4/2P2PP1/1P6/r3r2P/3R1RK1 w - - 1 7",
+        "parentNodeId": "gi",
+        "san": "Ree2"
+      },
+      "PI": {
+        "adjacentNodeIds": [
+          "H4"
+        ],
+        "comments": [
+          {
+            "text": "I proceeded with ...Bf6.\n\nMy idea was to prepare to advance the h-pawn - the pawn on h3 would cramp the white king and isolate the h2-pawn as a long-term weakness.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h5-h4",
+                "h4-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/4pbk1/7p/2P2P2/8/2r2B1P/6K1 w - - 3 15",
+        "parentNodeId": "T7",
+        "san": "Bf6"
+      },
+      "PL": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But Black could advance the b-pawn.\n\nThere's no simply way to prevent ...Ra1+ & subsequent promotion.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a2-a1",
+                "b2-b1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "a1",
+                "b1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/1R6/4ppk1/2B5/5P2/8/rp5P/6K1 w - - 0 16",
+        "parentNodeId": "sA",
+        "san": "b2"
+      },
+      "PU": {
+        "adjacentNodeIds": [
+          "Cn"
+        ],
+        "comments": [
+          {
+            "text": "White could've also gone for Kh1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/2P1pbk1/8/5P2/4B2p/6rP/7K b - - 3 18",
+        "parentNodeId": "Ch",
+        "san": "Kh1"
+      },
+      "Q5": {
+        "adjacentNodeIds": [
+          "JW"
+        ],
+        "comments": [
+          {
+            "text": "My opponent gave a check w/Rd8.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3R2k1/1p3pb1/4p3/7p/2P2P2/8/r4B1P/6K1 b - - 1 11",
+        "parentNodeId": "xJ",
+        "san": "Rd8+"
+      },
+      "Qw": {
+        "adjacentNodeIds": [
+          "1X"
+        ],
+        "comments": [
+          {
+            "text": "And my opponent proceeded with Rd7, forking my f7 and b7 pawns.",
+            "arrows": {
+              "threats": [
+                "d7-f7",
+                "d7-b7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f7",
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p1R1pbk/4p3/7p/2P2P2/8/r4B1P/6K1 b - - 3 12",
+        "parentNodeId": "JW",
+        "san": "Rd7"
+      },
+      "R8": {
+        "adjacentNodeIds": [
+          "nR"
+        ],
+        "comments": [
+          {
+            "text": "My opponent kept advancing w/c6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/2P1pbk1/8/5P1p/8/2r2B1P/6K1 b - - 0 16",
+        "parentNodeId": "uz",
+        "san": "c6"
+      },
+      "Rj": {
+        "adjacentNodeIds": [
+          "WM"
+        ],
+        "comments": [
+          {
+            "text": "Luckily my opponent missed Bh2 and responded by capturing the e-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/5b2/4P3/8/7p/2r5/5KB1 b - - 0 22",
+        "parentNodeId": "oz",
+        "san": "fxe5"
+      },
+      "Sy": {
+        "adjacentNodeIds": [
+          "6M"
+        ],
+        "comments": [
+          {
+            "text": "I gave a check with my rook.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/2b2pk1/8/8/8/7p/8/2r2KB1 w - - 4 26",
+        "parentNodeId": "wZ",
+        "san": "Rc1+"
+      },
+      "T": {
+        "adjacentNodeIds": [
+          "a"
+        ],
+        "comments": [
+          {
+            "text": "I simply recaptured.\n\nBlack is up a pawn and has an edge but there's still some hope for White.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/pp3pbp/3pp1p1/8/4rPP1/2P1B3/PP5P/R4RK1 w - - 0 2",
+        "parentNodeId": "h",
+        "san": "Rxe4"
+      },
+      "T7": {
+        "adjacentNodeIds": [
+          "PI",
+          "rZ"
+        ],
+        "comments": [
+          {
+            "text": "And my opponent defended it w/Rc7.\n\nWhite has managed to equalize the material, but his pieces are passive.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c7-c4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R2pb1/4p1k1/7p/2P2P2/8/2r2B1P/6K1 b - - 2 14",
+        "parentNodeId": "oM",
+        "san": "Rc7"
+      },
+      "Vd": {
+        "adjacentNodeIds": [
+          "x9"
+        ],
+        "comments": [
+          {
+            "text": "I traded the rooks before recapturing.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pb1/1B2p1p1/3p3P/2P2P2/1P6/r4r1P/3R2K1 w - - 0 9",
+        "parentNodeId": "EW",
+        "san": "Rxf2"
+      },
+      "WM": {
+        "adjacentNodeIds": [
+          "7F",
+          "gC"
+        ],
+        "comments": [
+          {
+            "text": "I recaptured, threatening the c7-pawn.",
+            "arrows": {
+              "threats": [
+                "e5-c7",
+                "c2-c7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/8/4b3/8/7p/2r5/5KB1 w - - 0 23",
+        "parentNodeId": "Rj",
+        "san": "Bxe5"
+      },
+      "WT": {
+        "adjacentNodeIds": [
+          "nQ"
+        ],
+        "comments": [
+          {
+            "text": "If White were to capture on g6...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pb1/4p1P1/8/2p2P2/1P6/r4B1P/3R2K1 b - - 0 10",
+        "parentNodeId": "48",
+        "san": "hxg6"
+      },
+      "Xu": {
+        "adjacentNodeIds": [
+          "41"
+        ],
+        "comments": [
+          {
+            "text": "And when White takes the bishop...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5R2/1p3pk1/4p1P1/2B5/5P2/1p6/r6P/6K1 b - - 0 13",
+        "parentNodeId": "N8",
+        "san": "Rxf8"
+      },
+      "YV": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Perhaps a better option for White was h3 - preventing Black from getting h3 and giving the white king some space.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/4pbk1/2P5/5P1p/7P/2r2B2/6K1 b - - 0 16",
+        "parentNodeId": "uz",
+        "san": "h3"
+      },
+      "Ya": {
+        "adjacentNodeIds": [
+          "do"
+        ],
+        "comments": [
+          {
+            "text": "My opponent attacked f7 with Rf8.",
+            "arrows": {
+              "threats": [
+                "f8-f7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5R2/2b2p1k/8/8/8/7p/2r5/5KB1 b - - 1 24",
+        "parentNodeId": "bO",
+        "san": "Rf8"
+      },
+      "a": {
+        "adjacentNodeIds": [
+          "9b"
+        ],
+        "comments": [
+          {
+            "text": "My opponent captured the a7-pawn, temporarily equalizing the material.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/Bp3pbp/3pp1p1/8/4rPP1/2P5/PP5P/R4RK1 b - - 0 2",
+        "parentNodeId": "T",
+        "san": "Bxa7"
+      },
+      "bO": {
+        "adjacentNodeIds": [
+          "Ya"
+        ],
+        "comments": [
+          {
+            "text": "And I captured on c7 with the bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4R3/2b2p1k/8/8/8/7p/2r5/5KB1 w - - 0 24",
+        "parentNodeId": "7F",
+        "san": "Bxc7"
+      },
+      "cG": {
+        "adjacentNodeIds": [
+          "tK"
+        ],
+        "comments": [
+          {
+            "text": "My opponent responded with Bb6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r5k1/1p3pbp/1B1pp1p1/8/4rPP1/2P5/PP5P/R4RK1 b - - 2 3",
+        "parentNodeId": "9b",
+        "san": "Bb6"
+      },
+      "dH": {
+        "adjacentNodeIds": [
+          "n3"
+        ],
+        "comments": [
+          {
+            "text": "Best for White is to proceed w/Rf7+.",
+            "arrows": {
+              "threats": [
+                "f7-b7"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "g7",
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p3Rk1/4ppP1/2B5/5P2/1p6/r6P/6K1 b - - 1 14",
+        "parentNodeId": "41",
+        "san": "Rf7+"
+      },
+      "do": {
+        "adjacentNodeIds": [
+          "wZ"
+        ],
+        "comments": [
+          {
+            "text": "I moved my king over to g7, attacking the rook and defending the f7-pawn.",
+            "arrows": {
+              "threats": [
+                "g7-f8"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5R2/2b2pk1/8/8/8/7p/2r5/5KB1 w - - 2 25",
+        "parentNodeId": "Ya",
+        "san": "Kg7"
+      },
+      "gC": {
+        "adjacentNodeIds": [
+          "2U"
+        ],
+        "comments": [
+          {
+            "text": "If White were to defend c7 with Bb6...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b6-c7"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/1B6/4b3/8/7p/2r5/5K2 b - - 1 23",
+        "parentNodeId": "WM",
+        "san": "Bb6"
+      },
+      "gi": {
+        "adjacentNodeIds": [
+          "Op",
+          "ma"
+        ],
+        "comments": [
+          {
+            "text": "My opponent tried to create some counterplay by pushing the c-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pbp/1B2p1p1/3p4/2P1rPP1/1P6/r6P/3R1RK1 b - - 0 6",
+        "parentNodeId": "ni",
+        "san": "c4"
+      },
+      "h": {
+        "adjacentNodeIds": [
+          "T"
+        ],
+        "comments": [
+          {
+            "text": "My opponent opted to trade queens.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/pp3pbp/3pp1p1/8/2r1QPP1/2P1B3/PP5P/R4RK1 b - - 0 1",
+        "parentNodeId": "0",
+        "san": "Qxe4"
+      },
+      "hF": {
+        "adjacentNodeIds": [
+          "IR"
+        ],
+        "comments": [
+          {
+            "text": "Black's only move is to block w/...Bf8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3R1bk1/1p3p2/4p1P1/8/5P2/1p6/r4B1P/6K1 w - - 2 12",
+        "parentNodeId": "6t",
+        "san": "Bf8"
+      },
+      "hT": {
+        "adjacentNodeIds": [
+          "xJ"
+        ],
+        "comments": [
+          {
+            "text": "My opponent recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pb1/4p1p1/7P/2P2P2/8/r4B1P/3R2K1 b - - 0 10",
+        "parentNodeId": "48",
+        "san": "bxc4"
+      },
+      "hU": {
+        "adjacentNodeIds": [
+          "LG"
+        ],
+        "comments": [
+          {
+            "text": "My opponent continued Rc8.\n\nIn a perfect world, White will push c7 and go Rg8+, promoting the c-pawn.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c6-c7",
+                "c8-g8"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c7",
+                "g8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/5p2/2P1pbk1/8/5P2/4B2p/7r/5K2 b - - 1 19",
+        "parentNodeId": "wy",
+        "san": "Rc8"
+      },
+      "l0": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "I advanced the h-pawn.\n\nMy opponent resigned since there is simply no way to prevent promotion.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-h1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h1"
+              ]
+            }
+          },
+          {
+            "text": "https://www.chess.com/game/live/16748739625",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h2-h1"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R2pk1/8/8/8/8/4K2p/6r1 w - - 0 28",
+        "parentNodeId": "GP",
+        "san": "h2"
+      },
+      "lV": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But I can skewer the king & bishop!\n\nBlack emerges up a piece in the end.",
+            "arrows": {
+              "threats": [
+                "d4-f2",
+                "f2-g1"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "g1",
+                "f2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/4p3/8/3b1P2/7p/5K2/2r3B1 w - - 5 23",
+        "parentNodeId": "AA",
+        "san": "Bd4+"
+      },
+      "ma": {
+        "adjacentNodeIds": [
+          "1c"
+        ],
+        "comments": [
+          {
+            "text": "If I were to capture on c4...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pbp/1B2p1p1/8/2p1rPP1/1P6/r6P/3R1RK1 w - - 0 7",
+        "parentNodeId": "gi",
+        "san": "dxc4"
+      },
+      "n3": {
+        "adjacentNodeIds": [
+          "sA"
+        ],
+        "comments": [
+          {
+            "text": "Black would then take the g6-pawn.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p3R2/4ppk1/2B5/5P2/1p6/r6P/6K1 w - - 0 15",
+        "parentNodeId": "dH",
+        "san": "Kxg6"
+      },
+      "nQ": {
+        "adjacentNodeIds": [
+          "6t"
+        ],
+        "comments": [
+          {
+            "text": "Black could respond ...cxb3!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pb1/4p1P1/8/5P2/1p6/r4B1P/3R2K1 w - - 0 11",
+        "parentNodeId": "WT",
+        "san": "cxb3"
+      },
+      "nR": {
+        "adjacentNodeIds": [
+          "Jp"
+        ],
+        "comments": [
+          {
+            "text": "And I finally got my pawn down to h3.\n\n...Rc1+, followed by ...Bh4 is a now a threat that White needs to deal with.",
+            "arrows": {
+              "threats": [
+                "c2-c1"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/2P1pbk1/8/5P2/7p/2r2B1P/6K1 w - - 0 17",
+        "parentNodeId": "R8",
+        "san": "h3"
+      },
+      "ni": {
+        "adjacentNodeIds": [
+          "gi"
+        ],
+        "comments": [
+          {
+            "text": "And I simply captured the a2-pawn.\n\nThe c3-pawn is under attack & I want to double my rooks on the 2nd rank.",
+            "arrows": {
+              "threats": [
+                "g7-c3"
+              ],
+              "opportunities": [
+                "e4-e2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pbp/1B2p1p1/3p4/4rPP1/1PP5/r6P/3R1RK1 w - - 0 6",
+        "parentNodeId": "Du",
+        "san": "Rxa2"
+      },
+      "oM": {
+        "adjacentNodeIds": [
+          "T7"
+        ],
+        "comments": [
+          {
+            "text": "I attacked the c4-pawn with ...Rc2.",
+            "arrows": {
+              "threats": [
+                "c2-c4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1R3pb1/4p1k1/7p/2P2P2/8/2r2B1P/6K1 w - - 1 14",
+        "parentNodeId": "9c",
+        "san": "Rc2"
+      },
+      "oz": {
+        "adjacentNodeIds": [
+          "Rj",
+          "vs"
+        ],
+        "comments": [
+          {
+            "text": "I then advanced the e-pawn, missing a clean win & allowing my opponent to get back into the game with the brilliant defensive resource Bh2!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/5b2/4p3/5P2/7p/2r5/5KB1 w - - 0 22",
+        "parentNodeId": "DR",
+        "san": "e5"
+      },
+      "pR": {
+        "adjacentNodeIds": [
+          "zM",
+          "xn"
+        ],
+        "comments": [
+          {
+            "text": "My opponent advanced the c-pawn.\n\nWhite is now threatening Rg8+ which would free up c8 & enable promotion.",
+            "arrows": {
+              "threats": [
+                "c8-g8"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "g8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p2/4pbk1/8/5P2/4B2p/2r5/5K2 b - - 0 20",
+        "parentNodeId": "LG",
+        "san": "c7"
+      },
+      "rZ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "An even better move would've been Bc3 (or Ba1), with the idea to slowly advance forward with ...f6 and ...Kf5.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-f6",
+                "g6-f5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5",
+                "f6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/4p1k1/7p/2P2P2/2b5/2r2B1P/6K1 w - - 3 15",
+        "parentNodeId": "T7",
+        "san": "Bc3"
+      },
+      "sA": {
+        "adjacentNodeIds": [
+          "PL"
+        ],
+        "comments": [
+          {
+            "text": "White would capture the b7-pawn.\n\nThe b3-pawn is now under attack.",
+            "arrows": {
+              "threats": [
+                "b7-b3"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "b3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1R6/4ppk1/2B5/5P2/1p6/r6P/6K1 b - - 0 15",
+        "parentNodeId": "n3",
+        "san": "Rxb7"
+      },
+      "tK": {
+        "adjacentNodeIds": [
+          "OF"
+        ],
+        "comments": [
+          {
+            "text": "And I doubled rooks on the 4th rank.\n\nThere's pressure on the f4-pawn and there is no way for White to save it.",
+            "arrows": {
+              "threats": [
+                "e4-f4"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pbp/1B1pp1p1/8/r3rPP1/2P5/PP5P/R4RK1 w - - 3 4",
+        "parentNodeId": "cG",
+        "san": "Raa4"
+      },
+      "th": {
+        "adjacentNodeIds": [
+          "HZ"
+        ],
+        "comments": [
+          {
+            "text": "My opponent defended against the threats on the second rank with Rf2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pbp/1B2p1p1/3p4/2P2PP1/1P6/r3rR1P/3R2K1 b - - 2 7",
+        "parentNodeId": "Op",
+        "san": "Rf2"
+      },
+      "uz": {
+        "adjacentNodeIds": [
+          "R8",
+          "YV"
+        ],
+        "comments": [
+          {
+            "text": "I proceeded with my plan of h4-h3.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h4-h3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "h3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/4pbk1/2P5/5P1p/8/2r2B1P/6K1 w - - 0 16",
+        "parentNodeId": "H4",
+        "san": "h4"
+      },
+      "vQ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White would go Bc5, winning material.\n\nFunnily enough, this position is still equal since Black is able to create enough counterplay with ...Ree2.",
+            "arrows": {
+              "threats": [
+                "d8-f8"
+              ],
+              "opportunities": [
+                "e4-e2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f8"
+              ],
+              "opportunities": [
+                "e2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3R1bk1/1p3p1p/4p1p1/2B5/2p1rPP1/1P6/r6P/5RK1 b - - 3 8",
+        "parentNodeId": "Od",
+        "san": "Bc5"
+      },
+      "vs": {
+        "adjacentNodeIds": [
+          "w2"
+        ],
+        "comments": [
+          {
+            "text": "This is the crazy defensive resource given by the engine. \n\nThe point is I cannot take on h2.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/5b2/4p3/5P2/7p/2r4B/5K2 b - - 1 22",
+        "parentNodeId": "oz",
+        "san": "Bh2"
+      },
+      "w2": {
+        "adjacentNodeIds": [
+          "LQ"
+        ],
+        "comments": [
+          {
+            "text": "I would probably look for counterplay with ...e4,",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-e3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/5b2/8/4pP2/7p/2r4B/5K2 w - - 0 23",
+        "parentNodeId": "vs",
+        "san": "e4"
+      },
+      "wZ": {
+        "adjacentNodeIds": [
+          "Sy"
+        ],
+        "comments": [
+          {
+            "text": "My opponent slid the rook over to c8.\n\nWhite's position is already totally hopeless, but this loses tactically.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/2b2pk1/8/8/8/7p/2r5/5KB1 b - - 3 25",
+        "parentNodeId": "do",
+        "san": "Rc8"
+      },
+      "wy": {
+        "adjacentNodeIds": [
+          "hU"
+        ],
+        "comments": [
+          {
+            "text": "But the king stopped guarding the pawn on h2, so I captured it!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/2P1pbk1/8/5P2/4B2p/7r/5K2 w - - 0 19",
+        "parentNodeId": "zR",
+        "san": "Rxh2"
+      },
+      "x9": {
+        "adjacentNodeIds": [
+          "48"
+        ],
+        "comments": [
+          {
+            "text": "My opponent recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pb1/4p1p1/3p3P/2P2P2/1P6/r4B1P/3R2K1 b - - 0 9",
+        "parentNodeId": "Vd",
+        "san": "Bxf2"
+      },
+      "xJ": {
+        "adjacentNodeIds": [
+          "Q5"
+        ],
+        "comments": [
+          {
+            "text": "And I finally took back on h5.\n\nSome trades have occured, but I'm still up one pawn - let's see how I managed to convert this endgame.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p3pb1/4p3/7p/2P2P2/8/r4B1P/3R2K1 w - - 0 11",
+        "parentNodeId": "hT",
+        "san": "gxh5"
+      },
+      "xn": {
+        "adjacentNodeIds": [
+          "9F"
+        ],
+        "comments": [
+          {
+            "text": "I could've won the game with ...h2!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p2/4pbk1/8/5P2/4B3/2r4p/5K2 w - - 0 21",
+        "parentNodeId": "pR",
+        "san": "h2"
+      },
+      "zM": {
+        "adjacentNodeIds": [
+          "DR"
+        ],
+        "comments": [
+          {
+            "text": "I went ...Kh7, covering the g8-square.\n\nThis, however, was a mistake. There was actually no need to prevent Rg8+ and White can save the game w/Kg1!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "h7-g8"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "2R5/2P2p1k/4pb2/8/5P2/4B2p/2r5/5K2 w - - 1 21",
+        "parentNodeId": "pR",
+        "san": "Kh7"
+      },
+      "zR": {
+        "adjacentNodeIds": [
+          "wy"
+        ],
+        "comments": [
+          {
+            "text": "My opponent moved the king to f1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/2R2p2/2P1pbk1/8/5P2/4B2p/6rP/5K2 b - - 3 18",
+        "parentNodeId": "Ch",
+        "san": "Kf1"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

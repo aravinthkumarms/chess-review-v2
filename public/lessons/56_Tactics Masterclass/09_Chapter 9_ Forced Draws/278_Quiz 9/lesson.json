@@ -1,0 +1,43 @@
+{
+  "id": "90b0de1f-6c76-4006-9a05-a4070e891173",
+  "name": "Quiz 9",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White pushes their passed pawn.\n\nCan you spot the move that leads to stalemate?",
+    "answers": [
+      {
+        "text": "Re1+",
+        "feedback": {
+          "text": "Good job! A stalemate follows after  White captures our rook.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "8/8/1P6/8/6p1/5kP1/7P/1R2r1K1 w - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "Our king would be stalemated if it couldn't move to the e-file...",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/8/1P6/6p1/4rkP1/7P/1R4K1 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "b6",
+      "afterMoveFen": "8/8/1P6/8/6p1/4rkP1/7P/1R4K1 b - - 0 1"
+    }
+  },
+  "drill": null
+}

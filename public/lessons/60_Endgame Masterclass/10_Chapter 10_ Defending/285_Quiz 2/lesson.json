@@ -1,0 +1,57 @@
+{
+  "id": "cd408517-517e-4edd-9e90-069c400fe82d",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White has moved their rook to e8 and offered a rook trade. \n\nShould we trade the rooks or do something else?",
+    "answers": [
+      {
+        "text": "We should trade the rooks. Our king will be much safer and there will be higher drawing chances.",
+        "feedback": {
+          "text": "That's right! White's queen and rook combo is very dangerous.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "e7-e8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "We shouldn't trade the rooks. We should keep as much pieces on the board as possible, since White is up in material.",
+        "feedback": {
+          "text": "Moving the rooks leads to a very quick checkmate after Rg8+!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2Q2R2/4r1k1/p4pp1/4n2p/7P/P7/2b5/K7 w - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Re8",
+      "afterMoveFen": "2Q1R3/4r1k1/p4pp1/4n2p/7P/P7/2b5/K7 b - - 2 1"
+    }
+  },
+  "drill": null
+}

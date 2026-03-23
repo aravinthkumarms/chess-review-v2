@@ -1,0 +1,54 @@
+{
+  "id": "510637d7-3dca-4d88-aea6-3aa418227c51",
+  "name": "Quiz 5",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It is Black to move and threaten a skewer in one move. \n\nCan you see how?",
+    "answers": [
+      {
+        "text": "h5",
+        "feedback": {
+          "text": "Perfect! h5 prepares Bg4.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c8-g4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "f3",
+              "d1"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "r1bqk1nr/1pp1pp2/p1np1bp1/7p/2B1P3/2N2QB1/PPP2PPP/2KR2NR w kq - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "This move isn't the skewer. You're setting up a skewer to threaten it in one move.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqk1nr/1pp1pp2/p1np1bpp/8/2B1P3/2N2QB1/PPP2PPP/R3K1NR w Qkq - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "O-O-O",
+      "afterMoveFen": "r1bqk1nr/1pp1pp2/p1np1bpp/8/2B1P3/2N2QB1/PPP2PPP/2KR2NR b kq - 2 1"
+    }
+  },
+  "drill": null
+}

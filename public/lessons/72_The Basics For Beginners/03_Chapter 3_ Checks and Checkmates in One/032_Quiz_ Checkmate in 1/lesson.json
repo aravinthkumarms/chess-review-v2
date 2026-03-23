@@ -1,0 +1,43 @@
+{
+  "id": "4f59a5c4-aeee-4cc9-9f8a-6e839c31add5",
+  "name": "Quiz: Checkmate in 1",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "It's time to win with the White pieces! \n\nFind checkmate in one!",
+    "answers": [
+      {
+        "text": "Qxh7#",
+        "feedback": {
+          "text": "With the support of the rook, our queen delivers the deadly blow.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": "r2q1rk1/1p3ppQ/p1p1p3/3n4/3P4/5B2/PPP2PP1/2KR3R b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "There is a way that we can give a check (an attack on the king) that Black's King cannot escape from!",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r2q1rk1/pp3ppp/2p1p3/3n4/3P4/3Q1B2/PPP2PP1/2KR3R b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "a6",
+      "afterMoveFen": "r2q1rk1/1p3ppp/p1p1p3/3n4/3P4/3Q1B2/PPP2PP1/2KR3R w - - 0 2"
+    }
+  },
+  "drill": null
+}

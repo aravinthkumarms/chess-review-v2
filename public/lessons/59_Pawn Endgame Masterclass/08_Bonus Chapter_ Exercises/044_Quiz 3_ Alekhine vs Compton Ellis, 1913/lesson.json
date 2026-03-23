@@ -1,0 +1,91 @@
+{
+  "id": "762a015e-54bd-48bb-abf9-9a6f7c85aede",
+  "name": "Quiz 3: Alekhine vs Compton Ellis, 1913",
+  "type": "SAN_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black just played f6.\n\nWhat's the crushing move for White?",
+    "answers": [
+      {
+        "text": "f4+",
+        "feedback": {
+          "text": "That's correct!\n\nOnce Black captures, you'll play Kf3.\n\nAfter that, g5 and breaking through on the kingside is unstoppable.\n\nBlack is in Zugzwang.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g5-f4",
+              "e3-f3",
+              "g4-g5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "sacrificing a pawn.",
+        "afterMoveFen": "8/8/5p2/p1p1kPp1/P1P2PP1/4K3/8/8 b - - 0 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Kd3",
+        "feedback": {
+          "text": "It's better to stay on the kingside!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "trying to reach the queenside.",
+        "afterMoveFen": "8/8/5p2/p1p1kPp1/P1P3P1/3K1P2/8/8 b - - 1 2"
+      },
+      {
+        "text": "Ke2",
+        "feedback": {
+          "text": "Creative, but that's not the idea in this position.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "trying to triangulate.",
+        "afterMoveFen": "8/8/5p2/p1p1kPp1/P1P3P1/5P2/4K3/8 b - - 1 2"
+      },
+      {
+        "text": "Kf2",
+        "feedback": {
+          "text": "There is a knockout punch instead.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": "going for Kg3.",
+        "afterMoveFen": "8/8/5p2/p1p1kPp1/P1P3P1/5P2/5K2/8 b - - 1 2"
+      }
+    ],
+    "positionFen": "8/5p2/8/p1p1kPp1/P1P3P1/4KP2/8/8 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "f6",
+      "afterMoveFen": "8/8/5p2/p1p1kPp1/P1P3P1/4KP2/8/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}

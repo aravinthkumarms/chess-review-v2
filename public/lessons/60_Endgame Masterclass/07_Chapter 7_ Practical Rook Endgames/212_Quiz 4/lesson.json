@@ -1,0 +1,87 @@
+{
+  "id": "1a319e36-eac5-48bf-be9d-5a71b558b40c",
+  "name": "Quiz 4",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black has gone into c3, and they're attacking the b3-pawn. The king also helps support the d-pawn. \n\nWhat's the best plan for White?",
+    "answers": [
+      {
+        "text": "Going for a draw with dynamic the dynamic c5-pawn push!",
+        "feedback": {
+          "text": "c5 is the only move to draw. \n\nIt mounts a formidable defense against the passed d-pawn. If Black ignores it, you can play c6! \n\nIf Black takes it, you can recapture with the rook and disturb the king's support of the d-pawn.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c4-c5"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Winning with f5, going for the glory with the f-pawn.",
+        "feedback": {
+          "text": "The d-pawn is much faster than the f-pawn. Black could promote and win easily.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f4-f5",
+              "d3-d2",
+              "d2-d1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Defending / going for a draw with Kf3.",
+        "feedback": {
+          "text": "The pawn is too quick. White cannot defend against it. If Kf3, ...d2. If Ke2, Re1+!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "g2-f3",
+              "d3-d2",
+              "f3-e2",
+              "b1-e1"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/7p/1p6/3R4/2Pk1P2/1P1p3P/5PK1/1r6 b - - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "b3"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Kc3",
+      "afterMoveFen": "8/7p/1p6/3R4/2P2P2/1Pkp3P/5PK1/1r6 w - - 2 2"
+    }
+  },
+  "drill": null
+}

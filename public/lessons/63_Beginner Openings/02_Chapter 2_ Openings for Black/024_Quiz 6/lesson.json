@@ -1,0 +1,90 @@
+{
+  "id": "2d41bef0-fdc2-4331-bfbd-bbc0523fad49",
+  "name": "Quiz 6 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "White takes in the center. \n\nIs ...Nxd4 a good move?",
+    "answers": [
+      {
+        "text": "No, because you don't develop a piece.",
+        "feedback": {
+          "text": "Exactly. Trading on d4 allows White's queen to develop, actually!",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c6-d4",
+              "d1-d4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, because we win a knight.",
+        "feedback": {
+          "text": "The queen defends.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "c6-d4",
+              "d1-d4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "d4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Yes, because we trade pieces.",
+        "feedback": {
+          "text": "Not all piece trades are good! ...Bc5 is the move here.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f8-c5"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c6-d4"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "d4"
+      ]
+    },
+    "contextMove": {
+      "san": "Nxd4",
+      "afterMoveFen": "r1bqkbnr/pppp1ppp/2n5/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 1"
+    }
+  },
+  "drill": null
+}

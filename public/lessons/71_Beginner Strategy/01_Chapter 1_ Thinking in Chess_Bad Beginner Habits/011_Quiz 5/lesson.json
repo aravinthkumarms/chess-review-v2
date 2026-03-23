@@ -1,0 +1,83 @@
+{
+  "id": "7aeeabe0-42b5-4a42-82a8-0f74e259db7a",
+  "name": "Quiz 5",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "The rook attacks your knight. \n\nIs Nd6+ a good idea to fork the king and rook, or is there something wrong with this move?",
+    "answers": [
+      {
+        "text": "It's not a good idea.",
+        "feedback": {
+          "text": "The bishop on f8 could simply capture your knight when it lands on d6.",
+          "arrows": {
+            "threats": [
+              "f8-d6"
+            ],
+            "opportunities": [
+              "c4-d6"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f8",
+              "c4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "I like that idea but I want to play something else first. Maybe f3 first.",
+        "feedback": {
+          "text": "If you play f3, Black could take on c4 (...Rxc4) and if you take on g4, Black could take the other knight (...Rxa4).",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "Nd6+ is a great idea! After I check the king, I'll play Nxc8 and win the rook!",
+        "feedback": {
+          "text": "This is actually not the case. Black can capture your knight when it lands on d6.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1r2kb1r/5ppp/p3p3/8/N1N3bn/2B5/PPP2PPP/R4RK1 b k - 1 1",
+    "arrows": null,
+    "highlights": {
+      "threats": [
+        "c4"
+      ],
+      "opportunities": []
+    },
+    "contextMove": {
+      "san": "Rc8",
+      "afterMoveFen": "2r1kb1r/5ppp/p3p3/8/N1N3bn/2B5/PPP2PPP/R4RK1 w k - 2 2"
+    }
+  },
+  "drill": null
+}

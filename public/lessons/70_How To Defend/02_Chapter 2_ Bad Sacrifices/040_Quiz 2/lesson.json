@@ -1,0 +1,82 @@
+{
+  "id": "6908dd2a-0fd6-45da-bb87-6cda1b53c038",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black develops. \n\nIs Bxf7+, to attract the king to f7 and play Ng5+, a good sacrifice?",
+    "answers": [
+      {
+        "text": "No, it isn't.",
+        "feedback": {
+          "text": "Correct! The king can just take, and after Ng5+, go back to e8 and face no consequences.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It is completely winning.",
+        "feedback": {
+          "text": "After you bring the knight in, you cannot do anything else.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "White isn't winning after Bxf7+, but there's some compensation.",
+        "feedback": {
+          "text": "There isn't any compensation whatsoever.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "rnbqkbnr/pp2pppp/8/2p1P3/2Bp4/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 1",
+    "arrows": {
+      "threats": [
+        "c4-f7",
+        "f3-g5"
+      ],
+      "opportunities": []
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "f7"
+      ]
+    },
+    "contextMove": {
+      "san": "Nc6",
+      "afterMoveFen": "r1bqkbnr/pp2pppp/2n5/2p1P3/2Bp4/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 2"
+    }
+  },
+  "drill": null
+}

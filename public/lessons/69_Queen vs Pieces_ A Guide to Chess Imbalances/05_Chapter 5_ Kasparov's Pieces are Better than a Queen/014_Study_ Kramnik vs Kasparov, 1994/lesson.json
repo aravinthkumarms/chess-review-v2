@@ -1,0 +1,1248 @@
+{
+  "id": "b7dfe83c-3584-4fa3-80d5-9018da501e3a",
+  "name": "Study: Kramnik vs Kasparov, 1994",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "i"
+        ],
+        "comments": [
+          {
+            "text": "Welcome to the next study in our course!\n\nThis game was played between Vladimir Kramnik and Garry Kasparov in 1994.\n\nThe position looks like a balanced middlegame, but Kramnik's last move b3 allowed an incredible idea!",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/1ppb1pb1/3p1npp/p1nPp3/2P1P2B/1PN5/P2NBPPP/R2Q1RK1 b - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "2a": {
+        "adjacentNodeIds": [
+          "My"
+        ],
+        "comments": [
+          {
+            "text": "That's why f3 was played.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p1nP2pP/2P1pr2/1P1nQP2/3N2K1/1R1B1R2 b - - 0 18",
+        "parentNodeId": "z0",
+        "san": "f3"
+      },
+      "2k": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Black would have simply won a pawn with a much better position.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1ppb1pb1/3p2pp/p1nPp3/2P1N2q/1P6/P2NBPPP/R2Q1RK1 w - - 0 3",
+        "parentNodeId": "K",
+        "san": "Qxh4"
+      },
+      "6i": {
+        "adjacentNodeIds": [
+          "Zp"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik now defended the f2-pawn with his rook.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f2"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p3p/p1nP2pP/2P1pr2/1P1nQ3/3N1PK1/1R1B1R2 b - - 1 15",
+        "parentNodeId": "xN",
+        "san": "Rf1"
+      },
+      "7C": {
+        "adjacentNodeIds": [
+          "Nf"
+        ],
+        "comments": [
+          {
+            "text": "Instead, White captured on e4.\n\nBut now his king was wide open.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p1nP2pP/2P1P2r/1P1nQ3/3N2K1/1R1B1R2 b - - 0 19",
+        "parentNodeId": "My",
+        "san": "fxe4"
+      },
+      "8C": {
+        "adjacentNodeIds": [
+          "Z1"
+        ],
+        "comments": [
+          {
+            "text": "Instead of recapturing the bishop on d8, Kasparov captured the knight on c3 first, forking the queen and the bishop on e2.\n\nNow the queen had to stay guarding the light-squared bishop.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d1",
+                "e2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2B1rk1/1ppb1pb1/3p2pp/p1nPp3/2P5/1Pn5/P2NBPPP/R2Q1RK1 w - - 0 3",
+        "parentNodeId": "b",
+        "san": "Nxc3"
+      },
+      "8M": {
+        "adjacentNodeIds": [
+          "Qi"
+        ],
+        "comments": [
+          {
+            "text": "With his queen being attacked and not having too many squares to move to, Kramnik captured on f4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/1ppb2b1/3p2pp/p1nP4/2P1pP1P/1P1nQ3/3N1PK1/1R1B2R1 b - - 0 13",
+        "parentNodeId": "Ci",
+        "san": "gxf4"
+      },
+      "8z": {
+        "adjacentNodeIds": [
+          "I8",
+          "ic"
+        ],
+        "comments": [
+          {
+            "text": "Capturing the pawn on f2 straight away was also good.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p2pp/p1nP3P/2P1p3/1P1nQ3/3N1rK1/1R1B2R1 w - - 0 15",
+        "parentNodeId": "xA",
+        "san": "Rxf2+"
+      },
+      "9q": {
+        "adjacentNodeIds": [
+          "qp"
+        ],
+        "comments": [
+          {
+            "text": "Opening the e-file for the queen and preventing ...Nc2.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c2"
+              ],
+              "opportunities": [
+                "e1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2r2k1/1ppb1pb1/3p2pp/p1nPp3/1nP5/1P6/3N1PPP/R2BQRK1 b - - 3 6",
+        "parentNodeId": "BW",
+        "san": "Bd1"
+      },
+      "9x": {
+        "adjacentNodeIds": [
+          "Gu"
+        ],
+        "comments": [
+          {
+            "text": "A knight arrived on the d3-square.\n\nNow the threat of f4, breaking apart White's defences and activating the light-squared bishop, was introduced again.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f5-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4rrk1/1ppb2b1/3p2pp/p1nP1p2/2P1p2P/1P1nQ1P1/3N1PK1/1R1B1R2 w - - 3 12",
+        "parentNodeId": "z8",
+        "san": "Nbd3"
+      },
+      "BW": {
+        "adjacentNodeIds": [
+          "9q"
+        ],
+        "comments": [
+          {
+            "text": "Garry retreated to b4, a nice outpost for the knight.\n\nNow ...Nc2 was the threat, forking the queen and the rook.\n\nIf the rook was on b1, Kramnik wouldn't have had to worry about this as much.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b4-c2"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/1ppb1pb1/3p2pp/p1nPp3/1nP5/1P6/3NBPPP/R3QRK1 w - - 2 6",
+        "parentNodeId": "Ly",
+        "san": "Nb4"
+      },
+      "Ci": {
+        "adjacentNodeIds": [
+          "8M"
+        ],
+        "comments": [
+          {
+            "text": "But the key pawn break was there anyway.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4rrk1/1ppb2b1/3p2pp/p1nP4/2P1pp1P/1P1nQ1P1/3N1PK1/1R1B2R1 w - - 0 13",
+        "parentNodeId": "Gu",
+        "san": "f4"
+      },
+      "Gu": {
+        "adjacentNodeIds": [
+          "Ci"
+        ],
+        "comments": [
+          {
+            "text": "Probably realizing that the g-file was going to open up, White played Rg1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/1ppb2b1/3p2pp/p1nP1p2/2P1p2P/1P1nQ1P1/3N1PK1/1R1B2R1 b - - 4 12",
+        "parentNodeId": "9x",
+        "san": "Rg1"
+      },
+      "Hk": {
+        "adjacentNodeIds": [
+          "fx"
+        ],
+        "comments": [
+          {
+            "text": "Black would have taken the queen, of course.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p2pp/p1nP3P/2P1p3/1P6/3N1nK1/1R1B2R1 w - - 0 16",
+        "parentNodeId": "ic",
+        "san": "Nxf2"
+      },
+      "I8": {
+        "adjacentNodeIds": [
+          "UE"
+        ],
+        "comments": [
+          {
+            "text": "White would have run to the h-file...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p2pp/p1nP3P/2P1p3/1P1nQ3/3N1r2/1R1B2RK b - - 1 15",
+        "parentNodeId": "8z",
+        "san": "Kh1"
+      },
+      "IL": {
+        "adjacentNodeIds": [
+          "Zf"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik desperately tried to block with the knight.\n\nComputer suggests Rc3 instead, giving up the queen in order to activate some pieces!\n\nWhite's position was that bad.",
+            "arrows": {
+              "threats": [
+                "c1-c3"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p2Pn1pP/2P2n2/1P2QN1r/8/2RB1RK1 b - - 3 23",
+        "parentNodeId": "rl",
+        "san": "Nf3"
+      },
+      "Jx": {
+        "adjacentNodeIds": [
+          "ay"
+        ],
+        "comments": [
+          {
+            "text": "Now Garry had plans of trading the rooks on the f-file, as his rook on f8 was under attack.\n\nLet's not forget that, if all the pieces were traded, Black would have still been up two pawns, which is most often a decisive advantage.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f8-f1"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f1"
+              ],
+              "opportunities": [
+                "g4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppN2b1/3p3p/p2P3P/2P3p1/1P2r2n/8/2RB1RK1 w - - 1 26",
+        "parentNodeId": "R4",
+        "san": "Nh3+"
+      },
+      "K": {
+        "adjacentNodeIds": [
+          "2k"
+        ],
+        "comments": [
+          {
+            "text": "Had Kramnik declined the sacrifice...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/1ppb1pb1/3p2pp/p1nPp3/2P1N2B/1P6/P2NBPPP/R2Q1RK1 b - - 0 2",
+        "parentNodeId": "i",
+        "san": "Ncxe4"
+      },
+      "Ly": {
+        "adjacentNodeIds": [
+          "BW"
+        ],
+        "comments": [
+          {
+            "text": "Now White went back to a1, pressuring the knight again, making another mistake!\n\nKasparov's knight was going to b4 anyway, so Rb1 was better.\n\nNow the rook was in the line of fire of the g7-bishop.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a2-b4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a1"
+              ],
+              "opportunities": [
+                "g7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2r2k1/1ppb1pb1/3p2pp/p1nPp3/2P5/1P6/n2NBPPP/R3QRK1 b - - 1 5",
+        "parentNodeId": "md",
+        "san": "Ra1"
+      },
+      "Mp": {
+        "adjacentNodeIds": [
+          "gB"
+        ],
+        "comments": [
+          {
+            "text": "Kasparov activated his own rook and defended the pawn on e4.\n\nHis plan was to push ...f5, solidify the structure, and at some point place one of the knights on the extremely active d3-square.\n\nA positional squeeze.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f7-f5",
+                "b4-d3",
+                "c5-d3"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3r1k1/1ppb1pb1/3p2pp/p1nP4/1nP1p3/1P6/3N1PPP/1R1BQRK1 w - - 2 8",
+        "parentNodeId": "qL",
+        "san": "Re8"
+      },
+      "My": {
+        "adjacentNodeIds": [
+          "7C"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik went back to the h-file, opening up the f4 square for the knight.\n\nNow Rh1 by White would have been harder to achieve, because Black had the option of capturing on f3 in that case.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d3-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p1nP2pP/2P1p2r/1P1nQP2/3N2K1/1R1B1R2 w - - 1 19",
+        "parentNodeId": "2a",
+        "san": "Rh4"
+      },
+      "NY": {
+        "adjacentNodeIds": [
+          "us"
+        ],
+        "comments": [
+          {
+            "text": "Seeing no better way out, Kramnik finally decided to give up the queen.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p2PN2P/2P2np1/1P2Q2r/8/2RB1RK1 b - - 0 24",
+        "parentNodeId": "Zf",
+        "san": "Nxe5"
+      },
+      "Na": {
+        "adjacentNodeIds": [
+          "ZU"
+        ],
+        "comments": [
+          {
+            "text": "Kasparov took with the knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p2Pn1pP/2P2n1r/1P2Q3/3N4/1R1B1RK1 w - - 0 22",
+        "parentNodeId": "Vi",
+        "san": "Nxe5"
+      },
+      "Nf": {
+        "adjacentNodeIds": [
+          "l1"
+        ],
+        "comments": [
+          {
+            "text": "And the knight gave a check immediately, allowing the other knight to jump to d3 on the next turn.\n\nPiece coordination!",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c5-d3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g2"
+              ],
+              "opportunities": [
+                "d3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p1nP2pP/2P1Pn1r/1P2Q3/3N2K1/1R1B1R2 w - - 1 20",
+        "parentNodeId": "7C",
+        "san": "Nf4+"
+      },
+      "Qi": {
+        "adjacentNodeIds": [
+          "xA"
+        ],
+        "comments": [
+          {
+            "text": "Kasparov recaptured, with ideas of strengthening the rook on f4 and doubling up on the f-file in the future.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g6-g5",
+                "e8-f8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p2pp/p1nP4/2P1pr1P/1P1nQ3/3N1PK1/1R1B2R1 w - - 0 14",
+        "parentNodeId": "8M",
+        "san": "Rxf4"
+      },
+      "R4": {
+        "adjacentNodeIds": [
+          "Jx"
+        ],
+        "comments": [
+          {
+            "text": "And Kramnik got two pieces for the queen, same as Kasparov did.\n\nBut due to his king being extremely unsafe and the bad quality of his pieces, his position was dead lost.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppN2b1/3p3p/p2P3P/2P2np1/1P2r3/8/2RB1RK1 b - - 0 25",
+        "parentNodeId": "us",
+        "san": "Nxd7"
+      },
+      "SC": {
+        "adjacentNodeIds": [
+          "sG"
+        ],
+        "comments": [
+          {
+            "text": "And Black started liquidating and transforming the position into a winning endgame.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1ppN2b1/3p3p/p2P3P/2P3p1/1P2r2n/6K1/2RB1r2 w - - 0 27",
+        "parentNodeId": "ay",
+        "san": "Rxf1"
+      },
+      "U6": {
+        "adjacentNodeIds": [
+          "ii"
+        ],
+        "comments": [
+          {
+            "text": "Of course, Black's rook was much more active than White's, so the trade was out of the question.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p3p/p1nP2pP/2P1pr2/1P1nQ3/3N1PK1/1R1B3R w - - 4 17",
+        "parentNodeId": "wB",
+        "san": "Rf4"
+      },
+      "UE": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "...And now the ...g5 idea would have worked again.\n\nKasparov probably liked his rook on f4 more and didn't want to activate White's rook on g1.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p3p/p1nP2pP/2P1p3/1P1nQ3/3N1r2/1R1B2RK w - - 0 16",
+        "parentNodeId": "I8",
+        "san": "g5"
+      },
+      "Vi": {
+        "adjacentNodeIds": [
+          "Na"
+        ],
+        "comments": [
+          {
+            "text": "He tried sacrificing a pawn to open the position a little bit.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p2PP1pP/2P2n1r/1P1nQ3/3N4/1R1B1RK1 b - - 0 21",
+        "parentNodeId": "w6",
+        "san": "e5"
+      },
+      "Z1": {
+        "adjacentNodeIds": [
+          "wc"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik moved out of the way, keeping an eye on the bishop.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2B1rk1/1ppb1pb1/3p2pp/p1nPp3/2P5/1Pn5/P2NBPPP/R3QRK1 b - - 1 3",
+        "parentNodeId": "8C",
+        "san": "Qe1"
+      },
+      "ZI": {
+        "adjacentNodeIds": [
+          "iX"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik tried with Kg2, now putting pressure on the knight.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1ppN2b1/3p3p/p2P3P/2P5/1P2r1pn/6K1/2RB4 b - - 1 28",
+        "parentNodeId": "y9",
+        "san": "Kg2"
+      },
+      "ZU": {
+        "adjacentNodeIds": [
+          "rl"
+        ],
+        "comments": [
+          {
+            "text": "Now Rc1 was played, probably with the idea of pushing c4 and trying to activate some pieces.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c4-c5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p2Pn1pP/2P2n1r/1P2Q3/3N4/2RB1RK1 b - - 1 22",
+        "parentNodeId": "Na",
+        "san": "Rc1"
+      },
+      "Zf": {
+        "adjacentNodeIds": [
+          "NY"
+        ],
+        "comments": [
+          {
+            "text": "That move ran directly into ...g4, attacking the poor knight.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p2Pn2P/2P2np1/1P2QN1r/8/2RB1RK1 w - - 0 24",
+        "parentNodeId": "IL",
+        "san": "g4"
+      },
+      "Zp": {
+        "adjacentNodeIds": [
+          "wB"
+        ],
+        "comments": [
+          {
+            "text": "Garry first tried to take control of the h-file and possibly play ...Bh3+.\n\nAlso, the knight wanted to jump to f4.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d7-h3",
+                "d3-f4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p3p/p1nP2pP/2P1p2r/1P1nQ3/3N1PK1/1R1B1R2 w - - 2 16",
+        "parentNodeId": "6i",
+        "san": "Rh4"
+      },
+      "an": {
+        "adjacentNodeIds": [
+          "rz"
+        ],
+        "comments": [
+          {
+            "text": "Now that the e-pawn was protected, Kasparov had plans of placing the rooks on the f- and e-files.\n\nAlso, ...f4 was now a big threat.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a8-e8",
+                "f5-f4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f5",
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r4rk1/1ppb2b1/3p2pp/p1nP1p2/1nP1p2P/1P2Q3/3N1PP1/1R1B1RK1 w - - 1 10",
+        "parentNodeId": "uV",
+        "san": "Rf8"
+      },
+      "ay": {
+        "adjacentNodeIds": [
+          "SC"
+        ],
+        "comments": [
+          {
+            "text": "The king got out of the check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppN2b1/3p3p/p2P3P/2P3p1/1P2r2n/6K1/2RB1R2 b - - 2 26",
+        "parentNodeId": "Jx",
+        "san": "Kg2"
+      },
+      "b": {
+        "adjacentNodeIds": [
+          "8C"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik accepted the sacrifice.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2B1rk1/1ppb1pb1/3p2pp/p1nPp3/2P1n3/1PN5/P2NBPPP/R2Q1RK1 b - - 0 2",
+        "parentNodeId": "i",
+        "san": "Bxd8"
+      },
+      "fx": {
+        "adjacentNodeIds": [
+          "ki"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik would have recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p2pp/p1nP3P/2P1p3/1P6/3N1K2/1R1B2R1 b - - 0 16",
+        "parentNodeId": "Hk",
+        "san": "Kxf2"
+      },
+      "gB": {
+        "adjacentNodeIds": [
+          "td"
+        ],
+        "comments": [
+          {
+            "text": "Trying to activate his queen, Kramnik played Qe3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/1ppb1pb1/3p2pp/p1nP4/1nP1p3/1P2Q3/3N1PPP/1R1B1RK1 b - - 3 8",
+        "parentNodeId": "Mp",
+        "san": "Qe3"
+      },
+      "i": {
+        "adjacentNodeIds": [
+          "b",
+          "K"
+        ],
+        "comments": [
+          {
+            "text": "Kasparov sacrificed the queen!\n\nHe was going to get a pawn and two pieces for it.\n\nHowever, this eliminates some of White's most active pieces.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-c3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d8",
+                "d1",
+                "e2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q1rk1/1ppb1pb1/3p2pp/p1nPp3/2P1n2B/1PN5/P2NBPPP/R2Q1RK1 w - - 0 2",
+        "parentNodeId": "0",
+        "san": "Nfxe4"
+      },
+      "iX": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But after ...Nf4+, he resigned.\n\nThe pawn was going to g2, and soon after to g1. It was forced mate for Black.\n\nOne of the best examples of how piece activity and coordination in chess can prove to be much stronger than a material advantage!\n\nAn excellent display of positional play by Kasparov, confusing Kramnik from the start to finish.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g3-g2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "g2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1ppN2b1/3p3p/p2P3P/2P2n2/1P2r1p1/6K1/2RB4 w - - 2 29",
+        "parentNodeId": "ZI",
+        "san": "Nf4+"
+      },
+      "ic": {
+        "adjacentNodeIds": [
+          "Hk"
+        ],
+        "comments": [
+          {
+            "text": "In this case, trying to give up the queen for a rook and a knight would have been a disaster...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p2pp/p1nP3P/2P1p3/1P1n4/3N1QK1/1R1B2R1 b - - 0 15",
+        "parentNodeId": "8z",
+        "san": "Qxf2"
+      },
+      "ii": {
+        "adjacentNodeIds": [
+          "z0"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik went back, being happy to repeat moves.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p3p/p1nP2pP/2P1pr2/1P1nQ3/3N1PK1/1R1B1R2 b - - 5 17",
+        "parentNodeId": "U6",
+        "san": "Rf1"
+      },
+      "ki": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But the fork on e3 would have arrived, and White would have lost another piece and the game soon after.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f2",
+                "d2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p2pp/p1nP3P/2P5/1P2p3/3N1K2/1R1B2R1 w - - 0 17",
+        "parentNodeId": "fx",
+        "san": "e3+"
+      },
+      "l1": {
+        "adjacentNodeIds": [
+          "w6"
+        ],
+        "comments": [
+          {
+            "text": "The king fell back to g1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p1nP2pP/2P1Pn1r/1P2Q3/3N4/1R1B1RK1 b - - 2 20",
+        "parentNodeId": "Nf",
+        "san": "Kg1"
+      },
+      "li": {
+        "adjacentNodeIds": [
+          "z8"
+        ],
+        "comments": [
+          {
+            "text": "But here came the other rook.\n\nWith every move, Kasparov was improving one of his pieces.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/1ppb2b1/3p2pp/p1nP1p2/1nP1p2P/1P2Q1P1/3N1P2/1R1B1RK1 w - - 1 11",
+        "parentNodeId": "rz",
+        "san": "Rae8"
+      },
+      "md": {
+        "adjacentNodeIds": [
+          "Ly"
+        ],
+        "comments": [
+          {
+            "text": "Kasparov simply captured on a2.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "c1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2r2k1/1ppb1pb1/3p2pp/p1nPp3/2P5/1P6/n2NBPPP/2R1QRK1 w - - 0 5",
+        "parentNodeId": "sH",
+        "san": "Nxa2"
+      },
+      "qL": {
+        "adjacentNodeIds": [
+          "Mp"
+        ],
+        "comments": [
+          {
+            "text": "White moved one square, to b1.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2r2k1/1ppb1pb1/3p2pp/p1nP4/1nP1p3/1P6/3N1PPP/1R1BQRK1 b - - 1 7",
+        "parentNodeId": "qp",
+        "san": "Rb1"
+      },
+      "qp": {
+        "adjacentNodeIds": [
+          "qL"
+        ],
+        "comments": [
+          {
+            "text": "That gave Black the opportunity to grab more space with ...e4, attacking the rook.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "a1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2r2k1/1ppb1pb1/3p2pp/p1nP4/1nP1p3/1P6/3N1PPP/R2BQRK1 w - - 0 7",
+        "parentNodeId": "9q",
+        "san": "e4"
+      },
+      "rl": {
+        "adjacentNodeIds": [
+          "IL"
+        ],
+        "comments": [
+          {
+            "text": "But Kasparov was quick to react, attacking the queen on f3 immediately.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p2Pn1pP/2P2n2/1P2Q2r/3N4/2RB1RK1 w - - 2 23",
+        "parentNodeId": "ZU",
+        "san": "Rh3"
+      },
+      "rz": {
+        "adjacentNodeIds": [
+          "li"
+        ],
+        "comments": [
+          {
+            "text": "White stopped ...f4 by playing g3.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r4rk1/1ppb2b1/3p2pp/p1nP1p2/1nP1p2P/1P2Q1P1/3N1P2/1R1B1RK1 b - - 0 10",
+        "parentNodeId": "an",
+        "san": "g3"
+      },
+      "sG": {
+        "adjacentNodeIds": [
+          "y9"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1ppN2b1/3p3p/p2P3P/2P3p1/1P2r2n/8/2RB1K2 b - - 0 27",
+        "parentNodeId": "SC",
+        "san": "Kxf1"
+      },
+      "sH": {
+        "adjacentNodeIds": [
+          "md"
+        ],
+        "comments": [
+          {
+            "text": "Trying to activate one of his pieces, Kramnik attacked the knight.\n\nBut this was already a mistake!\n\nSomething like Nb1, trying to trade knights, was stronger.",
+            "arrows": {
+              "threats": [
+                "d2-b1"
+              ],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "c3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2r2k1/1ppb1pb1/3p2pp/p1nPp3/2P5/1Pn5/P2NBPPP/2R1QRK1 b - - 1 4",
+        "parentNodeId": "wc",
+        "san": "Rc1"
+      },
+      "td": {
+        "adjacentNodeIds": [
+          "uV"
+        ],
+        "comments": [
+          {
+            "text": "But now the ...f5 push was in the cards!\n\nCompare this to Ivanchuk vs Mamedyarov, 2013. Black doesn't have a single loose piece or pawn! ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3r1k1/1ppb2b1/3p2pp/p1nP1p2/1nP1p3/1P2Q3/3N1PPP/1R1B1RK1 w - f6 0 9",
+        "parentNodeId": "gB",
+        "san": "f5"
+      },
+      "uV": {
+        "adjacentNodeIds": [
+          "an"
+        ],
+        "comments": [
+          {
+            "text": "Kramnik pushed a flank pawn and tried to challenge Black's pawn structure near the king.\n\nInstead of that, something like Qh3, eyeing the h6-pawn, was better.",
+            "arrows": {
+              "threats": [
+                "e3-h3"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/1ppb2b1/3p2pp/p1nP1p2/1nP1p2P/1P2Q3/3N1PP1/1R1B1RK1 b - h3 0 9",
+        "parentNodeId": "td",
+        "san": "h4"
+      },
+      "us": {
+        "adjacentNodeIds": [
+          "R4"
+        ],
+        "comments": [
+          {
+            "text": "Kasparov captured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p2PN2P/2P2np1/1P2r3/8/2RB1RK1 w - - 0 25",
+        "parentNodeId": "NY",
+        "san": "Rxe3"
+      },
+      "w6": {
+        "adjacentNodeIds": [
+          "Vi"
+        ],
+        "comments": [
+          {
+            "text": "And the c-knight arrived to d3, now controlling even more squares.\n\nAgain, none of White's pieces could do anything.\n\nKramnik being up a queen didn't matter when all of the opponent's pieces had a role in the game.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e3",
+                "b1",
+                "d2",
+                "d1"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p2P2pP/2P1Pn1r/1P1nQ3/3N4/1R1B1RK1 w - - 3 21",
+        "parentNodeId": "l1",
+        "san": "Ncd3"
+      },
+      "wB": {
+        "adjacentNodeIds": [
+          "U6"
+        ],
+        "comments": [
+          {
+            "text": "But White wouldn't let him, offering a trade of rooks.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p3p/p1nP2pP/2P1p2r/1P1nQ3/3N1PK1/1R1B3R b - - 3 16",
+        "parentNodeId": "Zp",
+        "san": "Rh1"
+      },
+      "wc": {
+        "adjacentNodeIds": [
+          "sH"
+        ],
+        "comments": [
+          {
+            "text": "And Kasparov got the two pieces.\n\nApart from that, he now had a very active knight on c3, and a bishop that could easily come to life with something like ...e4.\n\nWhite's pieces were all cramped in the first and the second rank.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-e4"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f1",
+                "e1",
+                "d2",
+                "e2"
+              ],
+              "opportunities": [
+                "c3",
+                "g7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r2r2k1/1ppb1pb1/3p2pp/p1nPp3/2P5/1Pn5/P2NBPPP/R3QRK1 w - - 0 4",
+        "parentNodeId": "Z1",
+        "san": "Rfxd8"
+      },
+      "xA": {
+        "adjacentNodeIds": [
+          "xN",
+          "8z"
+        ],
+        "comments": [
+          {
+            "text": "White tried to instigate matters and completely open up the g-file, but this is what Kasparov wanted.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p2pp/p1nP3P/2P1pr2/1P1nQ3/3N1PK1/1R1B2R1 b - - 0 14",
+        "parentNodeId": "Qi",
+        "san": "h5"
+      },
+      "xN": {
+        "adjacentNodeIds": [
+          "6i"
+        ],
+        "comments": [
+          {
+            "text": "Now he could easily close it down with ...g5, keeping White's pieces tangled-up and useless.\n\nThe rook stood strong on f4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/1ppb2b1/3p3p/p1nP2pP/2P1pr2/1P1nQ3/3N1PK1/1R1B2R1 w - - 0 15",
+        "parentNodeId": "xA",
+        "san": "g5"
+      },
+      "y9": {
+        "adjacentNodeIds": [
+          "ZI"
+        ],
+        "comments": [
+          {
+            "text": "And now Kasparov pushed his passed and strong g-pawn.\n\nThe knight was already covering the promotion square, so it was going to be almost impossible to stop this pawn.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "g1"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1ppN2b1/3p3p/p2P3P/2P5/1P2r1pn/8/2RB1K2 w - - 0 28",
+        "parentNodeId": "sG",
+        "san": "g3"
+      },
+      "z0": {
+        "adjacentNodeIds": [
+          "2a"
+        ],
+        "comments": [
+          {
+            "text": "Of course, Kasparov was playing for a win.\n\nSo he doubled up on the f-file instead, as planned.\n\nNow the f2-pawn was under a lot of pressure.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f2"
+              ],
+              "opportunities": [
+                "f4",
+                "f8"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "5rk1/1ppb2b1/3p3p/p1nP2pP/2P1pr2/1P1nQ3/3N1PK1/1R1B1R2 w - - 6 18",
+        "parentNodeId": "ii",
+        "san": "Ref8"
+      },
+      "z8": {
+        "adjacentNodeIds": [
+          "9x"
+        ],
+        "comments": [
+          {
+            "text": "Not sure what to do, Kramnik played Kg2.\n\nSomething like f4, trying to block Black's advancement, was probably better.",
+            "arrows": {
+              "threats": [
+                "f2-f4"
+              ],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4rrk1/1ppb2b1/3p2pp/p1nP1p2/1nP1p2P/1P2Q1P1/3N1PK1/1R1B1R2 b - - 2 11",
+        "parentNodeId": "li",
+        "san": "Kg2"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

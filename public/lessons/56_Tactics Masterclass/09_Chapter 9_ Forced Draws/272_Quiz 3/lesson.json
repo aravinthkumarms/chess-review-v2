@@ -1,0 +1,53 @@
+{
+  "id": "2e7f9fc1-460b-4c12-95f5-5afd21cf4688",
+  "name": "Quiz 3 ",
+  "type": "MOVE_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black would like to play for a draw. \n\nWhat move defends \nour king against potential draws?",
+    "answers": [
+      {
+        "text": "Bf4",
+        "feedback": {
+          "text": "Good job! This prevents ...Bd6.",
+          "arrows": {
+            "threats": [
+              "f8-d6"
+            ],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "f4"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": "2kr1b1r/p1p2ppp/2p1pn2/8/2PP1B2/7q/PP2BP2/RN1Q1RK1 b - - 1 2"
+      }
+    ],
+    "distractors": [
+      {
+        "text": "*",
+        "feedback": {
+          "text": "How should White cover the dark squares?",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "2kr1b1r/p1p2ppp/2p1pn2/8/2PP3q/4B2P/PP2BP2/RN1Q1RK1 b - - 1 1",
+    "arrows": null,
+    "highlights": null,
+    "contextMove": {
+      "san": "Qxh3",
+      "afterMoveFen": "2kr1b1r/p1p2ppp/2p1pn2/8/2PP4/4B2q/PP2BP2/RN1Q1RK1 w - - 0 2"
+    }
+  },
+  "drill": null
+}

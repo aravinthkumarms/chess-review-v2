@@ -1,0 +1,1193 @@
+{
+  "id": "529ed1ce-09eb-422f-b318-61ca7a042964",
+  "name": "Study 1: Maneuvering in Closed Middlegames",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "s"
+        ],
+        "comments": [
+          {
+            "text": "This was a game played between GM Hikaru and GM Eric Hansen. \n\nThere are many pawns on the board, and the position can be considered closed, but it becomes even more so as the game progresses. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/analysis/game/live/59332289567?tab=analysis",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pp2qp1p/1np1bnp1/3p4/P2P4/1QNBP3/1P1N1PPP/R3R1K1 w - - 1 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "09": {
+        "adjacentNodeIds": [
+          "Bm"
+        ],
+        "comments": [
+          {
+            "text": "Hansen had to bring his knight out to defend against the f6 pawn push...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pk4/P1N2P2/1P2K1n1/8/8/8 w - - 2 30",
+        "parentNodeId": "tY",
+        "san": "Ng4"
+      },
+      "2O": {
+        "adjacentNodeIds": [
+          "Yg"
+        ],
+        "comments": [
+          {
+            "text": "Check! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-f3"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "e4",
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pk4/P4Pn1/1P1pK3/3N1P2/7P/8 w - - 2 27",
+        "parentNodeId": "Ii",
+        "san": "Ng5+"
+      },
+      "3F": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Checkmate! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p5p/p1p3p1/P1Np3n/1P1Q1P2/5P2/6PP/2N1q1K1 w - - 1 18",
+        "parentNodeId": "PK",
+        "san": "Qe1#"
+      },
+      "50": {
+        "adjacentNodeIds": [
+          "hm"
+        ],
+        "comments": [
+          {
+            "text": "And Hikaru played f3, controlling the e4 square. \n\nThe position is currently closed. \n\nOne of the things that you often look for in closed positions are pawn breaks.\n\nThese are pawn moves that generate tension with your opponent's pawns and threaten to change the position in a way that's favorable for you. e4 in this case, is a potential pawn break prepared by f3. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e3-e4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3r1k1/1p2qp1p/p1pnbnp1/P1Np4/3P4/1Q1BPP2/1P1N2PP/R3R1K1 b - - 0 4",
+        "parentNodeId": "tD",
+        "san": "f3"
+      },
+      "9T": {
+        "adjacentNodeIds": [
+          "ZG"
+        ],
+        "comments": [
+          {
+            "text": "Hansen gave a check...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f3-h2"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d4",
+                "h2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pk4/P4P2/1P1K4/3N1n2/7P/8 w - - 0 28",
+        "parentNodeId": "Yg",
+        "san": "Nxf3+"
+      },
+      "9n": {
+        "adjacentNodeIds": [
+          "LK"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru supported his knight on the c5 outpost. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "c5"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2qp1p/p1p3p1/PnNp3n/1P1P4/3QPP2/3NR1PP/4R1K1 b - b3 0 9",
+        "parentNodeId": "z1",
+        "san": "b4"
+      },
+      "Bm": {
+        "adjacentNodeIds": [
+          "uE"
+        ],
+        "comments": [
+          {
+            "text": "And Hikaru managed to get the pawn back.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1N5p/p1pk4/P4P2/1P2K1n1/8/8/8 b - - 0 30",
+        "parentNodeId": "09",
+        "san": "Nxb7+"
+      },
+      "Bn": {
+        "adjacentNodeIds": [
+          "ad"
+        ],
+        "comments": [
+          {
+            "text": "And Hikaru expanded with g4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p5p/p1p1n1p1/P2p4/1P3PP1/3N1P2/7P/6K1 b - g3 0 21",
+        "parentNodeId": "sA",
+        "san": "g4"
+      },
+      "Ci": {
+        "adjacentNodeIds": [
+          "zQ"
+        ],
+        "comments": [
+          {
+            "text": "White took on f4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1p2r1qp/p1p3p1/PnNp3n/1P1P1P2/5P2/3QR1PP/2N1R1K1 b - - 0 14",
+        "parentNodeId": "bd",
+        "san": "exf4"
+      },
+      "DF": {
+        "adjacentNodeIds": [
+          "xT"
+        ],
+        "comments": [
+          {
+            "text": "Hansen recaptured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p2r1qp/p1p3p1/P1Np3n/1P1n1P2/5P2/3Q2PP/2N1R1K1 w - - 0 16",
+        "parentNodeId": "fk",
+        "san": "Rxe7"
+      },
+      "DU": {
+        "adjacentNodeIds": [
+          "xG"
+        ],
+        "comments": [
+          {
+            "text": "Black cannot defend...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/1pk4p/p1p5/P1N2P2/1P2K3/8/7n/8 w - - 2 30",
+        "parentNodeId": "tY",
+        "san": "Kc7"
+      },
+      "FO": {
+        "adjacentNodeIds": [
+          "sT"
+        ],
+        "comments": [
+          {
+            "text": "And now f5 was played to remove the knight from e6.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e6",
+                "g6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pkn1p1/P2p1P2/1P4P1/3NKP2/7P/8 b - - 0 24",
+        "parentNodeId": "gR",
+        "san": "f5"
+      },
+      "Ii": {
+        "adjacentNodeIds": [
+          "2O"
+        ],
+        "comments": [
+          {
+            "text": "Since after the king moved up...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pkn3/P4P2/1P1pK3/3N1P2/7P/8 b - - 1 26",
+        "parentNodeId": "Lw",
+        "san": "Ke4"
+      },
+      "JT": {
+        "adjacentNodeIds": [
+          "Tb"
+        ],
+        "comments": [
+          {
+            "text": "The bishops were traded...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2qp1p/p1pn2p1/P1Np3n/3P4/2QbPP2/1P1NR1PP/4R1K1 w - - 0 8",
+        "parentNodeId": "dn",
+        "san": "Bxd3"
+      },
+      "LK": {
+        "adjacentNodeIds": [
+          "qi"
+        ],
+        "comments": [
+          {
+            "text": "And Hansen played f5, controlling the e4 square, perhaps even intending f4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2q2p/p1p3p1/PnNp1p1n/1P1P4/3QPP2/3NR1PP/4R1K1 w - f6 0 10",
+        "parentNodeId": "9n",
+        "san": "f5"
+      },
+      "Lw": {
+        "adjacentNodeIds": [
+          "Ii"
+        ],
+        "comments": [
+          {
+            "text": "And now Hansen blundered his perfectly healthy d-pawn...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pkn3/P4P2/1P1p4/3NKP2/7P/8 w - - 0 26",
+        "parentNodeId": "cU",
+        "san": "d4+"
+      },
+      "PK": {
+        "adjacentNodeIds": [
+          "3F"
+        ],
+        "comments": [
+          {
+            "text": "This would be a funny way to end the game. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p2q2p/p1p3p1/P1Np3n/1P1Q1P2/5P2/6PP/2N3K1 b - - 0 17",
+        "parentNodeId": "di",
+        "san": "Qxd4"
+      },
+      "Qj": {
+        "adjacentNodeIds": [
+          "ud"
+        ],
+        "comments": [
+          {
+            "text": "The queen recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p4np/p1p1q1p1/P2p4/1P3P2/3NQP2/6PP/6K1 w - - 0 20",
+        "parentNodeId": "hk",
+        "san": "Qxe6"
+      },
+      "Tb": {
+        "adjacentNodeIds": [
+          "z1"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2qp1p/p1pn2p1/P1Np3n/3P4/3QPP2/1P1NR1PP/4R1K1 b - - 0 8",
+        "parentNodeId": "JT",
+        "san": "Qxd3"
+      },
+      "Tw": {
+        "adjacentNodeIds": [
+          "YS"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru moved his queen to c3, perhaps intending to defend the d4 pawn after e4. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "d4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2qp1p/p1pnbnp1/P1Np4/3P4/2QBPP2/1P1N2PP/R3R1K1 b - - 2 5",
+        "parentNodeId": "hm",
+        "san": "Qc3"
+      },
+      "U": {
+        "adjacentNodeIds": [
+          "Uv"
+        ],
+        "comments": [
+          {
+            "text": "Now Hikaru begins maneuvering. \n\nNotice that a5 was played not only to dislodge the knight from b6, but to clear the a4 square for the knight's journey. \n\nThis is what you do in closed positions: you improve your pieces, often slowly, in order to place them in better squares or even in outposts.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a4-c5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r1n1r1k1/pp2qp1p/2p1bnp1/P2p4/N2P4/1Q1BP3/1P1N1PPP/R3R1K1 b - - 2 2",
+        "parentNodeId": "p",
+        "san": "Na4"
+      },
+      "Uv": {
+        "adjacentNodeIds": [
+          "Ux"
+        ],
+        "comments": [
+          {
+            "text": "Hansen improved his knight...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d6-e4",
+                "f6-e4"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pp2qp1p/2pnbnp1/P2p4/N2P4/1Q1BP3/1P1N1PPP/R3R1K1 w - - 3 3",
+        "parentNodeId": "U",
+        "san": "Nd6"
+      },
+      "Ux": {
+        "adjacentNodeIds": [
+          "tD"
+        ],
+        "comments": [
+          {
+            "text": "And Hikaru also improved his. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pp2qp1p/2pnbnp1/P1Np4/3P4/1Q1BP3/1P1N1PPP/R3R1K1 b - - 4 3",
+        "parentNodeId": "Uv",
+        "san": "Nc5"
+      },
+      "VU": {
+        "adjacentNodeIds": [
+          "gR"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru pushed forward too. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2k2p/p1p1n1p1/P2p4/1P3PP1/3NKP2/7P/8 b - - 4 23",
+        "parentNodeId": "b4",
+        "san": "Ke3"
+      },
+      "Vg": {
+        "adjacentNodeIds": [
+          "bd"
+        ],
+        "comments": [
+          {
+            "text": "The queen came to overprotect e3. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e3"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "4r1k1/1p2r1qp/p1p3p1/PnNp1p1n/1P1P4/4PP2/3QR1PP/2N1R1K1 b - - 7 13",
+        "parentNodeId": "la",
+        "san": "Qd2"
+      },
+      "WF": {
+        "adjacentNodeIds": [
+          "br"
+        ],
+        "comments": [
+          {
+            "text": "Hansen went to g7, putting more pressure on d4. \n\nAgain, making the e4 pawn break tough to play for White. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p4qp/p1p3p1/PnNp1p1n/1P1P4/1N1QPP2/4R1PP/4R1K1 w - - 2 11",
+        "parentNodeId": "qi",
+        "san": "Qg7"
+      },
+      "YS": {
+        "adjacentNodeIds": [
+          "bN"
+        ],
+        "comments": [
+          {
+            "text": "In anticipation of e4, Hansen played Nh5, so that if e4, Nf4 could be possible. \n\nThe queen also gets ideas of entering the kingside. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e7-g5",
+                "h5-f4",
+                "e3-e4"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2qp1p/p1pnb1p1/P1Np3n/3P4/2QBPP2/1P1N2PP/R3R1K1 w - - 3 6",
+        "parentNodeId": "Tw",
+        "san": "Nh5"
+      },
+      "Yg": {
+        "adjacentNodeIds": [
+          "9T"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru traded off a healthy e-pawn for a doubled f-pawn. \n\nThis is also a trade you often want to achieve. \n\nIf you can take a pawn, and in exchange your opponent takes one of your pawns, yet your pawn is doubled, the winner is obviously the side that took the healthy pawn! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pk4/P4Pn1/1P1K4/3N1P2/7P/8 b - - 0 27",
+        "parentNodeId": "2O",
+        "san": "Kxd4"
+      },
+      "ZG": {
+        "adjacentNodeIds": [
+          "eA"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru moved the king...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pk4/P4P2/1P2K3/3N1n2/7P/8 b - - 1 28",
+        "parentNodeId": "9T",
+        "san": "Ke4"
+      },
+      "aB": {
+        "adjacentNodeIds": [
+          "b4"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru began moving his king up as well. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f2-e3"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5k2/1p5p/p1p1n1p1/P2p4/1P3PP1/3N1P2/5K1P/8 b - - 2 22",
+        "parentNodeId": "ad",
+        "san": "Kf2"
+      },
+      "ad": {
+        "adjacentNodeIds": [
+          "aB"
+        ],
+        "comments": [
+          {
+            "text": "The king started to get into the game...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f8-e7",
+                "e7-d6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "5k2/1p5p/p1p1n1p1/P2p4/1P3PP1/3N1P2/7P/6K1 w - - 1 22",
+        "parentNodeId": "Bn",
+        "san": "Kf8"
+      },
+      "as": {
+        "adjacentNodeIds": [
+          "im"
+        ],
+        "comments": [
+          {
+            "text": "So Hikaru completed the Nb3-c1-d3 maneuver.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d3-e5"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1p2q2p/p1p3p1/P1Np3n/1P1n1P2/3N1P2/3Q2PP/6K1 b - - 1 17",
+        "parentNodeId": "di",
+        "san": "N1d3"
+      },
+      "b4": {
+        "adjacentNodeIds": [
+          "VU"
+        ],
+        "comments": [
+          {
+            "text": "The king went to e7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p2k2p/p1p1n1p1/P2p4/1P3PP1/3N1P2/5K1P/8 w - - 3 23",
+        "parentNodeId": "aB",
+        "san": "Ke7"
+      },
+      "bN": {
+        "adjacentNodeIds": [
+          "gj"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru brought his rook up. \n\nAn idea before a pawn break can be to double rooks behind the pawn that will be pushed forward. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "a1-e1"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2qp1p/p1pnb1p1/P1Np3n/3P4/2QBPP2/1P1NR1PP/R5K1 b - - 4 6",
+        "parentNodeId": "YS",
+        "san": "Re2"
+      },
+      "bd": {
+        "adjacentNodeIds": [
+          "Ci"
+        ],
+        "comments": [
+          {
+            "text": "And Hansen played the f4 pawn break. \n\nIt seems like a logical move, undermining the defense of d4. \n\nHowever, if there are massive trades in the position, White has this knight on c5 that attacks b7. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1p2r1qp/p1p3p1/PnNp3n/1P1P1p2/4PP2/3QR1PP/2N1R1K1 w - - 0 14",
+        "parentNodeId": "Vg",
+        "san": "f4"
+      },
+      "br": {
+        "adjacentNodeIds": [
+          "ut"
+        ],
+        "comments": [
+          {
+            "text": "White retreated the queen. \n\nIf e4 is off the table, perhaps maneuvering the knight to another outpost isn't! \n\nThe queen of course had to leave the d3 square in order for the knight to travel to that square. \n\nThis is how you maneuver in closed positions! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b3-c1",
+                "c1-d3",
+                "d3-e5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p4qp/p1p3p1/PnNp1p1n/1P1P4/1N2PP2/2Q1R1PP/4R1K1 b - - 3 11",
+        "parentNodeId": "WF",
+        "san": "Qc2"
+      },
+      "cU": {
+        "adjacentNodeIds": [
+          "Lw"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pkn3/P2p1P2/1P6/3NKP2/7P/8 b - - 0 25",
+        "parentNodeId": "sT",
+        "san": "gxf5"
+      },
+      "di": {
+        "adjacentNodeIds": [
+          "as",
+          "PK"
+        ],
+        "comments": [
+          {
+            "text": "The queen recaptured, and although it looks like the knight is undefended, it can't be taken. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p2q2p/p1p3p1/P1Np3n/1P1n1P2/5P2/3Q2PP/2N3K1 w - - 0 17",
+        "parentNodeId": "xT",
+        "san": "Qxe7"
+      },
+      "dn": {
+        "adjacentNodeIds": [
+          "JT"
+        ],
+        "comments": [
+          {
+            "text": "And White doubled rooks. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2qp1p/p1pn2p1/P1Np1b1n/3P4/2QBPP2/1P1NR1PP/4R1K1 b - - 6 7",
+        "parentNodeId": "gj",
+        "san": "Rae1"
+      },
+      "eA": {
+        "adjacentNodeIds": [
+          "tY"
+        ],
+        "comments": [
+          {
+            "text": "Hansen grabbed another pawn...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pk4/P4P2/1P2K3/3N4/7n/8 w - - 0 29",
+        "parentNodeId": "ZG",
+        "san": "Nxh2"
+      },
+      "fb": {
+        "adjacentNodeIds": [
+          "la"
+        ],
+        "comments": [
+          {
+            "text": "And here comes Hikaru's plan. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c1-d3",
+                "d3-e5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r2k1/1p2r1qp/p1p3p1/PnNp1p1n/1P1P4/4PP2/2Q1R1PP/2N1R1K1 b - - 5 12",
+        "parentNodeId": "ut",
+        "san": "Nc1"
+      },
+      "fk": {
+        "adjacentNodeIds": [
+          "DF"
+        ],
+        "comments": [
+          {
+            "text": "But now Hikaru can trade on e7.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1p2R1qp/p1p3p1/P1Np3n/1P1n1P2/5P2/3Q2PP/2N1R1K1 b - - 0 15",
+        "parentNodeId": "zQ",
+        "san": "Rxe7"
+      },
+      "gR": {
+        "adjacentNodeIds": [
+          "FO"
+        ],
+        "comments": [
+          {
+            "text": "The king went to d6...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pkn1p1/P2p4/1P3PP1/3NKP2/7P/8 w - - 5 24",
+        "parentNodeId": "VU",
+        "san": "Kd6"
+      },
+      "gj": {
+        "adjacentNodeIds": [
+          "dn"
+        ],
+        "comments": [
+          {
+            "text": "Hansen proposed a trade of bishops...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2qp1p/p1pn2p1/P1Np1b1n/3P4/2QBPP2/1P1NR1PP/R5K1 w - - 5 7",
+        "parentNodeId": "bN",
+        "san": "Bf5"
+      },
+      "h6": {
+        "adjacentNodeIds": [
+          "hk"
+        ],
+        "comments": [
+          {
+            "text": "Hansen had to defend...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p2q1np/p1p1n1p1/P1Np4/1P3P2/3NQP2/6PP/6K1 w - - 4 19",
+        "parentNodeId": "tX",
+        "san": "Nhg7"
+      },
+      "hk": {
+        "adjacentNodeIds": [
+          "Qj"
+        ],
+        "comments": [
+          {
+            "text": "And Hikaru decided to trade here, judging, correctly so, that he'd be better in the endgame. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p2q1np/p1p1N1p1/P2p4/1P3P2/3NQP2/6PP/6K1 b - - 0 19",
+        "parentNodeId": "h6",
+        "san": "Nxe6"
+      },
+      "hm": {
+        "adjacentNodeIds": [
+          "Tw"
+        ],
+        "comments": [
+          {
+            "text": "The rook came to d8. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2qp1p/p1pnbnp1/P1Np4/3P4/1Q1BPP2/1P1N2PP/R3R1K1 w - - 1 5",
+        "parentNodeId": "50",
+        "san": "Rad8"
+      },
+      "im": {
+        "adjacentNodeIds": [
+          "tX"
+        ],
+        "comments": [
+          {
+            "text": "Hansen brought his knight back, attacking f4.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "6k1/1p2q2p/p1p1n1p1/P1Np3n/1P3P2/3N1P2/3Q2PP/6K1 w - - 2 18",
+        "parentNodeId": "as",
+        "san": "Ne6"
+      },
+      "la": {
+        "adjacentNodeIds": [
+          "Vg"
+        ],
+        "comments": [
+          {
+            "text": "The rooks were doubled...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1p2r1qp/p1p3p1/PnNp1p1n/1P1P4/4PP2/2Q1R1PP/2N1R1K1 w - - 6 13",
+        "parentNodeId": "fb",
+        "san": "Rde8"
+      },
+      "p": {
+        "adjacentNodeIds": [
+          "U"
+        ],
+        "comments": [
+          {
+            "text": "The knight has to go to c8, to keep defense of b7. \n\nIn addition, c8 isn't a bad square since it allows Hansen to maneuver to d6. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e7-b7",
+                "c8-d6"
+              ]
+            },
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "b7"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "r1n1r1k1/pp2qp1p/2p1bnp1/P2p4/3P4/1QNBP3/1P1N1PPP/R3R1K1 w - - 1 2",
+        "parentNodeId": "s",
+        "san": "Nc8"
+      },
+      "qi": {
+        "adjacentNodeIds": [
+          "WF"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru moved his knight to b3. \n\nWhat's the idea? ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2q2p/p1p3p1/PnNp1p1n/1P1P4/1N1QPP2/4R1PP/4R1K1 b - - 1 10",
+        "parentNodeId": "LK",
+        "san": "Ndb3"
+      },
+      "s": {
+        "adjacentNodeIds": [
+          "p"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru played a5, dislodging the b6 knight. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "b6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r3r1k1/pp2qp1p/1np1bnp1/P2p4/3P4/1QNBP3/1P1N1PPP/R3R1K1 b - - 0 1",
+        "parentNodeId": "0",
+        "san": "a5"
+      },
+      "sA": {
+        "adjacentNodeIds": [
+          "Bn"
+        ],
+        "comments": [
+          {
+            "text": "The knight recaptured...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p5p/p1p1n1p1/P2p4/1P3P2/3N1P2/6PP/6K1 w - - 0 21",
+        "parentNodeId": "ud",
+        "san": "Nxe6"
+      },
+      "sT": {
+        "adjacentNodeIds": [
+          "cU"
+        ],
+        "comments": [
+          {
+            "text": "Black traded...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pkn3/P2p1p2/1P4P1/3NKP2/7P/8 w - - 0 25",
+        "parentNodeId": "FO",
+        "san": "gxf5"
+      },
+      "sV": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Hikaru brought his knight back.\n\nThat's the thing with losing the b7 pawn: Black's other pawns are now weak. \n\nHikaru ended up winning this endgame because of his superior pawns, knight and king.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c5-a6"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "a6"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/4k2p/p1p5/P1N2P2/1P2K1n1/8/8/8 b - - 2 31",
+        "parentNodeId": "uE",
+        "san": "Nc5"
+      },
+      "tD": {
+        "adjacentNodeIds": [
+          "50"
+        ],
+        "comments": [
+          {
+            "text": "Black prevented White from advancing with a6 by playing a6 himself.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r3r1k1/1p2qp1p/p1pnbnp1/P1Np4/3P4/1Q1BP3/1P1N1PPP/R3R1K1 w - - 0 4",
+        "parentNodeId": "Ux",
+        "san": "a6"
+      },
+      "tX": {
+        "adjacentNodeIds": [
+          "h6"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru pinned the knight.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p2q2p/p1p1n1p1/P1Np3n/1P3P2/3NQP2/6PP/6K1 b - - 3 18",
+        "parentNodeId": "im",
+        "san": "Qe3"
+      },
+      "tY": {
+        "adjacentNodeIds": [
+          "09",
+          "DU"
+        ],
+        "comments": [
+          {
+            "text": "Yet White has pressure. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "c5-b7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "8/1p5p/p1pk4/P1N2P2/1P2K3/8/7n/8 b - - 1 29",
+        "parentNodeId": "eA",
+        "san": "Nc5"
+      },
+      "uE": {
+        "adjacentNodeIds": [
+          "sV"
+        ],
+        "comments": [
+          {
+            "text": "The king went to e7 to help guard against the advanced f-pawn...",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "f6"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "8/1N2k2p/p1p5/P4P2/1P2K1n1/8/8/8 w - - 1 31",
+        "parentNodeId": "Bm",
+        "san": "Ke7"
+      },
+      "ud": {
+        "adjacentNodeIds": [
+          "sA"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru traded...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p4np/p1p1Q1p1/P2p4/1P3P2/3N1P2/6PP/6K1 b - - 0 20",
+        "parentNodeId": "Qj",
+        "san": "Qxe6+"
+      },
+      "ut": {
+        "adjacentNodeIds": [
+          "fb"
+        ],
+        "comments": [
+          {
+            "text": "Black started doubling the rooks...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d8-e8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3r2k1/1p2r1qp/p1p3p1/PnNp1p1n/1P1P4/1N2PP2/2Q1R1PP/4R1K1 w - - 4 12",
+        "parentNodeId": "br",
+        "san": "Re7"
+      },
+      "xG": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "The pawn is too fast...",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "f6-f7",
+                "f7-f8"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "8/1pk4p/p1p2P2/P1N5/1P2K3/8/7n/8 b - - 0 30",
+        "parentNodeId": "DU",
+        "san": "f6"
+      },
+      "xT": {
+        "adjacentNodeIds": [
+          "di"
+        ],
+        "comments": [
+          {
+            "text": "Hikaru traded even further...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "6k1/1p2R1qp/p1p3p1/P1Np3n/1P1n1P2/5P2/3Q2PP/2N3K1 b - - 0 16",
+        "parentNodeId": "DF",
+        "san": "Rxe7"
+      },
+      "z1": {
+        "adjacentNodeIds": [
+          "9n"
+        ],
+        "comments": [
+          {
+            "text": "Black took their knight to b5, and I suppose the idea is to put pressure on d4 once e4 is played. \n\nAdditionally, this is what I'm talking about: the b5 square is an outpost for Black's knight. There's no pawn that can kick the knight out. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "3rr1k1/1p2qp1p/p1p3p1/PnNp3n/3P4/3QPP2/1P1NR1PP/4R1K1 w - - 1 9",
+        "parentNodeId": "Tb",
+        "san": "Nb5"
+      },
+      "zQ": {
+        "adjacentNodeIds": [
+          "fk"
+        ],
+        "comments": [
+          {
+            "text": "The knight took on d4. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "4r1k1/1p2r1qp/p1p3p1/P1Np3n/1P1n1P2/5P2/3QR1PP/2N1R1K1 w - - 0 15",
+        "parentNodeId": "Ci",
+        "san": "Nxd4"
+      }
+    },
+    "isBoardFlipDefault": false
+  },
+  "quiz": null,
+  "drill": null
+}

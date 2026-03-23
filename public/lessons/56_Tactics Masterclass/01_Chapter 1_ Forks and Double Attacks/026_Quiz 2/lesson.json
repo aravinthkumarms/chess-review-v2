@@ -1,0 +1,62 @@
+{
+  "id": "e947ee83-fe0e-47e3-8756-bfc864528b5e",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black attacks our queen on f4. \n\nThere is an opportunity to play Nf6 fork, to simplify the position.\n\nIs this a good idea, or is there something better?",
+    "answers": [
+      {
+        "text": "It is not worth it. We should simply step away with the queen, to f3 for example, and keep the pressure.",
+        "feedback": {
+          "text": "Good assessment. Suppose we go for the queen trade. the d4-pawn falls at the end and Black's two rooks are pretty powerful.",
+          "arrows": null,
+          "highlights": {
+            "threats": [
+              "d4"
+            ],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Let's go for it! The bishop pair will be much more powerful than Black's pair of rooks in the endgame.",
+        "feedback": {
+          "text": "White should go for something more conservative. Since this is an endgame, the bishop pair isn't as powerful as it looks against Black's two rooks.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "1kbr4/ppp2pr1/3p4/3N3q/3P1Q2/4R1B1/PPP3B1/6K1 b - - 1 1",
+    "arrows": {
+      "threats": [
+        "g4-f4"
+      ],
+      "opportunities": [
+        "d5-f6",
+        "f6-h5"
+      ]
+    },
+    "highlights": {
+      "threats": [],
+      "opportunities": [
+        "g3",
+        "g2"
+      ]
+    },
+    "contextMove": {
+      "san": "Rg4",
+      "afterMoveFen": "1kbr4/ppp2p2/3p4/3N3q/3P1Qr1/4R1B1/PPP3B1/6K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

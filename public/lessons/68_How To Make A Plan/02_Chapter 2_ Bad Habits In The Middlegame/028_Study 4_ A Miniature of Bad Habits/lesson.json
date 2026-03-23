@@ -1,0 +1,869 @@
+{
+  "id": "6e87bd67-adc3-4bc5-9d96-242d38bc412b",
+  "name": "Study 4: A Miniature of Bad Habits",
+  "type": "STUDY",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": {
+    "rootNodeId": "0",
+    "movesGraph": {
+      "0": {
+        "adjacentNodeIds": [
+          "F"
+        ],
+        "comments": [
+          {
+            "text": "This one was also sent by one of my subscribers. \n\nIn this game, you'll see bad habits like overlooking your opponent's threats and responses, and playing without a plan and not being consistent within actual plans that have been started.\n\nWhile White played some unsound moves, it is Black who really took the trophy for bad middle game habits. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "https://www.chess.com/game/live/62130608627",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+        "parentNodeId": null,
+        "san": null
+      },
+      "0t": {
+        "adjacentNodeIds": [
+          "rg"
+        ],
+        "comments": [
+          {
+            "text": "And now a good move from White, though perhaps not the best. \n\nThat is, you don't want to trade pieces when your opponent lacks space. \n\nBut it is still winning for all practical purposes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pppbp1bp/5np1/3N2B1/2B5/5N1P/PPP2PP1/R2QK2R b KQkq - 1 11",
+        "parentNodeId": "WY",
+        "san": "Nd5"
+      },
+      "2H": {
+        "adjacentNodeIds": [
+          "6z"
+        ],
+        "comments": [
+          {
+            "text": "Black developed their knight. \n\nMaybe not now, but if you play this opening, the Pirc's, you've got to know that e5 at some point may be played, and you must have some plan against it. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e4-e5"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp1ppbp/3p1np1/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R w KQkq - 3 5",
+        "parentNodeId": "Jr",
+        "san": "Nf6"
+      },
+      "3T": {
+        "adjacentNodeIds": [
+          "Pg"
+        ],
+        "comments": [
+          {
+            "text": "Black retreated, but this results in poor coordination. \n\nBxf3 was the lesser of two evils. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pppbppbp/3p1np1/6B1/3PP3/2N2N1P/PPP2PP1/R2QKB1R w KQkq - 1 7",
+        "parentNodeId": "UT",
+        "san": "Bd7"
+      },
+      "4Z": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White took on h7 and Black resigned.\n\nThe queen never got out of the bishop's attack. Remember: Black put the queen in that attack in the first place.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "d8",
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2q4/pp1b1k1Q/2n1p1p1/6B1/8/5N1P/PRP2PP1/4K2R b K - 0 18",
+        "parentNodeId": "Nk",
+        "san": "Qxh7+"
+      },
+      "4j": {
+        "adjacentNodeIds": [
+          "7P"
+        ],
+        "comments": [
+          {
+            "text": "And now f6! \n\nKnowing beginners, I can tell Black had a plan. \n\nTheir plan was: I can't really move because of that e-pawn, so I'll challenge it. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk1nr/pppbp1bp/5pp1/4P1B1/2B5/2N2N1P/PPP2PP1/R2QK2R w KQkq - 0 10",
+        "parentNodeId": "Rq",
+        "san": "f6"
+      },
+      "4u": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Qxd5 is a double attack. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d5-f7",
+                "d5-b7"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "f7",
+                "b7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pppbp1bp/6p1/3Q2B1/2B5/5N1P/PPP2PP1/R3K2R b KQkq - 0 12",
+        "parentNodeId": "rg",
+        "san": "Qxd5"
+      },
+      "6N": {
+        "adjacentNodeIds": [
+          "9n",
+          "a8"
+        ],
+        "comments": [
+          {
+            "text": "Because White wins a pawn at the end, with a better position! \n\nNow, let's gather our thoughts. \n\nAs Black, we can't castle, b7 is under attack and we're down material.\n\nHere's an idea: stop the bleeding! Don't lose more material and defend against the threats! \n\nJust Bc6 attacks the queen and defends b7. It also sort of activates the d8 queen. ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "d7-c6"
+              ]
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pp1bp2p/6p1/3Q2B1/8/5N1P/PRP2PP1/4K2R b Kkq - 0 15",
+        "parentNodeId": "a2",
+        "san": "Qxd5"
+      },
+      "6z": {
+        "adjacentNodeIds": [
+          "w2"
+        ],
+        "comments": [
+          {
+            "text": "White developed the bishop to g5. \n\nThis isn't a pin. But it's a developing move so it can't be criticized excessively.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk2r/ppp1ppbp/3p1np1/6B1/3PP3/2N2N2/PPP2PPP/R2QKB1R b KQkq - 4 5",
+        "parentNodeId": "2H",
+        "san": "Bg5"
+      },
+      "7P": {
+        "adjacentNodeIds": [
+          "WY"
+        ],
+        "comments": [
+          {
+            "text": "White correctly captured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk1nr/pppbp1bp/5Pp1/6B1/2B5/2N2N1P/PPP2PP1/R2QK2R b KQkq - 0 10",
+        "parentNodeId": "4j",
+        "san": "exf6"
+      },
+      "7n": {
+        "adjacentNodeIds": [
+          "qz"
+        ],
+        "comments": [
+          {
+            "text": "If Qe5 now, it's only a single move threat.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e5-h8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pp2p2p/2b3p1/4Q1B1/8/5N1P/PRP2PP1/4K2R b Kkq - 2 16",
+        "parentNodeId": "a8",
+        "san": "Qe5"
+      },
+      "8q": {
+        "adjacentNodeIds": [
+          "VZ"
+        ],
+        "comments": [
+          {
+            "text": "Bh5, maintaining the pin, can be played when Black hasn't gone for g6. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/ppp1ppbp/3p1np1/6Bb/3PP3/2N2N1P/PPP2PP1/R2QKB1R w KQkq - 1 7",
+        "parentNodeId": "UT",
+        "san": "Bh5"
+      },
+      "9": {
+        "adjacentNodeIds": [
+          "rD"
+        ],
+        "comments": [
+          {
+            "text": "White developed. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+        "parentNodeId": "l",
+        "san": "Nf3"
+      },
+      "9n": {
+        "adjacentNodeIds": [
+          "tW"
+        ],
+        "comments": [
+          {
+            "text": "However, Black played e6. \n\nTheir idea is that they're attacking the queen. But what attack, using the checklist, does White have in this position? \n\nWhen you attack a piece, you must think: when that piece moves, can it move to a square where it attacks or threatens me, possibly winning something? \n\nIn this position, Qe5, moving out of danger, is good.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "e6-d5",
+                "g5-d8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "d5",
+                "d8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pp1b3p/4p1p1/3Q2B1/8/5N1P/PRP2PP1/4K2R w Kkq - 0 16",
+        "parentNodeId": "6N",
+        "san": "e6"
+      },
+      "Ap": {
+        "adjacentNodeIds": [
+          "NC"
+        ],
+        "comments": [
+          {
+            "text": "So what if White just takes the pawn as well? \n\nAs Black, you must see your opponent's threats! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pBpbp2p/6p1/6B1/8/5N1P/PbP2PP1/R2QK2R b KQkq - 0 13",
+        "parentNodeId": "mk",
+        "san": "Bxb7"
+      },
+      "BV": {
+        "adjacentNodeIds": [
+          "Nk"
+        ],
+        "comments": [
+          {
+            "text": "White can take the rook with check.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2qk2Q/pp1b3p/2n1p1p1/6B1/8/5N1P/PRP2PP1/4K2R b Kq - 0 17",
+        "parentNodeId": "ab",
+        "san": "Qxh8+"
+      },
+      "F": {
+        "adjacentNodeIds": [
+          "l"
+        ],
+        "comments": [
+          {
+            "text": "White opened with 1. e4.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1",
+        "parentNodeId": "0",
+        "san": "e4"
+      },
+      "GO": {
+        "adjacentNodeIds": [
+          "qd"
+        ],
+        "comments": [
+          {
+            "text": "White just recaptured, with the same threats.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pppbppbp/5np1/4P1B1/8/2N2N1P/PPP2PP1/R2QKB1R b KQkq - 0 8",
+        "parentNodeId": "RH",
+        "san": "dxe5"
+      },
+      "Jr": {
+        "adjacentNodeIds": [
+          "2H"
+        ],
+        "comments": [
+          {
+            "text": "The other knight was developed.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk1nr/ppp1ppbp/3p2p1/8/3PP3/2N2N2/PPP2PPP/R1BQKB1R b KQkq - 2 4",
+        "parentNodeId": "Lx",
+        "san": "Nc3"
+      },
+      "Kb": {
+        "adjacentNodeIds": [
+          "OQ"
+        ],
+        "comments": [
+          {
+            "text": "This move is a reason Bxb2 doesn't work, though Bxb7 was stronger.",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": {
+              "threats": [
+                "b2"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pppbp2p/6p1/3B2B1/8/5N1P/PbP2PP1/1R1QK2R b Kkq - 1 13",
+        "parentNodeId": "mk",
+        "san": "Rb1"
+      },
+      "LJ": {
+        "adjacentNodeIds": [
+          "Lx"
+        ],
+        "comments": [
+          {
+            "text": "White got two central pawns.",
+            "arrows": null,
+            "highlights": {
+              "threats": [],
+              "opportunities": [
+                "e4",
+                "d4"
+              ]
+            }
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pp1p/3p2p1/8/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
+        "parentNodeId": "rD",
+        "san": "d4"
+      },
+      "Lx": {
+        "adjacentNodeIds": [
+          "Jr"
+        ],
+        "comments": [
+          {
+            "text": "Black fianchettoed. So far so good. g6 for Bg7: consistent! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqk1nr/ppp1ppbp/3p2p1/8/3PP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 1 4",
+        "parentNodeId": "LJ",
+        "san": "Bg7"
+      },
+      "N2": {
+        "adjacentNodeIds": [
+          "a2"
+        ],
+        "comments": [
+          {
+            "text": "White just takes.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pp1bp2p/2p3p1/3B2B1/8/5N1P/PRP2PP1/3QK2R b Kkq - 0 14",
+        "parentNodeId": "OQ",
+        "san": "Rxb2"
+      },
+      "NC": {
+        "adjacentNodeIds": [
+          "V6"
+        ],
+        "comments": [
+          {
+            "text": "You're not the only one taking rooks! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pBpbp2p/6p1/6B1/8/5N1P/P1P2PP1/b2QK2R w Kkq - 0 14",
+        "parentNodeId": "Ap",
+        "san": "Bxa1"
+      },
+      "Nk": {
+        "adjacentNodeIds": [
+          "4Z"
+        ],
+        "comments": [
+          {
+            "text": "And after the king moves up...",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "r2q3Q/pp1b1k1p/2n1p1p1/6B1/8/5N1P/PRP2PP1/4K2R w K - 1 18",
+        "parentNodeId": "BV",
+        "san": "Kf7"
+      },
+      "OQ": {
+        "adjacentNodeIds": [
+          "N2"
+        ],
+        "comments": [
+          {
+            "text": "c6, attacking the bishop, is also losing. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pp1bp2p/2p3p1/3B2B1/8/5N1P/PbP2PP1/1R1QK2R w Kkq - 0 14",
+        "parentNodeId": "Kb",
+        "san": "c6"
+      },
+      "Pg": {
+        "adjacentNodeIds": [
+          "RH"
+        ],
+        "comments": [
+          {
+            "text": "White correctly exploits Black's poor coordination. \n\nQuite simply, the bishop on d7 prevents the f6 knight from going to d7! Again, poor coordination of pieces. They're stumbling into each other! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": []
+            },
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pppbppbp/3p1np1/4P1B1/3P4/2N2N1P/PPP2PP1/R2QKB1R b KQkq - 0 7",
+        "parentNodeId": "3T",
+        "san": "e5"
+      },
+      "RH": {
+        "adjacentNodeIds": [
+          "GO"
+        ],
+        "comments": [
+          {
+            "text": "Black captured.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pppbppbp/5np1/4p1B1/3P4/2N2N1P/PPP2PP1/R2QKB1R w KQkq - 0 8",
+        "parentNodeId": "Pg",
+        "san": "dxe5"
+      },
+      "Rq": {
+        "adjacentNodeIds": [
+          "4j"
+        ],
+        "comments": [
+          {
+            "text": "And now White developed, putting pressure on f7.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f7"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn1qk1nr/pppbppbp/6p1/4P1B1/2B5/2N2N1P/PPP2PP1/R2QK2R b KQkq - 2 9",
+        "parentNodeId": "qd",
+        "san": "Bc4"
+      },
+      "UT": {
+        "adjacentNodeIds": [
+          "3T",
+          "wI",
+          "8q"
+        ],
+        "comments": [
+          {
+            "text": "In this case though, h3 is favorable for White because either Black gives up the bishop for nothing or they retreat and are much worse.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "g4"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/ppp1ppbp/3p1np1/6B1/3PP1b1/2N2N1P/PPP2PP1/R2QKB1R b KQkq - 0 6",
+        "parentNodeId": "w2",
+        "san": "h3"
+      },
+      "V6": {
+        "adjacentNodeIds": [
+          "pJ"
+        ],
+        "comments": [
+          {
+            "text": "White can take your bishop back and have a double attack against both of your rooks! ",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "b7-a8",
+                "a1-h8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h8",
+                "a8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pBpbp2p/6p1/6B1/8/5N1P/P1P2PP1/Q3K2R b Kkq - 0 14",
+        "parentNodeId": "NC",
+        "san": "Qxa1"
+      },
+      "VZ": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Since the bishop gets trapped.",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "h5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/ppp1ppbp/3p1np1/6Bb/3PP1P1/2N2N1P/PPP2P2/R2QKB1R b KQkq g3 0 7",
+        "parentNodeId": "8q",
+        "san": "g4"
+      },
+      "WY": {
+        "adjacentNodeIds": [
+          "0t"
+        ],
+        "comments": [
+          {
+            "text": "Black recaptured with the knight. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pppbp1bp/5np1/6B1/2B5/2N2N1P/PPP2PP1/R2QK2R w KQkq - 0 11",
+        "parentNodeId": "7P",
+        "san": "Nxf6"
+      },
+      "a2": {
+        "adjacentNodeIds": [
+          "6N"
+        ],
+        "comments": [
+          {
+            "text": "And this isn't a fair trade.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pp1bp2p/6p1/3p2B1/8/5N1P/PRP2PP1/3QK2R w Kkq - 0 15",
+        "parentNodeId": "N2",
+        "san": "cxd5"
+      },
+      "a8": {
+        "adjacentNodeIds": [
+          "7n"
+        ],
+        "comments": [
+          {
+            "text": "Be6, we're surviving as Black.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pp2p2p/2b3p1/3Q2B1/8/5N1P/PRP2PP1/4K2R w Kkq - 1 16",
+        "parentNodeId": "6N",
+        "san": "Bc6"
+      },
+      "ab": {
+        "adjacentNodeIds": [
+          "BV"
+        ],
+        "comments": [
+          {
+            "text": "Another mindless attack, not looking at what the opponent can do. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "e5"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "r2qk2r/pp1b3p/2n1p1p1/4Q1B1/8/5N1P/PRP2PP1/4K2R w Kkq - 2 17",
+        "parentNodeId": "tW",
+        "san": "Nc6"
+      },
+      "am": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "White recaptures and they have the bishop pair. \n\nIt's not losing, but it really makes you wonder: what did Black gain from executing the Bg4, Bxf3 plan? \n\nIn the Chapter about Pawns, you'll find a study on Color Complexes that features a plan of Bg4 and Bxf3 that actually makes sense. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/ppp1ppbp/3p1np1/6B1/3PP3/2N2Q1P/PPP2PP1/R3KB1R b KQkq - 0 7",
+        "parentNodeId": "wI",
+        "san": "Qxf3"
+      },
+      "l": {
+        "adjacentNodeIds": [
+          "9"
+        ],
+        "comments": [
+          {
+            "text": "Black responded with d6.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pppp/3p4/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+        "parentNodeId": "F",
+        "san": "d6"
+      },
+      "mk": {
+        "adjacentNodeIds": [
+          "Kb",
+          "Ap"
+        ],
+        "comments": [
+          {
+            "text": "This is not the time to counterattack!\n\nThe white rook can move while the black rook can't!  ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pppbp2p/6p1/3B2B1/8/5N1P/PbP2PP1/R2QK2R w KQkq - 0 13",
+        "parentNodeId": "sV",
+        "san": "Bxb2"
+      },
+      "pJ": {
+        "adjacentNodeIds": [
+          "tv"
+        ],
+        "comments": [
+          {
+            "text": "Black can save a rook.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qkr2/pBpbp2p/6p1/6B1/8/5N1P/P1P2PP1/Q3K2R w Kq - 1 15",
+        "parentNodeId": "V6",
+        "san": "Rf8"
+      },
+      "qd": {
+        "adjacentNodeIds": [
+          "Rq"
+        ],
+        "comments": [
+          {
+            "text": "The knight had to go to a really bad square since the bishop occupies d7. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk1nr/pppbppbp/6p1/4P1B1/8/2N2N1P/PPP2PP1/R2QKB1R w KQkq - 1 9",
+        "parentNodeId": "GO",
+        "san": "Ng8"
+      },
+      "qz": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "Single move threats warrant single move solutions, so we just move the rook out of the way and we are holding on.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qkr2/pp2p2p/2b3p1/4Q1B1/8/5N1P/PRP2PP1/4K2R w Kq - 3 17",
+        "parentNodeId": "7n",
+        "san": "Rf8"
+      },
+      "rD": {
+        "adjacentNodeIds": [
+          "LJ"
+        ],
+        "comments": [
+          {
+            "text": "And now a fianchetto for Black.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rnbqkbnr/ppp1pp1p/3p2p1/8/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+        "parentNodeId": "9",
+        "san": "g6"
+      },
+      "rg": {
+        "adjacentNodeIds": [
+          "sV",
+          "4u"
+        ],
+        "comments": [
+          {
+            "text": "And Black just trades, allowing White to develop their queen with a tempo! \n\nI can for sure tell you that Black didn't use the checklist here. \n\nBecause checking for threats, captures and checks during a trade of pieces implies that you've seen the opponent's recapture of the piece you've just traded! \n\nQxd5, recapturing, is killer! ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pppbp1bp/6p1/3n2B1/2B5/5N1P/PPP2PP1/R2QK2R w KQkq - 0 12",
+        "parentNodeId": "0t",
+        "san": "Nxd5"
+      },
+      "sV": {
+        "adjacentNodeIds": [
+          "mk"
+        ],
+        "comments": [
+          {
+            "text": "But White fails to take advantage of their opportunity! Bxd5 just attacks b7 and it isn't a double attack like Qxd5.\n\nOk, after Bxd5, as Black it is important to realize that you DON'T have the advantage. You have to defend. Bc6 for example, defends and contributes to piece coordination. ",
+            "arrows": null,
+            "highlights": null
+          },
+          {
+            "text": "You should stop for a second and think: what is my opponent threatening? \n\nYou should note the weaknesses in the position, in specific: b7. \n\nIf Bxb7, the rook will fall, because the knight is still on b8, preventing the rook from moving. ",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pppbp1bp/6p1/3B2B1/8/5N1P/PPP2PP1/R2QK2R b KQkq - 0 12",
+        "parentNodeId": "rg",
+        "san": "Bxd5"
+      },
+      "tW": {
+        "adjacentNodeIds": [
+          "ab"
+        ],
+        "comments": [
+          {
+            "text": "And White found it. \n\nThe queen still hangs, and now the rook on h8 hangs.",
+            "arrows": {
+              "threats": [],
+              "opportunities": [
+                "g5-d8",
+                "e5-h8"
+              ]
+            },
+            "highlights": {
+              "threats": [
+                "h8",
+                "d8"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/pp1b3p/4p1p1/4Q1B1/8/5N1P/PRP2PP1/4K2R b Kkq - 1 16",
+        "parentNodeId": "9n",
+        "san": "Qe5"
+      },
+      "tv": {
+        "adjacentNodeIds": [],
+        "comments": [
+          {
+            "text": "But the other one is dropping, and it will be hard if not impossible to win that bishop on a8.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "Bn1qkr2/p1pbp2p/6p1/6B1/8/5N1P/P1P2PP1/Q3K2R b K - 0 15",
+        "parentNodeId": "pJ",
+        "san": "Bxa8"
+      },
+      "w2": {
+        "adjacentNodeIds": [
+          "UT"
+        ],
+        "comments": [
+          {
+            "text": "Now Black plays their first innacuracy, I would say. \n\nGoing for this pin is good if you have pressure against a central pawn or it's kind of awkward for White to deal with it. ",
+            "arrows": null,
+            "highlights": {
+              "threats": [
+                "f3"
+              ],
+              "opportunities": []
+            }
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/ppp1ppbp/3p1np1/6B1/3PP1b1/2N2N2/PPP2PPP/R2QKB1R w KQkq - 5 6",
+        "parentNodeId": "6z",
+        "san": "Bg4"
+      },
+      "wI": {
+        "adjacentNodeIds": [
+          "am"
+        ],
+        "comments": [
+          {
+            "text": "Bg4 was a bad plan initially, but if anything, once you begin a plan, you must be consistent. \n\nTaking was necessary. Don't get me wrong. You don't have to take everytime you have a pin and someone attacks your bishop with a pawn. \n\nBut in some cases (like this one), that's just the consistent continuation.",
+            "arrows": null,
+            "highlights": null
+          }
+        ],
+        "afterMoveFen": "rn1qk2r/ppp1ppbp/3p1np1/6B1/3PP3/2N2b1P/PPP2PP1/R2QKB1R w KQkq - 0 7",
+        "parentNodeId": "UT",
+        "san": "Bxf3"
+      }
+    },
+    "isBoardFlipDefault": true
+  },
+  "quiz": null,
+  "drill": null
+}

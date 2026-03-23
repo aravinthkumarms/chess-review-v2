@@ -1,0 +1,77 @@
+{
+  "id": "dbafa659-1acf-40fd-88b7-ec3256a64d93",
+  "name": "Quiz 10",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black plays ...Rb8.\n\nIs the move Rd2 to double up rooks on the d-file bad?",
+    "answers": [
+      {
+        "text": "No, it isn’t.",
+        "feedback": {
+          "text": "Correct. A simple, good positional move, realizing there's no danger.",
+          "arrows": {
+            "threats": [
+              "c6-c5"
+            ],
+            "opportunities": [
+              "d1-d2",
+              "c1-d1",
+              "e4-a4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, it allows a deadly discovered attack!",
+        "feedback": {
+          "text": "If Black plays ...c5, you can simply play Qa4. The discovered attack is not that strong.",
+          "arrows": {
+            "threats": [
+              "c6-c5"
+            ],
+            "opportunities": [
+              "e4-a4"
+            ]
+          },
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, but you should always automatically move away from danger.",
+        "feedback": {
+          "text": "Not necessarily - it’s a good idea, but you’re not always forced to. Knowing when and when not to move is part of having good vision in chess.",
+          "arrows": null,
+          "highlights": null
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1q2rk1/1b2bpp1/1pp4p/p3P3/4Q3/4B1P1/PP3PBP/2RR2K1 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "d1-d2"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Rb8",
+      "afterMoveFen": "1rq2rk1/1b2bpp1/1pp4p/p3P3/4Q3/4B1P1/PP3PBP/2RR2K1 w - - 2 2"
+    }
+  },
+  "drill": null
+}

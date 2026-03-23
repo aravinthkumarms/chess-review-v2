@@ -1,0 +1,100 @@
+{
+  "id": "e722e690-2901-4b9f-9e21-abb0da79cfc8",
+  "name": "Quiz 48 ",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black jumps to d4. \n\nCan you win a pawn here with Nxd4?",
+    "answers": [
+      {
+        "text": "No, trading loses the game.",
+        "feedback": {
+          "text": "Good job! Trading on d4 would allow Black to open up their dark-squared bishop with ...Ne4 coming next.",
+          "arrows": {
+            "threats": [
+              "f3-d4",
+              "d2-d4"
+            ],
+            "opportunities": [
+              "e5-d4",
+              "f6-e4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "g7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "Yes, you can take the pawn that recaptures.",
+        "feedback": {
+          "text": "The pawn cannot be captured! The answer by Black would be ...Nxe4, opening up their dark-squared bishop.",
+          "arrows": {
+            "threats": [
+              "d2-d4"
+            ],
+            "opportunities": [
+              "e5-d4",
+              "f6-e4"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": [
+              "g7"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "No, you can trade knights but you cannot win the pawn because of the bishop on g7.",
+        "feedback": {
+          "text": "You cannot even trade, since this exposes an attack on e4 and removes e4's defender!",
+          "arrows": {
+            "threats": [
+              "d2-d4"
+            ],
+            "opportunities": [
+              "e5-d4"
+            ]
+          },
+          "highlights": {
+            "threats": [
+              "c3"
+            ],
+            "opportunities": [
+              "e8",
+              "f6"
+            ]
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "r1b1qrk1/1pp2pbp/p1np1np1/3Pp3/4P1P1/2N2NBP/PPPQ1P2/R3KB1R b KQ - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "f3-d4"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Nd4",
+      "afterMoveFen": "r1b1qrk1/1pp2pbp/p2p1np1/3Pp3/3nP1P1/2N2NBP/PPPQ1P2/R3KB1R w KQ - 2 2"
+    }
+  },
+  "drill": null
+}

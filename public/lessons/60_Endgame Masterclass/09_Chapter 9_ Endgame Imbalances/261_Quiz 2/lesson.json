@@ -1,0 +1,64 @@
+{
+  "id": "14e16b79-0d0f-4385-b6f2-a7100d814836",
+  "name": "Quiz 2",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black blocks the check with the knight. \n\nIs the move Bxg6 a good idea?",
+    "answers": [
+      {
+        "text": "No, Black gets some counterplay.",
+        "feedback": {
+          "text": "Yes, if you let go of your light-squared bishop with this trade, very quickly you'll realize that Black will be able to go to a8. \n\nThe e4-square will also be a permanent outpost for Black's knight.",
+          "arrows": {
+            "threats": [],
+            "opportunities": [
+              "f5-g6",
+              "f7-g6",
+              "d8-a8"
+            ]
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "It's perfectly fine. Trade when up material.",
+        "feedback": {
+          "text": "This rule doesn't apply in all circumstance. Black can get some counterplay and you weaken the e4-square for Black's knight.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "3r1n2/1p3pk1/2p2n2/2Pp1B2/1P1P3R/5K2/6RP/8 b - - 1 1",
+    "arrows": {
+      "threats": [
+        "f5-g6"
+      ],
+      "opportunities": []
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "Ng6",
+      "afterMoveFen": "3r4/1p3pk1/2p2nn1/2Pp1B2/1P1P3R/5K2/6RP/8 w - - 2 2"
+    }
+  },
+  "drill": null
+}

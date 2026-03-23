@@ -1,0 +1,78 @@
+{
+  "id": "beaf8202-a4c2-4f59-8f54-0882495d9ee0",
+  "name": "Quiz 1",
+  "type": "VANILLA_QUIZ",
+  "videoVimeoId": null,
+  "videoDurationSec": null,
+  "study": null,
+  "quiz": {
+    "question": "Black wants to queen their pawn. \n\nAs White, you want to queen as well. \n\nWhat's wrong with pawn to g5, getting closer to the queening square?",
+    "answers": [
+      {
+        "text": "There's something way worse than c2.",
+        "feedback": {
+          "text": "If g5, what defends the rook on f5? \n\ng5, Kxf5 and you lose a rook!",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "distractors": [
+      {
+        "text": "There's nothing wrong.",
+        "feedback": {
+          "text": "Are you sure? Are there undefended pieces?",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      },
+      {
+        "text": "The problem is c2 and Black queens first.",
+        "feedback": {
+          "text": "That's true, but if c2 White can play Rc5. There's something way worse.",
+          "arrows": {
+            "threats": [],
+            "opportunities": []
+          },
+          "highlights": {
+            "threats": [],
+            "opportunities": []
+          }
+        },
+        "comment": null,
+        "afterMoveFen": null
+      }
+    ],
+    "positionFen": "8/8/4k3/5R2/p1p1r1P1/7K/6N1/8 b - - 1 1",
+    "arrows": {
+      "threats": [],
+      "opportunities": [
+        "c3-c2",
+        "c2-c1",
+        "g4-g5"
+      ]
+    },
+    "highlights": null,
+    "contextMove": {
+      "san": "c3",
+      "afterMoveFen": "8/8/4k3/5R2/p3r1P1/2p4K/6N1/8 w - - 0 2"
+    }
+  },
+  "drill": null
+}
