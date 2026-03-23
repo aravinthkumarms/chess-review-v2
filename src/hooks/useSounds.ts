@@ -10,6 +10,7 @@ export function useSounds() {
     const castle = useRef<HTMLAudioElement | null>(null);
     const promote = useRef<HTMLAudioElement | null>(null);
     const gameEnd = useRef<HTMLAudioElement | null>(null);
+    const error = useRef<HTMLAudioElement | null>(null);
 
     const init = useCallback(() => {
         if (move.current) return;
@@ -19,6 +20,7 @@ export function useSounds() {
         castle.current = new Audio('/sounds/castle.mp3');
         promote.current = new Audio('/sounds/promote.mp3');
         gameEnd.current = new Audio('/sounds/game-end.mp3');
+        error.current = new Audio('/sounds/illegal.mp3'); // or whatever error sound exists
     }, []);
 
     const playMove = useCallback((san?: string) => {
@@ -44,5 +46,12 @@ export function useSounds() {
         move.current.play().catch(() => { });
     }, [init]);
 
-    return { playMove, playUndo };
+    const playError = useCallback(() => {
+        init();
+        if (!error.current) return;
+        error.current.currentTime = 0;
+        error.current.play().catch(() => { });
+    }, [init]);
+
+    return { playMove, playUndo, playError };
 }

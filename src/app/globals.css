@@ -1,3 +1,111 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   GLOBAL THEME  —  Change ONLY this file to retheme the whole site.
+   All CSS variables defined here are consumed across every page & component.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Brand / Accent ────────────────────────────────────────────────────── */
+  --color-accent: #6366f1;
+  /* primary teal (learn page, lesson player) */
+  --color-accent-dim: #6366f130;
+  /* teal at 19% opacity — borders, glows    */
+  --color-accent-muted: #1a1a3e;
+  /* dark teal bg for learn-mode badge        */
+  --color-accent-comment: #1e1e38;
+  /* dark teal bg for inline comments         */
+  --color-accent-text: #c7d2fe;
+  /* light teal text on dark teal bg          */
+
+  --color-gold: #f5a623;
+  /* drill / trophy accent                    */
+  --color-gold-dim: #ffe066;
+  /* drill tile gradient stop                 */
+
+  --color-success: #27ae60;
+  /* correct move / completion                */
+  --color-success-bg: #0e2e1c;
+  --color-error: #e74c3c;
+  /* wrong move                               */
+  --color-error-bg: #2e0e0e;
+  --color-green: #639c29;
+  --color-green-shadow: #60863b;
+  /* chess-com green buttons (result page)    */
+
+  /* ── Learn / Lesson Player Page (dark neutral) ──────────────────────────── */
+  --learn-bg: #111111;
+  /* outer page background                    */
+  --learn-surface: #1c1c1c;
+  /* study card background                    */
+  --learn-surface-2: #252525;
+  /* buttons, controls                        */
+  --learn-border: #2a2a2a;
+  /* borders, dividers                        */
+  --learn-border-strong: #3a3a3a;
+  /* slightly more visible borders            */
+  --learn-sidebar: #181818;
+  /* lesson player sidebar bg                 */
+  --learn-header: #141414;
+  /* lesson player top bar                    */
+
+  --learn-text: #e8e8e8;
+  /* primary text                             */
+  --learn-text-dim: #888888;
+  /* secondary / muted text                   */
+  --learn-text-faint: #555555;
+  /* very muted labels                        */
+  --learn-text-disabled: #444444;
+  /* disabled button text                     */
+
+  /* ── Review / Analysis / Result Pages (Chess.com brown) ─────────────────── */
+  --review-bg: #262421;
+  /* outer background                         */
+  --review-bg-2: #21201d;
+  /* panel / sidebar background               */
+  --review-bg-3: #1b1917;
+  /* deepest background (coach section)       */
+  --review-bg-4: #1a1917;
+  /* input field background                   */
+  --review-surface: #312e2b;
+  /* card / raised surface                    */
+  --review-surface-2: #353330;
+  /* slightly lighter surface                 */
+  --review-surface-3: #3c3a37;
+  /* control surface / hover                  */
+  --review-surface-4: #383531;
+  /* select / input element bg                */
+  --review-surface-5: #403d39;
+  /* strongest surface, avatar border         */
+  --review-surface-6: #2a2825;
+  /* panel header                             */
+
+  --review-border: #3c3a37;
+  --review-border-strong: #403d39;
+
+  --review-text: #ffffff;
+  --review-text-dim: #cccccc;
+  --review-text-muted: #aaaaaa;
+  --review-text-faint: #777777;
+
+  /* Score bar colors */
+  --score-white: #ffffff;
+  --score-black: #312e2b;
+  --score-blue: #4fc3f7;
+  --score-red: #ef5350;
+
+  /* ── Shared / Neutral ───────────────────────────────────────────────────── */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 20px;
+
+  --transition-fast: 0.15s ease;
+  --transition-std: 0.2s ease;
+  --transition-slow: 0.3s ease;
+
+  --font-primary: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+/* ── Base Reset ─────────────────────────────────────────────────────────────── */
 * {
   box-sizing: border-box;
 }
@@ -5,22 +113,61 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-family: var(--font-primary);
+  background: var(--learn-bg);
+  color: var(--learn-text);
 }
 
+/* ── Scrollbar (global) ────────────────────────────────────────────────────── */
 ::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #262421;
+  background: var(--review-bg);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.18);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.30);
+}
+
+/* ── Utility classes ───────────────────────────────────────────────────────── */
+.theme-accent {
+  color: var(--color-accent);
+}
+
+.theme-gold {
+  color: var(--color-gold);
+}
+
+.theme-surface {
+  background: var(--learn-surface);
+}
+
+.theme-surface-alt {
+  background: var(--review-surface);
+}
+
+/* Button base — used by lesson-btn, tile-btn, etc. */
+.lesson-btn,
+.tile-btn {
+  font-family: var(--font-primary);
+  transition: filter var(--transition-std), transform var(--transition-std), background var(--transition-std);
+}
+
+.lesson-btn:hover,
+.tile-btn:hover {
+  filter: brightness(1.15);
+  transform: translateY(-1px);
+}
+
+.lesson-btn:active,
+.tile-btn:active {
+  transform: translateY(0);
 }

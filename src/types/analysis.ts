@@ -12,6 +12,13 @@ export interface MoveResult {
     clock: string | null;
     isWhite: boolean;
     moveNumber: number;
+    phase?: string;
+}
+
+export interface PhaseAccuracy {
+    opening?: number;
+    middlegame?: number;
+    endgame?: number;
 }
 
 export interface ClassificationCount {
@@ -32,6 +39,8 @@ export interface AnalyzeResponse {
     accuracy: number;
     whiteAccuracy: number;
     blackAccuracy: number;
+    whitePhaseAccuracy: PhaseAccuracy;
+    blackPhaseAccuracy: PhaseAccuracy;
     whiteRating: number;
     blackRating: number;
     whiteClassifications: ClassificationCount;

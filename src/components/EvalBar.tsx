@@ -38,7 +38,7 @@ export default function EvalBar({ evaluation, flipped = false }: Props) {
 
     return (
         <div style={{
-            width: 32, backgroundColor: '#262421', borderRadius: 4,
+            width: 32, backgroundColor: 'var(--review-bg)', borderRadius: 4,
             overflow: 'hidden', position: 'relative', flexShrink: 0,
             display: 'flex', flexDirection: 'column', alignSelf: 'stretch',
         }}>
@@ -46,8 +46,8 @@ export default function EvalBar({ evaluation, flipped = false }: Props) {
             <div style={{
                 height: whiteOnTop ? whiteHeight : blackHeight,
                 background: whiteOnTop
-                    ? 'linear-gradient(to bottom, #ffffff, #e0e0e0)'
-                    : '#302e2b',
+                    ? 'linear-gradient(to bottom, var(--score-white), #e0e0e0)'
+                    : 'var(--score-black)',
                 transition: 'height 0.3s ease-in-out',
                 flexShrink: 0,
             }} />
@@ -56,8 +56,8 @@ export default function EvalBar({ evaluation, flipped = false }: Props) {
             <div style={{
                 height: whiteOnTop ? blackHeight : whiteHeight,
                 background: whiteOnTop
-                    ? '#302e2b'
-                    : 'linear-gradient(to bottom, #ffffff, #e0e0e0)',
+                    ? 'var(--score-black)'
+                    : 'linear-gradient(to bottom, var(--score-white), #e0e0e0)',
                 transition: 'height 0.3s ease-in-out',
                 flexShrink: 0,
             }} />

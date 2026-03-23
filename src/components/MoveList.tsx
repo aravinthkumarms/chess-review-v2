@@ -41,11 +41,11 @@ export default function MoveList({
         if (!isVariation || !variationMoves || variationBaseIndex === undefined) return null;
         return (
             <div style={{
-                margin: '4px 10px 8px 10px', padding: '8px 12px', background: '#353330',
-                borderLeft: '3px solid #f0c15c', borderRadius: 4, fontSize: 13,
+                margin: '4px 10px 8px 10px', padding: '8px 12px', background: 'var(--review-surface-2)',
+                borderLeft: '3px solid var(--color-gold)', borderRadius: 4, fontSize: 13,
                 boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
             }}>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 6, color: '#f0c15c', fontSize: 11, fontWeight: 'bold', textTransform: 'uppercase' }}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 6, color: 'var(--color-gold)', fontSize: 11, fontWeight: 'bold', textTransform: 'uppercase' }}>
                     <span><i className="fas fa-code-branch"></i> Analysis Thread</span>
                     <button onClick={(e) => { e.stopPropagation(); onExitVariation?.(); }} style={{ background: 'none', border: 'none', color: '#999', cursor: 'pointer' }}>
                         <i className="fas fa-times"></i>
@@ -85,7 +85,7 @@ export default function MoveList({
                 const whiteIdx = pairIdx * 2 + 1;
                 const blackIdx = pairIdx * 2 + 2;
                 const isEvenRow = pairIdx % 2 === 0;
-                const rowBg = isEvenRow ? '#262421' : '#2b2927';
+                const rowBg = isEvenRow ? 'var(--review-bg)' : 'var(--review-bg-2)';
 
                 return (
                     <div key={pairIdx} style={{ display: 'flex', flexDirection: 'column' }}>
@@ -134,7 +134,7 @@ export default function MoveList({
             {gameResult && gameResult !== '*' && (
                 <div style={{
                     marginTop: 10, padding: '8px 0', textAlign: 'center', fontSize: 13,
-                    fontWeight: 700, color: '#aaa', borderTop: '1px solid #403d39',
+                    fontWeight: 700, color: 'var(--review-text-muted)', borderTop: '1px solid var(--review-border-strong)',
                     fontFamily: 'Nunito, sans-serif', letterSpacing: 1
                 }}>
                     <i className="fas fa-flag-checkered" style={{ marginRight: 6 }}></i>

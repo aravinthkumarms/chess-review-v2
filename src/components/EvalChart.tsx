@@ -34,8 +34,8 @@ export default function EvalChart({ evaluations, currentIndex, onSelectMove }: P
                 const canvas = ctx.chart.ctx;
                 const gradient = canvas.createLinearGradient(0, 0, 0, 150);
                 gradient.addColorStop(0, 'rgba(255,255,255,0.5)');
-                gradient.addColorStop(0.5, 'rgba(129,182,76,0.5)');
-                gradient.addColorStop(1, 'rgba(40,40,40,0.8)');
+                gradient.addColorStop(0.5, 'rgba(129,182,76,0.3)'); // Green alpha
+                gradient.addColorStop(1, 'rgba(38,36,33,0.8)');   // Dark bg alpha
                 return gradient;
             },
         }],
@@ -51,7 +51,7 @@ export default function EvalChart({ evaluations, currentIndex, onSelectMove }: P
                 mode: 'index', intersect: false,
                 backgroundColor: 'rgba(38,36,33,0.9)',
                 titleColor: '#fff', bodyColor: '#fff',
-                borderColor: '#403d39', borderWidth: 1,
+                borderColor: 'var(--review-border-strong)', borderWidth: 1,
                 callbacks: {
                     label: (c) => {
                         const v = c.parsed.y ?? 0;
@@ -64,8 +64,8 @@ export default function EvalChart({ evaluations, currentIndex, onSelectMove }: P
             x: { display: false },
             y: {
                 display: true, position: 'right', min: -10, max: 10,
-                grid: { color: '#403d39' },
-                ticks: { color: '#8b8987', font: { family: 'Nunito', size: 10 } },
+                grid: { color: 'var(--review-border-strong)' },
+                ticks: { color: 'var(--review-text-faint)', font: { family: 'Nunito', size: 10 } },
             },
         },
         interaction: { mode: 'nearest', axis: 'x', intersect: false },
@@ -75,7 +75,7 @@ export default function EvalChart({ evaluations, currentIndex, onSelectMove }: P
     };
 
     return (
-        <div style={{ padding: '15px', height: 120, borderBottom: '1px solid #403d39', flexShrink: 0 }}>
+        <div style={{ padding: '8px 15px', height: 80, borderBottom: '1px solid var(--review-border-strong)', flexShrink: 0 }}>
             <Line ref={chartRef} data={data} options={options} />
         </div>
     );
